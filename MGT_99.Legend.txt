@@ -24,7 +24,7 @@ Frameworks, procedure and software specific aspects in relation to the Managemen
 
 An audit trail of changes is in [# VERSIONS]. 
 
-The text in this note is available on GitHub in the following location: @@@.
+The raw text in this note is available on GitHub in the following location: https://github.com/stelzinga/MF
 
 
 *********************************************
@@ -2219,6 +2219,9 @@ Added the notion of Board of Directors to [### Management Level].
 ### 20240106
 - Added [#### Sub-Goals] with details originally found in [MGT: 80.Tools].
 - Reviewed all section up to Business Functions and simplified them.
+
+### 20240107
+- Added reference to the public domain github page
 
 ### Planned
 

@@ -34,7 +34,7 @@ Within each L1 section, a tool is defined on L2 and has the type in brackets (..
 
 References to [MGT: Planning], [MGT: Organising], [MGT: Leading], [MGT: Controlling] and [MGT: Tools] can be substituted with references to [MGT: 01.Planning], [MGT: 02.Organising], [MGT: 03.Leading],  [MGT: 04.Controlling] and [MGT: 80.Tools], i.e. pre-fixed with 01, 02, 03, 04, etc. 
 
-The text in this note is available on GitHub in the following location: @@@.
+The raw text in this note is available on GitHub in the following location: https://github.com/stelzinga/MF
 
 
 *********************************************
@@ -4037,6 +4037,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20231227
 - Added Oversight Support and expanded on Production Support in [### Sub-Goals].
+
+### 20240107
+- Added reference to the public domain github page
 
 ### Planned
 
