@@ -22,7 +22,7 @@ The various conventions used in this note like [# NOTES] and [MGT: Planning] as 
 
 Frameworks, procedure and software specific aspects in relation to the Management Framework are discussed in a separate note MGT: 80.Tools.
 
-An audit trail of changes is in [# VERSIONS][]. 
+An audit trail of changes is in [# VERSIONS]. 
 
 This note is available in the public domain on GitHub in the following location: https://github.com/stelzinga/MF
 
@@ -230,7 +230,7 @@ One way to circumvent this is to use the Unicode U+2003 "em space" character: "�
 <https://unicode-table.com/en/2003/>  
 <https://unicode-table.com/en/2002/>
 
-These characters are also in [SPECIAL SYMBOLS](#SPECIAL-SYMBOLS).
+These characters are also in [# SPECIAL SYMBOLS].
 
 ### Markdown Reserved Characters
 In Markdown certain characters have special meaning, they should be escaped with the '\' character if the character is meant, not the Markdown version of it:
@@ -530,21 +530,21 @@ Planning ⇔  Goals & Objectives ⇔  Controlling
                    ⇕  
 Organising ⇔ Activities & Groups ⇔ Leading  
                 ⇕             ⇕  
-              Assets      Staff    
+              Assets      Staff  
              Suppliers  
               Liabilities  
                  Equity  
                  ⇕  
-                            Finance               
-                               HR  
-                                IT    
-                              Risk  
-                        Compliance  
-                           CorpSec  
-                        Procurement   
-                             Others  
-                 ⇕  
-                             Tools  
+             Finance               
+               HR  
+               IT    
+              Risk  
+           Compliance  
+            CorpSec  
+          Procurement   
+            Others  
+              ⇕  
+            Tools  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 The Profile Tree, Reduced Profile Tree and Expanded Profile Tree provide *structure* and *insight* as to how each item plays a part in a Venture and how all items are interrelated. The relative importance of each depends on the Venture. 
