@@ -22,7 +22,7 @@ The various conventions used in this note like [# NOTES] and [MGT: Planning] as 
 
 Frameworks, procedure and software specific aspects in relation to the Management Framework are discussed in a separate note MGT: 80.Tools.
 
-An audit trail of changes is in [# VERSIONS]. 
+An audit trail of changes is in [# VERSIONS][]. 
 
 This note is available in the public domain on GitHub in the following location: https://github.com/stelzinga/MF
 
@@ -338,37 +338,37 @@ A Profile is designed around the concept of a *Venture* or *Enterprise*. A Ventu
 A Profile expresses a Venture through a *Profile Tree*, composed of interrelated *Profile Tree Items* as follows:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- Environment
-  ⇕
-- Clients
-  ⇕
-- Services
-  ⇕
+- Environment  
+  ⇕  
+- Clients  
+  ⇕  
+- Services  
+  ⇕  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-- Operations ⇒ Run, Change ⇒ Revenue, Cost, Risk
-    - Staff
-    - Assets
-    - Suppliers
+- Operations ⇒ Run, Change ⇒ Revenue, Cost, Risk  
+    - Staff  
+    - Assets  
+    - Suppliers  
     - Liabilities 
-    - Equity
-  ⇕
-- Management
-    - Planning
-    - Organising
-    - Leading
-    - Controlling
-  ⇕
-- Business Functions
-    - Finance 
-    - HR or Human Resources
-    - IT or Information Technology 
-    - Risk
-    - Compliance
-    - CorpSec or Corporate Secretary
-    - Procurement 
-    - Others
-  ⇕
-- Tools 
+    - Equity  
+  ⇕  
+- Management  
+    - Planning  
+    - Organising  
+    - Leading  
+    - Controlling  
+  ⇕  
+- Business Functions  
+    - Finance  
+    - HR or Human Resources  
+    - IT or Information Technology   
+    - Risk  
+    - Compliance  
+    - CorpSec or Corporate Secretary  
+    - Procurement   
+    - Others  
+  ⇕  
+- Tools   
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ### Profile Tree Explained
@@ -425,14 +425,14 @@ The Reduced Profile Tree or *RPT* focuses, and expands, on part of the Bottom Pr
 - 4 *Key Deliverables* from Planning and Organising namely *Goals* & *Objectives* and *Activities* & *Groups* respectively.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Planning ⇔    Goals & Objectives ⇔  Controlling
-                   ⇕
-Organising ⇔ Activities & Groups ⇔ Leading
-                 ⇕       ⇕
-               Assets   Staff  
-              Suppliers
-               Liabilities                     
-                   Equity
+Planning ⇔    Goals & Objectives ⇔  Controlling  
+                   ⇕  
+Organising ⇔ Activities & Groups ⇔ Leading  
+                 ⇕       ⇕  
+               Assets   Staff    
+              Suppliers  
+               Liabilities                       
+                   Equity  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ### Goals
