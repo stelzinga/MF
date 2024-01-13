@@ -134,9 +134,11 @@ Standard Markdown is the most used form of Markdown and the fast majority of not
 #### Escape Character
 In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '/', 
 
-#### Carrier Return
-To force a carrier return, type two spaces after the line where the carrier return is needed, alternatively 2x enter will achieve the same.    
-There are 4x spaces after above sentence in the raw text, which is why there is an additional white pace between above sentence and this sentence.  
+#### New Line
+To force a new line, type two spaces after the line where the carrier return is needed, alternatively 1x enter will achieve the same.
+This is a sentence followed by two spaces.  Therefore, this sentence is on a new line in Markdown (but not in plain text), and this sentence is also followed by two spaces.  
+
+This sentence is below white space because in the plaintext there are two spaces in the previous sentence, as well as a carrier return.
 
 #### Horizontal Lines
 3x '*' or 3x '-' or 3x '_' creates a horizontal line in Markdown output.
