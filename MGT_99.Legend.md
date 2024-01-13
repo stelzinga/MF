@@ -85,16 +85,15 @@ Notes have names that they can be referred by. There are many manners to name na
 CAT: Des
 
 in which:
-CAT    Note Category, all caps
-Des    Note Description
+
+CAT    Note Category, all caps  
+Des    Note Description  
 
 Note that the colon is followed by a single space. Details of these items are found in the sections below.
 
 Examples: MGT: 99.Legend, PRD: Workout
 
-This format has the advantage that the note is more structured, which in turn helps with grouping notes together. 
-
-If a note is stored as a file, then the name of the file won't allow the colon, Instead it should be replaced with a '_'. 
+This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then the name of the file won't allow the colon, Instead it should be replaced with a '_'. 
 ________________________________________
 ## Note Category
 In this Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Goals]. This means that Goals should be shortened to three character codes. 
