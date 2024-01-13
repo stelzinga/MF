@@ -1670,119 +1670,120 @@ There are numerous special symbols that are available in UniCode (see: https://e
 @ = missing symbol
 ________________________________________
 ## URL
-<https://unicode-table.com/en/>
-<https://en.wikipedia.org/wiki/List_of_mathematical_symbols>
-<https://en.wikipedia.org/wiki/Greek_alphabet> <https://en.m.wikipedia.org/wiki/Mathematical_-Operators_(Unicode_block)>
-<https://www.compart.com/en/unicode/U+1D4A>
-<https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html>
+<https://unicode-table.com/en/>  
+<https://en.wikipedia.org/wiki/List_of_mathematical_symbols>  
+<https://en.wikipedia.org/wiki/Greek_alphabet>  
+<https://en.m.wikipedia.org/wiki/Mathematical_-Operators_(Unicode_block)>  
+<https://www.compart.com/en/unicode/U+1D4A>  
+<https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html>  
 ________________________________________
-## White space
-See also [## Note Content]
-" "   em space character
-" "     en space character
+## White space  
+See also [## Note Content]  
+" "   em space character  
+" "     en space character  
 ________________________________________
-## Currency Symbols
-¥    JPY
-$    USD
-€    EUR
-£    GBP
+## Currency Symbols  
+¥    JPY  
+$    USD  
+€    EUR  
+£    GBP  
 ________________________________________
-## Greek Symbols
-Capital  Normal -Subscript Superscript
-Α α 	@ ᵅ    alpha
-Β β ᵦ ᵝ    beta
-Γ γ ᵧ ˠ    gamma
-Δ δ @ ᵟ    delta
-Ε ε @	ᵋ    epsilon
-Ζ ζ @	@    zeta
-Η η @ @    eta
-Θ θ @	ᶿ    theta
-Ι ι @ @     iota
-Κ κ @ @    kappa
-Λ λ @ @    la(m)bda
-Μ μ @	@    mu
-Ν ν @ @    nu
-Ξ ξ @ @    xi
-Ο ο @ @    omicron
-Π π @ @    pi
-Ρ ρ ᵨ @    rho
-Σ σ/ς @ @    sigma
-Τ τ @ @    tau
-Υ υ @ @    upsilon
-Φ φ ᵩ ᶲ    phi
-Χ χ ᵪ ᵡ    chi
-Ψ ψ @ @    psi
-Ω ω @ @    omega
+## Greek Symbols  
+Capital  Normal -Subscript Superscript  
+Α α 	@ ᵅ    alpha  
+Β β ᵦ ᵝ    beta  
+Γ γ ᵧ ˠ    gamma  
+Δ δ @ ᵟ    delta  
+Ε ε @	ᵋ    epsilon  
+Ζ ζ @	@    zeta  
+Η η @ @    eta  
+Θ θ @	ᶿ    theta  
+Ι ι @ @     iota   
+Κ κ @ @    kappa  
+Λ λ @ @    la(m)bda  
+Μ μ @	@    mu  
+Ν ν @ @    nu  
+Ξ ξ @ @    xi   
+Ο ο @ @    omicron  
+Π π @ @    pi  
+Ρ ρ ᵨ @    rho  
+Σ σ/ς @ @    sigma  
+Τ τ @ @    tau  
+Υ υ @ @    upsilon  
+Φ φ ᵩ ᶲ    phi  
+Χ χ ᵪ ᵡ    chi  
+Ψ ψ @ @    psi  
+Ω ω @ @    omega  
 ________________________________________
-## Mathematical Symbols
-ℂ  Complex numbers
-ℝ  Real number (subset of ℂ)
-ℚ  Rational numbers (subset of ℝ)
-ℤ   Relative integers (subset of ℚ)
-ℕ   Natural integers (subset of ℤ)
-∂ 	Partial derivative
-±    Plus/minus
-∓   Minus/plus
-÷    Division
-√    Square root of  
-≈    Almost Equal, Approximately Equal
-≠    Inequality
-≤    Smaller than or equal to
-≥    Greater than or equal to
-≫  Much greater than
-≪  Much smaller than
-∅   Empty Set
-∈   Element of a set 
-∉   Not an element of a set
-∫     Integral
-∬   Double Integral
-∭  Triple Integral
-∯   Surface Integral
-⌠ 	Top half of an integral
-⌡ 	Bottom Half of an integral
-≡   Equivalence
-≉  Non-equivalence
-∝  Proportional to
-e   constant e
-π   constant pi
-∑   Sum of
-Π  Product of
-∞   Infinity (lemniscate)
-⊗  Tensor product
-⊖  ???
-⊕  ???
-⊜  ???
-∡  Measured angle
-⊥  Orthogonal angle
-∇   Nabla
-∙   Dot product
-xˉ x bar
-ȳ  y bar
+## Mathematical Symbols  
+ℂ  Complex numbers  
+ℝ  Real number (subset of ℂ)  
+ℚ  Rational numbers (subset of ℝ)  
+ℤ   Relative integers (subset of ℚ)  
+ℕ   Natural integers (subset of ℤ)  
+∂ 	Partial derivative  
+±    Plus/minus  
+∓   Minus/plus  
+÷    Division  
+√    Square root of    
+≈    Almost Equal, Approximately Equal  
+≠    Inequality  
+≤    Smaller than or equal to  
+≥    Greater than or equal to  
+≫  Much greater than  
+≪  Much smaller than  
+∅   Empty Set  
+∈   Element of a set   
+∉   Not an element of a set  
+∫     Integral  
+∬   Double Integral  
+∭  Triple Integral  
+∯   Surface Integral  
+⌠ 	Top half of an integral  
+⌡ 	Bottom Half of an integral  
+≡   Equivalence  
+≉  Non-equivalence  
+∝  Proportional to  
+e   constant e  
+π   constant pi  
+∑   Sum of  
+Π  Product of  
+∞   Infinity (lemniscate)  
+⊗  Tensor product  
+⊖  ???  
+⊕  ???  
+⊜  ???  
+∡  Measured angle  
+⊥  Orthogonal angle  
+∇   Nabla  
+∙   Dot product  
+xˉ x bar  
+ȳ  y bar  
 ________________________________________
-## Various Other Symbols
-©   Copyright symbol
-®   Registered symbol
-™    Trademark symbol
+## Various Other Symbols  
+©   Copyright symbol  
+®   Registered symbol  
+™    Trademark symbol  
 ________________________________________
-## Arrow Symbols
-↺  arrow circle anti-clockwise
-↻  arrow circle clockwise
-⇑  arrow north
-⇓	 arrow south
-⇗	arrow north-east
-⇖	arrow north-west
-⇘	arrow south-east
-⇙	arrow south-west
-⇕  arrow north-south
-⇒ arrow east
-⇐ arrow west
-⇔  arrow west-east
-⇆  arrow back-forth
-↶	arrow semi, anti-clock wise
-↷	arrow semi, anti-clock wise
+## Arrow Symbols  
+↺  arrow circle anti-clockwise  
+↻  arrow circle clockwise  
+⇑  arrow north  
+⇓	 arrow south  
+⇗	arrow north-east  
+⇖	arrow north-west  
+⇘	arrow south-east  
+⇙	arrow south-west  
+⇕  arrow north-south  
+⇒ arrow east  
+⇐ arrow west  
+⇔  arrow west-east  
+⇆  arrow back-forth  
+↶	arrow semi, anti-clock wise  
+↷	arrow semi, anti-clock wise  
 ________________________________________
-## Superscript Symbols
-⁰ 	superscript zero 	
+## Superscript Symbols  
+⁰ 	superscript zero 	  
 ¹ 	superscript one 	
 ² 	superscript two 	
 ³ 	superscript three 	
@@ -1792,122 +1793,122 @@ ________________________________________
 ⁷ 	superscript seven 	
 ⁸ 	superscript eight 	
 ⁹ 	superscript nine 	
-⁺ 	superscript plus sign 	
-⁻ 	superscript minus 	
-⁼ 	superscript equals sign 	
-⁽ 	superscript left parenthesis 	
-⁾ 	superscript right parenthesis
-· 	superscript comma / dot (not 100% accurate)
-° 	degree (temperature or angle) 	
-⁄ 	slash for fraction
-ᵃ superscript a
-ᵇ superscript b
-ᶜ superscript c
-ᵈ superscript d
-ᵉ superscript e
-ᶠ superscript f
-ᵍ superscript g
-ʰ superscript h
-ⁱ superscript i
-ʲ superscript j
-ᵏ superscript k
-ˡ superscript l
-ᵐ superscriptm 
-ⁿ superscript n
-ᵒ superscript o
-ᵖ superscript p
-@ superscript q 
-ʳ superscript r
-ˢ superscript s
-ᵗ superscript t
-ᵘ superscript u
-ᵛ superscript v
-ʷ superscript w
-ˣ superscript x
-ʸ superscript y
-ᶻ superscript z
-ᴬ superscript Capital A
-ᴭ superscript Capital  AE
-ᴮ  superscript Capital B
-ᴰ superscript Capital D
-ᴱ  superscript Capital E
-ᴳ superscript Capital G
-ᴴ superscript Capital H
-ᴵ superscript Capital I
-ᴶ superscript Capital J
-ᴷ superscript Capital K
-ᴸ superscript Capital L
-ᴹ superscript Capital M
-ᴺ superscript Capital N
-ᴼ superscript Capital O
-ᴾ superscript Capital P
-ᴿ superscript Capital R
-ᵀ superscript Capital T
-ᵁ superscript Capital U
-ᵂ superscript Capital W
+⁺ 	superscript plus sign   	
+⁻ 	superscript minus 	  
+⁼ 	superscript equals sign   	
+⁽ 	superscript left parenthesis   	
+⁾ 	superscript right parenthesis  
+· 	superscript comma / dot (not 100% accurate)  
+° 	degree (temperature or angle) 	  
+⁄ 	slash for fraction  
+ᵃ superscript a  
+ᵇ superscript b  
+ᶜ superscript c  
+ᵈ superscript d  
+ᵉ superscript e  
+ᶠ superscript f  
+ᵍ superscript g  
+ʰ superscript h  
+ⁱ superscript i  
+ʲ superscript j  
+ᵏ superscript k  
+ˡ superscript l  
+ᵐ superscriptm   
+ⁿ superscript n  
+ᵒ superscript o  
+ᵖ superscript p  
+@ superscript q   
+ʳ superscript r  
+ˢ superscript s  
+ᵗ superscript t  
+ᵘ superscript u  
+ᵛ superscript v  
+ʷ superscript w  
+ˣ superscript x  
+ʸ superscript y  
+ᶻ superscript z  
+ᴬ superscript Capital A  
+ᴭ superscript Capital  AE  
+ᴮ  superscript Capital B  
+ᴰ superscript Capital D  
+ᴱ  superscript Capital E  
+ᴳ superscript Capital G  
+ᴴ superscript Capital H  
+ᴵ superscript Capital I  
+ᴶ superscript Capital J  
+ᴷ superscript Capital K  
+ᴸ superscript Capital L  
+ᴹ superscript Capital M  
+ᴺ superscript Capital N  
+ᴼ superscript Capital O  
+ᴾ superscript Capital P  
+ᴿ superscript Capital R  
+ᵀ superscript Capital T  
+ᵁ superscript Capital U  
+ᵂ superscript Capital W  
 ________________________________________
-## Subscript Symbols
-₀ 	subscript zero 	
-₁ 	subscript one 	
+## Subscript Symbols  
+₀ 	subscript zero 	  
+₁ 	subscript one 	 
 ₂ 	subscript two 	
-₃ 	subscript three 	
-₄ 	subscript four 	
-₅ 	subscript five 	
+₃ 	subscript three   	
+₄ 	subscript four 	 
+₅ 	subscript five 	 
 ₆ 	subscript six 	
-₇ 	subscript seven 	
-₈ 	subscript eight 	
-₉ 	subscript nine 	
-₊ 	subscript plus sign 	
-₋ 	subscript minus 	
+₇ 	subscript seven   	
+₈ 	subscript eight 	  
+₉ 	subscript nine 	 
+₊ 	subscript plus sign   	
+₋ 	subscript minus 	  
 ₌ 	subscript equals sign 	
 ₍ 	subscript left parenthesis 	
 ₎ 	subscript right parenthesis 	
-ₐ  subscript a
-@  subscript b
-@  subscript c
-@  subscript d
-ₑ  subscript e
-@  subscript f
-@ subscript g
-ₕ  subscript h
-ᵢ  subscript i
-ⱼ  subscript j
-ₖ  subscript k
-ₗ  subscript l
-ₘ  subscript m 
-ₙ  subscript n
-ₒ  subscript o
-ₚ  subscript p
-@  subscript q
-ᵣ  subscript e
-ₛ  subscript s
-ₜ  subscript t
-ᵤ  subscript u
-ᵥ  subscript v
-@ subscript w
-ₓ   subscript x
-@  subscript y
-@   subscript z
+ₐ  subscript a  
+@  subscript b  
+@  subscript c  
+@  subscript d  
+ₑ  subscript e  
+@  subscript f  
+@ subscript g  
+ₕ  subscript h  
+ᵢ  subscript i  
+ⱼ  subscript j  
+ₖ  subscript k  
+ₗ  subscript l  
+ₘ  subscript m   
+ₙ  subscript n  
+ₒ  subscript o  
+ₚ  subscript p  
+@  subscript q  
+ᵣ  subscript e  
+ₛ  subscript s  
+ₜ  subscript t  
+ᵤ  subscript u  
+ᵥ  subscript v   
+@ subscript w  
+ₓ   subscript x  
+@  subscript y  
+@   subscript z  
 ________________________________________
-## Fraction Symbols
-½
+## Fraction Symbols  
+½  
 ⅓
-⅔
-¼ 	
-¾
-⅕
-⅖
-⅗
-⅘
-⅙
-⅚ 	 
-⅐
-⅛
-⅜
-⅝	
-⅞
-⅑
-⅒
+⅔  
+¼ 	  
+¾  
+⅕  
+⅖  
+⅗  
+⅘  
+⅙  
+⅚ 	   
+⅐  
+⅛  
+⅜   
+⅝	  
+⅞  
+⅑  
+⅒  
 
 
 *********************************************
@@ -2230,6 +2231,9 @@ Added the notion of Board of Directors to [### Management Level].
 - Corrected some spelling mistakes after a check in Word
 - Added Sub-Goal = Oversight Reporting for ovs
 - Updated [### Management] to delegate involvement in deliverables and Management Level
+
+### 20240113
+- Cleaned up Markdown issues (notably missing 2x space at end of sentences)
 
 ### Planned
 
