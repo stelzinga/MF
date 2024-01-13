@@ -429,7 +429,7 @@ Planning ⇔    Goals & Objectives ⇔  Controlling
                    ⇕  
 Organising ⇔ Activities & Groups ⇔ Leading  
                  ⇕       ⇕  
-               Assets   Staff    
+               Assets   Staff  
               Suppliers  
                Liabilities                       
                    Equity  
@@ -518,33 +518,33 @@ The Supervisory Processes yield *Reports* to Management or other Stakeholders. T
 By combining the Profile Tree and the Reduced Profile Tree we obtain the most comprehensive view called the *Expanded Profile Tree* with 28 Expanded Profile Tree Items:        
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-               Environment
-                   ⇕
-                 Clients
-                   ⇕
-                 Services
-                   ⇕
-            Revenue, Cost, Risk
-                   ⇕
-Planning ⇔  Goals & Objectives ⇔  Controlling
-                   ⇕
-Organising ⇔ Activities & Groups ⇔ Leading
-                ⇕             ⇕
-              Assets      Staff  
-             Suppliers
-              Liabilities
-                 Equity
-                 ⇕
-                            Finance             
-                               HR
-                                IT  
-                              Risk
-                        Compliance
-                           CorpSec
-                        Procurement 
-                             Others
-                 ⇕
-                             Tools
+               Environment  
+                   ⇕  
+                 Clients  
+                   ⇕  
+                 Services  
+                   ⇕  
+            Revenue, Cost, Risk  
+                   ⇕  
+Planning ⇔  Goals & Objectives ⇔  Controlling  
+                   ⇕  
+Organising ⇔ Activities & Groups ⇔ Leading  
+                ⇕             ⇕  
+              Assets      Staff    
+             Suppliers  
+              Liabilities  
+                 Equity  
+                 ⇕  
+                            Finance               
+                               HR  
+                                IT    
+                              Risk  
+                        Compliance  
+                           CorpSec  
+                        Procurement   
+                             Others  
+                 ⇕  
+                             Tools  
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 The Profile Tree, Reduced Profile Tree and Expanded Profile Tree provide *structure* and *insight* as to how each item plays a part in a Venture and how all items are interrelated. The relative importance of each depends on the Venture. 
