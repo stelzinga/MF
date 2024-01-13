@@ -166,9 +166,10 @@ Another consequence is that references to other sections (see below) are valid, 
 
 #### Formatting
 Text formatting is as follows (note no spaces between the special character and the start and end of words):
-- Type:  *italic text*  OR  _italic text_  (plain: \*italic text\* OR \_italic text\_
-- Type:  **bold text**  OR  __bold text__
-- Type:  ***bold italic text*** 
+- Type:  *italic text*  OR  _italic text_  (plain: \*italic text\* OR \_italic text\_)
+- Type:  **bold text**  OR  __bold text__ (plain: \*\*bold text\*\* OR \_\_bold text\_
+\_).
+- Type:  ***bold italic text***, (plain: \*\*\* bold italic text \*\*\*) 
  
 #### Lists
 For unordered lists use '-', '+' or '*'.
