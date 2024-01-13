@@ -1784,20 +1784,20 @@ ________________________________________
 ________________________________________
 ## Superscript Symbols  
 ⁰ 	superscript zero 	  
-¹ 	superscript one 	
-² 	superscript two 	
-³ 	superscript three 	
-⁴ 	superscript four 	
-⁵ 	superscript five 	
-⁶ 	superscript six 	
+¹ 	superscript one  
+² 	superscript two  
+³ 	superscript three  
+⁴ 	superscript four  
+⁵ 	superscript five  
+⁶ 	superscript six  
 ⁷ 	superscript seven 	
 ⁸ 	superscript eight 	
-⁹ 	superscript nine 	
-⁺ 	superscript plus sign   	
-⁻ 	superscript minus 	  
-⁼ 	superscript equals sign   	
-⁽ 	superscript left parenthesis   	
-⁾ 	superscript right parenthesis  
+⁹ 	superscript nine  
+⁺ 	superscript plus sign  
+⁻ 	superscript minus  
+⁼ 	superscript equals sign  
+⁽ 	superscript left parenthesis  	
+⁾ 	superscript right parenthesis 
 · 	superscript comma / dot (not 100% accurate)  
 ° 	degree (temperature or angle) 	  
 ⁄ 	slash for fraction  
@@ -1848,21 +1848,21 @@ ________________________________________
 ᵂ superscript Capital W  
 ________________________________________
 ## Subscript Symbols  
-₀ 	subscript zero 	  
-₁ 	subscript one 	 
-₂ 	subscript two 	
-₃ 	subscript three   	
-₄ 	subscript four 	 
-₅ 	subscript five 	 
-₆ 	subscript six 	
-₇ 	subscript seven   	
-₈ 	subscript eight 	  
-₉ 	subscript nine 	 
-₊ 	subscript plus sign   	
+₀ 	subscript zero    
+₁ 	subscript one   
+₂ 	subscript two  
+₃ 	subscript three  
+₄ 	subscript four  
+₅ 	subscript five  
+₆ 	subscript six  
+₇ 	subscript seven     	
+₈ 	subscript eight    
+₉ 	subscript nine  
+₊ 	subscript plus sign  
 ₋ 	subscript minus 	  
-₌ 	subscript equals sign 	
-₍ 	subscript left parenthesis 	
-₎ 	subscript right parenthesis 	
+₌ 	subscript equals sign  
+₍ 	subscript left parenthesis  
+₎ 	subscript right parenthesis  
 ₐ  subscript a  
 @  subscript b  
 @  subscript c  
