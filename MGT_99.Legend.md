@@ -84,10 +84,9 @@ Notes have names that they can be referred by. There are many manners to name na
 
 CAT: Des
 
-in which:
-
-CAT    Note Category, all caps  
-Des    Note Description  
+in which:  
+CAT Note Category, all caps  
+Des  Note Description  
 
 Note that the colon is followed by a single space. Details of these items are found in the sections below.
 
@@ -113,11 +112,11 @@ Notes are composed of sections (same as chapters). Sections can be numbered, but
 
 ### Markdown
 Section text is written using Markdown protocol. See following websites:  
-<https://wilsonmar.github.io/markdown-text-for-github-from-html>
-<https://www.markdownguide.org>
-<https://gist.github.com/VEnis/7465176>
-<https://pandao.github.io/editor.md/en.html> -> allows testing Markdown
-<https://dillinger.io> -> allows testing Markdown
+<https://wilsonmar.github.io/markdown-text-for-github-from-html>  
+<https://www.markdownguide.org>  
+<https://gist.github.com/VEnis/7465176>  
+<https://pandao.github.io/editor.md/en.html> -> allows testing Markdown  
+<https://dillinger.io> -> allows testing Markdown  
 
 Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer it will yield an output that is user friendly to read, yet without a Markdown editor the text still clearly shows sections, bulleted lists etc at different levels.
 
