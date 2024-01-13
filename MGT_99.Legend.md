@@ -1,4 +1,4 @@
-*********************************************
+*********************************************
 # INTRODUCTION
 This note acts as the legend, or explanation, of the *Management Framework* a.k.a. *MF*, an intertwined set of concepts and conventions for the purpose of Managing a *Venture*, see section PROFILE below.
 
@@ -175,16 +175,19 @@ Text formatting is as follows (note no spaces between the special character and 
 For unordered lists use '-', '+' or '*' after a newline.
 Below follow three times the same bulleted lists, using respectively the three list bullets mentioned above:  
 
+- bulleted list item 1
 - bulleted list item 2   
     - Add 4x <space> to indent bulleted item 2.1 
     - Add 4x <space> to indent bulleted item 2.2
-- bulleted list item 3
+- bulleted list item 3  
 
+* bulleted list item 1
 * bulleted list item 2   
     * Add 4x <space> to indent bulleted item 2.1 
     * Add 4x <space> to indent bulleted item 2.2
-* bulleted list item 3
- 
+* bulleted list item 3  
+
++ bulleted list item 1   
 + bulleted list item 2   
     + Add 4x <space> to indent bulleted item 2.1 
     + Add 4x <space> to indent bulleted item 2.2
@@ -201,19 +204,13 @@ NB : some Markdown converters support 1) i/o '1.' but not all do, so stick to us
 
 #### URLs
 For Internet URL's use:  
-- [Name](http://www.google.com)  (plain: \[Name\]\(http://www.google.com\)  
+- [A name](http://www.google.com)  (plain: \[A name\]\(http://www.google.com\)  
 - <https://www.google.com>  (plain: \<https://www.google.com\>)  
 
-The latter link version shows the URL as the link name. The former shows the link name as 'Name'.
+The latter link version shows the URL as the link name. The former shows the link name as 'Name'. Github will detect that an URL is an URL and display it as such regardless. 
 
 #### Images
-Insert images: ![image name](/file/path/image.jpg)
-
-#### Newlines 
-Sentence 1. ==> add two spaces before <newline>
-Sentence 2. ==> add two spaces before <newline>
-  ==> add <newline>
-Start of second paragraph.
+Insert images: ![image name](/file/path/image.jpg)  (plain: \!\[image name\]\(/file/path/image.jpg\)
 
 ### Extended Markdown
 Extended Markdown supports fenced code blocks.
@@ -229,8 +226,8 @@ Will appear in HTML as:
 Some text.
 
 Therefore aligning text across sentences using spaces may have unexpected and undesired results.
-One way to circumvent this is to use the Unicode U+2003 "em space" character: " " . Alternatively, one can use the Unicode U+2002 "en space" character which is half the size of the "em space" and has the same size as an actual space character: " ". See also respectively:
-<https://unicode-table.com/en/2003/>
+One way to circumvent this is to use the Unicode U+2003 "em space" character: " " . Alternatively, one can use the Unicode U+2002 "en space" character which is half the size of the "em space" and has the same size as an actual space character: " ". See also respectively:  
+<https://unicode-table.com/en/2003/>  
 <https://unicode-table.com/en/2002/>
 
 These characters are also in [# SPECIAL SYMBOLS].
@@ -2234,5 +2231,5 @@ Added the notion of Board of Directors to [### Management Level].
 - Added Sub-Goal = Oversight Reporting for ovs
 - Updated [### Management] to delegate involvement in deliverables and Management Level
 
-### Planned:wq
+### Planned
 
