@@ -172,18 +172,23 @@ Text formatting is as follows (note no spaces between the special character and 
 - Type:  ***bold italic text***, (plain: \*\*\* bold italic text \*\*\*) 
  
 #### Lists
-For unordered lists use '-', '+' or '*'.
-- bulleted list item 1
-- bulleted list item 2
-    - Add 4x <space> to indent bulleted item 2.1
+For unordered lists use '-', '+' or '*' after a newline.
+Below follow three times the same bulleted lists, using respectively the three list bullets mentioned above:  
+
+- bulleted list item 2   
+    - Add 4x <space> to indent bulleted item 2.1 
     - Add 4x <space> to indent bulleted item 2.2
 - bulleted list item 3
 
-* bulleted list item 1, different format, same result
-* bulleted list item 2, different format, same result
+* bulleted list item 2   
+    * Add 4x <space> to indent bulleted item 2.1 
+    * Add 4x <space> to indent bulleted item 2.2
+* bulleted list item 3
  
-+ bulleted list item 1, different format, same result
-+ bulleted list item 2, different format, same result
++ bulleted list item 2   
+    + Add 4x <space> to indent bulleted item 2.1 
+    + Add 4x <space> to indent bulleted item 2.2
++ bulleted list item 3
 
 For ordered lists use 1., 2. etc.
 1. Numbered list item 1
@@ -191,13 +196,14 @@ For ordered lists use 1., 2. etc.
     - Add 4x <space> to indent bulleted item 2.1
     - Add 4x <space> to indent bulleted item 2.2
 3. Numbered list item 3  
-NB : some Markdown converters support 1) i/o '1.' but not all do, so stick to using the dot e.g., '1.'
-A. or i. do not always work as numbered items. 
+
+NB : some Markdown converters support 1) i/o '1.' but not all do, so stick to using the dot e.g., '1.' A. or i. do not always work as numbered items. 
 
 #### URLs
-For Internet URL's use:
-Insert links: [Name](http://www.google.com)
-Insert links: <https://www.google.com>
+For Internet URL's use:  
+- [Name](http://www.google.com)  (plain: \[Name\]\(http://www.google.com\)  
+- <https://www.google.com>  (plain: \<https://www.google.com\>)  
+
 The latter link version shows the URL as the link name. The former shows the link name as 'Name'.
 
 #### Images
@@ -2228,5 +2234,5 @@ Added the notion of Board of Directors to [### Management Level].
 - Added Sub-Goal = Oversight Reporting for ovs
 - Updated [### Management] to delegate involvement in deliverables and Management Level
 
-### Planned
+### Planned:wq
 
