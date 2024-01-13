@@ -135,10 +135,10 @@ Standard Markdown is the most used form of Markdown and the fast majority of not
 In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '/', 
 
 #### New Line
-To force a new line, type two spaces after the line where the carrier return is needed, alternatively 1x enter will achieve the same.
-This is a sentence followed by two spaces.  Therefore, this sentence is on a new line in Markdown (but not in plain text), and this sentence is also followed by two spaces.  
-
-This sentence is below white space because in the plaintext there are two spaces in the previous sentence, as well as a carrier return.
+To achieve a new line in Markdown, type two spaces and a carrier return.  
+This is sentence followed by two spaces and a carrier return.  
+  
+This is a sentence that follows an empty line with two spaces and a carrier return (i.e. follows an empty line).
 
 #### Horizontal Lines
 3x '*' or 3x '-' or 3x '_' creates a horizontal line in Markdown output.
