@@ -1,4 +1,4 @@
-*********************************************
+*********************************************
 # INTRODUCTION
 This note acts as the legend, or explanation, of the *Management Framework* a.k.a. *MF*, an intertwined set of concepts and conventions for the purpose of Managing a *Venture*, see section PROFILE below.
 
@@ -230,7 +230,7 @@ One way to circumvent this is to use the Unicode U+2003 "em space" character: "â
 <https://unicode-table.com/en/2003/>  
 <https://unicode-table.com/en/2002/>
 
-These characters are also in [# SPECIAL SYMBOLS].
+These characters are also in [SPECIAL SYMBOLS](#SPECIAL-SYMBOLS).
 
 ### Markdown Reserved Characters
 In Markdown certain characters have special meaning, they should be escaped with the '\' character if the character is meant, not the Markdown version of it:
