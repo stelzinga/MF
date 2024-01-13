@@ -118,16 +118,25 @@ Section text is written using Markdown protocol. See following websites:
 <https://pandao.github.io/editor.md/en.html> -> allows testing Markdown  
 <https://dillinger.io> -> allows testing Markdown  
 
-Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer it will yield an output that is user friendly to read, yet without a Markdown editor the text still clearly shows sections, bulleted lists etc at different levels.
+Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer it will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc.
+
+This text is available in the public domain in Git and will display in Markdown format!
 
 Markdown has two forms:
 - Standard Markdown
 - Extended Markdown
 
-Both forms are discussed below, including conventions within this notes framework.
+Both forms use the *.md file extension and are discussed below, including conventions within this notes framework.
 
 ### Standard Markdown
 Standard Markdown is the most used form of Markdown and the fast majority of notes is in Standard Markdown.
+
+#### Escape Character
+In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '/', 
+
+#### Carrier Return
+To force a carrier return, type two spaces after the line where the carrier return is needed, alternatively 2x enter will achieve the same.    
+There are 4x spaces after above sentence in the raw text, which is why there is an additional white pace between above sentence and this sentence.  
 
 #### Horizontal Lines
 3x '*' or 3x '-' or 3x '_' creates a horizontal line in Markdown output.
@@ -151,14 +160,11 @@ Header L1-2 are preceded by horizontal lines (see above). Header L3-6 are all pr
 
 Once in a Markdown compatible editor/viewer the '#' will not be visible, and it is the formatting of font size (bold, bigger) that will determine the level of the Header. This means it is not always easy to differentiate between L2 or L3. This is also one of the reasons why L1 and L2 are preceded by '******' and '_____' respectively. 
 
-Another consequence is that references to other sections (see below) are valid, but not always clear e.g. the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up like:
-
-Some Section
-(in a bolder format and larger font size, but without the ###)
+Another consequence is that references to other sections (see below) are valid, but not always clear e.g. the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up with the same name in the format of H3 mentioned above i.e., bolder format and larger font size and without the ###.
 
 #### Formatting
 Text formatting is as follows:
-- Type:  *italic text*  OR  _italic text_
+- Type:  *italic text*  OR  _italic text_  (plain text /*italic text/*/ OR /_italic text/_
 - Type:  **bold text**  OR  __bold text__
 - Type:  ***bold italic text*** 
  
@@ -221,7 +227,7 @@ One way to circumvent this is to use the Unicode U+2003 "em space" character: "â
 These characters are also in [# SPECIAL SYMBOLS].
 
 ### Markdown Reserved Characters
-In Markdown certain characters have special meaning, they are therefore escaped with the '\' character:
+In Markdown certain characters have special meaning, they should be escaped with the '\' character if the character is meant, not the Markdown version of it:
 \-  : unordered list
 \+ : unordered list
 \* : unordered list
