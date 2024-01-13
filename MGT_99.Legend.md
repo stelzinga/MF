@@ -108,7 +108,7 @@ ________________________________________
 ## Note Content
 
 ### Sections
-Notes are composed of sections (same as chapters). Sections can be numbered, but often are not. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then there should be a section N-1, i.e. if there is an L3 in an L1 then there should be an L2.
+Notes are composed of sections (same as chapters). Sections can be numbered, but often are not. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then there should be a section N-1, i.e. if there is an L3 in an L1 then there should be an L2.  
 
 ### Markdown
 Section text is written using Markdown protocol. See following websites:  
@@ -118,7 +118,7 @@ Section text is written using Markdown protocol. See following websites:
 <https://pandao.github.io/editor.md/en.html> -> allows testing Markdown  
 <https://dillinger.io> -> allows testing Markdown  
 
-Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer it will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc.
+Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc.
 
 This text is available in the public domain in Git and will display in Markdown format!
 
@@ -132,7 +132,7 @@ Both forms use the *.md file extension and are discussed below, including conven
 Standard Markdown is the most used form of Markdown and the fast majority of notes is in Standard Markdown.
 
 #### Escape Character
-In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '/', 
+In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '\', 
 
 #### New Line
 To achieve a new line in Markdown, type two spaces and a carrier return.  
@@ -158,15 +158,15 @@ Use these to create H1, H2 level captions:
 - H5: ##### First Letters Capitalised
 - H6: ###### First Letters Capitalised
 
-Header L1-2 are preceded by horizontal lines (see above). Header L3-6 are all preceded by one newline. If the subject of a L2-6 header is an acronym then all caps are permitted e.g. SWOT.
-
+Header L1-2 are preceded by horizontal lines (see above). Header L3-6 are all preceded by one newline (2x space + carrier return). If the subject of a L2-6 header is an acronym then all caps are permitted e.g. SWOT.
+  
 Once in a Markdown compatible editor/viewer the '#' will not be visible, and it is the formatting of font size (bold, bigger) that will determine the level of the Header. This means it is not always easy to differentiate between L2 or L3. This is also one of the reasons why L1 and L2 are preceded by '******' and '_____' respectively. 
-
+  
 Another consequence is that references to other sections (see below) are valid, but not always clear e.g. the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up with the same name in the format of H3 mentioned above i.e., bolder format and larger font size and without the ###.
 
 #### Formatting
-Text formatting is as follows:
-- Type:  *italic text*  OR  _italic text_  (plain text /*italic text/*/ OR /_italic text/_
+Text formatting is as follows (note no spaces between the special character and the start and end of words):
+- Type:  *italic text*  OR  _italic text_  (plain: \*italic text\* OR \_italic text\_
 - Type:  **bold text**  OR  __bold text__
 - Type:  ***bold italic text*** 
  
