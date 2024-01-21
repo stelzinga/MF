@@ -18,13 +18,13 @@ This note has the following sections:
 
 A *section* is the same as a chapter in text books at any level e.g. 1 Chapter, 1.2 Sub chapter, 1.2.1 Sub-sub chapter, etc. The words 'note' and 'section' are common enough not to require a definition nor the use of a capitalised first letter, which denotes a word defined elsewhere.
 
-The various conventions used in this note like [# NOTES] and [MGT: Planning] as well as formatting like *italic* and **bold** are explained in [## Note Reference] and [##  Note Content] below.
+The various conventions used in this note like [# NOTES] and [MGT: 01.Planning] as well as formatting like *italic* and **bold** are explained in [## Note Reference] and [##  Note Content] below.
 
 Frameworks, procedure and software specific aspects in relation to the Management Framework are discussed in a separate note MGT: 80.Tools.
 
 An audit trail of changes is in [# VERSIONS]. 
 
-This note is available in the public domain on GitHub in the following location: https://github.com/stelzinga/MF
+This note is available in the public domain on GitHub in the following location: <https://github.com/stelzinga/MF>.
 
 
 *********************************************
@@ -77,10 +77,10 @@ You should have received a copy of the GNU General Public License along with thi
 
 *********************************************
 # NOTES
-Notes are any form of document capturing data for any relevant topic or series of topics. The Management Framework is maintained within notes, and the conventions used has been formalised in this section. Understanding this section helps better understand all other parts of the Management Framework but it is not a prerequisite as ultimately the conventions uses are rather intuitive.
+Notes are any form of document capturing data for any topic or series of topics. The Management Framework is maintained within notes, and the conventions used have been formalised in this section. Understanding this section helps better understand all other parts of the Management Framework but it is not a prerequisite as ultimately the conventions used are intuitive.
 ________________________________________
 ## Note Name Format
-Notes have names that they can be referred by. There are many manners to name name notes. The one used here is the following:
+Notes have names that they can be referred by. There are many manners to name name notes. The one used here in the Management Framework is the following:
 
 CAT: Des
 
@@ -92,15 +92,11 @@ Note that the colon is followed by a single space. Details of these items are fo
 
 Examples: MGT: 99.Legend, PRD: Workout
 
-This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then the name of the file won't allow the colon, Instead it should be replaced with a '_'. 
+This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowe, in which case it should be replaced with a '_'. 
 ________________________________________
 ## Note Category
-In this Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Goals]. This means that Goals should be shortened to three character codes. 
-The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). 
-
-There are two default categories:
-1. 'MGT' which as a category is also a Goal and 
-2. '_TP' which is a temporary category that can be used for anything that is not an actual Goal. The underscore is just to assure it appears at the top of  the list of notes. 
+In the Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Profile Overview]. This means that Goals should be shortened to three character codes. 
+The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). Obviously, the reader can choose any length, but this MF will use three. 
 ________________________________________
 ## Note Description
 The Note Description explains the *purpose* of the note. Ideally, it should be one word. If it is only possible to explain the purpose with several words then use '-' *hyphen* or '_' *underscore* to link them into one. In other words, there should not be any white space (space, tab).
@@ -108,49 +104,38 @@ ________________________________________
 ## Note Content
 
 ### Sections
-Notes are composed of sections (same as chapters). Sections can be numbered, but often are not. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then there should be a section N-1, i.e. if there is an L3 in an L1 then there should be an L2.  
+Notes are composed of sections (same as chapters). Sections can be numbered, but don't need to be. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then it is preferable to also have a section N-1, i.e., if there is an L3 in an L1 then there should be an L2.  
 
 ### Markdown
-Section text is written using Markdown protocol. See following websites:  
-<https://wilsonmar.github.io/markdown-text-for-github-from-html>  
-<https://www.markdownguide.org>  
-<https://gist.github.com/VEnis/7465176>  
-<https://pandao.github.io/editor.md/en.html> -> allows testing Markdown  
-<https://dillinger.io> -> allows testing Markdown  
-
-Markdown is essentially a protocol to write text in a manner that when used in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc.
-
-This text is available in the public domain in Git and will display in Markdown format!
+Text in the MF is written using *Markdown*.  Markdown is a protocol to write text in a manner that when displayed in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc. Many websites nowadays support Markdown pages. For example, this text is available in the public domain in Git and will display in Markdown when visiting the website.
 
 Markdown has two forms:
 - Standard Markdown
 - Extended Markdown
 
-Both forms use the *.md file extension and are discussed below, including conventions within this notes framework.
+Both forms use the *.md file extension and are discussed below, including conventions used within the MF.
 
 ### Standard Markdown
-Standard Markdown is the most used form of Markdown and the fast majority of notes is in Standard Markdown.
+Standard Markdown is the most used form of Markdown and is sufficient for most purposes.
 
 #### Escape Character
-In below examples, the Markdown protocol is used. If that would be used in a markdown editor it will show the Markdown output, instead of how that output is achieved. For those cases, the 'plain text' version is also shown by using the escape character '\', 
+In below examples, the Markdown protocol is used. If that would be used in a Markdown editor it will show the Markdown output, instead of how that output is achieved by writing in 'plain text'. For those cases, the plain text version is shown in addition to the desired Markdown version, by using the escape character '\'.
 
 #### New Line
-To achieve a new line in Markdown, type two spaces and a carrier return.  
-This is sentence followed by two spaces and a carrier return.  
-  
-This is a sentence that follows an empty line with two spaces and a carrier return (i.e. follows an empty line).
+To achieve a new line in Markdown, type two spaces and a carrier return. 
+To achieve an empty line do a carrier return + 2x white space + carrier return.  
 
 #### Horizontal Lines
-3x '*' or 3x '-' or 3x '_' creates a horizontal line in Markdown output.
-Use these to create H1, H2 level separators as follows: 
+To create horizontal lines use either 3x '*' or 3x '-' or 3x '_'. Use these to create H1, H2 level separators (see below) as follows: 
 - H1 Separator = 45x '*' preceded by 2x newline
 - H2 Separator = 40x '_'  preceded by 0x newline
 
-Block creation: 2xH1 separator above and below capitalised block name. Used in very long notes.
+The above yields in plain text clear separators. 
+
+For large blocks of text use 2x H1 separator above and below the block, and use capital letters for the block name. This is useful in very long notes.
 
 #### Header Labels
-Header labels are created with one or more '#'.
-Use these to create H1, H2 level captions:
+Header labels are created with one or more '#'. Use these to create H1, H2 level captions:
 - H1: # ALL CAPS 
 - H2: ## First Letters Capitalised 
 - H3: ### First Letters Capitalised
@@ -158,49 +143,49 @@ Use these to create H1, H2 level captions:
 - H5: ##### First Letters Capitalised
 - H6: ###### First Letters Capitalised
 
-Header L1-2 are preceded by horizontal lines (see above). Header L3-6 are all preceded by one newline (2x space + carrier return). If the subject of a L2-6 header is an acronym then all caps are permitted e.g. SWOT.
+Headers L1 and L2 are preceded by header separators (see above). Header L3-6 are all preceded by one newline (2x space + carrier return). If the subject of a L2-L6 header is an acronym then all caps are permitted e.g., SWOT.
   
-Once in a Markdown compatible editor/viewer the '#' will not be visible, and it is the formatting of font size (bold, bigger) that will determine the level of the Header. This means it is not always easy to differentiate between L2 or L3. This is also one of the reasons why L1 and L2 are preceded by '******' and '_____' respectively. 
-  
-Another consequence is that references to other sections (see below) are valid, but not always clear e.g. the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up with the same name in the format of H3 mentioned above i.e., bolder format and larger font size and without the ###.
+Once in a Markdown compatible viewer the '#'s will not be visible, and it is the formatting (font size, bold) that determines the level of  Header. This is also one of the reasons why L1 and L2 are preceded by '******' and '_____' respectively. 
+Another consequence is that references to other sections (see below) are valid, but not always clear e.g., the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up with the same name in the format of H3 mentioned above i.e., bolder format and larger font size and *without* the ###.
 
 #### Formatting
-Text formatting is as follows (note no spaces between the special character and the start and end of words):
-- Type:  *italic text*  OR  _italic text_  (plain: \*italic text\* OR \_italic text\_)
-- Type:  **bold text**  OR  __bold text__ (plain: \*\*bold text\*\* OR \_\_bold text\_
+Text formatting is as follows (note no spaces between the special character and the start and end of words between the special characters):
+- *italic text* or  _italic text_  (plain: \*italic text\* OR \_italic text\_)
+-  **bold text** or  __bold text__ (plain: \*\*bold text\*\* OR \_\_bold text\_
 \_).
-- Type:  ***bold italic text***, (plain: \*\*\* bold italic text \*\*\*) 
+-  ***bold italic text***, (plain: \*\*\* bold italic text \*\*\*) 
  
 #### Lists
 For unordered lists use '-', '+' or '*' after a newline.
-Below follow three times the same bulleted lists, using respectively the three list bullets mentioned above:  
+Below follow three times the same bulleted lists, using respectively the three list bullets mentioned above. In all three cases the plain text shows different list characters, but in Markdown, it shows three times the same bulleted list!
 
-- bulleted list item 1
-- bulleted list item 2   
-    - Add 4x <space> to indent bulleted item 2.1 
-    - Add 4x <space> to indent bulleted item 2.2
-- bulleted list item 3  
+- bullet list item 1
+- bullet list item 2   
+    - Add 4x <space> to indent bullet item 2.1 
+    - Add 4x <space> to indent bullet item 2.2
+- bullet list item 3  
 
-* bulleted list item 1
-* bulleted list item 2   
-    * Add 4x <space> to indent bulleted item 2.1 
-    * Add 4x <space> to indent bulleted item 2.2
-* bulleted list item 3  
+* bullet list item 1
+* bullet list item 2   
+    * Add 4x <space> to indent bullet item 2.1 
+    * Add 4x <space> to indent bullet item 2.2
+* bullet list item 3  
 
-+ bulleted list item 1   
-+ bulleted list item 2   
-    + Add 4x <space> to indent bulleted item 2.1 
-    + Add 4x <space> to indent bulleted item 2.2
-+ bulleted list item 3
++ bullet list item 1   
++ bullet list item 2   
+    + Add 4x <space> to indent bullet item 2.1 
+    + Add 4x <space> to indent bullet item 2.2
++ bullet list item 3
 
 For ordered lists use 1., 2. etc.
 1. Numbered list item 1
 2. Numbered list item 2
-    - Add 4x <space> to indent bulleted item 2.1
+    - Add 4x <space> to indent bullet item 2.1
     - Add 4x <space> to indent bulleted item 2.2
 3. Numbered list item 3  
 
-NB : some Markdown converters support 1) i/o '1.' but not all do, so stick to using the dot e.g., '1.' A. or i. do not always work as numbered items. 
+NB : some Markdown converters support '1)' i/o '1.' but not all do, so stick to using the dot e.g., '1.' 
+'A.' or 'i.' do not always work as numbered items. 
 
 #### URLs
 For Internet URL's use:  
@@ -214,7 +199,7 @@ Insert images: ![image name](/file/path/image.jpg)  (plain: \!\[image name\]\(/f
 
 ### Extended Markdown
 Extended Markdown supports fenced code blocks.
-This allows writing chunks of code without needing to use 4x space. To create a fenced code block use 3x ` (back tick) at start and end of the code block.
+This allows writing chunks of code without needing to use 4x space for each line. To create a fenced code block use 3x ` (back-tick) at start and end of the code block.
 
 ### Problems with Markdown
 Markdown translates into HTML. However, in HTML there is one aspect of text rendering that is not very fluent: white space. HTML trims spaces if there are more than one including at the start of a sentence, so the following:
@@ -268,7 +253,7 @@ Words that start with a capital, like 'Planning' have been defined in this note 
 Some editors, like OneNote, Outlook mail, use some of Markdown features albeit it different: *italic* in Markdown will show *italic* entirely  in bold (and it will keep  the two '*' .
 
 ### Triple @
-A special convention is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text uses a triple @.
+A special convention in the MF is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text uses a triple @.
 ________________________________________
 ## Note Reference
 Within notes a Note Reference a.k.a. Reference Indicator or [...] is used to provide more details or to refer to a source of data that holds more details. That source can be anything as long as the type and location of the data are clear. 
@@ -289,7 +274,7 @@ For a Section or Note there are three references:
 [CAT: Des]             -> refers to a note CAT: Des
 [CAT: Des # SEC] -> refers to a section L1 SEC in note CAT: Des
 
-e.g. [MGT: 99.Legend ## Note Reference] which is this section you are reading.
+e.g., [MGT: 99.Legend ## Note Reference] which is this section you are reading.
 
 In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1' 
 
@@ -298,28 +283,28 @@ In notes it is possible to use such references by explicitly using the words 'se
 ### File
 For a file the Note Reference is [File Reference] in which File Reference is either a full path to a file or directory or a shorter version of such path. File References are operating system specific. 
 
-Examples:
-$HOME/data_private/mgt/51.finance/       (Linux)
-$HOME/utils/scripts/ubu2usb.command  (Linux)
-C:\Users\yourname\mgt\finance\              (Windows)
-C:\SomeDir\SomeDoc.docx                         (Windows)
-
+Examples:  
+    $HOME/data_private/mgt/51.finance/       (Linux)
+    $HOME/utils/scripts/ubu2usb.command  (Linux)
+    C:\Users\yourname\mgt\finance\              (Windows)
+    C:\SomeDir\SomeDoc.docx                         (Windows)
+  
 The only requirement for a File reference is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References. Details in [MGT: 80.Tools].
-
+  
 In certain cases it may be necessary to refer to a page or sheet or chapter within a file. This can be achieved using extra info within the reference relating to the type (page, sheet, chapter), an '=' sign and the value (page nr, sheet name, chapter name etc.)
 
-Examples:
-C:\SomeDir\SomeDoc.docx Page = 100
-$HOME/data_private/mgt.xlsx Sheet = Planning
+Examples:  
+    C:\SomeDir\SomeDoc.docx Page = 100  
+    $HOME/data_private/mgt.xlsx Sheet = Planning
 
 ### URL
 URL refers to *anything* that can be accessed through a web browser: classic web pages, sharepoints, PowerBI pages, etc. For URL the Note Reference is: [URL] in which URL is of form http://something.xyz and without < and > and where 'http' can be any supported service (http, https, ftp, ftps, ssh, ...).
 
 ### Mail
-For Mail the Reference format is: [Mail: Text] in which Text is the Mail's Subject that was sent/received. Alternatively, one can use [Subject: Text]. The use of 'Mail:' or 'Subject:' is mandatory.
+For Mail the Reference format is: [Mail: Text] in which Text is the Mail's Subject that was sent/received. Alternatively,  [Subject: Text] can be used. The use of 'Mail:' or 'Subject:' is mandatory.
 
 ### Database
-Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data.
+Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data. Reference to a database depends on the type of database e.g., [Oracle: scheme/table_name], [Oracle: table_name], etc.
 
 ### Meeting
 Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which text is the Subject of the Meeting's invite mail. 
@@ -327,7 +312,7 @@ Sometimes it is relevant to refer to a meeting that was held in which specific i
 
 *********************************************
 # PROFILE
-Here the notion of a Profile is explained and how it is used in Management. The first section gives an overview of what a Profile is, which can be used in other documents. The Level 2 sections thereafter provide further details for each of the aspects of the Profile.
+This section explains the concept of a Profile including how it is used in Management. The first section gives an overview of what a Profile is, which can be used in other documents. The sections thereafter provide further details for each of the aspects of the Profile.
 ________________________________________
 ## Profile Overview
 The Profile a.k.a. Management Profile, is an essential part of the Management Framework, incorporating fundamental concepts of management theory. It explains the structure a Manager is accountable for in a holistic manner, whilst leaving room to adapt to specific circumstances.
@@ -439,7 +424,7 @@ Organising ⇔ Activities & Groups ⇔ Leading
 Goals represent medium to long-term targets of the *Strategy* of the Venture. We differentiate between *Run Goals* and *Change Goals*. Run Goals focus on continuously delivering, contributing to, or enabling of *existing* Services that Clients already get or should get, whilst assuring the manner in which this is done is as expected. There are four essential Run Goals:
 i.  mgt -> Manage Venture;
 ii.  prd -> Perform production
-iii. ovs -> Perform oversight I.e., oversee production; and 
+iii. ovs -> Perform oversight i.e., oversee production; and 
 iv. ovh -> Perform overhead i.e., anything not contributing to above three Goals but which are required nonetheless e.g. mandatory training;
 
 Change Goals aim to *improve* Run Goals. The essential Change Goals are: 
@@ -1790,14 +1775,14 @@ ________________________________________
 ⁴ 	superscript four  
 ⁵ 	superscript five  
 ⁶ 	superscript six  
-⁷ 	superscript seven 	
-⁸ 	superscript eight 	
+⁷ 	superscript seven  
+⁸ 	superscript eight  
 ⁹ 	superscript nine  
 ⁺ 	superscript plus sign  
 ⁻ 	superscript minus  
 ⁼ 	superscript equals sign  
-⁽ 	superscript left parenthesis  	
-⁾ 	superscript right parenthesis 
+⁽ 	superscript left parenthesis  
+⁾ 	superscript right parenthesis  
 · 	superscript comma / dot (not 100% accurate)  
 ° 	degree (temperature or angle) 	  
 ⁄ 	slash for fraction  
@@ -1855,7 +1840,7 @@ ________________________________________
 ₄ 	subscript four  
 ₅ 	subscript five  
 ₆ 	subscript six  
-₇ 	subscript seven     	
+₇ 	subscript seven  
 ₈ 	subscript eight    
 ₉ 	subscript nine  
 ₊ 	subscript plus sign  
@@ -2234,6 +2219,9 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20240113
 - Cleaned up Markdown issues (notably missing 2x space at end of sentences)
+
+### 20240121
+- Cleaned up all sections prior to [# PROFILE]
 
 ### Planned
 
