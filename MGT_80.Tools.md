@@ -1650,8 +1650,8 @@ This notation links to the 6W as follows:
 - status: this is not part of the 6W
 - name: indicates *What*
 - (date): covers all elements of *When* 
-- {owner}: covers the *Who*. 
-- |link|: explains the *Why*.
+- {owner}: covers *Who*. 
+- |link|: explains *Why*.
 - [reference]: pointer to details, explaining *How* 
 
 There is no Objective Indicator for *Where* because:
@@ -1672,7 +1672,7 @@ $                  Change Goal, Change Sub-Goal (dollar)
 &                  Routine (ampersand)
 .                    Project, Not Started (dot)
 /                   Project, Started (forward slash)
-~                  Project, Pending (tilde)
+~                  Project, Pending or delegated (tilde) 
 x                   Project, Closed (lower case letter x)
 !                    Project, Urgent (exclamation mark)
 -                    Comment (dash or hyphen)
@@ -1746,7 +1746,8 @@ In which:
 - performer is a Staff or a Group. 
 - beneficiary is an Activity, or the Venture. 
 
-If there is no performer i.e. {:beneficiary} then performer defaults to the Group associated to the Acvitity benefitting the Objective. Similarly, if there is no Beneficiary i.e. {performer:} then the beneficiary defaults to the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e. {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry}.
+If there is no performer i.e. {:beneficiary} then performer defaults to the Group associated to the Acvitity benefitting the Objective. Similarly, if there is no Beneficiary i.e. {performer:} then the beneficiary defaults to the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e. {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry} and defaults to oneself.
+Note that if the Status indicator is ~ and the Owner Indicator isprovided, it effectively means that the Objective has been delegated to that Staff or Group.  
 
 Owner Indicator is optional in which case it can be written as {} or omitted altogether.
 
@@ -2098,7 +2099,6 @@ Business Impact Assessment is a method that looks at the key Activities and Rout
 - Suppliers
 
 The BIA expresses itself in terms of Services not delivered as a result of the partial lack of the above.
-@@@
 ________________________________________
 ## TRA (Framework)
 A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. 
@@ -2106,8 +2106,6 @@ A Threat and Risk Assessment formalises the type of Threats and the level of Ris
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
-
-Trend Entities are referenced under [MGT: Planning ## Market Intel]. 
 
 One important way to collect feedback is through current / former colleagues and friends. Data related to them is kept in perso context notes:
 - [WRK: Staff]: details of colleagues
@@ -2353,7 +2351,7 @@ The Role has the following properties:
 Additional details can include specific constraints like working hours.
 
 ### Responsibilities
-Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above! Either the role does all of them, or only a sub-set. As such this section should just refer to those Objectives. 
+Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above! Either the role does all of them, or only a sub-set. As such this section should just refer to those Objectives. note that it is possible to detail Authority here instead of under Roles.
  
 ### Skills, Knowledge & Experience 
 Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge required in understanding of the topics involved in the Responsibility. 
@@ -2365,14 +2363,16 @@ Skills use the key-words "How to ...". Knowledge uses the key-words "Understandi
 The above information can be used in various manners, but in most cases it will form the basis of a written document. This depends mostly on the type of role and how that role positions itself within the Activity, and how the Activity positions itself within the Venture.
 ________________________________________
 ## RACI (framework)
-Responsible, Accountable, Consulted, Informed is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management]. 
+Responsible, Accountable, Consulted, Informed is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
+
+The definition of RACI often implies annoversight committee that oversees the o real progress. Of whatever the RACI have been defined for.
 
 ### RACI Overview
 The underlying of RACI is one or more Tasks, or Objectives.   The principles associated to RACI are Delegating, see [## Delegating]. 
 
 The four Roles in RACI are defined as follows:
 - R (Responsible): person who performs a Task.
-- A (Accountable): person answerable for completion of the Task i.e., the person reporting in completion.
+- A (Accountable): person answerable for completion of the Task i.e., the person reporting on completion to someone e.g., committee.
 - C (Consulted): person whose subject matter expertise may be sought (two way conversation)
 - I (Informed): person who may be informed of progress and/or completion (one way conversation).
 
@@ -2383,7 +2383,7 @@ A hard rule is that there can be only one 'A' for a given Task. If there are mor
 It is possible to have more than one R for a given Task. 
 
 ### RACI Weaknesses
-@@@
+RACI do not include Authority. Often Responsibility is assigned but this Responsibility does not carry any , or sufficient, Authority. In these cases the Responsible person will need to Escalate e.g., to the committee.
 ________________________________________
 ## Group Definition (Framework)
 For each Group the name is the name of the associated Activity. As such Groups are not maintained separately.
@@ -2625,21 +2625,21 @@ ________________________________________
 @@@
 ________________________________________
 ## Whiteboard Session (Framework)
-A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that without any specific preparation i.e. no presentation material to prepare. To the presenter this means the time spent is limited to the time of the WBS. 
+A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that, *this is important*, without any specific preparation i.e., no presentation material. To the presenter this means the time spent is limited to the time of the WBS. For the audience, it means they can focus on things they are more interested in than what a presentation would somwehat force them to pay attention to. 
 
-Managers can use WSB to achieve threethings:
+Managers can use WBS to achieve three things:  
 - Share knowledge within or across Groups
-- Make knowledge sharing a standard feature of the Modus Operandi of a Group
+- Make knowledge sharing a standard feature of the Operating Model of a Group
 - Show to the Group that the Manager him/herself is not knowledgeable
 
-Particularly the last part is powerful: often Staff dare not ask questions at risk of being seen incompetent. If the Manager asks any question, 'smart' and 'dumb' Staff in the Group wil be more likely to also ask questions, which has a knock on effect that everyone in the Group becomes more Knowledgeable.
+Particularly the last part is powerful: often Staff dare not ask questions at risk of being seen incompetent. If the Manager asks any question, both 'smart' and 'dumb' Staff in the Group wil be more likely to also ask questions, which has a knock-on effect that everyone in the Group becomes more knowledgeable.
 
-If done well, Staff within a Group will look forward to the WBS, and as such they constitute a form of team building.
+If done well, Staff within a Group will look forward to the WBS, and as such they constitute a form of team building at the same time.
 
  ## Hints at running WBS:
-- Always ask someone very knowledgeable including whitn Suppliers to present a topic that person would be *very* comfortable with presenting out of the blue. 
+- Always ask someone very knowledgeable including with Suppliers to present a topic that person would be *very* comfortable presenting out of the blue. 
 - Do them on Friday afternoon, near the end of the day: this pulls people out of the grind and because it is Friday end of the day, there should be no need to go back 
-- As a Manager ask questions and positively reinforce questions asked by others in the Group 
+- As a Manager ask questions and positively reinforce questions asked by others in the Group.
 ________________________________________
 ## Braintrust
 Braintrusts are groups of people with a shared agenda who offer candid feedback to their peers. See also the Fearless Organisation.
@@ -2801,36 +2801,36 @@ Migration
 Migration is the process of moving entries from one location to another i.e., from a Log to another Log or to a Collection. In classic Bujo this is done by recopying the data and changing the original entry status to '<' or '>'. In BuJo it is achieved through cut-and-paste of data. There is no real reason to show on an entry that it has been moved and thus record it twice. Just move it!
 
 ### BuJo Setup
-The setup for BuJo within the Management Framework can be done in any notes app, using the following conventions:
+The setup for BuJo within the MF can be done in any notes app using the following conventions:
 
 Index
 The Index is composed of the list(s) of Notes which each Notes Software is capable of showing. The names of the notes follow Note Name Format rules as per [MGT: 99.Legend ## Note Name Format]. The Index adjusts automatically each time a note is added or deleted so there is no need to maintain references to or from the Index. 
 Alternatively, one can create a dedicated Note, or a section in a Note referencing other Sections and or Notes using the [ ... ] reference indicator.
 
 Logs
-These are the individual notes, specifically a note per Profile Tree Item. Each of these notes can contain that: notes, ideas, thoughts, or more formally, definitions, rules etc. related to the topic of the note. The logs for the Management Framework are by default the following notes:
+These are the individual notes, for the MF at least a note per Profile Tree Item. Each of these notes can contain that: scribbles of ideas, thoughts, or more formally, definitions, rules etc. related to the topic of the note. The logs for the MF are by default the following notes:
 
 MGT: 00.Management
 MGT: 01.Planning
 MGT: 02. Organising
 ...
-MGT: 10.Operations
-MGT: 11.Staff
 ...
 MGT: 51. Finance
 MGT: 51.HR
 ...
 ...
+MGT:80.Tools
+MGT:99.Legend
 
 Collections
 There are many collections by design of the notes framework:
 - Each note is a Collection
-- Each section in a note can be a Collection (sub-collection)
+- Each section in a note can be a Collection
 
-Note that he Management notes mentioned above are also a Collection. 
+The Management notes mentioned above are thus also a Collection. 
 
 ### 00.Management
-The note [MGT: 00.Management] is a special log, it has a flexible setup to reflect Management overall. Although the setup is flexible, it has the following recommended L1 sections which are derived from the Key deliverables for Management:
+The note MGT: 00.Management is a special log. It has a flexible setup to reflect Management overall. Although the setup is flexible, it has the following recommended L1 sections from the Key deliverables for Management:
 - Introduction
 - Scribble
 - Management Cycle
@@ -2843,36 +2843,47 @@ The note [MGT: 00.Management] is a special log, it has a flexible setup to refle
 - Reports
 
 Introduction
-Explains what the note is about including a list of L1 sections (itself included). 
+Explains what the note is about including a list of the above L1 sections (itself included). It is possible to omit the list of L1 sections to save space. 
 
 Scribble
-This is a section where anything can be jotted down to either be deleted later, or trasnformed into another note, or moved to another section. 
+A section where anything can be jotted down to be deleted, or transformed into another note, or into another section. 
 
 Management Cycle
-The Management Cycle has an L2 section per MC cycle. 
-In addition it has a L2 section [## ToDo] whith several L3 sectoins for Special Dates, Things to Learn, and an item per Staff representing items to follow for that staff.
-This list greatly helps the Manager follow current topics.  
+The Management Cycle can have an L2 section per MC cycle i.e., Management. Revenue, Cost, Risk, Run, Change and Intel (all optional). In addition, it can have the following L2 sections:
+- Knowledge
+- Dates
+- My Things, with following blocks using Objective Notation:
+    - Things to highlight in reporting period
+    x Things that were completed in the reporting period
+    / Things being worked on
+    . Things not started
+    ~ Things pending with others
+- Staff Things (as many sections as Staff to be tracked), each staff has the same blocks as under Myself above.
+
+The My Things and Staff Things sections can be used for reporting in L1 section Report, see below.
 
 Management Improvement 
-Management Improvement  has a section per type of Improvement.
+Management Improvement has notes related on how to improve as a manager.
 
 Planning 
-Reflects Management Function Planning, and serves as a scribble for aspects of this Management Function. In most cases it just points to [MGt: 01.Planning].
+Reflects Management Function Planning, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 01.Planning], but during the performance of the Management Cycle, ideas, small projects to improve Planning can be collected here, and later ported to the permanent note or to MSS.
 
 Organising 
-Reflects Management Function Organising, and serves as a scribble for aspects of this Management Function. In most cases it just points to [MGt: 02.Organising].
+Reflects Management Function Organising, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 02.Organising], but during the performance of the Management Cycle, ideas, small projects to improve Organising can be collected here, and later ported to the permanent note or to MSS.
 
 Leading
-Reflects Management Function Leading, and serves as a scribble for aspects of this Management Function. In most cases it just points to [MGt: 03.Leading].
+Reflects Management Function Leading, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 03.Leading], but during the performance of the Management Cycle, ideas, small projects to improve Leading can be collected here, and later ported to the permanent note or to MSS.
 
 Controlling 
-Reflects Management Function Controlling, and serves as a scribble for aspects of this Management Function. In most cases it just points to [MGt: 04.Controlling].
+Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
 
 Day
-Serves as a temporary capture of meeting minutes for meetings not formalised through any dedicated notes, see [## MC]. It can have an L1 section per meeting. 
+Serves as a temporary capture of meeting minutes for meetings not formalised through any dedicated notes, see [## MC]. It should have an L2 section per meeting. 
 
 Report
-Serves as a permanent storage of Reports. This may not be useful if reports are sent via Mail, in which case an archive of mails can function as repository of past reports.
+An L1 section that serves as a permanent storage of Reports. This may not be useful if reports are sent via Mail, in which case an archive of mails can function as repository of past reports.
+It should have an L2 section per Report in the format yyyymmdd as the date the report was finalised and sent.
+The idea is to cut-paste data from the sections under Management Cycle (Myself, Staff xxx,...) to build the report.
 ________________________________________
 ## BuJo MSS (Software)
 MSS, see [## MSS], has 7 Sheets implementing the BuJo concepts discussed above to the Managerial 7, see [MGT: 99.Legend ## Management Cycle]. BuJO MSS is essentially BuJo logic implemented within the MSS framework.
@@ -3005,6 +3016,7 @@ Details of topics discussed in the Agenda that are not presentation material but
 
 ### Minutes
 Minutes are not part of the Deck and consist of what was discussed as part of the Agenda, see above and includes any new Action Points that were created as part of the discussion in the Committee, a status of which will appear in the next committee.
+Minutes should only be concerned with decisions. This in turnmeans that the manner in which Info is presented is as such: "we motion to ...", "we propose to ...", etc. An alternative manner of presenting is that by default everything is approved, unless otherwise requested by the committee.
 ________________________________________
 ## BOD (Framework)
 The Board of Directors is an efficient tool for oversight and delegation.
@@ -3063,38 +3075,89 @@ A Management Meeting consists of meetings with Managers of Activities where thos
 The concepts of a Staff Meeting, see above, are applicable to a Management Meeting, but in a slightly modified version.
 ________________________________________
 ## Check Standards (Framework)
-Check Standards define how a Check should be designed based on definition of Controlling as per [MGT: 99.Legend ## Controlling]:
- 
-1. Establish the *Purpose*;
-2. Establish *Baseline* or Benchmark (often done in Planning); 
-3. Get *Measurement* of the output of Goals/Sub-Goals/Objectives;
-4. Perform a *Comparison* of Measurement vs Baseline;
-5. Perform an *Analysis* of differences and, if relevant;
-6. Define a *Remediation*;
-7. Keep a *Written Trail* of 1-6, use it to *Report* and track Remediation.
+As a reminder, a Check is one of four different manners to establish Supervision (the others being Review, Attend, Audit). A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control.   
 
-As a reminder, a Checks is one of four different manners to establish Supervision. A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control, but as per [MGT: 99.Legend ## Controlling], there are other means of performing Supervision. 
+Check Standards define how a Check should be designed:
+   
+1. Establish the *Purpose*;  
+2. Establish the *Baseline* or Benchmark  
+3. Get a *Measurement* of output of one or more Objectives;  
+4. Perform a *Comparison* of Measurement vs Baseline;  
+5. Perform an *Analysis* of the Comparison and, if relevant;  
+6. Define a *Remediation*;  
+7. Keep a *Written Trail* of 1-6, use it to *Report* and track Remediation.  
+8. Add the *Subject Matter Specialists* or *SME*
 
-In above 7 steps, Purpose is key in setting up a Check. It sets out what the Check is to do. In many cases Checks are designed to avoid the occurrence of Risk, or to assure a minimum level of quality or performance. The Purpose will  explain what the Risk is, or what the mimimum level of quality or performance is. It will explain how Risk can materialise, and most importantly, how the Check helps avoiding or mitigating that Risk, assuring a minimum level quality or Performance. 
+The first seven steps are directly from [MGT: 99.Legend ## Controlling]. The last step aids greatly in case there are questions on the Check.
 
-The Baseline defines what exactly needs to be be measured, and critically, the thresholds at which a *Breach* is deemed to have occured i.e., the variance or dispersion allowed from the Benchmark. A Baseline depends on a good understanding of the Purpose. It may require insight in the next step as the definition of the Baseline has potentially a dependency on how a Measurement can be performed in the first place.
+Purpose  
+In above 7 steps, Purpose is key in setting up a Check. It sets out what the Check is to achieve ultimately. In many cases Checks are designed to avoid the occurrence of Risk, or to assure a minimum level of quality or performance has been reached. The Purpose will explain this Risk (including how it can materilaise), or what the mimimum level of quality or performance is (including what influences it). It will also explain how the Check helps avoiding the Risk, or helps assuring a minimum level quality or Performance. This section may depend on the next step.
 
-Once the Baseline is established the Measurement needs to take place. Ultimately, a Check measures some form of Info (which is produced from Data) and compares it against the Benchmark, see also [MGT: 99.Legend ### Data]. The Measurement phase includes procedures of how to obtain relevant Data and how to produce Info from the Data.
+Baseline  
+The Baseline defines what exactly needs to be measured, and critically, the thresholds at which a *Breach* is deemed to have occured i.e., the variance or dispersion allowed from the Benchmark. A Baseline depends on a good understanding of the Purpose. The Baseline may require insight in the next step: the definition of Baseline has potentially a dependency on how a Measurement can be performed in the first place. It is possible that there are more than one type of Breaches in a single Check. These are referred to as *Breach Types* and establishing these at the start of the design of the Check greatly helps in the Remedation step.   
+  
+Measurement  
+Once the Baseline is established the actual work takes place: Measurement. Ultimately, a Check relies on Info prod;1uced from Data. Measurement consists both of collecting Data (potentially from several sources, and including cleaning, transforming, enriching etc) and then establishing some Info from that Data (potentially different forms of Info). Note that Data can be both quantitatve as well as qualitative.  
+Measurement is heavily proceduralised, which allows to accurately reproduce the same Info over and over. This step includes rendering the Info in the desired format to be able to compare where applicable: numbers, ratio, graph,... 
+NB: Data represent facts, Info is them organisation and interpretation of those facts. 
 
-The same procedures will also describe the next step: the Comparison of the Measurement vs the Benchmark, and also how to Analyse the result of the Comparison. The Analysis should yield a single conclusion: a breach or not. A breach means that a Remediation a.k.a. an Action Plan is required. This Remediation should explain why the Remediation is required, and what Processes need to be performed to consider the Remedation completed. 
+Comparison  
+The Comparison of the Measurement vs the Benchmark is effectively what it says: put the result of Measurement in front of the Benchmark. 
 
-All of the above is documented or Journaled, and a Report is produced.
+Analysis  
+The Analysis should yield a single conclusion: a breach or not. A breach means that a Remediation is required.   
+  
+Remediation   
+Remediation a.k.a. Action Plan should avoid the breach found in Analysis (most often for the next time the Check is performed). As such, this step may require going back to the Analysis step to clearly identify the best way to remediate.   
+Remediation should clearly explain how to implement it and should include the manner in which the desired effect will be measured (normally through a re-run of the check).
+Often, the occurence of breaches can be expected. In other words, it is possible to define so called *Possible Remediation* which are Processes to perform if a specific Breach Type occurs. Possible Remediation helps speeding up the remediation process by avoiding spending time on investigation.   
 
+Report  
+All of the above steps are documented or Journaled, and a Report is produced.
 The Report is used in the two last deliverables of Controlling: Reports and Monitoring, which will assure Management is aware, and can track the progress, of Checks in general and of Action Plans in particular. 
+
+SME
+The Subject Matter Specialist is the Staff or preferably a Group that can be called upon to clarify the Check.   
 ________________________________________
 ## Self-Contained Mail (Framework)
-Many Checks are fully automated and should thus embed the above Check Standards within the automation. In many cases the automation results are sent by E-Mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. This section explains the assumptions to consider and ultimately the minimum requirements for such automated Check results through Mail.  
+Many Checks are fully automated and should thus embed the above Check Standards within the automation. Oftren, the results are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
 
-When setting up a Self-Contained mail system, assume that the Receiver: 
+When setting up a Self-Contained Mail system, assume that the Receiver of the mail: 
 - is completly unaware of why he/she receives such Mail
 - has little knowledge of the Activity(ies) the Check's result is relevant to.  
 
-The assumptions combined with the Check Standards, see [## Check Standards], a clear Self-Contained Mail framework will follow by design!
+The following are guidelines on how to set this up:
+- Design the Check according to the Check Standards, see [## Check Standards], in which the last step Report is effectively the mail. 
+- Design the Content of the mail presented to the Receiver such that all Steps of the Check Standards are presented to the Receivers
+- Use a Subject such that the Receiver can see the urgency of the mail
+
+The first step is documented in [## Check Standard].  
+
+The second step is organising the content such that the Receiver has all info requried to make an assessment. The content itself does not need to be in the mail. It could be presented in another location e.g., a clickable URL.
+The suggested content is as follows (in order):
+- Purpose
+- Analysis -> shows whether there are breaches or not
+- Appendix
+    - Baseline
+    - Measurement -> only description of it, not the Data 
+    - Comparison
+    - Remedation -> notably Possible Remediation
+    - SME -> whom to reach out to in case of questions
+  
+The third step is implementing a logic to show to the Receiver which Urgency and type of Check the mail represents . Below follows a possible implementation:
+- INFO xxx
+- WARNING xxx
+- CRITICAL xxx   
+  
+In which:  
+- xxx = short decription of the Check
+- INFO = no breaches were found
+- WARNING = breaches were found
+- CRITICAL = check could not run at all
+  
+There are other Subjects possible. For example, one could do something like: "Breach: Breach type yyy for xxx", etc.  
+
+As can be seen, the Check Standards drive a well conceived Self-Contained Mail framework!
 ________________________________________
 ## Reporting Definition (Framework)
 The core aspects of Reports have been defined in [MGT: 99.Legend ### Reports]. As discussed in that note there are several types of Report. In this section we discuss the details of how to build such Reports .

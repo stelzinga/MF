@@ -422,7 +422,7 @@ Organising ⇔ Activities & Groups ⇔ Leading
 
 ### Goals
 Goals represent medium to long-term targets of the *Strategy* of the Venture. We differentiate between *Run Goals* and *Change Goals*. Run Goals focus on continuously delivering, contributing to, or enabling of *existing* Services that Clients already get or should get, whilst assuring the manner in which this is done is as expected. There are four essential Run Goals:
-i.  mgt -> Manage Venture;
+i.   mgt -> Manage Venture;
 ii.  prd -> Perform production
 iii. ovs -> Perform oversight i.e., oversee production; and 
 iv. ovh -> Perform overhead i.e., anything not contributing to above three Goals but which are required nonetheless e.g. mandatory training;
@@ -487,8 +487,8 @@ Leading involves Processes to *drive* those *who do it*. This third Management F
 Controlling involves Processes to establish *how well it was done*. This fourth Management Function assesses the Venture's performance across all Activities versus metrics determined in Planning, and adjusts through Planning, Organising and Leading. 
 Controlling uses *Journaling* to record any matters related to the other Controlling deliverables and more generally, to keep track of work done across all four Management Functions.
 The assessment of the efficiency of Operations is done through *Supervision* which is performed through a *Supervision Framework* composed of *Supervision Processes* a.k.a. *Controls* applied to a *Supervision Scope*. There are four Supervision Processes:
-i.   A *Check*: verify Processes and/or Results vs formal benchmark;
-ii.  A *Review*: verify Processes and/or Results against experience, or opinion;
+i.   A *Check*: verify Processes / Results vs a benchmark;
+ii.  A *Review*: verify Processes / Results against experience, or opinion;
 iii. An *Attendance*: attend a *Committee* to verify Processes and/or Results through discussion with others, thus attaining a broader range of opinions than a Review; or 
 iv) An *Audit*: an *independent* verification of Processes and/or Results, the result of which is used by Management.
 
@@ -1017,7 +1017,7 @@ NB: ovs is similar to what a Manager does in Management Function Controlling, an
 #### Change Goals 
 Change Goals relate to Change Services. Change Goals drive Change Objectives. Standard Change Goals in most Ventures are: 
 1. Grow Revenue (gro);
-2. Protect existing Revenue from change in Environment (pro);
+2. Protect existing Revenue from changes in the Environment (pro);
 3. Secure Operations to reduce Risk (sec); and 
 4. Optimise Operations to reduce Cost/Risk and/or increase Revenue (opt). 
 
