@@ -17,6 +17,14 @@ Management Functions
 - Leading
 - Controlling
 
+Operations
+- Operations
+- Staff
+- Assets
+- Suppliers
+- Liabilities
+- Equity
+
 Business Functions
 - Finance
 - Human Resources
@@ -2716,7 +2724,7 @@ ________________________________________
 
 *********************************************
 # CONTROLLING
-Controlling involves Processes to establish *how well it was done*. Controlling has a dedicated note: [MGT: Controlling].
+Controlling involves Processes to establish *how well it was done*.
 ________________________________________
 ## Overview
 This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Controlling]. On L2 are the Tools:
@@ -3278,6 +3286,227 @@ Not always applicable, a lifecycle explains how the various Routines and Project
 
 
 *********************************************
+# STAFF
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Staff]. On L2 are the Tools:
+
+
+*********************************************
+# ASSETS
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Assets]. On L2 are the Tools:
+
+- Accounting Assets incl. Cash
+- Infrastructure
+- Intangibles
+- Data
+    - Data & Info
+- Services (from Suppliers)
+________________________________________
+## Data & Info (Framework)
+Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they related to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
+
+### Data
+Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills,...
+
+Below follow key aspects involved in Data. 
+
+Data Set
+A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a single set of records showing both Revenues and Cost is a single Data Set.
+
+Time-Bound & Instance-Bound 
+Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g. geography, temperature zone, department within an organisation, departments within geographies, etc. 
+
+Variable 
+A fact is most often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
+If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country. 
+
+Data Representation
+Facts can be represented in different manners:
+- Numbers
+- Text
+- Audio
+- Video
+- Images
+
+Of these, numbers and text are the most used for the simple reason that they embed very few facts but are easy to use. A video is difficult to interpret as a single fact, and even if decomposed in individual facts over time, there are many facts: colours, shapes, audio, etc. 
+
+Data Owner
+The person owning a Data Set. Often this is the person responsible for one or more Processes related to the Data Set. Often such Processes are captured in Software and the underlying Data in a *database*.
+
+Data Types
+There are three key Data Types:
+- Time-series: a Data Set representing an evolution of one or more variables over time. 
+- Cross-sectional Data: a Data Set that is a snapshot in time of one or more variables across an instance. 
+- Panel Data : also known as Cross-sectional Time-series is a combination of above two types, i.e., collection of variables at multiple times across multiple instances. Panel Data is probably the most used form of Data. 
+
+Data Equation
+The variable or fact changes within one of the three Data Types. As such, the variable can, in theory at least, be captured mathematically as an equation:  y = f(x) in which y is the fact and f(x) is a function of the Data Type, bearing in mind that Panel Data is a combination of time and one ore more instances i.e., a multi-dimensional relation!
+In reality the  Data Equation often does not exist, or only on a too small subset of data to be relevant. The attempt to find the equation is part of Info.
+
+Data Quality
+Data Quality is the state of Data that tells how reliable a Data Set is to be considered for the production of Information. If a data set is of high quality, it must fit the intended use or purpose. It must be complete, accurate, reliable, easy to access, consistent with different sources, and easy to represent in Info.
+NB: there is no universally accepted standard for Data Quality as this is very much organisation dependent.  
+
+### Info
+Information or Info is the organisation and interpretation of facts embedded in Data. In other words, it attempts to find a relation between a variable and passage of time and/or changes of instances. Another word for Info is Descriptive Statistics or Descriptive Data.
+
+Most often, Info requires more than one Data Set to be used. In other words, Info becomes more relevant when there are relations between different variables across different Data Sets. Or yet differently, the manner in which change, embedded in Data Sets, can be shown to be linked across those Data Sets in the the past and across instances gives the means to make decisions for the future and across instances. 
+
+Info Owner
+The person responsible for Information. This is the person accountable for providing information to Info Consumers. 
+
+Info Consumer
+The person using information for some purpose. Examples: Department head, Support unit manager.
+
+Info Purpose
+The purpose for which Information is used. Not all Data Sets yield to the same information. Data Sets can in fact be used for different purposes. Example: Nr Products Sold gives the Marketing department insight in success of marketing campaigns, but it gives the Finance department insight in total manufacturing costs 
+
+Info Representation
+There are various manners to render or represent Info. The two most common Info Representations are Tables and Graphs a.k.a. Charts. 
+
+- Table: Prepped Data -see below- (or a subset of it) is displayed in *tabular* format. If the table is small it may convey useful information, but if the Prepped Data is complex Panel Data then the reader will quickly get lost in *data overload*.  The only way to help the Info Consumer in this case is to highlight specific parts in the table like outliers or trends,  using specific formatting (different background, different font colour or size) or adding indicators (arrows, encircling the data)
+- Chart: Prepped Data (or a subset of it) is displayed in a  *graphic* format. There are many types of charts (see below). It is possible to provide multiple variables in a single Chart, but like with Tables, the Info Consumer risks suffering data overload. In addition, although there are many options to render info in a chart, this does not mean that all types of charts need to be tried when rendering Info.
+
+Chart Types
+The types of charts one can choose form are numerous: Bar Charts (horizontal), Column Chart i.e. a vertical Bar Chart, Pie Charts, Scatter Chart, Area Charts, Line Charts, Bubble Charts, Net Charts a.k.a. Spiderweb charts, Waterfall charts., Stock Charts a.k.a. Box Charts, Mekko Charts, Histograms,... and combinations of all those charts, using various techniques including two vertical axis (major, minor), using three dimensional versions of the above, using logarithmic scales etc.
+
+Refer to the following websites for examples of charts:
+<https://www.stratechi.com/business-charts>
+<https://www.theanalystacademy.com/mckinsey-report-breakdown>
+
+Absolute vs Relative Info
+Within both Tables and Charts, Info can be rendered in two distinct manners: 
+- Absolute rendition e.g. revenues in 2020, 2021 & 2022 
+- Relative rendition e.g. % change 2022 vs 2021, 2021 vs 2020
+
+Static Info or Dynamic Info
+Info can be rendered statically, i.e., a a single snapshot of one or more Data Sets, according to the scope defined by the Info Owner. 
+Alternatively, the Info Owner can give the Info Consumer the ability to zoom in to a more detailed level of one or more Data Sets, or reversely zoom out, to get a broader view of the facts. This dynamic a.k.a. interactive manner of providing Information has various advantages, and is particularly well suited for Simulation Info.
+
+Simulation Info
+It is possible to provide info based on hypothetical facts, in other words, *create* non-factual Data Sets that could exist at some point in time and/or within an instance, and then use that Data Set to display theoretical Info which may better help an Info Consumer to make decisions. 
+
+Info Types
+The usefulness of Info is ultimately defined by how well the Info Consumer can make decisions based on it.
+There are three essential types of indicators that allow managers to make decisions
+
+KPI
+A Key Performance Indicator or *KPI* is a quantifiable measure of performance for an Objective. Where the Objective says what is aimed for, the KPI makes it quantitative and therefore easier to track. This is the most simple form of Information and it is relatively easy to produce it: there is an Objective that is performance related: nr Products produced , nr Products sold, total revenues, total cost etc. These types of indicators are bound in time e.g. a year or an instance e.g. a geography. Once that objective is there, the only thing to do is collect the data related to the Objective and transform it in the Objective's target unit and then compare with the target. Example: i) NBI objective full year = 950 M EUR. KPI = NBI YTD annualised vs Objective as a %, ii) Cost objective full Year = 170 M EUR. KPI = Cost Annualized vs Objective as %, iii) ROE Objective = +1 % vs Previous Year. KPI = expected ROE vs Previous Year.
+
+NB: the above assumes that Objectives were defined according to SMART principles which includes the notion of Measurable i.e. quantitative facts . Objectives that use a qualitative expression like "make things better" are of course impossible to raise KPIs for.  
+
+KRI: 
+A Key Risk Indicator or *KRI* helps Info Consumers identifying Risk caused by weaknesses in Processes or in the Services/Products created by those Processes. KRIs are used to give insight into Risk. This is where KRIs deviate from the simplicity of KPIs: Risk is unknown, by design. Risk is the *probability* of an *adverse event* occurring at some point in the future. Although not always morally correct, adverse events are eventually all a form of money: fines, loss of revenues due to non-production, loss due to recall of a product, loss of staff (this is where the moral piece pops up), etc. Methods like back-testing can help identify expected failures in specific Processes, but often losses occur in Activities that are a complex combination of many Processes that make it hard and/or economically nonviable to back-test. 
+The conclusion of the above that it is often hard to produce KRIs. Most KRIs are at best a proxy, an indication of how things stand today, but do not truthfully show either probability or the impact of the event occurring. However, all is not lost, although precise data may not be produced, a lot of data is available w/r to trends related to either Activities or Processes within those Activities. Example: i) Nr of Server Processes not available to traders at 08h30. KRI = Process up-time, ii) Total Loss amount related to Processes not available for traders at 08h30, iii) Nr Systems used in Production, v) Nr Handoffs between Processes, etc.
+
+NB: it is possible to set an objective to stay within certain risk limits for example. Such cases can then be deemed KPIs. It may be that the KPI depends on data collected to produce KRIs.
+
+KCI: 
+A Key Control Indicator or *KCI* a.k.a. Control Effectiveness Indicator provides information on the extent to which a Control is meeting its intended objective in terms of Risk prevention or reduction. In order to provide such information, the KCI has to have an explicit relationship to both the Control and to the Risk against which the Control has been implemented. As such, a KCI has a relationship with KRI.  Info Consumers can define desired tolerances or thresholds for controls. The KCI´s role is to ensure that adequate responses and monitoring have been provided to a risk situation identified by KRIs. Control verification is a key component of a KCI, and it usually includes auditing, quality assurance and improvement programs. Typical KCIs cover the reliability of financial reporting, number of audit issues or product quality assurance ratios. Example: i) nr of morning checks not performed before 08h30,  This ties in with the example given for the KRI above.
+
+### Data Management
+Data Management, or Data to Info or D2I represents the Input and Output of specific Processes in the production of Info from Data.
+
+There are 4 levels of Objects (top) and 4 Processes (bottom) interacting with each other. 
+
+Source Data        Raw Data     Prepped Data         Info
+                  ⇘       ⇗          ⇘       ⇗               ⇘        ⇗           ⇘
+                Collection  Preparation  Transformation  Disposal 
+
+Source Data
+Data is stored in various locations and formats (files, databases,...). This original set of Data is referred to as the Source Data and it is the start of the D2I Cycle. Each Source Data has a Source Data Owner. 
+
+Data Collection
+Data Collection is the process of obtaining Source Data. This may be done directly e.g. through an API, or indirectly e.g. the Source Data Owner generates a data extract and delivers them as a file. 
+
+Data
+Raw Data is the result from Data Collection Process. It is the most basic level of data before it becomes Info. This level of data is the same as the Data Owner knows. Raw Data may or may not be stored as part of the cycle. 
+One important thing to note is that Raw Data may be less complete than Source Data. This happens when the Data Collection process re-scopes the Source Data e.g. show only records for the year 2020 or only provide 100 out of the 1000 fields available for a single record (because the other 900 fields are not very useful). Each Raw Data set has a Raw Data Owner, which is most often the person assuring the Data Collection. Raw Data is often stored in Data Lakes in case of industrial approaches to Data, where organisations want to make Data available to a large scope of people.
+
+Data Preparation
+Raw Data often requires preparation to make it usable for the final step. Typical actions in Preparation include: 
+1. Data Cleaning: data may  have missing fields that need to be defaulted, shifted fields that need to be moved back to the right column, etc.
+2. Mapping: some fields are not meaningful unless they are mapped to a more meaningful value e.g. a User Id can be mapped to a User Name. 
+3. Reformatting: data fields may need to be standardised e.g. the date 4 May 2000 can be received from one Data Source as 04/05/2000 and in another Data Source as 05/04/2000 and in yet another Data Set using Excel date number as 36650 and from a UNIX based source 1588597200.
+4. De-duplicating: certain records may be duplicate within the Raw Data or across Raw Datasets.
+5. Scoping: Raw Data may contain records for a far larger scope than is needed e.g. all records for an entire company, whereas Info needs to be produced only for a department within.
+
+Prepped Data
+The result of Data Preparation is Prepped Data. It can be used to create Info. It is in most cases not easy, or if at all possible to go back from Prepped Data to Raw Data, unless detailed audit trails are kept during Data Preparation. 
+A good Data Preparation Process creates Data that can be used for more than one Info, either in its own, or by combining it with other Prepped Datasets. Prepped Data is often stored for use later. Like with the other Data Sets, Prepped Data has a Prepped Data Owner. Prepped Data can be part of a *Data Warehouse*, which is a industrial scale repository of Prepped Data.  
+
+NB: sometimes Source Data is in effect Prepped data. This means it has been modified to fit a specific purpose before it was made available as Source Data, which in turn may cast doubts on the Data's validity. Only if the Data is *certified* as being a true reflection of the Source Data, can such Data be used. The advantage is of using Prepped Data as Source Data is of course that Preparation process may be simplified. 
+
+Data Transformation
+The last Process, ultimately creating Info, consists of manipulating Prepped Data. Data Transformation is composed of one or more of the following:
+1. Filtering: explicitly including/excluding records 
+2. Sorting: ordering data such that it follows a trend (alphabetical, numerical, date,...)
+3. Linking: combining one Prepped Data set with another a.k.a. Data Aggregation.
+4. Calculating: using Prepped data to calculated new Facts, which can be stored as new Prepped Data e.g. calculating an average, median, a moving average, min, max, standard deviation... 
+5. Rendering: using graphical tools to highlight trends, concentration, outliers (smoothing), new calculated Facts like Thresholds, etc. such that the Prepped Data, becomes more meaningful than in its existing form. 
+6. Enriching: it is possible to use static values that are stored for specific Datasets. For example, a static value could be 10% (static) of Revenue as a Threshold for Operational Losses. Other static values are max nr counts, max values, etc. Such values often appear as straight lines, with or without a slope. 
+7. Manual Analysis: iteratively producing Info and adjusting it to achieve the best possible Info. 
+8. Automatic Analysis: advanced Processes to find relevant Info  in the Data that the person performing the Data Transformation is unaware of. This is the remit of advanced Data Science technologies. 
+
+Info
+Is the desired result of the Data Management Process.
+
+Disposal
+The last step is not a mandatory step and does not only apply to Info but also to the various forms of Data. Disposing of Data and/or Info may be required when they have outlived their worth or when for regulatory reasons retaining the data is not mandatory anymore.  Storing data is implied by all above steps, but storage has a cost and that cost may not necessarily be worth the Info that can be obtained from the Data. Disposing of such Data this becomes an economically viable choice.
+
+Data Approach to D2I
+There are various aspects of Data that need be considered before starting to work on the D2I cycle, these considerations are referred to as Data Approach. The Data Approach goes hand in hand with the Info Approach, see below.
+
+The following guidelines help in framing Data Management
+- Think larger than the scope of the Department in the Organisation for which data is needed: the same Data Set(s) are probably needed for other departments
+- Review Source Data exhaustiveness and assure it has all fields required to produce Info before trying to productionalise the Data Management. 
+- Test the D2I cycle on each Source Data and look at the Info that can be generated, and the extent to which the Source Data for that Info is complete or requires enrichment with other Source Data
+- Never assume that *manually* performing the Processes involved in management of Data is worth the effort: it is not in the long run.  Building automation into the Processes should be considered from the very start.
+
+Info Approach to D2I
+An Info approach aims at assuring consistency in the manner in which Info is produced. This in turn drives consistency in the manner in which Data is managed throughout the D2I cycle, see also above.
+
+The following guidelines help producing smart Info.
+- Do not overestimate the skills of the Info Consumer: if the charts become too complex, you may miss out on the opportunity to convey the message.
+- Do not overestimate the time Info Consumers will spend on the Info provided. This combined with the above guidelines means simply put: do not produce too much info! Stick to 2-3 messages and make them appear in the Info.
+- Familiarise yourself with all Chart types, to see what can be done. 
+- For time-series use the same overall period e.g. 2020/2021 across all variables e.g. NBI, Operational Incidents 
+- For Chart types that group Data Points e.g. Bar Charts per month, use as much as possible the same grouping range e.g. all charts monthly.
+- Stick to the same Info Representation for similar variable types i.e. if various Data Sets consist of time series for the same frequency then stick to a single Chart Type as much as possible, e.g. Area Chart for daily, Column Chart for quarterly, etc.
+- Calculate new Data whenever possible to give a sense of perspective. This is particularly helpful for time series e.g. average or median.
+- If data is Panel Data, try using bubble charts, or maximum two charts that show both the time series and the relative size/impact across the instances. 
+- Minimise the use of Tables, rather move them to the Appendix
+- In contradiction to the above, if the data set is small, and simple, do not use a Chart to convey the Data of a Table of small size!
+- Highlight important parts (concentration, deviation, specific trends,..) within the chart rather than using words next to the chart
+- More generally, a chart should be self explanatory. If many words are needed to explain a chart, then the chart does not capture the right Info.
+- Prefer interactive over static Info, but be mindful of providing too many interactive charts. 
+
+
+*********************************************
+# SUPPLIERS
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Suppliers]. On L2 are the Tools:
+
+
+*********************************************
+# LIABILITIES 
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Liabilities]. On L2 are the Tools:
+
+
+*********************************************
+# EQUITY 
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Equity]. On L2 are the Tools:
+
+
+*********************************************
 # FINANCE
 ________________________________________
 ## Overview
@@ -3302,11 +3531,11 @@ The process revolves around the Accounting Equation:
 
 This equation essentially represents the Balance Sheet. Assets are abbreviated A, Liabilities L. Equity is also called Owners Equity or OE (not E as that is used for Expenses, see below)..
 
-The equation thus becomes:
+The equation thus becomes:  
 
 			A = L + OE
 
-OE can be rewritten as:
+OE can be rewritten as:  
 
     OE = Stock + Retained Earnings 
 
@@ -3315,21 +3544,21 @@ Retained Earnings = Revenue - Expenses - Dividends (or Drawings if it is a sole 
 Common Stock, abbreviated as S a.k.a. Contributed Capital, Share Capital = initially invested money by owners in the form of Capital (see below). Mostly this is Cash, but can also be Assets like a building (although that is rare in the case of listed companies). 
 
 Substitution of the first above in the Accounting Equation yields the *Expanded Accounting Equation*:
-
+  
     A = L + S + R - E - D
-
+  
     Assets = Liabilities + Stock + Revenues - Expenses 
-                     - Dividends
+     - Dividends
 
 Or written differently:
 
-    Revenue + Liabilities + Stock 
-    = 
-    Asset + Expenses + Dividends 
+ Revenue + Liabilities + Stock 
+ = 
+ Asset + Expenses + Dividends 
 
 or written differently
 
-    R + L + S =  A + E + D
+ R + L + S =  A + E + D
 
 Revenue, Expense and Dividend accounts are 'temporary' accounts. They need to be closed at the end of each reporting period, a.k.a. Financial Year.
 Assets, Liabilities and Equity accounts are 'permanent' accounts. The ending balances in these accounts determine the starting balance as the start of the next Financial Year. 
@@ -3349,34 +3578,34 @@ Depending on the accounts associated to the Dr and Cr it will be construed as an
 Some examples:
 
 Sale of goods produced and paid in Cash
-Dr Cash            934.50       # asset increase
-    Cr Sales           934.50   # revenue increase
+Dr Cash   934.50       # asset increase
+ Cr Sales   934.50   # revenue increase
 
 Purchase of food 
-Dr Food          120.25        # expense increase
-    Cr Cash          120.25     # asset decrease
+Dr Food   120.25        # expense increase
+ Cr Cash   120.25     # asset decrease
 
 Investment in an asset 
-Dr fixed asset   450.00       # asset increase
-   Cr cash                450.00  # asset decrease
+Dr fixed asset 450.00       # asset increase
+ Cr cash    450.00  # asset decrease
 
 Purchase of pens on credit card (a form of Payables account, a liability)
-Dr office supplies 23.20     # expense increase
-    Cr credit card       23.20  # liability increase
+Dr office supplies 23.20     # expense increase
+    Cr credit card   23.20  # liability increase
 
 Monthly credit card payment
-Dr credit card  230.00       # liability decreased
-    Cr cash            230.00    # cash has decreased
+Dr credit card 230.00       # liability decreased
+    Cr cash    230.00    # cash has decreased
 
 ### Book Keeping Ledger
 Whereas Journal entries show the use of accounts scattered across a single place (the Journal) but with details of the transaction, the Ledger shows each account with all the Dr and Cr to that account and thus the net result. They tend to be shown in so called T accounts in paper versions with the Dr on the left and the Cr on the right side e.g. for the cash account in above trasnactions:
 
-             Cash
+   Cash
 _________________
-934.50    |     
-                 |    120.25
-                 |    450.00
-                 |
+934.50 |     
+    |    120.25
+    |    450.00
+    |
 
 ### Book Keeping Process 
 The bookkeeping process has specific steps to yield the Financial Statements for Financial Reporting, see next section. 
@@ -3420,20 +3649,20 @@ Provisions are amounts set aside to meet *expected* losses or expenses. So both 
 The journal entries would be the following:
 
 Reserve for a future cost of fixed asset in M USD
-Dr Expense    123.00      # earnings decreased
-   Cr Reserve      123.00   # increase of reserve
+Dr Expense 123.00      # earnings decreased
+   Cr Reserve  123.00   # increase of reserve
 
 Provision
-Dr Expense       123.00  
-    Cr Provision      123.00
+Dr Expense  123.00  
+ Cr Provision  123.00
 
 Once the expense for which a Reserve was made has been made, things get reversed. For example if the final cost of the fixed asset turned out to be 120 M USD two years later we get:
 
-Dr Fixed asset 120. 00      # actual value of asset
-    Cr Cash             120.00  # paid for in cash
+Dr Fixed asset 120. 00      # actual value of asset
+ Cr Cash    120.00  # paid for in cash
 
-Dr Reserve        123.00      # reversal  
-    Cr Expense     123.00   # reversal 
+Dr Reserve  123.00      # reversal  
+ Cr Expense  123.00   # reversal 
 
 The last transaction is increasing the total profit. Reserves (and provisions) decrease current Profit which means that if profit is high now, the decrease will yield less money to pay dividends from. Similar logic applies to provisions.
 
@@ -3441,12 +3670,12 @@ Note that provisions can be a liability account, or a contra-asset account. A co
 
 Dividends
 Dividends are not counted as an expense but as a reduction of Owner's Equity, specifically reduction in Retained Earnings. They do not appear in the Income Statement but in the Balance Sheet and Cash Flow Statement (if paid in Cash). Of the board approves a 500 dividend payment then record:
-Dr Retained Earnings     500
-  Cr Dividends payable    500
+Dr Retained Earnings 500
+  Cr Dividends payable 500
 
 When payment takes place a month later:
-Dr Dividends Payable  500
-  Cr Cash                         500
+Dr Dividends Payable 500
+  Cr Cash        500
 
 In which Retained Earnings is an Equity account and Dividends Payable is a liability account.
 
@@ -3457,23 +3686,23 @@ Assume a Venture has Assets = 1000 (of which Cash = 0, Buidlings = 1000) , Liabi
 Now at the start of the year we get:
 
 Sales of a product
-Dr Cash 150
-  Cr Sales 150
+Dr Cash 150
+ Cr Sales 150
 
 The total value of Cash = 150
 
 Purchase of an Asset
-Dr Asset 75
-  Cr Cash  75
+Dr Asset 75
+ Cr Cash  75
 
 The total value of Cash = 150 -75 = 75.
 
 At the end of the Book Keeping Process and closing the accounts (no Dividends are paid and there were no Expenses):
 
-Dr Sales 150
-  Cr Retained Earnings 150
+Dr Sales 150
+ Cr Retained Earnings 150
 
-The Venture  ends up with:
+The Venture ends up with:
 A =  1150 (1000 + 150 -75 + 75)
 L = 750
 OE = 400 (250 + 150).
@@ -3512,9 +3741,6 @@ Manufacturer with tax and debt interest:
  - Taxes
     --------------------
    Net Income (Earnings, Net Profit)
-
-Bank with tax and debt interest:
-@@@
 
 In addition to the 3 key documents in the Financial Statement, Key Performance Indicators are calculated as follows:
 
@@ -3597,11 +3823,11 @@ In addition to classifying Costs, one has to quantify them such that they assist
 The Cost-Volume-Profit analysis links the effect of output of an Activity to Revenue and Costs through a linear equation: P = n(R - C) - F 
 
 in which:
-P       = Profit
-n       = nr units
-R       = Revenue per unit
-C       = Cost per unit
-F       = Fixed cost
+P = Profit
+n = nr units
+R = Revenue per unit
+C = Cost per unit
+F = Fixed cost
 R - C = Contribution Margin
 This allows calculating the breakeven i.e. the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
 ________________________________________
@@ -4109,6 +4335,10 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20240107
 - Added reference to the public domain github page
+
+### 20240131
+- Added Operations, Staff, Assets, Suppliers, Liabilities, Equity
+- Added [## Data & Info] under [# ASSETS]
 
 ### Planned
 

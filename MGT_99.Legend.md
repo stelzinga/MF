@@ -431,7 +431,8 @@ Change Goals aim to *improve* Run Goals. The essential Change Goals are:
 i.   gro -> Grow Revenue by adding Clients, Services
 ii.  pro -> Protect existing Revenue at risk of being lost due to a changing Environment;
 iii. sec -> Secure Operations to reduce Risk; and 
-iv. opt -> Optimise Operations to reduce Cost and/or increase Revenue. LP
+iv. opt -> Optimise Operations to reduce Cost and/or increase Revenue. 
+v.  oth -> Placeholder for other Projects.
 
 Goals can, but don't need to, have *Sub-Goals*: *Run Sub-Goals* and *Change Sub-Goals*. It is through Run Sub-Goals within Goal *prd* that Activities can be differentiated by focusing on aspects of the Services and/or Clients that set each Activity apart e.g., Sub-Goal is *prd - Build Car Engines*. Change Sub-Goals refine Change Goals into a detailed *Roadmap* where each Change Sub-Goal reflects a specific theme Management wants to focus on for the current period, mostly a year e.g., *opt - Reduce Cost of Suppliers*. 
 
@@ -1020,6 +1021,7 @@ Change Goals relate to Change Services. Change Goals drive Change Objectives. St
 2. Protect existing Revenue from changes in the Environment (pro);
 3. Secure Operations to reduce Risk (sec); and 
 4. Optimise Operations to reduce Cost/Risk and/or increase Revenue (opt). 
+5. Anything else, placeholder for specific projects not part of above 4 Goals (oth)
 
 #### Sub-Goals
 Sub-Goals are defined for both Run and Change Goals. For the former they regroup Objectives that contribute directly or indirectly to Run Services and thus reflect the Activities in the case of Goal prd. For the latter they are defined as themes Management wants to focus on over a short period of time e.g. 1 yr see [### Tactical Plan]. In the sections below, where *Goal* is mentioned, it can also mean Sub-Goal if one has been defined for a Goal. Change Sub-Goals are often presented in much detail to Stakeholders as part of the Strategy. The definition of Sub-Goals (and changes in Sub-Goals) is done as a result of SWOT. 
@@ -2222,6 +2224,9 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20240121
 - Cleaned up all sections prior to [# PROFILE]
+
+### 20240129
+- Added Goal = oth in [### Goals].
 
 ### Planned
 
