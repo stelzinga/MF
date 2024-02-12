@@ -8,7 +8,6 @@ General
 - Introduction
 - License
 - Information
-- Baseline 
 
 Management Functions 
 - Management
@@ -104,805 +103,70 @@ ________________________________________
 ## URL
 
 ### POLC
-<https://saylordotorg.github.io/text_international-business/s14-05-managing-the-international-bus.html>  
+<https://saylordotorg.github.io/text_international-business/s14-05-managing-the-international-bus.html> 
 
 
 *********************************************
-# BASELINE
-This section has the most commonly used Tools, and not just in relation to Management:
-- PDA
-- Mail
-- Calendar
-- Tasks
-- Notes
-- Contacts
-- Clock
-- Communication Means
-- Face to Face
-- Chat
-- Audio Call
-- Video Call
-- MS Teams
-- OneNote + Outlook
-- Browser
-- Directory Structure
-- Access Anywhere
-- File Historisation
-- Office Suites
-- Calc & Excel
-- Spreadsheet Data Standards
-- MSS
-- MTrack 
+# MANAGEMENT
+Management is the term reflecting the organisation of human capital (Staff) such as to perform the Activities with available Resources (Assets, Suppliers) such as to achieve and optimise the Venture's target of high Revenue, low Cost and low Risk 
 ________________________________________
-## PDA (Framework)
-A Personal Data Assistant (PDA) assists in everyday activities and consists of:
-- Mail:          ad-hoc *exchange* of *information*
-- Calendar: planned *exhange* of *information*
-- Tasks:        planned *work* or *to-do*
-- Notes:      *storage* of *information*
-- Contacts: storage of people (Staff, Suppliers, Clients)
-- Clock:       alarm, reminder for planned *to-do*
-- Chat:         interactive ad-hoc *exchange* of *text*
-- Call:           interactive ad-hoc *exchange* of *voice*
-- Video:       interactive ad-hoc *exchange* of *video*
-- Browser:   source of *information*
-
-A well designed PDA works from different platforms, synching data between them i.e., one can have all the above on a smartphone as well as a laptop (as an app and/or a web interface). Particularly Notes benefit from such *anywhere, anytime* features.
-
-A PDA setup is critical to any modern day person, Managers included. A well organised PDA permits a Manager to operate from nearly anywhere, anytime. 
-Key operational aspects of each PDA item are discussed below.
+## Overview
+This overview shows on the first level the key deliverables as per [MGT: 99.Legend ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same tool can be used for different deliverables:
+- Management Cycle
+    - Eisenhower Matrix 
+    - MC
+    - Governance Matrix 
+- Management Improvement
+    - Skill Inventory
+    - Writing Style 
+    - Style Inventory
+- Planning
+    - Dedicated Planning note
+- Organising
+    - Dedicated Organising note
+- Leading
+    - Dedicated Leading note
+- Controlling 
+    - Dedicated Controlling note
 ________________________________________
-## Mail (Software, Framework)
-Mail is a Communication Means that can also be used for Task Management, see [## Tasks]. 
-
-### Mail Prerequisites
-Configure apps to use *conversation* or *thread* view.
-
-### Mail Folders
-There are 4 standard mailboxes in any mail app:
-- Inbox
-- Drafts
-- Sent
-- Trash
-
-In addition, create following *custom* folders:
-- 1_DoToday  => Mails to action ASAP 
-- 2_DoLater   => Mails to action at one point
-- 3_Delegate => Mails for others to action
-- 4_Delete      => Mails to delete, TBC
-- Done            => Mails processed, nothing left to do
-- Keep            => Mails w/o action, for reference
-- Private        => Work context only, does what it says
-
-NB: 1-4 follow Eisenhower Matrix principles, see [## Eisenhower Matrix].
-NB: if desired one can create sub-folders in folders 1-4. For example dedicated folders for specific staff in 3_Delegate, or temporary folders in 2_DoLater for mini-projects, etc.
-NB: Custom folder *Done* may be a system folder (this is the case in Gmail) in which case name it AllDone.
-
-### Mail Procedure
-1. In *Inbox*: read each mail, do not answer directly (unless a yes/no reply suffices), and move it to *1_DoToday*, *Done* or *Trash*.
-2. In *1_DoToday*: process each mail as follows:
-    - Read mail in detail
-    - If reply + no follow up: move mail to *Done*
-    - If reply + follow up by myself/others:
-        - Move mail to *2_DoLater*
-        - From *Sent* move reply to *2_DoLater*
-        - NB: if follow up by others a dependency exists
-    - If reply + delegate to others:
-        - Move mail to *3_Delegate*
-        - From *Sent* move reply to *3_Delegate*
-    - If no reply now + follow up by myself:
-        - Move mail to *2_DoLater*
-    - If no reply + delegate to others
-        - Move mail to *3_Delegate*
-    - If no reply + no follow up 
-        - Move mail to *Done*
-3. In *2_DoLater*: process mails as follows:
-    - Read mail
-    - If can wait: leave mail
-    - If needs action today: move to *1_DoToday*
-    - NB: should be reviewed at least once a week
-4. In *3_Delegate*: process mails as follows:
-    - Read mail in reverse time order (!)
-    - If action has been completed:
-        - Move entire conversation to *Done*
-    - Chase delegates if needed after which:
-        - From *Sent* drag 'n drop mail to *3_Delegate*
-    - NB: should be reviewed at least once a week
-5. In *4_Delete* and verify if mail can be deleted
-     - If yes, then move to *Trash*
-     - If no, then move to appropriate custom folder.
-     - NB: This custom folder is used rarely.
-
-After the last step the cycle starts over. It does not need to be performed in that order. If above is not followed systematically, the result may be mail threads in different folders.
-
-There is a difference between *2_DoLater* where a mail was sent to someone else (dependency) and *3_Delegate*. In the former, one needs to complete a Process, but something is needed from someone else, before proceeding. In the latter, one delegates the Process(es) to someone else entirely and the only follow up is chasing, see step 4.
-
-### Mail Rules (Software)
-Mail rules are a feature of Mail apps that assure certain mails are processed automatically using the Folders set up above. A backup of rules is kept here: [mgt_tools_mail.xlsx]. This is mainly relevant if the amount of mail is very high due to automated mails. 
-
-The following *types* of Rules exist. The part before '->' is the suggested name of the Rule in the mail app:
-- MOVE: From -> move mail to Folder = Done if sent by a specific email address OR part of it.
-- MOVE: To: Includes Me ->
-- MOVE: Subject -> move mail to Folder = Done if Subject contains specific words.
-- MOVE: Subject + Body -> move mail to Folder = Done if: i) Subject contains specific words AND ii) Body contains specific words. 
-- MOVE: To: NOT me + Subject -> move mail to Folder = Done if i) I am not in To: (Cc or Bcc) AND ii) Subject contains specific words. 
-- DELETE: From -> delete if sent by a specific email address OR part of it.
-- DELETE: Subject -> delete if Subject contains specific words.
-- DELETE IF SENT BY ME -> for cases where one is member of one or more distribution lists: if one sends a mail to such DL the mail will arrive in the Inbox. This filter looks at two criteria: Sent from oneself AND sent to a Group.
-
-### Mail Software
-There are various Mail apps. The following have been tested extensively within the Management Framework:
-- Gmail app (Android, iPhone, web browser)
-- Outlook app (Windows, Android, iPhone)
-
-### Gmail
-Google mail or Gmail is the default mail app of Google.
-
-#### Gmail Settings 
-In addition to the above Mail Folders, configure the app as follows (rest leave default):
-- General settings - Conversation view = Yes
-- General settings - Conversation list density = Compact 
-- General settings - confirm before archiving= Yes
-
-#### Gmail Functionality
-In addition to above features, it is possible to create a Task in the current active Task List from a mail in Gmail.
-
-### Outlook Mail
-In outlook there are functional links between the app and:
-- Calendar (integrated)
-- OneNote app (separate, see below)
-- MS Teams app (separate, see below)
-
-#### Useful Settings
-In addition to the folder structure mentioned above, the following is a very useful feature (Outlook 360):
-
-Rule to show mails with oneself in To: as green (or any other colour):
-- In View select "View Settings"
-- Select " Conditional Formatting"
-- Select 'Add'
-- Create a name and select a Font (use Green)
-- Select 'Condition'
-- In dialogue tab Message tick "Where I am" and select "on the "To" line with other people". In tab "More Choices" tick "Only items that are:" and select 'unread' 
-________________________________________
-## Calendar (Software, Framework)
-A Calendar is used to:
-1. Book meetings with others
-2. Book meetings with self (so others cannot book)
-3. Set Reminders (some calendars)
-4. Create Tasks (some Calendars)
-5. Maintain Team Calendar (if linked to Group Mailbox)
-
-### Calendar Procedures
-Meetings can be one-off or recurring. Use the following:
-1. Define workday hours i.e. mostly 06h00-18h00
-2. For each workday reserve hourly slots as follows:
-    - Available for meeting, show as free, no notification 
-    - Prefer no meeting, show as tentative, no notification 
-    - Work on xxx in which xxx is a Process, show busy
-3. Use calendar time wisely:
-    - 1:1 meetings 30 mins max
-    - Other meetings 60 min max
-
-### Calendar Software
-The following apps have been tested extensively :
-- Google Calendar app (Android, web browser)
-- Work: Outlook Calendar
-
-### Google Calendar
-This comes in a web and an app version (Android, iPhone). The former has built in Tasks (the standalone Tasks web app disappeared). It links into Google Contacts to display  Birthdays (optional in Google Calendar settings). 
-NB: Birthdays do not generate Notifications!  
-
-#### Google Calendar Settings
-Configure as follows (rest leave defaults):
-- first.last@gmail.com 
-    - Events = tick
-    - Tasks = tick
-    - Reminders = tick
-- My Calendar
-    - My Calendar = untick
-- Birthdays = tick
-- Holidays = tick
-    - Countries = ones one wants to see public holidays for  
-- General settings - start of week = Monday
-- General settings - show week nr = Yes 
-- Color Events = Peacock
-- Color Tasks = Pumpkin
-- Color Birthdays = Wisteria 
-- Color Holidays = Blueberry
-NB: Colors and Countries of Holidays are Calendar-wide (web, apps,) and can be defined according to preference.
-
-#### Google Calendar Event
-Event is Google's name for a meeting and has these properties:
-- Name (mandatory)
-- Date (mandatory) time (optional, i.e. all day Event)
-- Recurring (optional)
-- Details (optional)
-- Mandatory invitees (optional)
-- Optional invitees (optional, default none)
-- Google Meet (optional, default none)
-- Notification (optional, multiple entries possible)
-- Attachment (optional)
-- Location (optional)
-- Timezone (optional)
-
-#### Google Calendar Task
-See under [### Google Tasks]. 
-NB: For Tasks created in Google Calendar the Due Date is mandatory unlike Tasks created in Google Tasks!  
-
-#### Google Calendar Reminder 
-A Reminder is a simplified version of a Task. It has the following details:
-- Name (mandatory)
-- Due date (optional) time (optional)
-- Repetitive (optional)
-- Status (mandatory, default Not Done)
-
-A key difference between a Reminder and Task is that the latter can have Details unlike a Reminder. The display is also different: a Task with a Due Date Remains on that Date, i.e. if you do not complete the Task on Due Date, it shows the following Day as a 'Pending Task' (whilst also still showing on the Due Date', unlike Reminders, which keep 'moving' to each new day until 'Done'. Because there is no fundamental difference in the ability to manage to-dos between Tasks and Reminders, the former is preferred because it can have Details. 
-
-#### Google Calendar Backup
-TBC
-
-#### Outlook Calendar
-Outlook Calendar is embedded in the Outlook app. 
-
-There is a relationship between OneNote and Outlook, see [## OneNote + Outlook]. 
-
-#### Outlook Calendar Appointment
-Appointment is Outlook's name for a Meeting with these properties:
-- Name (mandatory)
-- Date (mandatory) time (optional, i.e. all day Event)
-- Recurring (optional)
-- Details (optional)
-- Mandatory invitees (optional, none blocks the calendar)
-- Optional invitees (optional, default none)
-- Google Meet (optional, default none)
-- Notification (optional, multiple entries possible)
-- Attachment (optional)
-- Location (optional)
-- Timezone (optional)
-________________________________________
-## Tasks (Software)
-Tasks are short actions, with or without a due date and with a status (open, started, completed etc). See [## Task Definition] for details on how to record Tasks in Notes.
-
-### Tasks Software
-There are various apps. The following have been tested extensively within the Management Framework:
-- Google Tasks (Android app)
-- Outlook Tasks (Windows)
-
-### Google Tasks
-Google Tasks is a dedicated app for the management of Tasks. It is simple and does what it needs to do. Sharing, or Assigning Tasks is not possible with Google Tasks.
-
-In Google there are various ways to manage Tasks:
-- From Google Calendar, but only Tasks with a Due Date!
-- From Google Tasks
-- From a mail in Gmail
-
-NB: Google Tasks is not available through a web page, instead it sits within the Gmail web interface.
-
-#### Google Tasks Properties 
-A Task in Google has the following properties:
-- Task List it belongs to (mandatory, system defaulted)
-- Name (mandatory)
-- Due date (optional) time (optional)
-- Repetitive (optional)
-- Details (optional)
-- Status (mandatory, default Not Completed)
-
-The Repetitive feature has various options inlcuding a specific date or last day of Month, third Sunday every 3 months, etc.
-Modifying a Repetitive Task in the middle of occurrences will give the option to modify: current task, current & following tasks, all tasks (including already completed instances of repetitive Tasks!). 
-
-Repetitive tasks can be completed. This is displayed differently in Google Tasks and Google Calendar. The former will show the Task when the recurring day kicks in. The later will show the Task on all recurring days. A Completed Task disappears from the Task List and it will be with shown with Strike-Through font in Google Calendar. If a Task is not completed, it will not create a duplicate in the Task List. The Completed Items does not show multiple instances of Completed Tasks. So effectively, the only way to see if a Task was completed in the past is to look at Google Calendar and check whether the Task is with don't Strike-Through.
-
-#### Google Tasks Lists
-Tasks are shown in Task Lists. Each Task List has a name, the default is the name of the Google Account but can be changed. They are sorted in the order they are created and this cannot be changed (weakness). Tasks within Task Lists can be sorted by name or date. The preferred option is by date, which will show Tasks as follows (if there is a -Instance of a recurring- Task that fits the criteria):
-- Past: overdue.
-- Today: due today
-- Tomorrow: due tomorrow
-- Any date: due at date
-- No due date: without due date 
-- Completed: completed 
-
-#### Google Tasks App Icon
-The App Icon will show notification badge of due and overdue Tasks.
-
-#### Google Tasks Backup
-It is not possible to backup Tasks. TBC.
-
-### Outlook Tasks
-Outlook Tasks is embedded within the Outlook app. 
-
-#### Outlook Tasks Settings
-All settings can be kept as is. 
-
-#### Outlook Tasks Properties
-Outlook Tasks is richer than Google Tasks, which makes it very useful for a more complex work context. It has the following properties:
-- Task List it belongs to (mandatory, system defaulted)
-- Name (mandatory)
-- Due date (optional) time (optional)
-- Start Date (optional), time (optional)
-- Date Completed (automatic)
-- Recurrence (optional)
-- Details (optional)
-- Status (mandatory, several status, default Not Started)
-- % Completed (optional)
-- Date Completed (optional)
-- Total work in hours (optional)
-- Actual work in hours (optional)
-- Reminder date (optional), time (optional)
- 
-Recurring has various options inlcuding a specific date or last day of the Month, third Sunday every 3 months, etc.
-
-Modifying a Repetitive Task in the middle of occurrences will *not* give the option to modify: current task, current & following tasks, all tasks (including already completed instances of repetitive Tasks! This makes keeping notes on Recurring Tasks a useless exercise as they are not persisted across *all* instances. 
-
-#### Outlook Task LIsts
-Tasks in outlook are shown in the Default list linked to the user account.  There are many manners to display the Tasks. The default is fine. It is useful to add some columns. The standard categories are as follows:
-- No due date: without due date 
-- Today: due today and past tasks that are overdue.
-- Next week: due next week 
-- This month: anythng further in this month
-- Later: anyhting after current month
-
-The grouping by main time periods (next week, month) takes away clutter for Due Dates that are only a few days apart in the future.
-________________________________________
-## Notes (Software, Framework)
-Notes are used to collect information to re-use later. Broadly speaking there are two types of Notes:
-- Free form
-- Bullet Journalling or bujo
-
-The former is simply jotting down whatever, and however one wants. The latter is detailed in [## BuJo]. The main difference is that bujo, and it's digital version BuJo *also* embeds the process of Planning and Controlling, whereas the former does not necessarily.
-
-The main advantage of notes in general is the incredible flexibility in managing work. This is examplified in [## BuJo] and [## Task Notation].
-
-### Note Name
-See [MGT: 99.Legend ## Note Name Format].
-
-### Note Categories
-See [MGT: 99.Legend ## Note Categories].
-
-### Notes Software
-The following have been tested extensively :
-- Standard Notes
-- OneNote
-
-They are discussed below.
-
-### Standard Notes
-Standard Notes or S. Notes is a free app that has encryption as it's main differentiating factor. The specification paper explains how encryption works:
-<https://github.com/standardnotes/app/blob/main/packages/snjs/specification.md>
-
-#### Standard Notes Properties
-Notes in S. Notes have the following properties. 
-- Views: all notes, archived, trash, starred 
-- Sorting within View: by name, date 
-- Tags: should be same as Note Category, see above. S. Notes automatically pre-fixes with '#'. Multiple tags are allowed. Parent -child tags are possible.
-- Attributes:
-    - Star: add the Star tag to display in View Star
-    - Archive: move note to View Archived
-    - Prevent editing: make note read-only
-    - Pin: pin note at the top of Active list
-    - Protect: require password to read content of note
-    - Move to Trash: what it says
-     NB: Notes can have multiple Attributes.
-- Editors: Plain editor is default, other editors are possible.  
-- Encryption: in storage, transit to sync server. Access to app can be protected with password/biometrics. Once in the app, access to notes with Tag 'Protect' requires typing password/biometric, see [### Note Attributes].
-- Internal links: Supported, but referencing is as per [MGT: 99.Legend ## Note Reference]. 
-- URLs: work if the OS it runs on can interpret it e.g. Android.
-- Tables: supported using Secure Spreadsheets Editor which changes the *entire* note into a spreadsheet. 
-
-The features in S. Notes are increasing rapidly and various features have been added, including file encryption! 
-
-### OneNote
-A note in OneNote is called a *Page* but is referred to as a note here. OneNote is functionally richer than S.Notes except Security / Encryption, see below. 
-
-### OneNote Configuration 
-OneNote allows a more complex hierarchy of notes in so called *OneNote Sections*. For work create the following sections:
-- Protected: see [### Security / Encryption]
-- One section called Active for all active notes OR one section per Goal
-- Archived: see [### Note Attributes]
-
-OneNote sections are called *View* here.
-
-#### OneNote Properties
-OneNote notes have the following properties:
-- Tags: used to tag similar items across different notes. 
-- Sub-pages: support for page/sub-page 
-- Attributes: not the same attributes as S.Notes. To simulate the same behavior as for S.Notes Archive attribute a Section called Archived is created. 
-- Pinning: does not exist, but one can move a note to any location within a list of notes.
-- Encryption: password protection and encryption of a Section, but not individual Page.
-NB: technically the level of, and implementation of, encryption in S.Notes is superior to OneNote. 
-- Internal links: supported i.e. can click on such link and it will jump to the link in *other* notes, URLs etc. as well as sections *within* other notes. This can be done by right-click and "Copy Link to Page" which can then be pasted in a note. Similarly, one can create a link to a section in a note, provided that that section has been made a header level 1, 2, 3, etc. The use of many notes may benefit from internal referencing logic. Referencing other notes or section in notes is managed using logic described in [MGT: 99.Legend ## Note Reference].
-- Tables; OneNote supports tables 
-- Drawing: on touchscreen devices it is possible to draw
-- Handwriting: tbc
-- Interaction: OneNote can interact with Outlook see [## OneNote + Outlook].
-
-### Note Archiving (Procedure)
-Archiving is a Process applied to data deemed obsolete because either it is Not-active (data not relevant) or  Historic (reflecting past and won't be used in future).
-Once a note, or content within a note, is ready to be archived the following actions need to be performed.
-- Archive note (if that functionality exists)
-- Move note to Section 'Archived' (if above does not exist)
-
-### Notes in MSS
-MSS, see below, has a special implementation of Notes. 
-________________________________________
-## Contacts (Software, Framework)
-Contacts is a Tool to maintain details of people.
-
-### Contacts Software
-The following apps been tested extensively:
-- Google Contacts 
-- Outlook Contacts
-
-### Google Contacts
-Google Contacts is linked to other Google apps. 
-
-#### Google Contacts Settings
-In the app configure as follows (rest leave defaults):
-- Sort by: First name
-- Name format: First name First 
-
-### Outlook Contacts
-Very similar to Google Contacts. 
-________________________________________
-## Clock (Software)
-A clock is used for:
-- Alarm (mostly to wake up)
-- Reminders (essentially one-of alarms)
-- Stopwatch
-- Timer (countdown)
-- World Times
-________________________________________
-## Communication Means (Framework)
-There exist various means of communication:
-- Face-to-face
-- Mail
-- Chat 
-- Call (Audio/Video)
-- Other (projectors, files, post-its, white-boards etc.)
-
-They are each discussed below, and can also be referred to in aggregate. Details of how to communicate in writing are in [## Writing Style].
-________________________________________
-## Face-to-face (Framework)
-Face-to-face meetings are *interactive*, and in an era of Video Calls they do not even require physical presence. Face-to-face has two advantages
-1. Non-verbal communication e.g. body language, which even with video calls is not as complete
-2. Collaboration on say a whiteboard, is much easier in a face-to-face meeting
-________________________________________
-## Chat (Software)
-Chats are *interactive* means of communication. The following apps have been tested extensively:
-- WhatsApp
-- Signal
-- Skype (being decomissioned by Microsoft)
-- Symphony
-- MS Teams, see [## MS Teams] below
-________________________________________
-## Audio Call (Software)
-Most audio calls are done through some form of software. The following have been tested extensively:
-- Mobile phone audio call
-- WhatsApp audio call (VoIP)
-- Signal audio call (VoIP)
-- Skype audio call (VoIP)
-- MS Teams audio call,  (VoIP) see also [## MS Teams] 
-
-Most apps use Voice over IP (VoIP) i.e. they *require* an internet connection.
-________________________________________
-## Video Calls (Software)
-Video Calls are an advanced means of communication: they embed presentation functions. The following apps have been tested extensively:
-- Google Meet
-- WhatsApp Video Call
-- Signal Video Call
-- WebEx Meetings
-- Skype Video Call
-- MS Teams Video Call, see [## MS Teams]
-
-Google Meet and WebEx have limited possibilities without paid subscription.    
-________________________________________
-## MS Teams (Software)
-MS Teams or Teams is a "Business Communication Platform" owned by Miscroft and part of the Microsoft Office suite, see [## Office Suites]. It replaces various tools previously under the Microsoft umbrella: JIVE, Skype, Sharepoint (Sharepoint remains underlying technology for files in MS Teams).
-
-### MS Teams Basics
-MS Teams has various features key for collaborative work:
-- Search
-- Chat
-- Phone
-- Calendar
-- Teams
-
-See also:
-<https://www.techrepublic.com/article/microsoft-teams-101-a-guide-for-beginners-and-tips-for-experienced-users>
-
-### Team
-A *Team* is a container of Staff. Anyone with access to MS Teams within the same organisation can be invited into one or more Teams. The person creating a Team is the *Owner* and other owners can be added. One ore more users, called *Members* have to be added for the Team to be a Team. The Team itself does not allow any collaboration: it needs a *Channel* for this. One can run *Analytics* on a team, see below.
-
-### Channel
-A Channel is the conduit of collaboration within a Team. There are two types: 
-- Standard: inherits Members from the Team
-- Private: requires specific Members from the Team to be given access. By default the "General" Channel (Type = Standard) is created when creating a Team. Each Channel has the features discussed below:
-
-### Search
-Searches for any match acros Chats, Files, Teams, and Channels.
-
-### Chat
-Chat or Conversation or Messages (in Search) or Posts (in Channels) is what it says: it allows interactive written communciation. Notifications of Chats are configureable, see below. The Chat app (sidebar) lists existing Chats across all types:
-- Part of a Channel
-- User to User
-- Part of a Calendar Entry
-
-### Files
-One can store files in Channels. If a file is an MS Office file type it can be opened within MS Teams or by using the associated desktop application (this can be defaulted in Settings). A shared file displays initials of others working in it. A file can also be made into a Tab faciliating the access.
-
-### Calendar
-Meetings booked in Outlook will appear in MS Teams's Calendar. It is possible to use the Chat feature within a meeting, thus addressing all invitees of the Meeting, including those who are not actually connected yet.
-By double clicking on a meeting, many options are made available:
-- Scheduling Assistant
-- Attendance (history of who attended and how long)
-- Breakout Rooms
-
-### Wiki
-Channels have a default structure for Wiki pages. 
- 
-### Notification
-Notifications in MS teams appear in the notification window of the underlying operating system. Depending on that system they can be muted or not. 
-
-### Phone
-Phone is an app. It is not specific to a Team or Channel. It includes Video Call if a camera is present.
-
-### Analytics
-Analytics provide stats on Teams, Channels, File size, Active users, etc. 
-________________________________________
-## OneNote + Outlook (Procedure)
-
-### Meeting Notes from OneNote
-This sets up a OneNote page for an Outlook meeting:
-- Create a OneNote Page (or go to an existing one)
-- Click "Meeting Details" in the "Home" tab
-- Select meeting for which to write notes (option at bottom of drop down)
-- Result: a OneNote page linked to a Meeting pre-filled with all Meeting details and a section ready with "Notes" underneath those details. 
-NB: OneNote displays the full list of participants which can be ticked as present or not.
-
-### Meeting Notes from Outlook
-Similar as above, but from Outlook Calendar directly:
-- On an Outlook Calendar entry right-click and select "Meeting Notes" 
-- Outlook proposes "Take notes on your own", select it
-- Select a place to create the note (configurable in OneNote options, see below).
-- Result: same as above.
-
-### Configuring OneNote + Outlook
-In OneNote define where to create OneNote pages from Outlook:
-- In "File" select "Options" 
-- Select "Send to OneNote" on left side
-- for "Meeting Notes" set the desired location.
-
-### Sending Meeting minutes
-From above OneNote page with a linked meeting it is very easy to send meeting minutes i.e. the notes:
-- Click "Email Page"
-- Result: a prepared Outlook Mail to all participants of the meeting. Just hit send.
-________________________________________
-## Browser (software)
-A browser gives access to the internet and thus to a wide range of information. It is considered a defacto app on any smartphone. There are various apps that all perform similarly: Chrome, Firefox, Edge. 
-________________________________________
-## Directory Structure (Framework)
-The Directory Structure a.k.a. Folder Structure on Windows mimics the MGT: xxx note structure. The root directory used within MGT: xxx structure is given as '~' and is as follows:
-- Windows: ~   -> C:\Users\MyLogin\
-- Linux:        ~   -> $HOME/MyData/  (or similar)
-- Windows: ~   -> (onedrive)/MyData/
-
-When Linux home directory is meant the $HOME environment variable will be used. MacOS uses similar logic.
-
-The logic for files and directories is as follows:
-- Small caps only (except if an acronym e.g. PDA)
-- Use '_' instead of ':' 
-- Use '_' instead of ' ' i.e. space
-- File name = path from ~ all the way to file with "/", "\" replaced with "_"
-- Technical directories start with '_'
-- Directories in 'mgt': L1 sections in [MGT: Planning]
-- Sub-directories of L1 in 'mgt': L2 sections in same note
-
-Below is an example of a folder structure aligned to the Profile:
-~/mgt/
-    01.planning/
-    02.organising/
-    03.leading/
-    04.controlling/
-    10.operations/
-    11.staff/
-    12.assets/
-    13.suppliers/
-    20.services/
-    30.clients/
-    40.environment/
-    51.finance/
-    52.HR/
-    ....
-    ....
-~/ovh/
-~/prd/
-~/opt/
-~/ovs/
-~/gro/
-~/pro/
-~/sec/
-________________________________________
-## Access Anywhere (Framework)
-By design, the setup of any Manager should make the Manager near independent of the hardware used. In other words, the Manager should have a setup that can be recreated easily on any device.
-
-The concepts involved in this are the following:
-- All Data used is digital
-- Data is backed up and that throughout time, see [## File Historisation]
-- Access to data is agnostic of the infrastucture used
-
-The latter is not always possible: certain software for example is compiled only for a specific platform.  
-
-### Desktop / Shortcuts
-It is advisable to never store files on the desktop (a  feature of most user interfaces on laptops and PCs).
-Shortcuts to applications, should be stored on a network based drive like Network Folder or OneDrive. This assures that even if a new device is obtained, all Shortcuts are still there.  
-________________________________________
-## File Historisation (Framework)
-File Historisation a.k.a. file backup assures access to data over time. 
- 
-### Backup Method
-Depending on the context, one has to either build a backup system, purchase software that does such backup. EIther way, the backup has to be relevant (not all files may need to be backed up), frequent (files may be changed regularly), and to a destination that is independent of the source of the files i.e. not on the same drive or even laptop. 
-
-### Windows script - Individual Files
-@@@ move below to githib
-
-it contains 
-two files: archive.ps1 and copy.cmd.
-The latter executes the former. Launch the copy.cmd for example every hour from Windows Task Scheduler. Obviously, it is possible to use the same for different files, not just mgt.xlsx file.
-The logic of copy.cmd is to create a day, month and year version. It will overwrite each file for the same day, same month and same year e.g. if the file is run 20 times on day 1 of the month there will be only the last copy of the last run for month 01. The day 01 backup on Jan will be overwritten a month later on Feb 01. The month Jan file will thus be valid for a year and overwritten every day in the month of Jan the year after. Year files after 31 Dec remain.
-________________________________________
-## Office Suites (Software)
-Office Suites are multiple, integrated, applications offering *office* functionality. Each apps can integrate with one or more other apps of the same suite. The following suites have been tested extensively within the Management Framework:
-
-### Google Suite
-Google suite is online and works through most browsers, and contains:
-- Google Docs
-- Google Sheets
-- Google Slides
-- Google Drawings
-- Google Forms
-- Google Sites
-- Google Keep (Notes)
-
-The default file format is Open Document Format (same as Libreoffice). Companies that choose this suite will have a segregated environment within Google ecosystem.
-
-### Microsoft Office
-Microsoft Office is a proprietary software that runs on MacOS and Windows. One of the greatest features of MS is the ability to write code within each of the apps through VBA (Visual Basic for Applications). It contains:
-- Microsoft Word 
-- Microsoft Excel, see [## Calc & Excel]
-- Microsoft Powerpoint
-- Microsoft OneNote, see [## OneNote]
-- Microsoft Outlook
-- Microsoft OneDrive
-- Microsoft Teams, see [## MS Teams]
-- Microsoft Access
-
-The file format is Office Open xml. 
-
-### LibreOffice
-LibreOffice (no space) is a free and open-source office suite owned by The Document Foundation available on Windows, MacOS and Linux. It has the following features:
-- Writer (word processor)
-- Calc (spreadsheets), see [## Calc & Excel]
-- Impress (presentation)
-- Draw (drawing)
-- Math (math formula editing)
-- Base (database management)
-
-The default file format is Open Document Format (ODF) but it also supports the Microsoft Office Open XML format.
-
-Libre Office Fonts are limited. This is because certain fonts like Arial and Calibra are licensed. There are, however, equivalents. Just like the Liberation fonts are metrically-compatible with Times New Roman (Liberation Serif), Arial (Liberation Sans), and Courier (Liberation Mono), the Carlito 78 and Caladea 16 fonts (both now provided with LO) are metrically-compatible with Calibri and Cambria respectively. This means that if one uses Carlito instead of Calibri, a document will have the same layout as if one used Calibri. 
-________________________________________
-## Calc & Excel  (Software)
-Calc and Excel are spreadsheet apps. Both are used in MSS, see [## MSS].
-
-### Features Calc
-- Manufacturer = LibreOffice
-- License = Freeware 
-- File Extension = *.ods
-- File Format = Open Document Format, i.e. not proprietary
-- Max nr chars in a cell = no programmed limit
-- Max nr items in Auto-filter = unknown
-
-### Features Excel
-- Manufacturer = Microsoft
-- License = Proprietary
-- File Extension = *.xlsx 
-- File format = Office Open xml i.e. not proprietary
-- Max nr chars in a cell = 32 767 (equivalent to 7x A4 pages filled with Arial size 10).
-- Max nr items in Auto-filter = 10 000
-
-Because Microsoft uses an open format for file content other apps can open/save such files, a feature used to maintain MSS across perso and work.
-VBA code in MS does not work natively in LibreOffice. LibreOffice supports embedded as well as external Python. 
-________________________________________
-## Spreadsheet Data Standards (Framework)
-The following standards assure data in Calc/Exel spreadsheets is easy to read and to maintain. They have been defined for these sheets: Readme, User Data, Referential Data, Reporting Data and Static Data.
-
-### Readme
-Each spreadhseet should have a Sheet = Readme. The tab color = light grey and the sheet should contain:
-- Introduction -> description of purpose of file
-- Procedures -> list of procedures to apply (if applicable)
-- Sheets -> description of each Sheet 
-- Versioning -> list of versions of the file
-
-### User Data
-Each file has one or more sheets of type User Data which have data maintained over time. Tab color = black, blue, green (one can choose). User Data sheets contain data and functionality. 
-
-#### Header Rows
-The first *four* rows of the sheet contain, in below order:
-- Explanation Row: acts as an "online help" for row = Header Name.
-    - Vertical alignment = top
-    - Row height = as high as needed
-    - Background color = grey
-    - Font color = white
-    - Font size = 7
-    - Row = Collapsed or Grouped
-    - Content = static
-- Spare Row: can be used for Thresholds used within the column, Formulas, Week, Month, Quarter indicators etc. Properties:
-    - Same properties as above, *but*
-    - Content = dynamic
-- Header Name: name of *type* of data in column.  
-    - Vertical alignment = bottom
-    - Row height = as high as needed
-    - Background color = grey
-    - Font = white
-    - Font size = 10
-    - Content = static
-- Filter Row a.k.a. Sort Row: a row with for each cell a pointer to Header Name. This helps making Filter Dialogue arrow small and it avoids the sort arrow taking up space for small Header Names. 
-    - Vertical alignment = bottom
-    - Row height = half of normal size
-    - Background color = grey
-    - Font color = white
-    - Font size = 10
-    - Content = formula, pointing to cell above
-
-NB: it is possible to have top and bottom sections in a single sheet. The top section can show stats on the data in the bottom section. Both sections should be setup with the Header Rows.
-
-#### Columns
-The first column has name A (column A) and the last column has name Z. New columns are inserted between A and Z. This assures Sorting (Filtering) is always active. Sorting is done from Column A to Z and from Sort Row (included) downwards to the end of the Data Rows. 
-
-#### Data Rows
-The rows below the fourth row (Sort Row) are the *Data Rows*:
-- Background color = white
-- Row height = fixed standard height, not dynamic 
-- Vertical alignment = top
-- Borders = black outside and inside
-- Nr Rows is a few more than the number of rows for which there is data (allows adding more data later). 
-- Cell Text: 
-    - Manual text:
-        - Font color = black (default)
-        - Font size = 10
-    - Formula text
-        - Font color = light grey
-        - Font size = 10
-- Content = dynamic and static, depending on Column
-
-### Bottom Row
-All Data in a Data Sheet resides between the Sort Row and the Bottom Row. The rows below this row have no formatting i.e. are all white and are not part of Filtering.
-
-#### Formulas
-Performance enhancing guidelines:
-- Use INDEX()+MATCH() i/o VLOOKUP()
-- Use actual array i/o full column/rows for arrays e.g. H3:H190 i/o H:H
-- The size of a vertical array is from header row (included) to one row below the data rows i.e. one row below the last bordered row (assures rows inserted at the bottom will be part of the new array!)
-- When formulas become too long use helper columns with internediate formulas
-
-### Referential Data
-Referential Data sheets contain data copied from other sources and is manipulated /enriched within the sheet or used within a User Data sheet. Tab color = yellow.
-
-### Reporting Data
-Reporting Data sheets have pivot tables based on User Data sheets or Referential Data sheets. Tab color = white.
-
-### Static Data
-Static Data contains data that does not change *and* is used in User Data and Referential Data sheets. Static Data sheets have a Red tab color. Static Data consists of:
-- Drop down lists for Data Validation which can be used in User Data sheets
-- Lookup lists e.g. Monday = 1, Tuesday = 2 etc.
-- Combination of the above 
+## Eisenhower Matrix (Framework)
+The Eisenhower Matrix or Eisenhower Decision Tree or Eisenhower Box is a decision tool to plan work on short term. The decision tree is based on two dimensions of Tasks: *urgency* and *importance*. Important/Unimportant is defined as: impact on the Venture is high/low. Urgent/non-urgent is defined as: time to market is low/high
+  
+These two dimensions yield four combinations a.k.a. quadrants, as follows:
+1. Urgent, important: Do Task Now.
+2. Important, not urgent: Do Task Later.
+3. Urgent, not important: Delegate Task to someone
+4. Neither urgent, nor important: Delete Task altogether.
+
+The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition].
+
+The above decision tree refers to two concepts that are open to interpretation: important and urgent. 
+
+Important
+Something is important for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *urgent*-:
+- Cannot be delegated (simply because the right skills are not there right now, the training would take too much time given the urgency) and/or
+- Has a lot of attention from senior or critical stakeholders (internal or external)
+- The completion of the task has a direct impact on Revenues, Cost or Risk
+
+Urgent
+Something is urgent for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *Important*-:
+- Not performing the task soon has a knock on effect on several other tasks
+- There is a deadline imposed by a senior or critical stakeholder (internal or external)
+- The completion of the task has a direct impact on REvenue, Cost or Risk
+
+In a Managerial context, the Eisenhower Matrix can also be read as:
+1. Do task asap
+2. Do task later
+3. Delegate task OR follow topic without action
+4. Delete task 
 ________________________________________
 ## MSS (Software)
-The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file type. 
-
+The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
+  
 ### MSS Master
-The master MSS file is maintained in perso context. The master file is the one in which functionality is maintained which is then ported to MSS Slave. It can be found here: ~/mgt/00.management/mgt.xlsx.
+The master MSS file is available in GitHub here:
+https://github.com/stelzinga/MF
 
-@@@ replace with github implementation  details
 
 ### MSS Slave
 It is possible to add functionality to MSS Slave that is not available in MSS Master e.g. macros.
@@ -1001,65 +265,6 @@ It is posible this sheet refers to a central location, or that the maintenance o
 
 ### MTrack6
 Sheet M6 a.k.a. MTrack6 contains Intel or Intelligence both from within, as well as outside of the Venture. This sheet is updated continuously. 
-
-
-*********************************************
-# MANAGEMENT
-Management is the term reflecting the organisation of human capital (Staff) such as to perform the Activities with available Resources (Assets, Suppliers) such as to achieve and optimise the Venture's target of high Revenue, low Cost and low Risk 
-________________________________________
-## Overview
-This overview shows on the first level the key deliverables as per [MGT: 99.Legend ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same tool can be used for different deliverables:
-- Management Cycle
-    - Eisenhower Matrix 
-    - MC
-    - Governance Matrix 
-- Management Improvement
-    - Skill Inventory
-    - Exec Summary
-    - Briefing Notes
-    - Writing Style 
-    - Style Inventory
-- Planning
-    - Dedicated Planning note
-- Organising
-    - Dedicated Organising note
-- Leading
-    - Dedicated Leading note
-- Controlling 
-    - Dedicated Controlling note
-________________________________________
-## Eisenhower Matrix (Framework)
-The Eisenhower Matrix or Eisenhower Decision Tree or Eisenhower Box is a decision tool to plan work on short term. The decision tree is based on two dimensions of Tasks: *urgency* and *importance*.
-Important/Unimportant is defined as: impact on the Venture is high/low
-Urgent/non-urgent is defined as: time to market is low/high
-
-These two dimensions yield four combinations a.k.a. quadrants, as follows:
-1. Urgent, important: Do Task Now.
-2. Important, not urgent: Do Task Later.
-3. Urgent, not important: Delegate Task to someone
-4. Neither urgent, nor important: Delete Task altogether.
-
-The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition].
-
-The above decision tree refers to two concepts that are open to interpretation: important and urgent. 
-
-Important
-Something is important for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *urgent*-:
-- Cannot be delegated (simply because the right skills are not there right now, the training would take too much time given the urgency) and/or
-- Has a lot of attention from senior or critical stakeholders (internal or external)
-- The completion of the task has a direct impact on Revenues, Cost or Risk
-
-Urgent
-Something is urgent for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *Important*-:
-- Not performing the task soon has a knock on effect on several other tasks
-- There is a deadline imposed by a senior or critical stakeholder (internal or external)
-- The completion of the task has a direct impact on REvenue, Cost or Risk
-
-In a Managerial context, the Eisenhower Matrix can also be read as:
-1. Do task asap
-2. Do task later
-3. Delegate task OR follow topic without action
-4. Delete task 
 ________________________________________
 ## MC (Framework)
 MC is the Framework to perform the Management Cycle. It is composed of various Processes performed at different frequencies using the baseline Tools discussed earlier. 
@@ -1223,29 +428,29 @@ The matrix' purpose is to show which Risks exists, which Activity (or Business F
 The two dimensions of the matrix are thus: Risk (vertical) and Activity or Business Function (horizontal).
 ________________________________________
 ## Skill Inventory (Framework)
-Skills required for management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
+Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
 
 ### Hard Skills
-- Accounting, see [STD: Finance], [STD: Investment]
-- Analytics & Data, see [STD: Data-Science]
-- Budgeting, see [## Budgeting]
+- Accounting
+- Analytics & Data
+- Budgeting
 - Eonomics
-- Finance, see [STD: Finance], [STD: Investment]
-- Marketing, see [# MARKETING]
-- Mathematics, [STD: Math]
-- Operations, see [# OPERATIONS]
-- ITC, see [STD: ITC]
-- Project Management, see [##Project Management]
-- Selling, same as Marketing
+- Finance
+- Marketing
+- Mathematics
+- Operations
+- Informagion & Communication Technology 
+- Project Management
 - Statistics
 
 ### Soft Skills
-- Coaching, see [## Coaching]
+- Coaching
 - Communication 
-- Delegating, see [## Delegating Definition]
+- Curiosity (ask "Why?")
+- Delegating
 - Flexibility
-- Mentoring, see [## Mentoring]
-- Motivating, see [## Motivating]
+- Mentoring
+- Motivating
 - Multitasking
 - Pragmatism
 - Presenting
@@ -1253,31 +458,7 @@ Skills required for management are below. Details of skills can be found under [
 - Self-learning
 - Teamwork
 - Time Management
-- Why,... always ask "Why?"
-________________________________________
-## Executive Summary (Framework)
-A Manager needs to be efficient in what it does over the time given to a Manager. This means *Topics* the Manager needs to be made aware of, and Topics Stakeholders need to be aware of need to be clear and concise for both. This is even more important for *Evolving Topics* e.g., incidents, new regulations, etc. An Evolving Topic's status changes over time. A Manager also needs to be able to communicate efficiently around Topics. The Executive Summary helps in achieving this and is composed of 6 points:
 
-### Name
-Name or very Short description of the Topice.g., Project, an event.
-
-### Context
-The context should answer the 6W of the Topic. They can be used freely, but mostly go along with the 6W Method defined above, see [MGT: 99.Legend ### 6W Method]. The context can be omitted if the Manager knows the audience are aware of the context already.
-
-### Last Status
-This reflects the Status of when the Topic was last discussed. The Last Status should be indicative how close the Topic was of being concluded at that time of discussion e.g. 60% done, 3 actions left out of 20, expected closure 20 Sep 2030, etc.
-
-### Current Status
-The Current Status is similar as the Last Status in terms of type output. It also includes what was done compared to the Last Status. e.g. 10% works was done, so 30% remains for the next two weeks, expected closure moved forward to 10 Sep 2030, etc. 
-
-### Attention Points
-Any aspects that are a potential impediment in the conclusion of any remaining actions of the Evolving Topic. It is possible to put Attention points *before* the Current Status, if the Attention Points are a reason for delays to have occured compated to the Last Status.
-
-### Next Actions
-Given the above, what are the expected actions to be able to conclude the Evolving Topic. Of course, if the Current Status = Completed then there are no Next Actions.
-________________________________________
-## Briefing Note (Framework)
-@@@
 ________________________________________
 ## Writing Style (Framework)
 Written communication is key to the day to day of a Manager. The following guidelines aid in writing text that people will read, finish and follow through:
@@ -1288,7 +469,6 @@ Written communication is key to the day to day of a Manager. The following guide
 - Keep it short: Don’t write more than required for the audience.
 ________________________________________
 ## Style Inventory (Framework)
-
 @@@
 Get back the details from [STD: Management # MANAGEMENT STYLE].
 @@@
@@ -1688,8 +868,8 @@ x                   Project, Closed (lower case letter x)
 _                   Comment (underscore)
 dd-mm-yy:  Comment (date format comment)
 
-As can be seen, a status symbol is a single charater, except for the last form of a comment. 
-The Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Objective (Project, Routine) or a Comment, and in case of a Project, it also shows the status of the Project. 
+As can be seen, a status indicator symbol is a single character, except for the last form, the comment. 
+A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Objective (Project, Routine) or a Comment, and in case of a Project, it also shows the status of the Project. 
 Status symbol for Project can also be used for follow-up actions in Meetings, see [## Meetings]. Note that '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
 Note that Sub-Goals are mostly used in more complex structures. In case of Objectives (not applicable to Tasks) there is no status for Subs, Drills, Streams and Actions.
 The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of all Indicators which adds insight into aspects of the comment e.g. dates, who is involved, where are more details, etc.
@@ -2148,13 +1328,9 @@ For each Activity define name and subsequent properties at L2 and L3 within [MGT
 
 Note that the Group name associated to the Activity is the same as the Activity, see also [## RPT].
 
-The Activity reflecting what the owner of the MGT: xxx  notes does in work or perso context is defined as:
-- Perso: Activity = STE (or any other initials)
-- Work: Activity  = STE unless that code is used by another existing Activity. 
-
 The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. As can be seen in [## Goal Definition] all standard Goals for any Venture are defined against the Activity = STE.
 
-For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition], [## Objective Definition].
+For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: 99.Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition], [## Objective Definition].
 
 Guidelines:
 - Make the structure of Activities *simple*
@@ -2301,9 +1477,9 @@ A Job Description has the following components:
 These aspects are explained below.  
 
 ### Executive Summary
-The Executive Summary explains all below sections in 5-30 lines. This helps in three ways: 
-1. It gives the reader a quick overview of the Job Description, and thus prepares the reader for what is to follow in more detail. 
-2. It forces the writer to explain in a few lines what it is the JD is about, and 
+The Executive Summary explains all of th3 below sections in 5-30 lines. This helps in three ways: 
+1. It gives the reader a quick overview of the Job Description, and thus prepares the reader for what is to follow in more detail; 
+2. It forces the writer to explain in a few lines what it is the JD is about, and;
 3. It can be used for documents that require a short description of the JD.
 
 The Executive Summary should contain:
@@ -2314,8 +1490,7 @@ The Executive Summary should contain:
 The above should be done in such a manner that even if the  Executive Summary is read in isolation it it still clear what the JD is about. 
 
 ### Definitions
-This contains definitions of words that are relevant to this note. 
-This section is optional, but a recommended part of the definition includes an explanation of the concept of Profile.
+This contains definitions of words that are relevant to this note. This section is optional, but a recommended part of the definition includes an explanation of the concept of Profile.
 
 ### Venture Description
 The Venture Description explains the high-level context of the Venture the Activity is part of. This includes very standard language and can come from the Venture's marketing material. There is no need to go through the Profile Tree items as they will be discussed in more detail on the Activity level.
@@ -2329,7 +1504,7 @@ The Venture Description leads into the Activity relevant to the JD.
 ### Activity Description
 The Activity Description sets out the detailed context in which the JD is performed. It is possible to revert to the Activity's Operating Model (detailed in a separate document), specifically the Executive Summary, [MGT: 80.Tools-OM-Activity].
 
-The Activity Description should cover the following items from the Profile and the RPT, each being an L3 section, e.g. ### Environment, ### Clients:
+The Activity Description should cover the following items from the Profile and the RPT, each being an L3 section, e.g., [### Environment], [### Clients], etc.:
 - Environment: in which the Activity operates. Note that the Activity does not necessarily have exposure to the Environment of the entire Venture, which is why Environment is discussed specifically on Activity level.  
 - Clients: represents the *Who* the Activity provides the Services. Like for the Environment, not all Clients of the Activity are the Clients of the Venture. It might be the Activity performs Services to other Activities (making those Clients) within the Entity i.e. a supporting Activity (see below) instead of Clients of the Venture. 
 - Services: represents the *What* the Activity delivers and also how they contribute to the Venture or to other Activities within the Venture if it is a supporting Activity (in which case details of those Activities should be provided).
@@ -2347,42 +1522,40 @@ Optional details for the Activity Description:
 - Qualitative: key achievements, relevance to the Venture, ...
 
 ### Roles
-Although the word Roles suggest multiple positions within the Group, it is most often a single position and associated Role. A Role is often a formal name, and it is suggestive of the Authority that comes with said position.
-
-The Role has the following properties:
+Although the word Roles suggest multiple positions within the Group, it is most often a single position and associated Role. A Role is often a formal name and suggestive of the Authority that comes with the position. It has the following properties:
 - Name of the Role
 - Location(s) where the Role will be fulfilled
-- Seniority
-- Authority
+- Seniority (Analyst, Associate, VP, Director, MD, Senior VP, etc.)
+- Authority (may also be detailed under Responsibilities)
 - Reporting lines: whom the Role reports into and who reports into the Role (none, some, entire Group)
 
-Additional details can include specific constraints like working hours.
+Additional details can include specific constraints like working hours, travel requirements etc.
 
 ### Responsibilities
-Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above! Either the role does all of them, or only a sub-set. As such this section should just refer to those Objectives. note that it is possible to detail Authority here instead of under Roles.
+Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above. Either the Role does all of them, or only a sub-set. This section should just refer to the applicable Objectives. Note that it is possible to detail Authority here instead of under Roles.
  
 ### Skills, Knowledge & Experience 
-Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge required in understanding of the topics involved in the Responsibility. 
-Skills and Knowledge can often be 'proven' from similar Roles and Responsibilities which is referred to as *Experience*. Experience gives more weight to the relevance of Skills and Knowledge.
-
-Skills use the key-words "How to ...". Knowledge uses the key-words "Understanding of ..." or "Knowledge of ... ". Experience is often expressed as "Similar roles for X years in Y type of company".
+Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge refers to what is requiee in understanding the topics involved in the Responsibility. 
+Skills and Knowledge can often be 'proven' from similar Roles and Responsibilities which is referred to as Experience. Experience gives more weight to the relevance of Skills and Knowledge.
+  
+Skills use the key-words "How to ...". Knowledge uses the key-words "Understanding of ..." or "Knowledge of ... ". Experience is expressed as "Similar roles for X years in Y type of company".
 
 ### How To Use
 The above information can be used in various manners, but in most cases it will form the basis of a written document. This depends mostly on the type of role and how that role positions itself within the Activity, and how the Activity positions itself within the Venture.
 ________________________________________
 ## RACI (framework)
-Responsible, Accountable, Consulted, Informed is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
-
-The definition of RACI often implies annoversight committee that oversees the o real progress. Of whatever the RACI have been defined for.
+Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
+  
+The definition of RACI often implies an oversight committee that oversees progress of whatever the RACI have been defined for.
 
 ### RACI Overview
 The underlying of RACI is one or more Tasks, or Objectives.   The principles associated to RACI are Delegating, see [## Delegating]. 
 
 The four Roles in RACI are defined as follows:
 - R (Responsible): person who performs a Task.
-- A (Accountable): person answerable for completion of the Task i.e., the person reporting on completion to someone e.g., committee.
-- C (Consulted): person whose subject matter expertise may be sought (two way conversation)
-- I (Informed): person who may be informed of progress and/or completion (one way conversation).
+- A (Accountable): person answerable for completion of the Task i.e., the person reporting on completion to someone e.g., a Committee.
+- C (Consulted): person whose subject matter expertise may be sought (two way communication)
+- I (Informed): person who may be informed of progress and/or completion (one way communication).
 
 The two most important two roles are A and R. Sometimes they are the same, but not always.
 
@@ -2392,6 +1565,7 @@ It is possible to have more than one R for a given Task.
 
 ### RACI Weaknesses
 RACI do not include Authority. Often Responsibility is assigned but this Responsibility does not carry any , or sufficient, Authority. In these cases the Responsible person will need to Escalate e.g., to the committee.
+Another weakness is that Consulted and Informed are not well defined: do those people need to be Consulted and Informed or *can* they be Consulted or Informed? To avoid this optionality or not, the actual expectations should be defined as part of the RACI definition.
 ________________________________________
 ## Group Definition (Framework)
 For each Group the name is the name of the associated Activity. As such Groups are not maintained separately.
@@ -2679,10 +1853,6 @@ Known motivators in business context:
 - Respect
 - Challenging work
 ________________________________________
-## Team
-@@@
-
-________________________________________
 ## Collab Crew
 
 @@@
@@ -2752,9 +1922,10 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Controlling
     - Reporting Definition
     - Reporting Standards
     - Reporting via MSS
+    - Exec Summary
+    - Briefing Notes
     - Dashboard
 - Monitoring
-
 ________________________________________
 ## Journaling (Framework)
 Journaling, logging or more generally writing entries in a Journal is a good way to keep track of specific topics, concerns, etc. Journal entries feed into almost all aspects of Management e.g. 
@@ -3083,9 +2254,9 @@ A Management Meeting consists of meetings with Managers of Activities where thos
 The concepts of a Staff Meeting, see above, are applicable to a Management Meeting, but in a slightly modified version.
 ________________________________________
 ## Check Standards (Framework)
-As a reminder, a Check is one of four different manners to establish Supervision (the others being Review, Attend, Audit). A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control.   
+As a reminder, to Check is one of four different manners to establish Supervision (the others being to Review, to Attend and to Audit). A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control, but the Profile defines a Control as any of the Four Supervisory Processes.    
 
-Check Standards define how a Check should be designed:
+The Check Standards define how a Check should be designed:
    
 1. Establish the *Purpose*;  
 2. Establish the *Baseline* or Benchmark  
@@ -3094,7 +2265,7 @@ Check Standards define how a Check should be designed:
 5. Perform an *Analysis* of the Comparison and, if relevant;  
 6. Define a *Remediation*;  
 7. Keep a *Written Trail* of 1-6, use it to *Report* and track Remediation.  
-8. Add the *Subject Matter Specialists* or *SME*
+8. Add the name of the *Subject Matter Specialists* or *SME*
 
 The first seven steps are directly from [MGT: 99.Legend ## Controlling]. The last step aids greatly in case there are questions on the Check.
 
@@ -3125,29 +2296,28 @@ All of the above steps are documented or Journaled, and a Report is produced.
 The Report is used in the two last deliverables of Controlling: Reports and Monitoring, which will assure Management is aware, and can track the progress, of Checks in general and of Action Plans in particular. 
 
 SME
-The Subject Matter Specialist is the Staff or preferably a Group that can be called upon to clarify the Check.   
+The Subject Matter Specialist is the Staff or preferably a Group that can be called upon to clarify the Check. By adding the name of the SME to the entire description of the Check, anyone becoming involved in the Check can refer to the SME.
 ________________________________________
 ## Self-Contained Mail (Framework)
-Many Checks are fully automated and should thus embed the above Check Standards within the automation. Oftren, the results are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
+Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
 
 When setting up a Self-Contained Mail system, assume that the Receiver of the mail: 
-- is completly unaware of why he/she receives such Mail
-- has little knowledge of the Activity(ies) the Check's result is relevant to.  
+- is completly unaware of why he/she receives such Mail;
+- has little knowledge of the Activity(ies) the Check is relevant to.  
 
 The following are guidelines on how to set this up:
-- Design the Check according to the Check Standards, see [## Check Standards], in which the last step Report is effectively the mail. 
-- Design the Content of the mail presented to the Receiver such that all Steps of the Check Standards are presented to the Receivers
-- Use a Subject such that the Receiver can see the urgency of the mail
+- Design the Check according to the Check Standards, see [## Check Standards], in which the step 7, Report, is effectively the mail. 
+- Design the Content of the mail such that all Steps of the Check Standards are presented to the Receivers of the mail.
+- Use a Subject such that the Receiver can see the urgency of the mail.
 
 The first step is documented in [## Check Standard].  
 
-The second step is organising the content such that the Receiver has all info requried to make an assessment. The content itself does not need to be in the mail. It could be presented in another location e.g., a clickable URL.
-The suggested content is as follows (in order):
+The second step is organising the content such that the Receiver has all information requried to make an assessment. The content itself does not need to be in the mail. It could be presented in another location e.g., a clickable URL. The suggested content is as follows (in order):
 - Purpose
 - Analysis -> shows whether there are breaches or not
 - Appendix
     - Baseline
-    - Measurement -> only description of it, not the Data 
+    - Measurement -> description of how Measurmeent is performed, not the Data 
     - Comparison
     - Remedation -> notably Possible Remediation
     - SME -> whom to reach out to in case of questions
@@ -3163,12 +2333,18 @@ In which:
 - WARNING = breaches were found
 - CRITICAL = check could not run at all
   
-There are other Subjects possible. For example, one could do something like: "Breach: Breach type yyy for xxx", etc.  
-
-As can be seen, the Check Standards drive a well conceived Self-Contained Mail framework!
+There are other Subjects possible. For example, "Breach: Breach type yyy for xxx", etc.  
+As can be seen, applying the Check Standards drive most of a well conceived Self-Contained Mail framework!
 ________________________________________
 ## Reporting Definition (Framework)
-The core aspects of Reports have been defined in [MGT: 99.Legend ### Reports]. As discussed in that note there are several types of Report. In this section we discuss the details of how to build such Reports .
+Reporting is conceptually simple, but not always easy to implement:
+- Reader of the report may not be familiar with the lingo/acronyms/topics.
+- Inconsistent manner of writing down the facts
+- Too many details provided
+
+
+
+
 
 ### Management Report
 The Management Report focusses on the Managerial 7. There are different ways to report the various facts, depending on: 
@@ -3202,7 +2378,7 @@ c. Need for that data to be reported.
 - Updates: relevant ones to the Venture both from internal and external 
 ________________________________________
 ## Reporting Standards (Framework)
-The Reporting Standards frame how facts should be reported in the most basic manner and from a non-commercial perspective.
+The Reporting Standards frame how facts should be reported in the most basic manner.
 
 ### Reporting Standards Principles
 The following principles should be observed:
@@ -3243,6 +2419,30 @@ There are various aspects built in MSS that facilitate the reporting process. Re
 - Last Update Date (calculated from Last Note)
 
 Combined with the rest of the columns the above columns, together with Pivot Table logic help generate reports that can be used as a periodic static report or as an interactive report for management meetings.
+________________________________________
+## Executive Summary (Framework)
+A Manager needs to be efficient in what it does over the time given to a Manager. This means *Topics* the Manager needs to be made aware of, and Topics Stakeholders need to be aware of need to be clear and concise for both. This is even more important for *Evolving Topics* e.g., incidents, new regulations, etc. An Evolving Topic's status changes over time. A Manager also needs to be able to communicate efficiently around Topics. The Executive Summary helps in achieving this and is composed of 6 points:
+
+### Name
+Name or very Short description of the Topice.g., Project, an event.
+
+### Context
+The context should answer the 6W of the Topic. They can be used freely, but mostly go along with the 6W Method defined above, see [MGT: 99.Legend ### 6W Method]. The context can be omitted if the Manager knows the audience are aware of the context already.
+
+### Last Status
+This reflects the Status of when the Topic was last discussed. The Last Status should be indicative how close the Topic was of being concluded at that time of discussion e.g. 60% done, 3 actions left out of 20, expected closure 20 Sep 2030, etc.
+
+### Current Status
+The Current Status is similar as the Last Status in terms of type output. It also includes what was done compared to the Last Status. e.g. 10% works was done, so 30% remains for the next two weeks, expected closure moved forward to 10 Sep 2030, etc. 
+
+### Attention Points
+Any aspects that are a potential impediment in the conclusion of any remaining actions of the Evolving Topic. It is possible to put Attention points *before* the Current Status, if the Attention Points are a reason for delays to have occured compated to the Last Status.
+
+### Next Actions
+Given the above, what are the expected actions to be able to conclude the Evolving Topic. Of course, if the Current Status = Completed then there are no Next Actions.
+________________________________________
+## Briefing Note (Framework)
+@@@
 ________________________________________
 ## Dashboard (Framework)
 Dashboard are a tool to present *information* based on *data*. Data is defined as individual facts, while information is the organisation and interpretation of those facts. 

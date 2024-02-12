@@ -430,9 +430,9 @@ iv. ovh -> Perform overhead i.e., anything not contributing to above three Goals
 Change Goals aim to *improve* Run Goals. The essential Change Goals are: 
 i.   gro -> Grow Revenue by adding Clients, Services
 ii.  pro -> Protect existing Revenue at risk of being lost due to a changing Environment;
-iii. sec -> Secure Operations to reduce Risk; and 
-iv. opt -> Optimise Operations to reduce Cost and/or increase Revenue. 
-v.  oth -> Placeholder for other Projects.
+iii. sec -> Secure Operations to reduce Risk;
+iv. opt -> Optimise Operations to reduce Cost and/or increase Revenue;
+v.  oth -> Placeholder for any other Projects.
 
 Goals can, but don't need to, have *Sub-Goals*: *Run Sub-Goals* and *Change Sub-Goals*. It is through Run Sub-Goals within Goal *prd* that Activities can be differentiated by focusing on aspects of the Services and/or Clients that set each Activity apart e.g., Sub-Goal is *prd - Build Car Engines*. Change Sub-Goals refine Change Goals into a detailed *Roadmap* where each Change Sub-Goal reflects a specific theme Management wants to focus on for the current period, mostly a year e.g., *opt - Reduce Cost of Suppliers*. 
 
@@ -469,8 +469,7 @@ The Venture needs to pay for Resources but often does not have the necessary Cas
 For a listed company Equity represents the net worth of the Venture and is the difference between Assets and Liabilities. For a non-listed company, the name used is Capital. Equity includes Shares issued as well as retained Earnings. Issuing Shares relinquishes control of the company to Shareholders who expect sustained positive performance of the company i.e., Earnings redistributed as Dividends or share price increase or both. As a form of funding, it is long term and infrequent. It is mostly a concern for Management on company level.
 
 ### Management
-The Management Functions of the POLC i.e., Planning, Organising, Leading and Controlling, academically explain the foundations that continuously drive and optimise Operations. They are the four main deliverables of Management and are what Management in its essence is about. In addition to the above four Management Functions, there are two more deliverables within Management.
-The first one is the *Management Cycle*, or *MC*, which reflects the continuous performance of the four Management Functions, but expressed in terms of the key deliverables of Operations: *Revenue*, *Cost*, *Risk*, *Run*, and *Change*, with the rest of the Profile Tree Items (Staff, Assets, Suppliers, Equity, HR, Finance, etc.) all captured in the generic cycle called *General Management*, *General* or just *Management*. Combined with *Intel* as the information contributing step, these 7 items of the Management Cycle are referred to as *Managerial 7*. 
+The Management Functions of the POLC i.e., Planning, Organising, Leading and Controlling, academically explain the foundations that continuously drive and optimise Operations. These are the four main deliverables of Management and are what Management in its essence is about (they are all discussed in detail below). In addition to the above four Management Functions, there are two more deliverables within Management. The first one is the *Management Cycle*, or *MC*, which reflects the continuous performance of the four Management Functions, but expressed in terms of the key deliverables of Operations: *Revenue*, *Cost*, *Risk*, *Run*, and *Change*, with the rest of the Profile Tree Items (Staff, Assets, Suppliers, Equity, HR, Finance, etc.) all captured in the generic cycle called *General Management*, *General* or just *Management*. Combined with *Intel* as the information contributing step, these 7 items of the Management Cycle are referred to as *Managerial 7*. 
 The second deliverable of Management is *Management Improvement*, which, as the name suggests, involves improving the performance of Management itself, including improving Managers. Note that involvement in the deliverables in Management, Planning, Organising, Leading and Controlling depends on the *Management Level* e.g., CEO, department head, line manager, team leader, etc.
 
 ### Planning
@@ -488,10 +487,10 @@ Leading involves Processes to *drive* those *who do it*. This third Management F
 Controlling involves Processes to establish *how well it was done*. This fourth Management Function assesses the Venture's performance across all Activities versus metrics determined in Planning, and adjusts through Planning, Organising and Leading. 
 Controlling uses *Journaling* to record any matters related to the other Controlling deliverables and more generally, to keep track of work done across all four Management Functions.
 The assessment of the efficiency of Operations is done through *Supervision* which is performed through a *Supervision Framework* composed of *Supervision Processes* a.k.a. *Controls* applied to a *Supervision Scope*. There are four Supervision Processes:
-i.   A *Check*: verify Processes / Results vs a benchmark;
-ii.  A *Review*: verify Processes / Results against experience, or opinion;
-iii. An *Attendance*: attend a *Committee* to verify Processes and/or Results through discussion with others, thus attaining a broader range of opinions than a Review; or 
-iv) An *Audit*: an *independent* verification of Processes and/or Results, the result of which is used by Management.
+i.   To *Check*: verify Processes / Results vs a benchmark;
+ii.  To *Review*: verify Processes / Results against experience, or opinion;
+iii. To *Attend*: a *Committee* to verify Processes and/or Results through discussion with others, thus attaining a broader range of opinions than a Review; or 
+iv) To *Audit*: an *independent* verification of Processes and/or Results, the result of which is used by Management. 
 
 The Supervision Scope is either one of the following:
 i.   The *Activity Based Scope*, which focuses on all the Venture's Activities
@@ -537,7 +536,7 @@ The Profile Tree, Reduced Profile Tree and Expanded Profile Tree provide *struct
 
 ### Wrapping it up
 Operations as mentioned as the central part of the Profile Tree Item, is represented by the combination of Activities & Groups + Goals & Objectives + Resources + the funding of those Resources via Liabilities and Equity. Operations are often divided into different functional units like Sales, Marketing, Research & Development, etc. However, from a Profile perspective these functional units are just different names for Activities. Management initiates and continuously optimises how Operations are performed.
-Operations and Management both have the notion of Process embedded and as such, Processes are not reflected as a Profile Tree Item. Finally, the Profile is a *framework*. There are many ways to use it and it is up to the Manager and Staff to use it such that it adds the most value to the Venture.
+Operations and Management both have the notion of Process embedded and as such, Processes are not reflected as a Profile Tree Item. Finally, the Profile is a framework. There are many ways to use it and it is up to the Manager and Staff to use it such that it adds the most value to the Venture.
 ________________________________________
 ## Profile Tree Items in Tools
 From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e. first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used: 
@@ -898,7 +897,7 @@ The Run cycle involves everything related to Run Goals and Routines performed wi
 The Change cycle involves everything related to Change Goals and Projects performed within the Activities that make up Operations. This often involves anything the detailed list of Goals and Projects a.k.a. *Roadmap*.
 
 6. Intel
-The Intel cycle collects internal and external knowledge and is effectively a rather broad one and can include anything from Bylaws to competitor analysis to rumours. It is  the only cycle within the MC that is not explicitly part of the Profile Tree, but given the dependency of the Manager of Intel, it is integral and explicit part of the MC. 
+The Intel cycle a.k.a. Alert, Attention, collects internal and external knowledge and is effectively a rather broad one and can include anything from Bylaws to competitor analysis to rumours. It is  the only cycle within the MC that is not explicitly part of the Profile Tree, but given the dependency of the Manager of Intel, it is integral and explicit part of the MC. 
 
 ### Management Improvement 
 The aim of Management is to maintain and improve Operations. In order to maximise the result and efficiency of this, Management itself requires constant improvement: Management Improvement or *MI*.
@@ -962,7 +961,11 @@ A Mission Statement expresses *how* the Venture achieves the Purpose. In other w
 The most important one is Y as that sets the Venture apart from Competitors. The differentiating factors can be related to the Service itself (quality, availability, aesthetics, taste, ...), the cost to the Client, or it can be more focused on how the Service is produced (environmentally friendly, with involvement of the Client, etc).
 
 ### Values
-Values a.k.a. Core Values are *guiding principles* crucial to the Venture. They affect the Venture as a whole and each individual working within and for it i.e. Suppliers. They also set requirements in terms of recruitment. 
+Values reflect what the Venture deems it's moral or cultural compass. It can be composed of Value and/or Principles. These are somewhat different in what they mean. Principles govern interactions between people, but are objective. Examples include fairness, integrity, and honesty.  
+  
+On the other hand, Values are opinions and ideas and are thus subjective, and as a result of being opinions, they can change u dee different conditions. An examples is tolerance.
+
+Values and Principles affect the Venture as a whole and each individual working within and for it i.e., Suppliers. They also set requirements in terms of recruitment. The distinction between Values and Principles may not be made.
 
 Examples for LinkedIn:
     - Members first
@@ -1373,25 +1376,23 @@ Key deliverables of Controlling are:
 - Monitoring
 
 ### Journal
-A Journal reflects the result of Journaling which is the Process of ongoing recording of relevant topics in a Journal as Journal entries, which is similar to a ship's log book. For the purpose of Management this  includes *all* topics that occur throughout Management i.e. Journaling is *not* limited to Controlling. Well established Journaling aids in *all* Management Functions. Journaling can be time intense, depending on how much of it the Manager does versus how much the Manager has it done for him, or her, by someone. Another factor is the format of Journaling; using pen and paper, spreadsheets, databases, etc.
+A Journal reflects the result of Journaling which is the Process of ongoing recording of relevant topics in a Journal as Journal entries, which is similar to a ship's log book. For the purpose of Management this  includes *all* topics that occur throughout Management i.e. Journaling is *not* limited to Controlling. Well established Journaling aids in *all* Management Functions. Journaling can be time intense, depending on how much of it the Manager does versus how much the Manager has it done for him, or her, by someone. Another factor is the format of Journaling; using pen and paper, spreadsheets, databases, etc.   
 
 ### Supervision 
 The various steps of Controlling, described above, are fundamentally captured in Supervision. Supervision can be applied to every part of the Venture. 
-The manner in which Managers decide to assure Supervision is done through a Supervision Framework. The Supervision Framework frames which Supervision Processes are applied to which Supervision Scope.
-
-There are four *Supervision Processes* a.k.a. Controls: *Check*, *Review*, *Attendance* and *Audit*. Note that Control is taken broadly, and as can be seen includes attending for example a Committee.
+The manner in which Managers decide to assure Supervision is done through a Supervision Framework. The Supervision Framework frames which Supervision Processes are applied to which Supervision Scope. There are four *Supervision Processes* a.k.a. Controls: *Check*, *Review*, *Attend* and *Audit*. All except Attend are both a noun and a verb. Attend is a verb, the noun being Attendance.  
 
 #### Check 
-A Check: is the full cycle described above i.e. understand the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks are most often performed periodically, with a focus on breaches between Measurement and Benchmark. They tend to be performed on Routines, more than on Projects. Often, when a Control is referred to, it means a Check in terms of this Management Framework.
+A Check consists of the full cycle described above i.e., understanding the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks are most often performed periodically, with a focus on breaches between Measurement and Benchmark. They tend to be performed on Routines, more than on Projects. Often, when a Control is referred to, it means a Check in terms of this Management Framework.
 
 #### Review
-A Review is a verification of the result of a Process against a Manager's (or other relevant Staff's) opinion based on experience and knowledge and potentially some benchmark. It is generally less formalised than a Check. A Review is an often used method to verify progress (Performance) and/or zones of risk within Operations and/or Management and/or Clients in combination or not with the Environment (Market Intel). A Review may also act as a validation as part of a mandatory step in a broader Process. Note that the Process for Review may differ on a case by case basis. Review, is mostly performed periodically. Unlike Checks, Reviews rely on a more holistic knowledge of the Processes being reviewed as well as the Activities those Processes are part of. When doing a Review, the second step, Establish Baseline, is replaced by that holistic knowledge. 
+A Review is a verification of the Result of a Process against a Manager's (or other relevant Staff's) opinion based on experience and knowledge and potentially some benchmark. It is generally less formalised than a Check. A Review is an often used method to verify progress (Performance) and/or zones of risk within Operations and/or Management and/or Clients in combination or not with the Environment (Market Intel). A Review may also act as a validation as part of a mandatory step in a broader Process. Note that the Process for Review may differ on a case by case basis. Review, is mostly performed periodically. Unlike Checks, Reviews rely on a more holistic knowledge of the Processes being reviewed as well as the Activities those Processes are part of. When doing a Review, the second step, Establish Baseline, is replaced by that holistic knowledge. 
 
-#### Attendance 
-An Attendance a.k.a. Meeting is similar to Review except that the Manager's opinion is replaced by a meeting with a group of people most often referred to as a *Committee*. Attendance can include the preparation of the Committee if the Manager is Chair of the Committee. Committees are mostly periodic. Certain committees e.g. Board of Directors are highly formalised and scrutinised. 
+#### Attend 
+To Attend is similar to Review except that the Manager's opinion is replaced by a attending a meeting with a group of people most often referred to as a *Committee*. Attendance can include the preparation of the Committee if the Manager is Chair of the Committee. Committees are mostly periodic. Certain committees e.g. Board of Directors are highly formalised and scrutinised. 
 
 #### Audit
-An Audit is an independent verification of part or whole of the Profile i.e. not just Results of Processes but also the Processes themselves! Audits are done by a Group not directly related to either Operations or Management. An Audit uses a broad range of Processes to obtain results that provide sufficient insight. Audits verify Processes and Results and work against a broad range of benchmarks defined at the start of the audit e.g. revenue targets, regulatory obligations, and/or Routine execution time etc. Unlike the previous Monitoring types, Audits are mostly ad-hoc and can often be considered a Project.
+An Audit consists of an independent verification of part or whole of the Profile i.e., not just Results of Processes but also the Processes themselves. Audits are done by a Group not directly related to either Operations or Management. An Audit uses a broad range of Processes to obtain results that provide sufficient insight. Audits verify Processes and Results and work against a broad range of benchmarks defined at the start of the audit e.g. revenue targets, regulatory obligations, and/or Routine execution time etc. Unlike the previous Monitoring types, Audits are mostly ad-hoc and can often be considered a Project.
 
 Supervision Processes can result in a need for improvements which are addressed through Projects.
 Supervision Processes are applied to the *Supervision Scope* which refers to what it is the Managers want to supervise. In general. the Supervision Scope is the entire Venture, specifically Operations, against the backdrop of the constraints imposed by the Environment. However, depending on the manner in which a Venture is run, Managers may choose to use a different categorisation of the scope with the ultimate objective to still cover Supervision of the Operations. 
@@ -1416,18 +1417,16 @@ The Receiver can be one or more persons and can be a Manager, Staff, Supplier, P
 The Purpose of a Report depends on the previous aspects as follows:
 
 #### Management Report
-A Report for a Manager provided by a Staff, a Group or Business Function or a a Manager! 
-The Purpose is for the Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary i.e. the focus is performance. In addition, this report is also used to report on concerns coming from the Environment (Market Intel). 
-The Manager may obtain multiple Reports for each of the Managerial 7.
+A Report for a Manager provided by a Staff, a Group or Business Function or a a Manager! The Purpose is for the Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary i.e. l, the focus is performance. In addition, this report is also used to report on concerns coming from the Environment (Market Intel). The Manager may obtain multiple Reports for each of the Managerial 7.
 
 #### Staff Report
 A Report for Staff or a Group. The purpose of such Report is to inform Staff how they are performing on their Job Description. It is used by the Manager to get indirect insight into the Managerial 7 and is important for Staff to know where to adjust time, focus, resources, or to highlight bottlenecks in output.   
 
 #### Marketing Report
-This is a Report that is tailored to the Strengths of the Venture and can be used for Clients, or more generally any Stakeholder. 
+This is a Report tailored to the Strengths of the Venture and can be used for Clients, or more generally any Stakeholder. 
 
 ### Monitoring
-The content of the Report yields a cycle of feedback and follow-up. Feedback comes in the form of suggestions for improvements. These suggestions are translated into actions and these need to be planned and monitored. Planning is done in the Planning cycle of Management, or within Operations if the action is to improve Run or Change. In all cases, it is important that any actions determined within a Supervisory Process is closed timely.
+The content of Report can lead to a cycle of feedback and follow-up. Feedback comes in the form of suggestions for improvements. These suggestions are translated into actions and these need to be planned and monitored. Planning is done in the Planning cycle of Management, or within Operations if the action is to improve Run or Change. In all cases, it is important that any actions determined within a Supervisory Process is closed timely.
 ________________________________________
 ## Tools
 In the above sections we saw what makes up a Venture. To aid in managing this complex structure, a Manager can use Tools composed of *Frameworks*, *Procedures* and *Software*.
@@ -2227,6 +2226,9 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20240129
 - Added Goal = oth in [### Goals].
+
+### 20240211
+- Updated [### Values] making a distinction between Values and Principles.
 
 ### Planned
 
