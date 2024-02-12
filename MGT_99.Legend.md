@@ -1055,6 +1055,7 @@ The following are Run Sub-Goals for Run Goal prd:
 - Business Continuity (Routines to continue all other prd Sub-Goals in case of a disruption or more broadly a disaster). 
 - Production Reporting (of all aspects related to Production to Stakeholders)
 - Continuous improvement (small Project performed within Production)
+- Research & Development (used mostly in manufacturing, leads to Change) 
 - Production Support
 
 In which:
@@ -2229,6 +2230,7 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20240211
 - Updated [### Values] making a distinction between Values and Principles.
+- Added Sub-Goal "Research & Development" to list of Sub-Goals for Goal = prd. 
 
 ### Planned
 

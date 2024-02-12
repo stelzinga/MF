@@ -164,15 +164,14 @@ ________________________________________
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
   
 ### MSS Master
-The master MSS file is available in GitHub here:
+The master MSS file, mgt.xlxs,  is available in GitHub here:
 https://github.com/stelzinga/MF
 
-
 ### MSS Slave
-It is possible to add functionality to MSS Slave that is not available in MSS Master e.g. macros.
+It is possible to add functionality to any instance of MSS Maste and which is not available in MSS Master e.g. macros. Such instance is called MSS Slave. 
 
 ### MSS References
-To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e. equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.
+To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.
 
 ### MSS: Mxx Sheets 
 See [## Mxx] in [# MANAGEMENT].
@@ -180,12 +179,12 @@ See [## Mxx] in [# MANAGEMENT].
 ### MSS Note Management
 A key feature is the ability to write *Notes* in Col = Notes, This column drives the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*. 
 
-#### MSS Note Management
-Note Managementfollows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. Exemple:
+MSS Note Notation
+MSS Note Management follows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. Exemple:
 23-02-21: ##1 First review of audit results show overall good insight in business. Next: complete review. {Joe} [~/file/path] ##2 Received purchase order for 20 new products from client ABC (20210731) [https:/internal/website/page]
 
 ### MSS Task Management
-Another feature is the integration of Tasks also using [## Task Notation]. 
+Another feature of MSS is the integration of Tasks using [## Task Notation] in the dedicated Column = Tasks.  
 
 ### MSS Hierarchy
 Sheet = M5, dedicated to Projects has an *Integrated Hierachy*. 
@@ -216,9 +215,7 @@ Sheet = M5 has an *Integrated Dynamic Gantt Chart* based on the Integrated Hiera
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. The logic used in [MSS Note Management] is a key feature on MSS Reporting. 
 ________________________________________
 ## MTrack (Software, Framework)
-MTrack refers to any implementation of the Managerial 7, see [MGT: 99.Legend ### Management Cycle].
-
-In MSS -see above- this is achieved through 7 dedicated sheets as follows: M0 = 0.Management, M1 = 1.Revenue (or  Income Statement), M2 = 2. Cost (or Balance Sheet if required), M3 = 3.Risk, M4 = 4.Run (Run Goals / Routines), M5 = 5.Change (Change Goals / Projects), and M6 = 6.Intel. 
+MTrack refers to any implementation of the Managerial 7, see [MGT: 99.Legend ### Management Cycle] in MSS (see above). This is achieved through 7 dedicated sheets as follows: M0 = 0.Management, M1 = 1.Revenue (or  Income Statement), M2 = 2. Cost (or Balance Sheet if required), M3 = 3.Risk, M4 = 4.Run (Run Goals / Routines), M5 = 5.Change (Change Goals / Projects), and M6 = 6.Intel. 
 
 All sheets except M0 and M6 have a bottom and top section, where the latter contains stats of the bottom. They all use Digital Bullet Journaling, see [## BuJo MSS]. 
 
@@ -254,7 +251,7 @@ Sheet M3 a.k.a. MTrack3 contains Risk details. It is posible this sheet refers t
 Sheet M4 a.k.a. MTrack4 contains the Run Inventory i.e. all Routines across all Run Goals and Sub-Goals including Management Routines. This sheet is updated as a result of Change, see below. It contains:
 - Routines for non-manager roles (Goal = prd, ovs, ovh)
 - Routines for manager roles (Goal = mgt)
-
+  
 It is posible this sheet refers to a central location, or that the maintenance of Run information is fully delegated to for example a COO.
 
 ### MTrack5
@@ -337,7 +334,7 @@ For tracking Routines create:
 in which:
     rrr =  name of the Routine. 
 
-The reason to set up all four (Row in MTrack4, a note, a dolder, a sub-folder) is because:
+The reason to set up all four (Row in MTrack4, a note, a folder, a sub-folder) is because:
 1. MTrack4 helps in providing *statistics* on all Routines 
 2. The note helps logging processes, context etc. and can thus act as a *manual*
 3. The folder helps storing procedures, etc. 
@@ -458,15 +455,14 @@ Skills required for Management are below. Details of skills can be found under [
 - Self-learning
 - Teamwork
 - Time Management
-
 ________________________________________
 ## Writing Style (Framework)
 Written communication is key to the day to day of a Manager. The following guidelines aid in writing text that people will read, finish and follow through:
-- Use few adjectives/adverbs: Use strong verbs and nouns. Adverbs and adjectives often disrupt clarity.
-- Break it down: Split up beefy thoughts and sentences. As a pro once said, “The period never comes soon enough.”
-- Cut caveats: Every argument has exceptions. Every topic demands context. Still, unless specifically citing disclaimers, minimize the fig leaves of hedging.
+- Use few adjectives/adverbs: use strong verbs and nouns. Adverbs and adjectives often disrupt clarity.
+- Break it down: split up beefy thoughts and sentences. As a pro once said, “The period never comes soon enough.”
+- Cut caveats: every argument has exceptions. Every topic demands context. Still, unless specifically citing disclaimers, minimize hedging of statement.
 - Clean out residue: With each new draft refine, reinforce, reiterate, and restate. Go back and strip out extraneous wording.
-- Keep it short: Don’t write more than required for the audience.
+- Keep it short: don’t write more than required for the audience.
 ________________________________________
 ## Style Inventory (Framework)
 @@@
@@ -548,22 +544,22 @@ A Business Model is the Venture's reason of existence mapped against the Profile
 ### Design
 The design of the Business Model follows the Profile.
 
-#### Clients
+### Clients
 Understanding which Services (or Products) Clients' desire is key to delivering those Services. For this, additional properties for Clients extend insight into what is required:
 - Customer Segments: give insight into the segment, or segments Clients fall into based on specific traits e.g. personality, interests, age, income, industry. Segmentation helps managing the relationship with clients (through Marketing), see [## Marketing]. 
 - etc
 
-#### Services
+### Services
 Additional properties are important what Service (or Product) really means:
 - Value Proposition: the value a Venture aims delivering Clients when they choose to buy Services or Products. 
 - Distribution Channels: the Services (Products) need to be distributed to Clients. The manner in which this is done determines a significant part of the Venture's output. This may also rely on Suppliers (see below). 
 
-#### Operations
+### Operations
 Understanding Clients and Services (Products) determines how the Operations contribute to what the Venture outputs. There are some specific considerations and manners in which one can look at Operations. Bear in mind that in Operations Staff use Assets and Suppliers to deliver the Services:   
-- Core Capabilities: @@@
-- Supplier network: @@@
-- Cost structure: @@@
-- Revenue model: @@@
+- Core Capabilities
+- Supplier network
+- Cost structure
+- Revenue model
 
 ### Management
 Understanding the manner in which the above items are optimized using POLC.
@@ -592,7 +588,7 @@ As per [MGT: 99.Legend # Mission]. A Mission Statement expresses *how* the Ventu
 The Mission Statement is high level and sets out the overall direction the Venture should go into. Refer to:
 <https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
 ________________________________________
-## Core Values Definition (Framework)
+## Values Definition (Framework)
 @@@
 ________________________________________
 ## Bylaw Definition (Framework)
@@ -600,6 +596,8 @@ The Bylaws or Policies or Normative Documentation define the boundaries, methods
 The terms Bylaws or Normative Documentation are mostly used for the entire Venture whereas Policies are used within Activities. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
 
 Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the bylaws are society. Bylaws are reviewed on a periodic basis to assure they remain within the laws set out.
+  
+ByLaws should be easily accessible to anyone witin the Venture. Noweadays this is mostly achieved through the useof intranets and equivalent repositories of information. 
 ________________________________________
 ## SWOT (Framework)
 Strength and Weaknesses of a SWOT refer to *internal* forces, whereas Opportunities and Threats refer to *external* forces. Internal means *within* the Venture. In other words, Strengths and Weaknesses (internal) refer to aspects that are in control of the Venture, whereas Threats and Opportunities (external) are not in control of the Venture. Details of how to perform a SWOT here: 
@@ -768,15 +766,15 @@ Change Goals are composed of Projects, see below. Projects change the Run by imp
 - Combination of above all Projects affecting a  single Routine or many Routines and that within a Run Goal or across all Run Goals.
 ________________________________________
 ## Objective Definition (Framework)
-Objective Definition is about the differentiation between what constitutes a Routine, a Project and even a standalone Task. This was previously explained in [MGT: 99.Legend ## Objectives] and elaborated on here.
+Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [MGT: 99.Legend ## Objectives] and is elaborated on here.
 
 To be specific:
-- Routines: linked to Run Goals i.e. focus generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
-- Projects: focus is Change Goals i.e. the improvement of the Run.
+- Routines: linked to Run Goals i.e., focus generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
+- Projects: focus is Change Goals i.e., the improvement of the Run.
   
 There are cases where work is being asked to be performed which is neither specifically Run and also not a Project. In that case the Manager has two options to record that work:
 - Run Goal = ovh -> Run Sub-Goal = one-off
-- Change Goal = oth-
+- Change Goal = oth
 
 The differentiating factor is whether it it worth tracking as an actual Project or not.
 ________________________________________
@@ -805,29 +803,13 @@ In addition to these properties, SMART principles apply, see [## SMART]. The 6W 
 The *How* is more detailed which can be free text, reference to documents etc., see [## Objective Notation] on how this achieved. 
 
 ### Who Specifics for Objectives
-There is a difference between *Who* owns the Processes within the Objectives (*owner*) versus *Who* receives the benefit of the Objectives (*beneficiary*). When *who* is referred to the former is meant. The latter has to be desribed in the Description of the Objective or in the Objective Reference, see also [## Objective Notation]. 
+There is a difference between *Who* owns the Processes within the Objectives (*owner*) versus *Who* receives the benefit of the Objectives (*beneficiary*). When *who* is referred to the former is often meant. The difference is clarified in [## Objective Notation].  
  
 The owner of an Objective is either a specific Staff or a Group. By default, the owner is the Group associated to the Activity in which the Objective is performed. Within that Group a specific owner can be assigned. 
 By default, the Manager of an Activity in which an Objective is performed is responsible for the Objective. The manager gets those responsibilities delegated by the Manager of the Venture. See also [## Objective Definition], [## Activities Definition] and [## Delegating Definition].
-
-### Routines
-In work context Routines can be broken down in:
-- Sub: a sub-routine, which can be broken down in a
-- Drill: a sub-routine of a sub-routine
-
-Breaking Routines down helps focussing on the main purpose of a Routine without creating a large variety of individual Routines. It also helps assigning work to Staff at more granular levels within a Routine. On the other hand, the more details are provided, the more details needs to be maintained. The broader a scope a manager follows, the less detail should be pursued.
-
-### Projects
-In work context Projects can be broken down in:
-- Stream: a sub-project, which can be broken down in
-- Action: a sub-project of a sub-project
-
-Breaking Projects down helps focussing on the main purpose of a Project, without creating a large variety of individual Projects. It also helps assigning work to Staff at more granular levels within a Project. The more details are  provided, the more details needs to be maintained. The broader a scope a manager follows, the less detail should be pursued.
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down Goals, Objectives *and* Tasks. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Task*. In other words *Objective Indicators* is the same as *Task Indicators*, *Objective Notation* is the same as *Task Notation*, etc. 
-Also, Task/Project and Recurring Task/Routine are equivalent in below notation. See also [## Task Notation].
-The structure of Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments. 
+Objective Notation is a formalised structure to write down Goals, Objectives *and* Tasks. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Task*. In other words *Objective Indicator* is the same as *Task Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Also, Task/Project and Recurring Task/Routine are equivalent in below notation. See also [## Task Notation]. The structure of Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments. 
 
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
@@ -1009,7 +991,7 @@ Tasks are managed in different ways:
 As mentioned in [# BASELINE] various apps exist to manage Tasks: Google Tasks or Outlook Tasks.
 
 ### Mail to Self
-It is possible to send one-self a mail which then gets processed through [## Mail].
+It is possible to send one-self a mail as a form of Task. 
 
 ### Tasks in Notes
 There exist different types of notes that hold Tasks i.e. Journal related notes, Meeting notes, etc. Refer to [## Task Notation] below for more details. 
@@ -1018,7 +1000,7 @@ There exist different types of notes that hold Tasks i.e. Journal related notes,
 There exist sections in MSS that hold Tasks. Refer to [## Task Notation] for more details. 
 ________________________________________
 ## Task Notation (Framework)
-See [## Objective Notation], they use the same principles. 
+See [## Objective Notation]. 
 ________________________________________
 ## Project Management (Framework)
 Managers deal with Project Management, either because they manage Projects as part of the Planning or they manage Staff who manage Projects. 
@@ -1032,10 +1014,10 @@ Project Management has three key attributes:
 This is referred to as *Project Management Triangle* (PMT) which says that increasing/decreasing any aspect affects the other two (one or both). The role of a Project Manager (PM) is to optimise this and to report progress and issues to Key Stakeholders including Sponsors, see [### Sponsorship}, under [## Delegating Definition].
 
 #### Scope
-Scope is determined by the expected Result and the Implementation to achieve that Result. Scope drives complexity and breadth of a Project and thus the Resources (Assets, Staff, Suppliers). Scope is constrained by available Resources, and reversely, Resource availability drives the Scope.
+Scope is determined by the expected Result and the Implementation to achieve that Result. Scope drives complexity and breadth of a Project and thus the Resources (Assets, Staff, Suppliers) required. Scope is constrained by available Resources, and reversely, Resource availability drives the Scope.
 
 #### Cost
-Cost is driven by Resources. For any Project, one, two or all Resource tyoes are required. Cost is constrained by Budget and reversely drives Budget.
+Cost is driven by Resources. For any Project, one, two or all Resource tyoes are required (Staff, Assets, or Suppliers). Cost is constrained by Budget and reversely drives Budget.
 
 #### Time
 Time is driven by availability of Resources and constrained by internal / external deadlines. Reversely, availability or lack of Resources drives deadlines. 
@@ -1065,10 +1047,10 @@ This is actual work done on the Project by the Stakeholders, i.e. execution of t
 A PM monitors and tracks progress of phase 3. through [MSS: M5] which helps execute the above.
 
 #### 5. Project Close
-@@@
+The last phase of a Project is the closure. The prupose is to formally halt the controibution of resources to the Project, and validate that the deliverables have been acehived (fully or partially). The closure of a Project also aids in learning from the successes and mistakes of the Project. This in turn will enhance the next Project the PM and the members of the Project will work on. 
 
 ### Project Hierarchy
-As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used:
+As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used in this note, but it is perfectly possible to have variations:
  - Project
     - Stream
         - Action
@@ -1082,7 +1064,7 @@ The main idea is to delimit the criteria for a Project (and Stream, Action) to a
 Note that above approach depends on how Resources are managed. It is possible that a Venture keeps some slack in their Project assignments to be able to cope with new Projects arriving during the year. The availability or not of such Resources will mostly change in priority Medium.
 
 #### 0-Crit
-Applies only to non-planned Projects, i.e. not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture (Goal = sec) and Protect the Venture (Goal = pro). The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned. 
+Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture (Goal = sec) and Protect the Venture (Goal = pro). The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned. 
 There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the nr of Projects with this priotiry should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term. 
 In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g. Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently. 
 Note that in MSS items of PlanningType = Venture, or Chg Goal are flagged Critical as well. This asures that they are always picked up on when doing filtering on priority).
@@ -1103,7 +1085,7 @@ This Priority is used for anything that is not the above (in MSS it is used for 
 #### 5-tbc
 This Priority is temporary and means what it says: To Be Confirmed. It is entered as a placeholder for items for which the priority still needs to be defined. 
 
-NB: if the Prioritiy of Projects is never established, or if a Project is deemed not worthy of investing in anymore it should be moved to Goal = tmp or simply deleted.
+NB: if the Prioritiy of Projects is never established, or if a Project is deemed not worthy of investing in anymore it should be deleted.
 
 ### Project Urgency
 In addition to the manual priority described above, there is a notion of *urgency* caused by an approaching deadline of the Project (End Time). 
@@ -1135,6 +1117,7 @@ Projects that are completed. In MSS it is also used for Run Goals, Routines, Sub
 ________________________________________
 ## Gantt Chart (Framework)
 A Gantt Chart is a chart in which horizontal lines show work (effort) -to be- done in certain periods of time in relation to the amount planned for those periods. It is very useful to give an overview of planned work and how much of that has been achieved and can thus act as a Tactical Plan, see [## Tactical Plan]. It is a good way to measure progress, see [## Measurement]. It does, however, not measure progress against deliverables e.g. Cost reduction, which needs to be measured separately.
+MSS has a built-in Gantt Chart, see [## MSS].
 ________________________________________
 ## Tactical Plan (Framework)
 A Tactical Plan sets out a higher level view of Goals, Sub-Goals and Objectives throughout the year. More info on p. 217 of Principles of Management. In addition to showing progress, a Tactical Plan also shows the ratio of Effort in Run vs Change.
@@ -1261,12 +1244,11 @@ For Organising the above sections on Activities, Groups and Staff may be suffici
 Controlling may be important, particularly if quality control and risk mitigation are deemed critical to the Venture. 
 
 ### How To Use
-The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also trasnversal Routines. 
-The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.
-Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.  
+The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.   
+The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.  
+Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.    
 Therefore, for each Venture the focus will be on different aspects of the Profile Tree, and the manner in which they are described will be different in each case.
 If the above is used for the Operating Model of an Activity within the Venture, then much can be kept as is, but the focus should of course be on what is relevant to the Activity. So certain aspects of the Environment may not impact a specific Activity, so it can be left out.  
-
 Once the Operating Model has been completed as a one off it should be maintained with regular updates.
 ________________________________________
 ## COM (Framework)
@@ -1276,30 +1258,23 @@ ________________________________________
 The Target Operating Model or TOM is a *desired* version of the Current Operating Model. It is most often drawn up if sue to Projects the existing Routines are going to change such that the COM is not relevant anymore. A TOM is also actively pursued when there are new business initiatives, essentially creating new Routines. The same template as for COM can be used: [MGT: 80.Tools-OM-Template]
 ________________________________________
 ## CMM (Framework)
-A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: 
-- <https://www.tutorialspoint.com/cmmi/index.htm>
-- [STD: Management # CMM]
+A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: <https://www.tutorialspoint.com/cmmi/index.htm>.
 ________________________________________
 ## BIA (Framework)
 Business Impact Assessment is a method that looks at the key Activities and Routines within a Venture and assesses the impact of them not being able to be performed anymore due to (partial) lack of:
 - Staff and/or
 - Assets and/or
-- Suppliers
+- Suppliers and/or
 
 The BIA expresses itself in terms of Services not delivered as a result of the partial lack of the above.
 ________________________________________
 ## TRA (Framework)
 A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. 
-@@@
+This topic needs further sudy.
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
-
-One important way to collect feedback is through current / former colleagues and friends. Data related to them is kept in perso context notes:
-- [WRK: Staff]: details of colleagues
-- [WRK: Intel]: information obtained from colleagues
-
-Note that if a Trend is deemed important it may lead to a dedicated Projejcts within Goal = std. Market Intel is one of many drivers of new Projects.  
+Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Reaserach & Development.  
 
 
 *********************************************
@@ -1315,6 +1290,7 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Organising]
     - Job Description Definition 
 - Groups
     - Group Definition
+    - Organisation Chart
     - MSS, see [## MSS]
 - Roles & Responsibilities
     - Delegating Definition
@@ -1323,37 +1299,36 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Organising]
     - RACI
 ________________________________________
 ## Activities Definition (Procedure)
-Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service.
-For each Activity define name and subsequent properties at L2 and L3 within [MGT: Organising # ACTIVITIES] as per [MGT: 99.Legend ## Activities] and whilst observing [## RPT]. 
+Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service. For each Activity define name and subsequent properties at L2 and L3 within [MGT: Organising # ACTIVITIES] as per [MGT: 99.Legend ## Activities] and whilst observing [## RPT]. 
 
 Note that the Group name associated to the Activity is the same as the Activity, see also [## RPT].
 
-The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. As can be seen in [## Goal Definition] all standard Goals for any Venture are defined against the Activity = STE.
+The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. 
 
-For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: 99.Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition], [## Objective Definition].
+For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: 99.Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition.
 
 Guidelines:
 - Make the structure of Activities *simple*
 - Processes within the Activities can be *complex*
 ________________________________________
 ## Resource Planning
-With the Tactical Plan, see [## Tactical Planning], the target Objectives are identified for 1 year (or more) including when they will be worked on. However, resources are not attributed to those Objectives.
-
-In all fairness, the Tactical Plan is most often designed around known Resources. Nevertheless, there are considerations for planning resources.
+With the Tactical Plan, see [## Tactical Planning], the target Objectives are identified for 1 year (or more) including when they will be worked on. However, resources are not attributed to those Objectives. The Tactical Plan is most often designed around known Resources. Nevertheless, there are considerations for planning resources.
 
 Resource planning, a.k.a. Budgeting is a two way exercise in which Resources (Staff, Assets, Suppliers) are compared with the target set out by Goals. 
 
-### Resources
-Resources and Objectives are related:
-Assets + Staff + Suppliers = Routines + Projects
+Resources and Objectives are related: 
+    Assets + Staff + Suppliers = Routines + Projects
 
 Changes in Resources have an impact that needs to be managed through Business Functions: Finance, Human Resources and Procurement.
 ________________________________________
 ## Group Definition (Framework)
 Groups regroup Staff involved in the performance of Processes that are part of an Activity. Often the Group is headed by a Manager, most often of Lower Level Management i.e. operationally very involved. 
 ________________________________________
+## Organisation Chart (Framework)
+Although the Group Definition is defined by the Ativity Definition, the relation between Activities, is often capture in an Organisation Chart, and not an Activity Chart! In other words, the manner in which Activities relate to eachother is reflected in how Groups related to eachother. 
+________________________________________
 ## Delegating Definition (Framework)
-The defintion of Delegating is given in [MGT: 99.Legend ### Roles & Responsibilities]. This section sets out further details of Delegating.
+The defintion of Delegating is as per [MGT: 99.Legend ### Roles & Responsibilities]. This section sets out further details of Delegating.
 
 ### Delegating Conditions
 Legally speaking delegation is possible only if:
@@ -1477,7 +1452,7 @@ A Job Description has the following components:
 These aspects are explained below.  
 
 ### Executive Summary
-The Executive Summary explains all of th3 below sections in 5-30 lines. This helps in three ways: 
+The Executive Summary explains below sections in 5-30 lines. This helps in three ways: 
 1. It gives the reader a quick overview of the Job Description, and thus prepares the reader for what is to follow in more detail; 
 2. It forces the writer to explain in a few lines what it is the JD is about, and;
 3. It can be used for documents that require a short description of the JD.
@@ -1494,13 +1469,13 @@ This contains definitions of words that are relevant to this note. This section 
 
 ### Venture Description
 The Venture Description explains the high-level context of the Venture the Activity is part of. This includes very standard language and can come from the Venture's marketing material. There is no need to go through the Profile Tree items as they will be discussed in more detail on the Activity level.
-
+  
 Optional details for the Venture Description are:
 - Quantitative: Revenue, Staff nrs.
 - Qualitative: key achievements, impact on the market segment it operates in, etc. 
-
+  
 The Venture Description leads into the Activity relevant to the JD.
-
+ 
 ### Activity Description
 The Activity Description sets out the detailed context in which the JD is performed. It is possible to revert to the Activity's Operating Model (detailed in a separate document), specifically the Executive Summary, [MGT: 80.Tools-OM-Activity].
 
@@ -1566,9 +1541,6 @@ It is possible to have more than one R for a given Task.
 ### RACI Weaknesses
 RACI do not include Authority. Often Responsibility is assigned but this Responsibility does not carry any , or sufficient, Authority. In these cases the Responsible person will need to Escalate e.g., to the committee.
 Another weakness is that Consulted and Informed are not well defined: do those people need to be Consulted and Informed or *can* they be Consulted or Informed? To avoid this optionality or not, the actual expectations should be defined as part of the RACI definition.
-________________________________________
-## Group Definition (Framework)
-For each Group the name is the name of the associated Activity. As such Groups are not maintained separately.
 
 
 *********************************************
@@ -1595,7 +1567,6 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Leading]. O
 - Collaboration
     - Communication
     - Team
-    - Collab Crew
     - Brainstorming
     - Mentoring
 - Motivation
@@ -1628,7 +1599,6 @@ One-way vs two way
 
 ### Oral Communication
 @@@
-See also [## Meeting].
 
 ### Formal Communication
 @@@
@@ -1637,31 +1607,31 @@ See also [## Meeting].
 @@@
 _________________________________________
 ## Listening
-LIstening is part of communication. Good listening means understanding the goal of the converstation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
+LIstening is part of communication. Good listening means understanding the purpose of the converstation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
 
-There are four distincitve listening styles and Managers need to be able to differentiate between these four styles:
+There are four distinctive listening styles and Managers need to be able to differentiate between them:  
 - Analytical Listening: aims to analyse a problem from a neutral starting point.
 - Relational Listening: aims to build a connection and understand the emotions underlying a message.
 - Critical Listener: aims to judge both content of the conversation and reliability of the speaker.
 - Task-focussed Listener: shares a conversation towards an efficient transfer of important information.
 
-Five paths to improving listening :
+Five paths to improving listening:
 1. Establish the conversational goal: are you asking for a conversation, has the speaker explicilty said they want to have a word, or that they have a concern or idea? Is there a company directive or policy that comes into play? Does the speaker know what they want to get out of the conversation.
-
+  
 2. Recognise how you listen normally: pay attention to what you normally do versus and how that would intervene or reinforce the conversational goal.
-
+  
 3. Be mindful of whom the focus of attention: in simple words do not interject too casually with personal stories even if well intended. This is particularly important if the goal is to aleviate concerns of the speaker.
-
+  
 4. Adapt listening style to achieve the conversational goal.
-
+  
 5. Ask yourself if the conversational goal was addressed? This is even more relevant if the speaker does not know what to get out of the conversation.
 
 Sources: 
-~/data_public_study_HBR_Whats-Your-Listening-Style_20220531.pdf
-~/data_public_study_HBR_Mindful_Listening_2022.pdf
+- Hardvard Business Review, Whats-Your-Listening-Style (2015)
+- Harvard Business Review, Mindful Listening (2022)
 _________________________________________
 ## PSS Toolkit
-The following is from "The Fearless Organisation". There are three steps for Managers to work on continuously to create a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
+The following is from "The Fearless Organisation" by Amy Admonson. There are three steps for Managers to work on continuously to create a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
 
 ### 1. Setting the Stage
 The purpose of this step is to create *shared expected Results and meaning*. It reinforces the understanding that although it may considered a *Risk* to speak up about *failures*, including ones own, but that Speaking up is effectively aiding the Venture to *learn* and thus improve.
@@ -1707,15 +1677,13 @@ Powerful questions have the following attributes:
 Examples: "What leads you to think so?", "What might we be missing?"
 
 #### Setup Structures & Processes
-A last manner to increase participation is to create structures facilitating input from Staff. 
-Example: focus groups, special blogs, etc. 
+A last manner to increase participation is to create structures facilitating input from Staff. Example: focus groups, special blogs, etc. 
 
 ### 3. Responding Productively
 The last step of setting up PSS is by responding to the input provided in above stage in a manner that does not stint the PSS Process and effectively make it a self-maintained Process.
 
 #### Express Appreciation
-As a Manager, be receptive of, and even praise, the fact that someone has spoken up. The more uncertain the environment (incl at the start of setting up a PSS), the more the Manager should be vocal about it.
-Example: "Thanks for letting us know".
+As a Manager, be receptive of, and even praise, the fact that someone has spoken up. The more uncertain the environment (incl at the start of setting up a PSS), the more the Manager should be vocal about it. Example: "Thanks for letting us know".
 
 #### Destigmatise Failure
 The fear to fail is, especially in the beginning of implementing a PSS, very large. Therefore, reinforce the first step related to the Framing of Failure:
@@ -1728,9 +1696,7 @@ The fear to fail is, especially in the beginning of implementing a PSS, very lar
 Implementing a safe space and reframing Failure does not mean all failure is acceptable. If a Venture has specific policies that dictate certain behaviour as unacceptable e.g. disclosing proprietary information then no matter what the purpose of speaking up is, sanctions can be imposed (including dismissal). The vague the policies, the less such sanctions are considered reasonable. 
 ________________________________________
 ## Story (Framework)
-Having a Story facilitates interaction with Staff, Suppliers and Clients. Storytelling is defined as the strategic sequencing of facts and emotions. The most common misstep in crafting a story is to mistake recounting events as synonymous with telling a story. It is not! To be strategic means resisting the default mode of following chronology: first this, then that, and then bla-bla-bla. The audience’s attention drifts away before they know why they should care. 
-
-Details here:
+Having a Story facilitates interaction with Staff, Suppliers and Clients. Storytelling is defined as the strategic sequencing of facts and emotions. The most common misstep in crafting a story is to mistake recounting events as synonymous with telling a story. It is not! To be strategic means resisting the default mode of following chronology: first this, then that, and then bla-bla-bla. The audience’s attention drifts away before they know why they should care. Details here:
 <https://www.forbes.com/sites/estherchoy/2020/01/26/what-is-leadership-storytelling/?sh=1d7eba947b17>
 ________________________________________
 ## Feedback (Framework)
@@ -1739,15 +1705,10 @@ The purpose of feedback is not to praise/criticise the past, it is to *encourage
 ### Feedback Given
 Four steps to provide feedback:
 1. Can I give feedback/ Can I make an observation? / Can I focus on what just was said?
-2. 
-@@@ Listen to the podcast and finalise
 
 Regardless of the type of feedback (positive or negative) the *intonation* of above steps is the same. Not negative, not positive but with a positive afterthought i.e. it will be better in the future. 
 
-The reason to *ask* nr 1. is to make sure they are ready to listen! This is important because the purpose of feedback is to reinforce future behaviour. What if they say 'no'? Then move it to later. That's it.
-
-### Feedback Asked
-@@@
+The reason to *ask* nr 1. is to make sure they are ready to listen! This is important because the purpose of feedback is to reinforce future behaviour. What if they say 'no'? Then move it to later.
 ________________________________________
 ## Meeting (Framework)
 One of the most suitable forms of Communication is through a Meeting which is mostly organised throuh Calendar, see [## Calendar] and for which details are maintained in Notes, see [## Notes].
@@ -1759,7 +1720,7 @@ A Meeting is either owned by the Manager or not.
 
 A meeting is either recurring or not. Non-recurring Meetings can still be deemed 'recurring' in below procedure, except that there are no recurring dates available. 
 
-The purpose of a Meeting is to either regularly exchange updates between participants e.g. an item in MGT: 04.Controlling # JOURNAL), and/or it is used as a form of Control or Oversight e.g. an item in MGT:  Controlling # SUPERVISION and/or it is used as a form of Reporting to senior management or more generally to stakeholders e.g. an Item in [MGT: Controlling # REPORT].
+The purpose of a Meeting is to either regularly exchange updates between participants e.g. an item in MGT: 04.Controlling # JOURNAL), and/or it is used as a form of Control or Oversight e.g. an item in MGT:  Controlling # SUPERVISION and/or it is used as a form of Reporting to senior management or more generally to stakeholders e.g., an Item in [MGT: 04.Controlling # REPORT].
 
 ### Meeting Procedures
 For each Recurring Meeting set up a note. The note drives how the meeting is done.
@@ -1852,11 +1813,6 @@ Known motivators in business context:
 - Recognition
 - Respect
 - Challenging work
-________________________________________
-## Collab Crew
-
-@@@
-https://hbr.org/2022/04/do-we-still-need-teams?utm_medium=email&utm_source=newsletter_weekly&utm_campaign=insider_activesubs_substatusind&utm_content=signinnudge&deliveryName=DM190227
 ________________________________________
 ## Brainstorming (Framework)
 Brainstorming is used to find a viable solution to a problem. It does not work for complex, multifacted problems. There are two key principles: 
@@ -2337,13 +2293,11 @@ There are other Subjects possible. For example, "Breach: Breach type yyy for xxx
 As can be seen, applying the Check Standards drive most of a well conceived Self-Contained Mail framework!
 ________________________________________
 ## Reporting Definition (Framework)
-Reporting is conceptually simple, but not always easy to implement:
+Reporting is conceptually simple, but not always easy to implement because:
 - Reader of the report may not be familiar with the lingo/acronyms/topics.
 - Inconsistent manner of writing down the facts
 - Too many details provided
-
-
-
+- Data is not always available at the time of writing a Report.
 
 
 ### Management Report
@@ -2365,7 +2319,7 @@ c. Need for that data to be reported.
 
 3. Risk
 - Actuals: dependent on the sector the Venture operates in. 
-- Exceptionals: losses, 
+- Exceptionals: losses 
 
 4. Run
 - Exceptionals: the Run is expected to operate as expected. Only Exceptionals should be reported.
@@ -2396,7 +2350,7 @@ Note that most reports are of the form: report for week ending dd Mmm yyyy wit v
 
 Example: 
 Completed review of audit report started on 1 Oct 2022 on 15 Nov 2022 and before due date by John Doe for the Car Testing Department. Conclusion: department overall in ok state vs regulations but improvements necessary due to new regulations on gas emissions. Next: deploy 2 action plans before 15 May 2023.
-
+  
 ### Reporting Standards Implementation
 Above principles are implemented through Objective or Task Notation, see [## Objective Notation], [## Task Notation]. Reminder of the expanded Format for both in non-recurring Objectives and Tasks:
 
@@ -3539,6 +3493,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20240131
 - Added Operations, Staff, Assets, Suppliers, Liabilities, Equity
 - Added [## Data & Info] under [# ASSETS]
+
+### 20240211
+- Update various sections in line with changes made in [MGT: 99.Legend]
 
 ### Planned
 
