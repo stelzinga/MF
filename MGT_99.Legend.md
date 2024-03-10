@@ -376,7 +376,7 @@ Another way to understand the Profile Tree is to break it down into two parts: *
 - Which constraints and dependencies affect the manner in which the Services are created and maintained (Environment)
 
 The Bottom Profile Tree focuses on:
-- How is the Top Profile Tree is achieved (Operations)
+- How is the Top Profile Tree achieved (Operations)
 - How are Operations improved (Management)
 - How is Management aided (Business Functions & Tools) 
 
@@ -432,7 +432,8 @@ i.   gro -> Grow Revenue by adding Clients, Services
 ii.  pro -> Protect existing Revenue at risk of being lost due to a changing Environment;
 iii. sec -> Secure Operations to reduce Risk;
 iv. opt -> Optimise Operations to reduce Cost and/or increase Revenue;
-v.  oth -> Placeholder for any other Projects.
+v.  oth -> Projects performed by others affecting the Venture.
+vi.  prj -> Placeholder for other Projects 
 
 Goals can, but don't need to, have *Sub-Goals*: *Run Sub-Goals* and *Change Sub-Goals*. It is through Run Sub-Goals within Goal *prd* that Activities can be differentiated by focusing on aspects of the Services and/or Clients that set each Activity apart e.g., Sub-Goal is *prd - Build Car Engines*. Change Sub-Goals refine Change Goals into a detailed *Roadmap* where each Change Sub-Goal reflects a specific theme Management wants to focus on for the current period, mostly a year e.g., *opt - Reduce Cost of Suppliers*. 
 
@@ -469,13 +470,13 @@ The Venture needs to pay for Resources but often does not have the necessary Cas
 For a listed company Equity represents the net worth of the Venture and is the difference between Assets and Liabilities. For a non-listed company, the name used is Capital. Equity includes Shares issued as well as retained Earnings. Issuing Shares relinquishes control of the company to Shareholders who expect sustained positive performance of the company i.e., Earnings redistributed as Dividends or share price increase or both. As a form of funding, it is long term and infrequent. It is mostly a concern for Management on company level.
 
 ### Management
-The Management Functions of the POLC i.e., Planning, Organising, Leading and Controlling, academically explain the foundations that continuously drive and optimise Operations. These are the four main deliverables of Management and are what Management in its essence is about (they are all discussed in detail below). In addition to the above four Management Functions, there are two more deliverables within Management. The first one is the *Management Cycle*, or *MC*, which reflects the continuous performance of the four Management Functions, but expressed in terms of the key deliverables of Operations: *Revenue*, *Cost*, *Risk*, *Run*, and *Change*, with the rest of the Profile Tree Items (Staff, Assets, Suppliers, Equity, HR, Finance, etc.) all captured in the generic cycle called *General Management*, *General* or just *Management*. Combined with *Intel* as the information contributing step, these 7 items of the Management Cycle are referred to as *Managerial 7*. 
+The Management Functions of the POLC i.e., Planning, Organising, Leading and Controlling, academically explain the foundations that continuously drive and optimise Operations. These are the four main deliverables of Management and are what Management in its essence is about (they are all discussed in detail below). In addition to these four Management Functions, there are two more deliverables within Management. The first one is the *Management Cycle*, or *MC*, which reflects the continuous performance of the four Management Functions, but expressed in terms of the key deliverables of Operations: *Revenue*, *Cost*, *Risk*, *Run*, and *Change*, with the rest of the Profile Tree Items (Staff, Assets, Suppliers, Equity, HR, Finance, etc.) all captured in the generic cycle called *General Management*, *General* or just *Management*. Combined with *Intel* as the information contributing step, these 7 items of the Management Cycle are referred to as *Managerial 7*. 
 The second deliverable of Management is *Management Improvement*, which, as the name suggests, involves improving the performance of Management itself, including improving Managers. Note that involvement in the deliverables in Management, Planning, Organising, Leading and Controlling depends on the *Management Level* e.g., CEO, department head, line manager, team leader, etc.
 
 ### Planning
 Planning involves Processes to establish *what is to be done where, when and why* and *how*. This first Management Function defines why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects its Staff to operate (#Values* and *Bylaws*), and how it assesses the Environment versus its own capacity (*SWOT* and *Intel*). 
 Planning ultimately yields the aforementioned deliverables Goals and Objectives which drive the Services to produce. By design, Planning also establishes metrics for Objectives, expressed as Revenue, Cost and Risk, including metrics for Balance Sheet, which are subsequently used in Controlling. 
-The result of Planning is a *Plan* or *Planning* and depending on detail and how forward looking they are, they are called *Strategic Plan* a.k.a. *Strategy*, *Tactical Plan*, or *Operational Plan* a.k.a. *Operating Model*. The latter is the blueprint of everything involved across the Profile Tree but focussing on the Run of the Venture. 
+The result of Planning is a *Plan* or *Planning* and depending on detail and how forward looking they are, they are called *Strategic Plan* a.k.a. *Strategy*, *Tactical Plan*, or *Operational Plan* a.k.a. *Operating Model*. The latter is the blueprint of everything involved across the Profile Tree but focusing on the Run of the Venture. 
 
 ### Organising
 Organising involves Processes to establish *who does it* and *how to do it*. This Management Function frames the Activities that perform specific Objectives defined in Planning, and it defines how Staff are organised in Groups such that they can use Assets and Suppliers to achieve those Objectives within the Activities. Organising also establishes *Roles & Responsibilities* of Staff using the concept of *Delegation* of *Responsibility* and *Authority*, thus creating *Accountability*. The result of Organising is an *Organisation*, both of Activities and Groups.
@@ -487,7 +488,7 @@ Leading involves Processes to *drive* those *who do it*. This third Management F
 Controlling involves Processes to establish *how well it was done*. This fourth Management Function assesses the Venture's performance across all Activities versus metrics determined in Planning, and adjusts through Planning, Organising and Leading. 
 Controlling uses *Journaling* to record any matters related to the other Controlling deliverables and more generally, to keep track of work done across all four Management Functions.
 The assessment of the efficiency of Operations is done through *Supervision* which is performed through a *Supervision Framework* composed of *Supervision Processes* a.k.a. *Controls* applied to a *Supervision Scope*. There are four Supervision Processes:
-i.   To *Check*: verify Processes / Results vs a benchmark;
+i.   To *Check*: verify Processes / Results vs a benchmark, either as a standalone Process or embedded within an Asset or Routine;
 ii.  To *Review*: verify Processes / Results against experience, or opinion;
 iii. To *Attend*: a *Committee* to verify Processes and/or Results through discussion with others, thus attaining a broader range of opinions than a Review; or 
 iv) To *Audit*: an *independent* verification of Processes and/or Results, the result of which is used by Management. 
@@ -526,7 +527,7 @@ Organising ⇔ Activities & Groups ⇔ Leading
               Risk  
            Compliance  
             CorpSec  
-          Procurement   
+           Procurement   
             Others  
               ⇕  
             Tools  
@@ -581,7 +582,7 @@ Each deliverable for each Profile Tree can have a number as well. The number is 
 The Legend, with the Profile as overarching Framework, has the highest number in the naming convention: 99.Legend. 
 ________________________________________
 ## Process
-A Process is so fundamental to what happens within a Venture that it has a dedicated section to define it.
+A Process is so fundamental to what happens within a Venture that it has a dedicated section to *define* it.
 
 A Process is one or more *triggered* or *continuous* *Steps* applied to one, or more, forms of *Input* to achieve one, or more, forms of desired *Output* or *Result*, or:
 
@@ -591,7 +592,7 @@ A Process is defined by the 6W Framework: Where, What, When, Who, Why and How or
 
 Output is purely determined by the *desired* Result and thus drives the design of the Steps and the Input. 
 Input can be any of the following: Assets, Services from Suppliers and Results from other Processes or from the Process itself (internal loop back). Therefore, they have constraints: time, energy, manpower, cost, etc. 
-Steps are the logic of the Process: they determine how Input is transformed into a specific Result and they may be manual or automatic (the latter case is triggered manually or by another Process).
+Steps are the logic of the Process: they determine how Input is transformed into a specific Result and they may be manual or automatic (the latter case is triggered manually or by another Process).  
 It is possible, and even likely, that several Processes, and thus Results, need to be combined to obtain a final Result. Such combined Processes have different names e.g. Activities, Macro-Processes, Process Group, etc.
 
 *Process Maintenance* is the notion of manually or automatically applying specific Processes to assure another Process keeps yielding the expected Result over time. As it is an extra Process purely built to keep another Process operational it adds to the Cost of the original Process.
@@ -603,9 +604,9 @@ A *Process Owner* is the Group or Staff expected to yield a Result, making a Pro
 *Process Cost* is the cost of a Process. Often this Cost is hard to price, and may not be relevant on a per Process basis. Nevertheless, each Process incurs cost. Process Cost can be related to time spent by Staff on a Process.
 
 A Process has Risk associated to it, by definition, see [## Profile Overview]. The assessment of that Risk, for a given Process is key in Risk Management. Sometimes specific Processes are designed to verify another Process has yielded a specific Result as per expectations. Such a Process is referred to as a Control or Check. By definition, even Controls have Risk embedded in them.
-
+  
 Optimising Processes such that they are at lowest Cost and generate the least Risk possible, is key in Management in general.
-
+  
 Any Process should directly or indirectly :
 - Maintain or Increase Revenue and/or
 - Maintain or Reduce Risk and/or
@@ -928,7 +929,7 @@ Key deliverables of Planning are:
 The Context a.k.a. *Business Model* gives the Manager visibility on what the Venture is about, or said differently, what the *Value Proposition* i.e. what aspect(s) about the Service(s) are a differentiator for Clients. A key input to the Context is the result of SWOT (see below). Managers spend considerable time on assuring they know ins and outs of the Venture, constantly collecting information through Management Functions and Business Functions such that a holistic insight can be obtained and formalised in the Business Model. Note that a Business Model is related to, but not the same as *Operating Model* or Operational Plan, which is explained further below.
 
 ### Purpose
-A Purpose Statement articulates the *why* of the Venture *now*. It explains the reason of its existence and the impact it wants to make, or in other words, what it does beyond the generation of Profit, *today*.  Most Venture's do not use Purpose Statements, and they focus on Vision Statements, or they refer to Purpose Statement which is actually a Vision Statement.
+A Purpose Statement articulates the *why* of the Venture *now*. It explains the reason of its existence and the impact it wants to make, or in other words, what it does beyond the generation of Profit, *today*. Most Ventures do not use Purpose Statements, and they focus on Vision Statements, or they refer to Purpose Statement which is actually a Vision Statement.
 
 ### Vision
 A Vision Statement expresses the *why* of the Venture in the *future*. It explains what it thinks the reason of its existence should be and the impact it should have, or in other words, what it should do beyond generation of Profit, *tomorrow*. 
@@ -963,7 +964,7 @@ The most important one is Y as that sets the Venture apart from Competitors. The
 ### Values
 Values reflect what the Venture deems it's moral or cultural compass. It can be composed of Value and/or Principles. These are somewhat different in what they mean. Principles govern interactions between people, but are objective. Examples include fairness, integrity, and honesty.  
   
-On the other hand, Values are opinions and ideas and are thus subjective, and as a result of being opinions, they can change u dee different conditions. An examples is tolerance.
+On the other hand, Values are opinions and ideas and are thus subjective, and as a result of being opinions, they can change under different conditions. An examples is tolerance.
 
 Values and Principles affect the Venture as a whole and each individual working within and for it i.e., Suppliers. They also set requirements in terms of recruitment. The distinction between Values and Principles may not be made.
 
@@ -1024,7 +1025,8 @@ Change Goals relate to Change Services. Change Goals drive Change Objectives. St
 2. Protect existing Revenue from changes in the Environment (pro);
 3. Secure Operations to reduce Risk (sec); and 
 4. Optimise Operations to reduce Cost/Risk and/or increase Revenue (opt). 
-5. Anything else, placeholder for specific projects not part of above 4 Goals (oth)
+5. Project performed by others, affecting the Venture
+6. Placeholder for other projects, most often those raised after the definition of the Roadmap. 
 
 #### Sub-Goals
 Sub-Goals are defined for both Run and Change Goals. For the former they regroup Objectives that contribute directly or indirectly to Run Services and thus reflect the Activities in the case of Goal prd. For the latter they are defined as themes Management wants to focus on over a short period of time e.g. 1 yr see [### Tactical Plan]. In the sections below, where *Goal* is mentioned, it can also mean Sub-Goal if one has been defined for a Goal. Change Sub-Goals are often presented in much detail to Stakeholders as part of the Strategy. The definition of Sub-Goals (and changes in Sub-Goals) is done as a result of SWOT. 
@@ -1384,7 +1386,7 @@ The various steps of Controlling, described above, are fundamentally captured in
 The manner in which Managers decide to assure Supervision is done through a Supervision Framework. The Supervision Framework frames which Supervision Processes are applied to which Supervision Scope. There are four *Supervision Processes* a.k.a. Controls: *Check*, *Review*, *Attend* and *Audit*. All except Attend are both a noun and a verb. Attend is a verb, the noun being Attendance.  
 
 #### Check 
-A Check consists of the full cycle described above i.e., understanding the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks are most often performed periodically, with a focus on breaches between Measurement and Benchmark. They tend to be performed on Routines, more than on Projects. Often, when a Control is referred to, it means a Check in terms of this Management Framework.
+A Check consists of the full cycle described above i.e., understanding the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks can be performed continuously or  periodically. Continuous checks tend to be embedded within an Asset or Routine. Periodic checks are performed with a predefined recurrence, and can also verify the efficiency of continuous Checks. Often, when a Control is referred to, it means a Check in terms of this Management Framework.
 
 #### Review
 A Review is a verification of the Result of a Process against a Manager's (or other relevant Staff's) opinion based on experience and knowledge and potentially some benchmark. It is generally less formalised than a Check. A Review is an often used method to verify progress (Performance) and/or zones of risk within Operations and/or Management and/or Clients in combination or not with the Environment (Market Intel). A Review may also act as a validation as part of a mandatory step in a broader Process. Note that the Process for Review may differ on a case by case basis. Review, is mostly performed periodically. Unlike Checks, Reviews rely on a more holistic knowledge of the Processes being reviewed as well as the Activities those Processes are part of. When doing a Review, the second step, Establish Baseline, is replaced by that holistic knowledge. 
@@ -2231,6 +2233,10 @@ Added the notion of Board of Directors to [### Management Level].
 ### 20240211
 - Updated [### Values] making a distinction between Values and Principles.
 - Added Sub-Goal "Research & Development" to list of Sub-Goals for Goal = prd. 
+
+### 20240310
+- Updated [### Controlling] in [## Profile Overview] to highlight that Checks can be done standalone or embedded. Same update was made in [## Controlling].
+- Updated Change Goals in [## Profile Overview] and [## Planning]
 
 ### Planned
 
