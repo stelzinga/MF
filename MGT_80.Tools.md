@@ -112,8 +112,12 @@ Management is the term reflecting the organisation of human capital (Staff) such
 ________________________________________
 ## Overview
 This overview shows on the first level the key deliverables as per [MGT: 99.Legend ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same tool can be used for different deliverables:
+- Baseline
+    - PDA
 - Management Cycle
     - Eisenhower Matrix 
+    - MSS
+    - MTrack
     - MC
     - Governance Matrix 
 - Management Improvement
@@ -128,6 +132,31 @@ This overview shows on the first level the key deliverables as per [MGT: 99.Lege
     - Dedicated Leading note
 - Controlling 
     - Dedicated Controlling note
+________________________________________
+## PDA
+Throughout Management, certain standard Tools are deemed 'standard' or 'baseline'. 
+This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
+- Mail 
+- Calendar
+- Tasks
+- Notes
+- Contacts
+- Chat
+- Phone incl Video
+- Browser
+
+Depending on the apps used, and whether a Venture requires specific apps to be used, different implementations are possible. 
+
+- Mail     (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
+- Calendar     (MS Calendar, Google Calendar, Yahoo Calendar, ...)
+- Tasks     (MS Tasks, Google Tasks, ...)
+- Notes    (MS OneNote, Google Notes, Standard Notes, Evernote, ...) 
+- Contacts    (MS Contacts, Google Contacts, ...)
+- Chat    (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
+- Phone incl Video    (MS Teams Phone, ...)
+- Browser (MS Edge, Google Chrome, Firefox, 
+
+Because they can be used in different manners by different people, this note will not presecribe particular uses. The exception made is for Notes, because they are a fundamental part of the Management Framework. 
 ________________________________________
 ## Eisenhower Matrix (Framework)
 The Eisenhower Matrix or Eisenhower Decision Tree or Eisenhower Box is a decision tool to plan work on short term. The decision tree is based on two dimensions of Tasks: *urgency* and *importance*. Important/Unimportant is defined as: impact on the Venture is high/low. Urgent/non-urgent is defined as: time to market is low/high
@@ -264,7 +293,7 @@ It is posible this sheet refers to a central location, or that the maintenance o
 Sheet M6 a.k.a. MTrack6 contains Intel or Intelligence both from within, as well as outside of the Venture. This sheet is updated continuously. 
 ________________________________________
 ## MC (Framework)
-MC is the Framework to perform the Management Cycle. It is composed of various Processes performed at different frequencies using the baseline Tools discussed earlier. 
+MC is the Framework to perform the Management Cycle. It is composed of various Processes performed at different frequencies using relevant Tools. 
 
 There are two main parts to the MC:
 - Initiation
@@ -272,8 +301,7 @@ There are two main parts to the MC:
 
 ### MC Initiate
 This part of the MC initialises the minimum Management Structure and is composed of several steps:
-1. Mail, see [## Mail]
-2. Calendar, see [## Calendar] 
+1. set up a PDA structure,  [## Calendar] 
 3. As many meeting Notes as meetings [MGT: Attend-mmm], see [## Meetings]
 4. As many OM Notes as Activities [MGT: OM-aaa], see [## Operating Model]
 5. The BuJo Notes and Mtrack Sheets, see [#### MC BuJo & MSS] below 
@@ -319,10 +347,9 @@ Example for Profile Tree Item: Planning.
     - 01.02.purpose
     - etc
 
-MTrack0 does not define the Venture, but drives the collection of all other details.
-Note that the note [MGT: 00.Management] has a special content, as per [## Bujo].
+MTrack0 does not define the Venture, but drives the collection of all other details. Note that the note [MGT: 00.Management] has a special content, as per [## Bujo].
 
-MTrack1,  MTrack2,  MTrack3, contain Venture specific details of the Revenue, Cost and Risk respectively (or alternatively: Income Statement, Balance Sheet, Risk), see [## MTrack].
+MTrack1, MTrack2,  MTrack3, contain Venture specific details of the Revenue, Cost and Risk respectively (or alternatively: Income Statement, Balance Sheet, Risk), see [## MTrack].
 
 MTrack4
 For tracking Routines create:
@@ -501,7 +528,7 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Planning]. 
 - Bylaws
     - Bylaw Definition 
 - SWOT
-    - SWOT
+    - SWOT Analysis 
     - Value Chain
     - VRIO
     - Pestel
@@ -572,12 +599,12 @@ ________________________________________
 ________________________________________
 ## Vision Statement (Framework)
 As per [MGT: 99.Legend]. Refer to:
-<https://www.atlassian.com/work-management/strategic-planning/mission-and-vision>
-<https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
-<https://asana.com/resources/vision-statement>
+- <https://www.atlassian.com/work-management/strategic-planning/mission-and-vision>
+- <https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
+- <https://asana.com/resources/vision-statement>
 ________________________________________
 ## Mission Statement (Framework)
-As per [MGT: 99.Legend # Mission]. A Mission Statement expresses *how* the Venture is going to achieve its Purpose or in other words It explains a Venture's value proposition as follows:
+As per [MGT: 99.Legend ### Mission]. A Mission Statement expresses *how* the Venture is going to achieve its Purpose. In other words, it explains a Venture's value proposition as follows:
 
     "Achieve X by doing Y for the benefit of Z"
     in which:
@@ -592,15 +619,14 @@ ________________________________________
 @@@
 ________________________________________
 ## Bylaw Definition (Framework)
-The Bylaws or Policies or Normative Documentation define the boundaries, methods and obligations of the Venture. Depending on the Venture the terms Bylaws, Policies and Normative Documentation are used interchangeably or not.
-The terms Bylaws or Normative Documentation are mostly used for the entire Venture whereas Policies are used within Activities. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
+Bylaws, Policies or Normative Documentation define the boundaries, methods and obligations of the Venture. Depending on the Venture the above terms are used interchangeably or not. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
 
-Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the bylaws are society. Bylaws are reviewed on a periodic basis to assure they remain within the laws set out.
+Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society. Bylaws are reviewed on a periodic basis to assure they remain within the laws set out.
   
-ByLaws should be easily accessible to anyone witin the Venture. Noweadays this is mostly achieved through the useof intranets and equivalent repositories of information. 
+ByLaws should be easily accessible to anyone witin the Venture. Noweadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
 ________________________________________
-## SWOT (Framework)
-Strength and Weaknesses of a SWOT refer to *internal* forces, whereas Opportunities and Threats refer to *external* forces. Internal means *within* the Venture. In other words, Strengths and Weaknesses (internal) refer to aspects that are in control of the Venture, whereas Threats and Opportunities (external) are not in control of the Venture. Details of how to perform a SWOT here: 
+## SWOT Analysis (Framework)
+Strength and Weaknesses of a SWOT refer to *internal* forces, whereas Opportunities and Threats refer to *external* forces. Internal means *within* the Venture. In other words, Strengths and Weaknesses (internal) refer to aspects that are in control of the Venture, whereas Threats and Opportunities (external) are not in control of the Venture. Details of how to perform a SWOT can be found here: 
 <https://www.managementstudyguide.com/swot-analysis.htm> 
 
 Each item in the SWOT should answer specific questions:
@@ -642,19 +668,19 @@ There are various Tools that futher help in a SWOT analysis:
 - Pestel, see [## Pestel]
 ________________________________________
 ## Value Chain (Framework)
-Value Chain is a tool used to define and analyse *internal* aspects (Strengths, Weaknesses) of a SWOT (see above). It was designed by Michael Porter and is a useful tool to assess organisational capabilities. It is a chain of Activities. More info on p. 217 of Principles of Management. Note that Value Chain is also used within Operations to denote the Activities generating Revenue.
+Value Chain is a tool used to define and analyse *internal* aspects (Strengths, Weaknesses) of a SWOT (see above). It was designed by Michael Porter and is a useful tool to assess organisational capabilities. Note that the term Value Chain is sometimes also used within Operations to denote the Activities generating Revenue.
 ________________________________________
 ## VRIO  (Framework)
-VRIO = Valuable, Rare, Inimitable, Organisation. It is another Tool used to define and analyse the *internal* aspects (Strengths, Weaknesses) of the SWOT (see above). More info on p. 217 of Principles of Management.
+VRIO stands for Valuable, Rare, Inimitable, Organisation. It is another Tool used to define and analyse the *internal* aspects (Strengths, Weaknesses) of the SWOT (see above).
 ________________________________________
 ## Pestel  (Framework)
-Pestel = Political, Economic, Socio-cultural, Technological, Environmental, Legal environments. It is a Tool used to analyse and define the *external* aspects (Opportunities, Threats) of the SWOT analysis, see above). More info on p. 226 of Principles of Management.
+Pestel stands for Political, Economic, Socio-cultural, Technological, Environmental, Legal environments. It is a Tool used to analyse and define the *external* aspects (Opportunities, Threats) of the SWOT analysis, see above).
 ________________________________________
 ## SMART (Framework)
-SMART (Specific, Measurable, Aggressive, Realistic, and Time-bound is used to define Goals and Objectives.
+SMART (Specific, Measurable, Aggressive, Realistic, and Time-bound) is a Framework used to define Objectives.
 
 ### Specific 
-Goals and Objectives need to be specific, well scoped. This is achieved by applying the 6W, see [MGT: 99.Legend #### 6W Framework].
+Objectives need to be specific, well scoped. This is achieved by applying the 6W, see [MGT: 99.Legend #### 6W Framework].
 
 ### Measurable
 Measurable relates to the *expected Result*. For simplicity it is broken down into the following *Measurement Types*. The *verbs* are also discussed in [## Objective Notation].
@@ -665,22 +691,17 @@ Measurable relates to the *expected Result*. For simplicity it is broken down in
 The notion of an expected Result is important when considering performance management frameworks in the Management Function Controlling. Examples of such frameworks are Management By Objectives (MBO), Balance Score Card (BSC) and Objective & Key Result (OKR). The choice of model depends on corporate push, manager preference etc. Details in [MGT: 80.Tools ## Performance Management].
 
 ### Aggressive
-Goals and Objectives need to push the Venture further and should thus be aggressive or ambitious. 
+Objectives need to push the Venture further and should thus be aggressive or ambitious. 
 
 ### Realistic
-Despite the above ambition, Goals and Objectives should be attainable else there is little incentive to work on them. NB: for OKR, see [## OKR], actually completing an Objective is *not* a requirement.
+Despite the above ambition Objectives should be attainable else there is little incentive to work on them. 
+NB: for OKR, see [## OKR], actually completing an Objective is *not* a requirement.
 
 ### Time-bound
-Goals and Objectives need to be Time-bound. Time constraints dictate urgency and dependencies. it also adds a dimension to Measurable i.e. *complete before some deadline*.
+Objectives need to be Time-bound. Time constraints dictate urgency and dependencies. it also adds a dimension to Measurable i.e., *complete before some deadline*.
 ________________________________________
-## Goal Definition (Procedure
-Goals are established based on the Mission as well as medium term view of where the Venture should go. Structurally, Goals follow a very similar pattern regardless of the Venture. Below two sections detail the Standard Run Goals and Change Goals.
-
-### Perso Standard Goals
-Perso goals are specific to the context.
-
-### Work Standard Goals
-Below follow Standard Run and Change Goals for work context using Objective Notation, see [## Objective Notation]. CEO represents the owner of the owner of the Goals, it is to be replaced with the name or initials of the Managers. 
+## Goal Definition (Procedure)
+Goals are established based on the Mission as well as medium term view of where the Venture should go. Structurally, Goals follow a very similar pattern regardless of the Venture. Below two sections detail the Standard Run Goals and Change Goals using Objective Notation, see [## Objective Notation]. CEO represents the owner of the owner of the Goals, it is to be replaced with the name or initials of the Managers. 
 
 #### Work Run Goals
 % mgt (19700101:99991231) {CEO} |VNT| [Perform Management. Perform the Four Management Functions of the POLC that assure the Venture keeps up and running. This Goal assures a structure is put in place, and maintained, such as to generate and optimise Revenues, Cost, Risk, Liabilities and Equity in order to support all other Goals. This goal also drives Change.]
@@ -809,7 +830,7 @@ The owner of an Objective is either a specific Staff or a Group. By default, the
 By default, the Manager of an Activity in which an Objective is performed is responsible for the Objective. The manager gets those responsibilities delegated by the Manager of the Venture. See also [## Objective Definition], [## Activities Definition] and [## Delegating Definition].
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down Goals, Objectives *and* Tasks. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Task*. In other words *Objective Indicator* is the same as *Task Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Also, Task/Project and Recurring Task/Routine are equivalent in below notation. See also [## Task Notation]. The structure of Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments. 
+Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine*, *Stream*, *Sub*, *Action*, *Drill* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation]. Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments.
 
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
@@ -827,13 +848,14 @@ This notation links to the 6W as follows:
 There is no Objective Indicator for *Where* because:
 a. Objectives are owned by Staff 
 b. Staff are mostly located in a single location 
-c. The Objective is often agnostic to the location and if it is not it can be added in the *How*.
+c. An Objective is often agnostic to the location and if it is not it can be added in the *How*.
 
 The order of components is critical:
 1. Certain combinations have special meaning in Markdown: [...](...) w/o space between ']' and '(' is a URL.
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
 
-The number of spaces *between* components is optional i.e. there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Except Status and Name, no components are mandatory.
+The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierachy].
+Except Status and Name, no components are mandatory. 
 
 ###  Objective Notation Status Indicator
 Status is mandatory and uses symbols:
@@ -850,20 +872,18 @@ x                   Project, Closed (lower case letter x)
 _                   Comment (underscore)
 dd-mm-yy:  Comment (date format comment)
 
-As can be seen, a status indicator symbol is a single character, except for the last form, the comment. 
-A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Objective (Project, Routine) or a Comment, and in case of a Project, it also shows the status of the Project. 
-Status symbol for Project can also be used for follow-up actions in Meetings, see [## Meetings]. Note that '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
-Note that Sub-Goals are mostly used in more complex structures. In case of Objectives (not applicable to Tasks) there is no status for Subs, Drills, Streams and Actions.
-The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of all Indicators which adds insight into aspects of the comment e.g. dates, who is involved, where are more details, etc.
+As can be seen, the Status Indicator symbol is a single character, except for the last form, the comment. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Objective (Project, Routine) or a Comment, and in case of a Project, it also shows the status of the Project. Status symbol for Project can also be used for follow-up actions in Meetings, see [## Meetings]. 
+NB: the '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
+The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, where are more details, etc.
 
 ### Objective Notation Name 
-The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Objectives it has three requirements:
+The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name has three requirements:
 1. Must start with a *verb*
 2. Contains a *measurable* expected *Result*
 3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
 4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, **bold**, Stop!, Say: "This shall be done!", etc  
 
-Note that *if* for esthetic or sorting reasons, it is preferable to start Name with a number then this is permitted e.g. 01. Manage Planning, 02. Manage Organising, ... 
+Note that *if* for esthetic or sorting reasons, it is preferable to start Name with a number then this is permitted e.g., 01. Manage Planning, 02. Manage Organising, ... 
 
 Verbs are an indication of targeted Result, see [## SMART]:
 - Assess: obtain a result and compare against expectations 
@@ -879,6 +899,7 @@ Verbs are an indication of targeted Result, see [## SMART]:
 - Deploy: as new something existing elsewhere 
 - Design: something to be built by others
 - Expand: something existing by adding to it
+- Explore: establish if something merits in eating into
 - Improve: something existing by automation etc.
 - Increase: something existing by a numeric value 
 - Learn: how something operates 
@@ -894,66 +915,81 @@ Verbs are an indication of targeted Result, see [## SMART]:
 - Review: a Result vs Target + determine if change needed 
 - Rewrite: an existing document
 
-Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Note that the periodicity is reflected in the Date Indicator, see below. However, it is sometimes useful to see it in the Name because that one often appears in Reports.
-Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
+Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. This periodicity is also reflected in the Date Indicator, see below. However, it is sometimes useful to see it in the Name because it often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
 
-For comments, it is preferable to start with a verb, which could be the past tense if something was completed.
+For comments, it is still preferable to start with a verb, which could be the past tense if something was completed.
 
 ### Objective Notation Date Indicator
 The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines. The format is:
-- Projects and Goals: (start:end:complete:effort)
+- Projects:  (start:end:complete:effort)
 - Routines: (period:start:end:effort)
 
-The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd i.e., year, month and day digits. The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date. The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. In most cases when start and end are omitted for a routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue.
-For Goals the same logic as for Projects can be used.
+The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd i.e., year, month and day digits. The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date. The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. In most cases when start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used.
 
 ### Objective Notation Owner Indicator
-The owner of an Objective represents the *performer*, i.e. the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e. the Activity or Group for which the Objective is performed. By default performer equals beneficiary, but this is not always the case, i.e. an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:
-
+The owner of an Objective represents the *performer*, i.e., the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e., the Activity for, or in, which the Objective is performed. By default, performer equals beneficiary, but this is not always the case: an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:  
+  
 {performer:beneficiary} or {perf:benef}
-
+  
 In which: 
 - performer is a Staff or a Group. 
-- beneficiary is an Activity, or the Venture. 
-
-If there is no performer i.e. {:beneficiary} then performer defaults to the Group associated to the Acvitity benefitting the Objective. Similarly, if there is no Beneficiary i.e. {performer:} then the beneficiary defaults to the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e. {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry} and defaults to oneself.
-Note that if the Status indicator is ~ and the Owner Indicator isprovided, it effectively means that the Objective has been delegated to that Staff or Group.  
-
+- beneficiary is an Activity or the Venture. 
+  
+If there is no performer i.e., {:beneficiary} then performer defaults to the Group associated to the Acvitity benefitting the Objective. Similarly, if there is no Beneficiary i.e. {performer:} then the beneficiary defaults to the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e., {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
+  
 Owner Indicator is optional in which case it can be written as {} or omitted altogether.
-
+  
 ### Link Indicator
-A Link Indicator is used to link 
-i. Goals to the Venture or
-ii. Sub-Goals to Goals or 
-iii. Objectives to Sub-Goals (Routines to Run Sub-Goals, Projects to Change Sub-Goals) or directly to Goals
-iv. Tasks to Objectives
-
+A Link Indicator is used to link:
+i.   Goals to the Venture or
+ii.  Sub-Goals to Goals or 
+iii. Objectives to Sub-Goals or
+iv.  Routines to Run Sub-Goals or directly to Goals or
+v.   Projects to Change Sub-Goals or directly to Goals or
+vi.  Streams to Projects / Subs to Routines or
+vii. Actions to Streams / Drills to Subs
+  
 The link indicator is considered text even if stated as a number e.g. '1', '1.1', '2', 'mgt'. 
-
+  
 Link Indicator is optional in which case it can be written as || or omitted altogether.
 
 ### Objective Notation Reference Indicator
 The Reference Indicator contains free text or points to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference]. In other words, Reference Indicator is:
-1. Free text
-2. Reference to a Section or Note
-3. Reference to a File
-4. Reference to a URL
-5. Reference to a Mail
-Etc.
+1. Free text or
+2. Reference to a Section or Note or
+3. Reference to a File or
+4. Reference to a URL or
+5. Reference to a Mail or
+...
+etc.
+  
+Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
+  
+Free text can be used to provide comments, but can also be used to show the next Tasks, using Task Notation, *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done including Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks, Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
 
-Reference Indicator is optional in which case it can be written as [] or omitted altogether.
+### Objective Notation Hierarchy 
+Instead of using the Link Indicator to Link Sub-Goals to Goals, Objectives to Sub-Goals, etc. (see above), it is possible to omit the Link Indicator and instead use an Objective Notation Hierarchy as follows for Goal/Sub-Goal/Objective/Stream or Sub/Action or Drill:
 
-Free text can be used to provide comments, but can also be used to show the next Tasks, using Task Notation, *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done including Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks, Objectives within Objectives which can also be considered nesting Tasks within Objectives. Don't get confused by the terminology! 
-Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else]. See examples below.
+status name (date) {owner} |link| [reference]
+    status name (date) {owner} [reference]
+        status name (date) {owner} [reference]
+            status name (date) {owner} [reference]
+                status name (date) {owner} [reference]
+
+This format is useful to visually show Goals, Sub-Goals, Objectives and underlying Streams/Subs and Actions/Drills. 
 
 ### Objective Notation Expanded Format
 With details of the various Indicators, the expanded format for Objective Notation for Projects can be written as:
 
 status name (start:end:compl:eff) {perf:benef} |link| [ref]
+    status name (start:end:compl:eff) {perf:benef} [ref]
+        status name (start:end:compl:eff) {perf:benef} [ref]
 
-For Routines it is:
+For Routines the Expanded Objective Notation is:
 
-status name (period:start:end:eff) {perf:benef} |link| [ref]
+& name (period:start:end:eff) {perf:benef} |link| [ref]
+    & name (period:start:end:eff) {perf:benef} [ref]
+        & name (period:start:end:eff) {perf:benef} [ref]
 
 ### Objective Notation Examples
 & Backup data (weekly) [MGT: Assets ## Backup Weekly]
@@ -962,21 +998,37 @@ status name (period:start:end:eff) {perf:benef} |link| [ref]
 x Build software to automatically send email (20190101:20190228:20) {SE} |opt|
 / Prepare diner [x Purchase ingredients && . Make meal]
 ~ Pay income tax (20220630) [~ Get employer statement (20220515) && . Lodge income details (20230630) [URL: http://taxwebsite.com]]
-/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for two months] && . Read book && . Pass exam (20220515) ] 
+/ Build software to automate mail reading (20220323)
+    x Design program [Based on document received]
+    / Develop code
+    . Test code 
+    . Deploy software (20230323)
+~ Wait for approval to do something smart 
+/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for 2 months] && . Read book && . Pass exam (20220515) ] 
+  
+### Objective Notation in Practice 
+Despite the flexibility Objective Notation embeds in practice it is mostly used in simpler structures like so:
+
+status name (start:end:compl:eff) {perf:benef} |link| [ref]
+    status name (start:end:compl:eff) {perf:benef} [ref]
+
+and even that is often shortened to:
+
+status name (end) {benef} [ref]
+    status name (end) {benef} [ref]
+
+The reason is that for more complex structures, notably Projects in a Roadmap, other tools lend themselves better e.g., MSS see also [## MSS].
 
 ### Objective Notation Weaknesses 
 There are some weaknesses in Objective Notation:
-- Objectives consume Resources (Assets and/or Suppliers) which are not struturally reflected in the Objective Notation Format and can only be detailed through the Reference Indicator. 
+- Objectives consume Assets and/or Suppliers which are not reflected in the Objective Notation Format and can only be detailed through the Reference Indicator. 
 - The Objective Notation is very versatile and allows for intricate details (see last example). There is a real risk that entries become very long.
 
-## Objective Notation Uses
+### Objective Notation Uses
 Objective Notation is used in various places:
 - MSS columns Tasks, see [## MSS]
 - MSS columns Notes, see [## MSS]
 - BuJo, see [## BuJo]
-- Reporting Standards, see [## Reporting Standards]
-
-Remember that Objective Notation is often referred to as Task Notation.
 ________________________________________
 ## Tasks Definition (Procedure)
 Tasks can be used to add granularity to Objectives, Streams, Subs, Actions and Drills. Tasks can *also* be used to more generally indicate *work to be done*, without them being linked to Objectives.
@@ -1183,19 +1235,13 @@ The Executive Summary explains below sections in a single paragraph of 5-20 line
 This contains definitions of words and acronyms relevant to the OM. This is optional. 
 
 ### Revenue
-This explains the *sources* of Revenue. It should give the details of the last 2-3 years. 
-Revenue is linked to the Services, see below, but this section should avoid going into detail of those.
-Revenue can be expressed in different KPIs: Full Year Revenue, YTD Revenue, last year's Revenue YTD, Revenue broken down by Service type etc. 
+This explains the *sources* of Revenue. It should give the details of the last 2-3 years. Revenue is linked to the Services, see below, but this section should avoid going into detail of those. Revenue can be expressed in different KPIs: Full Year Revenue, YTD Revenue, last year's Revenue YTD, Revenue broken down by Service type etc. 
 
 ### Cost
-This explains the *sources* of Cost. It should give the details of the last 2-3 years. 
-Cost is linked to the Services, see below, but this section avoids going into detail of those. 
-Costs can be expressed in different KPIs: Full Year Costs, YTD cost, last year's Cost, YTD, Cost broken down by Service type etc. 
+This explains the *sources* of Cost. It should give the details of the last 2-3 years. Cost is linked to the Services, see below, but this section avoids going into detail of those. Costs can be expressed in different KPIs: Full Year Costs, YTD cost, last year's Cost, YTD, Cost broken down by Service type etc. 
 
 ### Risk
-This explains the *sources* of Risk. Unlike Revenue and Risk, the details provided are likely to be more diverse, depending on the sources and types of Risk. 
-Risk is linked to Resources (Assets, Staff, Suppliers) used within the Venture and the manner in which the Venture's Objectives are performed (details of the latter are in the section below). The data to provide can be expressed as losses incurred, insurances taken out to cover risk, etc. Depending on the Venture, it is here, or under Services that Risk related to Services should be discussed. 
-If relevant, the manner in which Risk is mitigated can be discussed here as well. 
+This explains the *sources* of Risk. Unlike Revenue and Risk, the details provided are likely to be more diverse, depending on the sources and types of Risk. Risk is linked to Resources (Assets, Staff, Suppliers) used within the Venture and the manner in which the Venture's Objectives are performed (details of the latter are in the section below). The data to provide can be expressed as losses incurred, insurances taken out to cover risk, etc. Depending on the Venture, it is here, or under Services that Risk related to Services should be discussed. If relevant, the manner in which Risk is mitigated can be discussed here as well. 
 
 ### Environment
 This explains the environment in which the Venture operates. Various aspects can be considered, depending on the exposure of the Venture to the Environment and whether a Legal Entity or a Business is covered. Examples include Corporate Structure (Investors/Holding Company), Capital Structure, Competitors, Regulators, Tax, Corporate Governance, ..
@@ -1245,14 +1291,30 @@ Controlling may be important, particularly if quality control and risk mitigatio
 
 ### How To Use
 The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.   
-The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.  
+The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission or Finance. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.  
 Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.    
 Therefore, for each Venture the focus will be on different aspects of the Profile Tree, and the manner in which they are described will be different in each case.
 If the above is used for the Operating Model of an Activity within the Venture, then much can be kept as is, but the focus should of course be on what is relevant to the Activity. So certain aspects of the Environment may not impact a specific Activity, so it can be left out.  
 Once the Operating Model has been completed as a one off it should be maintained with regular updates.
 ________________________________________
 ## COM (Framework)
-A Current Operating Model focusses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. There is a dedicated note with a template for such a model: [MGT: 80.Tools-OM-Template]
+A Current Operating Model focusses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. 
+
+The Operating Model is explained above. Below follow alternative implementations.
+
+### COM 1
+Useful for Legal Entity (LE) level Operating Model.
+
+- Context  (similar to Exec Summary, can include history of LE)
+- Activities incl Goals and Objectives performed in the LE
+- Rules, Policies (a specific part of Environment) applicable to the LE
+- Corporate Structure explaining Management structure, Financing structure) partially embedded in Management 
+- Oversight a.k.a. Governance, Mostly Planning and Controlling part of Management.
+
+### COM 2
+
+
+
 ________________________________________
 ## TOM (Framework)
 The Target Operating Model or TOM is a *desired* version of the Current Operating Model. It is most often drawn up if sue to Projects the existing Routines are going to change such that the COM is not relevant anymore. A TOM is also actively pursued when there are new business initiatives, essentially creating new Routines. The same template as for COM can be used: [MGT: 80.Tools-OM-Template]
@@ -3204,7 +3266,6 @@ The 360 degree appraisal or 360 feedback is an often used method in which manage
 NB: the 360 feedback has become somewhat of a fad in many companies and care should be taken not to overindulge in it. 
 ________________________________________
 ## Performance Review  (Framework)
-See also [STD: Management # Performance Management].
 
 Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling.
 
@@ -3218,19 +3279,19 @@ A Performance Reviews does not follow a rigid Process. However, there is a frame
 - Performance Template
 
 ### Corporate Title
-Corporate title is an indicator of seniority and implies expected knowledge, skills and behaviour. There are many types of corporate title, but in banks the following exist: 
+Corporate title is an indicator of seniority and implies expected knowledge, skills and behaviour. There are many types of corporate title. In banks for example the following exist: 
 - Analyst
 - Associate
 - VP
 - Director
 - Managing Director
 
-Corporate Titles can have sub-levels like Senior Vice President etc. They will not be addressed in this Performance Management Framework, but they can easily be added by extrapolation.
+Corporate Titles can have sub-levels like Senior Vice President etc. The  Director title may be reserved for a member of the board (Board of Directors) which is not strictly speaking a corporate title in that case. For this framework for Performance Review the five levels above will be used. If other titles or different number of levels are used then they can be  implemented by extrapolation of the above.
 
 Although knowledge is important, the focus is mostly on skills related to the acquisition, and use, of knowledge as well as behaviours in relation to interaction with colleagues and Suppliers such as to achieve the Objectives. 
 
 ### Performance Categories
-Performance Categories refer to the various aspects of behaviour involved in achieving Objectives. There are four Performance Categories:
+Performance Categories refer to the various aspects of behaviour involved in achieving Objectives. There are three Performance Categories:
 - Dependability
 - Proactivity
 - Leadership
@@ -3267,6 +3328,7 @@ Use leadership principles to initiate new Goals and Objectives as well as to com
 - Listen to others both to improve Results, but also to understand concerns and constraints 
 - Understand that Skilled staff can still underperform due to reasons unrelated to the Process they perform i.e. due to Corporate culture, personal circumstances, etc.
 - Always approach with "How can I help?'
+- Expect different Stakeholders to need different manner of answers for the same question.
 - Work with others in the understanding that Goals are common
 - Delegate part or whole of Objectives 
 - Use meetings (1:1 Meeting, Team Meeting) effectively 
@@ -3288,13 +3350,13 @@ Performance Rating uses the notion of Observation of behaviour. This can be done
 - 3: often:     60%, often observed   
 - 4: mostly:  80%, very often observed 
 - 5: fully:     100%, always observed ==> target 
-- 6: extra: >100% rarely observed 
+- 6: extra: >100% rarely observed  ==> exceptional situation 
 
-NB:100% is very difficult: mosten often there is always some scenario where a Performance Category is not observed. Those cases should be very exceptional and as such A Rating of 5 can still be given. Thus practically speaking rating 5 can be given for anything above 90%. The rating 6 is used only to be able to rate when a Managing Director outperforms the Target Rating.
+NB:100% is very difficult: most often there is some scenario where a Performance Category is not observed. Those cases should be exceptional and as such a Rating of 5 can still be given. Therefore, practically speaking rating 5 can be given for anything above 90%. The rating 6 is used only to be able to rate when a Managing Director outperforms the Target Rating.
 
 Observation quality should also be considered. If someone observes something only once then that has little value versus someone observing the desired and/or the reverse of it, several times. Low Observation rates may need to be discarded. Managers having little interaction with Staff are less likely to see sufficient behaviours to have a good opinion, which is why they can rely on observations by others.
 
-By design, the above method relies on observation by oneself or others. Observing such behavior is affirmative, but that does not mean that a) the Staff does not display that behavior or b) that there were opportunities where the Staff had an opportunity to display that behavior but did not. Both cases might just be missed because nobody was around to Observe either. As such the method is slightly biased towards positive outcomes, and is also at best a reflection of a reality, not an actual reality.
+By design, the above method relies on observation by oneself or others. Observing such behavior is affirmative, but that does not mean that the Staff had an opportunity to display that behavior but did not. It might just have been missed because nobody was around to Observe ot. As such the method is slightly biased towards positive outcomes, and is also at best a reflection of a reality, not an actual reality.
 
 ### Performance Targets
 For each Corporate Title and for each Performance Category there are three numbers as follows: 
@@ -3332,6 +3394,8 @@ Below is the template to measure performance using the concepts discussed above.
 
 These ratings are rigid and don't take into account the longevity *within* a role/corporate title. It is up to the Manager to adjust where deemed relevant. Half ratings like 2.5 can be used where necessary.
 
+Structurally, the higher the Corporate Title the higher the Target Rating and the harder it becomes to outperform. The rarely used rating of 6 is applicable only when Managing Directors succeed in delivering more than reasonably can be expected.
+
 ### Performance Result
 Performance Result can be remapped as follows:
 Performance Result =  0  ==>  At expectations
@@ -3339,8 +3403,6 @@ Performance Result =  1  ==>  Above expectations
 Performance Result >  1  ==>  Exceed expectations
 Performance Result = -1  ==>  Below expectations
 Performance Result < -1  ==>  Far below expectations
-
-Structurally, the higher the Corporate Title the higher the Target Rating and the harder it becomes to outperform. The rarely used rating of 6 is applicable only when Managing Directors succeed in delivering more than reasonably can be expected.
 
 ### Performance Context
 Different companies have various manners of grouping Staff's Objectives. Often the following groupings are used:
@@ -3496,6 +3558,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20240211
 - Update various sections in line with changes made in [MGT: 99.Legend]
+
+### 20240725
+- Updated  [## Performance Review] with some new criteria under the Performance Categories.
 
 ### Planned
 

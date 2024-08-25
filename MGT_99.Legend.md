@@ -281,7 +281,7 @@ In addition to the above it is possible to have references like [# SEC1 ## Sec 2
 In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: Planning ..."
 
 ### File
-For a file the Note Reference is [File Reference] in which File Reference is either a full path to a file or directory or a shorter version of such path. File References are operating system specific. 
+For a file the Note Reference is [File Path], [F: File Path] or [F: File Path] in which File Path is either a full path to a file or directory or a shorter version of such path. File Paths are operating system specific. 
 
 Examples:  
     $HOME/data_private/mgt/51.finance/       (Linux)
@@ -289,7 +289,7 @@ Examples:
     C:\Users\yourname\mgt\finance\              (Windows)
     C:\SomeDir\SomeDoc.docx                         (Windows)
   
-The only requirement for a File reference is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References. Details in [MGT: 80.Tools].
+The only requirement for a File Path is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References. Details in [MGT: 80.Tools].
   
 In certain cases it may be necessary to refer to a page or sheet or chapter within a file. This can be achieved using extra info within the reference relating to the type (page, sheet, chapter), an '=' sign and the value (page nr, sheet name, chapter name etc.)
 
@@ -298,16 +298,16 @@ Examples:
     $HOME/data_private/mgt.xlsx Sheet = Planning
 
 ### URL
-URL refers to *anything* that can be accessed through a web browser: classic web pages, sharepoints, PowerBI pages, etc. For URL the Note Reference is: [URL] in which URL is of form http://something.xyz and without < and > and where 'http' can be any supported service (http, https, ftp, ftps, ssh, ...).
+For a URL, the Note reference is [Weblink]or [URL: Weblink] or [U: Weblink], in which Weblink refers to *anything* that can be accessed through a web browser: classic web pages, sharepoints, PowerBI pages, etc. ] i.e., http://something.xyz and without < and > and where 'http' can be any supported service (http, https, ftp, ftps, ssh, ...).
 
 ### Mail
-For Mail the Reference format is: [Mail: Text] in which Text is the Mail's Subject that was sent/received. Alternatively,  [Subject: Text] can be used. The use of 'Mail:' or 'Subject:' is mandatory.
+For Mail the Reference format is: [Mail: Subject] or [M: Subject] in which Subject is the Mail's Subject that was sent/received. Alternatively,  [Subject: Subject] can be used.
 
 ### Database
 Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data. Reference to a database depends on the type of database e.g., [Oracle: scheme/table_name], [Oracle: table_name], etc.
 
 ### Meeting
-Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which text is the Subject of the Meeting's invite mail. 
+Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which Text is the Subject of the Meeting's invite mail. 
 
 
 *********************************************
@@ -357,8 +357,8 @@ A Profile expresses a Venture through a *Profile Tree*, composed of interrelated
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ### Profile Tree Explained
-A Venture's main purpose is to generate more *Revenue*, or *Income*¹⁾ from the sales of *Services*²⁾, a.k.a. *Products*, to *Clients* than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* contributing directly or indirectly to the continuous delivery (a.k.a. *Run*), as well as continuous improvement of that Run (a.k.a. *Change*), of Services in a *sustainable* manner. A Process consists of *Steps* applied to *Input* to achieve a *Result*. The Processes in Operations are performed and/or overseen by *Staff* using *Assets* and *Suppliers*. Combined, Staff, Assets, Suppliers are called *Resources*. Resources generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.) as do the results of Operations e.g., tax. These Costs are covered by *Funding* through Cash (a fundamental Asset) made available continuously through Revenue, *Liabilities* a.k.a. *Debt* and *Equity*. Operations also generate *Risk*, defined as the probability of adverse outcomes, either directly (loss of Revenue, fines) or indirectly (loss or damage of Resources which in turn affects Revenue). Adverse outcomes occur as result of either i) weaknesses in Processes performed or supported by Staff, Suppliers or Assets and/or ii) as a result of unforeseen conditions created internally (Management, Staff, Suppliers, Assets) or externally (Suppliers, Clients, and *Environment*), where Environment³⁾ is composed of *Natural factors*, *Investors* a.k.a. *Shareholders*, *Creditors*, *Competitors*, *Governments*, *Regulators*, *Tax offices*, *Labour Unions*, *Markets* etc. In short, Risk⁴⁾ is a form of *probabilistic* Cost and the management of Risk incurs a direct Cost e.g., insurance, hedge transactions, backup Assets, etc. Revenue minus Cost is called *Earnings* or *Profit*. Revenue, Cost and Profit are expressed in monetary values, as is Risk. Revenue and Cost make up one of the key *Financial Statements* called *Income Statement* whereas Assets, Liabilities and Equity make up the other statement called *Balance Sheet*. Operations are maintained (Run) and improved (Change) continuously, through *Management*. Management consists of four *Management Functions* called *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised and Risk minimised within the constraints of Funding.
-Management is aided by *Business Functions* and management *Tools*. Management permeates the entire Venture. 
+A Venture's main purpose is to generate more *Revenue*, or *Income*¹⁾ from the sales of *Services*²⁾, a.k.a. *Products*, to *Clients* than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* contributing directly or indirectly to the continuous delivery (a.k.a. *Run*), as well as continuous improvement of that Run (a.k.a. *Change*), of Services in a *sustainable* manner. A Process consists of *Steps* applied to *Input* to achieve a *Result*. The Processes in Operations are performed and/or overseen by *Staff* using *Assets* and *Suppliers* (which can be internal and/or external). Combined, Staff, Assets, Suppliers are called *Resources*. Resources generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.) as do the results of Operations e.g., tax. These Costs are covered by *Funding* through Cash (a fundamental Asset) made available continuously through Revenue, *Liabilities* a.k.a. *Debt* and *Equity*. Operations also generate *Risk*, defined as the probability of adverse outcomes, either directly (loss of Revenue, fines) or indirectly (loss or damage of Resources which in turn affects Revenue). Adverse outcomes occur as result of either i) weaknesses in Processes and/or Staff, Suppliers or Assets and/or ii) as a result of unforeseen conditions created internally (Management, Staff, Suppliers, Assets) or externally (Suppliers, Clients, and *Environment*), where Environment³⁾ is composed of *Law* or more specifically *Business Law* i.e., the legal framework in which Ventures operate, *Natural factors*, *Investors* a.k.a. *Shareholders*, *Creditors*, *Competitors*, *Governments*, *Regulators*, *Tax offices*, *Labour Unions*, *Markets* etc. In short, Risk⁴⁾ is a form of *probabilistic and undesired* Cost and the management of Risk incurs an *actual* Cost e.g., additional Staff to measure and mitigate Risk, insurance, hedge transactions, backup Assets, etc. Revenue minus Cost is called *Earnings* or *Profit*. Revenue, Cost and Profit are expressed in monetary values, as is Risk. Revenue and Cost make up one of the key *Financial Statements* called *Income Statement* whereas Assets, Liabilities and Equity make up the other statement called *Balance Sheet*. Operations are maintained (Run) and improved (Change) continuously, through *Management*. Management consists of four *Management Functions* called *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised and Risk minimised within the constraints of Funding.
+Management is aided by *Business Functions* and management *Tools*. Finally, Management permeates the entire Venture. 
 
 Notes:
 ¹⁾ For non-profit Ventures (charities) Income is obtained through donations, not sales of Services, even if provided. 
@@ -824,7 +824,7 @@ Liabilities can take various forms:
 - Long term loans 
 - Bond Issuance
 
-The result of taking on Liabilities is the Asset called Cash, which then is used to pay for all resources (Staff, Assets, Suppliers). The processes involved in assuring Cash is available are referred to as Funding or Financing, see also [### Financing].
+The result of taking on Liabilities is the Asset Cash, which then is used to pay for all resources (Staff, Assets, Suppliers), or alternatively it is a deferred Expense (avoidance of Cash consumption). The processes involved in assuring Cash is available are referred to as Funding or Financing, see also [### Financing].
 ________________________________________
 ## Equity
 The difference between Assets and Liabilities represents the net worth of the Venture. For non-listed companies i.e. sole-proprietorships this net-worth is often called Capital.  If a Venture has issued Shares, it has effectively passed control of the Venture over to shareholders and in this case the term Equity is used instead of Capital.
@@ -845,12 +845,17 @@ Planning consists of strategy *formulation* for short, medium and long term *per
 
 Management vs Governance
 Often the term Governance is used separately from, or in combination with, Management. Depending on the context used it means different things. The different interpretations can be expressed as function of one or more Management Functions, or specific deliverables within the Management Functions. Below follow two key cases, but other interpretations are possible:
-- Scholarly view: Governance = Planning + Organising, Management = Leading + Controlling 
-- Risk view: Governance = Planning + Controlling, Management = Organising + Leading
+- Scholarly view: 
+    - Governance = Planning + Organising, 
+    - Management = Leading + Controlling 
+- Risk view: 
+    - Governance = Planning + Controlling, 
+    - Management = Organising + Leading
 
-Specifically, the latter view is often the view used in companies concerned about Risk. In such cases, Governance focuses on the following deliverables from the Management Functions:
-- Intel (Planning), specifically w/r to the Environment, and particularly regulations
-- SWOT (Planning), using the Intel to assess to what extent Risk is covered by controls either embedded in Production Routines or Oversight Routines. 
+Specifically, the latter view is often the view used in companies concerned about Risk. In such cases, Governance focuses on the following deliverables from the Management Functions, in brackets:
+- Intel (Planning), specifically w/r to the Environment, and particularly regulations that require updates to Bylaws
+- Bylaws (Planning)
+- SWOT (Planning), using the Intel to assess to what extent Risk including as a result from lack of compliance with Bylaws, is covered by Controls either embedded in Production Routines or Oversight Routines. 
 - Supervision (Controlling), specifically to assure all Risks are covered
 - Report (Controlling), specifically reporting to senior Management.
 
@@ -962,9 +967,7 @@ A Mission Statement expresses *how* the Venture achieves the Purpose. In other w
 The most important one is Y as that sets the Venture apart from Competitors. The differentiating factors can be related to the Service itself (quality, availability, aesthetics, taste, ...), the cost to the Client, or it can be more focused on how the Service is produced (environmentally friendly, with involvement of the Client, etc).
 
 ### Values
-Values reflect what the Venture deems it's moral or cultural compass. It can be composed of Value and/or Principles. These are somewhat different in what they mean. Principles govern interactions between people, but are objective. Examples include fairness, integrity, and honesty.  
-  
-On the other hand, Values are opinions and ideas and are thus subjective, and as a result of being opinions, they can change under different conditions. An examples is tolerance.
+Values reflect what the Venture deems it's moral or cultural compass. It can be composed of Value and Principles. These are somewhat different in what they mean. Values focus on how to 'be' whereas principles focus on how to 'act' or what to do. Values are opinions and ideas and are thus subjective, and as a result of being opinions, they can change under different conditions. Principles govern interactions between people, but areor3 objective. 
 
 Values and Principles affect the Venture as a whole and each individual working within and for it i.e., Suppliers. They also set requirements in terms of recruitment. The distinction between Values and Principles may not be made.
 
@@ -978,7 +981,7 @@ Examples for LinkedIn:
     - Embody diversity, inclusion, and belonging
 
 ### Bylaws
-Bylaws a.k.a. Company Laws, Policies, Normative Documentation, or Company Rules frame the *conditions* under which the Venture *should* operate and how it should organise itself.  
+Bylaws a.k.a. Company Laws, Policies, Normative Documentation or Company Rules frame the *conditions* under which the Venture *should* operate and how it *should* organise itself.  
 Bylaws represent the Venture's interpretation of rules, regulations and guidelines imposed by the Environment and which effectively provide *boundaries* on Services and on how Operations can, and should be performed. They result from the fact that the Venture operates directly or indirectly in one or more countries/states or in a business sector that is heavily regulated globally and/or nationally. 
 In addition, Ventures can themselves define rules with regards to what it deems the Venture should comply with even if this is not mandated by any official institution. Often, such company imposed rules will also embody the Values. The definition of Bylaws is a result from the SWOT process, see below.
 
@@ -1386,7 +1389,7 @@ The various steps of Controlling, described above, are fundamentally captured in
 The manner in which Managers decide to assure Supervision is done through a Supervision Framework. The Supervision Framework frames which Supervision Processes are applied to which Supervision Scope. There are four *Supervision Processes* a.k.a. Controls: *Check*, *Review*, *Attend* and *Audit*. All except Attend are both a noun and a verb. Attend is a verb, the noun being Attendance.  
 
 #### Check 
-A Check consists of the full cycle described above i.e., understanding the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks can be performed continuously or  periodically. Continuous checks tend to be embedded within an Asset or Routine. Periodic checks are performed with a predefined recurrence, and can also verify the efficiency of continuous Checks. Often, when a Control is referred to, it means a Check in terms of this Management Framework.
+A Check consists of the full cycle described above i.e., understanding the purpose of the Control to be performed, verify the result of a Process against a predetermined threshold and remediate of there is a deviation. This has a strong focus on *avoiding Risk* and/or *assure Service quality*. Checks can be performed continuously or  periodically. Continuous checks tend to be embedded within an Asset or Routine. Periodic Checks are performed with a predefined recurrence, and can also verify the *efficiency* of continuous Checks. In everyday business, when the word Control is used, it means a Check in terms of this Management Framework.
 
 #### Review
 A Review is a verification of the Result of a Process against a Manager's (or other relevant Staff's) opinion based on experience and knowledge and potentially some benchmark. It is generally less formalised than a Check. A Review is an often used method to verify progress (Performance) and/or zones of risk within Operations and/or Management and/or Clients in combination or not with the Environment (Market Intel). A Review may also act as a validation as part of a mandatory step in a broader Process. Note that the Process for Review may differ on a case by case basis. Review, is mostly performed periodically. Unlike Checks, Reviews rely on a more holistic knowledge of the Processes being reviewed as well as the Activities those Processes are part of. When doing a Review, the second step, Establish Baseline, is replaced by that holistic knowledge. 
@@ -2237,6 +2240,10 @@ Added the notion of Board of Directors to [### Management Level].
 ### 20240310
 - Updated [### Controlling] in [## Profile Overview] to highlight that Checks can be done standalone or embedded. Same update was made in [## Controlling].
 - Updated Change Goals in [## Profile Overview] and [## Planning]
+
+### 20240725
+- Updated [### Profile Tree Explained] with an addition to Direct cost for Risk Management in form of additional Staff to measure and mitigate Risk.
+- Updated [## Management] added details to Management versus Governance 
 
 ### Planned
 
