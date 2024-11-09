@@ -7,6 +7,7 @@ This note has the following L1 sections:
 General 
 - Introduction
 - License
+- Disclaimer
 - Information
 
 Management Functions 
@@ -79,6 +80,20 @@ The license is applicable to all sections in this note.
 
 
 *********************************************
+# DISCLAIMER
+________________________________________
+## Gender
+This note assumes Manager is male. Not so much because Managers are, or should be, Male. It is more to keep language concise. Instead of constantly writing him/her, he/she, only the former version is used. 
+________________________________________
+## Non-Managers
+This note assumes that the the principles applicable to a Manager, are effectively applicable to any Staff in a Venture, although Manager level employees, may have more often an opportunity to apply the Tools mentioned in this note. 
+________________________________________
+## Reliability of Content
+The content of this note is borne from two aspects: experience and/or research. 
+Not all Tools discussed have had the merit of a well rounded experience or application of the theory. Which Tool has or has not had that exposure is not explicitly mentioned.
+
+
+*********************************************
 # INFORMATION
 There are various sources of information for Tools.
 ________________________________________
@@ -134,8 +149,8 @@ This overview shows on the first level the key deliverables as per [MGT: 99.Lege
     - Dedicated Controlling note
 ________________________________________
 ## PDA
-Throughout Management, certain standard Tools are deemed 'standard' or 'baseline'. 
-This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
+Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
+
 - Mail 
 - Calendar
 - Tasks
@@ -144,50 +159,57 @@ This standard is referred to as the *Personal Digital Assistant* or *PDA* and is
 - Chat
 - Phone incl Video
 - Browser
+  
+Depending on the apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
 
-Depending on the apps used, and whether a Venture requires specific apps to be used, different implementations are possible. 
+- Mail  (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
+- Calendar  (MS Calendar, Google Calendar, Yahoo Calendar, ...)
+- Tasks (MS Tasks, Google Tasks, ...)
+- Notes (MS OneNote, Google Notes, Standard Notes, Evernote, ...) 
+- Contacts (MS Contacts, Google Contacts, ...)
+- Chat (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
+- Phone incl Video (MS Teams Phone, ...)
+- Browser (MS Edge, Google Chrome, Firefox, ...)
 
-- Mail     (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
-- Calendar     (MS Calendar, Google Calendar, Yahoo Calendar, ...)
-- Tasks     (MS Tasks, Google Tasks, ...)
-- Notes    (MS OneNote, Google Notes, Standard Notes, Evernote, ...) 
-- Contacts    (MS Contacts, Google Contacts, ...)
-- Chat    (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
-- Phone incl Video    (MS Teams Phone, ...)
-- Browser (MS Edge, Google Chrome, Firefox, 
-
-Because they can be used in different manners by different people, this note will not presecribe particular uses. The exception made is for Notes, because they are a fundamental part of the Management Framework. 
+Because they can be used in different manners by different people, this note will not prescribe particular uses. The exception made is for Notes, because they are a fundamental to the implementation of the Management Framework. 
 ________________________________________
 ## Eisenhower Matrix (Framework)
-The Eisenhower Matrix or Eisenhower Decision Tree or Eisenhower Box is a decision tool to plan work on short term. The decision tree is based on two dimensions of Tasks: *urgency* and *importance*. Important/Unimportant is defined as: impact on the Venture is high/low. Urgent/non-urgent is defined as: time to market is low/high
-  
-These two dimensions yield four combinations a.k.a. quadrants, as follows:
-1. Urgent, important: Do Task Now.
-2. Important, not urgent: Do Task Later.
-3. Urgent, not important: Delegate Task to someone
-4. Neither urgent, nor important: Delete Task altogether.
+The *Eisenhower Matrix* or *Eisenhower Decision* Tree or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way.  
 
-The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition].
-
-The above decision tree refers to two concepts that are open to interpretation: important and urgent. 
-
-Important
-Something is important for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *urgent*-:
-- Cannot be delegated (simply because the right skills are not there right now, the training would take too much time given the urgency) and/or
+### Important
+Something is important for different reasons, but the following criteria are deemed relevant:
+- Cannot be delegated (simply because the right skills are not there right now, the training would take too much time given the urgency, etc.) and/or
 - Has a lot of attention from senior or critical stakeholders (internal or external)
 - The completion of the task has a direct impact on Revenues, Cost or Risk
 
-Urgent
+### Not Important
+This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself regardless. The following criteria are relevant:
+- Tasks requires a Skill set that the Manager does not have (and would thus require delegation anyway)
+- Tasks requires the application of Skills the Manager has, but which are at a level the Manager does not Operate at. This typically involves Tasks related to the Goal = prd i.e., all the types of Maintenance, Enabling and Support.
+
+### Urgent
 Something is urgent for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *Important*-:
 - Not performing the task soon has a knock on effect on several other tasks
 - There is a deadline imposed by a senior or critical stakeholder (internal or external)
-- The completion of the task has a direct impact on REvenue, Cost or Risk
+- The completion of the task has a direct impact on Revenue, Cost or Risk
 
-In a Managerial context, the Eisenhower Matrix can also be read as:
-1. Do task asap
-2. Do task later
-3. Delegate task OR follow topic without action
-4. Delete task 
+### Not Urgent
+Something is not Urgent if the non-performance of the Task any time soon is not going to make a huge difference. 
+
+### Decision Quadrants
+The above two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
+1. Urgent + important -> Do Task Now
+2. Important + not urgent -> Do Task Later
+3. Urgent + not important -> Delegate Task to someone
+4. Neither urgent + not important -> Delete Task altogether
+
+The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition].
+
+### Decision Outcomes
+The use of the Eisenhower Matrix helps scale works. It is important to note here that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
+
+### Eisenhower Decisions
+ Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.
 ________________________________________
 ## MSS (Software)
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
@@ -268,46 +290,52 @@ Sheet M0 a.k.a. MTrack0 contains several rows:
     NB: Hybrid Managers can use for non-roadmap Projects 
 
 ### MTrack1
-Sheet M1 a.k.a. MTrack1 contains Revenue details or alternatively details of the Income Statement. It is posible this sheet refers to a central location, or that the maintenance of Revenue information is fully delegated to, for example, the Finance department.
+Sheet M1 a.k.a. MTrack1 contains Revenue details or alternatively details of the Income Statement. It is possible this sheet refers to a central location, or that the maintenance of Revenue information is fully delegated to, for example, the Finance department.
 
 ### MTrack2
-Sheet M2 a.k.a. MTrack2 contains Cost details or alternatively details of the Balance Sheet. It is posible this sheet refers to a central location, or that the maintenance of Cost information is fully delegated to the Finance department for example.
+Sheet M2 a.k.a. MTrack2 contains Cost details or alternatively details of the Balance Sheet. It is possible this sheet refers to a central location, or that the maintenance of Cost information is fully delegated to the Finance department for example.
 
 ### MTrack3
-Sheet M3 a.k.a. MTrack3 contains Risk details. It is posible this sheet refers to a central location, or that the maintenance of Risk information is fully delegated to, for example, the Risk and Compliance departments.
+Sheet M3 a.k.a. MTrack3 contains Risk details. It is possible this sheet refers to a central location, or that the maintenance of Risk information is fully delegated to, for example, the Risk and Compliance departments.
 
 ### MTrack4
 Sheet M4 a.k.a. MTrack4 contains the Run Inventory i.e. all Routines across all Run Goals and Sub-Goals including Management Routines. This sheet is updated as a result of Change, see below. It contains:
 - Routines for non-manager roles (Goal = prd, ovs, ovh)
 - Routines for manager roles (Goal = mgt)
   
-It is posible this sheet refers to a central location, or that the maintenance of Run information is fully delegated to for example a COO.
+It is possible this sheet refers to a central location, or that the maintenance of Run information is fully delegated to for example a COO.
 
 ### MTrack5
 Sheet M5 a.k.a. MTrack5 contains the Change Inventory i.e. all Projects across all Change Goals and Sub-Goals (Roadmap). This sheet is re-created at the start of each year and then maintained throughout the year. It contains:
 - Projects for non-manager roles (Goal = gro, pro, sec, opt)
 
-It is posible this sheet refers to a central location, or that the maintenance of Change information is fully delegated to for example a Project Management Office.
+It is possible this sheet refers to a central location, or that the maintenance of Change information is fully delegated to for example a Project Management Office.
 
 ### MTrack6
 Sheet M6 a.k.a. MTrack6 contains Intel or Intelligence both from within, as well as outside of the Venture. This sheet is updated continuously. 
 ________________________________________
 ## MC (Framework)
-MC is the Framework to perform the Management Cycle. It is composed of various Processes performed at different frequencies using relevant Tools. 
+MC is the Framework to perform the Management Cycle (MC). It is composed of various Processes performed at different frequencies using relevant Tools. 
 
 There are two main parts to the MC:
 - Initiation
 - Recurring 
 
 ### MC Initiate
-This part of the MC initialises the minimum Management Structure and is composed of several steps:
-1. set up a PDA structure,  [## Calendar] 
-3. As many meeting Notes as meetings [MGT: Attend-mmm], see [## Meetings]
-4. As many OM Notes as Activities [MGT: OM-aaa], see [## Operating Model]
-5. The BuJo Notes and Mtrack Sheets, see [#### MC BuJo & MSS] below 
-6. The MTrack sheets, see [#### MC MTrack] below
-
-Set up the BuJo notes as per [## BuJo]. 
+This part of the MC initialises the minimum Management Structure. Set up:
+1. a PDA structure  [## PDA] 
+    - Mail 
+    - Calendar
+    - Tasks
+    - Notes, see [## BuJo]
+    - Contacts
+    - Chat
+    - Phone incl Video
+    - Browser
+3. as many meeting Notes as meetings [MGT: Attend-mmm], see [## Meetings]
+4. as many OM Notes as Activities [MGT: OM-aaa], see [## Operating Model]
+5. BuJo Notes and Mtrack Sheets, see [#### MC BuJo & MSS] below 
+6. MTrack sheets, see [#### MC MTrack] below
 
 #### MC BuJo & MTRack
 The default notes, and the Managerial 7 sheets in [MSS: MTrack] a.k.a. MTRack need each to be intialised as follows: 
@@ -445,11 +473,13 @@ One of the strengths of the Management Framework and it's implementation is also
 - _Main is preferred for Routine updates. For reporting purpose, the details of these updates can be bundled in a single comment in MTrack0 under Name = Review 4. Run. 
 ________________________________________
 ## Governance Matrix
-The Governance Matrix is a two-dimensional matrix that is used to establish what it is the Manager wants to put in place as Governance. Its core use is in Ventures where the focus is on Risk (often Ventures in heavily regulated sectors like Finance, Petrochemical, Automobile,...). 
+The Governance Matrix is a two-dimensional matrix that is used to establish what it is the Manager wants to put in place as Governance. Its core use is in Ventures where the focus is on Risk (often Ventures in heavily regulated sectors like Finance, Petrochemical, Automobile, Pharmaceutical, Flight ...). 
 
 The matrix' purpose is to show which Risks exists, which Activity (or Business Function) is subject to the Risk, and then on the intersection, how the Risk can materialise and  what is put in place to mitigate or at least oversee the Risk.
 
 The two dimensions of the matrix are thus: Risk (vertical) and Activity or Business Function (horizontal).
+
+@@@ to b expanded
 ________________________________________
 ## Skill Inventory (Framework)
 Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
@@ -458,12 +488,12 @@ Skills required for Management are below. Details of skills can be found under [
 - Accounting
 - Analytics & Data
 - Budgeting
-- Eonomics
+- Economics
 - Finance
 - Marketing
 - Mathematics
 - Operations
-- Informagion & Communication Technology 
+- Information & Communication Technology 
 - Project Management
 - Statistics
 
@@ -527,6 +557,8 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Planning]. 
     - Core Values Definition
 - Bylaws
     - Bylaw Definition 
+    - Articles of Association 
+    - Memorandum of Association 
 - SWOT
     - SWOT Analysis 
     - Value Chain
@@ -619,11 +651,36 @@ ________________________________________
 @@@
 ________________________________________
 ## Bylaw Definition (Framework)
-Bylaws, Policies or Normative Documentation define the boundaries, methods and obligations of the Venture. Depending on the Venture the above terms are used interchangeably or not. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
+Bylaws, policies or equivalents define the boundaries, methods and obligations the Venture operates under. Depending on the Venture the above terms are used interchangeably or not. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
 
-Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society. Bylaws are reviewed on a periodic basis to assure they remain within the laws set out.
+Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society, regulations, industry forums. Bylaws are reviewed on a periodic basis to assure they remain within the laws, regulations, and implicit expectations set out.
   
-ByLaws should be easily accessible to anyone witin the Venture. Noweadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
+Bylaws should be easily accessible to anyone within the Venture. Nowadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
+________________________________________
+##Memorandum of Association (Definition)
+The Memorandum of Association (MoA) is a legal deed that builds foundation of a company, and outlines its Goals and scope of Activities and limitations of the Venture. It also maps out the relationship it has with Stakeholders including Investors, Creditors and Directors. The MoA is used to define the Articles of Association (see below). 
+
+Key aspects of a MoA are:
+- Name of the Venture
+- Registered Office location
+- Objective or Goals of the Venture
+- Liability of shareholders a.k.a. members
+- Capital restrictions in terms of total size, and distribution 
+________________________________________
+## Articles of Association (Definition)
+The Articles of Association (AoA) is a legal deed that builds the Venture's internal norms, rules and processes for the Management and Operations of a Venture. 
+
+Key aspects of the AoA are:
+- Name of the Venture and form of business
+- Purpose of the Venture
+- Capital Structure
+- Corporate Governance, including rules related to decision making
+- Administration of corporate records
+
+AoA vs MoA
+https://www.onboardmeetings.com/blog/articles-of-association-vs-memorandum/
+
+Note that depending on the country, it is possible to not be required to have both MoA and AoA. For example in Hong Kong, only AoA are required since the new Companies Ordinance of 2006.
 ________________________________________
 ## SWOT Analysis (Framework)
 Strength and Weaknesses of a SWOT refer to *internal* forces, whereas Opportunities and Threats refer to *external* forces. Internal means *within* the Venture. In other words, Strengths and Weaknesses (internal) refer to aspects that are in control of the Venture, whereas Threats and Opportunities (external) are not in control of the Venture. Details of how to perform a SWOT can be found here: 
@@ -708,7 +765,7 @@ Goals are established based on the Mission as well as medium term view of where 
 
 % ovh (19700101:99991231)  {CEO} |VNT| [Perform overhead. Perform Processes that do not directly contribute to Services but that need to be performed nevertheless. It is a default Goal that should not be used often simply because any Process that does not increase Revenue and/or decrease Cost  and/or decrease Risk is essentially a Cost.]
 
-% ovs (19700101:99991231) {CEO} |VNT| [Perform Oversight. This is the performance of Routines in relation to data from Operations with a focus on Risk Management &  Production Performance. There are four different categories of Routines: Checks, Reviews, Attendance in meetings and Audits. This Goal includes the definition of KPIs and  KRIs to measure against. It also includes Routines to investigate incidents and  problems when they occur -mostly unexpected- in order to define mitigants. Lastly, this includes assisting Suppliers like internal Auditors to perform reviews/audits of Activities and similarly it includes assisting external parties from the Environment like Regulators or Government in their reviews and audits.] 
+% ovs (19700101:99991231) {CEO} |VNT| [Perform Oversight. This is the performance of Routines in relation to data from Operations with a focus on Risk Management & Production Performance. There are four different categories of Routines: Checks, Reviews, Attendance in meetings and Audits. This Goal includes the definition of KPIs and  KRIs to measure against. It also includes Routines to investigate incidents and  problems when they occur -mostly unexpected- in order to define mitigants. Lastly, this includes assisting Suppliers like internal Auditors to perform reviews/audits of Activities and similarly it includes assisting external parties from the Environment like Regulators or Government in their reviews and audits.] 
 
 % prd (19700101:99991231) {CEO} |VNT| [Perform Production. Perform Routines that directly contribute to the delivery of Run Services. Depending on the Activity, this Goal has different Routines. Some can relate directly to the generation of Revenue, whereas other Activities perform Routines to support the generation or Revenue. This Goal can include Routines delegated by Management that relate to the maintenance of Environment, Servixes, Staff, Suppliers and Assets, and that are each not part of a dedicated Activity e.g. HR, Procurement.]
 
@@ -790,8 +847,8 @@ ________________________________________
 Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [MGT: 99.Legend ## Objectives] and is elaborated on here.
 
 To be specific:
-- Routines: linked to Run Goals i.e., focus generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
-- Projects: focus is Change Goals i.e., the improvement of the Run.
+- Routines: linked to Run Goals i.e., focus is on generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
+- Projects: focus is on Change Goals i.e., the improvement of the Run.
   
 There are cases where work is being asked to be performed which is neither specifically Run and also not a Project. In that case the Manager has two options to record that work:
 - Run Goal = ovh -> Run Sub-Goal = one-off
@@ -832,6 +889,8 @@ ________________________________________
 ## Objective Notation (Framework)
 Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine*, *Stream*, *Sub*, *Action*, *Drill* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation]. Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments.
 
+Although the Objective Notation is seems very formalised, this does not mean that that formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, but also shows a less rigid interpretation.  
+
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
 
@@ -841,21 +900,20 @@ This notation links to the 6W as follows:
 - status: this is not part of the 6W
 - name: indicates *What*
 - (date): covers all elements of *When* 
-- {owner}: covers *Who*. 
+- {owner}: covers all elements of *Who*. 
 - |link|: explains *Why*.
 - [reference]: pointer to details, explaining *How* 
 
 There is no Objective Indicator for *Where* because:
 a. Objectives are owned by Staff 
 b. Staff are mostly located in a single location 
-c. An Objective is often agnostic to the location and if it is not it can be added in the *How*.
+c. An Objective is often agnostic to the location and if it is really not it can be added in the *How*.
 
 The order of components is critical:
 1. Certain combinations have special meaning in Markdown: [...](...) w/o space between ']' and '(' is a URL.
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
 
-The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierachy].
-Except Status and Name, no components are mandatory. 
+The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierachy]. Only Status and Name are mandatory. 
 
 ###  Objective Notation Status Indicator
 Status is mandatory and uses symbols:
@@ -864,26 +922,38 @@ $                  Change Goal, Change Sub-Goal (dollar)
 &                  Routine (ampersand)
 .                    Project, Not Started (dot)
 /                   Project, Started (forward slash)
-~                  Project, Pending or delegated (tilde) 
+~                  Project, Pending or Delegated (tilde) 
 x                   Project, Closed (lower case letter x)
 !                    Project, Urgent (exclamation mark)
 -                    Comment (dash or hyphen)
 +                   Comment (plus)
 _                   Comment (underscore)
-dd-mm-yy:  Comment (date format comment)
+dd-mm-yy: Comment (date format comment)
 
-As can be seen, the Status Indicator symbol is a single character, except for the last form, the comment. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Objective (Project, Routine) or a Comment, and in case of a Project, it also shows the status of the Project. Status symbol for Project can also be used for follow-up actions in Meetings, see [## Meetings]. 
+As can be seen, the Status Indicator symbol is a single character, except for the last form, the *date format comment*. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Project, Routine or Comment, and in case of a Project, it also shows the status of the Project.
 NB: the '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
-The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, where are more details, etc.
+The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
+
+### Objective Notation and Eisenhower Matrix
+Tying the four status indicators of Projects to the Eisenhower matrix principles, yields:
+
+urgent + important                -> do now    ->  !
+not urgent + important         -> do later   ->  / and .
+urgent + not important         -> delegate ->  ~
+not urgent + not important  -> delete      ->  x 
+
+The latter one is effectively an Objective that would be created and directly completed, or, because a Project has been completed , it is neither urgent nor important anymore. 
+
+From a managerial perspective this means Objectives get performed by the Manager: "!", "/" and "." or the Manager delegates the work "~".
 
 ### Objective Notation Name 
 The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name has three requirements:
 1. Must start with a *verb*
 2. Contains a *measurable* expected *Result*
 3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
-4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, **bold**, Stop!, Say: "This shall be done!", etc  
+4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, /slashes\, **bold**, Stop!, Say: "This shall be done!", etc  
 
-Note that *if* for esthetic or sorting reasons, it is preferable to start Name with a number then this is permitted e.g., 01. Manage Planning, 02. Manage Organising, ... 
+Note that *if* for esthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is permitted e.g., 01.Planning, 02.Organising, ... 
 
 Verbs are an indication of targeted Result, see [## SMART]:
 - Assess: obtain a result and compare against expectations 
@@ -898,6 +968,7 @@ Verbs are an indication of targeted Result, see [## SMART]:
 - Define: Target/expected Result
 - Deploy: as new something existing elsewhere 
 - Design: something to be built by others
+- Discuss: a topic at one point (can act as a reminder)
 - Expand: something existing by adding to it
 - Explore: establish if something merits in eating into
 - Improve: something existing by automation etc.
@@ -907,6 +978,7 @@ Verbs are an indication of targeted Result, see [## SMART]:
 - Manage: as per the definition of Management 
 - Meet: someone on regular or ad-hoc basis 
 - Perform: one or more specific Processes 
+- Plan: a meeting 
 - Prepare: a deliverable for completion elsewhere
 - Process: take in a request and deliver Result
 - React to: a situation with specific measures 
@@ -915,16 +987,27 @@ Verbs are an indication of targeted Result, see [## SMART]:
 - Review: a Result vs Target + determine if change needed 
 - Rewrite: an existing document
 
+Short versions of Verbs are possible as follows:
+- "D: " refers to "Discuss"
+- "P: " refers to "Plan" 
+
+The short versions can serve visually as a reminder to do something.
+
 Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. This periodicity is also reflected in the Date Indicator, see below. However, it is sometimes useful to see it in the Name because it often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
 
-For comments, it is still preferable to start with a verb, which could be the past tense if something was completed.
+The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is hihgly recommended, as it forces the user to think about what the targeted type of result is, nothing stops someone from using names like:
+. Main Project: do something
+/ WARNING: this to be done before all others
+etc 
 
 ### Objective Notation Date Indicator
-The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines. The format is:
+The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines. A formal format is:
 - Projects:  (start:end:complete:effort)
 - Routines: (period:start:end:effort)
 
 The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd i.e., year, month and day digits. The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date. The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. In most cases when start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used.
+
+As with the Name indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
 
 ### Objective Notation Owner Indicator
 The owner of an Objective represents the *performer*, i.e., the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e., the Activity for, or in, which the Objective is performed. By default, performer equals beneficiary, but this is not always the case: an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:  
@@ -935,7 +1018,7 @@ In which:
 - performer is a Staff or a Group. 
 - beneficiary is an Activity or the Venture. 
   
-If there is no performer i.e., {:beneficiary} then performer defaults to the Group associated to the Acvitity benefitting the Objective. Similarly, if there is no Beneficiary i.e. {performer:} then the beneficiary defaults to the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e., {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
+If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e., {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
   
 Owner Indicator is optional in which case it can be written as {} or omitted altogether.
   
@@ -1198,12 +1281,11 @@ An Operating Model, *Operational Model* or *OM* lays out the various aspects tha
 
 The purpose of this section is to give a clear understanding of the OM through the 6W Framework:
 
-What is it the Venture does (Activities), Why the Venture does it (Revenue generation, Cost and Risk avoidance), How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). 
-In addition, the Operating Model can also explains the Management of the Venture.
+What is it the Venture does (Activities), Why the Venture does it (Revenue generation, Cost and Risk avoidance), How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
 
 The OM is relevant to a broad range of users: the Manager of the Venture, direct support functions of the Manager like a Chief Operating Officer or Chief of Staff, Suppliers, Business Functions, Clients and other Stakeholders from the Environment like Regulators.
 
-The OM is explained through the Expanded Profile Tree, with a list of aspects to consider for each Item. The list is indicative, i.e. it is possible to omit aspects if deemed relevant. The order in which they appear is also flexible.
+The OM is explained through the Expanded Profile Tree, with a list of aspects to consider for each Item. The list is indicative, i.e., it is possible to omit aspects if deemed relevant. The order in which they appear is also flexible.
 
 An OM has at least the following components:
 - Executive Summary
@@ -1295,7 +1377,7 @@ The components mentioned above can be reflected in L1 or L2 sections, depending 
 Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.    
 Therefore, for each Venture the focus will be on different aspects of the Profile Tree, and the manner in which they are described will be different in each case.
 If the above is used for the Operating Model of an Activity within the Venture, then much can be kept as is, but the focus should of course be on what is relevant to the Activity. So certain aspects of the Environment may not impact a specific Activity, so it can be left out.  
-Once the Operating Model has been completed as a one off it should be maintained with regular updates.
+Once the Operating Model has been completed as a one-off it should be maintained regularly.
 ________________________________________
 ## COM (Framework)
 A Current Operating Model focusses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. 
@@ -1312,9 +1394,6 @@ Useful for Legal Entity (LE) level Operating Model.
 - Oversight a.k.a. Governance, Mostly Planning and Controlling part of Management.
 
 ### COM 2
-
-
-
 ________________________________________
 ## TOM (Framework)
 The Target Operating Model or TOM is a *desired* version of the Current Operating Model. It is most often drawn up if sue to Projects the existing Routines are going to change such that the COM is not relevant anymore. A TOM is also actively pursued when there are new business initiatives, essentially creating new Routines. The same template as for COM can be used: [MGT: 80.Tools-OM-Template]
@@ -1878,7 +1957,7 @@ Known motivators in business context:
 ________________________________________
 ## Brainstorming (Framework)
 Brainstorming is used to find a viable solution to a problem. It does not work for complex, multifacted problems. There are two key principles: 
--Defer judgment i.e. do not  conclude a good solution has been found when one idea sounds really good
+-Defer judgment i.e., do not  conclude a good solution has been found when one idea sounds really good
 -Go for quantity, get as many ideas as possible.
 
 The Process (stick to it!):
@@ -1946,7 +2025,7 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Controlling
 - Monitoring
 ________________________________________
 ## Journaling (Framework)
-Journaling, logging or more generally writing entries in a Journal is a good way to keep track of specific topics, concerns, etc. Journal entries feed into almost all aspects of Management e.g. 
+Journaling, logging or more generally writing entries in a Journal is a good way to keep track of specific topics, concerns, etc. Journal entries feed into almost all aspects of Management e.g.:
 - SWOT, see [## SWOT]
 - Report, see [## Reporting]
 - Meetings, see [## Meetings]
@@ -1955,7 +2034,7 @@ Journaling, logging or more generally writing entries in a Journal is a good way
 
 What goes into Journaling is Manager specific. It also depends on Reporting requirements, see [MGT: 99.Legend ## Reports]: the type of information that goes into a Journal on depends very much on the type of reports that need to be written. Generally speaking, anything can go into a Journal: descriptions of what has happened, thoughts, ideas, things to do, routines, projects, etc. 
 
-Note that basic Journaling is essentially just structured notetaking. This can be done on paper or preferably digitally using Note apps, see [## Notes]. The result of Journaling is a Journal a.k.a. Logbook. In French this is called a "Livre de bord" and in Dutch it is called a "Logboek".
+Note that basic Journaling is essentially just structured notetaking. This can be done on paper or preferably digitally using Note apps, see [## Notes]. The result of Journaling is a Journal a.k.a. Logbook. In French this is called a "Livre de bord" and in Dutch it is called a "Logboek", etc.
 
 Journaling with a *focus on Planning* can be done through Bullet Journaling, see below. For large Ventures or more generally when many Journallng entries are expected, the use of specific software designed to aid in Journaling is recommended, see [## BuJo MSS].
 ________________________________________
@@ -1971,7 +2050,7 @@ As such Bujo is an excellent multi-dimensional framework for a Manager allowing 
 Modern day Bujo can be done *digitally* which has several advantages over the notebook implementation. The framework discussed here, called *BuJo* (upper case 'J') is used within the Management Framework and is *adapted* from the original Bujo. BuJo forms the basis for *BuJo MSS*, see section below.
 
 ### BuJo Basics
-The basic requirement for BuJo is a Note Taking app like MS OneNote or Standard Notes, see also [## Notes].
+The basic requirement for BuJo is a Note Taking app like MS OneNote or Standard Notes.
 
 ### BuJo Concepts
 There are several concepts involved in BuJo which are derived from standard Bujo.
@@ -2036,8 +2115,6 @@ The note MGT: 00.Management is a special log. It has a flexible setup to reflect
 - Organising
 - Leading
 - Controlling
-- Day
-- Reports
 
 Introduction
 Explains what the note is about including a list of the above L1 sections (itself included). It is possible to omit the list of L1 sections to save space. 
@@ -2073,14 +2150,6 @@ Reflects Management Function Leading, and serves as a scribble section for aspec
 
 Controlling 
 Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
-
-Day
-Serves as a temporary capture of meeting minutes for meetings not formalised through any dedicated notes, see [## MC]. It should have an L2 section per meeting. 
-
-Report
-An L1 section that serves as a permanent storage of Reports. This may not be useful if reports are sent via Mail, in which case an archive of mails can function as repository of past reports.
-It should have an L2 section per Report in the format yyyymmdd as the date the report was finalised and sent.
-The idea is to cut-paste data from the sections under Management Cycle (Myself, Staff xxx,...) to build the report.
 ________________________________________
 ## BuJo MSS (Software)
 MSS, see [## MSS], has 7 Sheets implementing the BuJo concepts discussed above to the Managerial 7, see [MGT: 99.Legend ## Management Cycle]. BuJO MSS is essentially BuJo logic implemented within the MSS framework.
@@ -2522,7 +2591,7 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Assets]. On
 - Services (from Suppliers)
 ________________________________________
 ## Data & Info (Framework)
-Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they related to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
+Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they relate to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
 
 ### Data
 Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills,...
@@ -2536,8 +2605,8 @@ Time-Bound & Instance-Bound
 Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g. geography, temperature zone, department within an organisation, departments within geographies, etc. 
 
 Variable 
-A fact is most often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
-If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country. 
+A fact is often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
+If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country (which indeed can change over time).
 
 Data Representation
 Facts can be represented in different manners:
@@ -3127,7 +3196,7 @@ ________________________________________
 ## Skill Review (Framework)
 Skill Review is a framework that helps in defining and measuring Skills. This framework has similar features as the Performance Review framework (see below).
 
-See also source: 
+See also the following source: 
 <https://www.valamis.com/hub/hard-skills-vs-soft-skills>
 <https://www.valamis.com/hub/skills-matrix>
 
@@ -3146,13 +3215,12 @@ Skills can be grouped in various categories. There is no accepted consensus for 
 These are subjective skills that are hard to quantify. They are also known as *people skills* or *interpersonal skills*. They include:
 - Communication: ability to convey and share ideas effectively
 - Flexibility: ability to accept new challenges calmly and without restraint
-- Leadership:  ability to help oversee Activities, guide initiatives and steer Staff toward the achievement of Goals through Leading
+- Leadership: ability to help oversee Activities, guide initiatives and steer Staff toward the achievement of Goals through Leading
 - Motivation: ability to keep going even in the face of setbacks
-- Multitasking: ability to manage different tasks efficiently by prioritising them
- across short cycles 
+- Multitasking: ability to manage different tasks efficiently by prioritising them across short cycles 
 - Problem Solving: ability to analyse a problem to create a solution, including breaking up problems in smaller ones
 - Teamwork: ability to cooperate with others and build relationships
-- Time Management: ability to plan different tasks such that they complete on the expected time 
+- Time Management: ability to plan different tasks such that they complete at the expected time 
 - Self-learner: ability to teach one-self specific topics by finding and using different sources of information that are adequate for the topic at hand
 - Self-critical: ability to question oneself to improve the quality of output and to increase understanding of topics 
 - Self-starter: ability to see the required tasks to be done and start working on them
@@ -3170,7 +3238,7 @@ Hard Skills are teachable abilities that are easy to quantify. They are taught a
 - Marketing
 - Use of Venture specific Assets
 - Use of Venture specific Processes
-- Etc
+- Etc is
 
 ### Skill Rating
 Skill can be rated using a quantitative scale based on a qualitative assessment of knowledge and/or experience. The qualitative assessment looks at the *amount of work that can that be done* without referring to a *Specialist* be that within the Venture or outside i.e. books, websites. etc. The Skill Rating is very similar to the Performance Rating (see below). 
@@ -3266,10 +3334,10 @@ The 360 degree appraisal or 360 feedback is an often used method in which manage
 NB: the 360 feedback has become somewhat of a fad in many companies and care should be taken not to overindulge in it. 
 ________________________________________
 ## Performance Review  (Framework)
+Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling. 
+A Performance Review looks across the various dimensions of a Venture, from strategic levels like Misson Statement and Goals to more operational levels of Objectives and Processes. 
 
-Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling.
-
-A Performance Reviews does not follow a rigid Process. However, there is a framework facilitating the Process and which involves the following:
+A Performance Reviews does not follow a rigid Process. However, there is a framework facilitating the Process which involves the following:
 - Corporate Title
 - Performance Categories
 - Performance Rating
@@ -3286,7 +3354,7 @@ Corporate title is an indicator of seniority and implies expected knowledge, ski
 - Director
 - Managing Director
 
-Corporate Titles can have sub-levels like Senior Vice President etc. The  Director title may be reserved for a member of the board (Board of Directors) which is not strictly speaking a corporate title in that case. For this framework for Performance Review the five levels above will be used. If other titles or different number of levels are used then they can be  implemented by extrapolation of the above.
+Corporate Titles can have sub-levels like Senior Vice President etc. The Director title may be reserved for a member of the board (Board of Directors) which is not strictly speaking a corporate title in that case. For this framework for Performance Review the five levels above will be used. If other titles or different number of levels are used then they can be  implemented by extrapolation of the above.
 
 Although knowledge is important, the focus is mostly on skills related to the acquisition, and use, of knowledge as well as behaviours in relation to interaction with colleagues and Suppliers such as to achieve the Objectives. 
 
@@ -3296,67 +3364,74 @@ Performance Categories refer to the various aspects of behaviour involved in ach
 - Proactivity
 - Leadership
 
+Other categories are possiblez but the above three cover the broadest range of behaviours as explained below:
+
 #### Dependability
-Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known, Objectives and thus underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's competency which is the ability to carry out Processes effectively, autonomously and timely to yield the expected Result and includes the capacity to: 
+Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known Objectives and their underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's *competency* which is the ability to carry out Processes effectively, autonomously and timely to yield the expected Result and includes the capacity to: 
 - Adhere to the notion of "See the work", defined as "Identifying and following up on a need for effort to help others or oneself to complete a task without having to be told". It is a catchall and may not even be related to Objectives e.g. lifting a glass from a table when someone else cleans the table. It is a mindset thing!
 - Act autonomously, which includes knowing which Objectives to own based on Job Description as well as which Processes are involved and need to be executed how and when.
-- Take decisions in line with the authority granted with the Staff's role, as formalised in the Job Description
-- Understand Objectives and Processes involved to achieve them as well as the deadlines related to them
-- Understand and consider dependencies on Resources (Assets, Staff and Suppliers) and other Processes (performed by oneself or someone else)
-- Plan work according to deadlines, planned Processing time and dependencies
-- Prioritise Objectives according to urgency, quick wins and short/long term priorities
+- Take decisions in line with the authority granted with the Staff's role, as formalised in the Job Description.
+- Understand Objectives and Processes involved to achieve them as well as the deadlines related to them.
+- Understand and consider dependencies on Resources (Assets, Staff and Suppliers) and other Processes (performed by oneself or someone else).
+- Plan work according to deadlines, expected Processing time and dependencies.
+- Prioritise Objectives according to urgency, quick wins and short/long term priorities, and readjust priorities dynamically based on circumstances.
 - Be analytical and pragmatic when assessing information
-- Ask the right questions to the right person
-- Break down complex Objectives in simpler ones
-- Escalate problems arising in completing an Objective
+- Ask the right questions to the right person.
+- Break down complex Objectives in simpler ones.
+- Escalate problems arising in completing an Objective.
 
 #### Pro-activity
-Act entrepreneurial, i.e. self-initiate Objectives, and (Sub-)Goals. Pro-activity focuses on *missing*, *ineffective* or *inefficient* Objectives i.e. parts of the Venture's Goals that are not met with existing Objectives and includes the capacity to:
+Act entrepreneurial i.e., self-initiate Objectives and (Sub-)Goals. Pro-activity focuses on *missing*, *ineffective* or *inefficient* Objectives i.e., parts of the Venture's Goals that are not met with existing Objectives and includes the capacity to:
 - See the bigger picture, being able to zoom-out of Objectives and seeing how Objectives feed into Goals and Goals into the Mission and thus the Venture's overall result.
-- Have a strong focus on the Mission and Goals rather than Objectives alone
+- Have a strong focus on the Mission and Goals rather than Objectives alone.
 - Understand if the Mission is only partially met and why
-- Understand which Goals are missing/incomplete such that the Mission would be fully met
-- Define missing Goals including targeted Result
-- Understand Goals of the Venture and how underlying existing Objectives align to that Goal, including Objectives that are not covered by him/her
+- Understand which Goals are missing/incomplete such that the Mission would be fully met.
+- Define missing Goals including targeted Result.
+- Understand Goals of the Venture and how underlying existing Objectives align to that Goal, including Objectives that are not covered by him/her.
 - Understand which Goals are partially or not met and why
-- Understand which Objectives are missing/incomplete such that those Goals would be fully met
+- Understand which Objectives are missing/incomplete such that those Goals would be fully met.
 - Define/re-define missing/incomplete Objectives including Result, Processes involved, dependencies on other Processes and Resources (Assets, Staff, Suppliers). 
 
 #### Leadership
 Use leadership principles to initiate new Goals and Objectives as well as to complete existing Objectives more efficiently. Leadership focuses on with *whom* to achieve Objectives and includes the capacity to:
 - Drive and motivate others i.e. Peers, Suppliers (internal and external) to achieve one's own Objectives
-- Listen to others both to improve Results, but also to understand concerns and constraints 
-- Understand that Skilled staff can still underperform due to reasons unrelated to the Process they perform i.e. due to Corporate culture, personal circumstances, etc.
+- Listen to others both to improve Results, but also to understand concerns and constraints.
+- Understand that Skilled staff can still underperform due to reasons unrelated to the Process they perform i.e., due to Corporate culture, personal circumstances, etc.
 - Always approach with "How can I help?'
-- Expect different Stakeholders to need different manner of answers for the same question.
-- Work with others in the understanding that Goals are common
-- Delegate part or whole of Objectives 
+- Expect different Stakeholders to need a different manner of answers for the same question.
+- Work with others in the understanding that achieving Goals and Objectives are of common interests.
+- Delegate part or whole of Objectives.
 - Use meetings (1:1 Meeting, Team Meeting) effectively 
-- Use Communication means effectively (Mail, Chat, face to face)
-- Use Feedback effectively
-- Understand people's natural resistance to change
-- Work towards Psychological Safety
-- Act as a Mentor
-- Act as a Coach
-- Report, unsolicited, on progress to relevant Stakeholders
+- Use Communication means effectively (Mail, Chat, face to face).
+- Use Feedback to grow others (give feedback) and oneself (collect feedback).
+- Understand, respect and use people's natural resistance to change.
+- Work towards Psychological Safety.
+- Act as a Mentor.
+- Act as a Coach.
+- Report, unsolicited, on progress to relevant Stakeholders.
 
-Note that Objectives are deemed allocated to the right level of Seniority, see [### Corporate Title] e.g. someone very junior will not be given Objectives that require a very high level of Dependability. On the other hand, the three Categories are defined such that in theory any Objective can be allocated to any level of seniority. The reason is that the Performance Rating System is designed such that at low seniority levels, the Performance Targets are low, see below.
+Note that Objectives are deemed allocated to the right level of Seniority, see [### Corporate Title] e.g., someone very junior will not be given Objectives that require a very high level of Dependability. On the other hand, the three Categories are defined such that in theory any Objective can be allocated to any level of seniority. The reason is that the Performance Rating System is designed such that at low seniority levels, the Performance Targets are low, see below.
 
 ### Performance Rating
-Performance Rating uses the notion of Observation of behaviour. This can be done by oneself and/or by others. Feedback from others assists in a more complete Observation. Observation means effectively that a) there was an opportunity for that behavior to be displayed *and* b) the Staff indeed displayed it. Numeric ratings are used to establish the level of Observation within a Performance Category:
+Performance Rating uses the notion of Observation of behaviour. This can be done by oneself and/or by others. Feedback from others assists in a more complete Observation. Observation means that:
+a) There was an opportunity for that behavior to be displayed; *and* 
+b) The Staff indeed displayed it; *and*
+c) Someone was there to actually observe that behaviour.
+
+Numeric ratings are used to establish the level of Observation within a Performance Category:
 - 0: none:       0%, never observed 
 - 1: little:      20%, sometimes observed
 - 2: some:    40%, frequently observed
 - 3: often:     60%, often observed   
 - 4: mostly:  80%, very often observed 
 - 5: fully:     100%, always observed ==> target 
-- 6: extra: >100% rarely observed  ==> exceptional situation 
+- 6: extra: >100% rarely observed    ==> exceptional situation 
 
 NB:100% is very difficult: most often there is some scenario where a Performance Category is not observed. Those cases should be exceptional and as such a Rating of 5 can still be given. Therefore, practically speaking rating 5 can be given for anything above 90%. The rating 6 is used only to be able to rate when a Managing Director outperforms the Target Rating.
 
-Observation quality should also be considered. If someone observes something only once then that has little value versus someone observing the desired and/or the reverse of it, several times. Low Observation rates may need to be discarded. Managers having little interaction with Staff are less likely to see sufficient behaviours to have a good opinion, which is why they can rely on observations by others.
+Observation quality should also be considered. If someone observes something only once then that has less value versus someone observing the desired and/or the reverse of it, several times. Low Observation rates may need to be discarded. Managers having little interaction with Staff are less likely to see sufficient behaviours to have a good opinion, which is why they can and should rely on observations by others.
 
-By design, the above method relies on observation by oneself or others. Observing such behavior is affirmative, but that does not mean that the Staff had an opportunity to display that behavior but did not. It might just have been missed because nobody was around to Observe ot. As such the method is slightly biased towards positive outcomes, and is also at best a reflection of a reality, not an actual reality.
+By design, the above method relies on observation by oneself or others. Observing such behavior is affirmative, but that does not mean that the Staff had an opportunity to display that behavior but did not. It might just have been missed because nobody was around to Observe it. As such the method is slightly biased towards positive outcomes, and is also at best a reflection of a reality, not an actual reality.
 
 ### Performance Targets
 For each Corporate Title and for each Performance Category there are three numbers as follows: 
@@ -3394,10 +3469,10 @@ Below is the template to measure performance using the concepts discussed above.
 
 These ratings are rigid and don't take into account the longevity *within* a role/corporate title. It is up to the Manager to adjust where deemed relevant. Half ratings like 2.5 can be used where necessary.
 
-Structurally, the higher the Corporate Title the higher the Target Rating and the harder it becomes to outperform. The rarely used rating of 6 is applicable only when Managing Directors succeed in delivering more than reasonably can be expected.
+Structurally, the higher the Corporate Title the higher the Target Rating and the harder it becomes to outperform. 
 
 ### Performance Result
-Performance Result can be remapped as follows:
+Performance Result can be remapped to qualitative labels like for example as per below:
 Performance Result =  0  ==>  At expectations
 Performance Result =  1  ==>  Above expectations
 Performance Result >  1  ==>  Exceed expectations
@@ -3410,7 +3485,7 @@ Different companies have various manners of grouping Staff's Objectives. Often t
 - Operational Objectives, Change Objectives, etc.
 - Behaviour, Attitude, etc.
 
-The Performance Categories do not map directly to these and effectively work across all three. One way of forcing a  mapping on such categories is as follows:
+The Performance Categories do not map directly to these and in most cases work across such groupings. One way of forcing a  mapping on such categories is as follows:
 - Job Description, Run, Day-to-day, etc <-> Dependability 
 - Operational Objectives, Change, etc <-> Proactivity 
 - Behavioral Objectives, Attitude, etc. <-> Leadership
@@ -3418,10 +3493,10 @@ The Performance Categories do not map directly to these and effectively work acr
 ### Performance Template
 When reporting on the assessment of performance for a Staff the following sections are suggested:
 - Context: Corporate Title, time in current role, scope, constraints, sub-team part of, key Suppliers, etc.
-- Run: Routines owned by Staff
+- Run: Routines owned by Staff.
 - Change: Projects owned by Staff including ad-hoc Projects
-- Assessment: details of assessment including the Performance Categories with Target, Rating, Result and a description as to why those ratings were given as well as an action plan to remediate if relevant
-- Methodology: description of Performance Review f}ramework as described here.
+- Assessment: details of assessment including the Performance Categories with Target, Rating, Result and a description as to why those ratings were given as well as an action plan to remediate if relevant.
+- Methodology: description of Performance Review framework as described here.
 ________________________________________
 ## Promotion (Framework)
 Promotion ties in to the Performance Evaluation and Performance Review frameworks. Promotion is a form of remuneration and a signal that the Staff's current performance is at the next Performance Target level. 
@@ -3561,6 +3636,10 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20240725
 - Updated  [## Performance Review] with some new criteria under the Performance Categories.
+
+### 20241109
+- Updated [## Eisenhower Matrix] with more details
+- Added [## Articles of Association] and [## Memorandum of Association]
 
 ### Planned
 

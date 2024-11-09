@@ -476,7 +476,7 @@ For a listed company Equity represents the net worth of the Venture and is the d
 
 ### Management
 The Management Functions of the POLC i.e., Planning, Organising, Leading and Controlling, *academically* explain the foundations that continuously drive and optimise Operations. These are the four main deliverables of Management and are what Management in its essence is about (they are all discussed in detail below as they are so fundamental). In addition to these four Management Functions, there are two more deliverables within Management. The first one is the *Management Cycle*, or *MC*, which reflects the continuous performance of the four Management Functions, but expressed in terms of the key deliverables of Operations: *Revenue*, *Cost*, *Risk*, *Run*, and *Change*, with the rest of the Profile Tree Items (Staff, Assets, Suppliers, Equity, HR, Finance, etc.) all captured in the generic cycle called *General Management*, *General* or just *Management*. Combined with *Intel* as the information contributing step, these seven items of the Management Cycle are referred to as *Managerial 7* in the Management Framework. 
-The second deliverable of Management is *Management Improvement*, which, as the name suggests, involves improving the performance of Management itself, including improving Managers. Note that involvement in the deliverables Planning, Organising, Leading and Controlling depends on the *Management Level* e.g., CEO, department head, line manager, team leader, etc.
+The second deliverable of Management is *Management Improvement*, which, as the name suggests, involves improving the performance of Management itself, including improving Managers. Note that involvement in the deliverables Planning, Organising, Leading and Controlling depends on the *Management Level* e.g., Director of the Board, C-suite (CEO, CFO, COO, etc), department head, line manager, team leader, etc.
 
 ### Planning
 Planning involves Processes to establish *what is to be done where, when and why* and *how*. This first Management Function defines why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects its Staff to operate through *Values* and *Bylaws*, and how it assesses the Environment versus its own capacity via *SWOT* and *Intel*. 
@@ -1812,7 +1812,7 @@ ________________________________________
 ʲ superscript j  
 ᵏ superscript k  
 ˡ superscript l  
-ᵐ superscriptm   
+ᵐ superscript m   
 ⁿ superscript n  
 ᵒ superscript o  
 ᵖ superscript p  
@@ -2264,6 +2264,9 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20241027
 - Various updates in [# PROFILE] mostly small corrections and clarifications. Added *Financing* in the Profile Overview.
+
+### 20241109
+- Added the notion of Director and C-suite level in [### Management]
 
 ### Planned
 
