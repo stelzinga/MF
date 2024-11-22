@@ -358,7 +358,7 @@ A Profile expresses a Venture through a *Profile Tree*, composed of interrelated
 
 ### Profile Tree Explained
 A Venture's main purpose is to generate more *Revenue*, or *Income*¹⁾ from the sales of *Services*²⁾, a.k.a. *Products*, to *Clients* than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* contributing directly or indirectly to the continuous delivery (a.k.a. *Run*), as well as continuous improvement of that Run (a.k.a. *Change*), of Services in a *sustainable* manner. A Process consists of *Steps* applied to *Input* to achieve a *Result*. The Processes in Operations are performed and/or overseen by *Staff* using *Assets* and *Suppliers* (which can be internal and/or external). Combined, Staff, Assets, Suppliers are called *Resources*. Resources generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.) as do the results of Operations e.g., tax. These Costs are covered by *Financing*, also referred to as *Funding*, through Cash (a fundamental Asset) made available continuously through Revenue, *Liabilities* a.k.a. *Debt* and *Equity*. Operations also generate *Risk*, defined as the probability of adverse outcomes, either directly (loss of Revenue, fines) or indirectly (loss or damage of Resources which in turn affects Revenue). Adverse outcomes occur as result of either i) weaknesses in Processes and/or Staff, Suppliers or Assets and/or ii) as a result of unforeseen conditions created internally (Management, Staff, Suppliers, Assets) or externally (Suppliers, Clients, and *Environment*), where Environment³⁾ is composed of *Law* or more specifically *Business Law* i.e., the legal framework in which Ventures operate, *Natural factors*, *Investors* a.k.a. *Shareholders*, *Creditors*, *Competitors*, *Governments*, *Regulators*, *Tax offices*, *Labour Unions*, *Markets* etc. In short, Risk⁴⁾ is a form of *probabilistic and undesired* Cost and the management of Risk incurs an *actual* Cost e.g., additional Staff to measure and mitigate Risk, insurance, hedge transactions, backup Assets, etc. Revenue minus Cost is called *Earnings* or *Profit*. Revenue, Cost and Profit are expressed in monetary values, as is Risk. Revenue and Cost make up one of the key *Financial Statements* called *Income Statement* whereas Assets, Liabilities and Equity make up the other statement called *Balance Sheet*. Operations are maintained (Run) and improved (Change) continuously, through *Management*. Management consists of four *Management Functions* called *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised and Risk minimised within the constraints of Funding.
-Management is aided by *Business Functions* and management *Tools*. Finally, Management permeates the entire Venture. 
+Management is aided in its objectives by *Business Functions* e.g., Finance, HR, IT, Risk, Compliance, Corporate Secretary, Procurement, etc. as well as management *Tools*. Finally, the Management Framework permeates the entire Venture and can be applied at any *Management Level* in the Venture (Director of the Board, CEO, department head, team leader, etc).   
 
 Notes:
 ¹⁾ For non-profit Ventures (charities) Income is obtained through donations, not sales of Services, even if provided. 
@@ -867,7 +867,7 @@ Specifically, the latter view is often the view used in companies concerned abou
 The distinction between Governance and Management is not relevant for a Profile. The Profile deems Management is holistic, all-encompassing, as discussed above. It is, however, important to recognise that some Ventures make such distinction.
 
 Management vs Leadership
-From a definition perspective, Management is sometimes seen solely as consisting of Planning, Organising and Controlling the Venture's Suppliers, Assets and Staff to accomplish the Goals, whereas Leadership refers to an individual's ability to direct, inspire, influence, motivate, and enable Staff to contribute toward those Goals. In short, the main difference between the two is that leadership is about influencing Staff to follow, while Management focuses on maintaining systems and processes. As can be seen from the POLC, Leading or leadership is a key aspect of Management and as such, Management and Leading are fundamentally intertwined in the Profile.  
+From a definition perspective, Management is sometimes seen solely as consisting of Planning, Organising and Controlling the Venture's Suppliers, Assets and Staff to accomplish the Goals, whereas Leadership refers to an individual's ability to direct, inspire, influence, motivate, and enable Staff to contribute toward those Goals. In short, the main difference between the two is that leadership is about influencing Staff to follow, while Management focuses on maintaining systems and processes. As can be seen from the POLC, Leading or leadership is a key aspect of Management and as such, Management and Leading are thus fundamentally intertwined in the Profile.  
 Note that one can be good in the POC of Management but not in the L, which makes a less effective Leader. Reversely, a good Leader may not be an efficient Manager.
   
 Management Level  
@@ -1005,9 +1005,10 @@ NB: documents to be filed with governmental institutions e.g. articles of associ
 
 ### SWOT
 A SWOT, or *Impact Assessment* reviews all internal aspect of the Venture (Operations, Management and their respective deliverables including Services) versus external forces (Clients, Suppliers, Environment and their respective deliverables) to assess to what extent the Venture's *internal* *Strengths* and *Weaknesses* combined with *external* *Threats* and *Opportunities* make the Mission achievable, or more generally enable the increase of Revenue, decrease of Cost and of Risk. 
-SWOT is an important deliverable for a Manager as it allows to define how to adjust the Venture to avoid or counter Threats and to take advantage of Opportunities given the Venture's Strengths and Weaknesses. More generally, SWOT is the term used for any impact assessment of changes coming from outside or inside. 
+SWOT is an important deliverable for a Manager as it allows to define how to adjust the Venture to avoid or counter Threats and to take advantage of Opportunities given the Venture's Strengths and Weaknesses.  
 The key inputs to a SWOT are the Operational Plan (or less holistically the Tactical or Strategic Plan) and Intel (both discussed below). 
-The SWOT feeds into the definition of Sub-Goals and Projects (see below) to seize Opportunities and/or remediate Weaknesses in Routines. Additionally, a SWOT can yield changes in deliverables of the other Management Functions (Organising, Leading and Controlling). The SWOT also feeds Context (see above). SWOT is most impactful when performed as a continuous process. 
+SWOT feeds into the definition of Sub-Goals and Projects (see below) to seize Opportunities and/or remediate Weaknesses in Routines. Additionally, a SWOT can yield changes in deliverables of the other Management Functions (Organising, Leading and Controlling). The SWOT also feeds Context (see above). SWOT is most impactful when performed as a continuous process. 
+Note that SWOT is also a well known industry standard framework. However, in the Profile, SWOT is the name given to *any* process assessing the impact of forces from outside or inside the Venture and the manner in which the Venture adapts to said forces through Management.
 
 ### Goals 
 Goals are outcome statements that define how the Venture is trying to accomplish its Mission and how it tries to align the Mission to the Vision over time. Goals are most often expressed in terms of Revenue, Cost and Risk, and thus indirectly the Services it aims to deliver through Operations. Goals are an intrinsic part of the RPT, see [### Reduced Profile Tree], and are the overarching driver for Objectives. 
@@ -1136,7 +1137,7 @@ Venture
                 Sub
                     Drill
 
-Such a hierarchy enables a detailed level of Planning (also means more maintenance). 
+Such *Routine Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
 
 #### Projects 
 Projects are composed of one or more Processes that contribute to Change Goals by being performed as a one-off. They start at one point in time and complete by an end date. The aim of Projects is to change the Run in one of two manners:
@@ -1158,7 +1159,7 @@ Venture
                 Stream
                     Action
 
-Such a hierarchy enables a detailed level of Planning (also means more maintenance). 
+Such a *Project Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
 
 Goals (incl Sub-Goals) and Objectives combined serve to:
 1. Gauge and report performance
@@ -2267,6 +2268,10 @@ Added the notion of Board of Directors to [### Management Level].
 
 ### 20241109
 - Added the notion of Director and C-suite level in [### Management]
+
+### 20241122
+- Added clarification on SWOT
+- Expanded Business Functions and added Management Levels in [### Profile Tree Explained] 
 
 ### Planned
 
