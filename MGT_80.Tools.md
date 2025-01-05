@@ -174,23 +174,23 @@ Depending on the apps used, and whether a Venture requires the use of specific a
 Because they can be used in different manners by different people, this note will not prescribe particular uses. The exception made is for Notes, because they are a fundamental to the implementation of the Management Framework. 
 ________________________________________
 ## Eisenhower Matrix (Framework)
-The *Eisenhower Matrix* or *Eisenhower Decision* Tree or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way.  
+The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.
 
 ### Important
 Something is important for different reasons, but the following criteria are deemed relevant:
-- Cannot be delegated (simply because the right skills are not there right now, the training would take too much time given the urgency, etc.) and/or
-- Has a lot of attention from senior or critical stakeholders (internal or external)
-- The completion of the task has a direct impact on Revenues, Cost or Risk
+-Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.) and/or
+- Task relates to a topic that has a lot of attention from senior stakeholders (internal or external) and/or
+- Task completion has a direct impact on Revenues, Cost or Risk.
 
 ### Not Important
-This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself regardless. The following criteria are relevant:
-- Tasks requires a Skill set that the Manager does not have (and would thus require delegation anyway)
-- Tasks requires the application of Skills the Manager has, but which are at a level the Manager does not Operate at. This typically involves Tasks related to the Goal = prd i.e., all the types of Maintenance, Enabling and Support.
+This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself. The following criteria are relevant:
+- Task requires a skillset the Manager does not have (and would thus require delegation anyway)
+- Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). This typically involves Tasks related to Goal = prd i.e., Tasks related to Maintenance, Enabling and Support.
 
 ### Urgent
-Something is urgent for different reasons, but here the following criteria are deemed relevant -there is sometimes a link with *Important*-:
-- Not performing the task soon has a knock on effect on several other tasks
-- There is a deadline imposed by a senior or critical stakeholder (internal or external)
+Something is urgent for different reasons. The following criteria are deemed relevant -there is sometimes a link with *Important*-:
+- Not performing the Task soon has a knock on effect on several other Tasks and/or
+- There is a deadline imposed by a senior stakeholder (internal or external)
 - The completion of the task has a direct impact on Revenue, Cost or Risk
 
 ### Not Urgent
@@ -203,7 +203,7 @@ The above two dimensions yield four combinations a.k.a. *Decision Quadrants*, wh
 3. Urgent + not important -> Delegate Task to someone
 4. Neither urgent + not important -> Delete Task altogether
 
-The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition].
+The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition]. As can be clearly seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
 
 ### Decision Outcomes
 The use of the Eisenhower Matrix helps scale works. It is important to note here that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
@@ -219,7 +219,7 @@ The master MSS file, mgt.xlxs,  is available in GitHub here:
 https://github.com/stelzinga/MF
 
 ### MSS Slave
-It is possible to add functionality to any instance of MSS Maste and which is not available in MSS Master e.g. macros. Such instance is called MSS Slave. 
+It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g. macros. Such instance is called MSS Slave. 
 
 ### MSS References
 To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.
@@ -238,7 +238,7 @@ MSS Note Management follows a specific form of Task Notation, namely the dated c
 Another feature of MSS is the integration of Tasks using [## Task Notation] in the dedicated Column = Tasks.  
 
 ### MSS Hierarchy
-Sheet = M5, dedicated to Projects has an *Integrated Hierachy*. 
+Sheet = M5, dedicated to Projects has an *Integrated Hierarchy*. 
 
 Venture 
     Project p
@@ -247,7 +247,7 @@ Venture
 
 The hierarchy is determined by Column = *Link*, the value of which is the value of the Column = *Key*. 
 
-In addition to the Link, *manual indentation* makea the hierarchy visible:
+In addition to the Link, *manual indentation* makes the hierarchy visible:
 - Run/Chg Goals, Routine, Project = 0x space
 - Sub, Stream = 4x space
 - Drill, Action = 8x space 
@@ -674,9 +674,9 @@ Key aspects of the AoA are:
 - Name of the Venture and form of business
 - Purpose of the Venture
 - Capital Structure
-- Corporate Governance, including rules related to decision making
+- Corporate Governance, incl rules related to decision making
 - Administration of corporate records
-
+  
 AoA vs MoA
 https://www.onboardmeetings.com/blog/articles-of-association-vs-memorandum/
 
@@ -767,9 +767,9 @@ Goals are established based on the Mission as well as medium term view of where 
 
 % ovs (19700101:99991231) {CEO} |VNT| [Perform Oversight. This is the performance of Routines in relation to data from Operations with a focus on Risk Management & Production Performance. There are four different categories of Routines: Checks, Reviews, Attendance in meetings and Audits. This Goal includes the definition of KPIs and  KRIs to measure against. It also includes Routines to investigate incidents and  problems when they occur -mostly unexpected- in order to define mitigants. Lastly, this includes assisting Suppliers like internal Auditors to perform reviews/audits of Activities and similarly it includes assisting external parties from the Environment like Regulators or Government in their reviews and audits.] 
 
-% prd (19700101:99991231) {CEO} |VNT| [Perform Production. Perform Routines that directly contribute to the delivery of Run Services. Depending on the Activity, this Goal has different Routines. Some can relate directly to the generation of Revenue, whereas other Activities perform Routines to support the generation or Revenue. This Goal can include Routines delegated by Management that relate to the maintenance of Environment, Servixes, Staff, Suppliers and Assets, and that are each not part of a dedicated Activity e.g. HR, Procurement.]
+% prd (19700101:99991231) {CEO} |VNT| [Perform Production. Perform Routines that directly contribute to the delivery of Run Services. Depending on the Activity, this Goal has different Routines. Some can relate directly to the generation of Revenue, whereas other Activities perform Routines to support the generation or Revenue. This Goal can include Routines delegated by Management that relate to the maintenance of Environment, Services, Staff, Suppliers and Assets, and that are each not part of a dedicated Activity e.g. HR, Procurement.]
 
-NB: The Management Function Controlling is generally reviewing performance of the Venture Activities represented through Goal = Perform Production as well as the review of risk mitigation through Goal = Perform Oversight. Ultimately, Management is accountable for the proper performance of those Goals even if it delgates the performance of those Goals to various Activities. Management obtains assurance that those Goals are achieved through Controlling. See also [## Delegating Definition] under [# ORGANISING].
+NB: The Management Function Controlling is generally reviewing performance of the Venture Activities represented through Goal = Perform Production as well as the review of risk mitigation through Goal = Perform Oversight. Ultimately, Management is accountable for the proper performance of those Goals even if it delegates the performance of those Goals to various Activities. Management obtains assurance that those Goals are achieved through Controlling. See also [## Delegating Definition] under [# ORGANISING].
 
 Above Run Goals are generic and apply to all Ventures.  
 
@@ -887,9 +887,10 @@ The owner of an Objective is either a specific Staff or a Group. By default, the
 By default, the Manager of an Activity in which an Objective is performed is responsible for the Objective. The manager gets those responsibilities delegated by the Manager of the Venture. See also [## Objective Definition], [## Activities Definition] and [## Delegating Definition].
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine*, *Stream*, *Sub*, *Action*, *Drill* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation]. Objective Notation lends itself perfectly for note taking as well. This is clarified below when discussing Comments.
+Objective Notation is an expansive formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. 
+For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
 
-Although the Objective Notation is seems very formalised, this does not mean that that formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, but also shows a less rigid interpretation.  
+Although the Objective Notation is well structured and appears very formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid interpretation.  
 
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
@@ -934,18 +935,6 @@ As can be seen, the Status Indicator symbol is a single character, except for th
 NB: the '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
 The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
 
-### Objective Notation and Eisenhower Matrix
-Tying the four status indicators of Projects to the Eisenhower matrix principles, yields:
-
-urgent + important                -> do now    ->  !
-not urgent + important         -> do later   ->  / and .
-urgent + not important         -> delegate ->  ~
-not urgent + not important  -> delete      ->  x 
-
-The latter one is effectively an Objective that would be created and directly completed, or, because a Project has been completed , it is neither urgent nor important anymore. 
-
-From a managerial perspective this means Objectives get performed by the Manager: "!", "/" and "." or the Manager delegates the work "~".
-
 ### Objective Notation Name 
 The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name has three requirements:
 1. Must start with a *verb*
@@ -953,9 +942,9 @@ The Name is mandatory. For Goals the Name is a short three character code, see [
 3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
 4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, /slashes\, **bold**, Stop!, Say: "This shall be done!", etc  
 
-Note that *if* for esthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is permitted e.g., 01.Planning, 02.Organising, ... 
+Note that *if* for aesthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is permitted e.g., 01.Planning, 02.Organising, ... 
 
-Verbs are an indication of targeted Result, see [## SMART]:
+Verbs are an indication of *targeted Result*, see [## SMART]:
 - Assess: obtain a result and compare against expectations 
 - Assist: somebody in execution of their Process
 - Attend: prepare + attend a meeting/event
@@ -993,9 +982,9 @@ Short versions of Verbs are possible as follows:
 
 The short versions can serve visually as a reminder to do something.
 
-Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. This periodicity is also reflected in the Date Indicator, see below. However, it is sometimes useful to see it in the Name because it often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
+Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Although such indicators for periodicity are also reflected in the Date Indicator (see below, it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
 
-The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is hihgly recommended, as it forces the user to think about what the targeted type of result is, nothing stops someone from using names like:
+The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is highly recommended, nothing stops someone from using names like:
 . Main Project: do something
 / WARNING: this to be done before all others
 etc 
@@ -1018,26 +1007,26 @@ In which:
 - performer is a Staff or a Group. 
 - beneficiary is an Activity or the Venture. 
   
-If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicilty provided i.e., {entry} then both Perfomer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
+If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
   
 Owner Indicator is optional in which case it can be written as {} or omitted altogether.
   
 ### Link Indicator
 A Link Indicator is used to link:
-i.   Goals to the Venture or
-ii.  Sub-Goals to Goals or 
-iii. Objectives to Sub-Goals or
-iv.  Routines to Run Sub-Goals or directly to Goals or
+i.   Goals (Run-Goals, Change-Goals) to the Venture or
+ii.  Sub-Goals (Run-sub-Goals, Change-sub-Goals) to Goals or 
+iii. Objectives (Routines, Projects) to Sub-Goals or
+iv.  Routines to Run Sub-Goals or directly to Run-Goals or
 v.   Projects to Change Sub-Goals or directly to Goals or
 vi.  Streams to Projects / Subs to Routines or
 vii. Actions to Streams / Drills to Subs
   
-The link indicator is considered text even if stated as a number e.g. '1', '1.1', '2', 'mgt'. 
+The link indicator is considered text even if stated as a number e.g.,'1', '1.1'. 
   
 Link Indicator is optional in which case it can be written as || or omitted altogether.
 
 ### Objective Notation Reference Indicator
-The Reference Indicator contains free text or points to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference]. In other words, Reference Indicator is:
+The Reference Indicator contains free text or refers to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference]. In other words, Reference Indicator is:
 1. Free text or
 2. Reference to a Section or Note or
 3. Reference to a File or
@@ -1046,72 +1035,90 @@ The Reference Indicator contains free text or points to a separate location with
 ...
 etc.
   
+Free text can be used to provide comments, but can also be used to show the next Tasks, using Task Notation *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
+  
 Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
   
-Free text can be used to provide comments, but can also be used to show the next Tasks, using Task Notation, *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done including Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks, Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
-
 ### Objective Notation Hierarchy 
-Instead of using the Link Indicator to Link Sub-Goals to Goals, Objectives to Sub-Goals, etc. (see above), it is possible to omit the Link Indicator and instead use an Objective Notation Hierarchy as follows for Goal/Sub-Goal/Objective/Stream or Sub/Action or Drill:
+As was mentioned in [MGT: 99.Legend] there exist two hierarchies that drive work throughout a Venture: the Project Hierarchy and Routine Hierarchy, depicted visually below. 
+ 
+Venture
+    Run Goal  
+        Run Sub-Goal      
+            Routine  
+                Sub  
+                    Drill  
+    Change Goal  
+         Change Sub-Goal  
+            Project  
+                Stream  
+                    Action  
+   
+Instead of using the Link Indicator to Link Sub-Goals to Goals, Objectives to Sub-Goals, Streams to Projects, etc. it is possible to omit the Link Indicator and instead apply an Objective Notation Hierarchy using indentation as follows:
 
-status name (date) {owner} |link| [reference]
+status name (date) {owner} [reference]
     status name (date) {owner} [reference]
         status name (date) {owner} [reference]
             status name (date) {owner} [reference]
                 status name (date) {owner} [reference]
 
-This format is useful to visually show Goals, Sub-Goals, Objectives and underlying Streams/Subs and Actions/Drills. 
+This format is useful to visually show the relation between Goals, Sub-Goals, Projects/Streams/Subs and Routines/Actions/Drills. The above is a *possible* display, it may not be *desirable* to use this too often: it can become difficult to read.
 
 ### Objective Notation Expanded Format
-With details of the various Indicators, the expanded format for Objective Notation for Projects can be written as:
+With above details of the various Indicators, the expanded format for Objective Notation can be written as per below:
 
-status name (start:end:compl:eff) {perf:benef} |link| [ref]
-    status name (start:end:compl:eff) {perf:benef} [ref]
-        status name (start:end:compl:eff) {perf:benef} [ref]
-
-For Routines the Expanded Objective Notation is:
-
+Run Goals and  Sub-Goals:
+% name (period:start:end:eff) {perf:benef} |link| [ref]  
+  
+Change Goals and Sub-Goals:
+$ name (period:start:end:eff) {perf:benef} |link| [ref]  
+  
+Routines:
 & name (period:start:end:eff) {perf:benef} |link| [ref]
-    & name (period:start:end:eff) {perf:benef} [ref]
-        & name (period:start:end:eff) {perf:benef} [ref]
+
+Projects (any of below, depending on status):
+!  name (start:end:compl:eff) {perf:benef} |link| [ref]   
+.  name (start:end:compl:eff) {perf:benef} |link| [ref]   
+/  name (start:end:compl:eff) {perf:benef} |link| [ref]  
+~  name (start:end:compl:eff) {perf:benef} |link| [ref]  
+x  name (start:end:compl:eff) {perf:benef} |link| [ref]   
 
 ### Objective Notation Examples
-& Backup data (weekly) [MGT: Assets ## Backup Weekly]
-. Deliver new control against corruption (20210131)
+& Backup data (weekly) [MGT: 12.Assets ## Backup Weekly]
+. Build control against corruption (20210131)
 / Study Book HHGG (20210331)|learn| 
-x Build software to automatically send email (20190101:20190228:20) {SE} |opt|
 / Prepare diner [x Purchase ingredients && . Make meal]
-~ Pay income tax (20220630) [~ Get employer statement (20220515) && . Lodge income details (20230630) [URL: http://taxwebsite.com]]
+~ Pay tax (20220630) [~ Get details (20220515) && . Lodge details (20230630) [URL: http://taxwebsite.com]]
+x Build software to automate mail sending (20190101:20190228:20) {SE} |opt|
 / Build software to automate mail reading (20220323)
     x Design program [Based on document received]
-    / Develop code
+    / Purchase SDK from Supplier [~ Complete contract w supplier]
+    . Develop code
     . Test code 
     . Deploy software (20230323)
 ~ Wait for approval to do something smart 
-/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for 2 months] && . Read book && . Pass exam (20220515) ] 
+. D: Discuss something with someone else (next time we meet)
+/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for 2 months] && . Read book && . Pass astronomy exam (20220515) ] 
   
-### Objective Notation in Practice 
-Despite the flexibility Objective Notation embeds in practice it is mostly used in simpler structures like so:
-
-status name (start:end:compl:eff) {perf:benef} |link| [ref]
-    status name (start:end:compl:eff) {perf:benef} [ref]
-
-and even that is often shortened to:
-
-status name (end) {benef} [ref]
-    status name (end) {benef} [ref]
-
-The reason is that for more complex structures, notably Projects in a Roadmap, other tools lend themselves better e.g., MSS see also [## MSS].
-
 ### Objective Notation Weaknesses 
 There are some weaknesses in Objective Notation:
 - Objectives consume Assets and/or Suppliers which are not reflected in the Objective Notation Format and can only be detailed through the Reference Indicator. 
-- The Objective Notation is very versatile and allows for intricate details (see last example). There is a real risk that entries become very long.
+- Objective Notation is very versatile and allows for intricate details (see last example above). There is a risk that entries become too long to be practical.
+  
+### Objective Notation and Eisenhower Matrix
+Tying the five status indicators of Projects to the Eisenhower Matrix principles (see [## Eisenhower Matrix]), yields:
 
-### Objective Notation Uses
-Objective Notation is used in various places:
-- MSS columns Tasks, see [## MSS]
-- MSS columns Notes, see [## MSS]
-- BuJo, see [## BuJo]
+urgent + important                -> do now    ->  !
+not urgent + important         -> do later   ->  / and .
+urgent + not important         -> delegate ->  ~
+not urgent + not important  -> delete      ->  x 
+
+The latter one reflects an Objective that would be created *and* completed, or, because a Project has finished, it is neither urgent nor important anymore. 
+
+From a managerial perspective this means only Projects of the following type are performed by the Manager himself: "!", "/" and "." Other projects are delegated "~" or deleted "x".
+
+So what if a Manager would need to do something himself, but them requires some input from someone else. One way to achieve that is as follows:
+/ Do some task [~ Get input {someone}]
 ________________________________________
 ## Tasks Definition (Procedure)
 Tasks can be used to add granularity to Objectives, Streams, Subs, Actions and Drills. Tasks can *also* be used to more generally indicate *work to be done*, without them being linked to Objectives.
@@ -1603,7 +1610,7 @@ The Executive Summary should contain:
 2. Explanation of Run Goals including Routines with a reasonable level of detail. 
 2. Description of the Change Goals and, specifically, how the Role contributes to them.
 
-The above should be done in such a manner that even if the  Executive Summary is read in isolation it it still clear what the JD is about. 
+The above should be done in such a manner that even if the Executive Summary is read in isolation it it still clear what the JD is about. The Executive Summary of a JD is often what is referred to within exchanges between HR and a Manager when hiring new Staff. 
 
 ### Definitions
 This contains definitions of words that are relevant to this note. This section is optional, but a recommended part of the definition includes an explanation of the concept of Profile.
@@ -1624,7 +1631,7 @@ The Activity Description should cover the following items from the Profile and t
 - Environment: in which the Activity operates. Note that the Activity does not necessarily have exposure to the Environment of the entire Venture, which is why Environment is discussed specifically on Activity level.  
 - Clients: represents the *Who* the Activity provides the Services. Like for the Environment, not all Clients of the Activity are the Clients of the Venture. It might be the Activity performs Services to other Activities (making those Clients) within the Entity i.e. a supporting Activity (see below) instead of Clients of the Venture. 
 - Services: represents the *What* the Activity delivers and also how they contribute to the Venture or to other Activities within the Venture if it is a supporting Activity (in which case details of those Activities should be provided).
-- Activity: notably the mention of sub-Activities, if they exist. It is here also that other Activities can be mentioned if the Activity is providing Services to other Activities. If there are no sub-Acticivities nor other Activities to describe, then this section is very slim.
+- Activity: notably the mention of sub-Activities, if they exist. It is here also that other Activities can be mentioned if the Activity is providing Services to other Activities. If there are no sub-Activities nor other Activities to describe, then this section is very slim.
 - Group: represents *Who* performs the Activity and should notably reflect the organisation of Staff within the Group.
 - Staff: the Staff making up the Group, optional and should be excluded for external JDs
 - Assets: part of the *How*. The setup used within the Activity. Without going into details, the key ones, or the key types, can be enumerated. 
@@ -1651,13 +1658,49 @@ Additional details can include specific constraints like working hours, travel r
 Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above. Either the Role does all of them, or only a sub-set. This section should just refer to the applicable Objectives. Note that it is possible to detail Authority here instead of under Roles.
  
 ### Skills, Knowledge & Experience 
-Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge refers to what is requiee in understanding the topics involved in the Responsibility. 
+Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge refers to what is required in understanding the topics involved in the Responsibility. 
 Skills and Knowledge can often be 'proven' from similar Roles and Responsibilities which is referred to as Experience. Experience gives more weight to the relevance of Skills and Knowledge.
   
 Skills use the key-words "How to ...". Knowledge uses the key-words "Understanding of ..." or "Knowledge of ... ". Experience is expressed as "Similar roles for X years in Y type of company".
 
 ### How To Use
 The above information can be used in various manners, but in most cases it will form the basis of a written document. This depends mostly on the type of role and how that role positions itself within the Activity, and how the Activity positions itself within the Venture.
+
+### Example for a COO role
+Below example is an Executive Summary of a JD where each new level builds on previous levels. 
+
+Venture Description
+The Venture is a leading producer of ... etc. There are two main functions in the organisation: the business functions, which produce directly or directly ... and the support functions which assure continuity of the production line including the supply of raw material and the distribution of end products .... 
+
+Roles and Responsibilities 
+The COO is an important role within the Division. The COO oversees the day-to-day of the Division and together with the CEO drives the strategy of the Division. The COO Reports into the CEO. Managers of both production and support functions report in to the COO. 
+
+Knowledge and Skills 
+The role of a COO is demanding in that the scope it covers is broad  and requires specific Knowledge and Skills as follows:
+
+1. Business knowledge relative to the Venture's business model and the sector(s) it operates in including the Clients it produces for and Competitors it competes against.
+2. Knowledge of Laws, Rules & Regulations (external constraints on how 1 can be performed)
+3. Knowledge of Internal Policies (internal constraints on how 1 is performed, often driven by 2)
+4. Knowledge of the Venture specific Processes (the Venture's implementation of 1 under the constraints of 2-3)
+5. Knowledge of the organisation of the Venture's Staff (responsible for the execution of the Processes of 4).
+6. Knowledge of Assets (the implementation and use of Assets in the performance of 4)
+7. Knowledge of the Suppliers (providing Services and/or Assets in the performance of 4)
+8. Skills relative to Run i.e. Routines in the scope of the Role (capacity to perform Routines specific to the Role such as to oversee and maintain 1-7)
+9. Project Management skills (general skills to initiate, and manage Projects to improve on 1-7).
+10. Management skills, to drive 1-9, which include, but are not limited to:
+- Communication: ability to convey and share ideas effectively to a wide range of stakeholders
+- Flexibility: ability to accept new challenges calmly and without restraint
+- Leadership: ability to help oversee Activities, guide initiatives and steer Staff toward the achievement of Goals through Leading
+- Motivation: ability to keep going even in the face of setbacks
+- Multitasking: ability to manage different Objectives efficiently by prioritising them 
+- Problem Solving: ability to analyse a problem efficiently to create a solution, including breaking up larger problems in smaller ones
+- Teamwork: ability to cooperate with others and build relationships
+- Time Management: ability to plan different tasks and track them such that they complete at the expected time 
+- Self-learner: ability to teach oneself new topics by finding and using relevant sources of information adequate for that topic
+- Self-critical: ability to question oneself to improve the quality of one's output and to increase one's understanding of relevant topics 
+- Self-starter: ability to see tasks requiring to be done and start working on them without being asked by someone else to do so
+- Analytical: ability to collect, process and transform Data (records of fact) into  Information (interpretation of facts) relevant to a topic 
+- Strategical: ability to identify potential and actual Opportunities that grow Revenue and/or reduce Cost and/or reduce Risk under the constraints of potential and actual Threats given the actual Strengths and Weaknesses of the Venture.
 ________________________________________
 ## RACI (framework)
 Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
@@ -2602,11 +2645,11 @@ Data Set
 A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a single set of records showing both Revenues and Cost is a single Data Set.
 
 Time-Bound & Instance-Bound 
-Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g. geography, temperature zone, department within an organisation, departments within geographies, etc. 
+Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g., geography, temperature zone, department within an organisation, departments within geographies, etc. 
 
 Variable 
 A fact is often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
-If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country (which indeed can change over time).
+If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country for a given year (which indeed can change over time).
 
 Data Representation
 Facts can be represented in different manners:
@@ -3212,21 +3255,23 @@ A Skill Review does not follow a rigid Process. However, there is a framework fa
 Skills can be grouped in various categories. There is no accepted consensus for the best type of grouping. This framework uses a binary grouping.
 
 #### Soft Skills
-These are subjective skills that are hard to quantify. They are also known as *people skills* or *interpersonal skills*. They include:
-- Communication: ability to convey and share ideas effectively
+These are subjective Skills that are hard to quantify. They are also known as *people skills* or *interpersonal skills*. Soft-skills are often developed over a longer time, sometimes from a very young age. Soft Skills are some of the most important skills underpinning good Management. Many of below soft skills have dependencies on each other:   
+- Communication: ability to convey and share ideas effectively to a wide range of stakeholders
 - Flexibility: ability to accept new challenges calmly and without restraint
 - Leadership: ability to help oversee Activities, guide initiatives and steer Staff toward the achievement of Goals through Leading
 - Motivation: ability to keep going even in the face of setbacks
-- Multitasking: ability to manage different tasks efficiently by prioritising them across short cycles 
-- Problem Solving: ability to analyse a problem to create a solution, including breaking up problems in smaller ones
+- Multitasking: ability to manage different Objectives efficiently by prioritising them 
+- Problem Solving: ability to analyse a problem efficiently to create a solution, including breaking up larger problems in smaller ones
 - Teamwork: ability to cooperate with others and build relationships
-- Time Management: ability to plan different tasks such that they complete at the expected time 
-- Self-learner: ability to teach one-self specific topics by finding and using different sources of information that are adequate for the topic at hand
-- Self-critical: ability to question oneself to improve the quality of output and to increase understanding of topics 
-- Self-starter: ability to see the required tasks to be done and start working on them
+- Time Management: ability to plan different tasks and track them such that they complete at the expected time 
+- Self-learner: ability to teach oneself new topics by finding and using relevant sources of information adequate for that topic
+- Self-critical: ability to question oneself to improve the quality of one's output and to increase one's understanding of relevant topics 
+- Self-starter: ability to see tasks requiring to be done and start working on them without being asked by someone else to do so
+- Analytical: ability to collect, process and transform Data (records of fact) into Information (interpretation of facts) relevant to a topic 
+- Strategical: ability to identify potential and actual Opportunities that grow Revenue and/or reduce Cost and/or reduce Risk under the constraints of potential and actual Threats given actual or perceived Strengths and Weaknesses of the Venture. 
 
 #### Hard Skills
-Hard Skills are teachable abilities that are easy to quantify. They are taught and acquired through books, classroom sessions, internet, but also on the job. Hard skills can be recognised through diplomas and certificates. They include:
+Hard Skills are teachable abilities that are easy to quantify. They are taught and acquired through books, classroom sessions, internet, but also on the job. Hard Skills are often but not always knowledge based. Hard skills can be recognised through diplomas and certificates. They include:
 - Foreign Languages
 - Programming Languages
 - IT Systems 
@@ -3238,7 +3283,7 @@ Hard Skills are teachable abilities that are easy to quantify. They are taught a
 - Marketing
 - Use of Venture specific Assets
 - Use of Venture specific Processes
-- Etc is
+- Etc
 
 ### Skill Rating
 Skill can be rated using a quantitative scale based on a qualitative assessment of knowledge and/or experience. The qualitative assessment looks at the *amount of work that can that be done* without referring to a *Specialist* be that within the Venture or outside i.e. books, websites. etc. The Skill Rating is very similar to the Performance Rating (see below). 
@@ -3610,10 +3655,10 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated [## Objective Notation],  [## Task Notation] with addition of Task Notation *within* the Reference Indicator including multiple Tasks using '&&'.
 
 ### 20230923
-- Updated [## Operating Model] to reflect the Naming Convention of Operating MOdel notes. 
+- Updated [## Operating Model] to reflect the Naming Convention of Operating Model notes. 
 
 ### 20230924
-- Renumbered MGT: 99.Tools to MGT: 80.Tools and aplied throughout all notes
+- Renumbered MGT: 99.Tools to MGT: 80.Tools and applied throughout all notes
 
 ### 20230930
 - Updated [# MANAGEMENT] in line with [MGT: 99.Legend]
@@ -3638,8 +3683,12 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated  [## Performance Review] with some new criteria under the Performance Categories.
 
 ### 20241109
+- Added [# DISCLAIMER]
 - Updated [## Eisenhower Matrix] with more details
 - Added [## Articles of Association] and [## Memorandum of Association]
+
+### 20250105
+- Corrected small typos
 
 ### Planned
 
