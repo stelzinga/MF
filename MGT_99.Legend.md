@@ -377,7 +377,7 @@ Notes:
 ¹⁾ Non-profit Ventures (charities) obtain Income through donations. Managements's target is thus to assure these donations grow.   
 ²⁾ Although Environment is at the top of the Profile Tree, it impacts *the entire Venture*.   
 ³⁾ Services and Products often embed Risk e.g., financial products, machinery, drugs, etc. The pro-active management of this Risk is part of Operations.  
-⁴⁾ Assets on the Balance Sheet are a sub-set of Assets in Operations, e.g., a *procedure* is an Asset in Operations but not in the Balance Sheet.
+⁴⁾ Assets on the Balance Sheet are a sub-set of Assets in Operations, e.g., a *procedure* is an Asset in Operations but not in the Balance Sheet.  
 ⁵⁾ Business Functions are effectively Activities. However, in the corporate world they are often defined separately and for the sake of clarity it is done here too. 
 
 ### Tools
