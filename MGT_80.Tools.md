@@ -8,6 +8,7 @@ General
 - Introduction
 - License
 - Disclaimer
+- Notes
 - Information
 
 Management Functions 
@@ -80,40 +81,251 @@ The license is applicable to all sections in this note.
 
 
 *********************************************
-# DISCLAIMER
+# NOTES
+Notes are any form of document capturing data for any topic or series of topics. The Management Framework is maintained within notes, and the conventions used have been formalised in this section. Understanding this section helps to better understand all other parts of the Management Framework but it is not a prerequisite as ultimately the conventions used are intuitive.
 ________________________________________
-## Gender
-This note assumes Manager is male. Not so much because Managers are, or should be, Male. It is more to keep language concise. Instead of constantly writing him/her, he/she, only the former version is used. 
+## Note Name Format
+Notes have names that they can be referred by. There are many manners to name name notes. The one used here in the Management Framework is the following:
+
+CAT: Des
+
+in which:  
+CAT Note Category, all caps  
+Des  Note Description  
+
+Note that the colon is followed by a single space. Details of these items are found in the sections below.
+
+Examples: MGT: 99.Legend, PRD: Workout
+
+This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowed, in which case it should be replaced with a '_'. 
 ________________________________________
-## Non-Managers
-This note assumes that the the principles applicable to a Manager, are effectively applicable to any Staff in a Venture, although Manager level employees, may have more often an opportunity to apply the Tools mentioned in this note. 
+## Note Category
+In the Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Profile Overview]. This means that Goals should be shortened to three character codes. 
+The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). Obviously, the reader can choose any length, but this MF uses three. 
 ________________________________________
-## Reliability of Content
-The content of this note is borne from two aspects: experience and/or research. 
-Not all Tools discussed have had the merit of a well rounded experience or application of the theory. Which Tool has or has not had that exposure is not explicitly mentioned.
-
-
-*********************************************
-# INFORMATION
-There are various sources of information for Tools.
+## Note Description
+The Note Description explains the *purpose* of the note. Ideally, it should be one word. If it is only possible to explain the purpose with several words then use '-' *hyphen* or '_' *underscore* to link them into one. In other words, there should not be any white space (space, tab).
 ________________________________________
-## Books
+## Note Content
 
-### General Management 
-<https://vtechworks.lib.vt.edu/handle/10919/99283>
-<https://open.lib.umn.edu/principlesmanagement>
+### Sections
+Notes are composed of sections (same as chapters). Sections can be numbered, but don't need to be. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then it is preferable to also have a section N-1, i.e., if there is an L3 in an L1 then there should be an L2.  
 
-These books are referred to as "Fundamentals of Business" and "Principles of Management".
+### Markdown
+Text in the MF is written using *Markdown*.  Markdown is a protocol to write text in a manner that when displayed in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc. Many websites nowadays support Markdown pages. For example, this text is available in the public domain in Git and will display in Markdown when visiting the website.
+   
+Markdown has two forms:
+- Standard Markdown
+- Extended Markdown
+  
+Both forms use the *.md file extension and are discussed below, including conventions used within the MF.
+  
+### Standard Markdown
+Standard Markdown is the most used form of Markdown and is sufficient for most purposes.
+  
+#### Escape Character
+In below examples, the Markdown protocol is used. If that would be used in a Markdown editor it will show the Markdown output, instead of how that output is achieved by writing in 'plain text'. For those cases, the plain text version is shown in addition to the desired Markdown version, by using the escape character '\'. See examples under [#### Formatting] and the sections thereafter. 
+  
+#### New Line
+To achieve a new line in Markdown, type two spaces and a carrier return. 
+To achieve an empty line do a carrier return + 2x white space + carrier return.  
+  
+#### Horizontal Lines
+To create horizontal lines use either 3x '*' or 3x '-' or 3x '_'. Use these to create H1, H2 level separators (see below) as follows: 
+- H1 Separator = 45x '*' preceded by 2x newline
+- H2 Separator = 40x '_'  preceded by 0x newline
 
-### Leadership
-- The Fearless Organisation: Creating Psychological Safety (2018, Amy C. Edmondson)
-This book is available as Amazon Kindle Book and referred to as "The Fearless Organisation".
+The above yields in plain text clear separators whilst also following Markdown protocol.
 
-### Finance
-- Corporate Finance (2014, Pierre Vernimmen et Al)
+For large blocks of text use 2x H1 separator above and below the block, and use capital letters for the block name. This is useful in very long notes.
 
-### Committees
-- Robert’s Rules of Order Newly Revised (RONR) 12th Edition released September 2020 supersedes all earlier editions as the parliamentary authority in organizations that have adopted Robert’s Rules of Order in their bylaws (or Robert's Rules for Dummies).   
+#### Header Labels
+Header labels are created with one or more '#'. Use these to create H1, H2 level captions:
+- H1: # ALL CAPS 
+- H2: ## First Letters Of Each Word Capitalised 
+- H3: ### First Letters Of Each Word Capitalised
+- H4: #### First Letters Of Each Word Capitalised
+- H5: ##### First Letters Of Each Word Capitalised
+- H6: ###### First Letters Of Each Word Capitalised
+
+Headers L1 and L2 are preceded by header separators (see above). Header L3-6 are all preceded by one newline (2x space + carrier return). If the subject of a L2-L6 header is an acronym then all caps are permitted e.g., SWOT.
+  
+Once in a Markdown compatible viewer, the '#'s will not be visible, and it is the formatting (font size, bold) that determines the level of Header. This is also one of the reasons why L1 and L2 are preceded by '******' and '_____' respectively. 
+Another consequence is that references to other sections (see below) are valid, but not always clear e.g., the reference [### Some Section] would show up in Markdown Editor like that, but the section it refers to would show up with the same name in the format of H3 mentioned above i.e., bolder format and larger font size but *without* the "###".
+
+#### Formatting
+Text formatting is as follows (note no spaces between the special character and the start and end of words between the special characters):
+- *italic text* or  _italic text_  (plain: \*italic text\* OR \_italic text\_)
+-  **bold text** or  __bold text__ (plain: \*\*bold text\*\* OR \_\_bold text\_
+\_).
+-  ***bold italic text***, (plain: \*\*\* bold italic text \*\*\*) 
+ 
+#### Lists
+For unordered lists use '-', '+' or '*' after a newline.
+Below follow three times the same bulleted lists, using respectively the three list bullets mentioned above. In all three cases the plain text shows different list characters, but in Markdown, it shows three times the same bulleted list!
+
+- bullet list item 1
+- bullet list item 2   
+    - Add 4x <space> to indent bullet item 2.1 
+    - Add 4x <space> to indent bullet item 2.2
+- bullet list item 3  
+
+* bullet list item 1
+* bullet list item 2   
+    * Add 4x <space> to indent bullet item 2.1 
+    * Add 4x <space> to indent bullet item 2.2
+* bullet list item 3  
+
++ bullet list item 1   
++ bullet list item 2   
+    + Add 4x <space> to indent bullet item 2.1 
+    + Add 4x <space> to indent bullet item 2.2
++ bullet list item 3
+
+For ordered lists use 1., 2. etc.
+1. Numbered list item 1
+2. Numbered list item 2
+    - Add 4x <space> to indent bullet item 2.1
+    - Add 4x <space> to indent bulleted item 2.2
+3. Numbered list item 3  
+
+NB : some Markdown converters support '1)' i/o '1.' but not all do, so stick to using the dot e.g., '1.' 
+'A.' or 'i.' do not always work as numbered items. 
+
+#### URLs
+For Internet URL's use:  
+- [A name](http://www.google.com)  (plain: \[A name\]\(http://www.google.com\)  
+- <https://www.google.com>  (plain: \<https://www.google.com\>)  
+
+The latter version uses the URL as the link name. The former shows the link name as 'Name'. Certain websites, like Github,  will detect that an URL is an URL and display it as such regardless of having used markdown protocol.
+
+#### Images
+Insert images: ![image name](/file/path/image.jpg)  (plain: \!\[image name\]\(/file/path/image.jpg\)
+
+### Extended Markdown
+Extended Markdown supports fenced code blocks.
+This allows writing chunks of code without needing to use 4x space for each line. To create a fenced code block use 3x ` (back-tick) at start and end of the code block.
+
+### Problems with Markdown
+Markdown translates into HTML. However, in HTML there is one aspect of text rendering that is not very fluent: white space. HTML trims spaces if there are more than one including at the start of a sentence, so the following:
+
+   Some    text.
+
+Will appear in HTML as:
+
+Some text.
+
+Therefore aligning text across sentences using spaces may have unexpected and undesired results.
+One way to circumvent this is to use the Unicode U+2003 "em space" character: " " . Alternatively, one can use the Unicode U+2002 "en space" character which is half the size of the "em space" and has the same size as an actual space character: " ". See also respectively:  
+<https://unicode-table.com/en/2003/>  
+<https://unicode-table.com/en/2002/>
+
+These characters are also in [# SPECIAL SYMBOLS].
+
+### Markdown Reserved Characters
+In Markdown certain characters have special meaning, they should be escaped with the '\' character if the character is meant, not the Markdown version of it:
+\-  : unordered list
+\+ : unordered list
+\* : unordered list
+\** :  bold **bold** 
+\*:   italic *italic*
+\__:    __bold__
+\_ :  _italic_
+\# : start of header
+\( ) : used for links, images requires [ ]
+\{ } : 
+\[ ] : used for links, images, requires ( )
+\! : used for images (if before [...])
+
+Characters that can be freely used at start of a line:
+.
+^
+/
+x
+~ (but special in Excel, so substitute first in formulas)
+%
+$ 
+&
+^
+?
+= (but special in Excel so: avoid)
+@ (but is used in certain websites like Github, so: avoid)
+
+### Word Capitalisation
+Words that start with a capital, like 'Planning' have been defined in this note or in [MGT: 80.Tools].
+
+### Markdown in other Editors
+Some editors, like OneNote, Outlook mail, use some of Markdown features albeit it different: *italic* in Markdown will show *italic* entirely  in bold (and it will keep  the two '*' .
+
+### Triple @
+A special convention in the MF is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text uses a triple @.
+________________________________________
+## Note Reference
+Within notes a Note Reference a.k.a. Reference Indicator or [...] is used to provide more details or to refer to a source of data that holds more details. That source can be anything as long as the type and location of the data are clear. 
+
+A Note Reference starts with a '[' and ends with a ']'. The data in between determines the type referred to as one of the following:
+1. Section or Note
+2. File
+3. URL
+4. Mail
+5. Database
+6. Meeting
+7. Free Text
+8. Reference to academic research
+8. Etc
+
+### Section or Note
+For a Section or Note there are three references:
+[# SEC]                   -> refers to section L1 SEC in same note
+[CAT: Des]             -> refers to a note CAT: Des
+[CAT: Des # SEC] -> refers to a section L1 SEC in note CAT: Des
+
+e.g., [MGT: 99.Legend ## Note Reference] which is this section you are reading.
+
+In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1' 
+
+In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: Planning ..."
+
+### File
+For a file the Note Reference is [File Path], [F: File Path] or [F: File Path] in which File Path is either a full path to a file or directory or a shorter version of such path. File Paths are operating system specific. 
+
+Examples:  
+    $HOME/data_private/mgt/51.finance/       (Linux)
+    $HOME/utils/scripts/ubu2usb.command  (Linux)
+    C:\Users\yourname\mgt\finance\              (Windows)
+    C:\SomeDir\SomeDoc.docx                         (Windows)
+  
+The only requirement for a File Path is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References. Details in [MGT: 80.Tools].
+  
+In certain cases it may be necessary to refer to a page or sheet or chapter within a file. This can be achieved using extra info within the reference relating to the type (page, sheet, chapter), an '=' sign and the value (page nr, sheet name, chapter name etc.)
+
+Examples:  
+    C:\SomeDir\SomeDoc.docx Page = 100  
+    $HOME/data_private/mgt.xlsx Sheet = Planning
+
+### URL
+For a URL, the Note reference is [Weblink] or [URL: Weblink], in which Weblink refers to *anything* that can be accessed through a web browser: classic web pages, sharepoints, PowerBI pages, etc.] i.e., http://something.xyz and without < and > and where 'http' can be any supported service (http, https, ftp, ftps, ssh, ...).
+
+### Mail
+For Mail the Reference format is: [Mail: Subject] or [M: Subject] in which Subject is the Mail's Subject that was sent/received. Alternatively,  [Subject: Subject] can be used.
+
+### Database
+Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data. Reference to a database depends on the type of database e.g., [Oracle: scheme/table_name], [Oracle: table_name], etc.
+
+### Meeting
+Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which Text is the Subject of the Meeting's invite mail. Lo
+
+### Free Text
+The Reference Indicator can also contain free which acts as a clarification, a question one should ask oneself, e.g.,  [Purely some comment without any value].
+
+### Research  
+It is possible to refer to a domain of research specific research articles, etc using a reference as well. There are two ways of doing it. 
+
+The formal academic referencing a.k.a. citation, which looks like this (author name, year) or similar. This is the often used citation in academic articles (journals, thesis etc). Such references follow standard academic protocol, which may slightly differ across discipines [1].
+
+The second style is used above, where the [1] means there is further down in the section more information linked to [1].
+
+[1] University of Pittsburgh, Citation Styles: APA, MLA, Chicago, Turabian, IEEE, https://pitt.libguides.com/citationhelp, viewed Jan 2025.
 ________________________________________
 ## URL
 
@@ -123,13 +335,13 @@ ________________________________________
 
 *********************************************
 # MANAGEMENT
-Management is the term reflecting the organisation of human capital (Staff) such as to perform the Activities with available Resources (Assets, Suppliers) such as to achieve and optimise the Venture's target of high Revenue, low Cost and low Risk 
+Management is the term reflecting the organisation of human capital (Staff, Groups) such as to yield the best Client Services as output of the Venture's Activities with available Assets and Suppliers such as to achieve and optimise the Venture's target of highest possible Revenue at lowest possible Cost and lowest possible Risk under the constraints of Environment and Financing (Equity, Liabilities) of all Resources. 
 ________________________________________
 ## Overview
 This overview shows on the first level the key deliverables as per [MGT: 99.Legend ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same tool can be used for different deliverables:
-- Baseline
-    - PDA
+
 - Management Cycle
+    - PDA
     - Eisenhower Matrix 
     - MSS
     - MTrack
@@ -139,6 +351,7 @@ This overview shows on the first level the key deliverables as per [MGT: 99.Lege
     - Skill Inventory
     - Writing Style 
     - Style Inventory
+    - Study
 - Planning
     - Dedicated Planning note
 - Organising
@@ -148,8 +361,8 @@ This overview shows on the first level the key deliverables as per [MGT: 99.Lege
 - Controlling 
     - Dedicated Controlling note
 ________________________________________
-## PDA
-Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
+## PDA (Software)
+Throughout the Management Cycle, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
 
 - Mail 
 - Calendar
@@ -162,54 +375,54 @@ Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This s
   
 Depending on the apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
 
-- Mail  (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
-- Calendar  (MS Calendar, Google Calendar, Yahoo Calendar, ...)
+- Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
+- Calendar (MS Calendar, Google Calendar, ...)
 - Tasks (MS Tasks, Google Tasks, ...)
-- Notes (MS OneNote, Google Notes, Standard Notes, Evernote, ...) 
+- Notes (MS OneNote, Google Notes, Standard Notes, ...) 
 - Contacts (MS Contacts, Google Contacts, ...)
 - Chat (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
 - Phone incl Video (MS Teams Phone, ...)
 - Browser (MS Edge, Google Chrome, Firefox, ...)
 
-Because they can be used in different manners by different people, this note will not prescribe particular uses. The exception made is for Notes, because they are a fundamental to the implementation of the Management Framework. 
+Because they can be used in different manners by different people, this note will not prescribe particular uses.   
 ________________________________________
 ## Eisenhower Matrix (Framework)
 The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.
-
+  
 ### Important
 Something is important for different reasons, but the following criteria are deemed relevant:
 -Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.) and/or
 - Task relates to a topic that has a lot of attention from senior stakeholders (internal or external) and/or
 - Task completion has a direct impact on Revenues, Cost or Risk.
-
+  
 ### Not Important
 This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself. The following criteria are relevant:
-- Task requires a skillset the Manager does not have (and would thus require delegation anyway)
+- Task requires a skill set the Manager does not have (and would thus require delegation anyway)
 - Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). This typically involves Tasks related to Goal = prd i.e., Tasks related to Maintenance, Enabling and Support.
-
+  
 ### Urgent
 Something is urgent for different reasons. The following criteria are deemed relevant -there is sometimes a link with *Important*-:
 - Not performing the Task soon has a knock on effect on several other Tasks and/or
 - There is a deadline imposed by a senior stakeholder (internal or external)
 - The completion of the task has a direct impact on Revenue, Cost or Risk
-
+  
 ### Not Urgent
 Something is not Urgent if the non-performance of the Task any time soon is not going to make a huge difference. 
-
+  
 ### Decision Quadrants
 The above two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
 1. Urgent + important -> Do Task Now
 2. Important + not urgent -> Do Task Later
 3. Urgent + not important -> Delegate Task to someone
 4. Neither urgent + not important -> Delete Task altogether
-
+  
 The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition]. As can be clearly seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
-
+  
 ### Decision Outcomes
 The use of the Eisenhower Matrix helps scale works. It is important to note here that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
-
+  
 ### Eisenhower Decisions
- Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.
+ Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.  
 ________________________________________
 ## MSS (Software)
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
@@ -479,7 +692,7 @@ The matrix' purpose is to show which Risks exists, which Activity (or Business F
 
 The two dimensions of the matrix are thus: Risk (vertical) and Activity or Business Function (horizontal).
 
-@@@ to b expanded
+@@@ to be expanded
 ________________________________________
 ## Skill Inventory (Framework)
 Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
@@ -525,6 +738,16 @@ ________________________________________
 @@@
 Get back the details from [STD: Management # MANAGEMENT STYLE].
 @@@
+________________________________________
+## Study (Research)
+@@@
+________________________________________
+## MBA (Research)
+The Master of Business Administration is a postgraduate University degree that focuses on Management. There are many Universities and Business Schools that offer such programs. 
+  
+Although a vast multitude of programs exist, sometimes for specific Sectors, the majority of MBA programs contain subject matters that are relevant to running a Venture and may include: background knowledge (Economics, Sociology, ESG) fundamental knowledge of Business Functions (Accounting, Operations, Marketing, Procurement, Human Resources) and academic knowledge of Management (Strategy, Corporate Governance, Management Theory including POLC). 
+  
+In addition of being a well established form of Research, it has the advantage of establishing a baseline level of knowledge, confirmed through a degree. 
 ________________________________________
 ## Dedicated Planning Note (Framework)
 See [MGT: 01.Planning]
@@ -581,6 +804,8 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Planning]. 
     - Task Definition 
     - Task Notation 
     - MSS
+- Benchmark
+    - @@@
 - Strategic Plan
     - @@@
 - Tactical Plan 
@@ -657,7 +882,7 @@ Bylaws are strongly driven by laws applicable within a Venture's country of inco
   
 Bylaws should be easily accessible to anyone within the Venture. Nowadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
 ________________________________________
-##Memorandum of Association (Definition)
+## Memorandum of Association (Definition)
 The Memorandum of Association (MoA) is a legal deed that builds foundation of a company, and outlines its Goals and scope of Activities and limitations of the Venture. It also maps out the relationship it has with Stakeholders including Investors, Creditors and Directors. The MoA is used to define the Articles of Association (see below). 
 
 Key aspects of a MoA are:
@@ -719,7 +944,7 @@ Each item in the SWOT should answer specific questions:
 - Is changing technology making providing existing Services difficult?
 - Are there economic issues or changes in your industry?
 
-There are various Tools that futher help in a SWOT analysis:
+There are various Tools that further help in a SWOT analysis:
 - Value Chain, see [## Value Chain]
 - VRIO, see [## VRIO]
 - Pestel, see [## Pestel]
@@ -802,7 +1027,7 @@ These Standard Change Goals are applicable to any Venture. Obviously, the focus 
 
 ### Sub-Goals 
 Sub-Goals regroup Objectives of a similar *theme*. This is mostly done to focus on a specific set of Objectives. 
-Using such Sub-Goals is optional. If Sub-Goals are used they expand the Change Goal hierarchy discussed in [## RPT] to:
+Using such Sub-Goals is optional. If Sub-Goals are one can obtain the following hierarchy:
 
     Change Goal                 
         Change Sub Goal 
@@ -810,16 +1035,14 @@ Using such Sub-Goals is optional. If Sub-Goals are used they expand the Change G
                 Stream
                     Action
                         Process 
-                            Activity (Group) ⇔ Staff  -> Cost, Risk  
+                            Activity (Group) ⇔ Staff  -> Revenue, Cost, Risk  
                                 Asset          -> Cost, Risk
                                 Supplier     -> Cost, Risk 
                                 Liabilities   -> Cost, Risk
                                 Equity         -> Cost, Risk
-
-The notion of Change Sub-Goals is explicitly used in [## Roadmap].
-
+  
 Run Sub-Goals have several standard values for each Run Goals as per below:
-
+  
 ### Quantification of Goals
 Goals can be quantified in different manners. The above Goals have not been quantified yet (they are generic).
 
@@ -830,9 +1053,9 @@ Run Goals are composed of Routines, see below. Quantification of Routines can be
 - Count nr of Routines
 - Count nr of Processes within Routines
 - Count Effort spent on Process(es)
-- Count nr of Results e.g. nr of Controls closed per year, nr of documents produced, etc.
+- Count nr of Results e.g., nr of documents produced, etc.
 - A combination of the above by Routine or across all Routines and within or across all Run Goals
-
+  
 Change Goals are composed of Projects, see below. Projects change the Run by improving it or extending the output of Run (adding Routines etc). Quantification of Projects can be as follows:
 - Extra Revenues generated
 - Extra Cost generated or avoided
@@ -849,7 +1072,7 @@ Objective Definition is about the differentiation between what constitutes a Rou
 To be specific:
 - Routines: linked to Run Goals i.e., focus is on generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
 - Projects: focus is on Change Goals i.e., the improvement of the Run.
-  
+   
 There are cases where work is being asked to be performed which is neither specifically Run and also not a Project. In that case the Manager has two options to record that work:
 - Run Goal = ovh -> Run Sub-Goal = one-off
 - Change Goal = oth
@@ -879,7 +1102,7 @@ In addition to these properties, SMART principles apply, see [## SMART]. The 6W 
 
 ### How Specifics for Objectives
 The *How* is more detailed which can be free text, reference to documents etc., see [## Objective Notation] on how this achieved. 
-
+  
 ### Who Specifics for Objectives
 There is a difference between *Who* owns the Processes within the Objectives (*owner*) versus *Who* receives the benefit of the Objectives (*beneficiary*). When *who* is referred to the former is often meant. The difference is clarified in [## Objective Notation].  
  
@@ -917,7 +1140,7 @@ The order of components is critical:
 The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierachy]. Only Status and Name are mandatory. 
 
 ###  Objective Notation Status Indicator
-Status is mandatory and uses symbols:
+Status is mandatory and uses symbols:  
 %                 Run Goal, Run Sub-Goal (percentage)
 $                  Change Goal, Change Sub-Goal (dollar)
 &                  Routine (ampersand)
@@ -936,13 +1159,13 @@ NB: the '~' in Excel is a special character (escape char). To use '~' in functio
 The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
 
 ### Objective Notation Name 
-The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name has three requirements:
-1. Must start with a *verb*
-2. Contains a *measurable* expected *Result*
+The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name should adhere to four requirements:  
+1. Start with a *verb*
+2. Contain a *measurable* expected *Result*
 3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
 4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, /slashes\, **bold**, Stop!, Say: "This shall be done!", etc  
 
-Note that *if* for aesthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is permitted e.g., 01.Planning, 02.Organising, ... 
+Note that *if* for aesthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is possible e.g., 01.Planning, 02.Organising, ... 
 
 Verbs are an indication of *targeted Result*, see [## SMART]:
 - Assess: obtain a result and compare against expectations 
@@ -976,27 +1199,29 @@ Verbs are an indication of *targeted Result*, see [## SMART]:
 - Review: a Result vs Target + determine if change needed 
 - Rewrite: an existing document
 
-Short versions of Verbs are possible as follows:
+Short versions of Verbs are possible e.g.:  
 - "D: " refers to "Discuss"
 - "P: " refers to "Plan" 
 
-The short versions can serve visually as a reminder to do something.
+The short versions serve visually as a reminder to do something.
 
 Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Although such indicators for periodicity are also reflected in the Date Indicator (see below, it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
 
-The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is highly recommended, nothing stops someone from using names like:
+The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is strongly recommended, nothing stops someone from using names like:
 . Main Project: do something
 / WARNING: this to be done before all others
 etc 
 
 ### Objective Notation Date Indicator
-The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines. A formal format is:
+The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines:
 - Projects:  (start:end:complete:effort)
 - Routines: (period:start:end:effort)
 
-The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd i.e., year, month and day digits. The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date. The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. In most cases when start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used.
+The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits with hhmmss being optional.   
+The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date.   
+The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used.
 
-As with the Name indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
+As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
 
 ### Objective Notation Owner Indicator
 The owner of an Objective represents the *performer*, i.e., the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e., the Activity for, or in, which the Objective is performed. By default, performer equals beneficiary, but this is not always the case: an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:  
@@ -1005,9 +1230,9 @@ The owner of an Objective represents the *performer*, i.e., the Staff or Group r
   
 In which: 
 - performer is a Staff or a Group. 
-- beneficiary is an Activity or the Venture. 
+- beneficiary is an Activity or the entire Venture. 
   
-If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
+If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ (delegated Project) and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
   
 Owner Indicator is optional in which case it can be written as {} or omitted altogether.
   
@@ -1026,7 +1251,7 @@ The link indicator is considered text even if stated as a number e.g.,'1', '1.1'
 Link Indicator is optional in which case it can be written as || or omitted altogether.
 
 ### Objective Notation Reference Indicator
-The Reference Indicator contains free text or refers to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference]. In other words, Reference Indicator is:
+The Reference Indicator 'refers' to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference] *or* contains free text. In other words, Reference Indicator is:
 1. Free text or
 2. Reference to a Section or Note or
 3. Reference to a File or
@@ -1035,7 +1260,7 @@ The Reference Indicator contains free text or refers to a separate location with
 ...
 etc.
   
-Free text can be used to provide comments, but can also be used to show the next Tasks, using Task Notation *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
+Free text can be used to provide comments, but can also be used to show the next Task, using Task Notation *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
   
 Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
   
@@ -1066,17 +1291,17 @@ This format is useful to visually show the relation between Goals, Sub-Goals, Pr
 
 ### Objective Notation Expanded Format
 With above details of the various Indicators, the expanded format for Objective Notation can be written as per below:
-
-Run Goals and  Sub-Goals:
+  
+Run Goals and  Sub-Goals:  
 % name (period:start:end:eff) {perf:benef} |link| [ref]  
   
-Change Goals and Sub-Goals:
+Change Goals and Sub-Goals:  
 $ name (period:start:end:eff) {perf:benef} |link| [ref]  
   
 Routines:
 & name (period:start:end:eff) {perf:benef} |link| [ref]
-
-Projects (any of below, depending on status):
+  
+Projects (any of below, depending on status):  
 !  name (start:end:compl:eff) {perf:benef} |link| [ref]   
 .  name (start:end:compl:eff) {perf:benef} |link| [ref]   
 /  name (start:end:compl:eff) {perf:benef} |link| [ref]  
@@ -1166,95 +1391,93 @@ Time is driven by availability of Resources and constrained by internal / extern
 
 ### Project Phases
 The Project Management Institute defines five phases of Project Management:
-
-#### 1. Conception & Initiation
-Broad definition of the Project often driven by a Business Case, in turn driven by one of the Change Goals discussed above, which is driven ultimately by a Beneficiary. 
-Deliverables:
+  
+1. Conception & Initiation
+Broad definition of the Project, often driven by a Business Case, in turn driven by one of the Change Goals discussed above, which is driven ultimately by a Beneficiary.  Deliverables:
 - Key Stakeholders: Staff and Suppliers likely involved in executing the different Tasks of the Project and Sponsors (beneficiary of the Project)
 - Business Case: why the expected Results are desired.
 - Goal: clear description of expected Results.
- 
-#### 2. Definition & Planning 
+   
+2. Definition & Planning 
 Establish specific Project Objectives according to SMART principles, see [## SMART]. Deliverables:
 - Scope Statement
 - Gantt Chart with Project, underlying *Streams* (the completion of which being called a *Milestone*) and *Actions* with Start/End/Complete, Owner, and Status. See also [MGT: 99.Legend ### Projects] for breakdown of Projects. 
 - Risk Management: details of Risks that could materialise and how to mitigate these
 - Communication Plan: manner in which above two items will be reported on over the timeline of the Project including whether Risks have materialised.
 - Definition of KPI, see [##KPI] to be able to perform step 4. 
- 
-#### 3. Execution
+   
+3. Execution
 This is actual work done on the Project by the Stakeholders, i.e. execution of the Streams and Actions.
-
-#### 4. Performance & Control
+  
+4. Performance & Control
 A PM monitors and tracks progress of phase 3. through [MSS: M5] which helps execute the above.
 
-#### 5. Project Close
-The last phase of a Project is the closure. The prupose is to formally halt the controibution of resources to the Project, and validate that the deliverables have been acehived (fully or partially). The closure of a Project also aids in learning from the successes and mistakes of the Project. This in turn will enhance the next Project the PM and the members of the Project will work on. 
+5. Project Close
+The last phase of a Project is the closure. The purpose is to formally halt the contribution of resources to the Project, and validate that the deliverables have been achieved (fully or partially). The closure of a Project also aids in learning from the successes and mistakes of the Project. This in turn will enhance the next Project the PM and the members of the Project will work on. 
 
 ### Project Hierarchy
 As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used in this note, but it is perfectly possible to have variations:
  - Project
     - Stream
         - Action
-
+  
 ### Project Priority
 Inevitably, Projects often have a certain level of priority attached to it. One way of managing this is through a notion of *Project Priority* with the following values (in brackets the MSS values): Critical (0-Crit), High (1- High), Medium (2-Med) and Low (3-Low). By keeping the number of priorities low, it remains manageable. Often they are color coded: Red, Amber, Yellow, Green or Black, Red, Amber, Yellow.  Project Priority is determined by the beneficiary of the Project. However, and particularly if the Project Manager has many Projects to manage, the tendency will be for each Beneficiary to say their Project is the most important and should thus have the highest Priority. This is where the Priority Guidelines come in!
 
 ### Priority Guidelines 
 The main idea is to delimit the criteria for a Project (and Stream, Action) to appear under a priority. The result of below approach, is that at the *start* of the Roadmap, see [## Roadmap] Projects should be having priority High or Low and that during the year some Projects can appear in Critical, and Medium. The duration of a Roadmap is deemed a year, but have a longer or shorter cycle. Similar guidelines apply to Streams and Tasks within the Project if they have been defined. 
-
+  
 Note that above approach depends on how Resources are managed. It is possible that a Venture keeps some slack in their Project assignments to be able to cope with new Projects arriving during the year. The availability or not of such Resources will mostly change in priority Medium.
-
-#### 0-Crit
+    
+0-Crit
 Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture (Goal = sec) and Protect the Venture (Goal = pro). The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned. 
-There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the nr of Projects with this priotiry should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term. 
+There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the number of Projects with this priority should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term. 
 In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g. Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently. 
-Note that in MSS items of PlanningType = Venture, or Chg Goal are flagged Critical as well. This asures that they are always picked up on when doing filtering on priority).
-
-#### 1-High
+Note that in MSS items of Planning Type = Venture, or Chg Goal are flagged Critical as well. This assures that they are always picked up on when doing filtering on priority).
+  
+1-High
 This priority should be given to those Projects planned for this years' Roadmap. This priority can also be given to Projects that appear during the year, and that if they would have been known about at the start of the Roadmap, they would have been in the Roadmap. This may, however, mean that other Priority 1-High Projects need to be reclassified! Declassifying existing Projects' priority depends on a) whether existing High Projects were completed before their deadline and b) Resources, which may have increased. 
-
-#### 2-Med
-This criticality is used for any Project that is not Critical or High but that ideally should be done during the year nevertheless. The real purpose of this criticality is to keep track of existing Projects without working on them. This helps keeping track of need for Resources and such Projects may be used as input for the Roadmap the year after. Note that if a Venture uses a planning approach where Resources are not fully allocated to Projects for the Roadmap, then this priority represents those Projects that can be worked on *in addition* to the Roadmap. Thus, Projects with this priority are worked on if there is some slack in the Planning *by design*!  
-
-#### 3-Low
-Anything that will not be done this year but the year after i.e. it is known at the start of the year that this will not be worked on!  This priority acts as a placeholder. Note that any residual Project not finished from above three cases will likely also move to next year but unless they are de-prioritised they will have a 1-High Priority at the start of the year. 
-It is very well possible that all Priority Low projects are flagged under Goal = tmp to clear out the Projects that  are not being worked on.  
-
-#### 4-non
+  
+2-Med
+This criticality is used for any Project that is not Critical or High but that ideally should be done during the year nevertheless. The real purpose of this criticality is to keep track of existing Projects without prioritising work on them. This helps keeping track of need for Resources and such Projects may be used as input for the Roadmap the year after. Note that if a Venture uses a planning approach where Resources are not fully allocated to Projects for the Roadmap, then this priority represents those Projects that can be worked on *in addition* to the Roadmap. Thus, Projects with this priority are worked on if there is some slack in the Planning *by design*!  
+    
+3-Low
+Anything that will not be done this year but the year after i.e., it is known at the start of the year that this will not be worked on! This priority acts as a placeholder. Note that any residual Project not finished from above three cases will likely also move to next year but unless they are de-prioritised they will have a 1-High Priority at the start of the year.  It is very well possible that all Priority Low projects are flagged under Goal = tmp to clear out the Projects that  are not being worked on.  
+  
+4-non
 This Priority is used for anything that is not the above (in MSS it is used for the Run i.e. Run Goals, Routines, Subs and Drills). 
-
-#### 5-tbc
+   
+5-tbc
 This Priority is temporary and means what it says: To Be Confirmed. It is entered as a placeholder for items for which the priority still needs to be defined. 
-
-NB: if the Prioritiy of Projects is never established, or if a Project is deemed not worthy of investing in anymore it should be deleted.
+  
+NB: if the Priority of Projects is never established, or if a Project is deemed not worthy of investing in anymore it should be deleted.
 
 ### Project Urgency
 In addition to the manual priority described above, there is a notion of *urgency* caused by an approaching deadline of the Project (End Time). 
-
+  
 The following gives a good indication of urgency. By using this approach it can be easily programmed in MMS. The approach avoids maintaining an actual level of completion of the Project (not tracked in MSS) and uses only the duration between Today and End time. Similar observations apply to Streams and Actions. 
-
-#### 0-Crit
+   
+0-Crit
 Projects that are overdue:
     Today >    End Date
 
 In MSS this Urgency is also used for Chg Goals.
-
-#### 1-High
+   
+1-High
 Projects within 1 week of the deadline:
     Today < End Date
     Today => End Date - 7
-
-#### 2-Med
+  
+2-Med
 Projects within 1-2 weeks of the deadline: 
     Today <    End Date - 7
     Today => End Date - 14
-
-#### 3-Low
+  
+3-Low
 Projects more than two weeks of the deadline. 
     Today <    End Date - 14
-
-#### 4-non
+  
+4-non
 Projects that are completed. In MSS it is also used for Run Goals, Routines, Subs and Drills.  
 ________________________________________
 ## Gantt Chart (Framework)
@@ -1265,9 +1488,9 @@ ________________________________________
 A Tactical Plan sets out a higher level view of Goals, Sub-Goals and Objectives throughout the year. More info on p. 217 of Principles of Management. In addition to showing progress, a Tactical Plan also shows the ratio of Effort in Run vs Change.
 ________________________________________
 ## Roadmap (Framework)
-A Roadmap is an implemenation of the Tactical plan that is used to communicate with Stakeholders. It is an often referred to term to indicate "key targets to be delivered this year" and these are effectively *Change Goals*.
+A Roadmap is an implementation of the Tactical plan that is used to communicate with Stakeholders. It is an often referred to term to indicate "key targets to be delivered this year" and these are effectively *Change Goals*.
 
-Roadmaps focus on specific *initiatives* which are essentially the Change Sub-Goals, see [## Goal Definition]. These Sub-Goals, given they are considered specific initiatives, faciliate communication with Stakeholders. 
+A Roadmap focuses on specific *initiatives* which are essentially the Change Sub-Goals, see [## Goal Definition]. These Sub-Goals, given they are considered specific initiatives, facilitate communication with Stakeholders. 
 
 For example, Goal = Optimisation, can contain a set of Objectives all aiming to eradicate duplicate processes and as such can be regrouped in Sub-Goal  "Eradicate duplicate effort".  
 
@@ -1284,12 +1507,12 @@ Change Goal abc
 and similar for each Change Goal. 
 ________________________________________
 ## Operating Model Definition (Framework)
-An Operating Model, *Operational Model* or *OM* lays out the various aspects that make up an Activity or Venture across the Profile Tree. This section focuses on Venture but could as easily be used for an Activity within the Venture.
-
-The purpose of this section is to give a clear understanding of the OM through the 6W Framework:
-
-What is it the Venture does (Activities), Why the Venture does it (Revenue generation, Cost and Risk avoidance), How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
-
+An Operating Model, *Operational Model* or *OM* lays out the various aspects that make up a Venture across the Profile Tree. Although this section focuses on a Venture it could as easily be used for an Activity within the Venture.
+  
+The purpose of this section is to give explain the OM through the 6W Framework i.e.:
+  
+What is it the Venture does (Activities), Why the Venture does it (Revenue generation whilst minimising Cost and Risk), How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
+  
 The OM is relevant to a broad range of users: the Manager of the Venture, direct support functions of the Manager like a Chief Operating Officer or Chief of Staff, Suppliers, Business Functions, Clients and other Stakeholders from the Environment like Regulators.
 
 The OM is explained through the Expanded Profile Tree, with a list of aspects to consider for each Item. The list is indicative, i.e., it is possible to omit aspects if deemed relevant. The order in which they appear is also flexible.
@@ -1387,7 +1610,7 @@ If the above is used for the Operating Model of an Activity within the Venture, 
 Once the Operating Model has been completed as a one-off it should be maintained regularly.
 ________________________________________
 ## COM (Framework)
-A Current Operating Model focusses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. 
+A Current Operating Model focuses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. 
 
 The Operating Model is explained above. Below follow alternative implementations.
 
@@ -1417,14 +1640,13 @@ Business Impact Assessment is a method that looks at the key Activities and Rout
 The BIA expresses itself in terms of Services not delivered as a result of the partial lack of the above.
 ________________________________________
 ## TRA (Framework)
-A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. 
-This topic needs further sudy.
+A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. The TRA can then be used combined with the BIA to provide a holistic overview of the various risk scenarios and the impact to the Venture. 
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
-Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Reaserach & Development.  
-
-
+Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Research & Development.  
+  
+  
 *********************************************
 # ORGANISING
 Organising is the second Management Function and is concerned with defining the organisational structure required to execute the Plan. It aims at defining *how is it to be done*.
@@ -1447,17 +1669,10 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Organising]
     - RACI
 ________________________________________
 ## Activities Definition (Procedure)
-Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service. For each Activity define name and subsequent properties at L2 and L3 within [MGT: Organising # ACTIVITIES] as per [MGT: 99.Legend ## Activities] and whilst observing [## RPT]. 
-
-Note that the Group name associated to the Activity is the same as the Activity, see also [## RPT].
-
+Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service. For each Activity define name and subsequent properties at L2 and L3 within [MGT: Organising # ACTIVITIES] as per [MGT: 99.Legend ## Activities] . 
+  
 The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. 
-
 For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: 99.Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition.
-
-Guidelines:
-- Make the structure of Activities *simple*
-- Processes within the Activities can be *complex*
 ________________________________________
 ## Resource Planning
 With the Tactical Plan, see [## Tactical Planning], the target Objectives are identified for 1 year (or more) including when they will be worked on. However, resources are not attributed to those Objectives. The Tactical Plan is most often designed around known Resources. Nevertheless, there are considerations for planning resources.
@@ -1473,10 +1688,10 @@ ________________________________________
 Groups regroup Staff involved in the performance of Processes that are part of an Activity. Often the Group is headed by a Manager, most often of Lower Level Management i.e. operationally very involved. 
 ________________________________________
 ## Organisation Chart (Framework)
-Although the Group Definition is defined by the Ativity Definition, the relation between Activities, is often capture in an Organisation Chart, and not an Activity Chart! In other words, the manner in which Activities relate to eachother is reflected in how Groups related to eachother. 
+Although the Group Definition is defined by the Activity Definition, the relation between Activities, is often capture in an Organisation Chart, and not an Activity Chart! In other words, the manner in which Activities relate to each other is reflected in how Groups related to each other. 
 ________________________________________
 ## Delegating Definition (Framework)
-The defintion of Delegating is as per [MGT: 99.Legend ### Roles & Responsibilities]. This section sets out further details of Delegating.
+The definition of Delegating is as per [MGT: 99.Legend ### Roles & Responsibilities]. This section sets out further details of Delegating.
 
 ### Delegating Conditions
 Legally speaking delegation is possible only if:
@@ -1497,21 +1712,21 @@ Accountability: duty and ability to report on the Result and duty to accept cons
 The key difference between Accountability and Responsibility is that the Responsibility is related to *performing* a Process such that it yields a Result and Accountability is related to *reporting* on that Result. Or in other words Accountability is the *ownership* after a Process has been completed. This ownership includes being able to explain the Result to others (shareholders, managers, regulators, tax office etc). Accountability cannot be delegated, but follows from the fact that Responsibility has been delegated.
 
 ### Accountability without Authority
-It is possible, although not at all desirable, that one is made responsible, and thus accountable, without the appropriate authority, which is referred to as *Accountability without Authority*. This happens, for example in matrix organisations where there are two or more reporting lines across functional and entity level reporting lines. It can also occir in Projects, where the Project Manager may not have authority over resources, but the Sponsor has, see below. 
+It is possible, although not at all desirable, that one is made responsible, and thus accountable, without the appropriate authority, which is referred to as *Accountability without Authority*. This happens, for example in matrix organisations where there are two or more reporting lines across functional and entity level reporting lines. It can also occur in Projects, where the Project Manager may not have authority over resources, but the Sponsor has, see below. 
 
 ### Oversight
-The delegator needs to assure the delegatee completes the delegated Process, because of said accountability of the delegator. This is called *oversight*. Oversight is an integral part of Delegation. Oversight is also the Goal focusing on assuring the Production operates as expected, see [MHT: 99.Legend ## Goals].
+The delegator needs to assure the delegatee completes the delegated Process, because of said accountability of the delegator. This is called *oversight*. Oversight is an integral part of Delegation. Oversight is also the Goal focusing on assuring the Production operates as expected, see [MGT: 99.Legend ## Goals].
 
 ### Sponsorship
 A Sponsor is sometimes used in Project Management. It is a person who is not directly involved in the Project, but who has the right level of Authority w/r to one or more of the three items of the Project Management Triangle i.e. Scope, Cost and/or Time, which often simply means he has authority over part or whole of the resources. This in turn allows the Sponsor to redirect resources to a Project, whereas the Sponsor is him/herself not responsible for the successful delivery of the Project.
-
+  
 ### Escalation
 Escalation is the process of moving up the delegation tree to a level of Authority able to make a decision, commit resources or otherwise enforce obedience, because the person escalating does not have the Authority to do that him/herself. 
-
+  
 ### Delegating Workflow
 In order to delegate the delegator needs to 
 1. Free time to Delegate i.e., determine:
-    - What to delegate i.e. which Process 
+    - What to delegate i.e., which Process 
     - What Authority goes with that Process
     - Whom to delegate to i.e. finding the Delegatee
     - How to delegate i.e. identifying optimal handover 
@@ -1548,24 +1763,21 @@ Venture:
 
 ### Delegating Conundrum
 There are several conundrums in Delegation. 
+  
 1. No time to delegate
-2. No time to perform oversight
-3. Accountability suggests knowing all of the delegated Process.
-
-### 1. No time to delegate
 This conundrum refers to investing time to delegate a Process, i.e. In order to delegate, effort has to be done, see [### Delegation Workflow]. An often heard reason to not delegate is because of that. 
-
-### 2. No time to perform Oversight 
+  
+2. No time to perform Oversight 
 Similar as 1., Oversight takes time which is scarce. 
-
-### 3. Accountability suggest knowing all
+  
+3. Accountability suggest knowing all
 Being accountable does not mean knowing the details of Processes that yield the Results for which the delegator is accountable. However, the delegator does need to understand the Result and should have the ability to understand the Process if necessary.
-
-It is true that the effort to Delegate + performing Oversight should be less than the actual time to perform the delegated Process, at least from a delegator perspective. However, the advantages to the delegatee are still relevant, and in the long run the time saved by a delegator might increase with more delegation simply because of the increased skills.
-
+  
+It is true that the effort to Delegate + performing Oversight should be less than the actual time to perform the delegated Process, at least from a delegator perspective. However, the advantages to the delegatee are still relevant, and in the long run the time saved by a delegator might increase with more delegation being possible for other tasks, simply because of the overall increased skills.
+   
 ### Delegating and Activities
-Within the Venture there are most often many Activities. A Manager  of a Venture does not manage the day to day of each Activity witin the Venture and for all intents and purposes delegates day to day Management i..e. the Objectives to the Manager of the Activity. See also [## Activities Definition] and [## Objective Definition].
-
+Within the Venture there are most often many Activities. A Manager  of a Venture does not manage the day to day of each Activity within the Venture and for all intents and purposes delegates day to day Management i..e., the Objectives to the Manager of the Activity. See also [## Activities Definition] and [## Objective Definition].
+  
 ### Delegating and MSS
 The MSS, see [## MSS] has an embedded logic to capture what is, and what is not delegated.
 ________________________________________
@@ -1704,12 +1916,12 @@ The role of a COO is demanding in that the scope it covers is broad  and require
 ________________________________________
 ## RACI (framework)
 Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
-  
+    
 The definition of RACI often implies an oversight committee that oversees progress of whatever the RACI have been defined for.
-
+  
 ### RACI Overview
-The underlying of RACI is one or more Tasks, or Objectives.   The principles associated to RACI are Delegating, see [## Delegating]. 
-
+The underlying of RACI is one or more Tasks, or Objectives. The principles associated to RACI are Delegating, see [## Delegating]. 
+  
 The four Roles in RACI are defined as follows:
 - R (Responsible): person who performs a Task.
 - A (Accountable): person answerable for completion of the Task i.e., the person reporting on completion to someone e.g., a Committee.
@@ -1721,9 +1933,9 @@ The two most important two roles are A and R. Sometimes they are the same, but n
 ### RACI Rules
 A hard rule is that there can be only one 'A' for a given Task. If there are more than A, then that is indicative of a need to split the Task into smaller Tasks. 
 It is possible to have more than one R for a given Task. 
-
+  
 ### RACI Weaknesses
-RACI do not include Authority. Often Responsibility is assigned but this Responsibility does not carry any , or sufficient, Authority. In these cases the Responsible person will need to Escalate e.g., to the committee.
+RACI do not include Authority. Often Responsibility is assigned but this Responsibility does not carry any , or sufficient Authority. In these cases the Responsible person will need to Escalate e.g., to the committee.
 Another weakness is that Consulted and Informed are not well defined: do those people need to be Consulted and Informed or *can* they be Consulted or Informed? To avoid this optionality or not, the actual expectations should be defined as part of the RACI definition.
 
 
@@ -1791,56 +2003,56 @@ One-way vs two way
 @@@
 _________________________________________
 ## Listening
-LIstening is part of communication. Good listening means understanding the purpose of the converstation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
+Listening is part of communication. Good listening means understanding the purpose of the conversation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
 
 There are four distinctive listening styles and Managers need to be able to differentiate between them:  
 - Analytical Listening: aims to analyse a problem from a neutral starting point.
 - Relational Listening: aims to build a connection and understand the emotions underlying a message.
 - Critical Listener: aims to judge both content of the conversation and reliability of the speaker.
-- Task-focussed Listener: shares a conversation towards an efficient transfer of important information.
+- Task-focused Listener: shares a conversation towards an efficient transfer of important information.
 
 Five paths to improving listening:
-1. Establish the conversational goal: are you asking for a conversation, has the speaker explicilty said they want to have a word, or that they have a concern or idea? Is there a company directive or policy that comes into play? Does the speaker know what they want to get out of the conversation.
+1. Establish the conversational goal: are you asking for a conversation, has the speaker explicitly said they want to have a word, or that they have a concern or idea? Is there a company directive or policy that comes into play? Does the speaker know what they want to get out of the conversation.
   
 2. Recognise how you listen normally: pay attention to what you normally do versus and how that would intervene or reinforce the conversational goal.
   
-3. Be mindful of whom the focus of attention: in simple words do not interject too casually with personal stories even if well intended. This is particularly important if the goal is to aleviate concerns of the speaker.
+3. Be mindful of whom the focus of attention: in simple words do not interject too casually with personal stories even if well intended. This is particularly important if the goal is to alleviate concerns of the speaker.
   
 4. Adapt listening style to achieve the conversational goal.
   
 5. Ask yourself if the conversational goal was addressed? This is even more relevant if the speaker does not know what to get out of the conversation.
-
+  
 Sources: 
 - Hardvard Business Review, Whats-Your-Listening-Style (2015)
 - Harvard Business Review, Mindful Listening (2022)
 _________________________________________
 ## PSS Toolkit
-The following is from "The Fearless Organisation" by Amy Admonson. There are three steps for Managers to work on continuously to create a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
+The following is from "The Fearless Organisation" by Amy Admonson. There are three steps for Managers to work on to continuouslycreate a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
 
-### 1. Setting the Stage
+1. Setting the Stage
 The purpose of this step is to create *shared expected Results and meaning*. It reinforces the understanding that although it may considered a *Risk* to speak up about *failures*, including ones own, but that Speaking up is effectively aiding the Venture to *learn* and thus improve.
 Note: the book has a strong focus on actual failures. It is assumed here that failures include actual failures but also weaknesses that could lead to future failure. 
-
-#### Frame the Work
+  
+Frame the Work
 Framing work consist of setting expectation w/r to failure, uncertainty and interdependence to clarify the *need* to speaking up. Staff needs to understand that *learning from failure* is key to continuous improvements even if speaking up feels like a Risk to themselves. Failure requires definition:
 - *Preventable Failure* (Processes deviation): deviations from known Processes producing unwanted Results. Caused by Behavior, Skill or Attention Deficiencies. 
 - *Complex Failure* (System Breakdown): unique and novel combinations of events and actions that yield unwanted Results. Caused by complexity, variability, and novel factors imposed on familiar Processes and Environment. 
 - *Intelligent Failure* (Unsuccessful trial): Novel forays into new Services leading to unwanted Results. Caused by uncertainty, experimentation and explicit Risk taking.
-
-#### Frame the Roles
+  
+Frame the Roles
 Review the role of Managers: they *do not* know the answers to all questions, but can set direction, ask for input and clarifications and can thus create the conditions for continuous improvement with the contribution of Staff. 
 Review the role of the Staff:  they *do* have insight,  answers, concerns and relevant questions and by voicing those, improvements are possible. 
-
-#### Emphasise Purpose
+  
+Emphasise Purpose
 Make sure everyone understands why speaking up is important. Rephrase and emphasise purpose w/r to the mission of the Venture. 
-
-### 2. Inviting Participation 
+  
+2. Inviting Participation 
 This step assures Staff effectively contribute by speaking up about failures and thus participate in growth, by providing *input*. It has the following characteristics:
-
-#### Demonstrate Situational Humility
+   
+Demonstrate Situational Humility
 Managers need to constantly display the fact they do not know all and that they can, and do, rely, on Staff on the ground to help make changes. This should not be confused with lack of confidence. In effect, Managers should be able to be confident in their lack of knowledge, and more so, they should be inclusive of all Staff when approaching for answers to questions the Manager or Staff may have.
-
-#### Practice Inquiry
+  
+Practice Inquiry
 Learn the art of *Inquiry*: *purposeful probing to learn more about issues, situations, or person(s)*. This requires a Skill to cultivate genuine interest in Staff's responses. This is harder than it sounds due to a cognitive bias called *naive realism* (stronger with high achievers!) that gives the idea that one *is* seeing a reality, rather than a *subjective view* of the actual reality.  Inquiry requires asking *powerful questions* which have the following properties:
 - You don't know the answer
 - Ask questions that do not limit answer to Yes/No
@@ -1857,26 +2069,26 @@ Powerful questions have the following attributes:
 -  Stays with participants
 - Touches a deep meaning
 - Evokes more questions
-
+  
 Examples: "What leads you to think so?", "What might we be missing?"
-
-#### Setup Structures & Processes
+  
+Setup Structures & Processes
 A last manner to increase participation is to create structures facilitating input from Staff. Example: focus groups, special blogs, etc. 
-
-### 3. Responding Productively
+  
+3. Responding Productively
 The last step of setting up PSS is by responding to the input provided in above stage in a manner that does not stint the PSS Process and effectively make it a self-maintained Process.
-
-#### Express Appreciation
+  
+Express Appreciation
 As a Manager, be receptive of, and even praise, the fact that someone has spoken up. The more uncertain the environment (incl at the start of setting up a PSS), the more the Manager should be vocal about it. Example: "Thanks for letting us know".
-
-#### Destigmatise Failure
+  
+Destigmatise Failure
 The fear to fail is, especially in the beginning of implementing a PSS, very large. Therefore, reinforce the first step related to the Framing of Failure:
 - Concept of Failure: a natural by-product of experimentation and learning
 - Beliefs about effective performance: produce, learn from and share lessons learnt from Intelligent Failures.
 - Goal: promote fast and broad learning
 - Impact of above: open discussion, fast learning, innovation
-
-#### Sanction Clear Violations
+  
+Sanction Clear Violations
 Implementing a safe space and reframing Failure does not mean all failure is acceptable. If a Venture has specific policies that dictate certain behaviour as unacceptable e.g. disclosing proprietary information then no matter what the purpose of speaking up is, sanctions can be imposed (including dismissal). The vague the policies, the less such sanctions are considered reasonable. 
 ________________________________________
 ## Story (Framework)
@@ -1893,18 +2105,18 @@ Four steps to provide feedback:
 Regardless of the type of feedback (positive or negative) the *intonation* of above steps is the same. Not negative, not positive but with a positive afterthought i.e. it will be better in the future. 
 
 The reason to *ask* nr 1. is to make sure they are ready to listen! This is important because the purpose of feedback is to reinforce future behaviour. What if they say 'no'? Then move it to later.
+
+@@@
 ________________________________________
 ## Meeting (Framework)
-One of the most suitable forms of Communication is through a Meeting which is mostly organised throuh Calendar, see [## Calendar] and for which details are maintained in Notes, see [## Notes].
-
-### Meeting Types
+One of the most suitable forms of Communication is through a Meeting.
 Like communication there are two key types of Meetings: formal and informal.
 
 A Meeting is either owned by the Manager or not. 
 
 A meeting is either recurring or not. Non-recurring Meetings can still be deemed 'recurring' in below procedure, except that there are no recurring dates available. 
 
-The purpose of a Meeting is to either regularly exchange updates between participants e.g. an item in MGT: 04.Controlling # JOURNAL), and/or it is used as a form of Control or Oversight e.g. an item in MGT:  Controlling # SUPERVISION and/or it is used as a form of Reporting to senior management or more generally to stakeholders e.g., an Item in [MGT: 04.Controlling # REPORT].
+The purpose of a Meeting is to either regularly exchange updates between participants e.g. an item in MGT: 04.Controlling # JOURNAL), and/or it is used as a form of Control or Oversight e.g. an item in MGT:  04.Controlling # SUPERVISION and/or it is used as a form of Reporting to senior management or more generally to stakeholders e.g., an Item in [MGT: 04.Controlling # REPORT].
 
 ### Meeting Procedures
 For each Recurring Meeting set up a note. The note drives how the meeting is done.
@@ -1952,7 +2164,7 @@ ________________________________________
 @@@
 ________________________________________
 ## Whiteboard Session (Framework)
-A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that, *this is important*, without any specific preparation i.e., no presentation material. To the presenter this means the time spent is limited to the time of the WBS. For the audience, it means they can focus on things they are more interested in than what a presentation would somwehat force them to pay attention to. 
+A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that, *this is important*, without any specific preparation i.e., no presentation material. To the presenter this means the time spent is limited to the time of the WBS. For the audience, it means they can focus on things they are more interested in than what a presentation would somewhat force them to pay attention to. 
 
 Managers can use WBS to achieve three things:  
 - Share knowledge within or across Groups
@@ -1975,21 +2187,18 @@ ________________________________________
 ## Hidden Relationships (Framework)
 This concept explains relations between Staff within a Group, across Groups and between Groups, and which are not part of the official Relationships, see above. Identifying and understanding Hidden Relationships is important in understanding how the Venture operates outside the official Organisation and is a key ingredient in the manner in which best to lead Staff. More importantly, hidden relationships can impede on, or facilitate, the creation of a Safe Space.
 ________________________________________
-## Superiors (Framework)
-@@@
-________________________________________
 ## Motivating (Framework)
 Motivating is the framework by which Managers encourage or stimulate employees to achieve the Goals set out for the Venture. Motivation ties in to:
 - Needs: Maslow's hierachy of needs, EG theory
 - Satisfaction: Herzberg's two-factor theory.  
-
+  
 Job characteristics that contribute to motivation:
 - Skill variety
 - Task identity
 - Task significance via recognition programs
 - Autonomy
 - Task feedback
-
+  
 Known motivators in business context:
 - Money although short term
 - Praise
@@ -1999,7 +2208,7 @@ Known motivators in business context:
 - Challenging work
 ________________________________________
 ## Brainstorming (Framework)
-Brainstorming is used to find a viable solution to a problem. It does not work for complex, multifacted problems. There are two key principles: 
+Brainstorming is used to find a viable solution to a problem. It does not work for complex, multifaceted problems. There are two key principles: 
 -Defer judgment i.e., do not  conclude a good solution has been found when one idea sounds really good
 -Go for quantity, get as many ideas as possible.
 
@@ -2008,16 +2217,16 @@ The Process (stick to it!):
 2. Define the problem clearly
 3. Ask Staff to come up with as many ideas as possible, each expressed in a few words. 
 4. All ideas are welcome, preferably wild ideas
-5. Withold criticism, see point 4.
+5. Withhold criticism, see point 4.
 6. Combine (group similar ideas together) and improve ideas.
 
 Brainstorming is vulnerable to *motivations to conform* which means people may risk not giving their best afraid to not confirm. If that is a concern, the above steps may be improved by doing a *silent brainstorming* where Staff write the ideas on pieces of paper in step 3 and hand them to a facilitator.
 ________________________________________
 ## Mentoring (Framework)
-Mentoring is a Process in which a Mentor increases a Mentee's *performance* by *teaching* the Mentee based on the Mentor's own skills, knowledge and network. The aim is to develop career/life. Mentoring is often long term 1-2 years. See also [## Coaching vs Mentoring].
+Mentoring is a Process in which a Mentor increases a Mentee's *performance* by *teaching* the Mentee based on the Mentor's own skills, knowledge and network. The aim is to develop career/life. Mentoring is often long-term 1-2 years. See also [## Coaching vs Mentoring].
 ________________________________________
 ## Coaching (Framework)
-Coaching is a Process that consists of a Coach unlocking a Coachee's *potential* by helping the Coachee to *learn* rather than to teach them (which is done in Mentoring). This *helping to learn* is achieved  through asking questions including on Topics not relevant for day to day work. Coaching requires expertise in coaching and not in the subjects at hand i.e. the Processes. Coaching is about seeing Staff in terms of their future potential not of their past performance. The aim is to develop raw talent with new skills. It is short term from weeks to months. See also [## Coaching vs Mentoring].
+Coaching is a Process that consists of a Coach unlocking a Coachee's *potential* by helping the Coachee to *learn* rather than to teach them (which is done in Mentoring). This *helping to learn* is achieved  through asking questions including on Topics not relevant for day to day work. Coaching requires expertise in coaching and not in the subjects at hand i.e., the Processes. Coaching is about seeing Staff in terms of their future potential not of their past performance. The aim is to develop raw talent with new skills. It is short term from weeks to months. See also [## Coaching vs Mentoring].
 ________________________________________
 ## Coaching vs Mentoring (Framework)
 The difference between coaching and mentoring is sometimes small. There are also companies that switch the definition around or that morph them into one Process to achieve a hybrid result.
@@ -2057,6 +2266,7 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Controlling
     - Staff Meeting
     - Management Meeting
     - Check Standards
+    - Control Conundrum
     - Self-Contained Mail
 - Reports
     - Reporting Definition
@@ -2108,7 +2318,7 @@ Rapid Logging
 Rapid Logging is a shorthand notation where the first character indicates what the rest of the entry is about. This is achieved using Objective Notation, see [## Objective Notation]. Note that using Rapid Logging expects short entries as opposed to long sentences. 
 
 Logs
-A Log is what it says: a tracker of experiences, meetings, observations, ideas, tasks, items to be reported. Logs can be created within a dedicated Note or using a section wihtin a Note. Standard Bujo method recognises three default Logs, with more being possible:
+A Log is what it says: a tracker of experiences, meetings, observations, ideas, tasks, items to be reported. Logs can be created within a dedicated Note or using a section within a Note. Standard Bujo method recognises three default Logs, with more being possible:
 - Daily log: things to do today, meetings, reminders, etc. 
 - Monthly log: things to do this month
 - Future log: things to do possibly, one day
@@ -2186,29 +2396,29 @@ Planning
 Reflects Management Function Planning, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 01.Planning], but during the performance of the Management Cycle, ideas, small projects to improve Planning can be collected here, and later ported to the permanent note or to MSS.
 
 Organising 
-Reflects Management Function Organising, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 02.Organising], but during the performance of the Management Cycle, ideas, small projects to improve Organising can be collected here, and later ported to the permanent note or to MSS.
+Reflects Management Function Organising, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 02.Organising], but during the performance of the Management Cycle, ideas, small projects to improve Organising can be collected here, and later ported to the permanent note or to MSS.
 
 Leading
-Reflects Management Function Leading, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 03.Leading], but during the performance of the Management Cycle, ideas, small projects to improve Leading can be collected here, and later ported to the permanent note or to MSS.
+Reflects Management Function Leading, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 03.Leading], but during the performance of the Management Cycle, ideas, small projects to improve Leading can be collected here, and later ported to the permanent note or to MSS.
 
 Controlling 
-Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGt: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
+Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
 ________________________________________
 ## BuJo MSS (Software)
 MSS, see [## MSS], has 7 Sheets implementing the BuJo concepts discussed above to the Managerial 7, see [MGT: 99.Legend ## Management Cycle]. BuJO MSS is essentially BuJo logic implemented within the MSS framework.
 
 ### BuJo MSS Concepts
-A key feature is the fact that 7 dedicated *Logs* are used, one for each of the Mangerial 7. These Logs are captured in [MSS: M0] to [MSS: M6]. BuJo MSS is similar to standard BuJo, but the implementation is simpler because of the use of:
+A key feature is the fact that 7 dedicated *Logs* are used, one for each of the Managerial 7. These Logs are captured in [MSS: M0] to [MSS: M6]. BuJo MSS is similar to standard BuJo, but the implementation is simpler because of the use of:
 - Only a few dedicated sheets collecting entries relevant to each Managerial 7
 - Formulas to generate enriched data (Calculated Columns)
-
+  
 Data
 A dataset in BuJo MSS is called a *Journal Entry*, an *MT Entry* or just *Entry* and is entered as a single row in the sheet. Unlike BuJo, BuJo MSS has a broader dataset driven by various columns. As a result, an MT Entry is broken down across several columns as opposed to the single item/line in standard BuJo. There are two *types* of columns: *Calculated Columns* and *Manual Columns*. The content of the Manual Columns drive all other aspects of BuJo MSS through the Calculated Columns. 
-
+  
 Goals, Sub-Goals and Tracking Type are maintained as Static Data in [MSS: Static] and have attributes associated to them that are used in Calculated Columns like the order of Sorting, whether or not to report, etc. Goals are standard and require, in general, no updates. Sub-Goals depend on the focus a Venture wants to have within a Goal each year.
-
+  
 Index
-There is no index as data is logged in one sheet for each of the Mangerial 7.
+There is no index as data is logged in one sheet for each of the Managerial 7.
 
 Rapid Logging
 The Rapid Logging method is used in Column = Tasks. 
@@ -2232,7 +2442,7 @@ At the start of each year the Roadmap needs to be established, see also [## Road
 - Add new Projects and assign a Sub-Goal
 - Update existing Projects / Potentials similar to the step above if they are to be in the current Roadmap 
 
-From this point onwards, maintain the Projects that are part of the Roadmap through Notes and Tasks. See also [### BuJo MSS vs Planning]. The same can be done for Management and Routines. 
+From this point onward, maintain the Projects that are part of the Roadmap through Notes and Tasks. See also [### BuJo MSS vs Planning]. The same can be done for Management and Routines. 
 
 ### BuJo MSS Reporting
 BuJo MSS is setup in line with MSS principles in that reporting from it is achieved using pivot tables. The use of Tag helps defining content for different Stakeholders.
@@ -2251,81 +2461,68 @@ There are various ways to track progress. For Projects it is mostly done through
 For a more continuous Progress Tracking, use the Management Tracker, see above.
 ________________________________________
 ## Committee (Framework)
-A Committee is a tool to communicate within a Group, or across Groups, and, most importantly to make decisions. Committees are used to oversee different levels:
-- Venture e.g. Board meeting, Executive Committee
-- Activities e.g. Exco
-- Routines e.g. Risk Committee, SalesCo, ...
-- Projects e.g. OpCo, SteerCo
+This framework uses the following definition of a Committee:
 
-Committees are often referred to as a form of governance, because they provide direction and supervision.
+A Committee is a *recurring meeting* that relevant *Members* attend with the *Purpose* to make *Decisions* for one or more *Proposals* based on *Information* in relation to one or more *Topics*. Committees are framed by the *Terms of Reference*.
+  
+These aspects are discussed below.
+   
+### Committee Recurring Meeting
+A meeting or session takes place in presence or on-line with a predefined recurrence or frequency, with the option to initiate ad-hoc meetings when relevant.
 
-NB: although Committees are a great way to share information, the ultimate goal should be to make decisions.
+### Committee Members
+There are several Member Profiles with different accountabilities:
+- Secretary: accountable for the administrative aspects of the Committee (planning meetings, circulating agenda, recording and circulating minutes, etc)
+- Chair: accountable for assuring the committee achieves its stated Purpose. The Chair is often a Voting Member (see below). The Chair and the Secretary can be the same person. 
+- Voting Members: people accountable for *and* having the authority to make decisions for Proposals made. They can also make new Proposals through the Chair. 
+- Non-Voting Members: people who are Subject Matter Experts (SME) in relation to one or more Topics. 
+- Guests: people acting as SME for a Topic that may not require standing membership, or people who may use the outcome of the Committee as input of another Committee or other Process. 
 
-### Committee Deck 
-Committees are done using a so called *Committee Deck* or *Deck* which is most often a powerpoint presentation. The Deck is prepared by the Committee's Secretary (see below) and contains the following element, or equivalents:
+Depending on the Committee it is possible for a Voting Member to delegate the voting power to a delegate. This is valid only if the Terms of Reference permit such delegation.
+  
+A *Quorum* refers to the minimum number of Voting Members necessary for a Decision to be made and to be valid. Every Committee has a Quorum, and that rarely changes for a given Committee. There is no general rule on how to establish a Quorum. However, for a given Committee, the rules for a Quorum are formalised in the Terms of Reference, see below. If the Quorum cannot be met the session has to be adjourned i.e., suspended to be continued later.  
+  
+### Committee Proposals & Decisions
+Decisions a.k.a. Resolutions consists of a binary approved/no approved, yes/no, accept/reject or similar construct, of a specific Proposal through a vote. This means that Proposals need to be presented in a form that facilitates such vote, which is often achieved by framing the Proposal as a question e.g. , "Do the Voting Members approve the following Proposal to ..." or more formally "Do the Voting Members approve the motion to ...". 
+  
+There are two key types of Proposals:
+1. Proposal to *do* something i.e., if the Proposal is approved, an Action will be taken.
+2. Proposal to *agree* on Information provided without leading to an Action i.e., if the Proposal is approved, a formal record exists that the Committee saw and agreed with the Information.
+  
+The approval of a Proposal may require unanimity or just a majority. Approvals can be accompanied by one or more conditions restricting the scope or the actual implementation of the Proposal. Some or all Voting Members can have the right of Veto which means a single Vote can reject a Proposal. 
+  
+It is important to note that it is possible to have Committees whose purpose it is not to make decisions. This framework, however, as mentioned earlier, assumes Decisions *are fundamental* to a Committee. There are two reasons for this:
+1. If no Decision is taken, any purpose of a Committee is really questionable. 
+2. As mentioned above, it is possible to construe a Decision for a Proposal to merely agree on Information provided.
+  
+### Committee Topics
+Proposals presented for approval relate to one or more Topics. Conceptually, a Topic is either concerned with the Run of Production, the Change of Production or a combination of these and it can concern both the *result* of Run/Change or the *manner* in which Run/Change are conducted. 
+As a Committee concerns recurring meetings, the Topics themselves are often recurring as well. If a Topic is not recurring it is an ad-hoc Topic (which could be an action point of a previous meeting). The list of Topics for each meeting are reflected in the Committee's *Agenda*. 
 
-Part 1: Agenda
-This is the part that gets discussed by the Committee members during the meeting. It provides an update on the items in the Scope, see below, and has the following suggested sections (final sections depend on purpose of the committee):
-- Establishment of who chairs the committee
-- Validation of Minutes of previous committee
-- Update on Action Points of previous committee
-- Review of Progress of topics defined in the TOR
-- Emerging concerns + new Action Points
-- Update on ToR (if relevant)
-- Update on Scope (if relevant)
+### Committee Information
+The Topics for Proposals rely on Information a.k.a. Intel. As explained elsewhere, Information and Data are related. Data is defined as individual facts, whereas Information is the organisation, interpretation and visualisation of those facts i.e., a Process is involved to transform Data into Information. Therefore, assuming Data w/r to a Topic is available it needs to be transformed such that it yields Information for a Proposal to be made and for the Committee to base its Decision for the Proposal on.   
+Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above which such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions should be reflected in the Terms of Reference.  
+In many cases, the Data collection and Information creation as preparation of the Committee can be, and often is, more time consuming than the actual meeting.  
 
-Part 2: Context
-The Context contain those topics that are not discussed in detail, or at all, during the Committee meeting but which form the formalisation of the background of what the Committee is about. It has the following sections (the order of which can differ):
+### Committee Purpose
+Ultimately the purpose of a Committee is to make Decisions. However, not every Committee makes on the same Topics of course. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
+  
+A specific type of Committee is the *Oversight Committee*:
+- Company Board Meeting, Executive Committee
+- Specific functionality Committees: Risk Committee, Sales Committee, ...
+- Committees focusing on Projects: Operational Committee (Opco), Steering Committee (SteerCo)
+  
+### Committee Minutes
+Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general only be concerned with decisions.
+  
+### Committee Terms of Reference
+The Terms of Reference (TOR), Committee Charter or Committee Mandate of a Committee reflect all the above aspects in a single document. The content of the TOR itself is proposed for validation by the Committee's Voting Members. As some of the aspects can change over time i.e., new Chair, new Voting Members, different Quorum, different recurrence, etc. the TOR is reviewed and approved regularly.  
+  
+### Committee Rules of Order 
+Committees often follow certain guidelines on how to prepare, hold and minute the meeting. This is often based on some form of Robert's Rules of Order. These Rules are available as books. 
 
-2.1 TOR 
-The Terms of Reference (TOR) a.k.a Committee Charter, sets out what the committee's purpose is. It contains the following sections covering the 6Ws:
-
-- Who
-    - Chairman, person accountable for the committee 
-    - Secretary, person responsible for administration
-    - Other attendees 
-    - Quorum, number Staff/ Groups required to attend
-- Why
-    - Purpose of the Committee: focus on decisions
-- What:
-    - Scope, simplify refers to [### Scope]
-- Where
-    - The location/dial-in of the Committee's assembly
-- When
-    - Frequency (Monthly, Quarterly, etc)
-- How
-    - Agenda, an enumeration of [### Agenda] above
-    - Reporting, how the committee communicates
-
-2.2 Scope
-The Scope or Mandate has details of what is covered by the Committee and is based on (part of) the Profile. Not all items below are relevant for every committee:
-- Environment (Policies, Regulations)
-- Clients or q
-- Services
-- Activities
-- Geographic location (if relevant)
-- Management (Planning, Organizing, Leading, Controlling)
-- Goals 
-- Objectives (Routines/ Projects) by Goal. Most often this is limited to the following Goals: prd, ctr, geo, opt, sec, pro.
-- Assets
-- Staff
-- Suppliers (excl. ones referred to in the TOR)
-- HR
-- Finance
-- ...
-
-2.3 Oversight
-A description of the Process(es) enabling the Committee to be informed of, and thus steer, the Scope. These Processes can be multiple: controls, reports, other committees, audits, etc.
-
-2.4 Overview
-An overview, bit like a Readme file, of how the support material is maintained/prepared.
-
-Part 3: Appendix
-Details of topics discussed in the Agenda that are not presentation material but background or more detailed information. There are as many sections as there are Topics requiring more details.
-
-### Minutes
-Minutes are not part of the Deck and consist of what was discussed as part of the Agenda, see above and includes any new Action Points that were created as part of the discussion in the Committee, a status of which will appear in the next committee.
-Minutes should only be concerned with decisions. This in turnmeans that the manner in which Info is presented is as such: "we motion to ...", "we propose to ...", etc. An alternative manner of presenting is that by default everything is approved, unless otherwise requested by the committee.
+### Committee Obligations Under Law
+Depending on the law under which a Committee operates the above mentioned generalities may be overruled or enforced. For example it is possible, that under certain laws or regulations, every discussion within a Committee needs to be recorded and minuted, even if no Decision was taken. Similarly, under certain laws the Quorum is 100% of the Voting Members, etc.  A typical example of specific obligations arising out of law, are Board of Directors in many jurisdictions. This can go as far as dictating the manner in which Resolutions are presented. 
 ________________________________________
 ## BOD (Framework)
 The Board of Directors is an efficient tool for oversight and delegation.
@@ -2386,7 +2583,7 @@ ________________________________________
 ## Check Standards (Framework)
 As a reminder, to Check is one of four different manners to establish Supervision (the others being to Review, to Attend and to Audit). A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control, but the Profile defines a Control as any of the Four Supervisory Processes.    
 
-The Check Standards define how a Check should be designed:
+The Check Standards define how a Check should be designed. The Check Standards are entirely based on the general Control Process concept discussed in [MGT: 99.Legend ## Controlling].
    
 1. Establish the *Purpose*;  
 2. Establish the *Baseline* or Benchmark  
@@ -2395,18 +2592,20 @@ The Check Standards define how a Check should be designed:
 5. Perform an *Analysis* of the Comparison and, if relevant;  
 6. Define a *Remediation*;  
 7. Keep a *Written Trail* of 1-6, use it to *Report* and track Remediation.  
-8. Add the name of the *Subject Matter Specialists* or *SME*
-
-The first seven steps are directly from [MGT: 99.Legend ## Controlling]. The last step aids greatly in case there are questions on the Check.
 
 Purpose  
-In above 7 steps, Purpose is key in setting up a Check. It sets out what the Check is to achieve ultimately. In many cases Checks are designed to avoid the occurrence of Risk, or to assure a minimum level of quality or performance has been reached. The Purpose will explain this Risk (including how it can materilaise), or what the mimimum level of quality or performance is (including what influences it). It will also explain how the Check helps avoiding the Risk, or helps assuring a minimum level quality or Performance. This section may depend on the next step.
-
+In above 7 steps, Purpose is key in setting up a Check. It sets out what the Check is to achieve ultimately. In many cases Checks are designed to avoid the occurrence of Risk, or to assure a minimum level of quality or performance has been reached. The Purpose will explain this Risk (including how it can materialise), or what the minimum level of quality or performance is (including what influences it). It will also explain how the Check helps avoiding the Risk, or helps assuring a minimum level quality or Performance. This section may depend on the next step.
+The purpose can also provide additional information including:
+- How the check is to be performed  i.e. where to get the data, how to get the data, how to process the data etc. 
+- The names of Subject Matter Specialists who can help with more difficult findings 
+- The names of the people to be informed 
+- Etc. 
+ 
 Baseline  
-The Baseline defines what exactly needs to be measured, and critically, the thresholds at which a *Breach* is deemed to have occured i.e., the variance or dispersion allowed from the Benchmark. A Baseline depends on a good understanding of the Purpose. The Baseline may require insight in the next step: the definition of Baseline has potentially a dependency on how a Measurement can be performed in the first place. It is possible that there are more than one type of Breaches in a single Check. These are referred to as *Breach Types* and establishing these at the start of the design of the Check greatly helps in the Remedation step.   
+The Baseline defines what exactly needs to be measured, and critically, the thresholds at which a *Breach* is deemed to have occurred i.e., the variance or dispersion allowed from the Benchmark. A Baseline depends on a good understanding of the Purpose. The Baseline may require insight in the next step: the definition of Baseline has potentially a dependency on how a Measurement can be performed in the first place. It is possible that there are more than one type of Breaches in a single Check. These are referred to as *Breach Types* and establishing these at the start of the design of the Check greatly helps in the Remediation step.   
   
 Measurement  
-Once the Baseline is established the actual work takes place: Measurement. Ultimately, a Check relies on Info prod;1uced from Data. Measurement consists both of collecting Data (potentially from several sources, and including cleaning, transforming, enriching etc) and then establishing some Info from that Data (potentially different forms of Info). Note that Data can be both quantitatve as well as qualitative.  
+Once the Baseline is established the actual work takes place: Measurement. Ultimately, a Check relies on Info produced from Data. Measurement consists both of collecting Data (potentially from several sources, and including cleaning, transforming, enriching etc) and then establishing some Info from that Data (potentially different forms of Info). Note that Data can be both quantitative as well as qualitative.  
 Measurement is heavily proceduralised, which allows to accurately reproduce the same Info over and over. This step includes rendering the Info in the desired format to be able to compare where applicable: numbers, ratio, graph,... 
 NB: Data represent facts, Info is them organisation and interpretation of those facts. 
 
@@ -2414,19 +2613,29 @@ Comparison
 The Comparison of the Measurement vs the Benchmark is effectively what it says: put the result of Measurement in front of the Benchmark. 
 
 Analysis  
-The Analysis should yield a single conclusion: a breach or not. A breach means that a Remediation is required.   
+The Analysis should yield a single conclusion: a breach or not. A breach means that a Remediation is required. This is simple on paper, but in reality it is not because Analysis may yield different outcomes, out of which the first two are true breaches are really relevant, and the other two are noise that may require remediation nevertheless (of the Control process).
+1. True Positive: a breach that is indeed a breach
+2. True Negative: a lack of breach that is indeed no breach
+3. False Positive: a breach that is actually not a breach
+4. False Negative: a lack of breach that actually should have shown a breach. 
   
 Remediation   
-Remediation a.k.a. Action Plan should avoid the breach found in Analysis (most often for the next time the Check is performed). As such, this step may require going back to the Analysis step to clearly identify the best way to remediate.   
+Remediation a.k.a. Action Plan should avoid the breach found in Analysis (most often for the next time the Check is performed) *or* should remediate the control  such that the False Positives and False Negatives are avoided. 
+As such, this step may require going back to the Analysis step to clearly identify the best way to remediate.   
 Remediation should clearly explain how to implement it and should include the manner in which the desired effect will be measured (normally through a re-run of the check).
-Often, the occurence of breaches can be expected. In other words, it is possible to define so called *Possible Remediation* which are Processes to perform if a specific Breach Type occurs. Possible Remediation helps speeding up the remediation process by avoiding spending time on investigation.   
-
+Often, the occurrence of breaches can be expected. In other words, it is possible to define so called *Possible Remediation* which are Processes to perform if a specific Breach Type occurs. Possible Remediation helps speeding up the remediation process by avoiding spending time on investigation.   
+  
 Report  
 All of the above steps are documented or Journaled, and a Report is produced.
 The Report is used in the two last deliverables of Controlling: Reports and Monitoring, which will assure Management is aware, and can track the progress, of Checks in general and of Action Plans in particular. 
+________________________________________
+## Control Conundrum (Definition)
+The Control Conundrum reflects the following counter-intuitive proposition:
 
-SME
-The Subject Matter Specialist is the Staff or preferably a Group that can be called upon to clarify the Check. By adding the name of the SME to the entire description of the Check, anyone becoming involved in the Check can refer to the SME.
+"Too Many Controls Kills the Control."
+
+This stems from the fact that the Check Standards can be heavy to implement. If it is done for many different checks and Reviews, then the time spend on Controlling might be disproportionate to the time spent on the Run that those Controls are supposed to supervise. 
+In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a resulf of Benchmarks that are not calibrated correctly i.e. too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
 ________________________________________
 ## Self-Contained Mail (Framework)
 Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
@@ -3690,5 +3899,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20250105
 - Corrected small typos
 
+### 20250601
+- Overhaul of [## Committee]
+- Addition of [## Control Conundrum]
+
 ### Planned
- 
+
