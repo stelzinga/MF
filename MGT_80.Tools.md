@@ -1642,6 +1642,40 @@ ________________________________________
 ## TRA (Framework)
 A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. The TRA can then be used combined with the BIA to provide a holistic overview of the various risk scenarios and the impact to the Venture. 
 ________________________________________
+## Disaster Recovery (Framework)
+Disaster Recovery a.k.a. Resiliance is a conceptual framework that shapes the manner in which business Operations can continue even during internally or externally caused disasters. 
+
+### Disaster Recovery Overview
+The following setup is only relevant for Ventures that operate only with Data as a main asset (Banks, Insurance Companies, brokers, etc).
+
+### Conceptual Basic Production chain
+
+Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers
+
+In which:
+- User Apps are operated by Staff in a building
+- Srvr Apps are operational from a Data Centre (most often)
+- Suppliers can be used at various locations in the chain
+NB: Data (files, databases etc) are included in Srvr Apps
+
+### Conceptual Redundant Production Chain
+The following st4ucture represents a simplified redundant architecture:
+
+Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers ᵖʳⁱᵐᵃʳʸ
+Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers ˢᵉᶜᵒⁿᵈᵃʳʸ
+
+In which:
+- Primary represents setups in main buildings 
+- Secondary represents a similar setup as Primary in secondary buildings
+
+Note that the above is not very realistic.
+  
+Source Data  Raw Data Prepped Data   Info  
+      ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
+                Collection  Preparation  Transformation  Disposal   
+  
+
+________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
 Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Research & Development.  
@@ -2468,7 +2502,7 @@ A Committee is a *recurring meeting* that relevant *Members* attend with the *Pu
 These aspects are discussed below.
    
 ### Committee Recurring Meeting
-A meeting or session takes place in presence or on-line with a predefined recurrence or frequency, with the option to initiate ad-hoc meetings when relevant.
+A meeting or *session* takes place in presence or on-line with a predefined recurrence or frequency, with the option to initiate ad-hoc meetings when relevant. Recurrence can be anything, but it tends to be a certain amount of weeks or months. 
 
 ### Committee Members
 There are several Member Profiles with different accountabilities:
@@ -2477,35 +2511,45 @@ There are several Member Profiles with different accountabilities:
 - Voting Members: people accountable for *and* having the authority to make decisions for Proposals made. They can also make new Proposals through the Chair. 
 - Non-Voting Members: people who are Subject Matter Experts (SME) in relation to one or more Topics. 
 - Guests: people acting as SME for a Topic that may not require standing membership, or people who may use the outcome of the Committee as input of another Committee or other Process. 
-
-Depending on the Committee it is possible for a Voting Member to delegate the voting power to a delegate. This is valid only if the Terms of Reference permit such delegation.
   
-A *Quorum* refers to the minimum number of Voting Members necessary for a Decision to be made and to be valid. Every Committee has a Quorum, and that rarely changes for a given Committee. There is no general rule on how to establish a Quorum. However, for a given Committee, the rules for a Quorum are formalised in the Terms of Reference, see below. If the Quorum cannot be met the session has to be adjourned i.e., suspended to be continued later.  
+Depending on the Committee it is possible for a Voting Member to delegate the voting power to a delegate. This is valid only if the Terms of Reference permit such delegation.
+    
+A *Quorum* refers to the minimum number of Voting Members necessary for a Decision to be made and to be valid. Every Committee has a Quorum, and it rarely changes for a given Committee. There is no general rule on how to establish a Quorum. However, for a given Committee, the rules for a Quorum are formalised in the Terms of Reference, see below. If the Quorum cannot be met the session has to be adjourned i.e., suspended to be continued later.  
   
 ### Committee Proposals & Decisions
-Decisions a.k.a. Resolutions consists of a binary approved/no approved, yes/no, accept/reject or similar construct, of a specific Proposal through a vote. This means that Proposals need to be presented in a form that facilitates such vote, which is often achieved by framing the Proposal as a question e.g. , "Do the Voting Members approve the following Proposal to ..." or more formally "Do the Voting Members approve the motion to ...". 
+Decisions a.k.a. Resolutions consists of a binary approved/no approved, yes/no, accept/reject or similar construct, of a specific Proposal through a vote. This means that Proposals need to be presented in a form that facilitates such vote, which is often achieved by framing the Proposal as a question e.g. , "Do the Voting Members approve the following Proposal to ..." or more formally "Do the Voting Members approve the motion to ...". Alternatively, Resolutions are stated as a fact, and the Voting Members are merely asked to approve the statement. 
   
 There are two key types of Proposals:
-1. Proposal to *do* something i.e., if the Proposal is approved, an Action will be taken.
-2. Proposal to *agree* on Information provided without leading to an Action i.e., if the Proposal is approved, a formal record exists that the Committee saw and agreed with the Information.
+1. Proposal to *do* something i.e., if the Proposal is approved, an Action will be taken, these are more *forward looking* in nature.
+2. Proposal to *agree* on Information provided without leading to an Action i.e., if the Proposal is approved, a formal record exists that the Committee saw and agreed with the Information. Such proposals tend to be *backward looking*.
+   
+The approval of a Proposal may require unanimity or just a majority. Approvals can be accompanied by one or more conditions restricting the scope or the actual implementation of the Proposal. Some, or all Voting Members can have the right of Veto which means a single Vote can reject a Proposal even if it has a majority of the Votes. 
   
-The approval of a Proposal may require unanimity or just a majority. Approvals can be accompanied by one or more conditions restricting the scope or the actual implementation of the Proposal. Some or all Voting Members can have the right of Veto which means a single Vote can reject a Proposal. 
-  
-It is important to note that it is possible to have Committees whose purpose it is not to make decisions. This framework, however, as mentioned earlier, assumes Decisions *are fundamental* to a Committee. There are two reasons for this:
+It is important to note that it is possible to have Committees whose purpose it is not to make Decisions. This framework, however, as mentioned earlier, assumes Decisions *are fundamental* to a Committee. There are two reasons for this:
 1. If no Decision is taken, any purpose of a Committee is really questionable. 
 2. As mentioned above, it is possible to construe a Decision for a Proposal to merely agree on Information provided.
   
 ### Committee Topics
-Proposals presented for approval relate to one or more Topics. Conceptually, a Topic is either concerned with the Run of Production, the Change of Production or a combination of these and it can concern both the *result* of Run/Change or the *manner* in which Run/Change are conducted. 
+Proposals presented for approval relate to one or more Topics. Conceptually, a Topic is either concerned with Management, Business Functions, or Operations (Run of Production, Change of Production) or a combination of these. It can concern the *result* of Run/Change, the *manner* in which Run/Change are conducted or the manner in which Management with the aid of Business Functions drives and oversees both.  
 As a Committee concerns recurring meetings, the Topics themselves are often recurring as well. If a Topic is not recurring it is an ad-hoc Topic (which could be an action point of a previous meeting). The list of Topics for each meeting are reflected in the Committee's *Agenda*. 
-
+To illustrate what Topics could include: 
+- Finances of a company (income statement, balance sheet, audit financial statement, budget review, ...)
+- Projects (scope, progress versus plan, cost versus plan, ...)
+- Suppliers (performance, cost, onboarding new ones, ...)
+- Assets (inventory, quality, cost, ...)
+- Staff (conduct, performance, salaries, ...)
+- Activities (performance, incidents, ...)
+- Clients (profitability, onboarding, ...)
+- Environment (competitors, political, regulatory, tax, ...)
+  
 ### Committee Information
 The Topics for Proposals rely on Information a.k.a. Intel. As explained elsewhere, Information and Data are related. Data is defined as individual facts, whereas Information is the organisation, interpretation and visualisation of those facts i.e., a Process is involved to transform Data into Information. Therefore, assuming Data w/r to a Topic is available it needs to be transformed such that it yields Information for a Proposal to be made and for the Committee to base its Decision for the Proposal on.   
-Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above which such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions should be reflected in the Terms of Reference.  
+Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions should be reflected in the Terms of Reference.  
 In many cases, the Data collection and Information creation as preparation of the Committee can be, and often is, more time consuming than the actual meeting.  
+The Information that forms the basis of decisions is very important. In many cases it is sent ahead of the Meeting so that the Committee Members can prepare.
 
 ### Committee Purpose
-Ultimately the purpose of a Committee is to make Decisions. However, not every Committee makes on the same Topics of course. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
+Ultimately the purpose of a Committee is to make Decisions. However, not every Committee decides on the same Topics. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
   
 A specific type of Committee is the *Oversight Committee*:
 - Company Board Meeting, Executive Committee
@@ -2513,7 +2557,7 @@ A specific type of Committee is the *Oversight Committee*:
 - Committees focusing on Projects: Operational Committee (Opco), Steering Committee (SteerCo)
   
 ### Committee Minutes
-Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general only be concerned with decisions.
+Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general only be concerned with decisions. Minutes, combined with the Information reflect the formalisation of the Meeting ex-post. 
   
 ### Committee Terms of Reference
 The Terms of Reference (TOR), Committee Charter or Committee Mandate of a Committee reflect all the above aspects in a single document. The content of the TOR itself is proposed for validation by the Committee's Voting Members. As some of the aspects can change over time i.e., new Chair, new Voting Members, different Quorum, different recurrence, etc. the TOR is reviewed and approved regularly.  
@@ -2522,7 +2566,11 @@ The Terms of Reference (TOR), Committee Charter or Committee Mandate of a Commit
 Committees often follow certain guidelines on how to prepare, hold and minute the meeting. This is often based on some form of Robert's Rules of Order. These Rules are available as books. 
 
 ### Committee Obligations Under Law
-Depending on the law under which a Committee operates the above mentioned generalities may be overruled or enforced. For example it is possible, that under certain laws or regulations, every discussion within a Committee needs to be recorded and minuted, even if no Decision was taken. Similarly, under certain laws the Quorum is 100% of the Voting Members, etc.  A typical example of specific obligations arising out of law, are Board of Directors in many jurisdictions. This can go as far as dictating the manner in which Resolutions are presented. 
+Depending on the law under which a Committee operates the above mentioned generalities may be overruled or enforced. For example it is possible, that under certain laws or regulations, every discussion within a Committee needs to be recorded and minuted, even if no Decision was taken. Similarly, under certain laws the Quorum is 100% of the Voting Members, etc.  A typical example of specific obligations arising out of law, are Board of Directors in many jurisdictions. This can go as far as dictating the manner in which Resolutions are presented.
+
+### Committee vs Day-to-Day
+Committees tend to not manage day-to-day of a Company or more generally the need for Decisions *now* .  This is for several reasons, the simplest being that the recurrence, as mentioned before, is several weeks or several months, and thus by design excludes daily concerns. 
+There are exceptions to this. For example, some situations require super-short term senior management decisions. This is the case in crisis situations in which a Crisis Committee or equivalent can be raised without any preparation. Such Committees allow having senior people available to make Decisions affecting a wide and deep scope of a Venture. 
 ________________________________________
 ## BOD (Framework)
 The Board of Directors is an efficient tool for oversight and delegation.
@@ -2682,7 +2730,6 @@ Reporting is conceptually simple, but not always easy to implement because:
 - Too many details provided
 - Data is not always available at the time of writing a Report.
 
-
 ### Management Report
 The Management Report focusses on the Managerial 7. There are different ways to report the various facts, depending on: 
 a. Frequency at which Report is needed
@@ -2761,7 +2808,7 @@ ________________________________________
 A Manager needs to be efficient in what it does over the time given to a Manager. This means *Topics* the Manager needs to be made aware of, and Topics Stakeholders need to be aware of need to be clear and concise for both. This is even more important for *Evolving Topics* e.g., incidents, new regulations, etc. An Evolving Topic's status changes over time. A Manager also needs to be able to communicate efficiently around Topics. The Executive Summary helps in achieving this and is composed of 6 points:
 
 ### Name
-Name or very Short description of the Topice.g., Project, an event.
+Name or very Short description of the Topic e.g., Project, an event.
 
 ### Context
 The context should answer the 6W of the Topic. They can be used freely, but mostly go along with the 6W Method defined above, see [MGT: 99.Legend ### 6W Method]. The context can be omitted if the Manager knows the audience are aware of the context already.
@@ -2773,7 +2820,7 @@ This reflects the Status of when the Topic was last discussed. The Last Status s
 The Current Status is similar as the Last Status in terms of type output. It also includes what was done compared to the Last Status. e.g. 10% works was done, so 30% remains for the next two weeks, expected closure moved forward to 10 Sep 2030, etc. 
 
 ### Attention Points
-Any aspects that are a potential impediment in the conclusion of any remaining actions of the Evolving Topic. It is possible to put Attention points *before* the Current Status, if the Attention Points are a reason for delays to have occured compated to the Last Status.
+Any aspects that are a potential impediment in the conclusion of any remaining actions of the Evolving Topic. It is possible to put Attention points *before* the Current Status, if the Attention Points are a reason for delays to have occurred compared to the Last Status.
 
 ### Next Actions
 Given the above, what are the expected actions to be able to conclude the Evolving Topic. Of course, if the Current Status = Completed then there are no Next Actions.
@@ -2948,11 +2995,11 @@ A Key Control Indicator or *KCI* a.k.a. Control Effectiveness Indicator provides
 Data Management, or Data to Info or D2I represents the Input and Output of specific Processes in the production of Info from Data.
 
 There are 4 levels of Objects (top) and 4 Processes (bottom) interacting with each other. 
-
-Source Data        Raw Data     Prepped Data         Info
-                  ⇘       ⇗          ⇘       ⇗               ⇘        ⇗           ⇘
-                Collection  Preparation  Transformation  Disposal 
-
+  
+Source Data  Raw Data Prepped Data   Info  
+      ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
+                Collection  Preparation  Transformation  Disposal   
+  
 Source Data
 Data is stored in various locations and formats (files, databases,...). This original set of Data is referred to as the Source Data and it is the start of the D2I Cycle. Each Source Data has a Source Data Owner. 
 
@@ -3175,8 +3222,8 @@ Tier 2 Capital = Undisclosed Reserves = Reval Reserves + Provisions + Subordinat
 ### Book Keeping Accounts
 There are various account types used in accounting. Some are quite standard.
 
-Receivabled & Payables
-Receivables is a form of Asset Account that reflects Cash to be received in the future. This occurs for example when Sales are done on credit, i.e. a customer purchases a Service or Product on credit. Ultimately, when the cash gets paid, the Cash account is debited, and the Payables account is credited. 
+Receivables & Payables
+Receivables is a form of Asset Account that reflects Cash to be received in the future. This occurs for example when Sales are done on credit, i.e. a customer purchases a Service or Product on credit. Ultimately, when the cash gets paid, the Cash account is debited, and the Payable account is credited. 
 Payables are similar, but on the Liabilities side. Payables reflect account types in which the Venture needs to pay Cash in the future. Once a Payable is paid, the Cash account is Credited and the Payables account is debited. 
 
 Reserves & Provisions 
@@ -3217,9 +3264,9 @@ Dr Dividends Payable 500
 In which Retained Earnings is an Equity account and Dividends Payable is a liability account.
 
 Retained Earnings
-Retained Earnings were mentioned at the very start of this section, without any further explanation. Here, they are explained a bit more. Retained Earnings, is, as shown above an Equity Acccount type. In addition, it is also a concept, directly linked to that account: Retained Earnings are what the Venture 'Retains" after having collected all Revenues, paid out all Costs (including taxes) and paid out Dividend (listed companies) or Drawings (sole proprietor Venture). 
-We know that Revenue is reflected in the Cash or Receivables accounts, Cost is reflected in Cash or Payables accounts. Dividends is reflected in Cash or Payables accounts. What is often confusing is the fact that Retained Earnings does not reflect Cash or is not 'held' in Cash account. An example will clarify this.
-Assume a Venture has Assets = 1000 (of which Cash = 0, Buidlings = 1000) , Liabilities = 750  and Owner's Equity = 250.
+Retained Earnings were mentioned at the very start of this section, without any further explanation. Here, they are explained a bit more. Retained Earnings, is, as shown above an Equity Account type. In addition, it is also a concept, directly linked to that account: Retained Earnings are what the Venture 'Retains" after having collected all Revenues, paid out all Costs (including taxes) and paid out Dividend (listed companies) or Drawings (sole proprietor Venture). 
+We know that Revenue is reflected in the Cash or Receivables accounts, Cost is reflected in Cash or Payable accounts. Dividends is reflected in Cash or Payable accounts. What is often confusing is the fact that Retained Earnings does not reflect Cash or is not 'held' in Cash account. An example will clarify this.
+Assume a Venture has Assets = 1000 (of which Cash = 0, Buildings = 1000) , Liabilities = 750  and Owner's Equity = 250.
 Now at the start of the year we get:
 
 Sales of a product
@@ -3902,6 +3949,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20250601
 - Overhaul of [## Committee]
 - Addition of [## Control Conundrum]
+
+### 20250606
+- Addition of [## Disaster Recovery] in [# PLANNING]
 
 ### Planned
 
