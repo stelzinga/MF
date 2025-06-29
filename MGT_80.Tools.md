@@ -814,10 +814,11 @@ This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Planning]. 
     - Roadmap
     - MSS
 - Operational Plan
-    - Operating Model Definition
+    - Operating Model 
     - COM
     - TOM
     - CMM
+    - Business Continuity Management
     - MSS
 - Market Intel
     - Trends
@@ -877,9 +878,9 @@ ________________________________________
 ________________________________________
 ## Bylaw Definition (Framework)
 Bylaws, policies or equivalents define the boundaries, methods and obligations the Venture operates under. Depending on the Venture the above terms are used interchangeably or not. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
-
-Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society, regulations, industry forums. Bylaws are reviewed on a periodic basis to assure they remain within the laws, regulations, and implicit expectations set out.
   
+Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society, regulations, industry forums. Bylaws are reviewed on a periodic basis to assure they remain within the laws, regulations, and implicit expectations set out.
+    
 Bylaws should be easily accessible to anyone within the Venture. Nowadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
 ________________________________________
 ## Memorandum of Association (Definition)
@@ -1110,10 +1111,10 @@ The owner of an Objective is either a specific Staff or a Group. By default, the
 By default, the Manager of an Activity in which an Objective is performed is responsible for the Objective. The manager gets those responsibilities delegated by the Manager of the Venture. See also [## Objective Definition], [## Activities Definition] and [## Delegating Definition].
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is an expansive formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. 
+Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. 
 For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
 
-Although the Objective Notation is well structured and appears very formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid interpretation.  
+Although the Objective Notation is well structured and formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it.  
 
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
@@ -1137,7 +1138,7 @@ The order of components is critical:
 1. Certain combinations have special meaning in Markdown: [...](...) w/o space between ']' and '(' is a URL.
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
 
-The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierachy]. Only Status and Name are mandatory. 
+The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierarchy]. Only Status and Name are mandatory. 
 
 ###  Objective Notation Status Indicator
 Status is mandatory and uses symbols:  
@@ -1247,7 +1248,6 @@ vi.  Streams to Projects / Subs to Routines or
 vii. Actions to Streams / Drills to Subs
   
 The link indicator is considered text even if stated as a number e.g.,'1', '1.1'. 
-  
 Link Indicator is optional in which case it can be written as || or omitted altogether.
 
 ### Objective Notation Reference Indicator
@@ -1290,7 +1290,7 @@ status name (date) {owner} [reference]
 This format is useful to visually show the relation between Goals, Sub-Goals, Projects/Streams/Subs and Routines/Actions/Drills. The above is a *possible* display, it may not be *desirable* to use this too often: it can become difficult to read.
 
 ### Objective Notation Expanded Format
-With above details of the various Indicators, the expanded format for Objective Notation can be written as per below:
+With above details of the various Indicators, the expanded format for Objective Notation can be written as:
   
 Run Goals and  Sub-Goals:  
 % name (period:start:end:eff) {perf:benef} |link| [ref]  
@@ -1481,8 +1481,7 @@ Projects more than two weeks of the deadline.
 Projects that are completed. In MSS it is also used for Run Goals, Routines, Subs and Drills.  
 ________________________________________
 ## Gantt Chart (Framework)
-A Gantt Chart is a chart in which horizontal lines show work (effort) -to be- done in certain periods of time in relation to the amount planned for those periods. It is very useful to give an overview of planned work and how much of that has been achieved and can thus act as a Tactical Plan, see [## Tactical Plan]. It is a good way to measure progress, see [## Measurement]. It does, however, not measure progress against deliverables e.g. Cost reduction, which needs to be measured separately.
-MSS has a built-in Gantt Chart, see [## MSS].
+A Gantt Chart is a chart in which horizontal lines show work (effort) -to be- done in certain periods of time in relation to the amount planned for those periods. It is very useful to give an overview of planned work and how much of that has been achieved and can thus act as a Tactical Plan, see [## Tactical Plan]. It is a good way to measure progress, see [## Measurement]. It does, however, not measure progress against deliverables e.g. Cost reduction, which needs to be measured separately. The MSS has a built-in Gantt Chart, see [## MSS].
 ________________________________________
 ## Tactical Plan (Framework)
 A Tactical Plan sets out a higher level view of Goals, Sub-Goals and Objectives throughout the year. More info on p. 217 of Principles of Management. In addition to showing progress, a Tactical Plan also shows the ratio of Effort in Run vs Change.
@@ -1506,12 +1505,12 @@ Change Goal abc
 
 and similar for each Change Goal. 
 ________________________________________
-## Operating Model Definition (Framework)
+## Operating Model (Framework)
 An Operating Model, *Operational Model* or *OM* lays out the various aspects that make up a Venture across the Profile Tree. Although this section focuses on a Venture it could as easily be used for an Activity within the Venture.
   
 The purpose of this section is to give explain the OM through the 6W Framework i.e.:
   
-What is it the Venture does (Activities), Why the Venture does it (Revenue generation whilst minimising Cost and Risk), How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
+What is it the Venture does (Activities), Why the Venture does it (Revenue generation whilst minimising Cost and Risk), through the sales of Services to Clients). How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
   
 The OM is relevant to a broad range of users: the Manager of the Venture, direct support functions of the Manager like a Chief Operating Officer or Chief of Staff, Suppliers, Business Functions, Clients and other Stakeholders from the Environment like Regulators.
 
@@ -1557,6 +1556,7 @@ This explains the *sources* of Risk. Unlike Revenue and Risk, the details provid
 
 ### Environment
 This explains the environment in which the Venture operates. Various aspects can be considered, depending on the exposure of the Venture to the Environment and whether a Legal Entity or a Business is covered. Examples include Corporate Structure (Investors/Holding Company), Capital Structure, Competitors, Regulators, Tax, Corporate Governance, ..
+  
 NB: Internal constraints and Policies are part of the Key Deliverable "ByLaws" from  Management Function Planning and can be discussed either there or  there. Aspects like Investors and Creditors are less relevant for Activities but more for the Venture. Strictly speaking Corporate Structure is a Finance as a Business Function topic, but for simplicity it is captured under Environment.
 
 ### Clients
@@ -1602,7 +1602,7 @@ For Organising the above sections on Activities, Groups and Staff may be suffici
 Controlling may be important, particularly if quality control and risk mitigation are deemed critical to the Venture. 
 
 ### How To Use
-The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.   
+The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.      
 The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission or Finance. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.  
 Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.    
 Therefore, for each Venture the focus will be on different aspects of the Profile Tree, and the manner in which they are described will be different in each case.
@@ -1610,71 +1610,179 @@ If the above is used for the Operating Model of an Activity within the Venture, 
 Once the Operating Model has been completed as a one-off it should be maintained regularly.
 ________________________________________
 ## COM (Framework)
-A Current Operating Model focuses on what the Operating Model is, and how that ties in to the Tactical Plan. It links *all* items of the Profile Tree and as such is actually *not limited* to Planning. A COM, a.k.a. Operational Plan is based on the Profile. 
-
-The Operating Model is explained above. Below follow alternative implementations.
-
-### COM 1
-Useful for Legal Entity (LE) level Operating Model.
-
-- Context  (similar to Exec Summary, can include history of LE)
-- Activities incl Goals and Objectives performed in the LE
-- Rules, Policies (a specific part of Environment) applicable to the LE
-- Corporate Structure explaining Management structure, Financing structure) partially embedded in Management 
-- Oversight a.k.a. Governance, Mostly Planning and Controlling part of Management.
-
-### COM 2
+A Current Operating Model focuses on what the Operating Model is used today. 
 ________________________________________
 ## TOM (Framework)
-The Target Operating Model or TOM is a *desired* version of the Current Operating Model. It is most often drawn up if sue to Projects the existing Routines are going to change such that the COM is not relevant anymore. A TOM is also actively pursued when there are new business initiatives, essentially creating new Routines. The same template as for COM can be used: [MGT: 80.Tools-OM-Template]
+The Target Operating Model or TOM is a *desired* version of the Current Operating Model. It is most often drawn up to see if Projects affect existing Routines. A TOM is actively pursued when there are new business initiatives, essentially creating new Routines. The same template as for COM can be used.
 ________________________________________
 ## CMM (Framework)
 A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: <https://www.tutorialspoint.com/cmmi/index.htm>.
 ________________________________________
-## BIA (Framework)
-Business Impact Assessment is a method that looks at the key Activities and Routines within a Venture and assesses the impact of them not being able to be performed anymore due to (partial) lack of:
-- Staff and/or
-- Assets and/or
-- Suppliers and/or
-
-The BIA expresses itself in terms of Services not delivered as a result of the partial lack of the above.
-________________________________________
-## TRA (Framework)
-A Threat and Risk Assessment formalises the type of Threats and the level of Risk such Threat poses to the Venture. The TRA can then be used combined with the BIA to provide a holistic overview of the various risk scenarios and the impact to the Venture. 
-________________________________________
-## Disaster Recovery (Framework)
-Disaster Recovery a.k.a. Resiliance is a conceptual framework that shapes the manner in which business Operations can continue even during internally or externally caused disasters. 
-
-### Disaster Recovery Overview
-The following setup is only relevant for Ventures that operate only with Data as a main asset (Banks, Insurance Companies, brokers, etc).
-
-### Conceptual Basic Production chain
-
-Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers
-
-In which:
-- User Apps are operated by Staff in a building
-- Srvr Apps are operational from a Data Centre (most often)
-- Suppliers can be used at various locations in the chain
-NB: Data (files, databases etc) are included in Srvr Apps
-
-### Conceptual Redundant Production Chain
-The following st4ucture represents a simplified redundant architecture:
-
-Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers ᵖʳⁱᵐᵃʳʸ
-Clients -> Staff -> User Apps -> Srvr Apps -> Suppliers ˢᵉᶜᵒⁿᵈᵃʳʸ
-
-In which:
-- Primary represents setups in main buildings 
-- Secondary represents a similar setup as Primary in secondary buildings
-
-Note that the above is not very realistic.
+## Business Continuity Management (Framework)
+Business Continuity Management (BCM) is a framework that shapes the manner in which business Operations can continue even during internally or externally caused *adverse conditions* a.k.a. *disasters*. The ability to continue is referred to as *recovery strength* or *resilience* and the processes involved in implementing and maintaining a *recovery plan* to continue operations is called Business Continuity Management.
   
-Source Data  Raw Data Prepped Data   Info  
-      ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
-                Collection  Preparation  Transformation  Disposal   
+Disaster Recovery for Data Driven Companies
+The following framework is relevant for companies that operate with Data as a main Asset which is the case for companies like banks, insurance, investment managers, brokers, etc. 
+   
+### Conceptual Framework
+To asses Resilience for Data Driven companies, a Conceptual Framework is used which considers the following:
+- Components
+- Stress Levels
+- Recovery Components
+- Connectivity between Components
+- Recovery Process
+- Scenario Analysis
+- Dimensions
+- Testing
+- Further Considerations
   
+These aspects will be discussed next.
+  
+### Components
+The Conceptual Framework supposes  a simple structure of a Data driven company, based on its key production Components as follows:
+  
+_____________________________________    
+|            Public Infra                                    
+|  
+|        Office   Suppliers 
+|          ⇗⇙     ⇘⇖  
+|           User Apps ⇆ Server Apps   
+|        ⇗⇙  
+| Clients ⇆ Staff 
+|  
+|_____________________________________  
 
+    Fig 1: Conceptual Framework
+   
+In which:  
+- Public Infra: train, metro, taxi, bus, railway, road, but also public internet incl. telephony and broadband. It encompasses everything else not mentioned below. 
+- Clients: although not in direct control of the company's recovery scope, being able to stay connected to clients is key for most companies 
+- Office: building where Staff work. Could be if home working is applicable for the Company.  
+- Staff: an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via broadband, WiFi, etc. Structurally, this also includes the psychological constraints (more on this later).
+- User Apps: Software running on a PC or Laptop and connecting to Server Apps.
+- Server Apps: core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also contain *Data* e.g., orders, contracts, transactions, referential, static data, procedures. 
+- Suppliers: e.g., exchanges, brokers, data vendors, but also building rentals (see below). 
+- ⇆, ⇗⇙: Network Components assuring *connectivity*, the components that link everything together: Routers, Switches, cabling, etc. 
+  
+The Public Infra is composed of a broad range of constructions and utilities that Staff can use to move from their home (or client, etc) to the Office and to connect to the public Internet.
+Staff rely on User Apps that either can operate stand-alone i.e., do not need Server Apps, or connect to Server Apps to perform the various Activities of the company. Server Apps include  the hardware to host business software, but also includes the hardware and basic operating systems to host databases, file servers etc. In other words, the Data in the conceptual framework is shown separate (for reasons explained later) but is located in Server Apps (hence the arrows to and from). Last but not least, Server Apps may consist of interconnected Hardware and Software although the conceptual framework does not show this. It may also be that Server Apps are actually provided by a Supplier within the control of that Supplier e.g., the company only gets the result from the Supplier into its User Apps! 
+Note that Server Apps in this framework are deemed in a different building than the Office. Often such building is called a Data Center, a specialised setup to host hardware and associated software and provided by a Supplier.
+  
+The Components in the above diagram are few. In reality, however, each Component has many *Sub-Components*. For example, there are many Staff, using many User Apps running (with each Staff having one or more PCs and/or Laptops). The Staff can operate from several floors in a single Office building or even across multiple Office buildings. The various User Apps connect to many Server Apps connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of details. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components.
+  
+### Stress Levels  
+From the above Conceptual Framework, it is easy to see that for day-to-day Operations, every component needs to be available and operating as expected. 
+Said differently, by (theoretically) *shocking* or *stressing* each component, an assessment can be made into the capacity of a company to sustain Operations, even if partially. Such assessment can also show what would be required to be able to *continue* or *recover* the Activities that make up all Operations. 
+  
+There are many ways to "stress" components. But the simplest way is to simply assume a component is either: 
+- Fully Available a.k.a. Business As Usual (BAU), 0% unavailable, 100% available
+- Partially Available, anything in between above and below e.g., 50% unavailable
+- Not Available, i.e., 0% available, 100% unavailable 
+  
+Such *Stress Levels* can be given a nr, a letter, a color, or just a label like a percentage. 
+  
+Are all Stress Levels actually possible? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or simply half of them went out together and got food poisoning). Similarly for Office, is it really possible to have an only 50% available office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For USer Apps a similar concepts can be applied, it may be that only a single User App is affected by a bug, and all other User Apps still work as normal, etc. As can be seen, in a larger company, where Component within the Conceptual Framework are composed of sub-components, it is very well possible to have Stress Levels of 50% or even more granular, like 10, 20, 30% etc. 
+  
+### Recovery Components
+Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resilience in a company's Operations is thus achieved through a full or partial secondary or full secondary setup as follows:
+  
+_____________________________________
+|            Public Infra   
+|                                 
+|            ᵖʳⁱᵐᵃʳʸ
+|        Office   Suppliers 
+|          ⇗⇙     ⇘⇖  
+|           User Apps ⇆ Server Apps   
+|        ⇗⇙  
+| Clients ⇆ Staff     
+|        ⇘⇖ 
+|          User Apps ⇆ Server Apps   
+|          ⇘⇖     ⇗⇙      
+|        Office   Suppliers       
+|            ˢᵉᶜᵒⁿᵈᵃʳʸ
+| 
+|_____________________________________  
+  
+    Fig 2: Resilient Components
+ 
+In which all components now appear twice except:
+- Public Infra: not in the control of the company, so it is deemed not redundant.  
+- Clients: not in control of the company. It is possible that some Clients have a redundant setup as well. However, from the company's perspective this is transparent.
+- Staff: companies do not keep spare Staff. This means that Staff is effectively a weak link in most resilient setups i.e., if somehow the Staff is not available Operations may effectively stop entirely! More on this later. 
+  
+The Components in the bottom part of the diagram are called Secondary User Apps, Secondary Office, etc. In the top part, the components are referred to as Primary i.e., Primary User Apps, Primary Office, etc. The Secondary components are often -but not always!- a direct copy of the Primary Components. Instead of Primary/Secondary other combos are used e.g., Primary/Backup. If production is up and running using Primary Components it is referred to as Business As Usual (BAU).
+  
+At this point, it is worthwhile reiterating that this is a *Conceptual Framework*. Modern technology has many forms of redundancy and some of such technologies simplify various aspects of the framework. Some of these simplifications will be discussed later. 
+  
+### Connectivity between Components
+There is some form of cross connectivity involved (but not shown in the diagram). For example, the User Apps in the top part may also be able to connect via a Network Component to the Server Apps in the bottom part. In such resilient setups a variety of Connections becomes possible:
+- Primary User Apps ⇆ Primary Office (BAU)
+- Primary User Apps  ⇆ Secondary Office (Staff connecting with remote access from backup office into User Apps in primary Office)
+- Secondary User Apps  ⇆ Primary Office (Staff connecting with remote access from the primary Office to User Apps in the secondary Office). 
+- Secondary User Apps  ⇆ Secondary Office 
+- Primary User Apps ⇆ Primary Server Apps (BAU)
+- Primary User Apps  ⇆ Secondary Server Apps 
+- Secondary User Apps ⇆ Primary Server Apps
+- Secondary User Apps ⇆ Secondary Server Apps
+- Primary Server Apps ⇆ Primary Suppliers (BAU)
+- Primary Server Apps ⇆ Secondary Suppliers 
+- Secondary Server Apps ⇆ Primary Suppliers
+- Secondary Server Apps ⇆ Secondary Suppliers
+  
+### Recovery Process 
+The process(es) involved in moving from Primary to Secondary can be very detailed, but conceptually it is limited to:
+- Analysis: establish which Primary Components are failing
+- Decision: assess best way to recover by *switching* the Primary Component to Secondary Components. Including the assessment whether it is worthwhile doing it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier stops providing the data at 17h00 it might not be worth doing any effort.  
+  
+This *switch* to Secondary Component can require:
+- Network changes e.g., DNS, changes, re-routing, disabling an active network
+- User App changes e.g., change of configuration files and reload or restart
+- Server App changes e.g., change of configuration files and reload (or restart)
+- Nothing e.g., the Secondary setup is effectively a so called hot-standby and will take over automatically as long as the Primary is 'declared' unavailable. 
+  
+### Scenarios
+Until so far no mention was made of the *reason* for one or more Component being partially or fully unavailable or in other words what the *cause* of some form of stress on a Component can be. Strictly speaking, the cause does not change the Recovery Process. However, assessing causes of stressed Components, allows for two things: a) identifying the (best estimate) probability a Component will endure such stress, and b) establish what the best course of action will be when it happens. This latter step culminates in the actual aforementioned recovery plan. 
+
+Each individual Component, and thus Sub-Component can have many different reasons to not be fully available. For example:
+- Staff can be unavailable due to sickness or an accident either directly or indirectly (family member). Or Staff can simply walk out on work e.g., a strike or resignation.
+- Hardware will fail at one point e.g., memory failure, cooling unit failure, disk failure, etc. This can impact both User Apps and Server Apps. 
+- Software can fail as a result of a bug, end of license. This can impact both User Apps and Server Apps. 
+- Offices can become inaccessible due to a strike in relation to the company or nonfunctional e.g. electricity outage.
+- Public Infra can become unavailable e.g. Public Transport Strike, 
+- Network components are composed of both Hardware and Software (see above) and in addition, the cabling used between the Network components may be cut accidentally.  
+  
+Depending on the resources available to perform Business Continuity Management it may not be feasible to spend time on all possible causes of unavailability. However, what is often worth establishing is so called *Disaster Scenarios*, in short Scenarios. A Scenario represents an Event (with a certain probability) which *regroups* various causes. Typical scenarios are:
+- Business As Usual (BAU), which serves as the baseline scenario against which all other scenarios can be measured. 
+- Climate events e.g., cyclone, earthquake including resulting tsunami causing flooding. This can affect Public Infra, Office, Server Apps (specifically the building from which the Server Apps operate) as well as Networks
+- Strikes. These can affect Office access, Supplier services and potentially lack of Staff (if the Strike is performed or contributed to by Staff!)
+- Pandemics like the 2019 Covid pandemic. This can affect Staff directly (they get sick) or indirectly (the Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
+- Wars including terrorist attacks. These may impact all aspects of the Conceptual Framework. 
+- Cyber Attack: various forms of cyber attack (ransomware, data theft, ...) which can affect User Apps and Server Apps and/or Suppliers.
+  
+By looking at broad-brush Scenarios, it is possible to focus on events that will affect a broad range of Components and perform the Analysis and Decision in advance of the actual event happening across all Components.
+  
+### Dimensions
+As can be seen from the above, the Conceptual Framework gives the appearance of a simple process to establish a Recovery Plan. However, as mentioned earlier, the simplifications in the Conceptual Framework, although improving understanding of the concepts involved, obscure the complexity introduced by the various *dimensions* of designing a recovery plan for Operations of a Company. These dimensions are at least the following:
+- Sub-Components per Component (SC) 
+- Connectivity Paths (CP) between Sub-Components
+- Stress Levels (SL) applicable to each Sub-Component
+  
+Further dimensions can be added, if a Company is operating out of different Countries with similar Operations and Components or interdependent Components across a transversal set of Operations. In other words, Country or Region can become a Dimension:
+- Country (C)
+  
+Establishing plans becomes quickly very difficult. For example a company operating across 2 countries with 3 different floors in each country, with 20 User Apps and 20 Server Apps with provision of 20 Supplier services with 3 different Stress Levels and assuming that 200 Staff operate across those 2 Countries.    
+  
+### Testing
+The assessment of the Scenarios, Analysis of the Scenario impacts and planned Decisions to remediate the impacts remains theoretic. In order for a Company's Management to be confident that the Recovery Plan could work, it has to be tested, and this needs to be done frequently given that the Operational setup of most companies changes. 
+  
+### Further Considerations
+As mentioned before, more granular Stress Levels of availability (or unavailability) can be devised e.g., 10%, 20% available etc., but that does not change the approach discussed here. In addition, although theoretically granularity may give an illusion of accuracy, the practicality of such granular Stress Levels remains is doubtful. 
+    
+No consideration was given to Staff. In the above framework, Staff is deemed available a a single resilient level as opposed to for example User Apps which can have a primary and secondary instance. However, in reality, the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics or War in which Staff can be affected up to no availability. 
+  
+No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date. 
+  
+The above model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components. 
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
@@ -2998,7 +3106,7 @@ There are 4 levels of Objects (top) and 4 Processes (bottom) interacting with ea
   
 Source Data  Raw Data Prepped Data   Info  
       ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
-                Collection  Preparation  Transformation  Disposal   
+     Collection Preparation Transformation Disposal   
   
 Source Data
 Data is stored in various locations and formats (files, databases,...). This original set of Data is referred to as the Source Data and it is the start of the D2I Cycle. Each Source Data has a Source Data Owner. 
@@ -3952,6 +4060,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20250606
 - Addition of [## Disaster Recovery] in [# PLANNING]
+
+### 20250629
+- Renaming [## Disaster Recovery] to [## Business Continuity Management] and update the entire L2 level with details
 
 ### Planned
 
