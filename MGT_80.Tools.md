@@ -1642,15 +1642,15 @@ These aspects will be discussed next.
 The Conceptual Framework supposes  a simple structure of a Data driven company, based on its key production Components as follows:
   
 _____________________________________    
-|            Public Infra                                    
-|  
-|        Office   Suppliers  
-|          ⇗⇙     ⇘⇖  
-|           User Apps ⇆ Server Apps  
-|        ⇗⇙  
-| Clients ⇆ Staff  
-|  
-|_____________________________________  
+             Public Infra                                    
+   
+         Office   Suppliers  
+           ⇗⇙     ⇘⇖  
+            User Apps ⇆ Server Apps  
+         ⇗⇙  
+  Clients ⇆ Staff  
+   
+_____________________________________  
 
     Fig 1: Conceptual Framework
    
@@ -1687,21 +1687,21 @@ Are all Stress Levels actually possible? Take for example Staff. Is a single per
 Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resilience in a company's Operations is thus achieved through a full or partial secondary or full secondary setup as follows:
   
 _____________________________________
-|            Public Infra  
-|  
-|            ᵖʳⁱᵐᵃʳʸ  
-|        Office   Suppliers  
-|          ⇗⇙     ⇘⇖  
-|           User Apps ⇆ Server Apps  
-|        ⇗⇙  
-| Clients ⇆ Staff     
-|        ⇘⇖  
-|          User Apps ⇆ Server Apps  
-|          ⇘⇖     ⇗⇙      
-|        Office   Suppliers  
-|            ˢᵉᶜᵒⁿᵈᵃʳʸ  
-|   
-|_____________________________________  
+             Public Infra  
+   
+             ᵖʳⁱᵐᵃʳʸ  
+         Office   Suppliers  
+           ⇗⇙     ⇘⇖  
+            User Apps ⇆ Server Apps  
+         ⇗⇙  
+  Clients ⇆ Staff     
+         ⇘⇖  
+           User Apps ⇆ Server Apps  
+           ⇘⇖     ⇗⇙  
+         Office   Suppliers  
+             ˢᵉᶜᵒⁿᵈᵃʳʸ  
+   
+_____________________________________  
   
     Fig 2: Resilient Components
  
