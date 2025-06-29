@@ -1694,7 +1694,7 @@ _____________________________________
            ⇗⇙     ⇘⇖  
             User Apps ⇆ Server Apps  
          ⇗⇙  
-  Clients ⇆ Staff     
+  Clients ⇆ Staff  
          ⇘⇖  
            User Apps ⇆ Server Apps  
            ⇘⇖     ⇗⇙  
