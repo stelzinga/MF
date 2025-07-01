@@ -1619,13 +1619,13 @@ ________________________________________
 A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: <https://www.tutorialspoint.com/cmmi/index.htm>.
 ________________________________________
 ## Business Continuity Management (Framework)
-Business Continuity Management (BCM) is a framework that shapes the manner in which business Operations can continue even during internally or externally caused *adverse conditions* a.k.a. *disasters*. The ability to continue is referred to as *recovery strength* or *resilience* and the processes involved in implementing and maintaining a *recovery plan* to continue operations is called Business Continuity Management.
+Business Continuity Management (BCM) is a framework that establishes the manner in which business Operations can continue even during internally or externally caused *adverse conditions* a.k.a. *disasters*. The ability to continue is referred to as *recovery strength* or *resilience* and thus the processes involved in implementing and maintaining a *recovery plan* to continue operations is called Business Continuity Management.
   
-Disaster Recovery for Data Driven Companies
+Business Continuity for Data Driven Companies
 The following framework is relevant for companies that operate with Data as a main Asset which is the case for companies like banks, insurance, investment managers, brokers, etc. 
    
 ### Conceptual Framework
-To asses Resilience for Data Driven companies, a Conceptual Framework is used which considers the following:
+To asses Resilience for Data driven companies, a Conceptual Framework is used which considers the following:
 - Components
 - Stress Levels
 - Recovery Components
@@ -1633,21 +1633,24 @@ To asses Resilience for Data Driven companies, a Conceptual Framework is used wh
 - Recovery Process
 - Scenario Analysis
 - Dimensions
+- Data
+- Urgency
 - Testing
 - Further Considerations
+- Cost
   
 These aspects will be discussed next.
   
 ### Components
 The Conceptual Framework supposes  a simple structure of a Data driven company, based on its key production Components as follows:
   
-_____________________________________    
-             Public Infra                                    
-   
+_____________________________________
+          Public Infra  
+  
          Office   Suppliers  
-           ⇗⇙     ⇘⇖  
-            User Apps ⇆ Server Apps  
-         ⇗⇙  
+           ⇗⇙     ⇘⇖  
+           User Apps  ⇆  Server Apps  
+         ⇗⇙      (incl Data)  
   Clients ⇆ Staff  
    
 _____________________________________  
@@ -1659,8 +1662,8 @@ In which:
 - Clients: although not in direct control of the company's recovery scope, being able to stay connected to clients is key for most companies 
 - Office: building where Staff work. Could be if home working is applicable for the Company.  
 - Staff: an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via broadband, WiFi, etc. Structurally, this also includes the psychological constraints (more on this later).
-- User Apps: Software running on a PC or Laptop and connecting to Server Apps.
-- Server Apps: core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also contain *Data* e.g., orders, contracts, transactions, referential, static data, procedures. 
+- User Apps:Software running on Hardware i.e., a PC or Laptop and connecting to Server Apps.
+- Server Apps: core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also include *Data* e.g., orders, contracts, transactions, referential, static data, procedures. 
 - Suppliers: e.g., exchanges, brokers, data vendors, but also building rentals (see below). 
 - ⇆, ⇗⇙: Network Components assuring *connectivity*, the components that link everything together: Routers, Switches, cabling, etc. 
   
@@ -1668,7 +1671,7 @@ The Public Infra is composed of a broad range of constructions and utilities tha
 Staff rely on User Apps that either can operate stand-alone i.e., do not need Server Apps, or connect to Server Apps to perform the various Activities of the company. Server Apps include  the hardware to host business software, but also includes the hardware and basic operating systems to host databases, file servers etc. In other words, the Data in the conceptual framework is shown separate (for reasons explained later) but is located in Server Apps (hence the arrows to and from). Last but not least, Server Apps may consist of interconnected Hardware and Software although the conceptual framework does not show this. It may also be that Server Apps are actually provided by a Supplier within the control of that Supplier e.g., the company only gets the result from the Supplier into its User Apps! 
 Note that Server Apps in this framework are deemed in a different building than the Office. Often such building is called a Data Center, a specialised setup to host hardware and associated software and provided by a Supplier.
   
-The Components in the above diagram are few. In reality, however, each Component has many *Sub-Components*. For example, there are many Staff, using many User Apps running (with each Staff having one or more PCs and/or Laptops). The Staff can operate from several floors in a single Office building or even across multiple Office buildings. The various User Apps connect to many Server Apps connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of details. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components.
+The Components in the above diagram are few. In reality, however, *each* Component has most often many *Sub-Components*. For example, a Company may operate out of two countries meaning two different Public Infras. In most cases there are  many Staff, using many User Apps running (with each Staff having one or more PCs and/or Laptops). The Staff can operate from several floors in a single Office building or even across multiple Office buildings. The various User Apps connect to many Server Apps connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of details. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components.
   
 ### Stress Levels  
 From the above Conceptual Framework, it is easy to see that for day-to-day Operations, every component needs to be available and operating as expected. 
@@ -1684,30 +1687,31 @@ Such *Stress Levels* can be given a nr, a letter, a color, or just a label like 
 Are all Stress Levels actually possible? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or simply half of them went out together and got food poisoning). Similarly for Office, is it really possible to have an only 50% available office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For USer Apps a similar concepts can be applied, it may be that only a single User App is affected by a bug, and all other User Apps still work as normal, etc. As can be seen, in a larger company, where Component within the Conceptual Framework are composed of sub-components, it is very well possible to have Stress Levels of 50% or even more granular, like 10, 20, 30% etc. 
   
 ### Recovery Components
-Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resilience in a company's Operations is thus achieved through a full or partial secondary or full secondary setup as follows:
+Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resilience in a company's Operations is thus achieved through a full or partial secondary setup as follows:
   
 _____________________________________
-             Public Infra  
+          Public Infra  
    
-             ᵖʳⁱᵐᵃʳʸ  
+            primary
+  
          Office   Suppliers  
-           ⇗⇙     ⇘⇖  
-            User Apps ⇆ Server Apps  
-         ⇗⇙  
+           ⇗⇙     ⇘⇖  
+           User Apps  ⇆  Server Apps  
+         ⇗⇙      (incl Data)  
   Clients ⇆ Staff  
-         ⇘⇖  
-           User Apps ⇆ Server Apps  
+         ⇘⇖      (incl Data)  
+         User Apps  ⇆  Server Apps  
            ⇘⇖     ⇗⇙  
          Office   Suppliers  
-             ˢᵉᶜᵒⁿᵈᵃʳʸ  
-   
+  
+            secondary   
 _____________________________________  
   
     Fig 2: Resilient Components
  
 In which all components now appear twice except:
 - Public Infra: not in the control of the company, so it is deemed not redundant.  
-- Clients: not in control of the company. It is possible that some Clients have a redundant setup as well. However, from the company's perspective this is transparent.
+- Clients: not in control of the company. It is possible that some Clients have a resilient setup as well. However, from the company's perspective this is transparent.
 - Staff: companies do not keep spare Staff. This means that Staff is effectively a weak link in most resilient setups i.e., if somehow the Staff is not available Operations may effectively stop entirely! More on this later. 
   
 The Components in the bottom part of the diagram are called Secondary User Apps, Secondary Office, etc. In the top part, the components are referred to as Primary i.e., Primary User Apps, Primary Office, etc. The Secondary components are often -but not always!- a direct copy of the Primary Components. Instead of Primary/Secondary other combos are used e.g., Primary/Backup. If production is up and running using Primary Components it is referred to as Business As Usual (BAU).
@@ -1728,17 +1732,19 @@ There is some form of cross connectivity involved (but not shown in the diagram)
 - Primary Server Apps ⇆ Secondary Suppliers 
 - Secondary Server Apps ⇆ Primary Suppliers
 - Secondary Server Apps ⇆ Secondary Suppliers
-  
+   
 ### Recovery Process 
 The process(es) involved in moving from Primary to Secondary can be very detailed, but conceptually it is limited to:
 - Analysis: establish which Primary Components are failing
-- Decision: assess best way to recover by *switching* the Primary Component to Secondary Components. Including the assessment whether it is worthwhile doing it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier stops providing the data at 17h00 it might not be worth doing any effort.  
-  
-This *switch* to Secondary Component can require:
+- Decision: assess best way to recover by *switching* the Primary Component to Secondary Components. 
+   
+This *switch* to Secondary Component can require different steps:
 - Network changes e.g., DNS, changes, re-routing, disabling an active network
 - User App changes e.g., change of configuration files and reload or restart
-- Server App changes e.g., change of configuration files and reload (or restart)
+- Server App changes e.g., change of configuration files and reload (or restart). This also includes performing a restoration of Data. 
 - Nothing e.g., the Secondary setup is effectively a so called hot-standby and will take over automatically as long as the Primary is 'declared' unavailable. 
+  
+The decision should assess whether it is worthwhile recovering a component it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier stops providing the data at 17h00 and the average data update might be every 30 minutes it seems not be worth doing any effort. The decision should also consider the speed at which the above mentioned recovery steps can be achieved. If the sum of all steps to recover a Component takes 30 minutes then that may be too long, see also Urgency below.  
   
 ### Scenarios
 Until so far no mention was made of the *reason* for one or more Component being partially or fully unavailable or in other words what the *cause* of some form of stress on a Component can be. Strictly speaking, the cause does not change the Recovery Process. However, assessing causes of stressed Components, allows for two things: a) identifying the (best estimate) probability a Component will endure such stress, and b) establish what the best course of action will be when it happens. This latter step culminates in the actual aforementioned recovery plan. 
@@ -1772,17 +1778,26 @@ Further dimensions can be added, if a Company is operating out of different Coun
   
 Establishing plans becomes quickly very difficult. For example a company operating across 2 countries with 3 different floors in each country, with 20 User Apps and 20 Server Apps with provision of 20 Supplier services with 3 different Stress Levels and assuming that 200 Staff operate across those 2 Countries.    
   
+### Data
+So far little has been mentioned about Data. Data is assumed to be included in Server Apps in the Conceptual Framework. This is practically correct: the Data used by User Apps is available on Server Apps. However, Data driven Companies need to consider Data *corruption*. That is to say, the infrastructure and software that use that Data function as BAU but the Data itself is (partially) missing and/or the content has been incorrectly updated. As such, Companies often make, and keep, of copy of their Data, potentially at a secured location, at frequent intervals to be able to put back a *last known correct* version of the Data on the Server Apps. A copy kept for a certain time are called *backup*.  
+  
+### Urgency
+So far the conceptual framework has not discussed the desirable speed at which recovery should or can be achieved. There are various metrics used in BCM to establish the time a Recovery can take before Operations continue. Two recurring terms are RTO and RPO. Recovery Time Objective is the desired *timespan* within which a Component is recovered. Recovery Point Objective states the *point in time* in from which Data needs to be available for Operations to continue without noticeable impact. Practically speaking, RPO deals with how frequent backups of Data are made, how long backups take. RTO deals with how long it takes to switch to a secondary component including putting back a backup. Shorter RTOs and tight RPOs mean that the Recovery Processes need to be more optimal, which comes at a Cost (see below). 
+  
 ### Testing
-The assessment of the Scenarios, Analysis of the Scenario impacts and planned Decisions to remediate the impacts remains theoretic. In order for a Company's Management to be confident that the Recovery Plan could work, it has to be tested, and this needs to be done frequently given that the Operational setup of most companies changes. 
+The assessment of the Scenarios, Analysis of the Scenario impacts and planned Decisions to remediate the impacts remains theoretic. In order for a Company's Management to be confident that the Recovery Plan could work, it has to be tested, and this needs to be done frequently given the Operational setup of most companies changes. 
   
 ### Further Considerations
 As mentioned before, more granular Stress Levels of availability (or unavailability) can be devised e.g., 10%, 20% available etc., but that does not change the approach discussed here. In addition, although theoretically granularity may give an illusion of accuracy, the practicality of such granular Stress Levels remains is doubtful. 
     
-No consideration was given to Staff. In the above framework, Staff is deemed available a a single resilient level as opposed to for example User Apps which can have a primary and secondary instance. However, in reality, the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics or War in which Staff can be affected up to no availability. 
-  
-No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date. 
-  
+No consideration was given to Staff. In the above framework, Staff is deemed available a a single resilient level as opposed to for example User Apps which can have a primary and secondary instance. However, in reality, the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics or War in which Staff can be affected up to no availability. For Companies with Offices in several Countries it may be considered to have cross-country resilience with the Staff performing Operations split across different Countries. This potentially brings its own challenges and thus Cost. 
+    
 The above model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components. 
+  
+The above assumes the Company decides on how whether they will be able to recover and how urgent this recovery is. However, depending on the Sector a Company operates in, rules and regulations may require various aspects of the Company's resilience. This is typically the case for Banks, which are deemed to uphold the economy on a Country for example. 
+  
+### Cost
+No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date, the cost of maintaining potentially many backups of Data secured, the Cost of optimising the Recovery Process -which may include purchase of better Sub-Components- to make it faster, etc. 
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
@@ -4061,7 +4076,7 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20250606
 - Addition of [## Disaster Recovery] in [# PLANNING]
 
-### 20250629
+### 20250701
 - Renaming [## Disaster Recovery] to [## Business Continuity Management] and update the entire L2 level with details
 
 ### Planned
