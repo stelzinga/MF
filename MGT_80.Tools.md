@@ -10,6 +10,7 @@ General
 - Disclaimer
 - Notes
 - Information
+- Profile Tree Numbering
 
 Management Functions 
 - Management
@@ -331,6 +332,85 @@ ________________________________________
 
 ### POLC
 <https://saylordotorg.github.io/text_international-business/s14-05-managing-the-international-bus.html> 
+________________________________________
+## Profile Tree Numbering
+From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories): 
+  
+- 00.Management  
+    - 01.Planning  
+        - 01.01.Context  
+        - 01.02.Purpose  
+        - 01.03.Vision  
+        - 01.04.Mission  
+        - 01.05.Values  
+        - 01.06.Bylaws  
+        - 01.07.SWOT  
+        - 01.08.Goals  
+        - 01.09.Objectives  
+        - 01.10.Tasks  
+        - 01.11.Benchmark  
+        - 01.12.Strategic Plan  
+        - 01.13.Tactical  Plan  
+        - 01.14.Operational Plan  
+        - 01.15.Intel  
+    - 02.Organising  
+        - 02.01.Activities  
+        - 02.02.Groups  
+        - 02.03.Roles & Responsibilities  
+        - 02.04.Casting  
+    - 03 Leading  
+        - 03.01.Safe Space  
+        - 03.02.Direction  
+        - 03.03.Collaboration  
+        - 03.04.Motivation  
+        - 03.05.Inspiration
+        - 03.06.Learning  
+        - 03.07.Networking  
+        - 03.08.Leaders  
+        - 03.09.Management Improvement  
+    - 04.Controlling  
+        - 04.01.Journal  
+        - 04.02.Supervision  
+        - 04.03.Reports  
+        - 04.04.Monitoring  
+- 10.Operations  
+    - 11. Processes  
+        - 11.01 Run  
+        - 11.02 Change  
+    - 12.Resources  
+        - 12.01.Staff  
+        - 12.02.Suppliers  
+        - 12.03.Assets  
+        - 12.04.Liabilities   
+        - 12.05.Equity  
+    -13.Results
+        - 13.01.Revenue
+        - 13.02.Cost
+        - 13.03.Risk
+- 20.Services
+- 30.Clients 
+- 40.Environment
+    
+and the Business Functions in the 50 range: 
+    
+- 50.Business Functions
+    - 51.Finance
+    - 52.HR
+    - 53.IT
+    - 54.Risk
+    - 55.Compliance
+    - 56.CorpSec (Legal, tax)
+    - 57.Procurement
+    - 58.Marketing & Communications
+    - 59.Other (Marketing, ...)
+    
+with Tools numbered as:
+  
+- 80.Tools 
+  
+The Legend, which contains the Profile as overarching Framework, has the highest number in the naming convention: 99.Legend. 
+    
+Using numbers allows having a numbering with sub-numbers e.g., "02.01.Activities" as first deliverable within 02.Organising which yields 02.01.Activities. This allows effectively building a hierarchy of notes that follow something akin to the "Dewey Decimal Classification" (refer to Wikipedia for more details). 
 
 
 *********************************************
@@ -1710,7 +1790,7 @@ _____________________________________
     Fig 2: Resilient Components
  
 In which all components now appear twice except:
-- Public Infra: not in the control of the company, so it is deemed not redundant.  
+- Public Infra: not in the control of the company, so it is deemed not resilient.  
 - Clients: not in control of the company. It is possible that some Clients have a resilient setup as well. However, from the company's perspective this is transparent.
 - Staff: companies do not keep spare Staff. This means that Staff is effectively a weak link in most resilient setups i.e., if somehow the Staff is not available Operations may effectively stop entirely! More on this later. 
   
@@ -4078,6 +4158,10 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20250701
 - Renaming [## Disaster Recovery] to [## Business Continuity Management] and update the entire L2 level with details
+
+
+### 20250803
+- Added [## Profile Tree Numbering]
 
 ### Planned
 
