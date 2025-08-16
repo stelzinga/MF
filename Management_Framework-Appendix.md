@@ -1671,7 +1671,7 @@ Note that if a Trend is deemed important it may lead to a dedicated Projects or 
 Organising is the second Management Function and is concerned with defining the organisational structure required to execute the Plan. It aims at defining *how is it to be done*.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Organising]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework ## Organising]. On L2 are the Tools:
 - Activities
     - Activities Definition
     - MSS, see [## MSS]]
@@ -1960,7 +1960,7 @@ Another weakness is that Consulted and Informed are not well defined: do those p
 Leading involves processes to drive those *who do it*. This third Management Function assures Staff perform tasks as per Planning and within the Organisation using Leadership principles.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Leading]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework ## Leading]. On L2 are the Tools:
 - Safe Space
     - Communication
     - Listening
@@ -2275,7 +2275,7 @@ ________________________________________
 Controlling involves Processes to establish *how well it was done*.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Controlling]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework ## Controlling]. On L2 are the Tools:
 - Journal
     - Journalling
     - BuJo
@@ -2568,13 +2568,7 @@ Committees tend to not manage day-to-day of a Company or more generally the need
 There are exceptions to this. For example, some situations require super-short term senior management decisions. This is the case in crisis situations in which a Crisis Committee or equivalent can be raised without any preparation. Such Committees allow having senior people available to make Decisions affecting a wide and deep scope of a Venture. 
 ________________________________________
 ## BOD (Framework)
-The Board of Directors is an efficient tool for oversight and delegation.
-
-### BOD Research
-By hbr:
-~/data_public_study_HBR_BOD_Are_You_Ready_to_Serve_on_a_Board.pdf
-~/data_public_study_HBR_BOD_Proactive_Questions_Every_Board_Member_Should_Be_Asking_.pdf
-~/data_public_study_HBR_BOD_the_boards_most_important_function.pdf
+The Board of Directors is an efficient tool for oversight and delegation. 
 ________________________________________
 ## MBO (Framework)
 @@@
@@ -2602,7 +2596,7 @@ The expected output is:
 1. Updated Routines (Tasks)
 2. Updated Projects (mostly AO, potentially BO, OO)
 3. Concerns / updates w/r to personal progress
-4. Concerns / udpates w/r to business progress
+4. Concerns / updates w/r to business progress
 
 The process of setting up and running a meeting is:
 - Have Staff setup a recurring meeting with manager
@@ -2684,7 +2678,7 @@ ________________________________________
 Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
 
 When setting up a Self-Contained Mail system, assume that the Receiver of the mail: 
-- is completly unaware of why he/she receives such Mail;
+- is completely unaware of why he/she receives such Mail;
 - has little knowledge of the Activity(ies) the Check is relevant to.  
 
 The following are guidelines on how to set this up:
@@ -2694,14 +2688,14 @@ The following are guidelines on how to set this up:
 
 The first step is documented in [## Check Standard].  
 
-The second step is organising the content such that the Receiver has all information requried to make an assessment. The content itself does not need to be in the mail. It could be presented in another location e.g., a clickable URL. The suggested content is as follows (in order):
+The second step is organising the content such that the Receiver has all information required to make an assessment. The content itself does not need to be in the mail. It could be presented in another location e.g., a clickable URL. The suggested content is as follows (in order):
 - Purpose
 - Analysis -> shows whether there are breaches or not
 - Appendix
     - Baseline
-    - Measurement -> description of how Measurmeent is performed, not the Data 
+    - Measurement -> description of how Measurement is performed, not the Data 
     - Comparison
-    - Remedation -> notably Possible Remediation
+    - Remediation -> notably Possible Remediation
     - SME -> whom to reach out to in case of questions
   
 The third step is implementing a logic to show to the Receiver which Urgency and type of Check the mail represents . Below follows a possible implementation:
@@ -2710,7 +2704,7 @@ The third step is implementing a logic to show to the Receiver which Urgency and
 - CRITICAL xxx   
   
 In which:  
-- xxx = short decription of the Check
+- xxx = short description of the Check
 - INFO = no breaches were found
 - WARNING = breaches were found
 - CRITICAL = check could not run at all
@@ -2726,7 +2720,7 @@ Reporting is conceptually simple, but not always easy to implement because:
 - Data is not always available at the time of writing a Report.
 
 ### Management Report
-The Management Report focusses on the Managerial 7. There are different ways to report the various facts, depending on: 
+The Management Report focuses on Revenue, Cost, Risk and the Run and Change that achieved it. There are different ways to report the various facts, depending on: 
 a. Frequency at which Report is needed
 b. Frequency at which data is produced 
 c. Need for that data to be reported. 
@@ -2736,11 +2730,11 @@ c. Need for that data to be reported.
 
 1. Revenue
 - Actuals: YTD, MTD, WTD, Trends, Avgs, vs Y-1, budget etc.
-- Exceptionals: unexpected or exceptional Revenues or lack thereof 
+- Exceptional: unexpected or exceptional Revenues or lack thereof 
 
 2. Costs
 - Actuals: YTD, MTD, WTD, Trends, Avgs, vs Y-1, budget etc.
-- Exceptionals: unexpected or exceptional Costs or lack thereof 
+- Exceptional: unexpected or exceptional Costs or lack thereof 
 
 3. Risk
 - Actuals: dependent on the sector the Venture operates in. 
@@ -2851,7 +2845,7 @@ Information should abide by the following criteria:
 # BUSINESS FUNCTIONS - FINANCE
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Finance]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework ## Finance]. On L2 are the Tools:
 - Accounting
     - Bookkeeping
     - Financial Reporting
@@ -2874,33 +2868,32 @@ This equation essentially represents the Balance Sheet. Assets are abbreviated A
 
 The equation thus becomes:  
 
-			A = L + OE
+    A = L + OE
 
 OE can be rewritten as:  
 
     OE = Stock + Retained Earnings 
 
-In which: 
-Retained Earnings = Revenue - Expenses - Dividends (or Drawings if it is a sole proprietorship). This can be rewritten as OE = R - E - D.
-Common Stock, abbreviated as S a.k.a. Contributed Capital, Share Capital = initially invested money by owners in the form of Capital (see below). Mostly this is Cash, but can also be Assets like a building (although that is rare in the case of listed companies). 
-
+In which:   
+- Retained Earnings = Revenue - Expenses - Dividends (or Drawings if it is a sole proprietorship). This can be rewritten as OE = R - E - D.
+- Common Stock, abbreviated as S a.k.a. Contributed Capital, Share Capital = initially invested money by owners in the form of Capital (see below). Mostly this is Cash, but can also be Assets like a building (although that is rare in the case of listed companies). 
+  
 Substitution of the first above in the Accounting Equation yields the *Expanded Accounting Equation*:
   
     A = L + S + R - E - D
-  
-    Assets = Liabilities + Stock + Revenues - Expenses 
-     - Dividends
+    
+    Assets = Liabilities + Stock + Revenues - Expenses - Dividends
 
 Or written differently:
-
- Revenue + Liabilities + Stock 
- = 
- Asset + Expenses + Dividends 
-
+  
+ Revenue + Liabilities + Stock   
+ =   
+ Asset + Expenses + Dividends   
+  
 or written differently
-
+  
  R + L + S =  A + E + D
-
+  
 Revenue, Expense and Dividend accounts are 'temporary' accounts. They need to be closed at the end of each reporting period, a.k.a. Financial Year.
 Assets, Liabilities and Equity accounts are 'permanent' accounts. The ending balances in these accounts determine the starting balance as the start of the next Financial Year. 
 
@@ -2918,39 +2911,39 @@ Depending on the accounts associated to the Dr and Cr it will be construed as an
 
 Some examples:
 
-Sale of goods produced and paid in Cash
-Dr Cash   934.50       # asset increase
- Cr Sales   934.50   # revenue increase
-
-Purchase of food 
-Dr Food   120.25        # expense increase
- Cr Cash   120.25     # asset decrease
-
-Investment in an asset 
-Dr fixed asset 450.00       # asset increase
- Cr cash    450.00  # asset decrease
-
-Purchase of pens on credit card (a form of Payables account, a liability)
-Dr office supplies 23.20     # expense increase
-    Cr credit card   23.20  # liability increase
-
-Monthly credit card payment
-Dr credit card 230.00       # liability decreased
-    Cr cash    230.00    # cash has decreased
+Sale of goods produced and paid in Cash  
+Dr Cash    934.50  # asset increase  
+ Cr Sales    934.50 # revenue increase  
+  
+Purchase of food   
+Dr Food    120.25  # expense increase  
+ Cr Cash    120.25 # asset decrease  
+  
+Investment in an asset   
+Dr fixed asset 450.00  # asset increase  
+ Cr cash    450.00 # asset decrease  
+  
+Purchase of pens on credit card (a form of Payables account, a liability)  
+Dr office supplies 23.20  # expense increase  
+ Cr credit card   23.20  # liability increase   
+  
+Monthly credit card payment   
+Dr credit card 230.00  # liability decreased
+ Cr cash    230.00 # cash has decreased
 
 ### Book Keeping Ledger
 Whereas Journal entries show the use of accounts scattered across a single place (the Journal) but with details of the transaction, the Ledger shows each account with all the Dr and Cr to that account and thus the net result. They tend to be shown in so called T accounts in paper versions with the Dr on the left and the Cr on the right side e.g. for the cash account in above trasnactions:
 
    Cash
-_________________
+_ _ _ _ _ _ _ _ _ _ _ _ 
 934.50 |     
-    |    120.25
-    |    450.00
-    |
-
+    |    120.25   
+    |    450.00  
+    |  
+  
 ### Book Keeping Process 
 The bookkeeping process has specific steps to yield the Financial Statements for Financial Reporting, see next section. 
-
+  
 1. Collect Financial Transactions
 2. Write Financial Transactions in Journal using Journal Entries
 3. Post Journal Entries to relevant Accounts in Ledger
@@ -2966,100 +2959,95 @@ Note that Income Statement, Balance Sheet and Statement of Cash flow follow dire
 - Cash Flow Statement: Cash Account (an Asset Account)
 
 ### Equity vs Capital
-Strictly Speaking the difference between Capital and Equity was explained in [MGT: 99. Legend ## Equity]. But as mentioned there, sometime different definitions are used.
+Strictly Speaking the difference between Capital and Equity was explained in [MGT: 99. Legend ## Equity]. But as mentioned there, sometime different definitions are used.  
+  
+Equity is the amount of money shareholders get if all assets are liquidated and all liabilities are paid off.  
+Capital is the amount of money available to spend.  
+Capital is a sub-category of Equity by the above definition.   
 
-Equity is the amount of money shareholders get if all assets are liquidated and all liabilities are paid off.
-Capital is the amount of money available to spend.
-Capital is a sub-category of Equity by the above definition. 
+In regulations Capital is used slightly differently as well:   
+Tier 1 Capital = Shareholder Equity + Disclosed Reserves  
+Tier 2 Capital = Undisclosed Reserves = Reval Reserves + Provisions + Subordinated debt.  
 
-In regulations Capital is used slightly differently as well: 
-Tier 1 Capital = Shareholder Equity + Disclosed Reserves
-Tier 2 Capital = Undisclosed Reserves = Reval Reserves + Provisions + Subordinated debt.
-
-### Book Keeping Accounts
+### Book Keeping Accounts  
 There are various account types used in accounting. Some are quite standard.
-
-Receivables & Payables
-Receivables is a form of Asset Account that reflects Cash to be received in the future. This occurs for example when Sales are done on credit, i.e. a customer purchases a Service or Product on credit. Ultimately, when the cash gets paid, the Cash account is debited, and the Payable account is credited. 
-Payables are similar, but on the Liabilities side. Payables reflect account types in which the Venture needs to pay Cash in the future. Once a Payable is paid, the Cash account is Credited and the Payables account is debited. 
-
-Reserves & Provisions 
-Reserves are a lability (counter-asset) that reflects amounts that are essentially an appropriation of profit for future *unexpected* losses or expenses.
-Provisions are amounts set aside to meet *expected* losses or expenses. So both are for future use, but one is for unknown events, the other for known events.
-
-The journal entries would be the following:
-
-Reserve for a future cost of fixed asset in M USD
-Dr Expense 123.00      # earnings decreased
-   Cr Reserve  123.00   # increase of reserve
-
-Provision
-Dr Expense  123.00  
- Cr Provision  123.00
-
-Once the expense for which a Reserve was made has been made, things get reversed. For example if the final cost of the fixed asset turned out to be 120 M USD two years later we get:
-
-Dr Fixed asset 120. 00      # actual value of asset
- Cr Cash    120.00  # paid for in cash
-
-Dr Reserve  123.00      # reversal  
- Cr Expense  123.00   # reversal 
-
+  
+Receivables & Payables  
+Receivables is a form of Asset Account that reflects Cash to be received in the future. This occurs for example when Sales are done on credit, i.e. a customer purchases a Service or Product on credit. Ultimately, when the cash gets paid, the Cash account is debited, and the Payable account is credited.   
+Payables are similar, but on the Liabilities side. Payables reflect account types in which the Venture needs to pay Cash in the future. Once a Payable is paid, the Cash account is Credited and the Payables account is debited.   
+  
+Reserves & Provisions   
+Reserves are a liability (counter-asset) that reflects amounts that are essentially an appropriation of profit for future *unexpected* losses or expenses. Provisions are amounts set aside to meet *expected* losses or expenses. So both are for future use, but one is for unknown events, the other for known events.
+  
+The journal entries would be the following:  
+  
+Reserve for a future cost of fixed asset in M USD  
+Dr Expense 123.00  # earnings decreased
+   Cr Reserve  123.00 # increase of reserve
+  
+Provision  
+Dr Expense  123.00   
+ Cr Provision  123.00  
+  
+Once the expense for which a Reserve was made has been made, things get reversed. For example if the final cost of the fixed asset turned out to be 120 M USD two years later we get:  
+  
+Dr Fixed asset 120. 00 # actual value of asset  
+ Cr Cash    120.00  # paid for in cash  
+  
+Dr Reserve  123.00  # reversal    
+ Cr Expense  123.00 # reversal   
+  
 The last transaction is increasing the total profit. Reserves (and provisions) decrease current Profit which means that if profit is high now, the decrease will yield less money to pay dividends from. Similar logic applies to provisions.
-
+  
 Note that provisions can be a liability account, or a contra-asset account. A contra-asset account is on the asset side (a Cr entry thus just reduces the value of the asset as one would expect).
-
+  
 Dividends
-Dividends are not counted as an expense but as a reduction of Owner's Equity, specifically reduction in Retained Earnings. They do not appear in the Income Statement but in the Balance Sheet and Cash Flow Statement (if paid in Cash). Of the board approves a 500 dividend payment then record:
-Dr Retained Earnings 500
-  Cr Dividends payable 500
-
-When payment takes place a month later:
-Dr Dividends Payable 500
-  Cr Cash        500
-
+Dividends are not counted as an expense but as a reduction of Owner's Equity, specifically reduction in Retained Earnings. They do not appear in the Income Statement but in the Balance Sheet and Cash Flow Statement (if paid in Cash). Of the board approves a 500 dividend payment then record:  
+  
+Dr Retained Earnings 500  
+ Cr Dividends payable  500  
+  
+When payment takes place a month later:  
+Dr Dividends Payable 500  
+  Cr Cash        500  
+  
 In which Retained Earnings is an Equity account and Dividends Payable is a liability account.
+  
+Retained Earnings  
+Retained Earnings were mentioned at the very start of this section, without any further explanation. Here, they are explained a bit more. Retained Earnings, is, as shown above an Equity Account type. In addition, it is also a concept, directly linked to that account: Retained Earnings are what the Venture 'Retains" after having collected all Revenues, paid out all Costs (including taxes) and paid out Dividend (listed companies) or Drawings (sole proprietor Venture).   
+We know that Revenue is reflected in the Cash or Receivables accounts, Cost is reflected in Cash or Payable accounts. Dividends is reflected in Cash or Payable accounts. What is often confusing is the fact that Retained Earnings does not reflect Cash or is not specifically and definitely not entirely 'held' in Cash account. An example will clarify this.  
+  
+Assume a Venture has Assets = 1000 (of which Cash = 0, Buildings = 1000), Liabilities = 750  and Owner's Equity = 250.  
 
-Retained Earnings
-Retained Earnings were mentioned at the very start of this section, without any further explanation. Here, they are explained a bit more. Retained Earnings, is, as shown above an Equity Account type. In addition, it is also a concept, directly linked to that account: Retained Earnings are what the Venture 'Retains" after having collected all Revenues, paid out all Costs (including taxes) and paid out Dividend (listed companies) or Drawings (sole proprietor Venture). 
-We know that Revenue is reflected in the Cash or Receivables accounts, Cost is reflected in Cash or Payable accounts. Dividends is reflected in Cash or Payable accounts. What is often confusing is the fact that Retained Earnings does not reflect Cash or is not 'held' in Cash account. An example will clarify this.
-Assume a Venture has Assets = 1000 (of which Cash = 0, Buildings = 1000) , Liabilities = 750  and Owner's Equity = 250.
-Now at the start of the year we get:
+Now at the start of the year we get:  
+    
+Sales of a product  
+Dr Cash 150  
+ Cr Sales 150  
+  
+The total value of Cash = 150  
+  
+Purchase of an Asset  
+Dr Asset 85  
+ Cr Cash  85  
+  
+The total value of Cash = 150 -85 = 65.   
+  
+At the end of the Book Keeping Process and closing the accounts (no Dividends are paid and there were no Expenses):  
+  
+Dr Sales 150  
+ Cr Retained Earnings 150  
+  
+The Venture ends up with:  
+A =  1150 (1000 + 85 + 65)    
+L = 750  
+OE = 400 (250 + 150)  
+  
+Zoom in on Assets accounts:  
+Cash = 65  
+Equity = 400 of which Retained Earnings = 150.  
 
-Sales of a product
-Dr Cash 150
- Cr Sales 150
-
-The total value of Cash = 150
-
-Purchase of an Asset
-Dr Asset 75
- Cr Cash  75
-
-The total value of Cash = 150 -75 = 75.
-
-At the end of the Book Keeping Process and closing the accounts (no Dividends are paid and there were no Expenses):
-
-Dr Sales 150
- Cr Retained Earnings 150
-
-The Venture ends up with:
-A =  1150 (1000 + 150 -75 + 75)
-L = 750
-OE = 400 (250 + 150).
-
-Zoom in on Assets accounts:
-Cash = 75
-Equity = 400 of which Retained Earnings = 150.
-
-Cash != Retained Earnings. The reason is that part of the Cash was transformed in another Asset. Retained Earnings reflect this what was retained by the company in some form of Asset (Cash, Receivables, Land, Property, Machines, etc). 
-
-### Book Keeping Literature
-A very good introduction to accounting can be found here: prj_world_of_finance_accounting_101_original.doc
-
-Full details can be found in the following books:
-Business Accounting - 1 - Frank Wood & Alan Sangster
-Business Accounting - 2 - Frank Wood & Alan Sangster
+Cash != Retained Earnings. The reason is that part of the Cash was transformed in another Asset. Retained Earnings reflect this what was retained by the company in some form of Asset (Cash, Receivables, Land, Property, Machines, etc).   
 ________________________________________
 ## Financial Reporting
 The three key documents to report in Financial Statements are Income Statement (IS), Balance Sheet (BS) and Statement of Cash Flow (CF). See also below examples. Details of each can be found in [STD: Investment # KEY FINANCIAL STATEMENT DEFINITIONS]. 
@@ -3120,7 +3108,7 @@ Non-operating Revenue are those Revenues from Services offered (Products sold) b
 #### Interest Revenue vs Fee Revenue
 This is key for financial institutions. They get Revenue from Interest on loans and or Fees charged on services e.g. brokerage. Fee Revenue is also referred to as Non-interest income. 
 
-NB: in investment banking, the classification of specific types of profit and loss of trading activities is called income atribution.
+NB: in investment banking, the classification of specific types of profit and loss of trading activities is called income attribution.
 ________________________________________
 ## Cost Measurement (Framework)
 
@@ -3152,7 +3140,7 @@ Controllable costs are those costs a Manager can control. Non-controllable costs
 Differential costs represent the difference between two alternatives including opportunity costs which are what you give up by choosing another alternative. Sunk costs are not relevant for decision making as they cannot be recovered at a later date.
 
 #### Running Costs vs Change Costs
-Another way of looking at Costs is to focus on those required for the Run to be maintained, vs those required to Change the Run. The former are Cojsts involved in Routines, and the latter are Costs involved in Projects. 
+Another way of looking at Costs is to focus on those required for the Run to be maintained, vs those required to Change the Run. The former are Costs involved in Routines, and the latter are Costs involved in Projects. 
 
 #### Observations
 Depending on the venture, names may be different. For example, Direct Costs, may be defined as Costs that are under the Direct Control of an Activity, rather than Directly related to a Service or Process. This in turn may be the consequence of corporate policies to allocate certain costs to certain Activities.
@@ -3164,13 +3152,14 @@ In addition to classifying Costs, one has to quantify them such that they assist
 The Cost-Volume-Profit analysis links the effect of output of an Activity to Revenue and Costs through a linear equation: P = n(R - C) - F 
 
 in which:
-P = Profit
-n = nr units
-R = Revenue per unit
-C = Cost per unit
-F = Fixed cost
-R - C = Contribution Margin
-This allows calculating the breakeven i.e. the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
+P = Profit  
+n = nr units  
+R = Revenue per unit  
+C = Cost per unit  
+F = Fixed cost  
+R - C = Contribution Margin  
+  
+This allows calculating the break even i.e. the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
 ________________________________________
 ## Cost Allocation (Framework)
 @@@ https://courses.lumenlearning.com/managacct/chapter/allocation-of-service-department-costs/
@@ -3181,14 +3170,13 @@ There exist various budgets. The most relevant ones are *Operational Budget* and
 The Operating Budget helps plan future Earnings and Costs and results in a *Projected Income Statement*. The Financial Budget helps plan the financing of Assets and Liabilities and results in a *Projected Balance Sheet*.  
 
 ### Operating Budget
-From a high level, Operating Budget considers:
+From a high level, Operating Budget considers:  
 1. Goals and underlying Objectives
 2. Resources involved in 1: Staff, Assets, Suppliers
-
-Goals express what Services (or Products) are going to be delivered to Clients. Services yield Revenue.
-Objectives explain how the Goals are achieved through the use of Resources. More specifically they explain how Staff use Assets and Suppliers to deliver Services. Resources in turn generate Cost and Risk (a potential future Cost).
-
-By understanding how Services yield Revenues and how Operations generate Cost, a Budget can be made. Budgets are interactively used in Planning: a plan which decides Goals and underlying Objectives may need to be adjusted to accomodate budget and vice versa , the Planning drives the sources of Revenue and Cost.
+  
+Goals express what Services (or Products) are going to be delivered to Clients. Services yield Revenue. Objectives explain how the Goals are achieved through the use of Resources. More specifically they explain how Staff use Assets and Suppliers to deliver Services. Resources in turn generate Cost and Risk (a potential future Cost).  
+  
+By understanding how Services yield Revenues and how Operations generate Cost, a Budget can be made. Budgets are interactively used in Planning: a plan which decides Goals and underlying Objectives may need to be adjusted to accommodate budget and vice versa , the Planning drives the sources of Revenue and Cost.
 
 #### Operating Budget Process
 - Define Run Goals, yielding
@@ -3229,10 +3217,9 @@ In effect this approach looks mostly at anticipated delta of the next period ver
 *********************************************
 # BUSINESS FUNCTIONS - HUMAN RESOURCES
 Human Resources involves Processes to *assure skillful Staff is recruited, kept skilled and retained*. 
-There is a dedicated note: [MGT: 52.HR].
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Human Resources]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework ## Human Resources]. On L2 are the Tools:
 - Skill Management
     - Skill Review
 - Recruitment
@@ -3475,7 +3462,7 @@ Performance Rating uses the notion of Observation of behaviour. This can be done
 a) There was an opportunity for that behavior to be displayed; *and* 
 b) The Staff indeed displayed it; *and*
 c) Someone was there to actually observe that behaviour.
-
+  
 Numeric ratings are used to establish the level of Observation within a Performance Category:
 - 0: none:       0%, never observed 
 - 1: little:      20%, sometimes observed
@@ -3493,37 +3480,37 @@ By design, the above method relies on observation by oneself or others. Observin
 
 ### Performance Targets
 For each Corporate Title and for each Performance Category there are three numbers as follows: 
-
+  
 Target:Rating:Result
-
+  
 in which Target is the desired level of Observations, Rating is the actual Observation and Result is the numerical Difference between the two i.e. Result = Rating - Target 
-
+  
 Below is the template to measure performance using the concepts discussed above.
-
+  
 #### Analyst
-- Dependability: 2:Rating:Result 
-- Pro-activity:     1:Rating:Result
-- Leadership:     1:Rating:Result
+- Dependability: 2:Rating:Result   
+- Pro-activity:     1:Rating:Result  
+- Leadership:     1:Rating:Result  
 
 #### Associate
-- Dependability: 3:Rating:Result 
-- Pro-activity:     2:Rating:Result
-- Leadership:     2:Rating:Result
+- Dependability: 3:Rating:Result   
+- Pro-activity:     2:Rating:Result  
+- Leadership:     2:Rating:Result  
 
 #### Vice President
-- Dependability: 4:Rating:Result 
-- Pro-activity:     3:Rating:Result
-- Leadership:     3:Rating:Result
+- Dependability: 4:Rating:Result   
+- Pro-activity:     3:Rating:Result  
+- Leadership:     3:Rating:Result  
 
 #### Director
-- Dependability: 5:Rating:Result 
-- Pro-activity:     4:Rating:Result
-- Leadership:     4:Rating:Result
-
+- Dependability: 5:Rating:Result   
+- Pro-activity:     4:Rating:Result  
+- Leadership:     4:Rating:Result  
+  
 #### Managing Director
-- Dependability: 5:Rating:Result 
-- Pro-activity:     5:Rating:Result
-- Leadership:     5:Rating:Result
+- Dependability: 5:Rating:Result   
+- Pro-activity:     5:Rating:Result  
+- Leadership:     5:Rating:Result  
 
 These ratings are rigid and don't take into account the longevity *within* a role/corporate title. It is up to the Manager to adjust where deemed relevant. Half ratings like 2.5 can be used where necessary.
 
@@ -3531,12 +3518,12 @@ Structurally, the higher the Corporate Title the higher the Target Rating and th
 
 ### Performance Result
 Performance Result can be remapped to qualitative labels like for example as per below:
-Performance Result =  0  ==>  At expectations
-Performance Result =  1  ==>  Above expectations
-Performance Result >  1  ==>  Exceed expectations
-Performance Result = -1  ==>  Below expectations
-Performance Result < -1  ==>  Far below expectations
-
+Performance Result =  0  ==>  At expectations  
+Performance Result =  1  ==>  Above expectations  
+Performance Result >  1  ==>  Exceed expectations  
+Performance Result = -1  ==>  Below expectations  
+Performance Result < -1  ==>  Far below expectations  
+  
 ### Performance Context
 Different companies have various manners of grouping Staff's Objectives. Often the following groupings are used:
 - Job Description, Run Objectives, Day-to-day etc
@@ -3587,7 +3574,7 @@ NB: very Euro focussed, but gives good insight.
 # BUSINESS FUNCTIONS - PROCUREMENT 
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Procurement]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework  ## Procurement]. On L2 are the Tools:
 
 
 *********************************************
@@ -3597,7 +3584,7 @@ Marketing is the Business Function  of exploring, creating, and delivering value
 There are two approaches to it: inside out (the 4 P), outside in (the 4Cs). They are very similar and are reflected here each time in conjunction.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Marketing]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per [Management Framework  ## Marketing]. On L2 are the Tools:
 - Product / Client
     - Client Segmentation
     - Product Specification
@@ -3960,6 +3947,7 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated [## Objective Properties] to be more generic.
 - Updated [## Operating Model] to consider the new Profile elements
 - Updated [## Communication], formerly empty
+- Updated [## Accounting] with proper en and em spaces. 
 
 ### Planned
 
