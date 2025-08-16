@@ -1,84 +1,62 @@
 *********************************************
 # INTRODUCTION
-This note provides details for Management Tools or Tools in short, as discussed in [MGT: 99.Legend # PROFILE].  
+This note provides details for Management Tools or Tools in short, as discussed in the note "Management Framework".  
 
-This note has the following L1 sections: 
-
-General 
+It has the following blocks each with several L1 sections:: 
+  
+General   
 - Introduction
 - License
-- Disclaimer
 - Notes
 - Information
 - Profile Tree Numbering
-
-Management Functions 
+  
+Management  
 - Management
 - Planning
 - Organising
 - Leading
 - Controlling
-
-Operations
-- Operations
-- Staff
-- Assets
-- Suppliers
-- Liabilities
-- Equity
-
-Business Functions
-- Finance
-- Human Resources
-- IT
-- Risk
-- Compliance
-- CorpSec (Legal, Tax)
-- Procurement 
-- Other
-
-Versioning Information
+- Business Functions
+    - Finance
+    - Human Resources
+    - IT
+    - Risk
+    - Compliance
+    - Legal
+    - Tax
+    - Procurement 
+- Tools
+  
+Operations  
+- Processes
+    - Run
+    - Change
+- Resources
+    - Staff
+    - Assets
+    - Suppliers
+- Capital
+    - Liabilities
+    - Equity
+- Results
+    - Revenue
+    - Cost
+    - Risk
+  
+Versioning Information  
 - Versions
-
+  
 Within each L1 section, a tool is defined on L2 and has the type in brackets (...). Types are not part of Note References i.e. [## Tool] and not [## Tool (Type)].  
-
+  
 References to [MGT: Planning], [MGT: Organising], [MGT: Leading], [MGT: Controlling] and [MGT: Tools] can be substituted with references to [MGT: 01.Planning], [MGT: 02.Organising], [MGT: 03.Leading],  [MGT: 04.Controlling] and [MGT: 80.Tools], i.e. pre-fixed with 01, 02, 03, 04, etc.   
 
-The raw text of this note is available on GitHub in the following location:   https://github.com/stelzinga/MF
+The text of this note is available on GitHub in the following location:  https://github.com/stelzinga/MF
 
 
 *********************************************
 # LICENSE
-The license applicable to this Note and any tools referenced in it is the one in [MGT: 99.Legend # LICENSE] a summary of which is copied below:
-
-Copyright (c) 2022 Sander Elzinga, sander.elzinga@gmail.com
-
-The text below is issued by Sander Elzinga as an Attribution Share-alike license, code CC-BY-SA 4.0. 
-
-You are free to:
-- Share: copy and redistribute the material in any medium or format
-- Adapt: remix, transform, and build upon the material for any purpose, even commercially.
-
-This license is acceptable for Free Cultural Works.
-
-The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-Under the following terms:
-- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-- No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-Notices:
-- You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
-- No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
-
-License Deed: 
-<https://creativecommons.org/licenses/by-sa/4.0>
-
-Legal Code: 
-<https://creativecommons.org/licenses/by-sa/4.0/legalcode>
-
-The license is applicable to all sections in this note.
+The license applicable to this Note and any tools referenced in it is the one in the note "Management Framework". The license is applicable to all sections in this note.
 
 
 *********************************************
@@ -86,23 +64,26 @@ The license is applicable to all sections in this note.
 Notes are any form of document capturing data for any topic or series of topics. The Management Framework is maintained within notes, and the conventions used have been formalised in this section. Understanding this section helps to better understand all other parts of the Management Framework but it is not a prerequisite as ultimately the conventions used are intuitive.
 ________________________________________
 ## Note Name Format
-Notes have names that they can be referred by. There are many manners to name name notes. The one used here in the Management Framework is the following:
-
+Notes have names that they can be referred by. There are many manners to name name notes. The one used here in the Management Framework is the following except for the the notes explaining the Management Framework itself:
+  
 CAT: Des
-
-in which:  
-CAT Note Category, all caps  
-Des  Note Description  
-
+  
+in which:    
+CAT Note Category, all caps    
+Des  Note Description    
+  
 Note that the colon is followed by a single space. Details of these items are found in the sections below.
-
-Examples: MGT: 99.Legend, PRD: Workout
-
+  
+Examples: MGT: 01.Planning, PRD: Inventory
+  
 This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowed, in which case it should be replaced with a '_'. 
+  
+There are many alternatives of this. For example, the CAT could be split up in several formalised parts CT1-CT2 etc. The main point is that structuring notes is helpful and putting some thought in it is worthwhile.
+  
+Below sections assume above simple principles. The reader will need to adjust to its won preferences.   
 ________________________________________
 ## Note Category
-In the Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Profile Overview]. This means that Goals should be shortened to three character codes. 
-The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). Obviously, the reader can choose any length, but this MF uses three. 
+In the Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Profile Overview]. This means in the MF that Goals are shortened to three character codes. The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). Obviously, the reader can choose any length, but this MF uses three. 
 ________________________________________
 ## Note Description
 The Note Description explains the *purpose* of the note. Ideally, it should be one word. If it is only possible to explain the purpose with several words then use '-' *hyphen* or '_' *underscore* to link them into one. In other words, there should not be any white space (space, tab).
@@ -112,7 +93,10 @@ ________________________________________
 ### Sections
 Notes are composed of sections (same as chapters). Sections can be numbered, but don't need to be. They do have a hierarchy: level 1, 2, 3, 4, 5 and 6 or short L1, L2, L3, etc. Section format and level is determined by *Markdown* header conventions, see below. Important: if a section level N exists then it is preferable to also have a section N-1, i.e., if there is an L3 in an L1 then there should be an L2.  
 
-### Markdown
+### Text Format
+Note Content is written in Markdown, see [## Markdown].
+________________________________________
+## Markdown
 Text in the MF is written using *Markdown*.  Markdown is a protocol to write text in a manner that when displayed in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc. Many websites nowadays support Markdown pages. For example, this text is available in the public domain in Git and will display in Markdown when visiting the website.
    
 Markdown has two forms:
@@ -128,8 +112,8 @@ Standard Markdown is the most used form of Markdown and is sufficient for most p
 In below examples, the Markdown protocol is used. If that would be used in a Markdown editor it will show the Markdown output, instead of how that output is achieved by writing in 'plain text'. For those cases, the plain text version is shown in addition to the desired Markdown version, by using the escape character '\'. See examples under [#### Formatting] and the sections thereafter. 
   
 #### New Line
-To achieve a new line in Markdown, type two spaces and a carrier return. 
-To achieve an empty line do a carrier return + 2x white space + carrier return.  
+To achieve a new line in Markdown, type 2x a space + carrier return. 
+To achieve an empty line do a carrier return + 2x a space + carrier return.  
   
 #### Horizontal Lines
 To create horizontal lines use either 3x '*' or 3x '-' or 3x '_'. Use these to create H1, H2 level separators (see below) as follows: 
@@ -259,7 +243,7 @@ Words that start with a capital, like 'Planning' have been defined in this note 
 Some editors, like OneNote, Outlook mail, use some of Markdown features albeit it different: *italic* in Markdown will show *italic* entirely  in bold (and it will keep  the two '*' .
 
 ### Triple @
-A special convention in the MF is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text uses a triple @.
+A special convention in the MF is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text format uses a triple @.
 ________________________________________
 ## Note Reference
 Within notes a Note Reference a.k.a. Reference Indicator or [...] is used to provide more details or to refer to a source of data that holds more details. That source can be anything as long as the type and location of the data are clear. 
@@ -276,12 +260,13 @@ A Note Reference starts with a '[' and ends with a ']'. The data in between dete
 8. Etc
 
 ### Section or Note
-For a Section or Note there are three references:
+For a Section or Note there are several type of references:
 [# SEC]                   -> refers to section L1 SEC in same note
 [CAT: Des]             -> refers to a note CAT: Des
 [CAT: Des # SEC] -> refers to a section L1 SEC in note CAT: Des
+[ Name # SEC] -> refers to a section L1 SEC in note "Name", which is a note that does not follow the standard note conventions i.e. it does not start with a category, but as it the [...] does *also not* start with an explicit mentij id File, URL etc, it just be a note.
 
-e.g., [MGT: 99.Legend ## Note Reference] which is this section you are reading.
+e.g., [Management Framework - Appendix ## Note Reference] i.e this section.
 
 In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1' 
 
@@ -322,19 +307,26 @@ The Reference Indicator can also contain free which acts as a clarification, a q
 ### Research  
 It is possible to refer to a domain of research specific research articles, etc using a reference as well. There are two ways of doing it. 
 
-The formal academic referencing a.k.a. citation, which looks like this (author name, year) or similar. This is the often used citation in academic articles (journals, thesis etc). Such references follow standard academic protocol, which may slightly differ across discipines [1].
+The formal academic referencing a.k.a. citation, which looks like this (author name, year) or similar. This is the often used citation in academic articles (journals, thesis etc). Such references follow standard academic protocol, which may slightly differ across disciplines [1].
 
 The second style is used above, where the [1] means there is further down in the section more information linked to [1].
 
 [1] University of Pittsburgh, Citation Styles: APA, MLA, Chicago, Turabian, IEEE, https://pitt.libguides.com/citationhelp, viewed Jan 2025.
 ________________________________________
-## URL
-
-### POLC
-<https://saylordotorg.github.io/text_international-business/s14-05-managing-the-international-bus.html> 
-________________________________________
 ## Profile Tree Numbering
-From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories): 
+The Profile Tree as discussed in the Management Framework has three levels of indentations.
+- First Level: Environment, Clients, Services, Operations and Management
+- Second Level: Processes, Resources, Capital, Results, Planning, Organising, Leading, Controlling, Business Functions and Tools
+- Third Level: Run, Change, Staff, Suppliers, Assets, Liabilities, Equity, Revenue, Cost and Risk. 
+NB: in the profile tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned to keep the Profile Tree short enough. They are nevertheless discussed in the Management Framework note. 
+  
+From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories). The numbering conventions than follows from the levels:
+
+First Level: 00, 10, 20, 30, 40
+Second Level: 01, 02, 03, ... 11, 12, 13, ...
+Third level: 01.01, 01.02, ... 11.01, 11.02, etc. 
+
+The First Level and the Second level are the main items in the Profile as described in the Profile Tree. The Third Level are the deliverables of each Second Level. 
   
 - 00.Management  
     - 01.Planning  
@@ -373,59 +365,50 @@ From a managerial perspective the order of the items in the Profile Tree is most
         - 04.02.Supervision  
         - 04.03.Reports  
         - 04.04.Monitoring  
+    - 05.Business Functions
+        - 05.01.Finance
+        - 05.02.HR
+        - 05.03.IT
+        - 05.04.Risk
+        - 05.05.Compliance
+        - 05.06.Legal
+        - 05.07.Tax
+        - 05.08.Procurement
+        - 05.09.Marketing 
+        - 05.10.Communications
+    - 06.Tools 
 - 10.Operations  
-    - 11. Processes  
-        - 11.01 Run  
-        - 11.02 Change  
+    - 11.Processes  
+        - 11.01.Run  
+        - 11.02.Change  
     - 12.Resources  
         - 12.01.Staff  
         - 12.02.Suppliers  
         - 12.03.Assets  
-        - 12.04.Liabilities   
-        - 12.05.Equity  
-    -13.Results
-        - 13.01.Revenue
-        - 13.02.Cost
-        - 13.03.Risk
+    - 13.Capital  
+        - 13.01.Liabilities  
+        - 13.02.Equity  
+    -14.Results  
+        - 14.01.Revenue  
+        - 14.02.Cost   
+        - 14.03.Risk  
 - 20.Services
 - 30.Clients 
 - 40.Environment
-    
-and the Business Functions in the 50 range: 
-    
-- 50.Business Functions
-    - 51.Finance
-    - 52.HR
-    - 53.IT
-    - 54.Risk
-    - 55.Compliance
-    - 56.CorpSec (Legal, tax)
-    - 57.Procurement
-    - 58.Marketing & Communications
-    - 59.Other (Marketing, ...)
-    
-with Tools numbered as:
-  
-- 80.Tools 
-  
-The Legend, which contains the Profile as overarching Framework, has the highest number in the naming convention: 99.Legend. 
-    
+     
 Using numbers allows having a numbering with sub-numbers e.g., "02.01.Activities" as first deliverable within 02.Organising which yields 02.01.Activities. This allows effectively building a hierarchy of notes that follow something akin to the "Dewey Decimal Classification" (refer to Wikipedia for more details). 
-
-
+  
+  
 *********************************************
 # MANAGEMENT
-Management is the term reflecting the organisation of human capital (Staff, Groups) such as to yield the best Client Services as output of the Venture's Activities with available Assets and Suppliers such as to achieve and optimise the Venture's target of highest possible Revenue at lowest possible Cost and lowest possible Risk under the constraints of Environment and Financing (Equity, Liabilities) of all Resources. 
 ________________________________________
 ## Overview
-This overview shows on the first level the key deliverables as per [MGT: 99.Legend ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same tool can be used for different deliverables:
+This overview shows on the first level the key deliverables as per [Management Framework ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same Tool can be used for different deliverables:
 
 - Management Cycle
     - PDA
     - Eisenhower Matrix 
     - MSS
-    - MTrack
-    - MC
     - Governance Matrix 
 - Management Improvement
     - Skill Inventory
@@ -442,7 +425,7 @@ This overview shows on the first level the key deliverables as per [MGT: 99.Lege
     - Dedicated Controlling note
 ________________________________________
 ## PDA (Software)
-Throughout the Management Cycle, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
+Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
 
 - Mail 
 - Calendar
@@ -453,7 +436,7 @@ Throughout the Management Cycle, certain Tools are deemed 'standard' or 'baselin
 - Phone incl Video
 - Browser
   
-Depending on the apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
+Depending on apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
 
 - Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
 - Calendar (MS Calendar, Google Calendar, ...)
@@ -464,33 +447,33 @@ Depending on the apps used, and whether a Venture requires the use of specific a
 - Phone incl Video (MS Teams Phone, ...)
 - Browser (MS Edge, Google Chrome, Firefox, ...)
 
-Because they can be used in different manners by different people, this note will not prescribe particular uses.   
+Because they can be used in many different manners by different people, this note will not prescribe particular uses.   
 ________________________________________
 ## Eisenhower Matrix (Framework)
-The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.
+The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.  
   
 ### Important
-Something is important for different reasons, but the following criteria are deemed relevant:
--Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.) and/or
-- Task relates to a topic that has a lot of attention from senior stakeholders (internal or external) and/or
+Something is important for different reasons e.g.:
+-Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.)
+- Task relates to a topic that has a lot of attention from senior stakeholders (internal or external)
 - Task completion has a direct impact on Revenues, Cost or Risk.
   
 ### Not Important
 This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself. The following criteria are relevant:
-- Task requires a skill set the Manager does not have (and would thus require delegation anyway)
-- Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). This typically involves Tasks related to Goal = prd i.e., Tasks related to Maintenance, Enabling and Support.
+- Task requires Skills the Manager does not have (and would thus require delegation anyway)
+- Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). 
   
 ### Urgent
-Something is urgent for different reasons. The following criteria are deemed relevant -there is sometimes a link with *Important*-:
-- Not performing the Task soon has a knock on effect on several other Tasks and/or
+Something is urgent for different reasons, -there is sometimes a link with *Important*- e.g., 
+- Not performing the Task soon has a knock-on effect on several other Tasks and/or
 - There is a deadline imposed by a senior stakeholder (internal or external)
-- The completion of the task has a direct impact on Revenue, Cost or Risk
+- The completion of the Task has a direct impact on Revenue, Cost or Risk
   
 ### Not Urgent
-Something is not Urgent if the non-performance of the Task any time soon is not going to make a huge difference. 
+Something is not Urgent if the non-performance of the Task any time soon is not going to make a real difference. 
   
 ### Decision Quadrants
-The above two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
+The two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
 1. Urgent + important -> Do Task Now
 2. Important + not urgent -> Do Task Later
 3. Urgent + not important -> Delegate Task to someone
@@ -499,7 +482,7 @@ The above two dimensions yield four combinations a.k.a. *Decision Quadrants*, wh
 The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition]. As can be clearly seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
   
 ### Decision Outcomes
-The use of the Eisenhower Matrix helps scale works. It is important to note here that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
+The use of the Eisenhower Matrix helps scale work. It is important to note that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
   
 ### Eisenhower Decisions
  Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.  
@@ -508,27 +491,23 @@ ________________________________________
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
   
 ### MSS Master
-The master MSS file, mgt.xlxs,  is available in GitHub here:
-https://github.com/stelzinga/MF
+The master MSS file, mgt.xlxs, is available in GitHub:
+<https://github.com/stelzinga/MF>
 
 ### MSS Slave
-It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g. macros. Such instance is called MSS Slave. 
+It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g., macros. Such instance is called MSS Slave. 
 
 ### MSS References
-To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.
-
-### MSS: Mxx Sheets 
-See [## Mxx] in [# MANAGEMENT].
+To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
 
 ### MSS Note Management
 A key feature is the ability to write *Notes* in Col = Notes, This column drives the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*. 
 
 MSS Note Notation
-MSS Note Management follows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. Exemple:
-23-02-21: ##1 First review of audit results show overall good insight in business. Next: complete review. {Joe} [~/file/path] ##2 Received purchase order for 20 new products from client ABC (20210731) [https:/internal/website/page]
-
+MSS Note Management follows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
+  
 ### MSS Task Management
-Another feature of MSS is the integration of Tasks using [## Task Notation] in the dedicated Column = Tasks.  
+Another feature of MSS is the integration of Tasks using [## Task Notation] in Column = Tasks.  
 
 ### MSS Hierarchy
 Sheet = M5, dedicated to Projects has an *Integrated Hierarchy*. 
@@ -557,222 +536,6 @@ Sheet = M5 has an *Integrated Dynamic Gantt Chart* based on the Integrated Hiera
 
 ### MSS Reporting
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. The logic used in [MSS Note Management] is a key feature on MSS Reporting. 
-________________________________________
-## MTrack (Software, Framework)
-MTrack refers to any implementation of the Managerial 7, see [MGT: 99.Legend ### Management Cycle] in MSS (see above). This is achieved through 7 dedicated sheets as follows: M0 = 0.Management, M1 = 1.Revenue (or  Income Statement), M2 = 2. Cost (or Balance Sheet if required), M3 = 3.Risk, M4 = 4.Run (Run Goals / Routines), M5 = 5.Change (Change Goals / Projects), and M6 = 6.Intel. 
-
-All sheets except M0 and M6 have a bottom and top section, where the latter contains stats of the bottom. They all use Digital Bullet Journaling, see [## BuJo MSS]. 
-
-### MTrack0
-Sheet M0 a.k.a. MTrack0 contains several rows:
-- Tracking Type = Management
-    - Name = nn. Manage xxx, for each Profile Tree item xxx
-        - Each has Tasks as per deliverables in [MGT: 99.Legend]
-        - MSS Master has default entries for these Tasks 
-        - Each has a dedicated Note with more details.
-    - Name = Do MC - n.xxx for each Managerial 7 item n.xxx
-    - Name = Check xxx - n, for a Check xxx for a period n
-    - Name = Review xxx - n, for a Review xxx for a period n
-    - Name = Attend xxx - n, similar to Review xxx - n
-- Tracking Type = Incident
-    - For any new Incident from Run
-- Tracking Type = Audit
-    - For any new Audit, from Controlling
-- Tracking Type = ToDo
-    - For each one-off Task that is not part of above
-    NB: Hybrid Managers can use for non-roadmap Projects 
-
-### MTrack1
-Sheet M1 a.k.a. MTrack1 contains Revenue details or alternatively details of the Income Statement. It is possible this sheet refers to a central location, or that the maintenance of Revenue information is fully delegated to, for example, the Finance department.
-
-### MTrack2
-Sheet M2 a.k.a. MTrack2 contains Cost details or alternatively details of the Balance Sheet. It is possible this sheet refers to a central location, or that the maintenance of Cost information is fully delegated to the Finance department for example.
-
-### MTrack3
-Sheet M3 a.k.a. MTrack3 contains Risk details. It is possible this sheet refers to a central location, or that the maintenance of Risk information is fully delegated to, for example, the Risk and Compliance departments.
-
-### MTrack4
-Sheet M4 a.k.a. MTrack4 contains the Run Inventory i.e. all Routines across all Run Goals and Sub-Goals including Management Routines. This sheet is updated as a result of Change, see below. It contains:
-- Routines for non-manager roles (Goal = prd, ovs, ovh)
-- Routines for manager roles (Goal = mgt)
-  
-It is possible this sheet refers to a central location, or that the maintenance of Run information is fully delegated to for example a COO.
-
-### MTrack5
-Sheet M5 a.k.a. MTrack5 contains the Change Inventory i.e. all Projects across all Change Goals and Sub-Goals (Roadmap). This sheet is re-created at the start of each year and then maintained throughout the year. It contains:
-- Projects for non-manager roles (Goal = gro, pro, sec, opt)
-
-It is possible this sheet refers to a central location, or that the maintenance of Change information is fully delegated to for example a Project Management Office.
-
-### MTrack6
-Sheet M6 a.k.a. MTrack6 contains Intel or Intelligence both from within, as well as outside of the Venture. This sheet is updated continuously. 
-________________________________________
-## MC (Framework)
-MC is the Framework to perform the Management Cycle (MC). It is composed of various Processes performed at different frequencies using relevant Tools. 
-
-There are two main parts to the MC:
-- Initiation
-- Recurring 
-
-### MC Initiate
-This part of the MC initialises the minimum Management Structure. Set up:
-1. a PDA structure  [## PDA] 
-    - Mail 
-    - Calendar
-    - Tasks
-    - Notes, see [## BuJo]
-    - Contacts
-    - Chat
-    - Phone incl Video
-    - Browser
-3. as many meeting Notes as meetings [MGT: Attend-mmm], see [## Meetings]
-4. as many OM Notes as Activities [MGT: OM-aaa], see [## Operating Model]
-5. BuJo Notes and Mtrack Sheets, see [#### MC BuJo & MSS] below 
-6. MTrack sheets, see [#### MC MTrack] below
-
-#### MC BuJo & MTRack
-The default notes, and the Managerial 7 sheets in [MSS: MTrack] a.k.a. MTRack need each to be intialised as follows: 
-
-MTrack 0
-For each Profile Tree Item xxx there should be:
-- A dedicated row in MTrack0 with Name = nn. Manage xxx
-- A dedicated note [MGT: nn.xxx]
-- A dedicated folder ~\mgt\nn.xxx\
-
-in which:
-    nn = 00, 01, 02, 04, etc
-    xxx = name of Profile Tree item
-
-MTrack0 has, out-of-the-box these dedicated rows and for each exists one or more default Tasks as follows:
-
-. Maintain yyy [MGT: xxx # YYY]
-
-In which:
-    yyy = name of each Profile Tree Item xxx's deliverables, see [MGT: 99.Legend]. 
-
-In each [MGT: nn.xxx] note, a Level 1 section [# YYY] provides the details for the deliverable yyy. Those [# YYY] sections contain:
-- Details of the deliverable yyy itself and/or 
-- References to locations where those details are held e.g., MTrack
-
-Similar as above, each folder nn.xxx has a sub-folder representing the key-deliverable as per the Profile Tree.
-
-Example for Profile Tree Item: Planning.
-- MTrack0 row: Name = 01.Planning
-- Note: [MGT: 01.Planning]
-- Several section level 1 in that note e.g.:
-    - CONTEXT 
-    - PURPOSE 
-    - etc
-- A Folder ~/mgt/01.planning/ with sub-folders:
-    - 01.01.context
-    - 01.02.purpose
-    - etc
-
-MTrack0 does not define the Venture, but drives the collection of all other details. Note that the note [MGT: 00.Management] has a special content, as per [## Bujo].
-
-MTrack1, MTrack2,  MTrack3, contain Venture specific details of the Revenue, Cost and Risk respectively (or alternatively: Income Statement, Balance Sheet, Risk), see [## MTrack].
-
-MTrack4
-For tracking Routines create:
-- An Entry rrr in MTrack4
-- A Note PRD: rrr (Routines with many details)
-- A Folder PRD: rrr (Routines with many details)
-- A sub-folder in Mail Folder 2_DoLater (Routines with many details)
-
-in which:
-    rrr =  name of the Routine. 
-
-The reason to set up all four (Row in MTrack4, a note, a folder, a sub-folder) is because:
-1. MTrack4 helps in providing *statistics* on all Routines 
-2. The note helps logging processes, context etc. and can thus act as a *manual*
-3. The folder helps storing procedures, etc. 
-4. There may be specific emails exchanged each time the Routine is performed
-
-Instead of a note per Routine, it is also possible to use the [MGT: OM-aaa] i.e. the Operating Model note for each Activity aaa that embeds that Routine. 
-
-MTrack5
-For Projects create: 
-- An Entry ppp in MTrack5
-- A Note: [PRJ: ppp] or [GRO: ppp], [OPT: ppp] etc.
-- A Folder ~\prj\ppp\ or ~\gro\ppp, ~\opt\ppp\ etc.
-- A sub-folder in Mail Folder 2_DoLater (optional)
-
-in which:
-    ppp = name of Project. 
-
-The reason to set up all four is because:
-1. MTrack5 helps in Project Management 
-2. The note helps notably at the start when the project management structure is not yet established
-3. The folder is useful for storing project plans, process descriptions etc. 
-4. There may be many emails for that particular Project.
-
-Details on what qualifies as a Project vs a Routine are discussed in [## Objective Definition]. Both for Routines and Projects it is possible to create dedicated Teams in MS Teams, dedicated Chats etc.
-
-MTrack6
-Initialise MTrack6 so that Intel can be tracked. Intel involves a large variety of sources. The summary of, as well as the link to the source is provided in MTrack6. Details on intel entities are maintained in [# PLANNING]. 
-
-### MC Recurring 
-Once initiation is completed, the recurring Management Cycle begins.
-
-#### MC Monday
-- Review Calendar for the week and solve conflicts 
-- Review MTrack0 ToDo/Tasks to do during the week.
-- Review MTrack4 (optional)
-- Review MTrack5
-- Review and update [MGT: _Main] 
-
-#### MC Daily
-- Review Calendar for the day and for each Meeting check:
-    - A note exist and has spare L2 sections ddmmyyyy 
-    - Agenda is prepared 
-    - ToDo reflects latest status
-- Review Mail and update: MTRack as follows:
-- MTrack0
-    - Management entries 01-99 (rare to need any update)
-    - Managerial 7 entries (Name = Review n xxx)
-    - Incident details
-    - Audit details
-    - ToDo entries
-- MTrack1-3: Revenue, Cost, Risk 
-- MTrack4: Routines
-- MTrack5: Projects
-    - Projects not worked on get a Hold Date
-    - Projects that have completed get a Complete Date
-- Prepare, attend and minute Meetings, using notes.
-- Work on Projects and Routines
-
-#### MC Friday
-- In _Main start writing a manual report for the week using input from _Main and Mtrack.
-- Create any MSS Report based on MTrack.
-- Migrate older Report entries from _Main to _Archive.
-- Migrate closed Task entries from _Main to _Archive.
-
-#### MC Yearly
-@@@ Roadmap @@@
-
-### MC Pitfalls
-Some Tools have limitations that are overcome in other Tools. As such overlap between Tools is inevitable e.g., 
-- Mail has folders for short and longer term tasks
-- _Main has short term and long term sections
-- MTrack has recurring items as well as projects (long term)
-
-Both _Main and MTrack can be used for reporting, with the former very manual, the latter more automated and customisable. There is no simple way around such overlaps and it is left to the Manager to optimise the use of the Tools.
-
-### MC _Main vs MTrack
-One of the strengths of the Management Framework and it's implementation is also its weakness: the flexibility and versatility. As a result, in above sections one often has a choice between maintaining _Main and MTrack, but which one is best? The choice is left with the Manager, but there are some best practices. 
-
-- MTrack is ultimately preferred, because the MSS Software has improved *reporting* capabilities.
-- MTrack is preferred for Project updates.
-- _Main is preferred for Routine updates. For reporting purpose, the details of these updates can be bundled in a single comment in MTrack0 under Name = Review 4. Run. 
-________________________________________
-## Governance Matrix
-The Governance Matrix is a two-dimensional matrix that is used to establish what it is the Manager wants to put in place as Governance. Its core use is in Ventures where the focus is on Risk (often Ventures in heavily regulated sectors like Finance, Petrochemical, Automobile, Pharmaceutical, Flight ...). 
-
-The matrix' purpose is to show which Risks exists, which Activity (or Business Function) is subject to the Risk, and then on the intersection, how the Risk can materialise and  what is put in place to mitigate or at least oversee the Risk.
-
-The two dimensions of the matrix are thus: Risk (vertical) and Activity or Business Function (horizontal).
-
-@@@ to be expanded
 ________________________________________
 ## Skill Inventory (Framework)
 Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
@@ -814,41 +577,20 @@ Written communication is key to the day to day of a Manager. The following guide
 - Clean out residue: With each new draft refine, reinforce, reiterate, and restate. Go back and strip out extraneous wording.
 - Keep it short: don’t write more than required for the audience.
 ________________________________________
-## Style Inventory (Framework)
-@@@
-Get back the details from [STD: Management # MANAGEMENT STYLE].
-@@@
-________________________________________
-## Study (Research)
-@@@
-________________________________________
 ## MBA (Research)
 The Master of Business Administration is a postgraduate University degree that focuses on Management. There are many Universities and Business Schools that offer such programs. 
   
 Although a vast multitude of programs exist, sometimes for specific Sectors, the majority of MBA programs contain subject matters that are relevant to running a Venture and may include: background knowledge (Economics, Sociology, ESG) fundamental knowledge of Business Functions (Accounting, Operations, Marketing, Procurement, Human Resources) and academic knowledge of Management (Strategy, Corporate Governance, Management Theory including POLC). 
   
 In addition of being a well established form of Research, it has the advantage of establishing a baseline level of knowledge, confirmed through a degree. 
-________________________________________
-## Dedicated Planning Note (Framework)
-See [MGT: 01.Planning]
-________________________________________
-## Dedicated Organising Note (Framework)
-See [MGT: 02.Organising]
-________________________________________
-## Dedicated Leading Note (Framework)
-See [MGT: 03.Leading]
-________________________________________
-## Dedicated Controlling  (Framework)
-See [MGT: 04.Controlling]
-
-
+  
+  
 *********************************************
 # PLANNING
-Planning is the first Management Function and is concerned with defining a Strategy from a high level Mission to detailed Objectives. It aims at defining *why, what, where and when* and also the *how*. It is one of the most complete Functions within Management.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Planning]. On L2 are the Tools:
-- Context
+This overview shows on L1 key deliverables as per [Management Framework ## Planning]. On L2 are the Tools:
+- Business Model
     - Business Model
 - Purpose
     - Purpose Statement
@@ -907,7 +649,7 @@ ________________________________________
 A Business Model is the Venture's reason of existence mapped against the Profile.
 
 ### Design
-The design of the Business Model follows the Profile.
+The design of the Business Model mostly follows the Profile.
 
 ### Clients
 Understanding which Services (or Products) Clients' desire is key to delivering those Services. For this, additional properties for Clients extend insight into what is required:
@@ -927,7 +669,7 @@ Understanding Clients and Services (Products) determines how the Operations cont
 - Revenue model
 
 ### Management
-Understanding the manner in which the above items are optimized using POLC.
+Understanding the manner in which the above items are optimized using POLC, and which Business Functions are important to the Venture.
 
 ### Business Model Types
 There are various ways to set out the key elements of the Planning Function in simple overviews. Such representations can be used together with, or in, the Tactical Plan.
@@ -936,31 +678,19 @@ ________________________________________
 <https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
 ________________________________________
 ## Vision Statement (Framework)
-As per [MGT: 99.Legend]. Refer to:
+Explanations and examples:
 - <https://www.atlassian.com/work-management/strategic-planning/mission-and-vision>
 - <https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
 - <https://asana.com/resources/vision-statement>
 ________________________________________
 ## Mission Statement (Framework)
-As per [MGT: 99.Legend ### Mission]. A Mission Statement expresses *how* the Venture is going to achieve its Purpose. In other words, it explains a Venture's value proposition as follows:
-
-    "Achieve X by doing Y for the benefit of Z"
-    in which:
-    X: What (type of) Services get delivered
-    Y: How are they delivered (differentiating factors)
-    Z: Whom receives the benefit i.e. Stakeholders
-
 The Mission Statement is high level and sets out the overall direction the Venture should go into. Refer to:
 <https://www.aespire.com/blog/communications/the-difference-between-your-purpose-and-mission>
 ________________________________________
 ## Values Definition (Framework)
-@@@
+WIP
 ________________________________________
 ## Bylaw Definition (Framework)
-Bylaws, policies or equivalents define the boundaries, methods and obligations the Venture operates under. Depending on the Venture the above terms are used interchangeably or not. Bylaws are defined by Top Management for the entire Venture, whereas Policies are defined by the Management of the Activities. 
-  
-Bylaws are strongly driven by laws applicable within a Venture's country of incorporation. Other influences on the Bylaws are society, regulations, industry forums. Bylaws are reviewed on a periodic basis to assure they remain within the laws, regulations, and implicit expectations set out.
-    
 Bylaws should be easily accessible to anyone within the Venture. Nowadays this is mostly achieved through the use of intranets and equivalent repositories of information. 
 ________________________________________
 ## Memorandum of Association (Definition)
@@ -986,7 +716,7 @@ Key aspects of the AoA are:
 AoA vs MoA
 https://www.onboardmeetings.com/blog/articles-of-association-vs-memorandum/
 
-Note that depending on the country, it is possible to not be required to have both MoA and AoA. For example in Hong Kong, only AoA are required since the new Companies Ordinance of 2006.
+Depending on the country, it is possible to not be required to have both MoA and AoA e.g., Hong Kong, only AoA are required since the new Companies Ordinance of 2006.
 ________________________________________
 ## SWOT Analysis (Framework)
 Strength and Weaknesses of a SWOT refer to *internal* forces, whereas Opportunities and Threats refer to *external* forces. Internal means *within* the Venture. In other words, Strengths and Weaknesses (internal) refer to aspects that are in control of the Venture, whereas Threats and Opportunities (external) are not in control of the Venture. Details of how to perform a SWOT can be found here: 
@@ -1035,22 +765,26 @@ Value Chain is a tool used to define and analyse *internal* aspects (Strengths, 
 ________________________________________
 ## VRIO  (Framework)
 VRIO stands for Valuable, Rare, Inimitable, Organisation. It is another Tool used to define and analyse the *internal* aspects (Strengths, Weaknesses) of the SWOT (see above).
+
+Todo: find the details of this Tool.
 ________________________________________
 ## Pestel  (Framework)
 Pestel stands for Political, Economic, Socio-cultural, Technological, Environmental, Legal environments. It is a Tool used to analyse and define the *external* aspects (Opportunities, Threats) of the SWOT analysis, see above).
+
+Todo: find the details of this Tool.
 ________________________________________
 ## SMART (Framework)
 SMART (Specific, Measurable, Aggressive, Realistic, and Time-bound) is a Framework used to define Objectives.
 
 ### Specific 
-Objectives need to be specific, well scoped. This is achieved by applying the 6W, see [MGT: 99.Legend #### 6W Framework].
+Objectives need to be specific, well scoped. This is achieved by applying the 6W, see [Management Framework #### 6W Framework].
 
 ### Measurable
-Measurable relates to the *expected Result*. For simplicity it is broken down into the following *Measurement Types*. The *verbs* are also discussed in [## Objective Notation].
+Measurable relates to the *expected Result*. It can be broken down into the following *Measurement Types*. 
 - Quantitative: Result can be measured and has many possible values, indicated by verbs like: 'Decrease ...', 'Increase ...', 'Expand ...'.
 - Binary: Result is either done or not, indicated by verbs like 'Do ...', ' Study ...', 'Get ...', 'Produce ...', 'Create ...', 'Build ...'
 - Qualitative: Result is open to interpretation: to be avoided!
-
+  
 The notion of an expected Result is important when considering performance management frameworks in the Management Function Controlling. Examples of such frameworks are Management By Objectives (MBO), Balance Score Card (BSC) and Objective & Key Result (OKR). The choice of model depends on corporate push, manager preference etc. Details in [MGT: 80.Tools ## Performance Management].
 
 ### Aggressive
@@ -1104,30 +838,9 @@ The latter goal ties in to the prioritisation process discussed in [## Project M
 
 $ oth (19700101:99991231) {CEO} |VNT| [ Other items. All initiatives that are not worked on by the Venture, but impacting the Venture or, more generally, need to be tracked without working on it]
 
-These Standard Change Goals are applicable to any Venture. Obviously, the focus on each Goal, expressed as the number and complexity of the Objectives within each Goal will change from Venture to Venture and even within a Venture from year to year. 
-
-### Sub-Goals 
-Sub-Goals regroup Objectives of a similar *theme*. This is mostly done to focus on a specific set of Objectives. 
-Using such Sub-Goals is optional. If Sub-Goals are one can obtain the following hierarchy:
-
-    Change Goal                 
-        Change Sub Goal 
-            Project                   -> Change in Routines
-                Stream
-                    Action
-                        Process 
-                            Activity (Group) ⇔ Staff  -> Revenue, Cost, Risk  
-                                Asset          -> Cost, Risk
-                                Supplier     -> Cost, Risk 
-                                Liabilities   -> Cost, Risk
-                                Equity         -> Cost, Risk
+These Standard Change Goals are applicable to any Venture. Obviously, the focus on each Goal, expressed as the number and complexity of the Objectives within each Goal will change from Venture to Venture and even within a Venture from year to year.   
   
-Run Sub-Goals have several standard values for each Run Goals as per below:
-  
-### Quantification of Goals
-Goals can be quantified in different manners. The above Goals have not been quantified yet (they are generic).
-
-Run Goals are composed of Routines, see below. Quantification of Routines can be through:
+Quantification of Routines can be through:
 - Revenues generated
 - Cost generated
 - Risk generated
@@ -1146,9 +859,82 @@ Change Goals are composed of Projects, see below. Projects change the Run by imp
 - Compare Effort reduction for existing Processes
 - Compare change of Result (new, improved Results) 
 - Combination of above all Projects affecting a  single Routine or many Routines and that within a Run Goal or across all Run Goals.
+
+
+
+
+@@@
+@@@
+##### Run Sub-Goals
+The following represent default Run Sub-Goals for each of the 4 Run Goals. 
+  
+Run Goal = mgt
+The Sub-Goals for Goal mgt are the deliverables of Management:
+- Planning
+- Organising
+- Leading
+- Controlling
+  
+Run Goal = prd
+The following are classic Sub-Goals for Run Goal prd:
+- Activity X: regroups all Routines performed within a specific Activity. There are as many such Sub-Goals as there are Activities in the Venture. 
+- Staff Maintenance
+- Asset Maintenance
+- Supplier Maintenance
+- Service Maintenance, including Marketing
+- Client Maintenance
+- Environment Maintenance
+- Revenue Maintenance
+- Cost Maintenance
+- Business Continuity (Routines to continue all other prd Sub-Goals in case of a disruption or more broadly a disaster). 
+- Production Reporting (of all aspects related to Production to Stakeholders)
+- Continuous improvement (small Project performed within Production)
+- Research & Development (used mostly in manufacturing, leads to Change) 
+- Production Support
+  
+In which: Maintenance is a catch-all for one or more of the following: on/off-boarding (including due diligence, negotiation, contracts, service agreements, notification,...), implementation, integration, testing, quality assessment (including calibration of thresholds), performance assessment, data collection, reporting, update, purchase and/or disposal of the Sub-Goal topic. It can include definition of procedure on how to perform said maintenance, validation workflow, referential updates, software configurations, documentation, meetings in relation to the topic, etc. Maintenance could be construed as Change and not Run. The difference is subtle, and at the discretion of the Manager. In most cases, if maintenance is rather small compared to the resulting Growth of Revenue or decrease in Cost, or decrease in Risk then it is deemed Run.
+    
+The last Sub-Goal, Production Support, is typically used for roles within an Activity that are a direct support to, without being accountable for Production, but also not being considered a Supplier e.g., Business Managers, COOs, Function Support, Team Support, Trade Support, Business Support, etc. Often, this Sub-Goal embeds interaction with the Business Functions, and potentially performance of processes related to such Business Functions. Production Support cannot perform, or assist in, any Routine of an Activity, but can assist in any of the other Sub-Goals. It is possible that there are as many Production Support Sub-Goals as there are Activities, which is the case if each Activity has a dedicated Support. Note that It is possible that the various Maintenance Sub-Goals in prd are owned by Suppliers. 
+  
+Run Goal = ovs
+The following are typical Sub-Goals for Run Goal ovs:
+- Attend: prepare, attend and/or minute a meeting to perform a Review (see below) in relation to data from Operations a.k.a. Committee, see [## Committee]
+- Audit: verify independently data from Operations and/or Management against a benchmark determined most often as part of the audit itself
+- Check: verify data from Operations against a formal benchmark
+- Review: verify and/or validate data from Operations against an opinion of an experienced individual
+- Oversight Reporting: report on all aspects related to Oversight to Stakeholders
+- Oversight Support: maintenance of Routines supporting the above Sub-Goals within one or more Activities.
+
+The notion of *data from Operations* includes qualitative and/or quantitative data from production (Results, Processes) either in isolation or as one or more Activities, including data of Staff, Assets, Suppliers, Services and/or Clients and including/against an assessment of the Environment. The first four Sub-Goals represent the Supervisory Processes found in Controlling. Each of those Sub-Goals can yield weaknesses or possibility of improvement that can be addressed through a Project (Change). 
+Oversight Sub-Goals may be defined across the Venture and/or for each Activity (most organisations).
+The last Sub-Goal, Oversight Support, is typically used for roles within an Activity that are a direct support to Oversight, without being accountable for Oversight.
+
+Run Goal = ovh
+The following are often seen Sub-Goals for Run Goal ovh:
+- Training: on the job training, safety/regulatory training, external training etc.
+- Evaluation: definition of yearly personal objectives, evaluation against those objectives, compensation discussions, etc.
+- Admin: company questionnaires, company initiatives for charity/sustainability/etc., holiday planning, etc.
+- Legacy: Staff working on transferring knowledge to a replacement or covering Roles & Responsibilities for previous work
+-  One-off: any work done for (small) Projects that are neither change nor Continuous Improvement under prd 
+- Info: attend town halls/fireside chats, read emails, etc. on topics unrelated to any of the other Sub-Goals in prd, ovs, ovh, mgt. 
+
+For default Change Goal prj there are dedicated Sub-Goals as well. They are standardised so the Roadmap can focus on gro, pro, sec, opt:
+  
+Change Goal = prj
+The following are Sub-Goals for Change Goal prj:
+- prj - gro: projects related to Revenue growth
+- prj - pro: projects related to Revenue protection
+- prj - sec: projects related to securing Operations
+- prj - opt: projects related to Revenue growth, Cost Reduction
+ 
+@@@
+@@@
+
+
+
 ________________________________________
 ## Objective Definition (Framework)
-Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [MGT: 99.Legend ## Objectives] and is elaborated on here.
+Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [Management Framework ## Objectives] and is elaborated on here.
 
 To be specific:
 - Routines: linked to Run Goals i.e., focus is on generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
@@ -1161,60 +947,90 @@ There are cases where work is being asked to be performed which is neither speci
 The differentiating factor is whether it it worth tracking as an actual Project or not.
 ________________________________________
 ## Objectives Properties (Framework)
-See [MGT: 99.Legend ## Objectives] for basic definitions. 
+Objectives have various properties that were explained in the Management Framework Profile. Here a deep dive is done on properties of an Objective.
 
-Objectives can have either a precise required Effort to execute, a reasonable expected required Effort or at best an estimated required Effort. Consequently, and depending on when the Result is desired, a Start and End time for the Objective can be accurately planned. Objectives can be prescribed i.e. documented/ formalised or not and such details can be pointed to with a Reference to a File, URL, Note, etc. Objectives can have various Status indicating where they are at: Open (not started), Started, Pending (something else), Completed, or if the Result is required on a periodic basis an indicator that the Objective is a Routine. 
-
-The note MGT: 99.Legend explains 5 properties for Objectives:
-1. Clear and unambiguous description of target
-2. Measurable
-3. Linked to a Goal
-4. Specify *Start* and *End* date or *Recurrence*
-5. Specify *Who* is accountable for delivery, tying it into Organising
-
-In addition to these properties, SMART principles apply, see [## SMART]. The 6W of SMART are mapped as follows:
-
-- What: point 1
-- When: point 4
-- Who: point 5
-- Why: point 3
-- How: not addressed
-- Where: not addressed, mostly the Venture location
-
-### How Specifics for Objectives
-The *How* is more detailed which can be free text, reference to documents etc., see [## Objective Notation] on how this achieved. 
+### Objective Components
+As mentioned in the Profile, an Objective is defined by the 6W:
+- What
+- When
+- Who
+- Why
+- How
+- Where (often embedded in How)
   
-### Who Specifics for Objectives
-There is a difference between *Who* owns the Processes within the Objectives (*owner*) versus *Who* receives the benefit of the Objectives (*beneficiary*). When *who* is referred to the former is often meant. The difference is clarified in [## Objective Notation].  
- 
-The owner of an Objective is either a specific Staff or a Group. By default, the owner is the Group associated to the Activity in which the Objective is performed. Within that Group a specific owner can be assigned. 
-By default, the Manager of an Activity in which an Objective is performed is responsible for the Objective. The manager gets those responsibilities delegated by the Manager of the Venture. See also [## Objective Definition], [## Activities Definition] and [## Delegating Definition].
+However, for each of these 6W many different properties can exist. These Properties can be used to refine the many aspects of an Objective. 
+
+### What
+The What of an Objective can include the following aspects:
+- Type of Objective (Routine, Project)
+- Status if it is a Project (Not Started or Open, Started, Pending, ...)
+- Name of the Objective
+- Description of the Objective
+- ...
+  
+### When
+The When of an Objective can include following aspects:
+- Recurrence (if a Routine)
+- Start date/time (Routine, Project)
+- End date/time (Routine, Project)
+- Effort required to complete the Objective e.g., number of man days, duration
+- Associated Cost to the effort
+- ...
+  
+### Who 
+The Who of an Objective can include the following aspects:
+- Who is the beneficiary (Client, Client Type, internal Groups, ...)
+- Who performs the Objective (Group, Staff, Suppliers, ...)
+- Who is accountable for the Objective if the Objective execution was delegated.
+- ...
+  
+### Why
+The Why of an Objective can include the following aspects:
+- The Goal an Objective ties in to
+- The Sub-Goal an Objective ties in to
+- The expected increase of efficiency 
+- The expected increase of Revenue
+- The expected reduction of Risk
+- The expected reduction of Cost
+- ...
+
+### How 
+The How of an Objective can include the following aspects:
+- Description of what to do e.g., Procedures
+- Resources (Staff, Assets, Suppliers) involved in the completion of the Objective 
+- Dependencies on other Objectives
+- Other Objectives that depend on this Objective
+- ...
+  
+### Conclusion
+From the above it is clear that an Objective, although conceptually simple, can have many properties. In above explanation each list ends with "..." to indicate that other properties are possible. Depending on the Management Level, the number of Properties required would decrease with increasing Management Level. 
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. 
-For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
+Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
 
-Although the Objective Notation is well structured and formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it.  
-
+### Objective Notation Purpose
+The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives, without going it to too much detail.  
+Although the Objective Notation is well structured and formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties]. 
+  
 ### Objective Notation Format
 The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
-
+  
 status name (date) {owner} |link| [reference]
-
+  
 This notation links to the 6W as follows:
-- status: this is not part of the 6W
-- name: indicates *What*
-- (date): covers all elements of *When* 
-- {owner}: covers all elements of *Who*. 
+- status: part of *What*
+- name: describes *What*
+- (date): covers key elements of *When* 
+- {owner}: covers key elements of *Who*. 
 - |link|: explains *Why*.
 - [reference]: pointer to details, explaining *How* 
-
+  
 There is no Objective Indicator for *Where* because:
 a. Objectives are owned by Staff 
 b. Staff are mostly located in a single location 
-c. An Objective is often agnostic to the location and if it is really not it can be added in the *How*.
-
-The order of components is critical:
+c. An Objective is often agnostic to the location and if it is really not it can be addressed in *How*.
+  
+The order of components is critical:  
 1. Certain combinations have special meaning in Markdown: [...](...) w/o space between ']' and '(' is a URL.
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
 
@@ -1222,33 +1038,35 @@ The number of spaces *between* components is optional i.e., there could be none 
 
 ###  Objective Notation Status Indicator
 Status is mandatory and uses symbols:  
-%                 Run Goal, Run Sub-Goal (percentage)
-$                  Change Goal, Change Sub-Goal (dollar)
-&                  Routine (ampersand)
-.                    Project, Not Started (dot)
-/                   Project, Started (forward slash)
-~                  Project, Pending or Delegated (tilde) 
-x                   Project, Closed (lower case letter x)
-!                    Project, Urgent (exclamation mark)
--                    Comment (dash or hyphen)
-+                   Comment (plus)
-_                   Comment (underscore)
-dd-mm-yy: Comment (date format comment)
-
+- "%" : Run Goal, Run Sub-Goal (percentage)  
+- "$"  : Change Goal, Change Sub-Goal (dollar) 
+- "&" : Routine (ampersand) 
+- "." : Project, Not Started (dot) 
+- "/"  : Project, Started (forward slash) v
+- "~" : Project, Pending or Delegated (tilde)   
+- "x" : Project, Closed (lower case letter x)v 
+- "!" : Project, Urgent (exclamation mark)v 
+- "-" : Comment (dash or hyphen)  
+- "+" : Comment (plus)  
+- "_" : Comment (underscore)   
+- "dd-mm-yy: " : Comment (date format comment)  
+  
+NB: dash and plus become a bullet point list in MarkDown, so if a note is being used in MarkDown it is better to use an underscore for a comment.
+  
 As can be seen, the Status Indicator symbol is a single character, except for the last form, the *date format comment*. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Project, Routine or Comment, and in case of a Project, it also shows the status of the Project.
-NB: the '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
+NB: '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
 The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
 
 ### Objective Notation Name 
-The Name is mandatory. For Goals the Name is a short three character code, see [## Goals Definition]. For Sub-Goals a one or two word label is used. For Objectives (and the levels below) the Name should adhere to four requirements:  
+The Name is mandatory. For Goals the Name is a short three character code. For Sub-Goals a one or two word label is used. For Objectives (and levels below) Name should adhere to the following:  
 1. Start with a *verb*
 2. Contain a *measurable* expected *Result*
 3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
 4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, /slashes\, **bold**, Stop!, Say: "This shall be done!", etc  
 
-Note that *if* for aesthetic or sorting reasons, it is preferable to start the name for an Objective with a number then this is possible e.g., 01.Planning, 02.Organising, ... 
-
-Verbs are an indication of *targeted Result*, see [## SMART]:
+Note for aesthetic or sorting reasons, it may be preferable to start Name with a number e.g., 01.Planning, 02.Organising, ... 
+  
+Verbs are an indication of *targeted Result*, see also [## SMART]:
 - Assess: obtain a result and compare against expectations 
 - Assist: somebody in execution of their Process
 - Attend: prepare + attend a meeting/event
@@ -1286,39 +1104,30 @@ Short versions of Verbs are possible e.g.:
 
 The short versions serve visually as a reminder to do something.
 
-Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Although such indicators for periodicity are also reflected in the Date Indicator (see below, it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
-
-The Name indicator is the least rigid of the Objective Indicators. Although starting with a verb is strongly recommended, nothing stops someone from using names like:
-. Main Project: do something
-/ WARNING: this to be done before all others
-etc 
-
+Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Indicators for periodicity are also reflected in the Date Indicator (see below), it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
+  
 ### Objective Notation Date Indicator
-The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines:
+The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines:  
 - Projects:  (start:end:complete:effort)
-- Routines: (period:start:end:effort)
-
+- Routines: (period:start:end:effort)  
+  
 The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits with hhmmss being optional.   
-The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is asumed to be a start date.   
-The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used.
-
-As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
-
+The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is assumed to be a start date.   
+The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used. As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
+  
 ### Objective Notation Owner Indicator
 The owner of an Objective represents the *performer*, i.e., the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e., the Activity for, or in, which the Objective is performed. By default, performer equals beneficiary, but this is not always the case: an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:  
   
 {performer:beneficiary} or {perf:benef}
-  
-In which: 
-- performer is a Staff or a Group. 
-- beneficiary is an Activity or the entire Venture. 
-  
-If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Acvitity benefitting the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ (delegated Project) and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator.  
-  
-Owner Indicator is optional in which case it can be written as {} or omitted altogether.
-  
+    
+In which:   
+- performer is a Staff or a Group  
+- beneficiary is an Activity or the entire Venture  
+   
+If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Activity benefiting from the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ (delegated Project) and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator. Owner Indicator is optional in which case it can be written as {} or omitted altogether.
+   
 ### Link Indicator
-A Link Indicator is used to link:
+A Link Indicator is used to link:  
 i.   Goals (Run-Goals, Change-Goals) to the Venture or
 ii.  Sub-Goals (Run-sub-Goals, Change-sub-Goals) to Goals or 
 iii. Objectives (Routines, Projects) to Sub-Goals or
@@ -1327,48 +1136,45 @@ v.   Projects to Change Sub-Goals or directly to Goals or
 vi.  Streams to Projects / Subs to Routines or
 vii. Actions to Streams / Drills to Subs
   
-The link indicator is considered text even if stated as a number e.g.,'1', '1.1'. 
-Link Indicator is optional in which case it can be written as || or omitted altogether.
-
+The link indicator is considered text even if stated as a number e.g.,'1', '1.1'. Link Indicator is optional in which case it can be written as || or omitted altogether.
+  
 ### Objective Notation Reference Indicator
-The Reference Indicator 'refers' to a separate location with more information using the logic as described in [MGT: 99.Legend ## Note Reference] *or* contains free text. In other words, Reference Indicator is:
+The Reference Indicator 'refers' to a separate location with more information using the logic as described in [## Note Reference] *or* contains free text. In other words, Reference Indicator is:
 1. Free text or
 2. Reference to a Section or Note or
 3. Reference to a File or
 4. Reference to a URL or
 5. Reference to a Mail or
-...
-etc.
+...  
+etc.  
   
-Free text can be used to provide comments, but can also be used to show the next Task, using Task Notation *within* the Reference Indicator i.e., [. nnn], [/ nnn],  [! nnn], [~ nnn] and [x nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives which can also be considered nesting Tasks within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below.
-  
-Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
+Free text can be used to provide comments, but can also be used to show the next Task, using Task Notation *within* the Reference Indicator i.e., [. Do nnn], [/ Do nnn],  [! Do nnn], [~ Do nnn] and [x Do nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below. Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
   
 ### Objective Notation Hierarchy 
-As was mentioned in [MGT: 99.Legend] there exist two hierarchies that drive work throughout a Venture: the Project Hierarchy and Routine Hierarchy, depicted visually below. 
+As mentioned in the Management Framework note there exist two hierarchies that drive work throughout a Venture: the Project Hierarchy and Routine Hierarchy, depicted visually below. 
  
-Venture
-    Run Goal  
-        Run Sub-Goal      
-            Routine  
-                Sub  
-                    Drill  
-    Change Goal  
-         Change Sub-Goal  
-            Project  
-                Stream  
-                    Action  
+Venture  
+  Run Goal  
+    Run Sub-Goal      
+      Routine  
+        Sub  
+          Drill  
+  Change Goal  
+    Change Sub-Goal  
+      Project  
+        Stream  
+          Action  
    
 Instead of using the Link Indicator to Link Sub-Goals to Goals, Objectives to Sub-Goals, Streams to Projects, etc. it is possible to omit the Link Indicator and instead apply an Objective Notation Hierarchy using indentation as follows:
-
+  
 status name (date) {owner} [reference]
-    status name (date) {owner} [reference]
-        status name (date) {owner} [reference]
-            status name (date) {owner} [reference]
-                status name (date) {owner} [reference]
-
+  status name (date) {owner} [reference]
+    status name (date) {owner} [reference]
+      status name (date) {owner} [reference]
+        status name (date) {owner} [reference]
+  
 This format is useful to visually show the relation between Goals, Sub-Goals, Projects/Streams/Subs and Routines/Actions/Drills. The above is a *possible* display, it may not be *desirable* to use this too often: it can become difficult to read.
-
+  
 ### Objective Notation Expanded Format
 With above details of the various Indicators, the expanded format for Objective Notation can be written as:
   
@@ -1387,43 +1193,43 @@ Projects (any of below, depending on status):
 /  name (start:end:compl:eff) {perf:benef} |link| [ref]  
 ~  name (start:end:compl:eff) {perf:benef} |link| [ref]  
 x  name (start:end:compl:eff) {perf:benef} |link| [ref]   
-
-### Objective Notation Examples
-& Backup data (weekly) [MGT: 12.Assets ## Backup Weekly]
-. Build control against corruption (20210131)
-/ Study Book HHGG (20210331)|learn| 
-/ Prepare diner [x Purchase ingredients && . Make meal]
-~ Pay tax (20220630) [~ Get details (20220515) && . Lodge details (20230630) [URL: http://taxwebsite.com]]
-x Build software to automate mail sending (20190101:20190228:20) {SE} |opt|
-/ Build software to automate mail reading (20220323)
-    x Design program [Based on document received]
-    / Purchase SDK from Supplier [~ Complete contract w supplier]
-    . Develop code
-    . Test code 
-    . Deploy software (20230323)
-~ Wait for approval to do something smart 
-. D: Discuss something with someone else (next time we meet)
-/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for 2 months] && . Read book && . Pass astronomy exam (20220515) ] 
   
+### Objective Notation Examples
+& Backup data (weekly) [MGT: 12.Assets ## Backup Weekly]  
+. Build control against corruption (20210131)  
+/ Study Book HHGG (20210331)|learn|   
+/ Prepare diner [x Purchase ingredients && . Make meal]  
+~ Pay tax (20220630) [~ Get details (20220515) && . Lodge details (20230630) [URL: http://taxwebsite.com]]  
+x Build software to automate mail sending (20190101:20190228:20) {SE} |opt|  
+/ Build software to automate mail reading (20220323)  
+  x Design program [Based on document received]  
+  / Purchase SDK from Supplier [~ Complete contract w supplier]  
+  . Develop code  
+  . Test code   
+  . Deploy software (20230323)  
+~ Wait for approval to do something smart   
+. D: Discuss something with someone else (next time we meet)  
+/ Study Astronomy (20220531) {myself} |std| [/ Get book (20220304) {Gary} [Borrow for 2 months] && . Read book && . Pass astronomy exam (20220515) ]   
+    
 ### Objective Notation Weaknesses 
 There are some weaknesses in Objective Notation:
-- Objectives consume Assets and/or Suppliers which are not reflected in the Objective Notation Format and can only be detailed through the Reference Indicator. 
+- Objectives consume Assets and/or Suppliers which are not reflected in the Objective Notation Format, although they can be detailed through the Reference Indicator. 
 - Objective Notation is very versatile and allows for intricate details (see last example above). There is a risk that entries become too long to be practical.
-  
+   
 ### Objective Notation and Eisenhower Matrix
 Tying the five status indicators of Projects to the Eisenhower Matrix principles (see [## Eisenhower Matrix]), yields:
-
-urgent + important                -> do now    ->  !
-not urgent + important         -> do later   ->  / and .
-urgent + not important         -> delegate ->  ~
-not urgent + not important  -> delete      ->  x 
-
+  
+urgent + important                -> do now    ->  !  
+not urgent + important         -> do later   ->  / and .  
+urgent + not important         -> delegate ->  ~  
+not urgent + not important  -> delete      ->  x   
+  
 The latter one reflects an Objective that would be created *and* completed, or, because a Project has finished, it is neither urgent nor important anymore. 
-
+  
 From a managerial perspective this means only Projects of the following type are performed by the Manager himself: "!", "/" and "." Other projects are delegated "~" or deleted "x".
-
+  
 So what if a Manager would need to do something himself, but them requires some input from someone else. One way to achieve that is as follows:
-/ Do some task [~ Get input {someone}]
+/ Do some task [~ Get input {someone}]  
 ________________________________________
 ## Tasks Definition (Procedure)
 Tasks can be used to add granularity to Objectives, Streams, Subs, Actions and Drills. Tasks can *also* be used to more generally indicate *work to be done*, without them being linked to Objectives.
@@ -1435,14 +1241,14 @@ Tasks are managed in different ways:
 4. Tasks in MSS
 
 ### Task Apps
-As mentioned in [# BASELINE] various apps exist to manage Tasks: Google Tasks or Outlook Tasks.
-
+Various apps exist to manage Tasks e.g., Google Tasks or Outlook Tasks.
+  
 ### Mail to Self
 It is possible to send one-self a mail as a form of Task. 
-
+  
 ### Tasks in Notes
 There exist different types of notes that hold Tasks i.e. Journal related notes, Meeting notes, etc. Refer to [## Task Notation] below for more details. 
-
+  
 ### Tasks in MSS
 There exist sections in MSS that hold Tasks. Refer to [## Task Notation] for more details. 
 ________________________________________
@@ -1497,104 +1303,82 @@ The last phase of a Project is the closure. The purpose is to formally halt the 
 
 ### Project Hierarchy
 As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used in this note, but it is perfectly possible to have variations:
- - Project
+- Project
     - Stream
         - Action
   
 ### Project Priority
-Inevitably, Projects often have a certain level of priority attached to it. One way of managing this is through a notion of *Project Priority* with the following values (in brackets the MSS values): Critical (0-Crit), High (1- High), Medium (2-Med) and Low (3-Low). By keeping the number of priorities low, it remains manageable. Often they are color coded: Red, Amber, Yellow, Green or Black, Red, Amber, Yellow.  Project Priority is determined by the beneficiary of the Project. However, and particularly if the Project Manager has many Projects to manage, the tendency will be for each Beneficiary to say their Project is the most important and should thus have the highest Priority. This is where the Priority Guidelines come in!
+Inevitably, Projects often have a certain level of priority attached to it. One way of managing this is through a *Project Priority* with the following values (in brackets the MSS values): Critical (0-Crit), High (1- High), Medium (2-Med) and Low (3-Low). By keeping the number of priorities low, it remains manageable. Often they are color coded: Red, Amber, Yellow, Green or Black, Red, Amber, Yellow.  Project Priority is determined by the beneficiary of the Project. However, and particularly if the Project Manager has many Projects to manage, the tendency will be for each Beneficiary to say their Project is the most important and should thus have the highest Priority. This is where the Priority Guidelines come in!
 
 ### Priority Guidelines 
 The main idea is to delimit the criteria for a Project (and Stream, Action) to appear under a priority. The result of below approach, is that at the *start* of the Roadmap, see [## Roadmap] Projects should be having priority High or Low and that during the year some Projects can appear in Critical, and Medium. The duration of a Roadmap is deemed a year, but have a longer or shorter cycle. Similar guidelines apply to Streams and Tasks within the Project if they have been defined. 
   
 Note that above approach depends on how Resources are managed. It is possible that a Venture keeps some slack in their Project assignments to be able to cope with new Projects arriving during the year. The availability or not of such Resources will mostly change in priority Medium.
     
-0-Crit
-Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture (Goal = sec) and Protect the Venture (Goal = pro). The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned. 
-There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the number of Projects with this priority should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term. 
-In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g. Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently. 
-Note that in MSS items of Planning Type = Venture, or Chg Goal are flagged Critical as well. This assures that they are always picked up on when doing filtering on priority).
-  
-1-High
+0-Crit  
+Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture and Protect the Venture. The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned.   
+There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the number of Projects with this priority should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term.   
+In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g. Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently.   
+    
+1-High  
 This priority should be given to those Projects planned for this years' Roadmap. This priority can also be given to Projects that appear during the year, and that if they would have been known about at the start of the Roadmap, they would have been in the Roadmap. This may, however, mean that other Priority 1-High Projects need to be reclassified! Declassifying existing Projects' priority depends on a) whether existing High Projects were completed before their deadline and b) Resources, which may have increased. 
   
-2-Med
+2-Med  
 This criticality is used for any Project that is not Critical or High but that ideally should be done during the year nevertheless. The real purpose of this criticality is to keep track of existing Projects without prioritising work on them. This helps keeping track of need for Resources and such Projects may be used as input for the Roadmap the year after. Note that if a Venture uses a planning approach where Resources are not fully allocated to Projects for the Roadmap, then this priority represents those Projects that can be worked on *in addition* to the Roadmap. Thus, Projects with this priority are worked on if there is some slack in the Planning *by design*!  
     
-3-Low
-Anything that will not be done this year but the year after i.e., it is known at the start of the year that this will not be worked on! This priority acts as a placeholder. Note that any residual Project not finished from above three cases will likely also move to next year but unless they are de-prioritised they will have a 1-High Priority at the start of the year.  It is very well possible that all Priority Low projects are flagged under Goal = tmp to clear out the Projects that  are not being worked on.  
+3-Low  
+Anything that will not be done this year but the year after i.e., it is known at the start of the year that this will not be worked on! This priority acts as a placeholder. Note that any residual Project not finished from above three cases will likely also move to next year but unless they are de-prioritised they will have a 1-High Priority at the start of the year.  It is possible that all Projects with Priority Low are flagged under a Temporary Goal (tmp) to clear out Projects that are not being worked on.  
   
-4-non
-This Priority is used for anything that is not the above (in MSS it is used for the Run i.e. Run Goals, Routines, Subs and Drills). 
-   
-5-tbc
+4-non  
+This Priority is used for anything that is not the above. 
+    
+5-tbc  
 This Priority is temporary and means what it says: To Be Confirmed. It is entered as a placeholder for items for which the priority still needs to be defined. 
   
 NB: if the Priority of Projects is never established, or if a Project is deemed not worthy of investing in anymore it should be deleted.
-
+  
 ### Project Urgency
 In addition to the manual priority described above, there is a notion of *urgency* caused by an approaching deadline of the Project (End Time). 
   
-The following gives a good indication of urgency. By using this approach it can be easily programmed in MMS. The approach avoids maintaining an actual level of completion of the Project (not tracked in MSS) and uses only the duration between Today and End time. Similar observations apply to Streams and Actions. 
+The following gives a good indication of urgency.  
    
-0-Crit
-Projects that are overdue:
-    Today >    End Date
-
-In MSS this Urgency is also used for Chg Goals.
-   
-1-High
-Projects within 1 week of the deadline:
-    Today < End Date
-    Today => End Date - 7
-  
-2-Med
-Projects within 1-2 weeks of the deadline: 
-    Today <    End Date - 7
-    Today => End Date - 14
-  
-3-Low
-Projects more than two weeks of the deadline. 
-    Today <    End Date - 14
-  
-4-non
-Projects that are completed. In MSS it is also used for Run Goals, Routines, Subs and Drills.  
+- 0-Crit: Projects that are overdue: Today >  End Date   
+- 1-High: Projects within 1 week of deadline: Today < End Date AND Today => End Date - 7  
+- 2-Med: Projects within 1-2 weeks of deadline: Today < End Date - 7 AND Today => End Date - 14  
+- 3-Low: Projects more than two weeks away from the deadline. Today < End Date - 14
+- 4-Non: Projects that are completed.  
 ________________________________________
 ## Gantt Chart (Framework)
-A Gantt Chart is a chart in which horizontal lines show work (effort) -to be- done in certain periods of time in relation to the amount planned for those periods. It is very useful to give an overview of planned work and how much of that has been achieved and can thus act as a Tactical Plan, see [## Tactical Plan]. It is a good way to measure progress, see [## Measurement]. It does, however, not measure progress against deliverables e.g. Cost reduction, which needs to be measured separately. The MSS has a built-in Gantt Chart, see [## MSS].
+A Gantt Chart is a chart in which horizontal lines show work (effort) -to be- done in certain periods of time in relation to the amount planned for those periods. It is very useful to give an overview of planned work and how much of that has been achieved and can thus act as a Tactical Plan, see [## Tactical Plan]. It is a good way to measure progress, see [## Measurement]. It does, however, not measure progress against deliverables e.g. Cost reduction, which needs to be measured separately. 
 ________________________________________
 ## Tactical Plan (Framework)
 A Tactical Plan sets out a higher level view of Goals, Sub-Goals and Objectives throughout the year. More info on p. 217 of Principles of Management. In addition to showing progress, a Tactical Plan also shows the ratio of Effort in Run vs Change.
 ________________________________________
 ## Roadmap (Framework)
-A Roadmap is an implementation of the Tactical plan that is used to communicate with Stakeholders. It is an often referred to term to indicate "key targets to be delivered this year" and these are effectively *Change Goals*.
+A Roadmap is an implementation of the Tactical plan that is used to communicate with Stakeholders. It is an often referred to term to indicate "key targets to be delivered this year" and these are effectively *Change Goals*.  
 
 A Roadmap focuses on specific *initiatives* which are essentially the Change Sub-Goals, see [## Goal Definition]. These Sub-Goals, given they are considered specific initiatives, facilitate communication with Stakeholders. 
-
+  
 For example, Goal = Optimisation, can contain a set of Objectives all aiming to eradicate duplicate processes and as such can be regrouped in Sub-Goal  "Eradicate duplicate effort".  
-
+  
 Roadmaps thus include Sub-Goals and are most often visualised through a Gantt Chart. Roadmaps are mostly planned for a calendar year. Structurally a Roadmap could thus look like this:
-
-Change Goal abc
-    Change Sub-Goal abc - def
-        Objective 1.1
-        Objective 1.2
-    Change Sub-Goal abc - xyz
-        Objective 2.1
-        Objective 2.2
-
+  
+Change Goal abc  
+  Change Sub-Goal abc - def  
+    Objective 1.1  
+    Objective 1.2  
+  Change Sub-Goal abc - xyz  
+    Objective 2.1  
+    Objective 2.2  
+  
 and similar for each Change Goal. 
 ________________________________________
 ## Operating Model (Framework)
-An Operating Model, *Operational Model* or *OM* lays out the various aspects that make up a Venture across the Profile Tree. Although this section focuses on a Venture it could as easily be used for an Activity within the Venture.
+An Operating Model, *Operational Model* or *OM* lays out the various aspects that make up a Venture across the Profile Tree. Although this section focuses on a Venture it could as easily be used for an Activity within the Venture. The purpose of this section is to give explain the OM through the 6W Framework i.e., What is it the Venture does (Activities), Why the Venture does it (Revenue generation whilst minimising Cost and Risk), through the sales of Services to Clients). How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
   
-The purpose of this section is to give explain the OM through the 6W Framework i.e.:
-  
-What is it the Venture does (Activities), Why the Venture does it (Revenue generation whilst minimising Cost and Risk), through the sales of Services to Clients). How the Venture achieves it (Routines, Projects and deployment of Assets), Who does it (Staff, Suppliers), When do they do it (timing of Routines, Projects), and Where is it done (locations). In addition, the Operating Model also explains the Management of the Venture.
-  
-The OM is relevant to a broad range of users: the Manager of the Venture, direct support functions of the Manager like a Chief Operating Officer or Chief of Staff, Suppliers, Business Functions, Clients and other Stakeholders from the Environment like Regulators.
+The OM is relevant to a broad range of users: the Manager of the Venture, direct support functions of the Manager like a Chief Operating Officer or Chief of Staff, Suppliers, Business Functions, Clients and Stakeholders from the Environment like Regulators.  
 
-The OM is explained through the Expanded Profile Tree, with a list of aspects to consider for each Item. The list is indicative, i.e., it is possible to omit aspects if deemed relevant. The order in which they appear is also flexible.
+The OM is explained through the Profile Tree, with a list of aspects to consider for each Item. The list is indicative, i.e., it is possible to omit aspects if deemed relevant. The order in which they appear is also flexible.
 
 An OM has at least the following components:
 - Executive Summary
@@ -1605,34 +1389,32 @@ An OM has at least the following components:
 - Environment
 - Clients
 - Services
-- Activities 
-- Group
+- Run 
+- Change
 - Staff
 - Assets
 - Suppliers
 - Liabilities
 - Equity 
-- Goals 
-- Objectives
 - Management
 
 ### Executive Summary
-The Executive Summary explains below sections in a single paragraph of 5-20 lines. This helps in three ways: 
+The Executive Summary explains below sections in a single paragraph of 5-20 lines. This helps in three ways:   
 1. It gives the reader a quick overview of the Venture, and thus prepares for what is to follow in more detail. 
 2. It forces the writer of the OM to be able to explain in a few lines what a Venture does, and 
 3. It can be used for documents that require such a short description of the Venture.
-
+  
 ### Definitions
 This contains definitions of words and acronyms relevant to the OM. This is optional. 
-
+  
 ### Revenue
 This explains the *sources* of Revenue. It should give the details of the last 2-3 years. Revenue is linked to the Services, see below, but this section should avoid going into detail of those. Revenue can be expressed in different KPIs: Full Year Revenue, YTD Revenue, last year's Revenue YTD, Revenue broken down by Service type etc. 
-
+  
 ### Cost
-This explains the *sources* of Cost. It should give the details of the last 2-3 years. Cost is linked to the Services, see below, but this section avoids going into detail of those. Costs can be expressed in different KPIs: Full Year Costs, YTD cost, last year's Cost, YTD, Cost broken down by Service type etc. 
-
+This explains the *sources* of Cost i.e. of the Resouces (Staff, Assets, Suppliers). It should give the details of the last 2-3 years. Cost is linked to the Services, see below, but this section avoids going into detail of those. Costs can be expressed in different KPIs: Full Year Costs, YTD cost, last year's Cost, YTD, Cost broken down by Service type etc. 
+  
 ### Risk
-This explains the *sources* of Risk. Unlike Revenue and Risk, the details provided are likely to be more diverse, depending on the sources and types of Risk. Risk is linked to Resources (Assets, Staff, Suppliers) used within the Venture and the manner in which the Venture's Objectives are performed (details of the latter are in the section below). The data to provide can be expressed as losses incurred, insurances taken out to cover risk, etc. Depending on the Venture, it is here, or under Services that Risk related to Services should be discussed. If relevant, the manner in which Risk is mitigated can be discussed here as well. 
+This explains the *sources* of Risk. Unlike Revenue and Cost, the details provided are likely to be more diverse, depending on the sources and types of Risk. Risk is linked to Resources used and the manner in which the Run and Change  are performed. The data to provide can be expressed as losses incurred, insurances taken out to cover risk, etc. Depending on the Venture, it is here, or under Services that Risk related to Services should be discussed. If relevant, the manner in which Risk is mitigated can be discussed here as well. 
 
 ### Environment
 This explains the environment in which the Venture operates. Various aspects can be considered, depending on the exposure of the Venture to the Environment and whether a Legal Entity or a Business is covered. Examples include Corporate Structure (Investors/Holding Company), Capital Structure, Competitors, Regulators, Tax, Corporate Governance, ..
@@ -1645,49 +1427,47 @@ This explains whom the Venture provides Services for. Various aspects can be con
 ### Services
 This explains which Services the Venture provides to Clients. The manner in which they are described is specific to the type of Services. Because Services are intrinsically linked to Activities, one can choose to provide the description of Services within Activities, and this section can be omitted in that case.
 
-### Activities
-This describes the Activities that make up the Venture. For each Activity describe what it is they do, and how they contribute to the Services the Venture offers. 
-It is possible an Activity is sub-divided in smaller Activities specialising in one or more specific Services, Clients and/or to reflect a geographic distribution of the Activity. 
-If the Operating Model is for an Activity and not for a complete Venture. then this section should only focus on the sub-Activities of that Activity.
-
+### Run and Change
+This describes the Run and Change of the Processes of the Operations. It is often broken down in the main Activities. For each Activity a description should be given of what it is it does do, and how it contributes to the Services. 
+It is possible an Activity is sub-divided in smaller Activities specialising in one or more specific Services, Clients and/or to reflect a geographic distribution of the Activity. If the Operating Model is for an Activity and not for a complete Venture. then this section should only focus on the sub-Activities of that Activity.
+  
 ### Groups
-This explains the Group and sub-Groups associated to the Activities and sub-Activities. 
+This explains the Group and sub-Groups associated to the Activities and sub-Activities in other words, it explains the Organisation Chart of the Venture. 
 Due to the naming convention of Activity = Group it is possible to merge this section into previous Section, if the focus is more on the Activity than on the Groups. 
-
+  
 ### Staff
 This provides details of the Staff involved in the Groups and sub-Groups. This may or may not be relevant. Typical details would be name, corporate title, job title, roles and responsibilities. 
-
+  
 ### Assets
 This explains the Assets involved in the delivery of the Services across the Activities. The total number could be large, and therefore a summary of key ones, or groupings of Assets may be preferred. 
-
+  
 ### Suppliers
 This explains which Suppliers provide Services to the Activities. The total number can be quite large, and therefore a focus on key ones, or groupings of them may be preferred. 
-
+  
 ### Liabilities
 This refers to any Liabilities, short and long term, the Venture uses to fund the performance of it's Goals.
-
+   
 ### Equity
 Equity explains the Equity the Venture uses to achieve its Goals. Often this is not relevant for an Activity within a Venture. If deemed relevant for an Activity, then details as to how the Equity allocated to the Activity can be mentioned here. 
-
+  
 ### Goals 
 This explains the Goals the Venture tries to achieve. Given that Goals are standardised, a focus on Sub-Goals (and thus the Roadmap) may be more relevant, particularly if the OM is for an Activity and not a Venture. Depending on the OM, Change Goals may or may not be relevant. 
- 
+   
 ### Objectives
 This explains the Objectives the Venture performs across the different Activities to achieve the Goals. It differentiates between Routines and Projects. To avoid a detailed enumeration of such Objectives, they can be regrouped. This section is critical to understanding what the Activities do and more importantly, how they do it. Like for Change Goals, Projects can be omitted if not deemed relevant. 
-
+  
 ### Management
 This explains the manner in which the Venture is maintained and improved on an ongoing basis. It can be broken down in the four Management Functions i.e. Planning, Organising, Leading and Controlling.  
 For Planning Goals and Objectives are explained above. Other key deliverables that may be discussed are: Mission, Vision, Purpose, SWOT, Bylaws. 
 For Organising the above sections on Activities, Groups and Staff may be sufficient. Leading focuses on the manner in which the Venture is being directed, and may be less relevant to an Operating Model. 
 Controlling may be important, particularly if quality control and risk mitigation are deemed critical to the Venture. 
-
+  
 ### How To Use
-The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.      
+The above details can be used in several ways. For starters they are used as preamble in the template note [MGT: 80.Tools-OM-template]. This note can be used as the input for the Operating Management notes, which should be stored as: [MGT: OM-aaa] in which aaa is the name of the Venture or Activity. The note [MGT: OM-ALL] can be used to reflect transversal Activities and thus also transversal Routines.  
 The components mentioned above can be reflected in L1 or L2 sections, depending on the required granularity and detail. They can form, in the order stated, the basis of a written document or memo, or alternatively they are used in a presentation. Not all details need to be used and some can be merged into something more relevant for the Venture. Also, above is a suggested level of detail. It is possible to add other, more detailed aspects of the Profile e.g. Mission or Finance. It is also possible to combine aspects, for example Revenue and Services can be linked in a table showing which Services generated which Revenues, same for Costs and Risk, etc. It may also be relevant to compare Activities (or sub-Activities) to explain how the different Activities contribute to the Venture.  
 Ultimately, the Operating Model needs to consider the context in which the Venture operates. For example, a manufacturing Venture may have a strong focus on the Suppliers providing raw material (supply chain) and similarly the distribution chain for the delivery of the end Products to Clients. On the other hand, for a Service based company like an Investment Bank, a supply chain is less relevant, but risk management of the financial products created or issued, is more critical.    
 Therefore, for each Venture the focus will be on different aspects of the Profile Tree, and the manner in which they are described will be different in each case.
-If the above is used for the Operating Model of an Activity within the Venture, then much can be kept as is, but the focus should of course be on what is relevant to the Activity. So certain aspects of the Environment may not impact a specific Activity, so it can be left out.  
-Once the Operating Model has been completed as a one-off it should be maintained regularly.
+If the above is used for the Operating Model of an Activity within the Venture, then much can be kept as is, but the focus should of course be on what is relevant to the Activity. So certain aspects of the Environment may not impact a specific Activity, so it can be left out.  Once the Operating Model has been completed as a one-off it should be maintained regularly.
 ________________________________________
 ## COM (Framework)
 A Current Operating Model focuses on what the Operating Model is used today. 
@@ -1773,6 +1553,7 @@ _____________________________________
           Public Infra  
    
             primary
+   
   
          Office   Suppliers  
            ⇗⇙     ⇘⇖  
@@ -1784,6 +1565,7 @@ _____________________________________
            ⇘⇖     ⇗⇙  
          Office   Suppliers  
   
+    
             secondary   
 _____________________________________  
   
@@ -2014,9 +1796,6 @@ It is true that the effort to Delegate + performing Oversight should be less tha
    
 ### Delegating and Activities
 Within the Venture there are most often many Activities. A Manager  of a Venture does not manage the day to day of each Activity within the Venture and for all intents and purposes delegates day to day Management i..e., the Objectives to the Manager of the Activity. See also [## Activities Definition] and [## Objective Definition].
-  
-### Delegating and MSS
-The MSS, see [## MSS] has an embedded logic to capture what is, and what is not delegated.
 ________________________________________
 ## Delegating Checklist (Framework)
 Once the decision to delegate has been taken, the Process of Delegation kicks in. The following are guidelines, see: [data_public_study_HBR_Delegation_Checklist_2019.pdf]
@@ -2218,27 +1997,40 @@ ________________________________________
 In order to Lead, some form of interaction is necessary, and the main method of this interaction is Communication. As such across all Key Deliverables in Leading Communication is the main Tool. 
 
 ### Communication Properties
-One-way vs two way
-@@@
+Communication in its essence is conveying some form of Message which embeds a specific Intention from a Sender to a Receiver through some Means, such that the Receiver reacts as per the Intention. Although simple conceptually, communication  has some complexities embedded.
+    
+Structurally, the following elements form part of Communication:
+- Sender: the person (or people) that want to convey some intention to the Receiver.
+- Intention: the desire that action (or lack thereof), or understanding of something, including feelings is made clear to the Receiver. 
+- Construction: the Sender creates a Message that represents the intention. 
+- Message: the message encapsulates the intention. The Message format is most using of words (verbal communication) but can also be done without explicit use of words (non-verbal communication) which can include images, body language, facial expressions, sounds, ...
+- Means: the message is transported from the Sender to the Receiver via some means: directly face-to-face, electronically, postal service, telephony, ...
+- Receiver: the person (or people) who are meant to obtain the message and through their Interpretation of it, take note of the Intent. 
+- Interpretation: the process of decomposing the message such that *an* intent is made available. 
+- Reaction: the action the Sender takes in response to the Interpretation of the Message
+   
+In summary, communication is the Reaction of a Receiver based on its interpretation of a Message sent by the Sender through some Means, in which the Message is constructed by the Sender such that it represents some Intention. 
+     
+### Communication Difficulties
+From above one can easily see that the Sender's desired intention may not at all be achieved. There are many ways in which communication can go wrong. 
+Let's take as an example a Sender who wants the Receiver to Crack an Egg on the Receiver's own head. 
+  
+Going backward:
+-  The Receiver's reaction may not be the desired one, even if the interpretation was the correct one. The Sender may simply not do anything, or instead of cracking an egg on the head he he just squeezes an egg until it breaks.
+- The Receiver's interpretation may not be the desired one. The Message could have said "Crack an egg on your head" and the Receiver merely interprets this as do something dumb. Not the actual action of taking an egg and cracking it against his own head. 
+- The Message may never make it to the Receiver or only partially. This is the case when the Medium is unreliable, or has exceptional failure. 
+- The Message may not contain the actual Intention. For example, the message could say "Crack one on the head" with the Sender assuming that the Receiver will understand that "one" refers to an egg.
+- Context: in all cases, the intention may relate to some context that is not (fully) known to the Receiver which may reduce the ability of the Receiver to make the correct Interpretation. 
 
-### Verbal Communication
-@@@
-
-### Non-Verbal Communication
-@@@
-
-### Written Communication
-@@@
-
-### Oral Communication
-@@@
-
-### Formal Communication
-@@@
-
-### Informal Communication
-@@@
-_________________________________________
+### Communication Guidelines
+In order to achieve the correct reaction from the Receiver, the Sender must consider all the above. In other words, he should make sure there is enough context for the Receiver to be able to make the desired interpretation. 
+    
+Some key guidelines are the following:  
+- Assume only when assumptions can be made and are really correct.
+- Use clear language. 
+- Phrase questions as questions (and make such questions short). 
+- Use short sentences when possible and break it down into bullet pointed lists if various 'aspects' are enumerated.
+  _________________________________________
 ## Listening
 Listening is part of communication. Good listening means understanding the purpose of the conversation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
 
@@ -3056,245 +2848,7 @@ Information should abide by the following criteria:
 
 
 *********************************************
-# OPERATIONS
-Operations is the total of all Objectives performed within a Venture.
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Operations]. On L2 are the Tools:
-- Run
-- Change
-- Income
-- Cost
-- Risk
-________________________________________
-## Life Cycle (Framework)
-Not always applicable, a lifecycle explains how the various Routines and Projects interact and recur. Key elements of an Operational Lifecycle are:
-@@@
-
-
-*********************************************
-# STAFF
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Staff]. On L2 are the Tools:
-
-
-*********************************************
-# ASSETS
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Assets]. On L2 are the Tools:
-
-- Accounting Assets incl. Cash
-- Infrastructure
-- Intangibles
-- Data
-    - Data & Info
-- Services (from Suppliers)
-________________________________________
-## Data & Info (Framework)
-Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they relate to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
-
-### Data
-Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills,...
-
-Below follow key aspects involved in Data. 
-
-Data Set
-A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a single set of records showing both Revenues and Cost is a single Data Set.
-
-Time-Bound & Instance-Bound 
-Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g., geography, temperature zone, department within an organisation, departments within geographies, etc. 
-
-Variable 
-A fact is often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
-If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country for a given year (which indeed can change over time).
-
-Data Representation
-Facts can be represented in different manners:
-- Numbers
-- Text
-- Audio
-- Video
-- Images
-
-Of these, numbers and text are the most used for the simple reason that they embed very few facts but are easy to use. A video is difficult to interpret as a single fact, and even if decomposed in individual facts over time, there are many facts: colours, shapes, audio, etc. 
-
-Data Owner
-The person owning a Data Set. Often this is the person responsible for one or more Processes related to the Data Set. Often such Processes are captured in Software and the underlying Data in a *database*.
-
-Data Types
-There are three key Data Types:
-- Time-series: a Data Set representing an evolution of one or more variables over time. 
-- Cross-sectional Data: a Data Set that is a snapshot in time of one or more variables across an instance. 
-- Panel Data : also known as Cross-sectional Time-series is a combination of above two types, i.e., collection of variables at multiple times across multiple instances. Panel Data is probably the most used form of Data. 
-
-Data Equation
-The variable or fact changes within one of the three Data Types. As such, the variable can, in theory at least, be captured mathematically as an equation:  y = f(x) in which y is the fact and f(x) is a function of the Data Type, bearing in mind that Panel Data is a combination of time and one ore more instances i.e., a multi-dimensional relation!
-In reality the  Data Equation often does not exist, or only on a too small subset of data to be relevant. The attempt to find the equation is part of Info.
-
-Data Quality
-Data Quality is the state of Data that tells how reliable a Data Set is to be considered for the production of Information. If a data set is of high quality, it must fit the intended use or purpose. It must be complete, accurate, reliable, easy to access, consistent with different sources, and easy to represent in Info.
-NB: there is no universally accepted standard for Data Quality as this is very much organisation dependent.  
-
-### Info
-Information or Info is the organisation and interpretation of facts embedded in Data. In other words, it attempts to find a relation between a variable and passage of time and/or changes of instances. Another word for Info is Descriptive Statistics or Descriptive Data.
-
-Most often, Info requires more than one Data Set to be used. In other words, Info becomes more relevant when there are relations between different variables across different Data Sets. Or yet differently, the manner in which change, embedded in Data Sets, can be shown to be linked across those Data Sets in the the past and across instances gives the means to make decisions for the future and across instances. 
-
-Info Owner
-The person responsible for Information. This is the person accountable for providing information to Info Consumers. 
-
-Info Consumer
-The person using information for some purpose. Examples: Department head, Support unit manager.
-
-Info Purpose
-The purpose for which Information is used. Not all Data Sets yield to the same information. Data Sets can in fact be used for different purposes. Example: Nr Products Sold gives the Marketing department insight in success of marketing campaigns, but it gives the Finance department insight in total manufacturing costs 
-
-Info Representation
-There are various manners to render or represent Info. The two most common Info Representations are Tables and Graphs a.k.a. Charts. 
-
-- Table: Prepped Data -see below- (or a subset of it) is displayed in *tabular* format. If the table is small it may convey useful information, but if the Prepped Data is complex Panel Data then the reader will quickly get lost in *data overload*.  The only way to help the Info Consumer in this case is to highlight specific parts in the table like outliers or trends,  using specific formatting (different background, different font colour or size) or adding indicators (arrows, encircling the data)
-- Chart: Prepped Data (or a subset of it) is displayed in a  *graphic* format. There are many types of charts (see below). It is possible to provide multiple variables in a single Chart, but like with Tables, the Info Consumer risks suffering data overload. In addition, although there are many options to render info in a chart, this does not mean that all types of charts need to be tried when rendering Info.
-
-Chart Types
-The types of charts one can choose form are numerous: Bar Charts (horizontal), Column Chart i.e. a vertical Bar Chart, Pie Charts, Scatter Chart, Area Charts, Line Charts, Bubble Charts, Net Charts a.k.a. Spiderweb charts, Waterfall charts., Stock Charts a.k.a. Box Charts, Mekko Charts, Histograms,... and combinations of all those charts, using various techniques including two vertical axis (major, minor), using three dimensional versions of the above, using logarithmic scales etc.
-
-Refer to the following websites for examples of charts:
-<https://www.stratechi.com/business-charts>
-<https://www.theanalystacademy.com/mckinsey-report-breakdown>
-
-Absolute vs Relative Info
-Within both Tables and Charts, Info can be rendered in two distinct manners: 
-- Absolute rendition e.g. revenues in 2020, 2021 & 2022 
-- Relative rendition e.g. % change 2022 vs 2021, 2021 vs 2020
-
-Static Info or Dynamic Info
-Info can be rendered statically, i.e., a a single snapshot of one or more Data Sets, according to the scope defined by the Info Owner. 
-Alternatively, the Info Owner can give the Info Consumer the ability to zoom in to a more detailed level of one or more Data Sets, or reversely zoom out, to get a broader view of the facts. This dynamic a.k.a. interactive manner of providing Information has various advantages, and is particularly well suited for Simulation Info.
-
-Simulation Info
-It is possible to provide info based on hypothetical facts, in other words, *create* non-factual Data Sets that could exist at some point in time and/or within an instance, and then use that Data Set to display theoretical Info which may better help an Info Consumer to make decisions. 
-
-Info Types
-The usefulness of Info is ultimately defined by how well the Info Consumer can make decisions based on it.
-There are three essential types of indicators that allow managers to make decisions
-
-KPI
-A Key Performance Indicator or *KPI* is a quantifiable measure of performance for an Objective. Where the Objective says what is aimed for, the KPI makes it quantitative and therefore easier to track. This is the most simple form of Information and it is relatively easy to produce it: there is an Objective that is performance related: nr Products produced , nr Products sold, total revenues, total cost etc. These types of indicators are bound in time e.g. a year or an instance e.g. a geography. Once that objective is there, the only thing to do is collect the data related to the Objective and transform it in the Objective's target unit and then compare with the target. Example: i) NBI objective full year = 950 M EUR. KPI = NBI YTD annualised vs Objective as a %, ii) Cost objective full Year = 170 M EUR. KPI = Cost Annualized vs Objective as %, iii) ROE Objective = +1 % vs Previous Year. KPI = expected ROE vs Previous Year.
-
-NB: the above assumes that Objectives were defined according to SMART principles which includes the notion of Measurable i.e. quantitative facts . Objectives that use a qualitative expression like "make things better" are of course impossible to raise KPIs for.  
-
-KRI: 
-A Key Risk Indicator or *KRI* helps Info Consumers identifying Risk caused by weaknesses in Processes or in the Services/Products created by those Processes. KRIs are used to give insight into Risk. This is where KRIs deviate from the simplicity of KPIs: Risk is unknown, by design. Risk is the *probability* of an *adverse event* occurring at some point in the future. Although not always morally correct, adverse events are eventually all a form of money: fines, loss of revenues due to non-production, loss due to recall of a product, loss of staff (this is where the moral piece pops up), etc. Methods like back-testing can help identify expected failures in specific Processes, but often losses occur in Activities that are a complex combination of many Processes that make it hard and/or economically nonviable to back-test. 
-The conclusion of the above that it is often hard to produce KRIs. Most KRIs are at best a proxy, an indication of how things stand today, but do not truthfully show either probability or the impact of the event occurring. However, all is not lost, although precise data may not be produced, a lot of data is available w/r to trends related to either Activities or Processes within those Activities. Example: i) Nr of Server Processes not available to traders at 08h30. KRI = Process up-time, ii) Total Loss amount related to Processes not available for traders at 08h30, iii) Nr Systems used in Production, v) Nr Handoffs between Processes, etc.
-
-NB: it is possible to set an objective to stay within certain risk limits for example. Such cases can then be deemed KPIs. It may be that the KPI depends on data collected to produce KRIs.
-
-KCI: 
-A Key Control Indicator or *KCI* a.k.a. Control Effectiveness Indicator provides information on the extent to which a Control is meeting its intended objective in terms of Risk prevention or reduction. In order to provide such information, the KCI has to have an explicit relationship to both the Control and to the Risk against which the Control has been implemented. As such, a KCI has a relationship with KRI.  Info Consumers can define desired tolerances or thresholds for controls. The KCI´s role is to ensure that adequate responses and monitoring have been provided to a risk situation identified by KRIs. Control verification is a key component of a KCI, and it usually includes auditing, quality assurance and improvement programs. Typical KCIs cover the reliability of financial reporting, number of audit issues or product quality assurance ratios. Example: i) nr of morning checks not performed before 08h30,  This ties in with the example given for the KRI above.
-
-### Data Management
-Data Management, or Data to Info or D2I represents the Input and Output of specific Processes in the production of Info from Data.
-
-There are 4 levels of Objects (top) and 4 Processes (bottom) interacting with each other. 
-  
-Source Data  Raw Data Prepped Data   Info  
-      ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
-     Collection Preparation Transformation Disposal   
-  
-Source Data
-Data is stored in various locations and formats (files, databases,...). This original set of Data is referred to as the Source Data and it is the start of the D2I Cycle. Each Source Data has a Source Data Owner. 
-
-Data Collection
-Data Collection is the process of obtaining Source Data. This may be done directly e.g. through an API, or indirectly e.g. the Source Data Owner generates a data extract and delivers them as a file. 
-
-Data
-Raw Data is the result from Data Collection Process. It is the most basic level of data before it becomes Info. This level of data is the same as the Data Owner knows. Raw Data may or may not be stored as part of the cycle. 
-One important thing to note is that Raw Data may be less complete than Source Data. This happens when the Data Collection process re-scopes the Source Data e.g. show only records for the year 2020 or only provide 100 out of the 1000 fields available for a single record (because the other 900 fields are not very useful). Each Raw Data set has a Raw Data Owner, which is most often the person assuring the Data Collection. Raw Data is often stored in Data Lakes in case of industrial approaches to Data, where organisations want to make Data available to a large scope of people.
-
-Data Preparation
-Raw Data often requires preparation to make it usable for the final step. Typical actions in Preparation include: 
-1. Data Cleaning: data may  have missing fields that need to be defaulted, shifted fields that need to be moved back to the right column, etc.
-2. Mapping: some fields are not meaningful unless they are mapped to a more meaningful value e.g. a User Id can be mapped to a User Name. 
-3. Reformatting: data fields may need to be standardised e.g. the date 4 May 2000 can be received from one Data Source as 04/05/2000 and in another Data Source as 05/04/2000 and in yet another Data Set using Excel date number as 36650 and from a UNIX based source 1588597200.
-4. De-duplicating: certain records may be duplicate within the Raw Data or across Raw Datasets.
-5. Scoping: Raw Data may contain records for a far larger scope than is needed e.g. all records for an entire company, whereas Info needs to be produced only for a department within.
-
-Prepped Data
-The result of Data Preparation is Prepped Data. It can be used to create Info. It is in most cases not easy, or if at all possible to go back from Prepped Data to Raw Data, unless detailed audit trails are kept during Data Preparation. 
-A good Data Preparation Process creates Data that can be used for more than one Info, either in its own, or by combining it with other Prepped Datasets. Prepped Data is often stored for use later. Like with the other Data Sets, Prepped Data has a Prepped Data Owner. Prepped Data can be part of a *Data Warehouse*, which is a industrial scale repository of Prepped Data.  
-
-NB: sometimes Source Data is in effect Prepped data. This means it has been modified to fit a specific purpose before it was made available as Source Data, which in turn may cast doubts on the Data's validity. Only if the Data is *certified* as being a true reflection of the Source Data, can such Data be used. The advantage is of using Prepped Data as Source Data is of course that Preparation process may be simplified. 
-
-Data Transformation
-The last Process, ultimately creating Info, consists of manipulating Prepped Data. Data Transformation is composed of one or more of the following:
-1. Filtering: explicitly including/excluding records 
-2. Sorting: ordering data such that it follows a trend (alphabetical, numerical, date,...)
-3. Linking: combining one Prepped Data set with another a.k.a. Data Aggregation.
-4. Calculating: using Prepped data to calculated new Facts, which can be stored as new Prepped Data e.g. calculating an average, median, a moving average, min, max, standard deviation... 
-5. Rendering: using graphical tools to highlight trends, concentration, outliers (smoothing), new calculated Facts like Thresholds, etc. such that the Prepped Data, becomes more meaningful than in its existing form. 
-6. Enriching: it is possible to use static values that are stored for specific Datasets. For example, a static value could be 10% (static) of Revenue as a Threshold for Operational Losses. Other static values are max nr counts, max values, etc. Such values often appear as straight lines, with or without a slope. 
-7. Manual Analysis: iteratively producing Info and adjusting it to achieve the best possible Info. 
-8. Automatic Analysis: advanced Processes to find relevant Info  in the Data that the person performing the Data Transformation is unaware of. This is the remit of advanced Data Science technologies. 
-
-Info
-Is the desired result of the Data Management Process.
-
-Disposal
-The last step is not a mandatory step and does not only apply to Info but also to the various forms of Data. Disposing of Data and/or Info may be required when they have outlived their worth or when for regulatory reasons retaining the data is not mandatory anymore.  Storing data is implied by all above steps, but storage has a cost and that cost may not necessarily be worth the Info that can be obtained from the Data. Disposing of such Data this becomes an economically viable choice.
-
-Data Approach to D2I
-There are various aspects of Data that need be considered before starting to work on the D2I cycle, these considerations are referred to as Data Approach. The Data Approach goes hand in hand with the Info Approach, see below.
-
-The following guidelines help in framing Data Management
-- Think larger than the scope of the Department in the Organisation for which data is needed: the same Data Set(s) are probably needed for other departments
-- Review Source Data exhaustiveness and assure it has all fields required to produce Info before trying to productionalise the Data Management. 
-- Test the D2I cycle on each Source Data and look at the Info that can be generated, and the extent to which the Source Data for that Info is complete or requires enrichment with other Source Data
-- Never assume that *manually* performing the Processes involved in management of Data is worth the effort: it is not in the long run.  Building automation into the Processes should be considered from the very start.
-
-Info Approach to D2I
-An Info approach aims at assuring consistency in the manner in which Info is produced. This in turn drives consistency in the manner in which Data is managed throughout the D2I cycle, see also above.
-
-The following guidelines help producing smart Info.
-- Do not overestimate the skills of the Info Consumer: if the charts become too complex, you may miss out on the opportunity to convey the message.
-- Do not overestimate the time Info Consumers will spend on the Info provided. This combined with the above guidelines means simply put: do not produce too much info! Stick to 2-3 messages and make them appear in the Info.
-- Familiarise yourself with all Chart types, to see what can be done. 
-- For time-series use the same overall period e.g. 2020/2021 across all variables e.g. NBI, Operational Incidents 
-- For Chart types that group Data Points e.g. Bar Charts per month, use as much as possible the same grouping range e.g. all charts monthly.
-- Stick to the same Info Representation for similar variable types i.e. if various Data Sets consist of time series for the same frequency then stick to a single Chart Type as much as possible, e.g. Area Chart for daily, Column Chart for quarterly, etc.
-- Calculate new Data whenever possible to give a sense of perspective. This is particularly helpful for time series e.g. average or median.
-- If data is Panel Data, try using bubble charts, or maximum two charts that show both the time series and the relative size/impact across the instances. 
-- Minimise the use of Tables, rather move them to the Appendix
-- In contradiction to the above, if the data set is small, and simple, do not use a Chart to convey the Data of a Table of small size!
-- Highlight important parts (concentration, deviation, specific trends,..) within the chart rather than using words next to the chart
-- More generally, a chart should be self explanatory. If many words are needed to explain a chart, then the chart does not capture the right Info.
-- Prefer interactive over static Info, but be mindful of providing too many interactive charts. 
-
-
-*********************************************
-# SUPPLIERS
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Suppliers]. On L2 are the Tools:
-
-
-*********************************************
-# LIABILITIES 
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Liabilities]. On L2 are the Tools:
-
-
-*********************************************
-# EQUITY 
-________________________________________
-## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Equity]. On L2 are the Tools:
-
-
-*********************************************
-# FINANCE
+# BUSINESS FUNCTIONS - FINANCE
 ________________________________________
 ## Overview
 This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Finance]. On L2 are the Tools:
@@ -3660,7 +3214,7 @@ There are several Projections m for the next Period:
 - Determination of dependency between Services and Assets, Suppliers and Staff 
 @@@
 
-#### Operating Budet Quick and Dirty
+#### Operating Budget Quick and Dirty
 In established businesses where there is little change (be that growth or decline), a safe bet for a big part of the Budget is to assume that next period is closely related to the previous period. More specifically:
 - Assume the Run remains unchanged
 - Assume the only difference comes from Change
@@ -3673,7 +3227,7 @@ In effect this approach looks mostly at anticipated delta of the next period ver
 
 
 *********************************************
-# HUMAN RESOURCES
+# BUSINESS FUNCTIONS - HUMAN RESOURCES
 Human Resources involves Processes to *assure skillful Staff is recruited, kept skilled and retained*. 
 There is a dedicated note: [MGT: 52.HR].
 ________________________________________
@@ -4030,14 +3584,14 @@ NB: very Euro focussed, but gives good insight.
 
 
 *********************************************
-# PROCUREMENT 
+# BUSINESS FUNCTIONS - PROCUREMENT 
 ________________________________________
 ## Overview
 This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Procurement]. On L2 are the Tools:
 
 
 *********************************************
-# MARKETING
+# BUSINESS FUNCTIONS - MARKETING
 Marketing is the Business Function  of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services.
 
 There are two approaches to it: inside out (the 4 P), outside in (the 4Cs). They are very similar and are reflected here each time in conjunction.
@@ -4056,24 +3610,262 @@ ________________________________________
 Client Segmentation ties into the Business Model, see [## Business Model Design].
 
 ### Classification
-There are various axis to segment clients against. The following are not exhuastive but recurring:
+There are various axis to segment clients against. The following are not exhaustive but recurring:
 - Geographic: country, region, town, rural, urban 
-- Psychographic: lifestyle traits (tech savvy, gamers, sporty, party goeretc), or personality traits
+- Psychographic: lifestyle traits (tech savvy, gamers, sporty, party goer etc), or personality traits
 - Demographic: age, gender, socio-economic class, education. 
 - Life-cycle or generation: baby-boomer, GenX, Gen Y (Millenial), Gen Z,
  - Behavioural: brand loyalty
 
 ### DAMP
-Ascertain whether a segment is worth the invesment. The following determines whether a segment can be:
+Ascertain whether a segment is worth the investment. The following determines whether a segment can be:
 - Discernable: differentiated from other segments.
 - Accessible: be accessed via Promotion?
 - Measurable: quantified and its size determined?
 - Profitable: yield a sufficient ROI?
 
+*********************************************
+# OPERATIONS
+Operations is the total of all Objectives performed within a Venture.
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Operations]. On L2 are the Tools:
+- Run
+- Change
+- Income
+- Cost
+- Risk
+________________________________________
+## Life Cycle (Framework)
+Not always applicable, a lifecycle explains how the various Routines and Projects interact and recur. Key elements of an Operational Lifecycle are:
+@@@
+
+
+*********************************************
+# STAFF
+________________________________________
+## Overview
+<WIP>
+
+*********************************************
+# ASSETS
+________________________________________
+## Overview
+________________________________________
+## Overview
+<WIP>
+
+- Accounting Assets incl. Cash
+- Infrastructure
+- Intangibles
+- Data
+    - Data & Info
+- Services (from Suppliers)
+________________________________________
+## Data & Info (Framework)
+Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they relate to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
+
+### Data
+Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills,...
+
+Below follow key aspects involved in Data. 
+
+Data Set
+A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a single set of records showing both Revenues and Cost is a single Data Set.
+
+Time-Bound & Instance-Bound 
+Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g., geography, temperature zone, department within an organisation, departments within geographies, etc. 
+
+Variable 
+A fact is often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
+If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country for a given year (which indeed can change over time).
+
+Data Representation
+Facts can be represented in different manners:
+- Numbers
+- Text
+- Audio
+- Video
+- Images
+
+Of these, numbers and text are the most used for the simple reason that they embed very few facts but are easy to use. A video is difficult to interpret as a single fact, and even if decomposed in individual facts over time, there are many facts: colours, shapes, audio, etc. 
+
+Data Owner
+The person owning a Data Set. Often this is the person responsible for one or more Processes related to the Data Set. Often such Processes are captured in Software and the underlying Data in a *database*.
+
+Data Types
+There are three key Data Types:
+- Time-series: a Data Set representing an evolution of one or more variables over time. 
+- Cross-sectional Data: a Data Set that is a snapshot in time of one or more variables across an instance. 
+- Panel Data : also known as Cross-sectional Time-series is a combination of above two types, i.e., collection of variables at multiple times across multiple instances. Panel Data is probably the most used form of Data. 
+
+Data Equation
+The variable or fact changes within one of the three Data Types. As such, the variable can, in theory at least, be captured mathematically as an equation:  y = f(x) in which y is the fact and f(x) is a function of the Data Type, bearing in mind that Panel Data is a combination of time and one ore more instances i.e., a multi-dimensional relation!
+In reality the  Data Equation often does not exist, or only on a too small subset of data to be relevant. The attempt to find the equation is part of Info.
+
+Data Quality
+Data Quality is the state of Data that tells how reliable a Data Set is to be considered for the production of Information. If a data set is of high quality, it must fit the intended use or purpose. It must be complete, accurate, reliable, easy to access, consistent with different sources, and easy to represent in Info.
+NB: there is no universally accepted standard for Data Quality as this is very much organisation dependent.  
+
+### Info
+Information or Info is the organisation and interpretation of facts embedded in Data. In other words, it attempts to find a relation between a variable and passage of time and/or changes of instances. Another word for Info is Descriptive Statistics or Descriptive Data.
+
+Most often, Info requires more than one Data Set to be used. In other words, Info becomes more relevant when there are relations between different variables across different Data Sets. Or yet differently, the manner in which change, embedded in Data Sets, can be shown to be linked across those Data Sets in the the past and across instances gives the means to make decisions for the future and across instances. 
+
+Info Owner
+The person responsible for Information. This is the person accountable for providing information to Info Consumers. 
+
+Info Consumer
+The person using information for some purpose. Examples: Department head, Support unit manager.
+
+Info Purpose
+The purpose for which Information is used. Not all Data Sets yield to the same information. Data Sets can in fact be used for different purposes. Example: Nr Products Sold gives the Marketing department insight in success of marketing campaigns, but it gives the Finance department insight in total manufacturing costs 
+
+Info Representation
+There are various manners to render or represent Info. The two most common Info Representations are Tables and Graphs a.k.a. Charts. 
+
+- Table: Prepped Data -see below- (or a subset of it) is displayed in *tabular* format. If the table is small it may convey useful information, but if the Prepped Data is complex Panel Data then the reader will quickly get lost in *data overload*.  The only way to help the Info Consumer in this case is to highlight specific parts in the table like outliers or trends,  using specific formatting (different background, different font colour or size) or adding indicators (arrows, encircling the data)
+- Chart: Prepped Data (or a subset of it) is displayed in a  *graphic* format. There are many types of charts (see below). It is possible to provide multiple variables in a single Chart, but like with Tables, the Info Consumer risks suffering data overload. In addition, although there are many options to render info in a chart, this does not mean that all types of charts need to be tried when rendering Info.
+
+Chart Types
+The types of charts one can choose form are numerous: Bar Charts (horizontal), Column Chart i.e. a vertical Bar Chart, Pie Charts, Scatter Chart, Area Charts, Line Charts, Bubble Charts, Net Charts a.k.a. Spiderweb charts, Waterfall charts., Stock Charts a.k.a. Box Charts, Mekko Charts, Histograms,... and combinations of all those charts, using various techniques including two vertical axis (major, minor), using three dimensional versions of the above, using logarithmic scales etc.
+
+Refer to the following websites for examples of charts:
+<https://www.stratechi.com/business-charts>
+<https://www.theanalystacademy.com/mckinsey-report-breakdown>
+
+Absolute vs Relative Info
+Within both Tables and Charts, Info can be rendered in two distinct manners: 
+- Absolute rendition e.g. revenues in 2020, 2021 & 2022 
+- Relative rendition e.g. % change 2022 vs 2021, 2021 vs 2020
+
+Static Info or Dynamic Info
+Info can be rendered statically, i.e., a a single snapshot of one or more Data Sets, according to the scope defined by the Info Owner. 
+Alternatively, the Info Owner can give the Info Consumer the ability to zoom in to a more detailed level of one or more Data Sets, or reversely zoom out, to get a broader view of the facts. This dynamic a.k.a. interactive manner of providing Information has various advantages, and is particularly well suited for Simulation Info.
+
+Simulation Info
+It is possible to provide info based on hypothetical facts, in other words, *create* non-factual Data Sets that could exist at some point in time and/or within an instance, and then use that Data Set to display theoretical Info which may better help an Info Consumer to make decisions. 
+
+Info Types
+The usefulness of Info is ultimately defined by how well the Info Consumer can make decisions based on it.
+There are three essential types of indicators that allow managers to make decisions
+
+KPI
+A Key Performance Indicator or *KPI* is a quantifiable measure of performance for an Objective. Where the Objective says what is aimed for, the KPI makes it quantitative and therefore easier to track. This is the most simple form of Information and it is relatively easy to produce it: there is an Objective that is performance related: nr Products produced , nr Products sold, total revenues, total cost etc. These types of indicators are bound in time e.g. a year or an instance e.g. a geography. Once that objective is there, the only thing to do is collect the data related to the Objective and transform it in the Objective's target unit and then compare with the target. Example: i) NBI objective full year = 950 M EUR. KPI = NBI YTD annualised vs Objective as a %, ii) Cost objective full Year = 170 M EUR. KPI = Cost Annualized vs Objective as %, iii) ROE Objective = +1 % vs Previous Year. KPI = expected ROE vs Previous Year.
+
+NB: the above assumes that Objectives were defined according to SMART principles which includes the notion of Measurable i.e. quantitative facts . Objectives that use a qualitative expression like "make things better" are of course impossible to raise KPIs for.  
+
+KRI: 
+A Key Risk Indicator or *KRI* helps Info Consumers identifying Risk caused by weaknesses in Processes or in the Services/Products created by those Processes. KRIs are used to give insight into Risk. This is where KRIs deviate from the simplicity of KPIs: Risk is unknown, by design. Risk is the *probability* of an *adverse event* occurring at some point in the future. Although not always morally correct, adverse events are eventually all a form of money: fines, loss of revenues due to non-production, loss due to recall of a product, loss of staff (this is where the moral piece pops up), etc. Methods like back-testing can help identify expected failures in specific Processes, but often losses occur in Activities that are a complex combination of many Processes that make it hard and/or economically nonviable to back-test. 
+The conclusion of the above that it is often hard to produce KRIs. Most KRIs are at best a proxy, an indication of how things stand today, but do not truthfully show either probability or the impact of the event occurring. However, all is not lost, although precise data may not be produced, a lot of data is available w/r to trends related to either Activities or Processes within those Activities. Example: i) Nr of Server Processes not available to traders at 08h30. KRI = Process up-time, ii) Total Loss amount related to Processes not available for traders at 08h30, iii) Nr Systems used in Production, v) Nr Handoffs between Processes, etc.
+
+NB: it is possible to set an objective to stay within certain risk limits for example. Such cases can then be deemed KPIs. It may be that the KPI depends on data collected to produce KRIs.
+
+KCI: 
+A Key Control Indicator or *KCI* a.k.a. Control Effectiveness Indicator provides information on the extent to which a Control is meeting its intended objective in terms of Risk prevention or reduction. In order to provide such information, the KCI has to have an explicit relationship to both the Control and to the Risk against which the Control has been implemented. As such, a KCI has a relationship with KRI.  Info Consumers can define desired tolerances or thresholds for controls. The KCI´s role is to ensure that adequate responses and monitoring have been provided to a risk situation identified by KRIs. Control verification is a key component of a KCI, and it usually includes auditing, quality assurance and improvement programs. Typical KCIs cover the reliability of financial reporting, number of audit issues or product quality assurance ratios. Example: i) nr of morning checks not performed before 08h30,  This ties in with the example given for the KRI above.
+
+### Data Management
+Data Management, or Data to Info or D2I represents the Input and Output of specific Processes in the production of Info from Data.
+
+There are 4 levels of Objects (top) and 4 Processes (bottom) interacting with each other. 
+  
+Source Data  Raw Data Prepped Data   Info  
+      ⇘  ⇗   ⇘  ⇗    ⇘    ⇗  ⇘  
+     Collection Preparation Transformation Disposal   
+  
+Source Data
+Data is stored in various locations and formats (files, databases,...). This original set of Data is referred to as the Source Data and it is the start of the D2I Cycle. Each Source Data has a Source Data Owner. 
+
+Data Collection
+Data Collection is the process of obtaining Source Data. This may be done directly e.g. through an API, or indirectly e.g. the Source Data Owner generates a data extract and delivers them as a file. 
+
+Data
+Raw Data is the result from Data Collection Process. It is the most basic level of data before it becomes Info. This level of data is the same as the Data Owner knows. Raw Data may or may not be stored as part of the cycle. 
+One important thing to note is that Raw Data may be less complete than Source Data. This happens when the Data Collection process re-scopes the Source Data e.g. show only records for the year 2020 or only provide 100 out of the 1000 fields available for a single record (because the other 900 fields are not very useful). Each Raw Data set has a Raw Data Owner, which is most often the person assuring the Data Collection. Raw Data is often stored in Data Lakes in case of industrial approaches to Data, where organisations want to make Data available to a large scope of people.
+
+Data Preparation
+Raw Data often requires preparation to make it usable for the final step. Typical actions in Preparation include: 
+1. Data Cleaning: data may  have missing fields that need to be defaulted, shifted fields that need to be moved back to the right column, etc.
+2. Mapping: some fields are not meaningful unless they are mapped to a more meaningful value e.g. a User Id can be mapped to a User Name. 
+3. Reformatting: data fields may need to be standardised e.g. the date 4 May 2000 can be received from one Data Source as 04/05/2000 and in another Data Source as 05/04/2000 and in yet another Data Set using Excel date number as 36650 and from a UNIX based source 1588597200.
+4. De-duplicating: certain records may be duplicate within the Raw Data or across Raw Datasets.
+5. Scoping: Raw Data may contain records for a far larger scope than is needed e.g. all records for an entire company, whereas Info needs to be produced only for a department within.
+
+Prepped Data
+The result of Data Preparation is Prepped Data. It can be used to create Info. It is in most cases not easy, or if at all possible to go back from Prepped Data to Raw Data, unless detailed audit trails are kept during Data Preparation. 
+A good Data Preparation Process creates Data that can be used for more than one Info, either in its own, or by combining it with other Prepped Datasets. Prepped Data is often stored for use later. Like with the other Data Sets, Prepped Data has a Prepped Data Owner. Prepped Data can be part of a *Data Warehouse*, which is a industrial scale repository of Prepped Data.  
+
+NB: sometimes Source Data is in effect Prepped data. This means it has been modified to fit a specific purpose before it was made available as Source Data, which in turn may cast doubts on the Data's validity. Only if the Data is *certified* as being a true reflection of the Source Data, can such Data be used. The advantage is of using Prepped Data as Source Data is of course that Preparation process may be simplified. 
+
+Data Transformation
+The last Process, ultimately creating Info, consists of manipulating Prepped Data. Data Transformation is composed of one or more of the following:
+1. Filtering: explicitly including/excluding records 
+2. Sorting: ordering data such that it follows a trend (alphabetical, numerical, date,...)
+3. Linking: combining one Prepped Data set with another a.k.a. Data Aggregation.
+4. Calculating: using Prepped data to calculated new Facts, which can be stored as new Prepped Data e.g. calculating an average, median, a moving average, min, max, standard deviation... 
+5. Rendering: using graphical tools to highlight trends, concentration, outliers (smoothing), new calculated Facts like Thresholds, etc. such that the Prepped Data, becomes more meaningful than in its existing form. 
+6. Enriching: it is possible to use static values that are stored for specific Datasets. For example, a static value could be 10% (static) of Revenue as a Threshold for Operational Losses. Other static values are max nr counts, max values, etc. Such values often appear as straight lines, with or without a slope. 
+7. Manual Analysis: iteratively producing Info and adjusting it to achieve the best possible Info. 
+8. Automatic Analysis: advanced Processes to find relevant Info  in the Data that the person performing the Data Transformation is unaware of. This is the remit of advanced Data Science technologies. 
+
+Info
+Is the desired result of the Data Management Process.
+
+Disposal
+The last step is not a mandatory step and does not only apply to Info but also to the various forms of Data. Disposing of Data and/or Info may be required when they have outlived their worth or when for regulatory reasons retaining the data is not mandatory anymore.  Storing data is implied by all above steps, but storage has a cost and that cost may not necessarily be worth the Info that can be obtained from the Data. Disposing of such Data this becomes an economically viable choice.
+
+Data Approach to D2I
+There are various aspects of Data that need be considered before starting to work on the D2I cycle, these considerations are referred to as Data Approach. The Data Approach goes hand in hand with the Info Approach, see below.
+
+The following guidelines help in framing Data Management
+- Think larger than the scope of the Department in the Organisation for which data is needed: the same Data Set(s) are probably needed for other departments
+- Review Source Data exhaustiveness and assure it has all fields required to produce Info before trying to productionalise the Data Management. 
+- Test the D2I cycle on each Source Data and look at the Info that can be generated, and the extent to which the Source Data for that Info is complete or requires enrichment with other Source Data
+- Never assume that *manually* performing the Processes involved in management of Data is worth the effort: it is not in the long run.  Building automation into the Processes should be considered from the very start.
+
+Info Approach to D2I
+An Info approach aims at assuring consistency in the manner in which Info is produced. This in turn drives consistency in the manner in which Data is managed throughout the D2I cycle, see also above.
+
+The following guidelines help producing smart Info.
+- Do not overestimate the skills of the Info Consumer: if the charts become too complex, you may miss out on the opportunity to convey the message.
+- Do not overestimate the time Info Consumers will spend on the Info provided. This combined with the above guidelines means simply put: do not produce too much info! Stick to 2-3 messages and make them appear in the Info.
+- Familiarise yourself with all Chart types, to see what can be done. 
+- For time-series use the same overall period e.g. 2020/2021 across all variables e.g. NBI, Operational Incidents 
+- For Chart types that group Data Points e.g. Bar Charts per month, use as much as possible the same grouping range e.g. all charts monthly.
+- Stick to the same Info Representation for similar variable types i.e. if various Data Sets consist of time series for the same frequency then stick to a single Chart Type as much as possible, e.g. Area Chart for daily, Column Chart for quarterly, etc.
+- Calculate new Data whenever possible to give a sense of perspective. This is particularly helpful for time series e.g. average or median.
+- If data is Panel Data, try using bubble charts, or maximum two charts that show both the time series and the relative size/impact across the instances. 
+- Minimise the use of Tables, rather move them to the Appendix
+- In contradiction to the above, if the data set is small, and simple, do not use a Chart to convey the Data of a Table of small size!
+- Highlight important parts (concentration, deviation, specific trends,..) within the chart rather than using words next to the chart
+- More generally, a chart should be self explanatory. If many words are needed to explain a chart, then the chart does not capture the right Info.
+- Prefer interactive over static Info, but be mindful of providing too many interactive charts. 
+
+
+*********************************************
+# SUPPLIERS
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Suppliers]. On L2 are the Tools:
+
+
+*********************************************
+# LIABILITIES 
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Liabilities]. On L2 are the Tools:
+
+
+*********************************************
+# EQUITY 
+________________________________________
+## Overview
+This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Equity]. On L2 are the Tools:
+
 
 *********************************************
 # VERSIONS
-Versions are using yyyymmdd. Each version has a level 3 header. Future improvements are recorded in [### Planned]. Once an actual date is put in a header the version is deemed released.
+Versions are using yyyymmdd. Each version is at level 3 header. Future improvements are recorded in [### Planned]. Once an actual date is put in a header the version is deemed released.
 ________________________________________
 ## List of Versions
 
@@ -4159,9 +3951,15 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20250701
 - Renaming [## Disaster Recovery] to [## Business Continuity Management] and update the entire L2 level with details
 
-
 ### 20250803
 - Added [## Profile Tree Numbering]
+
+### 20250816
+- Integrated the Business Functions under Management
+- Updated many sections to align to the new Management Framework
+- Updated [## Objective Properties] to be more generic.
+- Updated [## Operating Model] to consider the new Profile elements
+- Updated [## Communication], formerly empty
 
 ### Planned
 
