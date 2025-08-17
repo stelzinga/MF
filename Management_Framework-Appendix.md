@@ -78,9 +78,9 @@ Examples: MGT: 01.Planning, PRD: Inventory
   
 This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowed, in which case it should be replaced with a '_'. 
   
-There are many alternatives of this. For example, the CAT could be split up in several formalised parts CT1-CT2 etc. The main point is that structuring notes is helpful and putting some thought in it is worthwhile.
+There are many alternatives of this. For example, the CAT could be split up in several formalised parts CT1-CT2, or use numbered entries. Main take-away is that putting some thought in structuring notes is worthwhile.
   
-Below sections assume above simple principles. The reader will need to adjust to its won preferences.   
+Below sections assume above simple principles, the reader can adjust to different preferences. 
 ________________________________________
 ## Note Category
 In the Management Framework, Note Categories are based on *Goals* applicable to a Venture, see [## Profile Overview]. This means in the MF that Goals are shortened to three character codes. The reason to use three characters is both practical (instead of making long note names , they remain short) and aesthetic (always three characters better shows the group categories and thus the entire note structure). Obviously, the reader can choose any length, but this MF uses three. 
@@ -97,7 +97,7 @@ Notes are composed of sections (same as chapters). Sections can be numbered, but
 Note Content is written in Markdown, see [## Markdown].
 ________________________________________
 ## Markdown
-Text in the MF is written using *Markdown*.  Markdown is a protocol to write text in a manner that when displayed in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like), yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc. Many websites nowadays support Markdown pages. For example, this text is available in the public domain in Git and will display in Markdown when visiting the website.
+Text in the MF is written using *Markdown* as the basic text format. Markdown is a protocol to write text in a manner that when displayed in a Markdown editor or viewer will yield an output that is user friendly to read (HTML-like) yet without a Markdown editor the raw text a.k.a. plain text still clearly shows sections, bulleted lists, etc. Many websites nowadays support Markdown pages. For example, this text is available in the public domain in Git and will display in Markdown when visiting the website.
    
 Markdown has two forms:
 - Standard Markdown
@@ -122,12 +122,12 @@ To create horizontal lines use either 3x '*' or 3x '-' or 3x '_'. Use these to c
 
 The above yields in plain text clear separators whilst also following Markdown protocol.
 
-For large blocks of text use 2x H1 separator above and below the block, and use capital letters for the block name. This is useful in very long notes.
+Recommended implementation in notes: for large blocks of text use 2x H1 separator above and below the block, and use capital letters for the block name. This is useful in very long notes.
 
 #### Header Labels
 Header labels are created with one or more '#'. Use these to create H1, H2 level captions:
 - H1: # ALL CAPS 
-- H2: ## First Letters Of Each Word Capitalised 
+- H2: ## First Letters Of Each Word Capitalised  
 - H3: ### First Letters Of Each Word Capitalised
 - H4: #### First Letters Of Each Word Capitalised
 - H5: ##### First Letters Of Each Word Capitalised
@@ -209,32 +209,32 @@ These characters are also in [# SPECIAL SYMBOLS].
 
 ### Markdown Reserved Characters
 In Markdown certain characters have special meaning, they should be escaped with the '\' character if the character is meant, not the Markdown version of it:
-\-  : unordered list
-\+ : unordered list
-\* : unordered list
-\** :  bold **bold** 
-\*:   italic *italic*
-\__:    __bold__
-\_ :  _italic_
-\# : start of header
-\( ) : used for links, images requires [ ]
-\{ } : 
-\[ ] : used for links, images, requires ( )
-\! : used for images (if before [...])
-
+\-  : unordered list  
+\+ : unordered list  
+\* : unordered list  
+\** :  bold **bold**   
+\*:   italic *italic*  
+\__:    __bold__  
+\_ :  _italic_  
+\# : start of header  
+\( ) : used for links, images requires [ ]  
+\{ } :   
+\[ ] : used for links, images, requires ( )  
+\! : used for images (if before [...])  
+  
 Characters that can be freely used at start of a line:
-.
-^
-/
-x
-~ (but special in Excel, so substitute first in formulas)
-%
-$ 
-&
-^
-?
-= (but special in Excel so: avoid)
-@ (but is used in certain websites like Github, so: avoid)
+.  
+^  
+/  
+x  
+~ (but special in Excel, so substitute first in formulas)    
+%  
+$   
+&  
+^  
+?  
+= (but special in Excel so: avoid)  
+@ (but is used in certain websites like Github, so: avoid)  
 
 ### Word Capitalisation
 Words that start with a capital, like 'Planning' have been defined in this note or in [MGT: 80.Tools].
@@ -260,74 +260,75 @@ A Note Reference starts with a '[' and ends with a ']'. The data in between dete
 8. Etc
 
 ### Section or Note
-For a Section or Note there are several type of references:
-[# SEC]                   -> refers to section L1 SEC in same note
-[CAT: Des]             -> refers to a note CAT: Des
-[CAT: Des # SEC] -> refers to a section L1 SEC in note CAT: Des
-[ Name # SEC] -> refers to a section L1 SEC in note "Name", which is a note that does not follow the standard note conventions i.e. it does not start with a category, but as it the [...] does *also not* start with an explicit mentij id File, URL etc, it just be a note.
-
+For a Section or Note there are several type of references:  
+[# SEC]                   -> refers to section L1 SEC in same note  
+[CAT: Des]             -> refers to a note CAT: Des  
+[CAT: Des # SEC] -> refers to a section L1 SEC in note CAT: Des  
+[ Name # SEC] -> refers to a section L1 SEC in note "Name", which is a note that does not follow the standard note conventions i.e. it does not start with a category, but as it the [...] does *also not* start with an explicit mentij id File, URL etc, it just be a note.  
+  
 e.g., [Management Framework - Appendix ## Note Reference] i.e this section.
-
-In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1' 
-
-In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: Planning ..."
-
+  
+In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1'.   
+  
+In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: Planning ...".  
+  
 ### File
 For a file the Note Reference is [File Path], [F: File Path] or [F: File Path] in which File Path is either a full path to a file or directory or a shorter version of such path. File Paths are operating system specific. 
-
-Examples:  
-    $HOME/data_private/mgt/51.finance/       (Linux)
-    $HOME/utils/scripts/ubu2usb.command  (Linux)
-    C:\Users\yourname\mgt\finance\              (Windows)
-    C:\SomeDir\SomeDoc.docx                         (Windows)
   
-The only requirement for a File Path is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References. Details in [MGT: 80.Tools].
-  
-In certain cases it may be necessary to refer to a page or sheet or chapter within a file. This can be achieved using extra info within the reference relating to the type (page, sheet, chapter), an '=' sign and the value (page nr, sheet name, chapter name etc.)
-
 Examples:  
-    C:\SomeDir\SomeDoc.docx Page = 100  
-    $HOME/data_private/mgt.xlsx Sheet = Planning
-
+    $HOME/data_private/mgt/51.finance/       (Linux)  
+    $HOME/utils/scripts/ubu2usb.command  (Linux)  
+    C:\Users\yourname\mgt\finance\              (Windows)  
+    C:\SomeDir\SomeDoc.docx                         (Windows)  
+  
+The only requirement for a File Path is that it is clear it concerns a path to a file or directory. When a full path is used it will be obvious. Depending on Operating System there are various ways of managing File References.  
+   
+In certain cases it may be necessary to refer to a page or sheet or chapter within a file. This can be achieved using extra info within the reference relating to the type (page, sheet, chapter), an '=' sign and the value (page nr, sheet name, chapter name etc.)  
+ 
+Examples:  
+    C:\SomeDir\SomeDoc.docx Page = 100    
+    $HOME/data_private/mgt.xlsx Sheet = Planning  
+  
 ### URL
 For a URL, the Note reference is [Weblink] or [URL: Weblink], in which Weblink refers to *anything* that can be accessed through a web browser: classic web pages, sharepoints, PowerBI pages, etc.] i.e., http://something.xyz and without < and > and where 'http' can be any supported service (http, https, ftp, ftps, ssh, ...).
-
+  
 ### Mail
-For Mail the Reference format is: [Mail: Subject] or [M: Subject] in which Subject is the Mail's Subject that was sent/received. Alternatively,  [Subject: Subject] can be used.
+For Mail the Reference format is: [Mail: Subject] or [M: Subject] in which Subject is the Mail's Subject that was sent/received. Alternatively,  [Subject: Subject] can be used.  
 
 ### Database
 Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data. Reference to a database depends on the type of database e.g., [Oracle: scheme/table_name], [Oracle: table_name], etc.
 
 ### Meeting
-Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which Text is the Subject of the Meeting's invite mail. Lo
-
+Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which Text is the Subject of the Meeting's invite mail.
+  
 ### Free Text
 The Reference Indicator can also contain free which acts as a clarification, a question one should ask oneself, e.g.,  [Purely some comment without any value].
-
+  
 ### Research  
 It is possible to refer to a domain of research specific research articles, etc using a reference as well. There are two ways of doing it. 
-
-The formal academic referencing a.k.a. citation, which looks like this (author name, year) or similar. This is the often used citation in academic articles (journals, thesis etc). Such references follow standard academic protocol, which may slightly differ across disciplines [1].
-
+  
+The formal academic referencing a.k.a. citation, which looks like this (author name, year) or similar. This is the often used citation in academic articles (journals, thesis etc). Such references follow standard academic protocol, which may slightly differ across disciplines [1].  
+  
 The second style is used above, where the [1] means there is further down in the section more information linked to [1].
-
-[1] University of Pittsburgh, Citation Styles: APA, MLA, Chicago, Turabian, IEEE, https://pitt.libguides.com/citationhelp, viewed Jan 2025.
+  
+[1] University of Pittsburgh, Citation Styles: APA, MLA, Chicago, Turabian, IEEE, https://pitt.libguides.com/citationhelp, viewed Jan 2025.  
 ________________________________________
 ## Profile Tree Numbering
 The Profile Tree as discussed in the Management Framework has three levels of indentations.
 - First Level: Environment, Clients, Services, Operations and Management
 - Second Level: Processes, Resources, Capital, Results, Planning, Organising, Leading, Controlling, Business Functions and Tools
 - Third Level: Run, Change, Staff, Suppliers, Assets, Liabilities, Equity, Revenue, Cost and Risk. 
+  
 NB: in the profile tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned to keep the Profile Tree short enough. They are nevertheless discussed in the Management Framework note. 
   
 From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories). The numbering conventions than follows from the levels:
 
-First Level: 00, 10, 20, 30, 40
-Second Level: 01, 02, 03, ... 11, 12, 13, ...
-Third level: 01.01, 01.02, ... 11.01, 11.02, etc. 
-
-The First Level and the Second level are the main items in the Profile as described in the Profile Tree. The Third Level are the deliverables of each Second Level. 
+First Level: 00, 10, 20, 30, 40, ...   
+Second Level: 01, 02, 03, ... 11, 12, 13, ...  
+Third level: 01.01, 01.02, ... 11.01, 11.02, etc.   
   
+The First Level and the Second level are the main items in the Profile as described in the Profile Tree. The Third Level are the deliverables of each Second Level.   
+    
 - 00.Management  
     - 01.Planning  
         - 01.01.Context  
@@ -366,6 +367,7 @@ The First Level and the Second level are the main items in the Profile as descri
         - 04.03.Reports  
         - 04.04.Monitoring  
     - 05.Business Functions
+        - 05.00.Operations (links to 10.Operations)
         - 05.01.Finance
         - 05.02.HR
         - 05.03.IT
@@ -395,7 +397,7 @@ The First Level and the Second level are the main items in the Profile as descri
 - 20.Services
 - 30.Clients 
 - 40.Environment
-     
+   
 Using numbers allows having a numbering with sub-numbers e.g., "02.01.Activities" as first deliverable within 02.Organising which yields 02.01.Activities. This allows effectively building a hierarchy of notes that follow something akin to the "Dewey Decimal Classification" (refer to Wikipedia for more details). 
   
   
@@ -405,22 +407,17 @@ ________________________________________
 ## Overview
 This overview shows on the first level the key deliverables as per [Management Framework ## Management]. On the second level are the Tools, each of which has a dedicated L2 section. The same Tool can be used for different deliverables:
 
-- Management Cycle
+- Management 
     - PDA
     - Eisenhower Matrix 
     - MSS
     - Governance Matrix 
-- Management Improvement
-    - Skill Inventory
-    - Writing Style 
-    - Style Inventory
-    - Study
 - Planning
-    - Dedicated Planning note
+    - Dedicated Planning section
 - Organising
-    - Dedicated Organising note
+    - Dedicated Organising section
 - Leading
-    - Dedicated Leading note
+    - Dedicated Leading section
 - Controlling 
     - Dedicated Controlling note
 ________________________________________
@@ -499,26 +496,26 @@ It is possible to add functionality to any instance of MSS Master and which is n
 
 ### MSS References
 To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
-
+  
 ### MSS Note Management
 A key feature is the ability to write *Notes* in Col = Notes, This column drives the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*. 
-
-MSS Note Notation
+  
+MSS Note Notation  
 MSS Note Management follows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
   
 ### MSS Task Management
 Another feature of MSS is the integration of Tasks using [## Task Notation] in Column = Tasks.  
-
+  
 ### MSS Hierarchy
-Sheet = M5, dedicated to Projects has an *Integrated Hierarchy*. 
+The "Projects" Sheets has has an *Integrated Hierarchy*. 
 
-Venture 
-    Project p
-        Stream p,i
-            Action p,i,j
-
+Venture   
+  Project p  
+    Stream p,i  
+      Action p,i,j  
+  
 The hierarchy is determined by Column = *Link*, the value of which is the value of the Column = *Key*. 
-
+  
 In addition to the Link, *manual indentation* makes the hierarchy visible:
 - Run/Chg Goals, Routine, Project = 0x space
 - Sub, Stream = 4x space
@@ -536,53 +533,6 @@ Sheet = M5 has an *Integrated Dynamic Gantt Chart* based on the Integrated Hiera
 
 ### MSS Reporting
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. The logic used in [MSS Note Management] is a key feature on MSS Reporting. 
-________________________________________
-## Skill Inventory (Framework)
-Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
-
-### Hard Skills
-- Accounting
-- Analytics & Data
-- Budgeting
-- Economics
-- Finance
-- Marketing
-- Mathematics
-- Operations
-- Information & Communication Technology 
-- Project Management
-- Statistics
-
-### Soft Skills
-- Coaching
-- Communication 
-- Curiosity (ask "Why?")
-- Delegating
-- Flexibility
-- Mentoring
-- Motivating
-- Multitasking
-- Pragmatism
-- Presenting
-- Problem solving
-- Self-learning
-- Teamwork
-- Time Management
-________________________________________
-## Writing Style (Framework)
-Written communication is key to the day to day of a Manager. The following guidelines aid in writing text that people will read, finish and follow through:
-- Use few adjectives/adverbs: use strong verbs and nouns. Adverbs and adjectives often disrupt clarity.
-- Break it down: split up beefy thoughts and sentences. As a pro once said, “The period never comes soon enough.”
-- Cut caveats: every argument has exceptions. Every topic demands context. Still, unless specifically citing disclaimers, minimize hedging of statement.
-- Clean out residue: With each new draft refine, reinforce, reiterate, and restate. Go back and strip out extraneous wording.
-- Keep it short: don’t write more than required for the audience.
-________________________________________
-## MBA (Research)
-The Master of Business Administration is a postgraduate University degree that focuses on Management. There are many Universities and Business Schools that offer such programs. 
-  
-Although a vast multitude of programs exist, sometimes for specific Sectors, the majority of MBA programs contain subject matters that are relevant to running a Venture and may include: background knowledge (Economics, Sociology, ESG) fundamental knowledge of Business Functions (Accounting, Operations, Marketing, Procurement, Human Resources) and academic knowledge of Management (Strategy, Corporate Governance, Management Theory including POLC). 
-  
-In addition of being a well established form of Research, it has the advantage of establishing a baseline level of knowledge, confirmed through a degree. 
   
   
 *********************************************
@@ -1992,6 +1942,11 @@ This overview shows on L1 key deliverables as per [Management Framework ## Leadi
     - Due Diligence
     - Mentoring
     - Coaching 
+- Management Improvement
+    - Skill Inventory
+    - Writing Style 
+    - Style Inventory
+    - Study
 ________________________________________
 ## Communication (Framework)
 In order to Lead, some form of interaction is necessary, and the main method of this interaction is Communication. As such across all Key Deliverables in Leading Communication is the main Tool. 
@@ -2015,7 +1970,7 @@ In summary, communication is the Reaction of a Receiver based on its interpretat
 From above one can easily see that the Sender's desired intention may not at all be achieved. There are many ways in which communication can go wrong. 
 Let's take as an example a Sender who wants the Receiver to Crack an Egg on the Receiver's own head. 
   
-Going backward:
+Going bottom up:
 -  The Receiver's reaction may not be the desired one, even if the interpretation was the correct one. The Sender may simply not do anything, or instead of cracking an egg on the head he he just squeezes an egg until it breaks.
 - The Receiver's interpretation may not be the desired one. The Message could have said "Crack an egg on your head" and the Receiver merely interprets this as do something dumb. Not the actual action of taking an egg and cracking it against his own head. 
 - The Message may never make it to the Receiver or only partially. This is the case when the Medium is unreliable, or has exceptional failure. 
@@ -2030,7 +1985,7 @@ Some key guidelines are the following:
 - Use clear language. 
 - Phrase questions as questions (and make such questions short). 
 - Use short sentences when possible and break it down into bullet pointed lists if various 'aspects' are enumerated.
-  _________________________________________
+_________________________________________
 ## Listening
 Listening is part of communication. Good listening means understanding the purpose of the conversation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
 
@@ -2061,18 +2016,18 @@ The following is from "The Fearless Organisation" by Amy Admonson. There are thr
 1. Setting the Stage
 The purpose of this step is to create *shared expected Results and meaning*. It reinforces the understanding that although it may considered a *Risk* to speak up about *failures*, including ones own, but that Speaking up is effectively aiding the Venture to *learn* and thus improve.
 Note: the book has a strong focus on actual failures. It is assumed here that failures include actual failures but also weaknesses that could lead to future failure. 
-  
-Frame the Work
+   
+Frame the Work  
 Framing work consist of setting expectation w/r to failure, uncertainty and interdependence to clarify the *need* to speaking up. Staff needs to understand that *learning from failure* is key to continuous improvements even if speaking up feels like a Risk to themselves. Failure requires definition:
 - *Preventable Failure* (Processes deviation): deviations from known Processes producing unwanted Results. Caused by Behavior, Skill or Attention Deficiencies. 
 - *Complex Failure* (System Breakdown): unique and novel combinations of events and actions that yield unwanted Results. Caused by complexity, variability, and novel factors imposed on familiar Processes and Environment. 
 - *Intelligent Failure* (Unsuccessful trial): Novel forays into new Services leading to unwanted Results. Caused by uncertainty, experimentation and explicit Risk taking.
-  
-Frame the Roles
+    
+Frame the Roles  
 Review the role of Managers: they *do not* know the answers to all questions, but can set direction, ask for input and clarifications and can thus create the conditions for continuous improvement with the contribution of Staff. 
 Review the role of the Staff:  they *do* have insight,  answers, concerns and relevant questions and by voicing those, improvements are possible. 
-  
-Emphasise Purpose
+   
+Emphasise Purpose  
 Make sure everyone understands why speaking up is important. Rephrase and emphasise purpose w/r to the mission of the Venture. 
   
 2. Inviting Participation 
@@ -2100,24 +2055,24 @@ Powerful questions have the following attributes:
 - Evokes more questions
   
 Examples: "What leads you to think so?", "What might we be missing?"
-  
-Setup Structures & Processes
+   
+Setup Structures & Processes  
 A last manner to increase participation is to create structures facilitating input from Staff. Example: focus groups, special blogs, etc. 
   
 3. Responding Productively
 The last step of setting up PSS is by responding to the input provided in above stage in a manner that does not stint the PSS Process and effectively make it a self-maintained Process.
   
-Express Appreciation
+Express Appreciation  
 As a Manager, be receptive of, and even praise, the fact that someone has spoken up. The more uncertain the environment (incl at the start of setting up a PSS), the more the Manager should be vocal about it. Example: "Thanks for letting us know".
   
-Destigmatise Failure
+Destigmatise Failure  
 The fear to fail is, especially in the beginning of implementing a PSS, very large. Therefore, reinforce the first step related to the Framing of Failure:
 - Concept of Failure: a natural by-product of experimentation and learning
 - Beliefs about effective performance: produce, learn from and share lessons learnt from Intelligent Failures.
 - Goal: promote fast and broad learning
 - Impact of above: open discussion, fast learning, innovation
   
-Sanction Clear Violations
+Sanction Clear Violations  
 Implementing a safe space and reframing Failure does not mean all failure is acceptable. If a Venture has specific policies that dictate certain behaviour as unacceptable e.g. disclosing proprietary information then no matter what the purpose of speaking up is, sanctions can be imposed (including dismissal). The vague the policies, the less such sanctions are considered reasonable. 
 ________________________________________
 ## Story (Framework)
@@ -2157,7 +2112,7 @@ Create notes with the following conventions:
 - Note content: see below.
 
 The following is the default content of a Meeting Note (items refer to L1, L2 and L3 sections):
-- L1: Introduction: overal purpose of meeting and audience (Activity, Supplier and Staff or type of Staff within). 
+- L1: Introduction: overall purpose of meeting and audience (Activity, Supplier and Staff or type of Staff within). 
 - L1: Todo: optional, items to be done 
 - L1: List of Meetings: with L2 sections as follows:
     - dd Mmm yyyy, with following L3 sections
@@ -2268,6 +2223,53 @@ Below two links explaining the various aspects involved in Coaching and Mentorin
 ________________________________________
 ## Presenting (Framework)
 @@@
+________________________________________
+## Skill Inventory (Framework)
+Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
+
+### Hard Skills
+- Accounting
+- Analytics & Data
+- Budgeting
+- Economics
+- Finance
+- Marketing
+- Mathematics
+- Operations
+- Information & Communication Technology 
+- Project Management
+- Statistics
+
+### Soft Skills
+- Coaching
+- Communication 
+- Curiosity (ask "Why?")
+- Delegating
+- Flexibility
+- Mentoring
+- Motivating
+- Multitasking
+- Pragmatism
+- Presenting
+- Problem solving
+- Self-learning
+- Teamwork
+- Time Management
+________________________________________
+## Writing Style (Framework)
+Written communication is key to the day to day of a Manager. The following guidelines aid in writing text that people will read, finish and follow through:
+- Use few adjectives/adverbs: use strong verbs and nouns. Adverbs and adjectives often disrupt clarity.
+- Break it down: split up beefy thoughts and sentences. As a pro once said, “The period never comes soon enough.”
+- Cut caveats: every argument has exceptions. Every topic demands context. Still, unless specifically citing disclaimers, minimize hedging of statement.
+- Clean out residue: With each new draft refine, reinforce, reiterate, and restate. Go back and strip out extraneous wording.
+- Keep it short: don’t write more than required for the audience.
+________________________________________
+## MBA (Research)
+The Master of Business Administration is a postgraduate University degree that focuses on Management. There are many Universities and Business Schools that offer such programs. 
+  
+Although a vast multitude of programs exist, sometimes for specific Sectors, the majority of MBA programs contain subject matters that are relevant to running a Venture and may include: background knowledge (Economics, Sociology, ESG) fundamental knowledge of Business Functions (Accounting, Operations, Marketing, Procurement, Human Resources) and academic knowledge of Management (Strategy, Corporate Governance, Management Theory including POLC). 
+  
+In addition of being a well established form of Research, it has the advantage of establishing a baseline level of knowledge, confirmed through a degree. 
 
 
 *********************************************
@@ -2928,14 +2930,14 @@ Dr office supplies 23.20  # expense increase
  Cr credit card   23.20  # liability increase   
   
 Monthly credit card payment   
-Dr credit card 230.00  # liability decreased
- Cr cash    230.00 # cash has decreased
-
+Dr credit card 230.00  # liability decreased  
+ Cr cash    230.00 # cash has decreased  
+  
 ### Book Keeping Ledger
 Whereas Journal entries show the use of accounts scattered across a single place (the Journal) but with details of the transaction, the Ledger shows each account with all the Dr and Cr to that account and thus the net result. They tend to be shown in so called T accounts in paper versions with the Dr on the left and the Cr on the right side e.g. for the cash account in above trasnactions:
 
    Cash
-_ _ _ _ _ _ _ _ _ _ _ _ 
+_  _  _  _  _  _  _  _  _  _  _    
 934.50 |     
     |    120.25   
     |    450.00  
@@ -2982,9 +2984,9 @@ Reserves are a liability (counter-asset) that reflects amounts that are essentia
 The journal entries would be the following:  
   
 Reserve for a future cost of fixed asset in M USD  
-Dr Expense 123.00  # earnings decreased
-   Cr Reserve  123.00 # increase of reserve
-  
+Dr Expense 123.00  # earnings decreased  
+   Cr Reserve  123.00 # increase of reserve  
+    
 Provision  
 Dr Expense  123.00   
  Cr Provision  123.00  

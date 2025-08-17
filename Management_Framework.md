@@ -26,7 +26,7 @@ An audit trail of changes is available at the end of this note.
 *********************************************
 # LICENSE
 The notes  "Management Framework" and "Management Framework - Appendix", (each a "Note", combined "The Notes") are licensed under a Creative Commons Attribution -NonCommercial-ShareAlike 4.0 International License.   
-Software implementations referenced in the note MGT: 80.Tools are licensed under a GPL 4.0 License. Both licenses are explained  below.
+Software implementations referenced in either of the Notes  are licensed under a GPL 4.0 License. Both licenses are explained  below.
   
 When using specific sections of the Notes, the summary below should be referenced or alternatively a reference to this Note's location in the public domain, as well as a reference to the relevant sections. Examples given below.
 ________________________________________
@@ -96,7 +96,7 @@ ________________________________________
 This note assumes that the the principles applicable to a Manager, are applicable to any Staff in a Venture. However, Manager level employees, are more likely to have an opportunity to apply the concepts mentioned in this note. 
 ________________________________________
 ## Reliability of Content
-The content of the Framework (both this note, as well as the note "Management Framework - Tools" is borne from two aspects: experience and research. Not all aspects discussed have had the merit of a well rounded experience or application of the theory. Which aspect of the Management Framework has or has not had that exposure is not explicitly mentioned. In addition, given that Management is both a topic of academic research, but also, if not more, an experience based topic, it is quite possible certain concepts written in these notes, are part of academic research, without that academic research having been cited, simply because it was not read by the author. If such research is available, the reader is asked to notify the author, such that the latter can review the research and integrate it in the framework if that were to be deemed relevant.
+The content of the Framework (both this note, as well as the note "Management Framework - Appendix}" is borne from two aspects: experience and research. Not all aspects discussed have had the merit of a well rounded experience or application of the theory. Which aspect of the Management Framework has or has not had that exposure is not explicitly mentioned. In addition, given that Management is both a topic of academic research, but also, if not more, an experience based topic, it is quite possible certain concepts written in these notes, are part of academic research, without that academic research having been cited, simply because it was not read by the author. If such research is available, the reader is asked to notify the author, such that the latter can review the research and integrate it in the framework if that were to be deemed relevant.
    
    
 *********************************************
@@ -200,9 +200,9 @@ Planning     ⇔  Processes
                   ⇕  
 Organising ⇔ Resources ⇔ Leading   
                   ⇕  
-Organising ⇔ Funding    
+Organising ⇔ Capital    
                  ⇕   
-               Results    ⇔  Controlling   
+              Results    ⇔   Controlling   
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -       
 [Fig 2: the Reduced Profile Tree]
     
@@ -214,7 +214,7 @@ The Profile Tree and Reduced Profile Tree provide *structure* and *insight* as t
 Words with capitalised first letters are core to the Profile. They are either a Profile Tree Item or a deliverable related to it. The [## Profile Tree Executive Summary] reflects the majority of these capitalised words which are detailed in the rest of this note starting with Tools to introduce several concepts deemed key for the understanding of the rest of the document.
 ________________________________________
 ## Tools
-Management Tools or short Tools aid Managers in the performance of Management. Although Tools is a deliverable within Management, covered later in this note, it appears here because of how Tools is defined and what it is composed of, as will become clear. It is worth noting that "tools" are of course used everywhere including in Operations, to aid in the performance of Run and Change e.g., a wrench, software, printer, etc. However, those tools are deemed Assets. In other words in the Management Framework, Tools means Management Tools and it refers to any Tool used as part of Management. If such tools can also aid elsewhere in the Profile Tree, even better. The following types exist: 
+Management Tools or in short Tools aid Managers in the performance of Management. Although Tools is a deliverable within Management, covered later in this note, it appears here because of how Tools is defined and what it is composed of. It is worth noting that "tools" are of course used everywhere including in Operations, to aid in the performance of Run and Change e.g., a wrench, software, printer, etc. However, those tools are deemed Assets. In other words in the Management Framework, Tools means Management Tools and it refers to any Tool used as part of Management. If such tools can also aid elsewhere in the Profile Tree, even better. The following types exist: 
   
 ### Research
 Research is the result of reading, watching, or listening to different sources of information to enhance the manner in which a Manager performs his role. Sources include academic literature, books, newspapers, articles, documentaries, blogs, podcasts, etc. The vast majority of research is nowadays available online. Research also includes Networks built by a manager which includes interactions with other Managers, alumni, peers, industry groups and individuals or groups that have exposure to Management.
@@ -324,6 +324,9 @@ The classic approach of Corporate Governance is as follows (Monks, 2011):
 However, modern Corporate Governance covers a wider scope and includes the Managers, Board of Directors, Investors, Auditors, Customers, Suppliers, Unions, Media, Regulators, Analysts and Creditors (Larcker, 2021). 
   
 Ultimately, good Corporate Governance decreases the Agency Cost whilst the implementation Cost is less than said Agency Cost. 
+
+### Going Concern
+The going concern principle states that a Venture will meet its financial obligations (Liabilities) when they come due, and that without a need to liquidate Activities in the foreseeable futures which is generally accepted as one year. In the Management Framework a Venture is deemed to continue as a going concern.
 ________________________________________
 ## Environment
 The Environment of a Venture consists of *external forces* that can, and often will, influence, partially or fully, Clients, Services, Operations or Management, either directly or indirectly and without the Venture having any form of control over that influence. Environment is important in SWOT analysis (see below) and general Risk Management. 
@@ -386,20 +389,7 @@ ________________________________________
 ## Clients
 Customers or Clients consist of *external* or *internal* individuals, groups, or corporations receiving the benefit of Services. Without Clients, there is no purpose for Services to be delivered. Understanding Clients's needs and constraints is thus critical to assuring Services are optimal. Obtaining this insight is often part of Marketing.
   
-Obviously the range of Clients is vast, from individuals to entire Companies and anything in between like Small and Medium Enterprises. How a Venture manages its Clients depends among others on where a Client is located within this range, but also the sector in which the Venture offers its Services to those Clients. 
-  
-The following are key aspects of each Client:
-- Type: is the Client an individual or a corporate i.e., is the Client itself a Venture. Depending on this typology below questions may or may not have an answer.
-- Client Category: depending on the Client type this includes demographic aspects (individuals) and Sector(s) for corporates and can include tiering based on relative size within those corporates e.g., a tier one bank.
-- Overview: Description, can include, history of the client itself, as well as the history of the relationship with the Client
-- Environment: the Environment the Client operates in, which can partially, or fully overlap with the Venture
-- Competitors: the Competitors of the Client, which can all or partially be Client of the Venture as well.
-- Suppliers: the providers of Services to the Client. These Suppliers can be competitors to the Venture, or not if they do not operate in the same Sector or Country. 
-- Service: Services offered by the Venture and used by the Client as well as Services the Client uses, but which are not offered to the Client, or which are not part of the Service offering by the Venture .
-- Revenue: the Revenue of the Venture associated to the Client, but also the total Revenue of the Client,
-- Cost: Cost associated to maintaining the relationship with the Client, as well as the Cost structure and actual Cost of offering the Services the Client offers. 
-- Risk: Risk associated to maintaining the relationship with the Client
-- Contact: Group/Groups owning or having a relationship with the Client.
+Obviously the range of Clients is vast, from individuals to entire Companies and anything in between like Small and Medium Enterprises. How a Venture manages its Clients depends among others on where a Client is located within this range, but also the sector in which the Venture offers its Services to those Clients.  
 ________________________________________
 ## Services
 Services is a single term used to describe both Goods and/or Services. Goods can be raw materials, finished Products or anything in between. Services are non-tangible output of Operations. Both Goods and Services are of value to Clients and for which they are willing to do an effort to obtain them, or for which they will be appreciative in some manner, most often monetary. In certain cases Services can be composed of Services *and* Products. For example stock exchanges deliver various Products (Stock, ETF, Warrants, Options, ...) through various Services (Trading, Clearing, Settlement, Market Data, ...) or Computer Hardware companies sell Products (computers) but also offers Services (repair, advice) to support those Products.  
@@ -1140,7 +1130,7 @@ A Report aims at informing someone (the Receiver) of facts, opinions or alerts (
 The Purpose of a Report depends on the previous aspects as follows:
 
 #### Management Report
-A Report for a Manager provided by a Staff, a Group or Business Function or a a Manager! The Purpose is for the Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary i.e. l, the focus is performance. In addition, this report is also used to report on concerns coming from the Environment (Market Intel). 
+A Report for a Manager provided by a Staff, a Group or Business Function or another Manager! The Purpose is for a Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary i.e., the focus is performance. In addition, this report is used to report on concerns coming from the Environment (Market Intel). 
   
 #### Staff Report
 A Report for Staff or a Group. The purpose of such Report is to inform Staff how they are performing on their (joint) Job Description. 
@@ -1152,9 +1142,10 @@ This is a Report tailored to the Strengths of the Venture and can be used for Cl
 The content of Report can lead to a cycle of feedback and follow-up. Feedback comes in the form of suggestions for improvements. These suggestions are translated into actions and these need to be planned and monitored. Planning is done in the Planning cycle of Management, or within Operations if the action is to improve Run or Change. In all cases, it is important that any action determined within a Supervisory Process is closed timely.
 ________________________________________
 ## Business Functions
-Business Functions are fundamental business topics within Operations and more broadly the entire Venture. Even if the core of a Venture are its Operations, a Manager will often have to deal with transverse topics that permeate several aspects of Operations and can go outside of it. These topics do not always map or relate to as single aspect of Operations, nor do they map to a single Management Function either. Yet, being such a holistic topic , they may require the full POLC approach of Management.
+Business Functions are fundamental business topics within Operations and more broadly the entire Venture. Even if the core of a Venture are its Operations, a Manager will often have to deal with transverse topics that permeate several aspects of Operations and can go outside of it. These topics do not always map or relate to as single aspect of Operations. Yet, being a holistic topic , they may require the full POLC approach.
   
 Typical Business Functions are as follows (in brackets the Operations or more broadly Venture Profile Tree items covered):
+- Operations (Operations)
 - Finance (Revenue, Cost, Assets, Liabilities, Equity)
 - HR (Staff)
 - IT (Assets)
@@ -1165,18 +1156,21 @@ Typical Business Functions are as follows (in brackets the Operations or more br
 - Procurement (Staff, Suppliers)
 - Communications (Client, Suppliers, Staff, and more broadly Stakeholders)
 - Marketing (Clients, Competitors)
-- Operations (Operations)
   
-In literature, Operations is often *also* defined as a Business Function, hence the later entry in above list. In the Management Framework, Operations are considered separately, as the core of a Venture, but that approach does not exclude Operations to be also considered a Business Function (it is purely a category to which the POLC can be applied!).
+### Business Functions vs Operations 
+In literature, Operations is often *also* defined as a Business Function, hence the very first entry in above list. In the Management Framework, Operations are considered separately, as the core of a Venture, but that approach does not exclude Operations to be also considered a Business Function (it is purely a category to which the POLC can be applied!).
   
-Notably in large corporations Business Functions are are often so important and work-intense, that dedicated departments are set up for them. Such dedicated departments can be defined as Activities within Operations or as Suppliers to Management, or a mix thereof. In such cases, the difference between Suppliers and Business Functional departments is that the latter is often deemed internal to the Venture and often, but not always, has a strong focus on services provided to Management and less to the Operations.
-  
-Note that not all Business Functions always exists as such, or if they do, they are regrouped or split within Business Functional departments. For example the Department CorpSec or Corporate Secretariat combines Legal and Tax. IT is nowadays a dedicated department, but that was not the case 20 years ago. Marketing may exists within Operations as the Sales department, etc. 
-  
+### Business Functions & Departments
+Notably in large corporations Business Functions are are often so work-intense, that dedicated departments are set up for them. Such dedicated departments can be defined as Activities within Operations or as Suppliers to Management, or a mix thereof. In such cases, the difference between Suppliers and Business Functional departments is that the latter is often deemed internal to the Venture and often, but not always, has a strong focus on services provided to Management and less to the Operations.
+Note that not all Business Functions are represented through departments as such, or if they do, they are regrouped or split within a departments. For example, the Department CorpSec or Corporate Secretariat often combines Legal and Tax in a single department. Some Ventures split Finance into two dedicated departments, one for Accounting and one for Financing. IT is nowadays a dedicated department, but that was not the case 20 years ago. Marketing may exists within Operations combined with the Sales department, etc.   
 Ventures having an audit department often do not necessarily consider it a Business Function, but rather an independent organisation within the Venture. 
-  
-Last but not least, many Business Functions have considerable overlap. For example, Procurement which is strongly concerned with Suppliers has a strong dependency on Legal with regards to the contracts between the Venture and the Supplies. Such overlaps are the case for most Business Function. 
    
+### Business Functions & Functional Overlap
+Many Business Functions have considerable overlap. For example, Procurement which is strongly concerned with Suppliers has a strong dependency on Legal with regards to the contracts between the Venture and the Supplies. Such overlaps are the case for most Business Function. 
+  
+### Business Functions & POLC
+As explained earlier, the POLC are Management Functions i.e., like a mathematical function they apply some logic on some variables to produce some output or deliverable. The Business Functions are similar in that they apply some logic to produce an output specific to the topic they are concerned with. However, the logic applied in Business Functions is the POLC. Take for example the Business Function Finance. The output of this function is recording and reporting of Financial data (accounting) and creating the most efficient corporate structure such that Liabilities and Equity are optimally funding the Operations (Financing). IN order to do this, a Plan needs to be elaborated, Staff need to be organised to perform certain Activities in relation to these Finance topics, they need to be led by someone to achieve the Objectives set out in the plan and there has tobe some form of Supervision and reporting on it. In other words, the POLC are applied to specific topics of a going concern Venture. 
+    
 The following sections cover the Business Functions:
 ________________________________________
 ## Finance
@@ -1784,6 +1778,11 @@ Added the notion of Board of Directors to [### Management Level].
 - Finally, renamed the notes:
     - MGT: 99.Legend to "Management Framework"
     - MGT: 80.Legend to "Management Framework - Appendix"
+
+### 20250817
+- Broke up the original text of  [## Business Functions] into level 3 sections. 
+- Added [### Business Functions & POLC]
+- Added [### Going Concern] in [## Venture]
 
 
 ### Planned
