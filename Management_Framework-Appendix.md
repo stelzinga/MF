@@ -351,6 +351,7 @@ The First Level and the Second level are the main items in the Profile as descri
         - 02.02.Groups  
         - 02.03.Roles & Responsibilities  
         - 02.04.Casting  
+        - 02.05.Funding
     - 03 Leading  
         - 03.01.Safe Space  
         - 03.02.Direction  
@@ -369,8 +370,20 @@ The First Level and the Second level are the main items in the Profile as descri
     - 05.Business Functions
         - 05.00.Operations (links to 10.Operations)
         - 05.01.Finance
+            - Accounting 
+            - Financing 
         - 05.02.HR
+            - Recruitment 
+            - Skill Management 
+            - Training 
+            - Performance Management 
+            - Remuneration 
+            - Job Satisfaction 
+            - Employee Relations 
+            - Employment Law
         - 05.03.IT
+            - Infra
+            - Applications
         - 05.04.Risk
         - 05.05.Compliance
         - 05.06.Legal
@@ -378,6 +391,7 @@ The First Level and the Second level are the main items in the Profile as descri
         - 05.08.Procurement
         - 05.09.Marketing 
         - 05.10.Communications
+        - 05.11.Audit
     - 06.Tools 
 - 10.Operations  
     - 11.Processes  
@@ -390,7 +404,7 @@ The First Level and the Second level are the main items in the Profile as descri
     - 13.Capital  
         - 13.01.Liabilities  
         - 13.02.Equity  
-    -14.Results  
+    - 14.Results  
         - 14.01.Revenue  
         - 14.02.Cost   
         - 14.03.Risk  
@@ -507,7 +521,7 @@ MSS Note Management follows a specific form of Task Notation, namely the dated c
 Another feature of MSS is the integration of Tasks using [## Task Notation] in Column = Tasks.  
   
 ### MSS Hierarchy
-The "Projects" Sheets has has an *Integrated Hierarchy*. 
+The Sheet "Projects" has has an *Integrated Hierarchy*. 
 
 Venture   
   Project p  
@@ -524,12 +538,103 @@ In addition to the Link, *manual indentation* makes the hierarchy visible:
 NB: as the spaces are in Col = Name it is important to make sure they are applied *before* creating the link! 
 
 ### MSS Dynamic Gantt Chart
-Sheet = M5 has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column = Start Date and the latest one in Column = End Date. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
+The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column = Start Date and the latest one in Column = End Date. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
 - Venture: shows today's date in red, rest white
 - Project: shows bar from Start to End in dark blue
 - Stream: shows bar from Start to End in light blue
 - Action: shows bar from Start to End in soft grey
 - Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
+
+#### MMS Tracker
+The Sheet *Tracker* is like a dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, Projects using expanded elements from Objective Notation, see [## Objective Notation] below. 
+  
+The Tracker is for Managers and serves several purposes:
+- Capture all Routines for the Manager: this helps keeping track of recurring items a Manager does himself
+- Capture all ongoing Projects relevant to the Venture
+- Capture all potential Projects 
+- Ability to filter, sort such that relevant Data for specific occasions is available 
+- Use the data for Reporting 
+  
+Key functionalities are as follows:  
+  
+Calculated Columns 
+A series of calculated columns
+
+Reporting Columns
+- Reporting Y/N: calculated based on Calculated Columns 
+- Force Reporting: to override calculated Reporting 
+- Tag: a free field to use in Reporting or Filtering or Sorting
+   
+Who Colums  
+There are several columns to indicate Who.
+- Whom For Lvl 1 and 2 allowing for Activities and Sub-Activities (use "_all" if nonspecific Sub-Activity)
+- Whom By lvl 1 and 2: allowing for Groups and Staff (use "_all" if no specific Staff)
+    
+Goals Columns  
+- Goals: linked to standard Goals in Sheet = Static
+- Sub- Goals: linked to standard Sub-Goals in Sheet = Static
+- Initiative: allowing to create cross sectional Initiatives
+  
+Status Columns  
+- Planning Type: Project or Routine 
+- Status: Open, Started, Pending, Completed, Urgent
+  
+Name Columns
+- Name: as per the Objective Notation
+  
+Reference Columns
+- Details: anything that cannot be kept in the Name
+- Notes: Task Notation dd-mm-yy: Notes
+- Tasks: Task Notation Tasks, can include comments too
+NB: Task Notation and Objective Notation are the same, see [## Task Notation]
+- Remaining Task: count of non-conpleted Tasks
+- Task Progress: Remaining Tasks / Total Tasks as a %
+   
+Date Columns (al hidden)
+- Period indicator: for Routines
+- Nr Occurences / year: for Routines 
+- Time in hours/ occurrence: for Routines
+- Total time /year (days): calculated: for Routines
+- Start: for Projects, start date
+- End: for Projects, end date
+- Hold: for Projects, hold or pending date
+- Conplete: for Projects, completion date 
+- Effort: total effort in days per year for Projects  
+  
+Gantt Chart Columns  
+- 24 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
+
+Calculated Columns
+More Calculated Columns 
+   
+Recommended Usage  
+- Projects: 
+    - Create high-level entries only
+    - For each Project deliverable create a Task (helps tracking)
+    - Tag planned Months during which it is active with 'x'
+    - Tag last Month the Project is active with 'X'
+    - For hard deadlines add them in Details or in End
+    - NB: x and X can be any small and Capital letter
+- Routines
+    - Create only generic Routines for Staff 
+    - Create as many Routines as the Manager performs
+    - Provide as much information in Details as possible
+    - Create Tasks if a Routine spawns of sub-Routines
+
+How To Initiate  
+- Create as many Routines for the Manager as known i.e., Detail is relevant 
+- Create as many ongoing Projects as known
+    
+Meetings with direct reports  
+A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
+- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name. 
+- Run through all Routines and Projects applicable to the Staff 
+- Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
+- Add new Routines and Projects if relevant 
+
+
+
+
 
 ### MSS Reporting
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. The logic used in [MSS Note Management] is a key feature on MSS Reporting. 
@@ -827,6 +932,7 @@ The Sub-Goals for Goal mgt are the deliverables of Management:
   
 Run Goal = prd
 The following are classic Sub-Goals for Run Goal prd:
+- General Production: regroups anything generic to production possibly even oversight
 - Activity X: regroups all Routines performed within a specific Activity. There are as many such Sub-Goals as there are Activities in the Venture. 
 - Staff Maintenance
 - Asset Maintenance
@@ -2570,7 +2676,7 @@ Committees tend to not manage day-to-day of a Company or more generally the need
 There are exceptions to this. For example, some situations require super-short term senior management decisions. This is the case in crisis situations in which a Crisis Committee or equivalent can be raised without any preparation. Such Committees allow having senior people available to make Decisions affecting a wide and deep scope of a Venture. 
 ________________________________________
 ## BOD (Framework)
-The Board of Directors is an efficient tool for oversight and delegation. 
+The Board of Directors is often a legal and/or regulatory required committee which aims at assuring that the Management of a Venture is acting within its fiduciary duties. 
 ________________________________________
 ## MBO (Framework)
 @@@
@@ -3161,7 +3267,7 @@ C = Cost per unit
 F = Fixed cost  
 R - C = Contribution Margin  
   
-This allows calculating the break even i.e. the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
+This allows calculating the break even i.e., the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
 ________________________________________
 ## Cost Allocation (Framework)
 @@@ https://courses.lumenlearning.com/managacct/chapter/allocation-of-service-department-costs/
@@ -3406,12 +3512,12 @@ Corporate Titles can have sub-levels like Senior Vice President etc. The Directo
 Although knowledge is important, the focus is mostly on skills related to the acquisition, and use, of knowledge as well as behaviours in relation to interaction with colleagues and Suppliers such as to achieve the Objectives. 
 
 ### Performance Categories
-Performance Categories refer to the various aspects of behaviour involved in achieving Objectives. There are three Performance Categories:
+Performance Categories refer to the various aspects of behaviour involved in achieving Objectives. As per the Management Framework there are three Performance Categories for Staff:
 - Dependability
 - Proactivity
 - Leadership
 
-Other categories are possiblez but the above three cover the broadest range of behaviours as explained below:
+Other categories are possible but the above three cover the broadest range of behaviours . They are reperated here:
 
 #### Dependability
 Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known Objectives and their underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's *competency* which is the ability to carry out Processes effectively, autonomously and timely to yield the expected Result and includes the capacity to: 
