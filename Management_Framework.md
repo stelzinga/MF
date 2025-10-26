@@ -2,7 +2,7 @@
 # INTRODUCTION
 This note explains the *Management Framework* a.k.a. *MF*, an intertwined set of concepts and conventions for the purpose of *Managing*.
   
-The MF is composed of two notes: this note, "Management Framework " a.k.a. "MF", which explains overall concepts, whereas the second note, "Management Framework - Appendix" a.k.a. "MF - Appendix", focuses on the application of those concepts.
+The MF is composed of two notes: this note, "Management Framework " a.k.a. "MF", which explains overall concepts, whereas the second note, "Management Framework - Appendix" a.k.a. "MFA", focuses on the application of those concepts.
   
 This note has the following sections:
 - Introduction 
@@ -151,31 +151,30 @@ The Profile expresses a Venture through a *Profile Tree*, composed of interrelat
 This visual representation is summarised below.  
 ________________________________________
 ## Profile Tree Executive Summary
-The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous delivery and sales of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues and *Capital* in the form of *Liabilities* or *Debt* and *Equity*. Liabilities include long and short term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct*  (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally Suppliers, Clients and the general *Environment*. Environment¹⁾ consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk²⁾ is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets etc..  
-Revenue minus Cost is called *Earnings* or *Profit*. Revenue, Cost and Risk are the monetary *Results* of Operations. Revenue and Cost also make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenue and Cost over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of the Financial Period). 
-Operations are central to a Venture and they are initiated and continuously improved by *Management* through four *Management Functions*: *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised and Risk minimised⁴⁾. Planning consists of strategy *formulation*, whereas Organising and Leading constitute strategy *implementation* and Controlling consists of *verifying* the implementation. Management iteratively applies the POLC to Operations but also to *Business Functions* which are transverse topics across the entire Venture like *Finance*, *HR*, *IT* , *Compliance*, *Risk*, *Legal*, *Tax*, *Procurement*, *Communications*, and *Marketing*. Lastly, Management relies on *Tools* in the form of *Research*, *Definitions*, *Frameworks*, *Procedures* and *Software* to achieve its targets. 
+The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous delivery and sales of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues and *Capital* in the form of *Liabilities* and *Equity*. Liabilities or *Debt* include long and short-term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct*  (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures or weaknesses in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally through Suppliers, Clients and the *Environment*. Environment¹⁾ consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk²⁾ is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets etc..  
+Revenue minus Cost is called *Earnings* or *Profit*. Revenue, Cost and Risk are the monetary *Results* of Operations. Revenue and Cost also make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenues and Costs over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of that Financial Period). 
+Operations are central to a Venture, and they are initiated and continuously improved by *Management* through four *Management Functions*: *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised and Risk minimised⁴⁾. Planning consists of strategy *formulation*, whereas Organising and Leading constitute strategy *implementation*, and Controlling consists of *verifying* the implementation. Management iteratively applies the POLC to Operations but also to *Business Functions* which are transverse topics across the entire Venture like *Finance*, *Human Resources*, *Information Technology* , *Compliance*, *Risk*, *Legal*, *Tax*, *Procurement*, *Communications*, and *Marketing*. Lastly, Management relies on *Tools* in the form of *Research*, *Definitions*, *Frameworks*, *Procedures* and *Software* to achieve its targets. 
   
 The next four paragraphs provide more details on the POLC, which, being functions, are foundational to Management.
   
-Planning establishes *what, where, when, why and how* is to be done within Operations by defining why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects to function (*Values* and *Bylaws*) and how it assesses the Environment versus its own performance (*SWOT* and *Intel*). Planning also defines *Goals* and *Objectives*. Run Goals focus on continuously delivering Services to Clients, with four Run Goals being essential: a) Manage Venture⁵⁾, b) Perform production (Value Chain), c) Perform oversight (Control Chain) and d) Perform overhead (anything not contributing to a-c but required nevertheless). Change Goals *improve* Run Goals to a) Grow Revenue, b) Protect existing Revenue at risk of being lost, c) Secure Run to reduce Risk, and d) Optimise Run to reduce Cost and/or increase Revenue. Both Run and Change Goals can have Sub-Goals that tie into *Activities* (see below). An *Objective* is a *precise*, *time-based* Process or series of Processes, the output of which supports the completion of a (Sub-)Goal and thus the delivery of a Service or improvement thereof. Objectives consume Assets and Suppliers and are performed or overseen by Staff. Objectives are either *Routines* (tie into Run Goals) or *Projects* (tie into Change Goals). Planning also establishes various types of metrics or *Benchmarks* used in Controlling. Lastly, the results of Planning are a *Strategic Plan*, *Tactical Plan* and/or *Operational Plan* a.k.a. *Operating Model* (a blueprint of the entire Profile Tree).  
+Planning establishes *what, where, when, why and how* is to be done within Operations by defining why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects to function (*Values* and *Bylaws*) and how it assesses the Environment versus its own performance (*SWOT* and *Intel*). Planning also defines *Goals* and *Objectives*. Run Goals focus on continuously delivering Services to Clients, with four Run Goals being essential: a) Manage Venture⁵⁾, b) Perform production (Value Chain), c) Perform oversight (Control Chain) and d) Perform overhead (anything not contributing to a-c but required nevertheless). Change Goals *improve* Run Goals to a) Grow Revenue, b) Protect existing Revenue at risk of being lost, c) Secure Run to reduce Risk, and d) Optimise Run to reduce Cost and/or increase Revenue. Both Run and Change Goals can have Sub-Goals that tie into *Activities* (see below). An *Objective* is a *precise*, *time-based* Process or series of Processes, the output of which supports the completion of a (Sub-)Goal and thus the delivery of a Service or improvement thereof. Objectives consume Assets and Suppliers and are performed or overseen by Staff. Objectives are either *Routines* (tie into Run Goals) or *Projects* (tie into Change Goals). Planning also establishes various types of metrics or *Benchmarks* used in Controlling. Lastly, the result of Planning is a Plan which can be a *Strategic Plan*, *Tactical Plan* and/or *Operational Plan* a.k.a. *Operating Model* (a blueprint of the entire Profile Tree).  
   
-Organising establishes *how to do* what was Planned and *who should do it* by defining *Activities* which regroup related Sub-Goals and/or Objectives and defines how Staff are organised in *Groups* linked to those Activities. The sum of Groups (and thus Activities) is the Venture's Organisation reflected in an *Organisational Chart*. Organising establishes *Roles & Responsibilities* which includes the concept of *Delegation* of *Responsibility* and *Authority* across Activities thus creating *Accountability* throughout the Venture. Roles & Responsibilities are formalised in a Job Description. With Roles & Responsibilities established, Organising then moves to *Casting* specific individuals for each Job Description as well as finding the right Suppliers. Lastly, *Funding* assures the Capital of the Operations is maintained.
+Organising establishes *how to do* what was Planned and *who should do it* by defining *Activities* which regroup related Sub-Goals and/or Objectives and defines how Staff are organised in *Groups* linked to those Activities. The sum of Groups (and thus Activities) is the Venture's Organisation reflected in an *Organisational Chart*. Organising establishes *Roles & Responsibilities* which includes the concept of *Delegation* of *Responsibility* and *Authority* across Activities whilst creating *Accountability* throughout the Venture. Roles & Responsibilities are formalised in a Job Description. *Casting* assures specific individuals are found for each Job Description as well as the right Suppliers. Lastly, *Funding* assures the Capital required for Operations is maintained.
   
-Leading involves Processes to *drive* those *who do it* by directing, influencing, inspiring, and motivating individual Staff and Groups to achieve Objectives. Leading consists of establishing a *Safe Space* such that *collaboration*, *motivation*, *inspiration*, and *learning* are all maximised. Leading involves *Networking* and also grooms future *Managers* and finally reflects upon one-self as Managers through *Management Improvement*. 
+Leading involves *driving* those *who perform Operations* by directing, influencing, inspiring, and motivating individual Staff and Groups to achieve Objectives. Leading consists of establishing a *Safe Space* such that *collaboration*, *motivation*, *inspiration*, and *learning* are all maximised. Leading involves *Networking* and also grooms *future Managers* and finally reflects upon one-self as Managers through *Management Improvement*. 
    
-Controlling involves Processes to establish *how well it was done* by verifying Results of Operations versus the Benchmarks from Planning, analysing the differences and adjusting through Planning, Organising and Leading. Controlling is done through *Supervision* via a *Supervision Framework* composed of *Supervision Processes* or *Controls* of four types: a) *Check* (verify vs Benchmark), b) *Review* (verify vs an opinion), c) *Attend* a *Committee* (verify vs a broader range of opinions) or d) *Audit* (verify vs an *independent* opinion). Controls result in *Reports* with suggestions for improvements. *Monitoring* assures tracking, and implementation of those improvements. Lastly, *Journaling* is used to keep track of work done across all four Management Functions. 
-The principles of Controlling can be applied to Outputs, Inputs, or the Steps of individual Processes.
+Controlling establishes *how well it was done* by verifying Results of Operations versus the Benchmarks from Planning, analysing the differences and adjusting through Planning, Organising and Leading. Controlling is done through *Supervision* via a *Supervision Framework* composed of *Supervision Processes* or *Controls* of four types: a) *Check* (verify vs Benchmark), b) *Review* (verify vs an opinion), c) *Attend* a *Committee* (verify vs a broader range of opinions) or d) *Audit* (verify vs an *independent* opinion). Controls result in *Reports* with suggestions for improvements. *Monitoring* assures tracking, and implementation of those improvements. Lastly, *Journaling* is used to keep track of work done across all four Management Functions. The principles of Controlling can be applied to Outputs, Inputs, and the Steps of individual Processes.
    
 The Management Framework permeates the entire Venture and can be applied to varying extent at any *Management Level* within the Venture (Director of the Board, CEO, department head, team leader, etc.).     
   
-It is worth noting that the Profile is a simplification of complex concepts that have many properties and these concepts are often implemented in complex Venture structures. Additionally, the proposed structure in the Profile is a *possible* way of looking at a Corporation, it is certainly not the only way. Nevertheless, the simplification helps see the trees in the forest, and help focusing on the fundamentals of what a Venture is ultimately about.  
+It is worth noting that the Profile is a simplification of complex concepts that have many properties, and these concepts are often implemented in complex Venture structures. Additionally, the proposed structure in the Profile is a *possible* way of looking at a Corporation, it is certainly not the only way. Nevertheless, the simplification helps see the trees in the forest, and help focusing on the fundamentals of what a Venture is ultimately about.  
   
 Notes:  
 ¹⁾ Even if at the top, Environment impacts *the entire Venture*.  
 ²⁾ Services often embed Risk e.g., financial products, machinery, drugs, etc. Pro-active management of this Risk is part of Operations.  
 ³⁾ Assets on the Balance Sheet are a sub-set of Assets in Operations, e.g., a *procedure* is an Asset in Operations but not in the Balance Sheet.  
-⁴⁾ Assuming Risk is 'merely' a (probabilistic) Cost, the objective of Management is thus Profit maximisation. 
-⁵⁾ Strictly speaking Management should not be part of the Run, which itself sits in Operations. However, it is included nevertheless because a) Management occurs at various levels, see further below, and 2) for smaller Ventures, Operations and Management are very much integrated.   
+⁴⁾ If we consider Risk to 'merely' be a (probabilistic) Cost, the objective of Management is thus Profit maximisation. 
+⁵⁾ Strictly speaking Management should not be part of the Run, which itself sits in Operations. However, it is included nevertheless because a) Management occurs at various levels, see further below, and 2) for smaller Ventures, Operations and Management are more integrated.   
    
 Although the Profile Tree is focused on Profit making Ventures, the concepts apply equally to non-profit organisations like charities, religious institutions etc., the main differences are 1) the manner in which Operations are funded (membership fees, donations, government subsidies);  2) the main target is not to achieve Profit maximisation but rather the continuation of Operations i.e., to have enough funding to cover the Cost; and 3) the ownership structure is often more centralised.
 ________________________________________
@@ -231,7 +230,7 @@ A Procedure is an established or formalised manner of performing a Process. It i
 ### Software
 A Software is downloaded for free, purchased or developed. It achieves a specific outcome either by configuration or automating a manual Process, and/or by simplifying a Process even if it remains partially manual.  
   
-The Profile is itself a Framework whereas the Profile Tree Items are  Definitions. Some key Tools used in the rest of this Note are discussed below:
+The Profile is itself a Framework whereas the Profile Tree Items are  Definitions. Some key Tools used in the rest of the Management Framework are discussed below:
    
 ### 6W Framework
 The 6W Framework aids in framing *any* topic by enforcing answers to 6 fundamental questions: *What*, *Where*, *When*, *Who*, *Why* and *How* a.k.a. *Which* (hence 6W). The following are examples for each:
@@ -251,7 +250,7 @@ A Process is one or more *triggered* or *continuous* *Steps* applied to one, or 
    
 A well designed Process is completely defined by the 6W Framework. In other words, What Output is to be delivered, Where and When, *by* Whom and *for* Whom, Why is the Output relevant, and How is it achieved i.e., which Inputs are used and what does each Step do with the Input. Note that Where can be a geographic location, but can also refer to an Asset in which a Process is embedded.
   
-Output is determined by what is the *desired* Result. The latter thus drives the design of the Steps to be applied to the Input. The actual Output may differ of course from what was intended i.e., a faulty, or weak Process.  
+Output is determined by what is the *desired* Result. Output thus drives the design of the Steps to be applied to the Input. The actual Output may differ of course from what was intended i.e., as a consequence of a faulty Process. Output can be anything from a decision to a physical object. 
   
 Input can be any of the following: Assets, Services from Suppliers and Outputs from other Processes or from the Process itself (internal loop-back). Therefore, they have constraints: time, energy, manpower, cost, etc. 
   
@@ -282,6 +281,13 @@ Any Process or change in Process should directly or indirectly:
 - Report to Stakeholders or improve an aspect to one or more Stakeholders not part of the above 
     
 If a Process or change in Process does not achieve the above directly or indirectly then it is likely it should not be performed at all. The assessment is easy for Processes that directly have an influence as per above. It is more difficult to establish for Processes that contribute indirectly i.e., the path from the Process to the final desired Output is long and involved. For example, more motivated Staff could lead to increased Revenue, but that link is difficult to establish. The truth is that, particularly in large organisations, the majority of Processes are indirect. This is typically reviewed by Managers either directly or through audits, or through a specific Framework called Business Process Analysis or Business Process Engineering.
+
+### Topic Definition
+The word Topic is relatively common to not really warrant a definition. However, there are various properties that require some formalism. A definition of Topic is an idea, subject or theme of written or spoken discourse. This covers the basics of a Topic.  
+  
+The *Topic Scope* is virtually unlimited. Even within the context of Management Framework there are many Topics in general, and they can multiply fast by refining the context around a Topic. For example, Income can be a Topic, but the Income of a specific Activity is another, even if related Topic. Effectively everything single item in the Management Framework is a Topic. 
+  
+A Topic can fall within a *Topic Category*. For example, Income can be tagged to Finance. However, many Topics are related to more than one Category. For example, Income can also be tagged to Income Statement or Corporate Tax. As such, it is not easy to isolate a Topic. 
   
 ### Stakeholder Definition
 Stakeholders are people affected by the Venture. They are either internal (Staff, Manager) or external (Environment, Clients, Suppliers, and including people impacted without being any of the previous for example citizens living in a zone of Operations of a Venture). The consideration of their interests falls within a Manager's remit.
@@ -471,43 +477,57 @@ A Skill is the learned ability to perform a Process such that the expected Resul
 - Soft Skills
 - Hard Skills
   
-Soft Skills are subjective and hard to quantify. They are often referred to as *people skills* or *interpersonal skills* and are developed over time, sometimes from a very young age. Soft skills are some of the most important skills underpinning good Management. Many of below Soft Skills have dependencies on each other:   
+Soft Skills are subjective and hard to quantify. They are often referred to as *people skills* or *interpersonal skills* and are developed over time, sometimes from a very young age. Soft skills are some of the most important skills underpinning good Management. Many of below Soft Skills (in no particular order) have dependencies on each other and some are essentially the same but appearing under different names:   
 - Communication: ability to convey and share ideas effectively to a wide range of Stakeholders.
-- Flexibility: ability to accept new challenges calmly and without restraint.
 - Leadership: ability to help oversee Activities, guide initiatives and steer Staff toward the achievement of Goals through Leading. But also the ability to identify strong performers, and potential strong performers versus weak performers and people without potential.
 - Motivation: ability to keep going even in the face of setbacks.
+- Flexibility: ability to accept new challenges calmly and without restraint.
+- Adaptability: see Flexibility.
 - Multitasking: ability to manage different tasks efficiently by prioritising them.
 - Time Management: ability to plan different tasks and track them such that they complete at the expected time.
 - Problem Solving: ability to analyse a problem efficiently to create a solution, including breaking up larger problems in smaller ones.
 - Risk awareness: the ability to recognise the potential for hazards, harm, incidents, losses, etc.
 - Imagination: the faculty of forming new ideas, images or concepts of objects not present to the senses.
-- Teamwork: ability to cooperate with others, ability to build, and rely on relationships.
+- Creativity: is the ability to create something new using Imagination, innovation.
+- Inventiveness: being innovative, see Creativity. 
+- Team spirit: ability and even desire to cooperate with others, the ability to build, and rely on relationships.
 - Self-learner: ability to teach oneself new topics by finding and using relevant sources of information adequate for that topic and then studying or practising them.
 - Self-critical: ability to question oneself to improve the quality of one's output and to increase one's understanding of relevant topics 
 - Self-starter: ability to see tasks requiring to be done and start working on them without being asked by someone else to do so.
 - Analytical: ability to collect, process and transform Data (records of fact) into Information (interpretation of facts) relevant to a topic 
 - Strategical: ability to identify potential and actual Opportunities that grow Revenue and/or reduce Cost and/or reduce Risk under the constraints of potential and actual Threats given actual or perceived Strengths and Weaknesses of the Venture. 
   
-Hard Skills are teachable abilities that are relatively easy to quantify. They are taught and acquired through books, classroom sessions, internet, but also on the job. Hard Skills are often but not always knowledge based. Hard skills can be recognised through diplomas and certificates. They include the following (the list is focusing on Service oriented Ventures):
-- Foreign Languages
-- Programming Languages
-- IT System Management
+Hard Skills are teachable abilities that are relatively easy to quantify. They are taught and acquired through books, classroom sessions, internet, but also on the job. Hard Skills are often but not always knowledge based. Hard skills can be recognised through diplomas and certificates. They include the following:
+- Languages
 - Mathematics
+- Natural Sciences (physics, chemistry, biology, geology, meteorology, ...)
+- Social Sciences (economics, sociology, psychology, ...)
+- Information Technology (programming, system design, ...)
+- Applied Sciences (engineering, medicine, ...)
 - Accounting 
 - Data Science
 - Project Management 
 - Use of Venture specific Assets
 - Use of Venture specific Processes
 - ...
+- ...
     
 #### Knowledge  
 Knowledge refers to what is required in understanding topics involved in the Processes and is thus more focused on "understanding something". Knowledge can be obtained through self-study, classroom setting or on the job-training.
   
 #### Experience  
-Skills and Knowledge can often be 'proven' or 'benchmarked' from having performed similar Processes. This is referred to as Experience. Experience gives more weight to the relevance of Skills and Knowledge. Experience can be expressed as "Similar role for X years in company or department Y".
+Skills and Knowledge can often be 'proven' or 'benchmarked' from having performed Processes requiring the same or very similar Skills and Knowledge. This is referred to as Experience. Experience gives more weight to the relevance of Skills and Knowledge and can be expressed as "Similar role for X years in company or department Y".
   
 #### Personality 
-The Personality of a Staff is an important factor in the Staff's ability to fit in, and to grow within the Venture. Personality is not easily taught or trained and the result of multiple factors like upbringing, education, cultural background, life-experiences and life expectations. Various aspects are part of this characteristic: curiosity, patience, being grounded, capacity to listen, capacity to share, empathy, etc. Personality seems very similar to Soft skills (see above), but in the Management Framework Soft Skills are deemed more related to performing work in a certain way, whereas Personality says more how someone approaches life and people within his surroundings. Nevertheless, different Venture's may not consider Personality as separate and consider it part of Soft Skills, others may make the distinction. 
+The Personality of a Staff is an important factor in the Staff's ability *to fit in*, and *to grow within* the Venture. Personality is strongly related to the ability to interact with others in a diverse environment. It is not explicitly taught or trained but rather the result of multiple factors like upbringing, education, cultural background, life-experiences and life expectations as well as having participated in sports, clubs, extra-curricular activities. Various traits are part of Personality: 
+- Altruism: the unselfish concern for the welfare of others, prioritizing others' needs and well-being over one's own, potentially at a personal cost.
+- Curiosity: the desire to learn to do something or to know about something
+- Being grounded: the state of being down-to-earth, being mentally balanced, understanding the reality of things, being sensible and non-pretentious.  
+- Charitability: the ability and willingness to share whilst not having been asked to do so.  
+- Stress Management: the ability to deal with adversity
+- Empathetic: ability to listen and understand and even share the feelings of someone else.
+  
+Personality seems very similar to Soft skills (see above), but in the Management Framework Soft Skills are deemed more related to performing work in a certain way, whereas Personality says more how someone approaches life and people within his surroundings in general, not specifically within a work context. Nevertheless, different Venture's may not consider Personality as separate and consider it part of Soft Skills, others may make the distinction. 
   
 #### Performance
 The combination of above four elements drive the *potential* of a Staff and ultimately yields the Staff's ability to perform. In the Management Framework the concept of Performance is measured across three axis:
@@ -698,9 +718,9 @@ ________________________________________
 ## Management
 Management, or Managing, focuses on a person, called *Manager*, proactively and continuously assuring the availability of enough Capital to finance the Cost of Resources that assure the Run and Change of the Operation's Processes in order for Services to be delivered to Clients yielding Revenue whilst containing and reducing Risk.
   
-The above summary is essentially an alternative view of the Profile. To achieve it, Management consists of continuously and interchangeably performing four *Management Functions* called *Planning*, *Organising*, *Leading* and *Controlling* or *POLC* (Rutter, 2003), (Loyd et al, 2020), (University of Ohio, 2010), (Poff et al, 2023). Whereas the POLC are commonly understood to constitute the four core *functions* a Manager performs, the amount of time spent on each, as well as the detail required to be covered varies depending on the Venture. The Profile aims at defining these four functions more holistically such that it provides guidance to Managers in the context of the overall structure of a Venture. 
+The above summary is essentially an alternative view of the Profile. To achieve it, Management consists of continuously and intermittently performing four *Management Functions* called *Planning*, *Organising*, *Leading* and *Controlling* or *POLC* (Rutter, 2003), (Loyd et al, 2020), (University of Ohio, 2010), (Poff et al, 2023). Whereas the POLC are commonly understood to constitute the four core *functions* a Manager performs, the amount of time spent on each, as well as the detail required to be covered varies depending on the Venture. The Profile aims at defining these four functions more holistically such that it provides guidance to Managers in the context of the overall structure of a Venture. 
   
-Management applies part or whole of the four POLC to Operations first and foremost, but also applies them to key topics or themes that affect Operations or the entire Venture transversely. Such themes are, for example, the Financial aspects of running Operations, Human Resources, Risk across all its different angles, or the complex aspects of selling the Services to Clients through Marketing. These themes are commonly referred to as *Business Functions*.  
+Management applies part or whole of the four POLC to Operations first and foremost, but also applies them to key topics or themes that affect Operations or the entire Venture transversely. Such themes are, for example, the Financial aspects of running Operations, Human Resources, Risk across all its different angles, or the complex aspects of selling the Services to Clients through Marketing, etc. These themes are commonly referred to as *Business Functions*.  
 
 Lastly, in order to achieve the best results, Managers use various Tools in their day to day work. 
     
@@ -723,14 +743,15 @@ Often the term Governance is used separately from, or in combination with, Manag
 The distinction between Governance and Management is conceptually not relevant for the Management Framework: Management is holistic and all-encompassing. It is, however, important to realise some Ventures make such distinction. It is even possible, that Governance is considered a Business Function in some Ventures.
   
 ### Management vs Leadership  
-From a definition perspective, Management is sometimes seen solely as consisting of Planning, Organising and Controlling the Venture's Suppliers, Assets and Staff to yield the Operations's Results, whereas Leadership refers to an individual's ability to direct, inspire, influence, motivate, and enable Staff to contribute toward those Goals. In short, the main difference between the two is that leadership is about influencing Staff to follow, while Management focuses on maintaining systems and processes. As can be seen from the POLC, Leading or leadership is a fundamental aspect of Management and as such, Management and Leading are thus entirely intertwined in the Management Framework. Note that one can be good in the POC of Management but not in the L, which makes a less effective Leader. Reversely, a good Leader may not be an efficient Manager.  
-  
+From a definition perspective, Management is often seen solely as consisting of Planning, Organising and Controlling with a focus on Processes and Assets to achieve Results (Revenue, Costs and Risk) whereas Leadership is seen as an individual's ability to direct, inspire, influence, motivate, and enable Staff to contribute toward the Operations. In short, the main difference between the two is that leadership is about influencing Staff (and Suppliers to a certain extent) to follow, while Management focuses on maintaining systems and processes. Another way of looking at Management and Leadership is that a Manager is given a role as Manager, in other words the hierarchical position the Manager has allows the Manager to direct Staff and expect for that direction to be followed merely because of the position held. Leadership on the other hand can be seen as making Staff achieve the same results not because of a hierarchical position but by a combination of directing, influencing, inspiration and motivation. 
+As can be seen from the POLC, Leading or leadership is a fundamental aspect of Management and as such, Management and Leading are intertwined in the Management Framework. Note that one can be good in the POC of Management but not in the L, which makes a less effective Leader. Reversely, a good Leader may not be an efficient Manager.  
+    
 ### Management Level   
 A *Management Level* indicates at what level within the organisation Management is performed. Top Management is Management of the entire Venture often represented through so called *C-suite* roles (Chief Executive Officer, Chief Operating Officer, Chief Financial Officer, etc) particularly if it is an incorporated company. Middle Management involves the running of Activities on department level, whereas Low-level Management or Line Management relates to teams. Obviously, many more Management Levels are possible. Ultimately, Top Management effectively delegates (see Organising later in this note), a vast amount of Management Functions to Middle Management and they in turn delegate to Line Management. At each level Management still consists of the four Management Functions, but the lower the level, the more the functions focus on Short Term and Operational aspects and less on Strategic aspects.   
 For lower levels Management may not be a full time job, instead it is part of the job, and the Manager may be involved in Operations. This is referred to as a *hybrid Management/Operations* role or a *Hybrid Manager*. Last but not least, the concepts of Management can be used by Directors of the Board of Directors, see under [## Venture].
     
 ### Management as Academic Topic  
-Management has, and still is, the topic of much study. The Management Framework does not intent to reflect all of the significant amount of work done over the last 100 years. For example, Henry Fayol defined five instead of four Management Functions. The fifth one, Coordinating, does not appear as such in the Management Framework and has over time been morphed into the other Management Functions. More importantly, whereas early Management focused solely on the point of view of the Venture and Shareholders, modern Management theory has a strong focus on the interest of Stakeholders more broadly.
+Management has, and still is, the topic of much study. The Management Framework does not intent to reflect all of the significant amount of work done over the last 100 years. For example, Henry Fayol (Fayol, 1949) defined five instead of four Management Functions. The fifth one, Coordinating, does not appear as such in the Management Framework and has over time been morphed into the other Management Functions. More importantly, whereas early Management focused solely on the point of view of the Venture and Shareholders, modern Management theory has a strong focus on the interest of Stakeholders more broadly.
   
 ### Management Cycle
 Management applies the Management Functions of POLC to Operations and Business Functions using the Management Tools. The application of POLC is done in a continuous iterative cycle, referred to as the *Management Cycle* or simply *Management*. In other words, when the term "Management" or "Managing" are used, it is deemed an ongoing process of performing the four Management Functions iteratively and continuously to Operations and Business Functions using Tools.
@@ -743,7 +764,22 @@ Management thus has the following deliverables:
 - Business Functions
 - Tools
 
-These deliverables each have a dedicated section (with Tools having been discussed earlier in this note).       
+These deliverables each have a dedicated section (with Tools having been discussed earlier in this note).  
+
+### Management Principles
+There are many books written on Management or Leadership principles e.g., "21 Irrefutable Laws of Leadership" (Maxwell, 2007) or Fayol's 14 Management Principles (Fayol, 1949). The Management Framework defines a few principles deemed relevant for a Manager to achieve his full potential, and for the Venture to thrive.
+  
+#### Management Principle - Understand the Venture
+For a Manager to function at his best, it is fundamental he understands, and maintains that understanding of, the Venture. In other words, *why* does the Venture do what it does. This means an understanding of all aspects of the Profile (Environment, Clients, Services, Operations and Management). This is true for every Management Level, even if the level of understanding of each aspect may differ for each level. Understanding is not the same as knowing, which is the next 
+  
+#### Management Principle - Know the Venture
+Whereas the first principle focuses on the *why* of the Venture. The second principle focuses on *what* actions the Venture performs, and *who* are the key players in the actions performed, and *where* and *when* does the Venture perform these actions and lastly, *how* are these actions performed. This knowledge and the interplay of the different aspects of it is key for a Manager to be able to add value to the Venture.  
+  
+#### Management Principle - Focus on Results
+Always keep the Results (Revenue, Cost, Risk) as the driving force of the Venture. In other words, if a Goal, Objective, Task or more generally any Process does not increase Revenue, and/or reduce Cost and/or decrease Risk, then that Process should probably not be performed. The exception to this is if said Process is needed to inform Stakeholders of the Results or the manner in which these Results are achieved.  
+  
+#### Management Principle - Keep it Simple
+Complexity is a Cost, and it in addition, it can stun the flexibility the Venture has to deal with Change and more importantly to innovate. Complexity often creeps in over time and even if the direct costs of such complexity is difficult to gauge, Managers should thrive in eliminating complexity in all its forms. This includes simplicity in the organisation (echoing Fayol's unity of command)
 ________________________________________
 ## Planning
 Planning establishes *what is to be done, where, when and why* and also *how*. Within Operations, Planning broadly structures the required Processes to yield the expected Results using available Capital and Resources. It is one of the most holistic Functions within Management and it is forward looking In its approach.
@@ -1040,7 +1076,7 @@ The above explains the fundamental concepts of delegating. There exist some subt
 The Role of a Staff is indicative of two key aspects from the concept of Delegating discussed above: Responsibility and Authority. The Role is most often formalised with a combined Job Title and Corporate Title. A Job Title is a short label indicating what type of Processes (or Objectives or entire Activities) the Role is responsible for and potentially what type of Authority goes with that e.g., Head of Engine Design. The Corporate Title implies both a level of seniority in that Role as well as Authority that comes with it e.g., Associate, Vice President, Senior Vice President, Director, Managing Director, etc. A Role helps convey an overall idea of the level of Responsibility delegated to the Staff for a specifically or broadly defined functional scope. In addition, it helps defining what type of Responsibilities can be delegated to Staff holding that Role. This is particularly useful for Managers. It is possible to have more than one Role within a Group or across Groups! A well defined Role contains both Job Title and Corporate Title, and if the Role is well defined it also explains in just a few words the Responsibilities from a high level.
    
 #### Responsibilities
-Where the Role is high level and indicative, the actual Responsibilities detail what it is that Role is really responsible for. It should also clarify the Authority the Role is granted to exact obedience i.e., whom should execute instructions given by the Role, and for what type of Processes. Clearly defined Responsibilities are important for two reasons: a) the obvious one of making sure what it is a Staff is expected to do, and b) less obviously, clarifies also what the Staff is *not* supposed to do. For a Manager clearly defined Responsibilities enable to assign work, by delegating to the best suited Staff or Group.
+Where the Role is high level and indicative, the actual Responsibilities detail what it is that Role is really responsible for. It also clarifies the Authority the Role is granted to exact obedience i.e., whom should execute instructions given by the Role, and for what type of Processes. Clearly defined Responsibilities are important for two reasons: a) the obvious one of making sure what it is a Staff is expected to do, and b) less obviously, clarifies also what the Staff is *not* supposed to do. For a Manager clearly defined Responsibilities enable to assign work, by delegating to the best suited Staff or Group.
   
 #### Job Description
 The Job Description or *JD* is a document that formalises the Roles and Responsibilities in the context of the Venture. It often gives a high-level description of the Venture in which the Activity operates and a more detailed description of the Activity in which the Role as well any expected interactions with peers in the Group and/or other Groups. In addition, a JD also details required Skills, Knowledge and Experience but often not Personality, see Staff above.
@@ -1049,10 +1085,10 @@ The Job Description or *JD* is a document that formalises the Roles and Responsi
 It is possible that various positions are held either within or outside the Venture that do not directly contribute to the Job Description. The scope is broad but can include memberships of clubs within the Venture or, positions held outside organisations representing the sector the Venture is part of, or positions held within other Ventures e.g., Director on the board of a non-competing organisation. Although such roles do not directly contribute to the Venture they can contribute to Skills and Experience and  well-being of people or allow them to get a different experience and grow their Skills which in turn may be beneficial to the Venture. 
   
 ### Casting
-Casting is the Process of finding or allocating the right individual for a given Role, or finding a suitable Supplier for an Activity. In other words, it is about finding the right fit. This deliverable is sometimes also called *Resource Allocation* or more crudely *Hiring and Firing*. Casting is complex because not only do the actual Roles & Responsibilities (or entire Activities in the case of Suppliers) need to be considered, but also other aspects, that are less well defined. Notably the Casting of Managers is more difficult, as they need to portray various skills implicit to a Management function.  
+Casting is the Process of finding or allocating the right individual for a given Role, or finding a suitable Supplier for an Activity. In other words, it is about finding the right fit. This deliverable is sometimes also called *Resource Allocation* or more crudely *Hiring and Firing*. Casting is complex because not only do the actual Roles & Responsibilities (or entire Activities in the case of Suppliers) need to be considered, but also other aspects, that are less well defined. Notably the Casting of Managers is more difficult, as they need to portray various Skills implicit to a Management function.  
   
 ### Funding
-Funding is the Process of assuring the right of  Capital is available to fund the Resources. It is an important aspect of starting a Venture but also to continue the Venture, also known as the *going concern* principle. For Top Management level this involves decisions on relation to issuing shares, buying back shares, issuing debt etc. For Middle Management this is more about assuring the right amount of Capital is allocated to the Activities they oversee. For Line Management the Funding may or may not exist, and is often mostly focused on making sure Middle Management is aware of funding needs. Funding can be seen part of, or to be, the Business Function Finance. It is, However, assuring there is sufficient Capital to fund the Resources is integral part of Organising which is the Management Function that Organises the Operation's Resources and Capital needs. 
+Funding is the Process of assuring the right level of Capital is available to fund the Resources. It is an important aspect of starting a Venture but also to continue the Venture, also known as the *going concern* principle. For Top Management level this involves decisions on relation to issuing shares, buying back shares, issuing debt etc. For Middle Management this is more about assuring the right amount of Capital is allocated to the Activities they oversee. For Line Management the Funding may or may not exist, and is often mostly focused on making sure Middle Management is aware of funding needs. Funding can be seen as part of the Business Function Finance, specifically the deliverable Financing. However, where Financing provides advice on most optimal structures to fund the Venture, Funding under Organising ultimately assures sufficient Capital is available to fund the Resources. 
 ________________________________________
 ## Leading 
 Leading *drives* and *motivates* those *who do it*. Within Operations, Leading drives notably Staff, but also Suppliers, to achieve the Operations' Results set out in Planning given the Organisation created to achieve them. It is both forward and backward looking in its approach.
@@ -1080,11 +1116,10 @@ Key deliverables of Leading are:
 Safe Space involves two aspects: General Safe Space and Psychological Safety. The former is the overall approach of a group of people towards subjects like inclusion, appreciation across all possible subjects of difference: gender, race, sexual orientation, religion, politics and more generally different perspectives. Psychological Safety refers to the belief that the work environment is safe for interpersonal risk taking. This refers to the experience of feeling able, and even obligated, to speak up with ideas, criticism, concerns or questions without risk i.e., without being scorn, seen as incompetent, ignorant, disruptive, betraying trust of the team etc. Psychological Safety is present when colleagues trust and respect each other and feel able, even obligated, to be candid. It is the responsibility of a Manager to assure a Safe Space is created such that all Staff are aware and can, and will, use it as intended.
   
 ### Direction
-Directing is the Process of guiding, inspiring, overseeing and/or instructing Staff towards accomplishment of the Venture's Goals and more specifically Objectives. It is  the responsibility of a Manager to assure Direction is shared with all Stakeholders: Staff, Groups of Staff, Suppliers, senior Managers and Shareholders. 
+Directing is the Process of guiding, inspiring, overseeing and/or instructing Staff towards accomplishment of the Venture's Goals and more specifically Objectives. It is the responsibility of a Manager to assure Direction is shared with all Stakeholders: Staff, Groups of Staff, Suppliers, senior Managers and Shareholders. 
   
 ### Collaboration
-Collaboration is the Process of two or more people working together to achieve an Objective. People can be Staff but also Suppliers. Collaboration, a.k.a. Teamwork is a catalyst for knowledge sharing and creation. This in turn positively affects Motivation. 
-It is the responsibility of the Manager to assure Collaboration is facilitated such that all Staff use it as an integral part of Operations.
+Collaboration is the Process of two or more people working together to achieve an Objective. People can be Staff but also Suppliers. Collaboration, a.k.a. Teamwork is a catalyst for knowledge sharing and creation. This in turn positively affects Motivation. It is the responsibility of the Manager to assure Collaboration is facilitated such that all Staff use it as an integral part of Operations.
   
 ### Motivation
 Motivation is the Process of stimulating Staff to act in a *specific manner* to achieve Objectives. Motivation is a key driver for the success of a Venture. Motivated Staff are more likely to:
@@ -1176,7 +1211,7 @@ An Audit uses a broad range of Processes to obtain results that provide sufficie
   
 Supervision Processes can result in a need for improvements which are addressed through Projects. Supervision Processes are applied to the *Supervision Scope* which refers to what it is the Managers want to supervise. In general. the Supervision Scope is the entire Venture, specifically Operations, against the backdrop of the constraints imposed by the Environment. However, depending on the manner in which a Venture is run, Managers may choose to use a different categorisation of the Supervision Scope with the ultimate objective to still cover Supervision of the Operations. 
   
-The output of the Supervision Framework i.e., Supervision Processes or Controls applied to the Supervision Scope is used by the Manager to make decisions. Dissemination of the results from Supervision can be done through various, potentially complementary means: mails, committees, dashboards, etc. 
+The output of the Supervision Framework i.e., Supervision Processes or Controls applied to the Supervision Scope is used by the Manager to make decisions. Dissemination of the results from Supervision can be done through various, potentially complementary means: reports, mails, committees, on-line dashboards, etc. 
   
 #### Managerial Oversight
 One aspect of Supervision is independence of Supervision. Managers define Objectives, Sub-Goals, Goals and Strategies and these include Benchmarks and by measuring what they have defined themselves they may have a conflict of interest. One way around this is the use of Audit as a form of Control (as Audits are independent). The other measure against such conflicts of interest is independent oversight from other managers e.g., a company's Management is overseen by the board, which is overseen by the Shareholders. 
@@ -1199,9 +1234,9 @@ This is a Report tailored to the Strengths of the Venture and can be used for Cl
 The content of Report can lead to a cycle of feedback and follow-up. Feedback comes in the form of suggestions for improvements. These suggestions are translated into actions and these need to be planned and monitored. Planning is done in the Planning cycle of Management, or within Operations if the action is to improve Run or Change. In all cases, it is important that any action determined within a Supervisory Process is closed timely.
 ________________________________________
 ## Business Functions
-Business Functions are fundamental business topics within Operations and more broadly the entire Venture. Even if the core of a Venture are its Operations, a Manager will have to deal with transverse topics that permeate several aspects of Operations and can go outside of it. These topics do not always map or relate to a single aspect of Operations. Yet, being a holistic topic, they require the POLC approach.
+Business Functions are fundamental business topics within Operations and more broadly the entire Venture. Even if the core of a Venture are its Operations, a Manager will have to deal with transverse topics that permeate several aspects of Operations and can go outside of it. These topics do not always map or relate to a single aspect of Operations. Yet, being a holistic topic, they may require the POLC approach, particularly in larger Ventures.
   
-Typical Business Functions are as follows (in brackets the Operations or more broadly Venture Profile Tree items covered):
+Typical Business Functions are as follows (in brackets the Profile Tree item or items covered):
 - Operations (Operations)
 - Finance (Revenue, Cost, Assets, Liabilities, Equity)
 - HR (Staff)
@@ -1209,25 +1244,27 @@ Typical Business Functions are as follows (in brackets the Operations or more br
 - Risk (Risk)
 - Compliance (Risk, specifically Regulatory risk)
 - Legal (almost all aspects of Operations)
-- Tax (Cost)
+- Tax (Cost and Risk specifically Tax Evasion and equivalent)
 - Procurement (Staff, Suppliers)
 - Marketing (Clients, Competitors)
 - Communications (Client, Suppliers, Staff, and more broadly Stakeholders)
 - Audit (Venture)
   
 ### Business Functions vs Operations 
-In management literature, Operations is often *also* defined as a Business Function, hence the very first entry in above list. In the Management Framework, Operations are considered the core of a Venture, but that approach does not exclude Operations to be also considered a Business Function after all it is a category to which the POLC can be applied!
+In management literature, Operations is often *also* defined as a Business Function, hence the very first entry in above list. In the Management Framework, Operations are considered the core of a Venture, but that approach does not exclude Operations to be also considered a Business Function after all it is a category to which the POLC can be applied! There are, however, important differences between Operations and the other Business Functions. Operations define what the Venture is about, what Sector it operates in, the Processes within Operations are entirely different for Ventures in different sectors. For example, the Processes required for mining iron ore are completely different from the processes of transistor manufacturing. Business Functions on the other hand, are more generic. Finance in a mining company will follow similar Processes and metrics as Finance in a transistor manufacturing company, which will follow the same Processes as a consultancy company. 
+Another, fundamental difference is that Operations generates Revenues. None of the other Business Functions do. Similarly, Operations have outward facing Objectives (to Clients) whereas Business Functions are predominantly inward facing (HR, Finance and Marketing being notable exceptions).
+Like Operations, each Business Function has a structure, composed of Processes (Run, Change), Resources (Staff, Suppliers, Assets), Capital (Liabilities, Equity) and Results (Cost, Risk). Note that in Results there is no mention of Revenue as per above. By design the Capital required for each Business Function is likely small, but for the total of Business Functions there may be some Capital required. Lastly, Operations being the revenue generating Business Function, one can consider the other Business Functions support functions to Operations.
   
 ### Business Functions & Departments
 Notably in large corporations Business Functions are are often so work-intense, that dedicated departments are set up for several or all of them. Such dedicated departments can be defined as Activities within Operations or as Suppliers to Management, or a mix thereof. In such cases, the difference between Suppliers and Business Functional departments is that the latter is often deemed internal to the Venture and often, but not always, has a strong focus on services provided to Management and less to the Operations.
 Note that not all Business Functions are represented through departments as such, or if they do, they are regrouped or split within a departments. For example, the Department CorpSec or Corporate Secretariat often combines Legal and Tax in a single department. Some Ventures split Finance into two dedicated departments, one for Accounting and one for Financing. IT is nowadays a dedicated department, but that was not the case 20 years ago. Marketing may exists within Operations combined with the Sales department, etc.   
-Ventures having an audit department often do not necessarily consider it a Business Function, but rather an independent organisation within the Venture. In the MF it is considered a Business Function.
+Ventures having an audit department often do not necessarily consider it a Business Function, but rather an independent organisation within the Venture. In the MF it is considered a Business Function.by the same token, smaller Ventures may not have dedicated departments for some or any Business Function. In that case Managers perform the Business Functions, or they rely on outsourcing or a combination thereof. In small enough Ventures, some Business Functions may not be relevant like Legal or HR (family run business for example).
    
 ### Business Functions & Functional Overlap
 Many Business Functions have considerable overlap. For example, Procurement which is strongly concerned with Suppliers has a strong dependency on Legal with regards to the contracts between the Venture and the Suppliers. Such overlaps are the case for most Business Functions. 
   
 ### Business Functions & POLC
-As explained earlier, the POLC are Management Functions i.e., like a mathematical function they apply a certain logic on some variables to produce some output or deliverable. The Business Functions are similar in that they apply some logic to produce an output specific to the topic they are concerned with. However, the logic applied in Business Functions is the POLC! Take for example the Business Function Finance. The output of this function is recording and reporting of Financial data (accounting) and creating the most efficient corporate structure such that Liabilities and Equity are optimally funding the Operations (Financing). In order to do this, a Plan needs to be elaborated, Staff need to be organised to perform certain Activities in relation to these Finance topics, they need to be led by someone to achieve the Objectives set out in the plan and there has to be some form of Supervision and reporting to the Managers of the Venture on it. In other words, the POLC are applied to specific topics of a going concern Venture. 
+As explained earlier, the POLC are Management *Functions* i.e., like a mathematical function they apply a certain logic on some variables to produce some output or deliverable. The Business Functions are similar in that they apply some logic to produce an output specific to the topic they are concerned with. However, the logic applied in Business Functions is the POLC! Take for example Business Function Finance. The output of this function is recording and reporting of Financial data (accounting) and creating the most efficient corporate structure such that Liabilities and Equity are optimally funding the Operations (Financing). In order to do this, a Plan needs to be elaborated, Staff need to be organised to perform certain Activities in relation to these Finance topics, they need to be led by someone to achieve the Objectives set out in the plan and there has to be some form of Supervision and reporting to the Managers of the Venture and Stakeholders in the Funding. In other words, the POLC are applied to specific topics of a going concern Venture. 
   
 ### Business Functions Exhaustiveness
 The Business Functions discussed here can be altered to fit each Venture and Management Structure. As such it is possible to add and delete Business Functions from the list covered in this Framework. 
@@ -1236,6 +1273,10 @@ The Business Functions discussed here can be altered to fit each Venture and Man
 As discussed above, Operations is considered the core Business Functions even it is discussed separately in the Management Framework. As such, when looking at the full scope of Management it can be seen that Management covers all possible angles of both the approach to Management (POLC) as well as the different aspects of a Venture to apply it to (Business Functions). As such, through the exhaustiveness of Business Functions as discussed here, Management is indeed all-encompassing. 
     
 The following sections cover the key Business Functions.
+________________________________________
+## Operations (revisited)
+Operations was discussed extensively earlier in this note as the key component of any Venture. Here we focus on some differences on how the scope of Operations in the Management Framework versus other approaches. 
+In the Management Framework, Operations contains everything that makes up the day-to-day of a Venture: Processes (Run and Change) being performed by Resources (Staff, Suppliers and Assets), which are funded through Capital (Liabilities, Equity) all yielding Results (both desired: Revenue, and undesired: Cost and Risk). Another way Operations can be looked at is focusing only on the Processes assuming all the other elements are necessary input or output. This approach, focusing only on Processes or 'the things that need doing' is often used in literature (Slack, 2013). In the Management Framework, Operations is larger, but this larger scope does not make the literature invaluable, far from it. Operations Management is a fundamental topic of academic study and is taught notably in most MBA programs. It consists of the principles of Management applied to Operations in other words, it studies how to Plan, Organise and Lead the Operations, and how to Control it.   
 ________________________________________
 ## Finance
 Finance, or more holistically Accounting & Financing is the Business Function concerned with measuring and reporting financial items related to the Venture and assuring Funding.
@@ -1260,7 +1301,7 @@ Note that a key part of Accounting includes Processes to formalise in which mann
 2. Reporting of those data both economically and accounting-wise through relevant reports for internal and external use e.g. Balance Sheet, Income Statement, Statement of Cash flows, and any Key Performance Indicators that are relevant to the Venture.
   
 ### Financing
-Financing a.k.a. Corporate Financing is concerned with implementing a corporate structure and Funding that structure. It is this closely related to deliverable of   Funding of Organising. It has the following key elements:
+Financing a.k.a. Corporate Financing is concerned with implementing a corporate structure and Funding that structure. It is this closely related to deliverable of Funding within Organising. It has the following key elements:
 1. Initial Funding for Assets, Staff and Suppliers
 2. Continuous funding for Operating Costs
 3. Investing in the Future of the Venture (funding Projects)
@@ -1388,7 +1429,7 @@ ________________________________________
 ## Marketing 
 Both Marketing and Communications deal with communicating to Stakeholders. They differ in the target groups. 
   
-Marketing is the Business Function concerned with intentionally stimulating demand for and purchase of goods and services for existing or future Clients. It includes defining target *Clients*, attracting them and retaining them. Defining Clients involves establishing the Services and/or Products the Clients desires/needs as well as pricing those services/products and establishing how to advertise the Venture's capabilities to deliver the Services/Products in a manner optimal for the Client. From a Management perspective the Sales activity is part of Marketing. In many cases, Sales and/or Marketing are considered Activities instead of Business Functions. 
+Marketing is the Business Function concerned with intentionally stimulating demand for and purchase of Goods and Services for existing or future Clients. It includes defining target *Clients*, attracting them and retaining them. Defining Clients involves establishing the Services and/or Products the Clients desire/need as well as pricing those Services/Products and establishing how to advertise the Venture's capabilities to deliver the Services/Products in a manner optimal for the Client. From a Management perspective the Sales activity is part of Marketing. In many cases, Sales and/or Marketing are considered Activities instead of Business Functions. 
 
 Key deliverables of Marketing are the following:
 - Product / Client
@@ -1414,8 +1455,8 @@ There are two broad types of Audit:
 - External Audit
 
 The former is often used for ongoing review within above focus points. The latter is often called in for specific topics. One recurring use of External Audit is the yearly so called Statutory Audit of the Finances of a Venture (for listed companies). 
-
-
+  
+  
 *********************************************
 # BIBLIOGRAPHY
 
@@ -1429,26 +1470,28 @@ Choudry, M. (2012). The Principles of Banking. Wiley.
    
 Edmondson, A. (2018), The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth. Wiley.
   
+Fayol, H. (1949), General and Industrial Management (translated from "Administration industrielle et générale" (1916), by Constance Storrs). Sir Isaac Pitman & Sons.
+  
 Harari Y., N. (2024) Nexus: a brief history of information networks from the Stone Age to AI, Random house.
   
 Larcker, D. (2021) Corporate Governance Matters (3rd edition). Pearson.
   
 Loyd, R., Wayne, A. (2020, accessed 18 Jan 2025), The Four Functions of Management - An Essential Guide to Management Principles, https://scholars.fhsu.edu/management_oer/1/
   
-Maxwell, J.C. (2007) , The 21 irrefutable Laws of Leadership - Follow Them and People Will Follow You. HarperCollins Leadership.
+Maxwell, J.C. (2007), The 21 irrefutable Laws of Leadership - Follow Them and People Will Follow You. HarperCollins Leadership.
   
 Monks, A. G., Minow, N. (2011) Corporate Governance (5th edition.). John Wiley & Sons, Ltd.
   
 MSCI, S&P Dow Jones (2023) The Global Industry Classification Standards (GICS ®), https://www.msci.com/our-solutions/indexes/gics
   
-Poff, R. Skripak, P. (2023) Fundamentals of Business. https://doi.org/10.21061/fundamentalsofbusiness4e. Pamplin college of business in association with Virgina Tech Publishing.
+Poff, R. Skripak, P. (2023) Fundamentals of Business. https://doi.org/10.21061/fundamentalsofbusiness4e. Pamplin college of business in association with Virginia Tech Publishing.
   
 Rutter, G. (2003, accessed 18 Jan 2025), The Basics of Management, https://yfcleadershipandpioneering.wordpress.com/wp-content/uploads/2013/08/polc.pdf
   
-Slack N., Chambers, S., Johnston, R. (2010) Operations Management (6th edition). Prentice Hall.  
-  
+Slack N., Brandon-Jones, A., Johnston, R. (2013) Operations Management (7th edition). Prentice Hall.  
+   
 University Ohio (2010, accessed Feb 2022) Principles of Management, https://people.ohio.edu/holbrook/Principles-of-Management.pdf
-
+  
 Jennings, C. A. (2022) Robert’s Rules for Dummies (4th edition). John Wiley & Sons, Inc.
   
     
@@ -1875,6 +1918,12 @@ Added the notion of Board of Directors to [### Management Level].
 - Updated all section to either update or remove remaining "@@@" entries. 
 - Corrected inconsistencies between the Profile Executive Summary and the rest of the Note
 - Update various aspects of [### Staff] and added Soft Skills vs Hard Skills as well as Personality and Performance.
+ 
+### 20251026
+- Updated [#### Personality] with more traits + moved some aspects from [#### Soft-skills] 
+- Added {### Management Principles]
+- Added more differences in [### Business Functions vs Operations]
+- Added [## Operations (revisited)
 
-### Planned
+
 

@@ -1,4 +1,4 @@
-*********************************************
+i*********************************************
 # INTRODUCTION
 This note provides details for Management Tools or Tools in short, as discussed in the note "Management Framework".  
 
@@ -237,13 +237,13 @@ $
 @ (but is used in certain websites like Github, so: avoid)  
 
 ### Word Capitalisation
-Words that start with a capital, like 'Planning' have been defined in this note or in [MGT: 80.Tools].
+Words that start with a capital, like 'Planning' have been defined in this note or in the note "Management Framework".
 
 ### Markdown in other Editors
 Some editors, like OneNote, Outlook mail, use some of Markdown features albeit it different: *italic* in Markdown will show *italic* entirely  in bold (and it will keep  the two '*' .
 
 ### Triple @
-A special convention in the MF is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text format uses a triple @.
+A special convention used in this note is triple @ or '@@@'. This notation reflects that more information is still to be written but currently not available. The combo is easy to use in searches as no text format uses a triple @.
 ________________________________________
 ## Note Reference
 Within notes a Note Reference a.k.a. Reference Indicator or [...] is used to provide more details or to refer to a source of data that holds more details. That source can be anything as long as the type and location of the data are clear. 
@@ -254,10 +254,10 @@ A Note Reference starts with a '[' and ends with a ']'. The data in between dete
 3. URL
 4. Mail
 5. Database
-6. Meeting
+6. Meeting or Calendar entry
 7. Free Text
 8. Reference to academic research
-8. Etc
+9. Etc
 
 ### Section or Note
 For a Section or Note there are several type of references:  
@@ -299,7 +299,7 @@ For Mail the Reference format is: [Mail: Subject] or [M: Subject] in which Subje
 Databases come in many forms but all do the same: store data. Databases have their own manner of connecting and retrieving/entering data. Reference to a database depends on the type of database e.g., [Oracle: scheme/table_name], [Oracle: table_name], etc.
 
 ### Meeting
-Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] in which Text is the Subject of the Meeting's invite mail.
+Sometimes it is relevant to refer to a meeting that was held in which specific information was shared. In this case the reference should show [Meet: Text] or [Cal: Text] in which Text is the Subject of the Meeting's invite mail.
   
 ### Free Text
 The Reference Indicator can also contain free which acts as a clarification, a question one should ask oneself, e.g.,  [Purely some comment without any value].
@@ -319,9 +319,9 @@ The Profile Tree as discussed in the Management Framework has three levels of in
 - Second Level: Processes, Resources, Capital, Results, Planning, Organising, Leading, Controlling, Business Functions and Tools
 - Third Level: Run, Change, Staff, Suppliers, Assets, Liabilities, Equity, Revenue, Cost and Risk. 
   
-NB: in the profile tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned to keep the Profile Tree short enough. They are nevertheless discussed in the Management Framework note. 
+NB: in the Profile Tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned to keep the Profile Tree short. They are nevertheless discussed in the Management Framework note. 
   
-From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories). The numbering conventions than follows from the levels:
+From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, then Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories). The numbering conventions than follows from the levels:
 
 First Level: 00, 10, 20, 30, 40, ...   
 Second Level: 01, 02, 03, ... 11, 12, 13, ...  
@@ -387,11 +387,24 @@ The First Level and the Second level are the main items in the Profile as descri
         - 05.04.Risk
         - 05.05.Compliance
         - 05.06.Legal
+            - Legal Opinions
+            - Litigation
+            -  Incorporation
+            - Entity Structure Management 
         - 05.07.Tax
         - 05.08.Procurement
+            - Supplier on/offboarding
+            - Purchase Management
         - 05.09.Marketing 
+            - Product 
+            - Price 
+            - Place 
+            - Promotion
         - 05.10.Communications
         - 05.11.Audit
+            - Internal Audit
+            - External Audit
+        - 05.99.Other
     - 06.Tools 
 - 10.Operations  
     - 11.Processes  
@@ -437,7 +450,6 @@ This overview shows on the first level the key deliverables as per [Management F
 ________________________________________
 ## PDA (Software)
 Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
-
 - Mail 
 - Calendar
 - Tasks
@@ -449,13 +461,13 @@ Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This s
   
 Depending on apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
 
-- Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail...)
+- Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail, ...)
 - Calendar (MS Calendar, Google Calendar, ...)
 - Tasks (MS Tasks, Google Tasks, ...)
 - Notes (MS OneNote, Google Notes, Standard Notes, ...) 
 - Contacts (MS Contacts, Google Contacts, ...)
 - Chat (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
-- Phone incl Video (MS Teams Phone, ...)
+- Phone incl. Video (MS Teams Phone, landline ...)
 - Browser (MS Edge, Google Chrome, Firefox, ...)
 
 Because they can be used in many different manners by different people, this note will not prescribe particular uses.   
@@ -512,10 +524,7 @@ It is possible to add functionality to any instance of MSS Master and which is n
 To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
   
 ### MSS Note Management
-A key feature is the ability to write *Notes* in Col = Notes, This column drives the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*. 
-  
-MSS Note Notation  
-MSS Note Management follows a specific form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
+A key feature is the ability to write *Notes* in any Col = Notes. Depending on the sheet in MSS this column may then further drive the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*.  Nots follow the expanded form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
   
 ### MSS Task Management
 Another feature of MSS is the integration of Tasks using [## Task Notation] in Column = Tasks.  
@@ -546,98 +555,71 @@ The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Int
 - Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
 
 #### MMS Tracker
-The Sheet *Tracker* is like a dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, Projects using expanded elements from Objective Notation, see [## Objective Notation] below. 
-  
-The Tracker is for Managers and serves several purposes:
+The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
 - Capture all Routines for the Manager: this helps keeping track of recurring items a Manager does himself
 - Capture all ongoing Projects relevant to the Venture
 - Capture all potential Projects 
-- Ability to filter, sort such that relevant Data for specific occasions is available 
-- Use the data for Reporting 
+- Ability to filter, sort such that relevant Data for specific occasions is available e.g. meetings with Reports, Managers, Peers. 
+- Ability to use the data for Reporting 
   
 Key functionalities are as follows:  
-  
-Calculated Columns 
-A series of calculated columns
-
-Reporting Columns
-- Reporting Y/N: calculated based on Calculated Columns 
-- Force Reporting: to override calculated Reporting 
-- Tag: a free field to use in Reporting or Filtering or Sorting
+- Calculated Columns: a series of calculated columns help with stats and reporting.
+- Reporting Columns: a combination of a calculated Column + an override to force reporting on/off for a given item. 
+- Tag: a free field to use in Reporting or Filtering or Sorting. The content is a comma separated list of 'Tags'.
+ - Who Columns : 
+     - Whom For Lvl 1 and Lvl 2: allowing for Activities and Sub-Activities (with "_all" if a non-specific Sub-Activity
+    - Whom By Lvl 1 and Lvl 2: allowing for Groups and Staff (with "_all" if no specific Staff)
+- Goals Columns: 
+    - Standard Goals as per the Management Framework and also in = Static
+    - Sub- Goals also linked to standard Sub-Goals in Sheet = Static
+    - Initiative: allowing to create cross sectional Initiatives 
+- Status Columns  
+    - Planning Type: Project or Routine 
+    - Status: Open, Started, Pending, Completed, Urgent
+- Name Column: as per the Objective Notation
+- Reference Columns:
+    - Details: anything that cannot be kept in the Name
+    - Notes: Task Notation Comments of the form "dd-mm-yy: xxx"
+    - Tasks: Task Notation Tasks, can include comments too
+    - Remaining Task: count of non-completed Tasks
+    - Task Progress: Remaining Tasks / Total Tasks as a %
+- Date Columns (all hidden)
+    - Period indicator: for Routines
+    - Nr Occurrences / year: for Routines 
+    - Time in hours/ occurrence: for Routines
+    - Total time /year (days): calculated: for Routines
+    - Start: for Projects, start date
+    - End: for Projects, end date
+    - Hold: for Projects, hold or pending date
+    - Complete: for Projects, completion date 
+    - Effort: total effort in days per year for Projects  
+- Gantt Chart Columns: 12 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
+- Many Custom Fields (20 in total) for Venture specific needs
    
-Who Colums  
-There are several columns to indicate Who.
-- Whom For Lvl 1 and 2 allowing for Activities and Sub-Activities (use "_all" if nonspecific Sub-Activity)
-- Whom By lvl 1 and 2: allowing for Groups and Staff (use "_all" if no specific Staff)
-    
-Goals Columns  
-- Goals: linked to standard Goals in Sheet = Static
-- Sub- Goals: linked to standard Sub-Goals in Sheet = Static
-- Initiative: allowing to create cross sectional Initiatives
-  
-Status Columns  
-- Planning Type: Project or Routine 
-- Status: Open, Started, Pending, Completed, Urgent
-  
-Name Columns
-- Name: as per the Objective Notation
-  
-Reference Columns
-- Details: anything that cannot be kept in the Name
-- Notes: Task Notation dd-mm-yy: Notes
-- Tasks: Task Notation Tasks, can include comments too
-NB: Task Notation and Objective Notation are the same, see [## Task Notation]
-- Remaining Task: count of non-conpleted Tasks
-- Task Progress: Remaining Tasks / Total Tasks as a %
-   
-Date Columns (al hidden)
-- Period indicator: for Routines
-- Nr Occurences / year: for Routines 
-- Time in hours/ occurrence: for Routines
-- Total time /year (days): calculated: for Routines
-- Start: for Projects, start date
-- End: for Projects, end date
-- Hold: for Projects, hold or pending date
-- Conplete: for Projects, completion date 
-- Effort: total effort in days per year for Projects  
-  
-Gantt Chart Columns  
-- 24 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
-
-Calculated Columns
-More Calculated Columns 
-   
-Recommended Usage  
-- Projects: 
-    - Create high-level entries only
-    - For each Project deliverable create a Task (helps tracking)
+MMS Tracker Recommended Usage  
+- Projects (planned): 
+    - Create high-level entries & provide relevant details including default Change Goals.
+    - For each Project Deliverable create a Task (helps tracking)
     - Tag planned Months during which it is active with 'x'
-    - Tag last Month the Project is active with 'X'
+    - Update the Gantt Chart to reflect the lifetime of the Project
     - For hard deadlines add them in Details or in End
-    - NB: x and X can be any small and Capital letter
-- Routines
-    - Create only generic Routines for Staff 
+- Projects (potential):
+    - As above but use Change Goal = prj & Sub-Goal one that reflects it is a potential Goal for next period  
+- Routines:
     - Create as many Routines as the Manager performs
+    - Create  generic Routines for other Staff 
     - Provide as much information in Details as possible
     - Create Tasks if a Routine spawns of sub-Routines
-
-How To Initiate  
-- Create as many Routines for the Manager as known i.e., Detail is relevant 
-- Create as many ongoing Projects as known
-    
+      
 Meetings with direct reports  
 A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
-- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name. 
+- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name or if set up, use Tag = "contains name of Staff" 
 - Run through all Routines and Projects applicable to the Staff 
 - Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
 - Add new Routines and Projects if relevant 
-
-
-
-
-
+  
 ### MSS Reporting
-MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. The logic used in [MSS Note Management] is a key feature on MSS Reporting. 
+MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. 
   
   
 *********************************************
@@ -840,17 +822,17 @@ Measurable relates to the *expected Result*. It can be broken down into the foll
 - Binary: Result is either done or not, indicated by verbs like 'Do ...', ' Study ...', 'Get ...', 'Produce ...', 'Create ...', 'Build ...'
 - Qualitative: Result is open to interpretation: to be avoided!
   
-The notion of an expected Result is important when considering performance management frameworks in the Management Function Controlling. Examples of such frameworks are Management By Objectives (MBO), Balance Score Card (BSC) and Objective & Key Result (OKR). The choice of model depends on corporate push, manager preference etc. Details in [MGT: 80.Tools ## Performance Management].
-
+The notion of an expected Result is important when considering performance management frameworks in the Management Function Controlling. Examples of such frameworks are Management By Objectives (MBO), Balance Score Card (BSC) and Objective & Key Result (OKR). The choice of model depends on corporate push, manager preference etc. Details in [## Performance Management].
+  
 ### Aggressive
 Objectives need to push the Venture further and should thus be aggressive or ambitious. 
-
+  
 ### Realistic
 Despite the above ambition Objectives should be attainable else there is little incentive to work on them. 
 NB: for OKR, see [## OKR], actually completing an Objective is *not* a requirement.
-
+  
 ### Time-bound
-Objectives need to be Time-bound. Time constraints dictate urgency and dependencies. it also adds a dimension to Measurable i.e., *complete before some deadline*.
+Objectives need to be Time-bound. Time constraints dictate urgency and dependencies. it also adds a dimension to Measurable i.e., *complete before some deadline*.  
 ________________________________________
 ## Goal Definition (Procedure)
 Goals are established based on the Mission as well as medium term view of where the Venture should go. Structurally, Goals follow a very similar pattern regardless of the Venture. Below two sections detail the Standard Run Goals and Change Goals using Objective Notation, see [## Objective Notation]. CEO represents the owner of the owner of the Goals, it is to be replaced with the name or initials of the Managers. 
@@ -914,15 +896,10 @@ Change Goals are composed of Projects, see below. Projects change the Run by imp
 - Compare Effort reduction for existing Processes
 - Compare change of Result (new, improved Results) 
 - Combination of above all Projects affecting a  single Routine or many Routines and that within a Run Goal or across all Run Goals.
-
-
-
-
-@@@
-@@@
+  
 ##### Run Sub-Goals
 The following represent default Run Sub-Goals for each of the 4 Run Goals. 
-  
+   
 Run Goal = mgt
 The Sub-Goals for Goal mgt are the deliverables of Management:
 - Planning
@@ -982,12 +959,8 @@ The following are Sub-Goals for Change Goal prj:
 - prj - pro: projects related to Revenue protection
 - prj - sec: projects related to securing Operations
 - prj - opt: projects related to Revenue growth, Cost Reduction
- 
-@@@
-@@@
 
-
-
+These generic projects can be used during Project Planning exercises or Budget Planning exercises. They can be considered as not officially approved projects. 
 ________________________________________
 ## Objective Definition (Framework)
 Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [Management Framework ## Objectives] and is elaborated on here.
@@ -1006,22 +979,15 @@ ________________________________________
 Objectives have various properties that were explained in the Management Framework Profile. Here a deep dive is done on properties of an Objective.
 
 ### Objective Components
-As mentioned in the Profile, an Objective is defined by the 6W:
-- What
-- When
-- Who
-- Why
-- How
-- Where (often embedded in How)
+As mentioned in the Profile, an Objective is defined by the 6W: What, When, Who, Why, How, Where (often embedded in How).
   
 However, for each of these 6W many different properties can exist. These Properties can be used to refine the many aspects of an Objective. 
-
+  
 ### What
 The What of an Objective can include the following aspects:
 - Type of Objective (Routine, Project)
-- Status if it is a Project (Not Started or Open, Started, Pending, ...)
+- Status if it is a Project (Not Started, Open, Started, Pending, ...)
 - Name of the Objective
-- Description of the Objective
 - ...
   
 ### When
@@ -1052,6 +1018,7 @@ The Why of an Objective can include the following aspects:
 
 ### How 
 The How of an Objective can include the following aspects:
+- Details of the entire Objective explaining context, related Cost/Revenue/Risk
 - Description of what to do e.g., Procedures
 - Resources (Staff, Assets, Suppliers) involved in the completion of the Objective 
 - Dependencies on other Objectives
@@ -1062,17 +1029,16 @@ The How of an Objective can include the following aspects:
 From the above it is clear that an Objective, although conceptually simple, can have many properties. In above explanation each list ends with "..." to indicate that other properties are possible. Depending on the Management Level, the number of Properties required would decrease with increasing Management Level. 
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
-
+Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks and Comments as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
+  
 ### Objective Notation Purpose
-The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives, without going it to too much detail.  
-Although the Objective Notation is well structured and formalised, this does not mean  formalism is required. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties]. 
+The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives, without going it to too much detail.  Although the Objective Notation is well structured and formalised, this does not mean  formalism is *required*. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties]. 
   
 ### Objective Notation Format
-The Objective Notation Format uses 6 so called *Objective Components* or *Objective Indicators* as follows:
-  
+The Objective Notation Format uses 6 so-called *Objective Components* or *Objective Indicators* as follows:
+   
 status name (date) {owner} |link| [reference]
-  
+    
 This notation links to the 6W as follows:
 - status: part of *What*
 - name: describes *What*
@@ -1089,29 +1055,30 @@ c. An Objective is often agnostic to the location and if it is really not it can
 The order of components is critical:  
 1. Certain combinations have special meaning in Markdown: [...](...) w/o space between ']' and '(' is a URL.
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
-
+  
 The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierarchy]. Only Status and Name are mandatory. 
 
 ###  Objective Notation Status Indicator
 Status is mandatory and uses symbols:  
-- "%" : Run Goal, Run Sub-Goal (percentage)  
-- "$"  : Change Goal, Change Sub-Goal (dollar) 
-- "&" : Routine (ampersand) 
-- "." : Project, Not Started (dot) 
-- "/"  : Project, Started (forward slash) v
-- "~" : Project, Pending or Delegated (tilde)   
-- "x" : Project, Closed (lower case letter x)v 
-- "!" : Project, Urgent (exclamation mark)v 
-- "-" : Comment (dash or hyphen)  
-- "+" : Comment (plus)  
-- "_" : Comment (underscore)   
+- "% " : Run Goal, Run Sub-Goal (percentage)  
+- "$ "  : Change Goal, Change Sub-Goal (dollar) 
+- "& " : Routine (ampersand) 
+- ". " : Project, Not Started (dot) 
+- "/ "  : Project, Started (forward slash) 
+- "~ " : Project, Pending or Delegated (tilde)   
+- "x " : Project, Closed (lower case letter x) 
+- "! " : Project, Urgent (exclamation mark)
+- "= ": Project, Cancelled but keep for visibility (equal sign) 
+- "- " : Comment (dash or hyphen)  
+- "+ " : Comment (plus)  
+- "_ " : Comment (underscore)   
 - "dd-mm-yy: " : Comment (date format comment)  
   
 NB: dash and plus become a bullet point list in MarkDown, so if a note is being used in MarkDown it is better to use an underscore for a comment.
   
-As can be seen, the Status Indicator symbol is a single character, except for the last form, the *date format comment*. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Project, Routine or Comment, and in case of a Project, it also shows the status of the Project.
+As can be seen, the Status Indicator symbol is a single character followed by a space, except for the last form, the *date format comment*. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Project, Routine or Comment, and in case of a Project, it also shows the status of the Project.
 NB: '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
-The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
+The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc.. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
 
 ### Objective Notation Name 
 The Name is mandatory. For Goals the Name is a short three character code. For Sub-Goals a one or two word label is used. For Objectives (and levels below) Name should adhere to the following:  
@@ -1157,18 +1124,20 @@ Verbs are an indication of *targeted Result*, see also [## SMART]:
 Short versions of Verbs are possible e.g.:  
 - "D: " refers to "Discuss"
 - "P: " refers to "Plan" 
-
+- "C: " refers to "Check"
+- "A: " refers to "Ask"
+  
 The short versions serve visually as a reminder to do something.
-
-Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Indicators for periodicity are also reflected in the Date Indicator (see below), it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
+  
+Names of Routines can be appended with " - D", " - W", " - BW",, " - M", " - Q", " - H", " - Y"  , " - AH" for daily, weekly, bi-weekly, monthly, quarterly, half-yearly or semi-annually, yearly or ad hoc. Indicators for periodicity are also reflected in the Date Indicator (see below), it is sometimes useful to see it in the Name because the Name often appears in Reports. Depending on the context other post-fixes can be added such that they add additional information to the name e.g., " - Prio", " - Budgeted", ...
   
 ### Objective Notation Date Indicator
 The Date Indicator reflects *start*, *end* and *complete* dates for Projects and *frequency* for Routines:  
 - Projects:  (start:end:complete:effort)
 - Routines: (period:start:end:effort)  
-  
-The start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits with hhmmss being optional.   
-The *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021. The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is assumed to be a start date.   
+   
+For Projects, the start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits with hhmmss being optional.   
+For Routines the *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021 or more detailed: like "every Mon and Tue". The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is assumed to be a start date.   
 The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used. As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
   
 ### Objective Notation Owner Indicator
@@ -1180,7 +1149,7 @@ In which:
 - performer is a Staff or a Group  
 - beneficiary is an Activity or the entire Venture  
    
-If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Activity benefiting from the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is ~ (delegated Project) and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator. Owner Indicator is optional in which case it can be written as {} or omitted altogether.
+If no performer is mentioned i.e., {:beneficiary} then the Group associated to the Activity benefiting from the Objective should be interpreted. Similarly, if there is no Beneficiary i.e., {performer:} then the beneficiary should be read as the Activity linked to the Staff or Group performing the Objective. If neither is explicitly provided i.e., {entry} then both Performer and Beneficiary are the same i.e., {entry} = {entry:entry}. Note that if Status indicator is "~" which is a delegated Project, and Owner Indicator is provided, it effectively means that the Objective has been delegated to the Staff or Group indicated by the Owner indicator. Owner Indicator is optional in which case it can be written as {} or omitted altogether.
    
 ### Link Indicator
 A Link Indicator is used to link:  
@@ -1207,8 +1176,8 @@ etc.
 Free text can be used to provide comments, but can also be used to show the next Task, using Task Notation *within* the Reference Indicator i.e., [. Do nnn], [/ Do nnn],  [! Do nnn], [~ Do nnn] and [x Do nnn] in which nnn is the Task to be done using Task Notation. With Task Notation being the same as Objective Notation it is thus effectively possible to nest Tasks within Tasks and Objectives within Objectives. Alternatively, one can see this as Streams within Objectives. Don't get confused by the terminology! Concatenation of Tasks is possible as well using a double '&' symbol (ampersand) e.g., [/ Do something && . Do something else afterwards]. See examples below. Reference Indicator is optional in which case it can be written as [] or omitted altogether.  
   
 ### Objective Notation Hierarchy 
-As mentioned in the Management Framework note there exist two hierarchies that drive work throughout a Venture: the Project Hierarchy and Routine Hierarchy, depicted visually below. 
- 
+As mentioned in the Management Framework note there exist two hierarchies that drive work throughout a Venture: the Rub Hierarchy and the Change Hierarchy, depicted visually as follows: 
+  
 Venture  
   Run Goal  
     Run Sub-Goal      
@@ -1223,16 +1192,16 @@ Venture
    
 Instead of using the Link Indicator to Link Sub-Goals to Goals, Objectives to Sub-Goals, Streams to Projects, etc. it is possible to omit the Link Indicator and instead apply an Objective Notation Hierarchy using indentation as follows:
   
-status name (date) {owner} [reference]
-  status name (date) {owner} [reference]
-    status name (date) {owner} [reference]
-      status name (date) {owner} [reference]
-        status name (date) {owner} [reference]
-  
-This format is useful to visually show the relation between Goals, Sub-Goals, Projects/Streams/Subs and Routines/Actions/Drills. The above is a *possible* display, it may not be *desirable* to use this too often: it can become difficult to read.
+status name (date) {owner} [reference]  
+  status name (date) {owner} [reference]  
+    status name (date) {owner} [reference]  
+      status name (date) {owner} [reference]  
+        status name (date) {owner} [reference]  
+    
+This format is useful to visually show the relation between Goals, Sub-Goals, Projects/Streams/Subs and Routines/Actions/Drills. The above is a *possible* display, it may not be *desirable* to use this too often as it can become difficult to read.
   
 ### Objective Notation Expanded Format
-With above details of the various Indicators, the expanded format for Objective Notation can be written as:
+With above details of the various Indicators, the expanded format for Objective Notation can now be written as:
   
 Run Goals and  Sub-Goals:  
 % name (period:start:end:eff) {perf:benef} |link| [ref]  
@@ -1269,22 +1238,21 @@ x Build software to automate mail sending (20190101:20190228:20) {SE} |opt|
     
 ### Objective Notation Weaknesses 
 There are some weaknesses in Objective Notation:
-- Objectives consume Assets and/or Suppliers which are not reflected in the Objective Notation Format, although they can be detailed through the Reference Indicator. 
+- Objectives consume Assets which are not reflected in the Objective Notation Format, although they can be detailed through the Reference Indicator.
+- Objectives can be performed by Suppliers which can be captured in the Owner Indicator, but if the Owner as in accountable person is a Staff then there is no Space for a Supplier name. In that case they need to be added in the Reference Indicator. 
 - Objective Notation is very versatile and allows for intricate details (see last example above). There is a risk that entries become too long to be practical.
    
 ### Objective Notation and Eisenhower Matrix
-Tying the five status indicators of Projects to the Eisenhower Matrix principles (see [## Eisenhower Matrix]), yields:
+Tying the status indicators of Projects to the Eisenhower Matrix principles (see [## Eisenhower Matrix]), yields:
   
-urgent + important                -> do now    ->  !  
-not urgent + important         -> do later   ->  / and .  
-urgent + not important         -> delegate ->  ~  
-not urgent + not important  -> delete      ->  x   
+urgent + important                -> do now    ->  "! "  
+not urgent + important         -> do later   ->  "/ " and ". "  
+urgent + not important         -> delegate ->  "~ "  
+not urgent + not important  -> delete      ->  "= " and "x "
   
 The latter one reflects an Objective that would be created *and* completed, or, because a Project has finished, it is neither urgent nor important anymore. 
   
-From a managerial perspective this means only Projects of the following type are performed by the Manager himself: "!", "/" and "." Other projects are delegated "~" or deleted "x".
-  
-So what if a Manager would need to do something himself, but them requires some input from someone else. One way to achieve that is as follows:
+From a managerial perspective this means only Projects of the following type are performed by the Manager himself: "!", "/" and "." Other projects are delegated "~" or deleted "=" or completed the moment they are created. So what if a Manager would need to do something himself, but them requires some input from someone else. One way to achieve that is as follows:
 / Do some task [~ Get input {someone}]  
 ________________________________________
 ## Tasks Definition (Procedure)
@@ -1343,8 +1311,7 @@ Broad definition of the Project, often driven by a Business Case, in turn driven
 2. Definition & Planning 
 Establish specific Project Objectives according to SMART principles, see [## SMART]. Deliverables:
 - Scope Statement
-- Gantt Chart with Project, underlying *Streams* (the completion of which being called a *Milestone*) and *Actions* with Start/End/Complete, Owner, and Status. See also [MGT: 99.Legend ### Projects] for breakdown of Projects. 
-- Risk Management: details of Risks that could materialise and how to mitigate these
+- Gantt Chart with Project, underlying *Streams* (the completion of which being called a *Milestone*) and *Actions* with Start/End/Complete, Owner, and Status. - Risk Management: details of Risks that could materialise and how to mitigate these
 - Communication Plan: manner in which above two items will be reported on over the timeline of the Project including whether Risks have materialised.
 - Definition of KPI, see [##KPI] to be able to perform step 4. 
    
@@ -1766,7 +1733,7 @@ ________________________________________
 Although the Group Definition is defined by the Activity Definition, the relation between Activities, is often capture in an Organisation Chart, and not an Activity Chart! In other words, the manner in which Activities relate to each other is reflected in how Groups related to each other. 
 ________________________________________
 ## Delegating Definition (Framework)
-The definition of Delegating is as per [MGT: 99.Legend ### Roles & Responsibilities]. This section sets out further details of Delegating.
+The definition of Delegating is as per [Management Framework ### Roles & Responsibilities]. This section sets out further details of Delegating.
 
 ### Delegating Conditions
 Legally speaking delegation is possible only if:
@@ -1790,7 +1757,7 @@ The key difference between Accountability and Responsibility is that the Respons
 It is possible, although not at all desirable, that one is made responsible, and thus accountable, without the appropriate authority, which is referred to as *Accountability without Authority*. This happens, for example in matrix organisations where there are two or more reporting lines across functional and entity level reporting lines. It can also occur in Projects, where the Project Manager may not have authority over resources, but the Sponsor has, see below. 
 
 ### Oversight
-The delegator needs to assure the delegatee completes the delegated Process, because of said accountability of the delegator. This is called *oversight*. Oversight is an integral part of Delegation. Oversight is also the Goal focusing on assuring the Production operates as expected, see [MGT: 99.Legend ## Goals].
+The delegator needs to assure the delegatee completes the delegated Process, because of said accountability of the delegator. This is called *oversight*. Oversight is an integral part of Delegation. Oversight is also the Goal focusing on assuring the Production operates as expected, see [Management Framework ## Goals].
 
 ### Sponsorship
 A Sponsor is sometimes used in Project Management. It is a person who is not directly involved in the Project, but who has the right level of Authority w/r to one or more of the three items of the Project Management Triangle i.e. Scope, Cost and/or Time, which often simply means he has authority over part or whole of the resources. This in turn allows the Sponsor to redirect resources to a Project, whereas the Sponsor is him/herself not responsible for the successful delivery of the Project.
@@ -1854,8 +1821,8 @@ It is true that the effort to Delegate + performing Oversight should be less tha
 Within the Venture there are most often many Activities. A Manager  of a Venture does not manage the day to day of each Activity within the Venture and for all intents and purposes delegates day to day Management i..e., the Objectives to the Manager of the Activity. See also [## Activities Definition] and [## Objective Definition].
 ________________________________________
 ## Delegating Checklist (Framework)
-Once the decision to delegate has been taken, the Process of Delegation kicks in. The following are guidelines, see: [data_public_study_HBR_Delegation_Checklist_2019.pdf]
-
+Once the decision to delegate has been taken, the Process of Delegation kicks in. The following are guidelines, see: also Harvard Business Review "Delegation Checklist", 2019.
+  
 1. Process: clarify which Process can be delegated, for how long and the level of required authority.
 2. Delegatee: choose the delegatee. This should *not* only be based on who *can* perform the Process, but also who *needs* the experience, who has shown *interest*, who would see it as a *reward*, ...
 3. Result: what Result is expected, which includes *why* we do it, and how to *measure* a successful Result. Make sure the delegatee knows the expected Result and how it will be measured.
@@ -1987,9 +1954,7 @@ The role of a COO is demanding in that the scope it covers is broad  and require
 - Strategical: ability to identify potential and actual Opportunities that grow Revenue and/or reduce Cost and/or reduce Risk under the constraints of potential and actual Threats given the actual Strengths and Weaknesses of the Venture.
 ________________________________________
 ## RACI (framework)
-Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management].   
-    
-The definition of RACI often implies an oversight committee that oversees progress of whatever the RACI have been defined for.
+Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management]. The definition of RACI often implies oversight,mostly through a  committee, that oversees progress of whatever the RACI have been defined for.
   
 ### RACI Overview
 The underlying of RACI is one or more Tasks, or Objectives. The principles associated to RACI are Delegating, see [## Delegating]. 
@@ -2195,8 +2160,6 @@ Four steps to provide feedback:
 Regardless of the type of feedback (positive or negative) the *intonation* of above steps is the same. Not negative, not positive but with a positive afterthought i.e. it will be better in the future. 
 
 The reason to *ask* nr 1. is to make sure they are ready to listen! This is important because the purpose of feedback is to reinforce future behaviour. What if they say 'no'? Then move it to later.
-
-@@@
 ________________________________________
 ## Meeting (Framework)
 One of the most suitable forms of Communication is through a Meeting.
@@ -2272,7 +2235,6 @@ If done well, Staff within a Group will look forward to the WBS, and as such the
 ________________________________________
 ## Braintrust
 Braintrusts are groups of people with a shared agenda who offer candid feedback to their peers. See also the Fearless Organisation.
-@@@
 ________________________________________
 ## Hidden Relationships (Framework)
 This concept explains relations between Staff within a Group, across Groups and between Groups, and which are not part of the official Relationships, see above. Identifying and understanding Hidden Relationships is important in understanding how the Venture operates outside the official Organisation and is a key ingredient in the manner in which best to lead Staff. More importantly, hidden relationships can impede on, or facilitate, the creation of a Safe Space.
@@ -2389,19 +2351,17 @@ This overview shows on L1 key deliverables as per [Management Framework ## Contr
     - BuJo
     - BuJo MSS
 - Supervision  
-    - MTrack
-    - Sup7 Tables
-    - Holistic Data Approach
     - Progress Tracking
+    - Holistic Data Approach
     - Committee
     - BOD
     - MBO 
     - BSC
     - OKR
     - Process Review
+    - Root Cause Analysis 
     - Staff Reports
     - Staff Meeting
-    - Management Meeting
     - Check Standards
     - Control Conundrum
     - Self-Contained Mail
@@ -2485,8 +2445,7 @@ MGT: 51. Finance
 MGT: 51.HR
 ...
 ...
-MGT:80.Tools
-MGT:99.Legend
+MGT:60.Tools
 
 Collections
 There are many collections by design of the notes framework:
@@ -2585,17 +2544,11 @@ From this point onward, maintain the Projects that are part of the Roadmap throu
 BuJo MSS is setup in line with MSS principles in that reporting from it is achieved using pivot tables. The use of Tag helps defining content for different Stakeholders.
 ________________________________________
 ## Holistic Data Approach
-See [STD: Data Science # DATA & INFO].
-________________________________________
-## Manager Meeting (Framework)
-See [## Reporting via MSS].
+See [## Data & Info] further below under [# ASSETS].
 ________________________________________
 ## Progress Tracking (Framework)
 A key component of Measurement is Progress Tracking. This consists of tracking status of all Routines and Projects against expected target. 
-
-There are various ways to track progress. For Projects it is mostly done through the Project plan, see [## Project Management].
-
-For a more continuous Progress Tracking, use the Management Tracker, see above.
+There are various ways to track progress. For Projects it is mostly done through the Project plan, see [## Project Management]. For a more continuous Progress Tracking, use the Management Tracker, see above.
 ________________________________________
 ## Committee (Framework)
 This framework uses the following definition of a Committee:
@@ -2690,6 +2643,34 @@ ________________________________________
 ## Process Review (Framework)
 See [STD: Management # PROCESS REVIEW]
 ________________________________________
+## Root Cause Analysis 
+Despite the existence of Controlling, incidents or failures in one or more processes (embedded in systems or not) can happen. In order to establish what caused an incident a so called Root Cause Analysis (RCA) can be performed. A RCA is a structured investigation aiming at finding the true cause a.k.a. Root Cause of a problem, after it has already occurred. The aim of finding that true cause is to fix it.
+  
+### RCA Concepts
+The process to find a Root Cause is conceptually very simple: keep asking"why" from the point of the incident. An old anecdotal story "for want of a nail" by Benjamin Franklin states: for want of a nail the shoe was lost, for want of a shoe the horse was lost, for want of a horse the rider was lost being overtaken by the enemy's army. Other version then go on to say "... for want of a rider, the message never made it to the general and the battle was lost". 
+
+A more practical example is the following, starting by the incident outcome: 
+1. Production had to be stopped because of water on the production floor." 
+    Why was there water on the floor?
+2. Because one of the cooling pipes broke.
+    Why did the cooling pipe break?
+3. Because the pressure in the pipe was too high.
+    Why was the pressure in the pipe too high?
+4. Because the pressure controlling unit failed to detect the high pressure.
+    Why did the pressure controlling unit fail to detect the high pressure?
+5. Because the pressure controlling was not switched on.
+    Why was the pressure controlling unit not switched on?
+6. Because the Staff responsible for switching on the unit every morning forgot to switch it on.
+
+As said, the RCA is conceptually simple: keep asking why until there is no further answer: the root cause has been found. In above example, the root cause is someone forgetting to do something. 
+
+### RCA Aggravating Factors
+What sometimes makes it complex is the notion of "aggravating factors" or "enabling factors" or "RCA Enablers" or short "Enablers".  An aggravating factor is a Process or lack thereof that makes the occurrence of the final incident outcome more likely, but on its own would not have cause the incident.  
+For example, in the above 6 steps, there could be an Aggravating Factor as follows: if the pressure controlling is not switched on, sound an alarm on the Staff's computer to remind him. In this case, one could argue that the fact that the alarm did not sound is the true root cause. But the alarm is a reminder of something that has to be done regardless. The alarm helps the Staff to be reminded of what needs to be done, but the Staff also knows it needs to be done. If the alarm would not have sounded, the Staff could still have switched on the pressure control unit. As can be seen, the differentiation between Root Cause and Enablers can become blurry. 
+  
+### RCA Inhibitors
+RCA is a process of finding "how something went wrong". Structurally the result may involve some Group not having done what was supposed to be done. In other words, RCA is often construed as a "finger pointing exercise". Consequently, the process may be stunned by Staff who fear -rightly or wrongly- that they are the root cause. The best way to avoid this interpretation is to not use terms like "responsible" Staff or Groups and focus purely on the Root Cause and Aggravating Factors and then address those. 
+________________________________________
 ## Staff Reports (Framework)
 @@@ weekly reports to be sent by Staff@@@
 ________________________________________
@@ -2777,17 +2758,17 @@ ________________________________________
 ## Control Conundrum (Definition)
 The Control Conundrum reflects the following counter-intuitive proposition:
 
-"Too Many Controls Kills the Control."
+"Too Many Controls Kill the Controls."
 
 This stems from the fact that the Check Standards can be heavy to implement. If it is done for many different checks and Reviews, then the time spend on Controlling might be disproportionate to the time spent on the Run that those Controls are supposed to supervise. 
-In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a resulf of Benchmarks that are not calibrated correctly i.e. too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
+In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a result of Benchmarks that are not calibrated correctly i.e. too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
 ________________________________________
 ## Self-Contained Mail (Framework)
-Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what is expected. 
+Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what was checked and what action is expected, if any. 
 
 When setting up a Self-Contained Mail system, assume that the Receiver of the mail: 
-- is completely unaware of why he/she receives such Mail;
-- has little knowledge of the Activity(ies) the Check is relevant to.  
+- Is completely unaware of why he/she receives such Mail;
+- Has little knowledge of the Activity(ies) the Check is relevant to.  
 
 The following are guidelines on how to set this up:
 - Design the Check according to the Check Standards, see [## Check Standards], in which the step 7, Report, is effectively the mail. 
@@ -2817,8 +2798,7 @@ In which:
 - WARNING = breaches were found
 - CRITICAL = check could not run at all
   
-There are other Subjects possible. For example, "Breach: Breach type yyy for xxx", etc.  
-As can be seen, applying the Check Standards drive most of a well conceived Self-Contained Mail framework!
+There are other Subjects possible. For example, "Breach: Breach type yyy for xxx", etc.  As can be seen, applying the Check Standards drive most of a well conceived Self-Contained Mail framework!
 ________________________________________
 ## Reporting Definition (Framework)
 Reporting is conceptually simple, but not always easy to implement because:
@@ -3203,7 +3183,7 @@ ________________________________________
 ## Revenue Measurement (Framework)
 @@@
 
-### Revenue Clasification
+### Revenue Classification
 There are various sources of Revenue.
 
 #### Sales Revenue vs Service Revenue
@@ -3226,7 +3206,7 @@ Costs can be divided into several types of buckets:
 #### Fixed vs Variable Costs vs Mixed Costs
 Fixed Costs remain *same in total* but *changes per unit* e.g. monthly rent , monthly salary, .... Note this is true on short term, but for longer time periods fixed costs also change.
 Variable Costs remain *same per unit*, but *changes per total* e.g. hourly workers, sales commission. In other words, Variable Costs scale to the Output of the Activity.
-Mixed costs are a mix between the above two: it has a fixed costs upto a certain level of output of the Activity and then increases as output increases. 
+Mixed costs are a mix between the above two: it has a fixed costs up to a certain level of output of the Activity and then increases as output increases. 
 
 #### Direct vs Indirect Costs
 Direct Costs can be traced directly to an Objective, or even Process. In financial statements they appear as Cost of Goods Sold (COGS) or Cost of Sales (COS) if it concerns a Service company. They include:
@@ -3315,7 +3295,7 @@ In established businesses where there is little change (be that growth or declin
 - Assume the Run remains unchanged
 - Assume the only difference comes from Change
 
-In this simplified approach the budget is composed of two seperate elements:
+In this simplified approach the budget is composed of two separate elements:
 - Run Budget: deemed the same as previous period
 - Change Budget: determined based on initiatives for the next period.
 
@@ -3360,6 +3340,8 @@ A Skill Review does not follow a rigid Process. However, there is a framework fa
 - Skill Template
 
 ### Skill Categories
+Skills were defined in the"Management Framework" document. They are repeated here and then expanded upon.
+
 Skills can be grouped in various categories. There is no accepted consensus for the best type of grouping. This framework uses a binary grouping.
 
 #### Soft Skills
@@ -3520,7 +3502,7 @@ Performance Categories refer to the various aspects of behaviour involved in ach
 Other categories are possible but the above three cover the broadest range of behaviours . They are reperated here:
 
 #### Dependability
-Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known Objectives and their underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's *competency* which is the ability to carry out Processes effectively, autonomously and timely to yield the expected Result and includes the capacity to: 
+Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known Objectives and their underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's *competency* which is the ability to carry out Processes *effectively*, *autonomously* and *timely* to yield an *expected Result* and includes the capacity to: 
 - Adhere to the notion of "See the work", defined as "Identifying and following up on a need for effort to help others or oneself to complete a task without having to be told". It is a catchall and may not even be related to Objectives e.g. lifting a glass from a table when someone else cleans the table. It is a mindset thing!
 - Act autonomously, which includes knowing which Objectives to own based on Job Description as well as which Processes are involved and need to be executed how and when.
 - Take decisions in line with the authority granted with the Staff's role, as formalised in the Job Description.
@@ -3534,7 +3516,7 @@ Deliver Objectives (Routines and Projects) on time. Dependability focuses on *Wh
 - Escalate problems arising in completing an Objective.
 
 #### Pro-activity
-Act entrepreneurial i.e., self-initiate Objectives and (Sub-)Goals. Pro-activity focuses on *missing*, *ineffective* or *inefficient* Objectives i.e., parts of the Venture's Goals that are not met with existing Objectives and includes the capacity to:
+Act entrepreneurial i.e., self-initiate Objectives and (Sub-)Goals. Pro-activity focuses on *missing*, *ineffective* or *inefficient* Objectives i.e., parts of the Goals that are not met with existing Objectives and includes the capacity to:
 - See the bigger picture, being able to zoom-out of Objectives and seeing how Objectives feed into Goals and Goals into the Mission and thus the Venture's overall result.
 - Have a strong focus on the Mission and Goals rather than Objectives alone.
 - Understand if the Mission is only partially met and why
@@ -3634,14 +3616,14 @@ Performance Result < -1  ==>  Far below expectations
   
 ### Performance Context
 Different companies have various manners of grouping Staff's Objectives. Often the following groupings are used:
-- Job Description, Run Objectives, Day-to-day etc
-- Operational Objectives, Change Objectives, etc.
-- Behaviour, Attitude, etc.
+- Run, Job, Recuring Objectives, Day-to-day etc
+- Change, Project, Yearly, Objectives, Goals, etc.
+- Attitude, Behaviour,, Conduct, etc.
 
-The Performance Categories do not map directly to these and in most cases work across such groupings. One way of forcing a  mapping on such categories is as follows:
-- Job Description, Run, Day-to-day, etc <-> Dependability 
-- Operational Objectives, Change, etc <-> Proactivity 
-- Behavioral Objectives, Attitude, etc. <-> Leadership
+The Performance Categories do not map directly to these and in most cases work across such groupings. One way of forcing a mapping on such categories is as follows:
+- Run, Job, Recuring Objectives, Day-to-day <-> Dependability 
+- Change, Project, Yearly, Objectives, Goals <-> Pro-activity
+- Attitude, Behaviour,, Conduct <-> Leadership 
 
 ### Performance Template
 When reporting on the assessment of performance for a Staff the following sections are suggested:
@@ -3724,7 +3706,7 @@ Ascertain whether a segment is worth the investment. The following determines wh
 Operations is the total of all Objectives performed within a Venture.
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Operations]. On L2 are the Tools:
+This overview shows on L1 key deliverables as per the note Management Framework. On L2 are the Tools:
 - Run
 - Change
 - Income
@@ -3742,13 +3724,12 @@ ________________________________________
 ## Overview
 <WIP>
 
+
 *********************************************
 # ASSETS
 ________________________________________
 ## Overview
-________________________________________
-## Overview
-<WIP>
+This overview shows on L1 key deliverables as per the note Management Framework. On L2 are the Tools:
 
 - Accounting Assets incl. Cash
 - Infrastructure
@@ -4057,5 +4038,8 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated [## Communication], formerly empty
 - Updated [## Accounting] with proper en and em spaces. 
 
-### Planned
+### 20251026
+- Added [## Root Cause Analysis]
+- Cleaned up old references to [MGT: 99.Legend]
+
 
