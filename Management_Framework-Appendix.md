@@ -1,4 +1,4 @@
-i*********************************************
+*********************************************
 # INTRODUCTION
 This note provides details for Management Tools or Tools in short, as discussed in the note "Management Framework".  
 
@@ -49,7 +49,7 @@ Versioning Information
   
 Within each L1 section, a tool is defined on L2 and has the type in brackets (...). Types are not part of Note References i.e. [## Tool] and not [## Tool (Type)].  
   
-References to [MGT: Planning], [MGT: Organising], [MGT: Leading], [MGT: Controlling] and [MGT: Tools] can be substituted with references to [MGT: 01.Planning], [MGT: 02.Organising], [MGT: 03.Leading],  [MGT: 04.Controlling] and [MGT: 80.Tools], i.e. pre-fixed with 01, 02, 03, 04, etc.   
+References to [MGT: Planning], [MGT: Organising], [MGT: Leading], [MGT: Controlling] and [MGT: Tools] can be substituted with references to [MGT: 01.Planning], [MGT: 02.Organising], [MGT: 03.Leading],  [MGT: 04.Controlling] and [MGT: 80.Tools], i.e., pre-fixed with 01, 02, 03, 04, etc.   
 
 The text of this note is available on GitHub in the following location:  https://github.com/stelzinga/MF
 
@@ -76,7 +76,7 @@ Note that the colon is followed by a single space. Details of these items are fo
   
 Examples: MGT: 01.Planning, PRD: Inventory
   
-This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowed, in which case it should be replaced with a '_'. 
+@This format has the advantage that the note is more structured, which in turn helps with grouping notes together. If a note is stored as a file, then a colon.is not allowed, in which case it should be replaced with a '_'. 
   
 There are many alternatives of this. For example, the CAT could be split up in several formalised parts CT1-CT2, or use numbered entries. Main take-away is that putting some thought in structuring notes is worthwhile.
   
@@ -313,120 +313,120 @@ The second style is used above, where the [1] means there is further down in the
   
 [1] University of Pittsburgh, Citation Styles: APA, MLA, Chicago, Turabian, IEEE, https://pitt.libguides.com/citationhelp, viewed Jan 2025.  
 ________________________________________
-## Profile Tree Numbering
+## Expanded Profile Tree
 The Profile Tree as discussed in the Management Framework has three levels of indentations.
 - First Level: Environment, Clients, Services, Operations and Management
 - Second Level: Processes, Resources, Capital, Results, Planning, Organising, Leading, Controlling, Business Functions and Tools
 - Third Level: Run, Change, Staff, Suppliers, Assets, Liabilities, Equity, Revenue, Cost and Risk. 
   
-NB: in the Profile Tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned to keep the Profile Tree short. They are nevertheless discussed in the Management Framework note. 
+NB: in the Profile Tree, the levels underneath Planning, Organising, Leading, Controlling, Business Functions are not explicitly mentioned so as to keep the Profile Tree short. They are of course discussed in detail in the Management Framework note. 
   
-From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, then Services, Clients and last but not least Environment. In other words, and using numbers to enforce the order in which they are used (notably useful in things like name sorted file directories). The numbering conventions than follows from the levels:
+From a managerial perspective the order of the items in the Profile Tree is mostly followed in reverse order i.e., first Management, then Operations, then Services, Clients and last but not least Environment. Using numbers to enforce the order in which they appear from a Manager's perspective a four layer structure can be defined:
 
-First Level: 00, 10, 20, 30, 40, ...   
-Second Level: 01, 02, 03, ... 11, 12, 13, ...  
-Third level: 01.01, 01.02, ... 11.01, 11.02, etc.   
+Level 1: ab.00.00.00
+Level 2: ab.cd.00.00
+Level 3: ab.cd.ef.00
+Level 4: ab.cd.ef.gh
   
-The First Level and the Second level are the main items in the Profile as described in the Profile Tree. The Third Level are the deliverables of each Second Level.   
+Each level n-1 is a deliverable for level n. Most Profile Tree item will go up to Level 3. However, each Business Function is itself a Level 3, so a fourth Level allows having deliverables within each Business Function.
+
+The total of these Profile Tree items, including their numbering is referred to as the *Expanded Profile Tree*. The structure is flexible in that if a Manager has a need for more layers they can be added.
     
-- 00.Management  
-    - 01.Planning  
-        - 01.01.Context  
-        - 01.02.Purpose  
-        - 01.03.Vision  
-        - 01.04.Mission  
-        - 01.05.Values  
-        - 01.06.Bylaws  
-        - 01.07.SWOT  
-        - 01.08.Goals  
-        - 01.09.Objectives  
-        - 01.10.Tasks  
-        - 01.11.Benchmark  
-        - 01.12.Strategic Plan  
-        - 01.13.Tactical  Plan  
-        - 01.14.Operational Plan  
-        - 01.15.Intel  
-    - 02.Organising  
-        - 02.01.Activities  
-        - 02.02.Groups  
-        - 02.03.Roles & Responsibilities  
-        - 02.04.Casting  
-        - 02.05.Funding
-    - 03 Leading  
-        - 03.01.Safe Space  
-        - 03.02.Direction  
-        - 03.03.Collaboration  
-        - 03.04.Motivation  
-        - 03.05.Inspiration
-        - 03.06.Learning  
-        - 03.07.Networking  
-        - 03.08.Leaders  
-        - 03.09.Management Improvement  
-    - 04.Controlling  
-        - 04.01.Journal  
-        - 04.02.Supervision  
-        - 04.03.Reports  
-        - 04.04.Monitoring  
-    - 05.Business Functions
-        - 05.00.Operations (links to 10.Operations)
-        - 05.01.Finance
-            - Accounting 
-            - Financing 
-        - 05.02.HR
-            - Recruitment 
-            - Skill Management 
-            - Training 
-            - Performance Management 
-            - Remuneration 
-            - Job Satisfaction 
-            - Employee Relations 
-            - Employment Law
-        - 05.03.IT
-            - Infra
-            - Applications
-        - 05.04.Risk
-        - 05.05.Compliance
-        - 05.06.Legal
-            - Legal Opinions
-            - Litigation
-            -  Incorporation
-            - Entity Structure Management 
-        - 05.07.Tax
-        - 05.08.Procurement
-            - Supplier on/offboarding
-            - Purchase Management
-        - 05.09.Marketing 
-            - Product 
-            - Price 
-            - Place 
-            - Promotion
-        - 05.10.Communications
-        - 05.11.Audit
-            - Internal Audit
-            - External Audit
-        - 05.99.Other
-    - 06.Tools 
-- 10.Operations  
-    - 11.Processes  
-        - 11.01.Run  
-        - 11.02.Change  
-    - 12.Resources  
-        - 12.01.Staff  
-        - 12.02.Suppliers  
-        - 12.03.Assets  
-    - 13.Capital  
-        - 13.01.Liabilities  
-        - 13.02.Equity  
-    - 14.Results  
-        - 14.01.Revenue  
-        - 14.02.Cost   
-        - 14.03.Risk  
-- 20.Services
-- 30.Clients 
-- 40.Environment
+- 00.00.00.00.Management  
+    - 00.01.00.00.Planning  
+        - 00.01.01.00.Business Model  
+        - 00.01.02.00.Purpose  
+        - 00.01.03.00.Vision  
+        - 00.01.04.00.Mission  
+        - 00.01.05.00.Values  
+        - 00.01.06.00.Bylaws  
+        - 00.01.07.00.SWOT  
+        - 00.01.08.00.Goals  
+        - 00.01.09.00.Objectives  
+        - 00.01.10.00.Tasks  
+        - 00.01.11.00.Benchmark  
+        - 00.01.12.00.Strategic Plan  
+        - 00.01.13.00.Tactical Plan  
+        - 00.01.14.00.Operational Plan  
+        - 00.01.15.00.Intel  
+    - 00.02.00.00.Organising  
+        - 00.02.01.00.Activities  
+        - 00.02.02.00.Groups  
+        - 00.02.03.00.Roles & Responsibilities  
+        - 00.02.04.00.Casting  
+        - 00.02.05.00.Funding
+    - 00.03.00.00.Leading  
+        - 00.03.01.00.Safe Space  
+        - 00.03.02.00.Direction  
+        - 00.03.03.00.Collaboration  
+        - 00.03.04.00.Motivation  
+        - 00.03.05.00.Inspiration
+        - 00.03.06.00.Learning  
+        - 00.03.07.00.Networking  
+        - 00.03.08.00.Leaders  
+        - 00.03.09.00.Management Improvement  
+    - 00.04.00.00.Controlling  
+        - 00.04.01.00.Journal  
+        - 00.04.02.00.Supervision  
+        - 00.04.03.00.Reports  
+        - 00.04.04.00.Monitoring  
+    - 00.05.00.00.Business Functions
+        - 00.05.01.00.Finance
+            - 00.05.01.01Accounting 
+            - 00.05.01.02.Financing 
+        - 00.05.02.00.HR
+            - 00.05.02.01.Recruitment 
+            - 00.05.02.02.Skill & Knowledge 
+            - 00.05.02.03.Training 
+            - 00.05.02.04.Performance  
+            - 00.05.02.05.Remuneration 
+            - 00.05.02.06.Job Satisfaction 
+            - 00.05.02.07.Employee Relations 
+            - 00.05.02.08.Employment Law
+        - 00.05.03.00.IT
+            - 00.05.03.01.Infra
+            - 00.05.03.02.Applications
+        - 00.05.04.00.Risk
+        - 00.05.05.00.Compliance
+        - 00.05.06.00.Legal
+            - 00.05.06.01.Legal Opinions
+            - 00.05.06.02.Litigation  
+            - 00.05.06.03.Entity Structure  
+        - 00.05.07.00.Tax  
+        - 00.05.08.00.Procurement
+            - 00.05.08.01.Supplier Management  
+            - 00.05.08.02.Purchase Management  
+        - 00.05.09.00.Marketing  
+            - 00.05.09.01.Product  
+            - 00.05.09.02.Price  
+            - 00.05.09.03.Place  
+            - 00.05.09.04.Promotion  
+        - 00.05.10.00.Communications  
+        - 00.05.11.00.Audit  
+            - 00.05.11.01.Internal Audit
+            - 00.05.11.02.External Audit
+        - 00.05.99.00.Operations (link to 10.00.00.00.Operations). 
+    - 00.06.00.00.Tools   
+    - 00.07.00.00.Management Cycle
+- 10.00.00.00.Operations  
+    - 10.01.00.00.Processes  
+        - 10.01.01.00.Run  
+        - 10.01.02.00.Change  
+    - 10.02.00.00.Resources  
+        - 10.02.01.00.Staff  
+        - 10.02.02.00.Suppliers  
+        - 10.02.03.00.Assets  
+    - 10.03.00.00.Capital  
+        - 10.03.01.00.Liabilities  
+        - 10.03.02.00.Equity  
+    - 10.04.00.00.Results  
+        - 10.04.01.00.Revenue  
+        - 10.04.02.00.Cost   
+        - 10.04.03.00.Risk  
+- 20.00.00.00.Services  
+- 30.00.00.00.Clients   
+- 40.00.00.00.Environment  
    
-Using numbers allows having a numbering with sub-numbers e.g., "02.01.Activities" as first deliverable within 02.Organising which yields 02.01.Activities. This allows effectively building a hierarchy of notes that follow something akin to the "Dewey Decimal Classification" (refer to Wikipedia for more details). 
-  
   
 *********************************************
 # MANAGEMENT
@@ -473,7 +473,7 @@ Depending on apps used, and whether a Venture requires the use of specific apps,
 Because they can be used in many different manners by different people, this note will not prescribe particular uses.   
 ________________________________________
 ## Eisenhower Matrix (Framework)
-The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, general during WWI and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.  
+The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, a USA general during WW II and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.  
   
 ### Important
 Something is important for different reasons e.g.:
@@ -487,7 +487,7 @@ This includes all tasks that are potentially important in the long run, but not 
 - Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). 
   
 ### Urgent
-Something is urgent for different reasons, -there is sometimes a link with *Important*- e.g., 
+Something is urgent for different reasons, and there is sometimes a link with *Important* e.g., 
 - Not performing the Task soon has a knock-on effect on several other Tasks and/or
 - There is a deadline imposed by a senior stakeholder (internal or external)
 - The completion of the Task has a direct impact on Revenue, Cost or Risk
@@ -518,16 +518,16 @@ The master MSS file, mgt.xlxs, is available in GitHub:
 <https://github.com/stelzinga/MF>
 
 ### MSS Slave
-It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g., macros. Such instance is called MSS Slave. 
+It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g., macros. Such instance is called an "MSS Slave". 
 
 ### MSS References
 To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
   
 ### MSS Note Management
-A key feature is the ability to write *Notes* in any Col = Notes. Depending on the sheet in MSS this column may then further drive the content of Cols = *First Note*, *Last Note* and then *Creation Date* and *Update Date*.  Nots follow the expanded form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
+A key feature is the ability to write *Notes* in any Col named  "Notes". Depending on the sheet in MSS this column may then further drive the content of Columns *First Note*, *Last Note* and then *Creation Date* and *Update Date*.  Notes follow the expanded form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
   
 ### MSS Task Management
-Another feature of MSS is the integration of Tasks using [## Task Notation] in Column = Tasks.  
+Another feature of MSS is the integration of Tasks using [## Task Notation] in any Column named "Tasks".  
   
 ### MSS Hierarchy
 The Sheet "Projects" has has an *Integrated Hierarchy*. 
@@ -537,17 +537,17 @@ Venture
     Stream p,i  
       Action p,i,j  
   
-The hierarchy is determined by Column = *Link*, the value of which is the value of the Column = *Key*. 
+The hierarchy is determined by Column *Link*, the value of which is the value of the Column *Key*. 
   
 In addition to the Link, *manual indentation* makes the hierarchy visible:
 - Run/Chg Goals, Routine, Project = 0x space
 - Sub, Stream = 4x space
 - Drill, Action = 8x space 
 
-NB: as the spaces are in Col = Name it is important to make sure they are applied *before* creating the link! 
-
+NB: as the spaces are in Col "Name" it is important to make sure they are applied *before* creating the link! 
+  
 ### MSS Dynamic Gantt Chart
-The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column = Start Date and the latest one in Column = End Date. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
+The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column *Start Date* and the latest one in Column *End Date*. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
 - Venture: shows today's date in red, rest white
 - Project: shows bar from Start to End in dark blue
 - Stream: shows bar from Start to End in light blue
@@ -555,38 +555,38 @@ The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Int
 - Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
 
 #### MMS Tracker
-The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
-- Capture all Routines for the Manager: this helps keeping track of recurring items a Manager does himself
+The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, and Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
+- Capture all aspects of the Expanded Profile Tree as default Routines for Goal mgt.
+- Capture all specific Routines the Manager does himself in 07.Management Cycle
 - Capture all ongoing Projects relevant to the Venture
-- Capture all potential Projects 
-- Ability to filter, sort such that relevant Data for specific occasions is available e.g. meetings with Reports, Managers, Peers. 
+- Fiilter and sort such that relevant Data for specific purposes e.g., meetings with Reports, Managers, Peers. 
 - Ability to use the data for Reporting 
   
 Key functionalities are as follows:  
 - Calculated Columns: a series of calculated columns help with stats and reporting.
 - Reporting Columns: a combination of a calculated Column + an override to force reporting on/off for a given item. 
-- Tag: a free field to use in Reporting or Filtering or Sorting. The content is a comma separated list of 'Tags'.
+- Tag: free field used in Reporting, Filtering or Sorting. Content is a comma separated list of 'Tags'.
  - Who Columns : 
      - Whom For Lvl 1 and Lvl 2: allowing for Activities and Sub-Activities (with "_all" if a non-specific Sub-Activity
     - Whom By Lvl 1 and Lvl 2: allowing for Groups and Staff (with "_all" if no specific Staff)
 - Goals Columns: 
-    - Standard Goals as per the Management Framework and also in = Static
-    - Sub- Goals also linked to standard Sub-Goals in Sheet = Static
-    - Initiative: allowing to create cross sectional Initiatives 
+    - Goals as per Management Framework, also in Sheet = Static
+    - Sub-Goals also linked to standard Sub-Goals in Sheet = Static
+    - Initiative: allows creating cross sectional Initiatives 
 - Status Columns  
-    - Planning Type: Project or Routine 
+    - Planning Type: Project, Routine or Task
     - Status: Open, Started, Pending, Completed, Urgent
-- Name Column: as per the Objective Notation
+- Name Column: as per Objective Notation
 - Reference Columns:
     - Details: anything that cannot be kept in the Name
-    - Notes: Task Notation Comments of the form "dd-mm-yy: xxx"
+    - Notes: Task Notation Comments of form "dd-mm-yy: xxx"
     - Tasks: Task Notation Tasks, can include comments too
     - Remaining Task: count of non-completed Tasks
     - Task Progress: Remaining Tasks / Total Tasks as a %
 - Date Columns (all hidden)
     - Period indicator: for Routines
-    - Nr Occurrences / year: for Routines 
-    - Time in hours/ occurrence: for Routines
+    - Nr Occurrences /year: for Routines 
+    - Time in hours /occurrence: for Routines
     - Total time /year (days): calculated: for Routines
     - Start: for Projects, start date
     - End: for Projects, end date
@@ -597,27 +597,27 @@ Key functionalities are as follows:
 - Many Custom Fields (20 in total) for Venture specific needs
    
 MMS Tracker Recommended Usage  
-- Projects (planned): 
-    - Create high-level entries & provide relevant details including default Change Goals.
+The tracker's main purpose is to help the Manager keep track of what he needs to do.
+The basic version of the Tracker is pre-filled with all required items of the Expanded Profile Tree for 00.Management item all Sub-Goals representing 01.planning, 02.organising all the way to 06.tools. Each Sub-Goal has as many rows as there are Deliverables in the Management Framework with each deliverable in column Name.
+Then create as many rows under Sub-Goal = 07.management cycle as there are actions performed by the Manager as per [Management Framework ## Management Cycle]:
+- As many Rows for name = "Meet ..." as there are Meeting
+- Create high-level entries & provide relevant details including default Change Goals.
     - For each Project Deliverable create a Task (helps tracking)
     - Tag planned Months during which it is active with 'x'
     - Update the Gantt Chart to reflect the lifetime of the Project
     - For hard deadlines add them in Details or in End
-- Projects (potential):
-    - As above but use Change Goal = prj & Sub-Goal one that reflects it is a potential Goal for next period  
-- Routines:
-    - Create as many Routines as the Manager performs
-    - Create  generic Routines for other Staff 
-    - Provide as much information in Details as possible
-    - Create Tasks if a Routine spawns of sub-Routines
+   
+Projects versus Tasks
+In the Tracker, Projects are defined at the start of the year. They are what is truly expected to be done, and serve as a key inout to Performance Management of individuals as well as the Venture. Projects also follow a more formalised Project Management approach.
+Tasks, on the other hand, are used for work to be done that materialises throughout the year, often spawn of from a Routine, and which needs more formal tracking as if it were a Project. 
       
 Meetings with direct reports  
 A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
 - Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name or if set up, use Tag = "contains name of Staff" 
 - Run through all Routines and Projects applicable to the Staff 
 - Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
-- Add new Routines and Projects if relevant 
-  
+- Add new Routines, Projects and Tasks if relevant. 
+
 ### MSS Reporting
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. 
   
@@ -664,9 +664,9 @@ This overview shows on L1 key deliverables as per [Management Framework ## Plann
     - Task Notation 
     - MSS
 - Benchmark
-    - @@@
+    - <TBD>
 - Strategic Plan
-    - @@@
+    - <TBD>
 - Tactical Plan 
     - Planning Hierarchy
     - Tactical Plan
@@ -1059,7 +1059,7 @@ The order of components is critical:
 The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierarchy]. Only Status and Name are mandatory. 
 
 ###  Objective Notation Status Indicator
-Status is mandatory and uses symbols:  
+Status is mandatory and uses a symbol followed by <space>:  
 - "% " : Run Goal, Run Sub-Goal (percentage)  
 - "$ "  : Change Goal, Change Sub-Goal (dollar) 
 - "& " : Routine (ampersand) 
@@ -1280,7 +1280,7 @@ ________________________________________
 See [## Objective Notation]. 
 ________________________________________
 ## Project Management (Framework)
-Managers deal with Project Management, either because they manage Projects as part of the Planning or they manage Staff who manage Projects. 
+Managers deal with Project Management, either because they themselves manage Projects as part of the Planning or they manage Staff who manage Projects. 
 
 ### Project Attributes
 Project Management has three key attributes:
@@ -1288,13 +1288,13 @@ Project Management has three key attributes:
 2. Cost
 3. Time
 
-This is referred to as *Project Management Triangle* (PMT) which says that increasing/decreasing any aspect affects the other two (one or both). The role of a Project Manager (PM) is to optimise this and to report progress and issues to Key Stakeholders including Sponsors, see [### Sponsorship}, under [## Delegating Definition].
+This is referred to as *Project Management Triangle* (PMT) which says that increasing/decreasing any aspect affects the other two (one or both). The role of a Project Manager (PM) is to optimise this and to report progress and issues to Key Stakeholders including Sponsors, see [### Sponsorship}, under [## Delegating] under [# ORGANISING].
 
 #### Scope
-Scope is determined by the expected Result and the Implementation to achieve that Result. Scope drives complexity and breadth of a Project and thus the Resources (Assets, Staff, Suppliers) required. Scope is constrained by available Resources, and reversely, Resource availability drives the Scope.
+Scope is determined by the expected Result and the Implementation to achieve that Result. The Scope drives complexity and breadth of a Project and thus the Resources (Assets, Staff, Suppliers) required. Scope is constrained by available Resources, and reversely, Resource availability drives the Scope.
 
 #### Cost
-Cost is driven by Resources. For any Project, one, two or all Resource tyoes are required (Staff, Assets, or Suppliers). Cost is constrained by Budget and reversely drives Budget.
+Cost is driven by Resources. For any Project, one, two or all Resource types are required (Staff, Assets, or Suppliers). Cost is constrained by Budget and reversely drives Budget.
 
 #### Time
 Time is driven by availability of Resources and constrained by internal / external deadlines. Reversely, availability or lack of Resources drives deadlines. 
@@ -1303,15 +1303,15 @@ Time is driven by availability of Resources and constrained by internal / extern
 The Project Management Institute defines five phases of Project Management:
   
 1. Conception & Initiation
-Broad definition of the Project, often driven by a Business Case, in turn driven by one of the Change Goals discussed above, which is driven ultimately by a Beneficiary.  Deliverables:
+Broad definition of the Project, often driven by a Business Case, in turn driven by one of the Change Goals discussed above, which is driven ultimately by a Beneficiary. Deliverables:
 - Key Stakeholders: Staff and Suppliers likely involved in executing the different Tasks of the Project and Sponsors (beneficiary of the Project)
 - Business Case: why the expected Results are desired.
 - Goal: clear description of expected Results.
    
 2. Definition & Planning 
-Establish specific Project Objectives according to SMART principles, see [## SMART]. Deliverables:
+Establish specific Project Objectives according to SMART principles, see [## SMART:
 - Scope Statement
-- Gantt Chart with Project, underlying *Streams* (the completion of which being called a *Milestone*) and *Actions* with Start/End/Complete, Owner, and Status. - Risk Management: details of Risks that could materialise and how to mitigate these
+- Gantt Chart with Project, underlying *Streams* (the completion of each being a *Milestone*) and *Actions* with Start/End/Complete, Owner, and Status. - Risk Management: details of Risks that could materialise and how to mitigate these
 - Communication Plan: manner in which above two items will be reported on over the timeline of the Project including whether Risks have materialised.
 - Definition of KPI, see [##KPI] to be able to perform step 4. 
    
@@ -1325,23 +1325,21 @@ A PM monitors and tracks progress of phase 3. through [MSS: M5] which helps exec
 The last phase of a Project is the closure. The purpose is to formally halt the contribution of resources to the Project, and validate that the deliverables have been achieved (fully or partially). The closure of a Project also aids in learning from the successes and mistakes of the Project. This in turn will enhance the next Project the PM and the members of the Project will work on. 
 
 ### Project Hierarchy
-As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used in this note, but it is perfectly possible to have variations:
+As indicated above, Projects are often divided in smaller chunks each with clear deliverables, the total of which is "The Project". The following hierarchy is used in this note, but it is possible to have variations:
 - Project
     - Stream
         - Action
   
 ### Project Priority
-Inevitably, Projects often have a certain level of priority attached to it. One way of managing this is through a *Project Priority* with the following values (in brackets the MSS values): Critical (0-Crit), High (1- High), Medium (2-Med) and Low (3-Low). By keeping the number of priorities low, it remains manageable. Often they are color coded: Red, Amber, Yellow, Green or Black, Red, Amber, Yellow.  Project Priority is determined by the beneficiary of the Project. However, and particularly if the Project Manager has many Projects to manage, the tendency will be for each Beneficiary to say their Project is the most important and should thus have the highest Priority. This is where the Priority Guidelines come in!
+Inevitably, Projects often have a certain level of priority attached to it. One way of managing this is through a *Project Priority* with the following values (in brackets the MSS values): Critical (0-Crit), High (1- High), Medium (2-Med) and Low (3-Low). By keeping the number of priorities low, Project Management remains manageable. Often they are color coded e.g., Red, Amber, Yellow, Green. Project Priority is determined by the beneficiary of the Project. However, and particularly if the Project Manager has many Projects to manage, the tendency will be for each Beneficiary to say their Project is the most important and should thus have the highest Priority. This is where the Priority Guidelines come in.
 
 ### Priority Guidelines 
 The main idea is to delimit the criteria for a Project (and Stream, Action) to appear under a priority. The result of below approach, is that at the *start* of the Roadmap, see [## Roadmap] Projects should be having priority High or Low and that during the year some Projects can appear in Critical, and Medium. The duration of a Roadmap is deemed a year, but have a longer or shorter cycle. Similar guidelines apply to Streams and Tasks within the Project if they have been defined. 
   
 Note that above approach depends on how Resources are managed. It is possible that a Venture keeps some slack in their Project assignments to be able to cope with new Projects arriving during the year. The availability or not of such Resources will mostly change in priority Medium.
-    
+  
 0-Crit  
-Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture and Protect the Venture. The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that comes unplanned.   
-There should be very few of such unplanned Projects. Priority Critical supersedes all existing Projects. So the number of Projects with this priority should be kept close to 0, and there can be only as many as required to Protect or Secure a Venture on short term.   
-In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g. Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently.   
+Applies only to non-planned Projects, i.e., not part of the Roadmap. Such un-planned work can only be done for two type of Goals: Secure the Venture and Protect the Venture. The reason is that growing or optimising a Venture (Goal = gro or opt) is not something that should come unplanned. There should be very few unplanned Projects. Priority Critical supersedes all existing Projects. So the number of Projects with this priority should be kept close to nil, and there can be only as many as required to Protect or Secure a Venture on short term. In most cases Critical Projects emanate from specific demands or opportunities from the Environment e.g., Regulators, from senior Management or internal Suppliers in control functions, or alternatively by self-identified major zones or risk that were unknown until recently.   
     
 1-High  
 This priority should be given to those Projects planned for this years' Roadmap. This priority can also be given to Projects that appear during the year, and that if they would have been known about at the start of the Roadmap, they would have been in the Roadmap. This may, however, mean that other Priority 1-High Projects need to be reclassified! Declassifying existing Projects' priority depends on a) whether existing High Projects were completed before their deadline and b) Resources, which may have increased. 
@@ -1365,10 +1363,10 @@ In addition to the manual priority described above, there is a notion of *urgenc
   
 The following gives a good indication of urgency.  
    
-- 0-Crit: Projects that are overdue: Today >  End Date   
-- 1-High: Projects within 1 week of deadline: Today < End Date AND Today => End Date - 7  
-- 2-Med: Projects within 1-2 weeks of deadline: Today < End Date - 7 AND Today => End Date - 14  
-- 3-Low: Projects more than two weeks away from the deadline. Today < End Date - 14
+- 0-Crit: Projects that are overdue now.   
+- 1-High: Projects within 1 week of deadline.
+- 2-Med: Projects within 2 weeks of deadline. 
+- 3-Low: Projects more than 2 weeks away from deadline.
 - 4-Non: Projects that are completed.  
 ________________________________________
 ## Gantt Chart (Framework)
@@ -1685,8 +1683,7 @@ The above assumes the Company decides on how whether they will be able to recove
 No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date, the cost of maintaining potentially many backups of Data secured, the Cost of optimising the Recovery Process -which may include purchase of better Sub-Components- to make it faster, etc. 
 ________________________________________
 ## Trends (Framework)
-One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities.
-Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Research & Development.  
+One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities. Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Research & Development.  
   
   
 *********************************************
@@ -1711,10 +1708,10 @@ This overview shows on L1 key deliverables as per [Management Framework ## Organ
     - RACI
 ________________________________________
 ## Activities Definition (Procedure)
-Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service. For each Activity define name and subsequent properties at L2 and L3 within [MGT: Organising # ACTIVITIES] as per [MGT: 99.Legend ## Activities] . 
+Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service.  
   
 The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. 
-For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed in the notes MGT: 99.Legend and MGT: 80.Tools are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating Definition.
+For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed the Profile are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating].
 ________________________________________
 ## Resource Planning
 With the Tactical Plan, see [## Tactical Planning], the target Objectives are identified for 1 year (or more) including when they will be worked on. However, resources are not attributed to those Objectives. The Tactical Plan is most often designed around known Resources. Nevertheless, there are considerations for planning resources.
@@ -1996,7 +1993,7 @@ This overview shows on L1 key deliverables as per [Management Framework ## Leadi
     - Hidden Relationships
     - Superiors
 - Direction
-    - @@@
+    - <TBD>
 - Collaboration
     - Communication
     - Team
@@ -2006,7 +2003,7 @@ This overview shows on L1 key deliverables as per [Management Framework ## Leadi
     - Communication
     - Motivating
 - Inspiration
-    - @@@
+    - <TBD>
 - Leaders
     - Communication
     - Presenting
@@ -2208,13 +2205,9 @@ Meetings can also be processed in BuJo MSS, see [### BuJo MSS Process - Meetings
 ________________________________________
 ## One-on-One (Framework)
 One-on-One meetings are meant to give Staff the opportunity to communicate concerns to the Manager and vice-versa. Concerns can be interpreted broadly, but the focus should be the non-operational part of a Staff's responsibilities. This can include, but is not limited to, team-interaction, issues in handling of operational topics etc. A key part of a One-on-One is to provide feedback to and collect feedback from Staff, see [## Feedback].
-
-### One-on-One Agenda
-Review this <https://manager-tools.com>
-@@@ and then update. Put in [## Staff Meeting] if necessary.
 ________________________________________
 ## Team- Meeting
-@@@
+<TBD>
 ________________________________________
 ## Whiteboard Session (Framework)
 A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that, *this is important*, without any specific preparation i.e., no presentation material. To the presenter this means the time spent is limited to the time of the WBS. For the audience, it means they can focus on things they are more interested in than what a presentation would somewhat force them to pay attention to. 
@@ -2290,7 +2283,7 @@ Below two links explaining the various aspects involved in Coaching and Mentorin
 <https://www.kent.edu/yourtrainingpartner/know-difference-between-coaching-and-mentoring>
 ________________________________________
 ## Presenting (Framework)
-@@@
+<TBD>
 ________________________________________
 ## Skill Inventory (Framework)
 Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
@@ -2351,6 +2344,7 @@ This overview shows on L1 key deliverables as per [Management Framework ## Contr
     - BuJo
     - BuJo MSS
 - Supervision  
+    - Oversight Framework
     - Progress Tracking
     - Holistic Data Approach
     - Committee
@@ -2546,14 +2540,44 @@ ________________________________________
 ## Holistic Data Approach
 See [## Data & Info] further below under [# ASSETS].
 ________________________________________
-## Progress Tracking (Framework)
-A key component of Measurement is Progress Tracking. This consists of tracking status of all Routines and Projects against expected target. 
-There are various ways to track progress. For Projects it is mostly done through the Project plan, see [## Project Management]. For a more continuous Progress Tracking, use the Management Tracker, see above.
+## Oversight Framework (Framework)
+An Oversight Framework is used to oversee a specific Activity. Its use is particularly useful in business models where the quality of output is critical e.g., heavily regulated sectors, dangerous activities involving systems or outout thst are detrimental to Staff or the Environment, etc. The concepts of the Framework follow the principles laid out under the Management Function called Controlling. The Oversight Framework thus takes specific aspects of the Profile Tree and creates a cohesive structure around it. Key topics are:
+- Rules
+- Processes
+- Resources
+- Results
+- Controls
+- Roles & Responsibilities 
+- Committee
+  
+### Rules
+Rules define all external laws, regulations, guidances etc. and/or internal policies to which the Activity is subject. Rules can also be construed as specifc Objectives that must be achieved repeatedly. Put simply, Rules in the Oversight Framework, define how an Activity should be performed, and thus defines what the Activity should be measured against.
+  
+### Processes 
+Processes are specific Steps applied to some Input to yield some form of Output which is reflected in Results. Weaknesses in Processes can result in Rules not being observed.
+  
+### Resources 
+Resources are either some Input for Processes and/or Assets in the form of Systems that embed Processes. It includes Referential or Configuration that drives how Systems in scope of the oversigh operate and it includes documentation on a broad scooe e.g., how Rules have been interpreted, how Process work, how Systems have been designed including validation or approval if relevant, etc. Resources are maintained through Processes. Weaknesses in Resources can result in Rules not being observed.
+  
+### Results
+Results reflect direct or indirect output of Processes and Systems. Direct output is in the form of Services or Products and indirect output is in the form of Revenue, Cost and Risk. Results include reports reflects the provision of any required or elected internal or external information on Processes, Resources, Results or Controls. This includes reports in relation to performance, regulatory breaches, incidents, etc. low quality, or off-target results can lead to Rules not being observed.
+  
+### Controls
+Controls are specific Processes, including embedded in Systems, that verify that above Processes, Resources and Results are as expected per the Rules. 
+  
+### Roles & Responsibilities
+The Roles & Responsibilities or R&R define what Staff is expected to do when performing Processes, when developing or maintaining Assets. Poorly designed or poorly defined R&R can result in Rules not being observed. 
+  
+### Committee
+A Committee is a recurring meeting that relevant,, senior, members attend with the aim to make decisions for one or more proposals based on information in relation to one or more topics. Committees are framed by the Terms of Reference. For more details see [## Committee] below. The decisions are made on the basis of metrics like KPI, KRI, that are relevant to the scope of the oversight.
+
+### Alternative Approaches 
+Above structure is indicative and considered a bare minimum. It is possible to add layers or to become more granular for specific topics. For example, if external reporting to a Regulator is essential it can become a topic on its own, or if a specifc type of Risk is essential it can be isolated from Results. 
 ________________________________________
 ## Committee (Framework)
 This framework uses the following definition of a Committee:
 
-A Committee is a *recurring meeting* that relevant *Members* attend with the *Purpose* to make *Decisions* for one or more *Proposals* based on *Information* in relation to one or more *Topics*. Committees are framed by the *Terms of Reference*.
+A Committee is a *recurring meeting* that relevant *Members* attend with the *Purpose* to make *Decisions* for one or more *Proposals* based on *Information* in relation to one or more *Topics*. Committees are framed by the *Terms of Reference* and each Committee having been held is formalised through *Meeting Minutes*.
   
 These aspects are discussed below.
    
@@ -2573,10 +2597,10 @@ Depending on the Committee it is possible for a Voting Member to delegate the vo
 A *Quorum* refers to the minimum number of Voting Members necessary for a Decision to be made and to be valid. Every Committee has a Quorum, and it rarely changes for a given Committee. There is no general rule on how to establish a Quorum. However, for a given Committee, the rules for a Quorum are formalised in the Terms of Reference, see below. If the Quorum cannot be met the session has to be adjourned i.e., suspended to be continued later.  
   
 ### Committee Proposals & Decisions
-Decisions a.k.a. Resolutions consists of a binary approved/no approved, yes/no, accept/reject or similar construct, of a specific Proposal through a vote. This means that Proposals need to be presented in a form that facilitates such vote, which is often achieved by framing the Proposal as a question e.g. , "Do the Voting Members approve the following Proposal to ..." or more formally "Do the Voting Members approve the motion to ...". Alternatively, Resolutions are stated as a fact, and the Voting Members are merely asked to approve the statement. 
+Decisions a.k.a. Resolutions consists of a binary approved/not approved, yes/no, accept/reject or similar construct, of a specific Proposal through a vote. This means that Proposals need to be presented in a form that facilitates such vote, which is often achieved by framing the Proposal as a question e.g. , "Do the Voting Members approve the following Proposal to ..." or more formally "Do the Voting Members approve the motion to ...". Alternatively, Resolutions are stated as a fact, and the Voting Members are merely asked to approve the statement, or reject it. 
   
 There are two key types of Proposals:
-1. Proposal to *do* something i.e., if the Proposal is approved, an Action will be taken, these are more *forward looking* in nature.
+1. Proposal to *do* something i.e., if the Proposal is approved, an Action will be taken. These are more *forward looking* in nature.
 2. Proposal to *agree* on Information provided without leading to an Action i.e., if the Proposal is approved, a formal record exists that the Committee saw and agreed with the Information. Such proposals tend to be *backward looking*.
    
 The approval of a Proposal may require unanimity or just a majority. Approvals can be accompanied by one or more conditions restricting the scope or the actual implementation of the Proposal. Some, or all Voting Members can have the right of Veto which means a single Vote can reject a Proposal even if it has a majority of the Votes. 
@@ -2586,8 +2610,8 @@ It is important to note that it is possible to have Committees whose purpose it 
 2. As mentioned above, it is possible to construe a Decision for a Proposal to merely agree on Information provided.
   
 ### Committee Topics
-Proposals presented for approval relate to one or more Topics. Conceptually, a Topic is either concerned with Management, Business Functions, or Operations (Run of Production, Change of Production) or a combination of these. It can concern the *result* of Run/Change, the *manner* in which Run/Change are conducted or the manner in which Management with the aid of Business Functions drives and oversees both.  
-As a Committee concerns recurring meetings, the Topics themselves are often recurring as well. If a Topic is not recurring it is an ad-hoc Topic (which could be an action point of a previous meeting). The list of Topics for each meeting are reflected in the Committee's *Agenda*. 
+Proposals presented for approval relate to one or more Topics. Conceptually, a Topic is either concerned with Management, Business Functions, or Processes (Run of Production, Change of Production), Results or a combination of these. It can thus concern the *result* of Run/Change, the *manner* in which Run/Change are conducted or the manner in which Management with the aid of Business Functions drives and oversees both.  
+Because a Committee concerns a recurring meeting, the Topics themselves are often recurring as well. If a Topic is not recurring it is an ad-hoc Topic (which could be an action point of a previous meeting). The list of Topics for each meeting are reflected in the Committee's *Agenda*. 
 To illustrate what Topics could include: 
 - Finances of a company (income statement, balance sheet, audit financial statement, budget review, ...)
 - Projects (scope, progress versus plan, cost versus plan, ...)
@@ -2599,21 +2623,23 @@ To illustrate what Topics could include:
 - Environment (competitors, political, regulatory, tax, ...)
   
 ### Committee Information
-The Topics for Proposals rely on Information a.k.a. Intel. As explained elsewhere, Information and Data are related. Data is defined as individual facts, whereas Information is the organisation, interpretation and visualisation of those facts i.e., a Process is involved to transform Data into Information. Therefore, assuming Data w/r to a Topic is available it needs to be transformed such that it yields Information for a Proposal to be made and for the Committee to base its Decision for the Proposal on.   
-Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions should be reflected in the Terms of Reference.  
+The Topics for Proposals rely on Information a.k.a. Intel. Information and Data are related. Data is defined as individual facts, whereas Information is the organisation, interpretation and visualisation of those facts i.e., a Process is involved to transform Data into Information. Therefore, assuming Data w/r to a Topic is available it needs to be transformed such that it yields Information for a Proposal to be made and for the Committee to base its Decision for the Proposal on.   
+Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions can be reflected in the Terms of Reference, or iutside of it.  
 In many cases, the Data collection and Information creation as preparation of the Committee can be, and often is, more time consuming than the actual meeting.  
 The Information that forms the basis of decisions is very important. In many cases it is sent ahead of the Meeting so that the Committee Members can prepare.
 
 ### Committee Purpose
 Ultimately the purpose of a Committee is to make Decisions. However, not every Committee decides on the same Topics. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
-  
+    
 A specific type of Committee is the *Oversight Committee*:
 - Company Board Meeting, Executive Committee
 - Specific functionality Committees: Risk Committee, Sales Committee, ...
 - Committees focusing on Projects: Operational Committee (Opco), Steering Committee (SteerCo)
+
+Such Committees are part of a Iverisgft Framework, see [## Oversight Framework].
   
 ### Committee Minutes
-Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general only be concerned with decisions. Minutes, combined with the Information reflect the formalisation of the Meeting ex-post. 
+Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general *only* be concerned with decisions i.e., minutes should in general not reflect discussiosns that took place prior to a Decision, or even without any Decision at all. Such discussions may, or may not, be kept in the form of a seperate, written *transcript* which should be maintained only exceptionally, or unless there is a lawful obligation. Minutes, combined with the Information reflect the formalisation of the Meeting ex-post. 
   
 ### Committee Terms of Reference
 The Terms of Reference (TOR), Committee Charter or Committee Mandate of a Committee reflect all the above aspects in a single document. The content of the TOR itself is proposed for validation by the Committee's Voting Members. As some of the aspects can change over time i.e., new Chair, new Voting Members, different Quorum, different recurrence, etc. the TOR is reviewed and approved regularly.  
@@ -2632,13 +2658,13 @@ ________________________________________
 The Board of Directors is often a legal and/or regulatory required committee which aims at assuring that the Management of a Venture is acting within its fiduciary duties. 
 ________________________________________
 ## MBO (Framework)
-@@@
+<TBD>
 ________________________________________
 ## BSC (Framework)
-@@@
+<TBD>
 ________________________________________
 ## OKR (Framework)
-@@@
+<TBD>
 ________________________________________
 ## Process Review (Framework)
 See [STD: Management # PROCESS REVIEW]
@@ -2672,7 +2698,7 @@ For example, in the above 6 steps, there could be an Aggravating Factor as follo
 RCA is a process of finding "how something went wrong". Structurally the result may involve some Group not having done what was supposed to be done. In other words, RCA is often construed as a "finger pointing exercise". Consequently, the process may be stunned by Staff who fear -rightly or wrongly- that they are the root cause. The best way to avoid this interpretation is to not use terms like "responsible" Staff or Groups and focus purely on the Root Cause and Aggravating Factors and then address those. 
 ________________________________________
 ## Staff Reports (Framework)
-@@@ weekly reports to be sent by Staff@@@
+<TBD>
 ________________________________________
 ## Staff Meeting (Procedure)
 The purpose of individual Staff Meeting is as follows:
@@ -2814,7 +2840,7 @@ b. Frequency at which data is produced
 c. Need for that data to be reported. 
 
 0. Management
-@@@
+Anything not mentioned in below sections.
 
 1. Revenue
 - Actuals: YTD, MTD, WTD, Trends, Avgs, vs Y-1, budget etc.
@@ -2826,14 +2852,15 @@ c. Need for that data to be reported.
 
 3. Risk
 - Actuals: dependent on the sector the Venture operates in. 
-- Exceptionals: losses 
+- Exceptional: occurrence of new risk 
 
 4. Run
-- Exceptionals: the Run is expected to operate as expected. Only Exceptionals should be reported.
+- Actual: stats on produced nrs if not reported under Revenue or Cost
+- Exceptional: the Run is expected to operate as expected. Only exceptional items should be reported, typically, Incidents (can also be reported under Risk above). 
 
 5. Change
 - Actuals: updates on progress of Projects, but focus on:
-- Exceptionals: the Projects that are ahead or behind schedule. 
+- Exceptional items: Projects that are ahead or behind schedule. 
 
 6. Intel
 - Updates: relevant ones to the Venture both from internal and external 
@@ -2855,14 +2882,14 @@ The following principles should be observed:
 
 Note that most reports are of the form: report for week ending dd Mmm yyyy wit various reporting entries in which case the date of reporting is omitted. 
 
-Example: 
+Example:   
 Completed review of audit report started on 1 Oct 2022 on 15 Nov 2022 and before due date by John Doe for the Car Testing Department. Conclusion: department overall in ok state vs regulations but improvements necessary due to new regulations on gas emissions. Next: deploy 2 action plans before 15 May 2023.
   
 ### Reporting Standards Implementation
 Above principles are implemented through Objective or Task Notation, see [## Objective Notation], [## Task Notation]. Reminder of the expanded Format for both in non-recurring Objectives and Tasks:
-
+  
 status name (start:end:compl:eff) {perf:benef} |link| [ref]
-
+  
 The following indicators on the expanded format are kept as is, if the reader is familiar with the Objective/Task Notation Format, or replaced with specific words:
 - Status: "Completed ...", "Started...", "Progressed ...", "Moved to pending ..."
 - Start, Complete in human readable form and "before due date" or " late" to indicate complete date versus targeted end date 
@@ -2903,7 +2930,7 @@ Any aspects that are a potential impediment in the conclusion of any remaining a
 Given the above, what are the expected actions to be able to conclude the Evolving Topic. Of course, if the Current Status = Completed then there are no Next Actions.
 ________________________________________
 ## Briefing Note (Framework)
-@@@
+<TBD>
 ________________________________________
 ## Dashboard (Framework)
 Dashboard are a tool to present *information* based on *data*. Data is defined as individual facts, while information is the organisation and interpretation of those facts. 
@@ -2912,21 +2939,10 @@ The creation of a Dashboard should thus consider the following aspects:
 
 ### Data Production
 The extraction of Data from Data sources.
-@@@
+<TBD>
 
 ### Data Collection
-Data is obtained from various sources, but often those are Electronic records @@@
-
-### Information Production
-Information should abide by the following criteria:
-@@@ see if this is not already discussed somewhere in this note @@@
-
-@@@
-- Decisional vs Informational
-- Short vs vs Medium vs Long Term
-- Tabular vs Graph
-- Thresholds
-@@@
+Data is obtained from various sources, but often those are Electronic records <TBD>
 
 
 *********************************************
@@ -3181,7 +3197,7 @@ There are various components involved:
 These aspects are detailed below.
 ________________________________________
 ## Revenue Measurement (Framework)
-@@@
+<TBD>
 
 ### Revenue Classification
 There are various sources of Revenue.
@@ -3250,7 +3266,7 @@ R - C = Contribution Margin
 This allows calculating the break even i.e., the level of units produced where profit = 0. This model also can be used to calculate the required nr units to be produced for a given net Profit. 
 ________________________________________
 ## Cost Allocation (Framework)
-@@@ https://courses.lumenlearning.com/managacct/chapter/allocation-of-service-department-costs/
+<TBD>
 ________________________________________
 ## Budgeting (Framework)
 There exist various budgets. The most relevant ones are *Operational Budget* and *Financial Budget*, which combined are the *Master Budget*. All budgets tie in to the RPT, see [## RPT]. Note that all Budgets are for a certain future Period.
@@ -3282,13 +3298,9 @@ By understanding how Services yield Revenues and how Operations generate Cost, a
  
 When making a Budget, the term *Projection* is often used. A Projection is an estimate or forecast of a future situation based on a present trend.
 
-There are several Projections m for the next Period:
+There are several Projections for the next Period:
 - Quantifiable measure of Run Services 
 - Quantifiable measure of Run Revenues 
-
-@@@
-- Determination of dependency between Services and Assets, Suppliers and Staff 
-@@@
 
 #### Operating Budget Quick and Dirty
 In established businesses where there is little change (be that growth or decline), a safe bet for a big part of the Budget is to assume that next period is closely related to the previous period. More specifically:
@@ -3435,7 +3447,7 @@ yyy
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ________________________________________
 ## Training (Framework)
-@@@ internal, external, formal, informal, link to mentoring
+<TBD>
 ________________________________________
 ## Performance Target
 Defining the target of Objectives for a Staff is composed of the following:
@@ -3443,16 +3455,18 @@ Defining the target of Objectives for a Staff is composed of the following:
 - Understanding the Venture's Goals (Run and Change)
 - Understanding the Venture's Objectives broken down by Routines (Run) and Projects (Change)
 - Understanding the Job Description
-
+  
 NB: the above can also be reviewed in light of the Group the Staff belongs too, i/o of the Venture.
-
-The manager is responsible for making sure Staff knows what their role is through the Job Description.
-
+   
+The manager is responsible for making sure Staff knows what their role is through the Job Description and on an ongoing basis incouding through Performance Review, see below.
+  
 The following needs to be enumerated throughout the Performance Target for each Staff:
 - List of Routines the Staff is responsible for (this establishes the Run part of the Venture for the Staff)
 - List of Goals the Venture is trying to achieve
 ________________________________________
 ## Performance Evaluation (Framework)
+Performance Evaluation ia the act of obtaining information to be a lentonperform a Performance Review (see below).
+  
 There are various methods in which Performance can be evaluated. These are called evaluation methodologies or appraisal methodologies. Each has pros and cons, and none is specifically recommended.
 
 ### 90-degree
@@ -3469,7 +3483,7 @@ The 360 degree appraisal or 360 feedback is an often used method in which manage
 NB: the 360 feedback has become somewhat of a fad in many companies and care should be taken not to overindulge in it. 
 ________________________________________
 ## Performance Review  (Framework)
-Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling. 
+Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses both on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling. 
 A Performance Review looks across the various dimensions of a Venture, from strategic levels like Misson Statement and Goals to more operational levels of Objectives and Processes. 
 
 A Performance Reviews does not follow a rigid Process. However, there is a framework facilitating the Process which involves the following:
@@ -3679,7 +3693,7 @@ This overview shows on L1 key deliverables as per [Management Framework  ## Mark
     - Client Segmentation
     - Product Specification
 - Price / Cost
-    - @@@
+    - <TBD>
 - Place / Convenience
 - Promotion / Communication
 ________________________________________
@@ -3715,7 +3729,7 @@ This overview shows on L1 key deliverables as per the note Management Framework.
 ________________________________________
 ## Life Cycle (Framework)
 Not always applicable, a lifecycle explains how the various Routines and Projects interact and recur. Key elements of an Operational Lifecycle are:
-@@@
+<TBD>
 
 
 *********************************************
@@ -4042,4 +4056,15 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Added [## Root Cause Analysis]
 - Cleaned up old references to [MGT: 99.Legend]
 
+### 20251031
+- Cleaned up some of the triple @
+
+### 20251128
+- Renamed [## Numbered Profile Tree] to [## Expanded Profile Tree] effectively moving that term back into the Management Framework.
+- Updated MSS to better reflect how to use the MSS in relation to the Expanded Profile Tree. 
+
+### 20260121
+- Cleaned up some empty tools 
+
+ 
 
