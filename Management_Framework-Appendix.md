@@ -43,6 +43,7 @@ Operations
     - Revenue
     - Cost
     - Risk
+    - Image
   
 Versioning Information  
 - Versions
@@ -423,6 +424,7 @@ The total of these Profile Tree items, including their numbering is referred to 
         - 10.04.01.00.Revenue  
         - 10.04.02.00.Cost   
         - 10.04.03.00.Risk  
+        - 10.04.04.00.Image  
 - 20.00.00.00.Services  
 - 30.00.00.00.Clients   
 - 40.00.00.00.Environment  
@@ -1407,6 +1409,7 @@ An OM has at least the following components:
 - Revenue
 - Cost
 - Risk
+- Image
 - Environment
 - Clients
 - Services
@@ -1436,6 +1439,9 @@ This explains the *sources* of Cost i.e. of the Resouces (Staff, Assets, Supplie
   
 ### Risk
 This explains the *sources* of Risk. Unlike Revenue and Cost, the details provided are likely to be more diverse, depending on the sources and types of Risk. Risk is linked to Resources used and the manner in which the Run and Change  are performed. The data to provide can be expressed as losses incurred, insurances taken out to cover risk, etc. Depending on the Venture, it is here, or under Services that Risk related to Services should be discussed. If relevant, the manner in which Risk is mitigated can be discussed here as well. 
+  
+### Image
+This explains the possible sources of good or bad Image. The details provided depend on the type of Venture. 
 
 ### Environment
 This explains the environment in which the Venture operates. Various aspects can be considered, depending on the exposure of the Venture to the Environment and whether a Legal Entity or a Business is covered. Examples include Corporate Structure (Investors/Holding Company), Capital Structure, Competitors, Regulators, Tax, Corporate Governance, ..
@@ -1500,82 +1506,80 @@ ________________________________________
 A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: <https://www.tutorialspoint.com/cmmi/index.htm>.
 ________________________________________
 ## Business Continuity Management (Framework)
-Business Continuity Management (BCM) is a framework that establishes the manner in which business Operations can continue even during internally or externally caused *adverse conditions* a.k.a. *disasters*. The ability to continue is referred to as *recovery strength* or *resilience* and thus the processes involved in implementing and maintaining a *recovery plan* to continue operations is called Business Continuity Management.
+Business Continuity Management (BCM) is a framework that establishes the manner in which business Operations can continue *to the best of the ability* during internally or externally caused *adverse conditions* a.k.a. *disasters*. The ability to continue is referred to as *recovery strength* or *resilience* and thus the processes involved in implementing and maintaining a *recovery plan* to continue operations is called Business Continuity Management.
   
-Business Continuity for Data Driven Companies
-The following framework is relevant for companies that operate with Data as a main Asset which is the case for companies like banks, insurance, investment managers, brokers, etc. 
-   
+Business Continuity for Data Driven Companies  
+BCM's ultimate objective is to minimise the impact of an adverse event on the Operations of a company). The following framework explains how this is achieved for companies that operate with Data as a main Service (and Asset) which is the case for companies like banks, insurances, investment managers, brokers, etc. 
+       
 ### Conceptual Framework
-To asses Resilience for Data driven companies, a Conceptual Framework is used which considers the following:
+To achieve its objective Data Driven Companies can use use a Conceptual Framework as follows:
 - Components
-- Stress Levels
+- Unavailability
 - Recovery Components
-- Connectivity between Components
-- Recovery Process
-- Scenario Analysis
-- Dimensions
+- Recovery
+- Scenarios 
+- Return to BAU
+- Impact
 - Data
 - Urgency
 - Testing
 - Further Considerations
-- Cost
-  
-These aspects will be discussed next.
-  
+- Crisis Management
+    
 ### Components
-The Conceptual Framework supposes  a simple structure of a Data driven company, based on its key production Components as follows:
+The Conceptual Framework supposes a simple structure of a Data driven company, based on key Components that deliver the Services of the company:
   
 _____________________________________
-          Public Infra  
-  
-         Office   Suppliers  
-           ⇗⇙     ⇘⇖  
+            Public Infra  
+            ⇗⇙ ⇘⇖  
+         Office  ⇆ Suppliers  
+          ⇗⇙      ⇘⇖  
            User Apps  ⇆  Server Apps  
-         ⇗⇙      (incl Data)  
-  Clients ⇆ Staff  
-   
+        ⇗⇙       (incl Data)  
+  Clients ⇆ Staff     
 _____________________________________  
 
-    Fig 1: Conceptual Framework
+    Fig 1: Conceptual Framework Components
    
-In which:  
-- Public Infra: train, metro, taxi, bus, railway, road, but also public internet incl. telephony and broadband. It encompasses everything else not mentioned below. 
-- Clients: although not in direct control of the company's recovery scope, being able to stay connected to clients is key for most companies 
-- Office: building where Staff work. Could be if home working is applicable for the Company.  
-- Staff: an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via broadband, WiFi, etc. Structurally, this also includes the psychological constraints (more on this later).
-- User Apps:Software running on Hardware i.e., a PC or Laptop and connecting to Server Apps.
-- Server Apps: core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also include *Data* e.g., orders, contracts, transactions, referential, static data, procedures. 
-- Suppliers: e.g., exchanges, brokers, data vendors, but also building rentals (see below). 
-- ⇆, ⇗⇙: Network Components assuring *connectivity*, the components that link everything together: Routers, Switches, cabling, etc. 
+In which (in brackets the Profile Tree Item it relates to) 
+- Public Infra (Environment): train, metro, taxi, bus, railway, road, but also public internet incl. telephony and broadband. It encompasses everything else not mentioned below.
+- Clients (Clients): although not in direct control of the company's recovery scope, being able to stay connected to Clients is key for most companies. 
+- Office (Assets): building where Staff work and which provides the necessary structure for User Apps through items like chair, desk, electricity, network, etc. This could be home if home working is applicable for the Company.  
+- Staff (Staff): an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via internet (broadband, WiFi, etc). Structurally, this also includes the psychological constraints. 
+- User Apps (Assets): Software running on Hardware and connecting to Server Apps i.e., a PC or Laptop with office software (word processor, mail, chat) and business software. Some User Apps can be standalone i.e., not connecting to a Server App.  
+- Server Apps (Assets): core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also embeds *Data* e.g., orders, contracts, transactions, referential, static data, procedures. Server Apps are deemed running in a separate building called Data Center, but this is not necessarily true for smaller companies.
+- Suppliers (Suppliers): third parties providing essential services to the company e.g., data vendors, exchanges, brokers, but also building rentals (see below). 
+- ⇆, ⇗⇙: Network Components assuring *connectivity*, the components that link everything together: Routers, Switches, cabling, telecommunications, etc. Connectivity is mostly assured by a combination of internal owned connectivity and Supplier owned connectivity. In the Conceptual Framework we mean the internally maintained connectivity. For example, if a telco line between two locations fails, then that is a Supplier owned issue. 
+   
+The Components in the above diagram are few. In reality, however, *each* Component has most often many *Sub-Components*. For example, a Company may operate out of two countries meaning two different Public Infras. In most cases there are  many Staff, using many User Apps (with each Staff having one or more PCs and/or Laptops). The Staff can operate from several floors in a single Office building or even across multiple Office buildings. The various User Apps connect to many Server Apps connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of detail. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components.
   
-The Public Infra is composed of a broad range of constructions and utilities that Staff can use to move from their home (or client, etc) to the Office and to connect to the public Internet.
-Staff rely on User Apps that either can operate stand-alone i.e., do not need Server Apps, or connect to Server Apps to perform the various Activities of the company. Server Apps include  the hardware to host business software, but also includes the hardware and basic operating systems to host databases, file servers etc. In other words, the Data in the conceptual framework is shown separate (for reasons explained later) but is located in Server Apps (hence the arrows to and from). Last but not least, Server Apps may consist of interconnected Hardware and Software although the conceptual framework does not show this. It may also be that Server Apps are actually provided by a Supplier within the control of that Supplier e.g., the company only gets the result from the Supplier into its User Apps! 
-Note that Server Apps in this framework are deemed in a different building than the Office. Often such building is called a Data Center, a specialised setup to host hardware and associated software and provided by a Supplier.
-  
-The Components in the above diagram are few. In reality, however, *each* Component has most often many *Sub-Components*. For example, a Company may operate out of two countries meaning two different Public Infras. In most cases there are  many Staff, using many User Apps running (with each Staff having one or more PCs and/or Laptops). The Staff can operate from several floors in a single Office building or even across multiple Office buildings. The various User Apps connect to many Server Apps connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of details. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components.
-  
-### Stress Levels  
-From the above Conceptual Framework, it is easy to see that for day-to-day Operations, every component needs to be available and operating as expected. 
-Said differently, by (theoretically) *shocking* or *stressing* each component, an assessment can be made into the capacity of a company to sustain Operations, even if partially. Such assessment can also show what would be required to be able to *continue* or *recover* the Activities that make up all Operations. 
-  
-There are many ways to "stress" components. But the simplest way is to simply assume a component is either: 
-- Fully Available a.k.a. Business As Usual (BAU), 0% unavailable, 100% available
-- Partially Available, anything in between above and below e.g., 50% unavailable
-- Not Available, i.e., 0% available, 100% unavailable 
-  
-Such *Stress Levels* can be given a nr, a letter, a color, or just a label like a percentage. 
-  
-Are all Stress Levels actually possible? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or simply half of them went out together and got food poisoning). Similarly for Office, is it really possible to have an only 50% available office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For USer Apps a similar concepts can be applied, it may be that only a single User App is affected by a bug, and all other User Apps still work as normal, etc. As can be seen, in a larger company, where Component within the Conceptual Framework are composed of sub-components, it is very well possible to have Stress Levels of 50% or even more granular, like 10, 20, 30% etc. 
+### Unavailability  
+From the above Conceptual Framework, it is easy to see that for day-to-day Operations, every component needs to be available and operating as expected.  
+Said differently, by (theoretically) *shocking* or *stressing* each component, an assessment can be made into the capacity of a company to sustain Operations if a Component is *unavailable* even if partially unavailable. Such assessment can then  help determine what would be required to be able to *continue* or *recover* the Activities that make up Operations. 
+    
+There are many ways to stress components. But the simplest way is to simply assume a component is either: 
+- 0% unavailable: fully available, 100% available
+- 50% unavailable: partially available, anything between 0% and 100% unavailable
+- 100% unavailable: not available, 0% available 
+    
+Each Component has many different reasons to be (partially) unavailable:
+- Staff can be sick or having had an accident either directly or indirectly (family member). Or Staff can simply walk out on work e.g., a strike or resignation.
+- Hardware will fail at one point e.g., memory failure, cooling unit failure, disk failure, etc. This can impact both User Apps and Server Apps. 
+- Software can fail as a result of a bug, end of license, etc. This can impact both User Apps and Server Apps. 
+- Offices can become inaccessible due to a strike in relation to the company or become non-functional e.g., electricity outage.
+- Public Infra can become unavailable e.g., public transport failure or a general strike.  
+- Network components are composed of both Hardware and Software (see above) and in addition, the cabling used between the Network components may be cut accidentally.  
+
+Side Note:   
+Are the three Unavailability Levels realistic? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or half of them went out to dinner together and got food poisoning). Similarly for Office, is it really possible to have a 50% unavailable office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For User Apps a similar concept can be applied, it may be that only a single User App is affected by a bug, and all other User Apps still work as normal, etc. As can be seen, in a larger company, where Components within the Conceptual Framework are composed of sub-components, it is very well possible to have Unavailability Levels of 50% or even more granular, like 10, 20, 30% etc. 
   
 ### Recovery Components
-Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resilience in a company's Operations is thus achieved through a full or partial secondary setup as follows:
+Assuming all Components can fail, companies often opt for a duplication of their setup using *Recovery Components*. Having such Recovery Components makes the company *resilient*. Resiliency or redundancy in a company's Operations is thus achieved through a full or partial secondary setup as follows:
   
 _____________________________________
-          Public Infra  
-   
-            primary
-   
-  
+            Public Infra  
+              ⇗⇙ ⇘⇖     
+            *primary*  
          Office   Suppliers  
            ⇗⇙     ⇘⇖  
            User Apps  ⇆  Server Apps  
@@ -1584,103 +1588,172 @@ _____________________________________
          ⇘⇖      (incl Data)  
          User Apps  ⇆  Server Apps  
            ⇘⇖     ⇗⇙  
-         Office   Suppliers  
-  
-    
-            secondary   
+         Office   Suppliers    
+           *secondary*   
 _____________________________________  
   
-    Fig 2: Resilient Components
+    Fig 2: Resilient Conceptual Framework Components
  
-In which all components now appear twice except:
-- Public Infra: not in the control of the company, so it is deemed not resilient.  
+In which all Components appear twice except:
+- Public Infra: not in the control of the company, so it is deemed not resilient, which is not necessarily true for all Public Infra e.g., internet providers may have backup infrastructure, a Tram can be replaced by buses, etc. 
 - Clients: not in control of the company. It is possible that some Clients have a resilient setup as well. However, from the company's perspective this is transparent.
-- Staff: companies do not keep spare Staff. This means that Staff is effectively a weak link in most resilient setups i.e., if somehow the Staff is not available Operations may effectively stop entirely! More on this later. 
-  
-The Components in the bottom part of the diagram are called Secondary User Apps, Secondary Office, etc. In the top part, the components are referred to as Primary i.e., Primary User Apps, Primary Office, etc. The Secondary components are often -but not always!- a direct copy of the Primary Components. Instead of Primary/Secondary other combos are used e.g., Primary/Backup. If production is up and running using Primary Components it is referred to as Business As Usual (BAU).
+- Staff: companies do in general not maintain 'spare' Staff. This means Staff availability is a dependency in most resilient setups i.e., if somehow the Staff is not available Operations may stop entirely! More on this later. 
+   
+The Components in the bottom part of the diagram are called *Secondary* i.e., *Secondary User Apps*, *Secondary Office*, etc. In the top part, the components are referred to as *Primary* i.e., *Primary User Apps*, *Primary Office*, etc. The Secondary components are often but not always a direct copy of the Primary Components. Instead of Primary/Secondary other combos are used e.g., Primary/Backup. It is important to note that both primary and secondary have a dependency on the same Public Infra. 
   
 At this point, it is worthwhile reiterating that this is a *Conceptual Framework*. Modern technology has many forms of redundancy and some of such technologies simplify various aspects of the framework. Some of these simplifications will be discussed later. 
-  
-### Connectivity between Components
-There is some form of cross connectivity involved (but not shown in the diagram). For example, the User Apps in the top part may also be able to connect via a Network Component to the Server Apps in the bottom part. In such resilient setups a variety of Connections becomes possible:
-- Primary User Apps ⇆ Primary Office (BAU)
+   
+Often there is cross connectivity possible (not shown in the diagram). For example, the User Apps in the top part are often able to connect via a Network Component to the Server Apps in the bottom part. In such setups a variety of Connections becomes possible:
+- Primary User Apps ⇆ Primary Office  
 - Primary User Apps  ⇆ Secondary Office (Staff connecting with remote access from backup office into User Apps in primary Office)
-- Secondary User Apps  ⇆ Primary Office (Staff connecting with remote access from the primary Office to User Apps in the secondary Office). 
+- Secondary User Apps  ⇆ Primary Office (Staff connecting with remote access from the primary Office to User Apps in the secondary Office)  
 - Secondary User Apps  ⇆ Secondary Office 
-- Primary User Apps ⇆ Primary Server Apps (BAU)
+- Primary User Apps ⇆ Primary Server Apps  
 - Primary User Apps  ⇆ Secondary Server Apps 
 - Secondary User Apps ⇆ Primary Server Apps
 - Secondary User Apps ⇆ Secondary Server Apps
-- Primary Server Apps ⇆ Primary Suppliers (BAU)
+- Primary Server Apps ⇆ Primary Suppliers 
 - Primary Server Apps ⇆ Secondary Suppliers 
 - Secondary Server Apps ⇆ Primary Suppliers
 - Secondary Server Apps ⇆ Secondary Suppliers
    
-### Recovery Process 
-The process(es) involved in moving from Primary to Secondary can be very detailed, but conceptually it is limited to:
-- Analysis: establish which Primary Components are failing
-- Decision: assess best way to recover by *switching* the Primary Component to Secondary Components. 
-   
-This *switch* to Secondary Component can require different steps:
+This cross connectivity increases the possibilities available for Recovery!  
+  
+### Recovery
+Recovery is the set of process(es) involved in moving from Primary to Secondary which can be very detailed, but can be simplified into:
+- *Recovery Analysis*: establish which Primary Component(s) is (are) failing
+- *Recovery Decision*: assess the best way to recover by *switching* Primary to Secondary Components and make sure Primary Components connect to or use the Secondary Components.
+  
+Recovery Analysis  
+Although on paper it seems simple to establish which Primary Components fail, there are many situations where it is not so black and white. For example, a flaky access to a Server App may because the User App has a problem, the network in between the Server App and the User App may be partially failing e.g., flapping network components,  or the Server App itself does not work, or has a dependency on another Server App which is not working or the network in between is not working well, etc, etc. 
+  
+Recovery Decision   
+The Recovery Decision should have as ultimate objective to minimise the Impact (see below). The decision is made based on the Recovery Analysis which as we could see above may not be that conclusive! Nevertheless, the decision should not only assess what to recover and how, but also assess whether it is even worthwhile recovering a component it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier stops providing the data at 17h00 and the average data update might be every 30 minutes it seems not be worth doing any effort. The decision should also consider the speed at which the above mentioned recovery steps can be achieved. If the sum of all steps to recover a Component takes 30 minutes then that may be too long.   
+  
+Ancillary Recovery Decisions may need to be taken as well, for example:
+- Clients may need to be informed and possibly recommended to temporarily do business with competitors. This may seem counter-intuitive, but Clients  prefer to know what their options are, and that timely, before starting to themselves suffer the consequences of an unavailability of one or more Services and subsequent Recovery. 
+- Governmental agencies like regulators may need to be informed if the Activities pertain to regulations.
+     
+Recovery Process  
+The actual *switch* to Secondary Component can require different steps for both the Primary Component being switched but also for the Components that used the original Primary Component:
 - Network changes e.g., DNS, changes, re-routing, disabling an active network
 - User App changes e.g., change of configuration files and reload or restart
 - Server App changes e.g., change of configuration files and reload (or restart). This also includes performing a restoration of Data. 
+- Location changes e.g., move to the secondary Office. 
 - Nothing e.g., the Secondary setup is effectively a so called hot-standby and will take over automatically as long as the Primary is 'declared' unavailable. 
   
-The decision should assess whether it is worthwhile recovering a component it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier stops providing the data at 17h00 and the average data update might be every 30 minutes it seems not be worth doing any effort. The decision should also consider the speed at which the above mentioned recovery steps can be achieved. If the sum of all steps to recover a Component takes 30 minutes then that may be too long, see also Urgency below.  
+Recovery vs BAU  
+Note that Recovery does not mean a return to BAU, see below. Recovery means that a certain level of Activity can be maintained. This level of activity depends on many factors. 
   
+Recovery Duration  
+It is important to accept the fact that Recovery takes time. The Recovery Decision take time because various considerations need to be made, possibly with limited information being available. Once a decision has been made, the actual Recovery Process needs to be performed which may take time as well. 
+    
 ### Scenarios
-Until so far no mention was made of the *reason* for one or more Component being partially or fully unavailable or in other words what the *cause* of some form of stress on a Component can be. Strictly speaking, the cause does not change the Recovery Process. However, assessing causes of stressed Components, allows for two things: a) identifying the (best estimate) probability a Component will endure such stress, and b) establish what the best course of action will be when it happens. This latter step culminates in the actual aforementioned recovery plan. 
+Until this point no mention was made of the *reason* for one or more Component being partially or fully unavailable or in other words what the *cause* of  the unavailability can be. Strictly speaking, this cause does not change the Recovery Process. However, assessing such causes allows for two things: a) identifying the (best estimate) probability a Component will endure a certain stress, and b) establish what the best course of action will be when it happens. This latter step culminates in the aforementioned recovery plan. 
+     
+Depending on the resources available to perform Business Continuity Management it may not be feasible to spend time on all possible causes of unavailability. Therefore, what is often established are so called *Disaster Scenarios* or simply *Scenarios*. A Scenario represents an event which *regroups* various causes of unavailability. Each Scenario has a broad-brush *Scenario Probability* attached to it, ranked as follows:
+- Low: every 5 years or more
+- Medium: every 1-4 years
+- High: several times per year
+   
+The occurrence of a Scenario is called a *Disaster*. The following are essential Scenarios (in brackets the Scenario Probability):
+- Business As Usual a.k.a. *BAU* (n/a): the baseline against which all other scenarios are  measured. As this is the default, there is no Scenario Probability attached to it. 
+- Server Apps failure (High): probably the simplest Scenario, but statistically also the most frequently occurring. This type of unavailability can lead to full failure of the Activities, so it is not one to discard! 
+- Climate events e.g., cyclone, typhoon, earthquake, tsunami, flooding (Medium). This can affect Public Infra, Office, Supplier, Server Apps (specifically the building from which the Server Apps operate) as well as Networks. In some cases, the frequency of certain weather events is so high that it is deemed BAU unless it is of extreme intensity.
+- Strikes (Medium). These can affect Office access, Supplier services and potentially lack of Staff (if the Strike is performed or contributed to by Staff)
+- Pandemics like the 2019 Covid pandemic (Low). This can affect Staff directly (they get sick) or indirectly (the Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
+- Physical large scale threats like wars, terrorist attacks, risk of explosions like gas leak, or bombs from past wars (Low). These may impact all aspects of the Conceptual Framework. 
+- Cyber Attack (Medium): various forms of cyber attack (ransomware, data theft, ...) which can affect any of User Apps and Server Apps, Suppliers, Public Infra.
 
-Each individual Component, and thus Sub-Component can have many different reasons to not be fully available. For example:
-- Staff can be unavailable due to sickness or an accident either directly or indirectly (family member). Or Staff can simply walk out on work e.g., a strike or resignation.
-- Hardware will fail at one point e.g., memory failure, cooling unit failure, disk failure, etc. This can impact both User Apps and Server Apps. 
-- Software can fail as a result of a bug, end of license. This can impact both User Apps and Server Apps. 
-- Offices can become inaccessible due to a strike in relation to the company or nonfunctional e.g. electricity outage.
-- Public Infra can become unavailable e.g. Public Transport Strike, 
-- Network components are composed of both Hardware and Software (see above) and in addition, the cabling used between the Network components may be cut accidentally.  
-  
-Depending on the resources available to perform Business Continuity Management it may not be feasible to spend time on all possible causes of unavailability. However, what is often worth establishing is so called *Disaster Scenarios*, in short Scenarios. A Scenario represents an Event (with a certain probability) which *regroups* various causes. Typical scenarios are:
-- Business As Usual (BAU), which serves as the baseline scenario against which all other scenarios can be measured. 
-- Climate events e.g., cyclone, earthquake including resulting tsunami causing flooding. This can affect Public Infra, Office, Server Apps (specifically the building from which the Server Apps operate) as well as Networks
-- Strikes. These can affect Office access, Supplier services and potentially lack of Staff (if the Strike is performed or contributed to by Staff!)
-- Pandemics like the 2019 Covid pandemic. This can affect Staff directly (they get sick) or indirectly (the Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
-- Wars including terrorist attacks. These may impact all aspects of the Conceptual Framework. 
-- Cyber Attack: various forms of cyber attack (ransomware, data theft, ...) which can affect User Apps and Server Apps and/or Suppliers.
+As will become clear from anove, the Scenario Probabilities can be very country specific (certain countries have no occurence or extremely low probability of severe weather whereas certain countries have a high probability), etc.  
   
 By looking at broad-brush Scenarios, it is possible to focus on events that will affect a broad range of Components and perform the Analysis and Decision in advance of the actual event happening across all Components.
+
+### Return to BAU
+Once Recovery was performed, the Activities operate often in a reduced capacity. This occurs when the Secondary Components may not be of the same quality, capacity or performance as the Primary Components. This is purely Cost based: having fully available, same capacity and same performance Secondary Components has a Cost. And if that Cost cannot be sufficiently recouped through the Revenue from the Activities performed using the Primary Components, then it is not worth spending on top-notch backup material. In addition, certain Disasters are Secondary Component Agnostic (Physical threats, Pandemic, etc). Therefore, at one point returning to BAU is a desired step and depending on the Recovery that was chosen, it means simply correcting the Primary Component and switching back to using it.  
   
-### Dimensions
-As can be seen from the above, the Conceptual Framework gives the appearance of a simple process to establish a Recovery Plan. However, as mentioned earlier, the simplifications in the Conceptual Framework, although improving understanding of the concepts involved, obscure the complexity introduced by the various *dimensions* of designing a recovery plan for Operations of a Company. These dimensions are at least the following:
-- Sub-Components per Component (SC) 
-- Connectivity Paths (CP) between Sub-Components
-- Stress Levels (SL) applicable to each Sub-Component
+### Impact
+Residual Impact or *Impact* in short assesses the consequences for the Activities of having had to Recover for a certain duration. Specifically, it looks at the consequences to Activities of the following chain of events or *Impact Cycle*:
   
-Further dimensions can be added, if a Company is operating out of different Countries with similar Operations and Components or interdependent Components across a transversal set of Operations. In other words, Country or Region can become a Dimension:
-- Country (C)
+ BAU -> Disaster -> Unavailability -> Recovery -> Return to BAU
+    
+The consequences are measured against different *Impact Aspects* of the Profile Tree from the Management Framework. Below list shows range of possible consequences for each aspect as none / some / worst:
+- Services: no loss of Services / some Services reduced or unavailable / most or all  Services unavailable.
+- Clients: no consequences for Clients / Clients did business elsewhere temporarily,  informal complaints / Clients left entirely, formal complaints.
+- Revenue: no loss of Revenue / some Revenue lost / large or all Revenue for the duration of the cycle lost. 
+- Cost: no Cost impact / some Cost due to small fines, penalties, lawsuits /large Cost increase due to significant fines, etc.   
+- Risk: no Risk change / some Risk was increased and required mitigation (hedging, insurance) / Risk profile changed entirely and required significant mitigation
+- Assets: no Assets were lost or damaged / some Assets were lost or damaged and require replacement or repair/ many Assets were lost or damaged and require full replacement or repair.
+- Staff: no Staff were impacted / some Staff were impacted (psychological, sick symptoms, sick leave) / Staff died or left the company and requires replacement.
+- Suppliers: no Suppliers suffered any consequences / some Suppliers were impacted and require a return to BAU / Suppliers went out of business and replacement is required. 
+- Capital: no Capital consequences / some small loans needed to be made / Company needed to re-capitalise by issuing new Shares
+- Image: no change in the Company image / some informal news or small formal news attention / full articles in public sources possibly including TV. 
+    
+Other types of impact are possible, but above is generic enough to cover most. Note that most of the consequences ultimately impact Revenue and Cost and to a lesser extent Risk, as is to be expected as this in line with the Management Framework where the Results of a company's Operations are Revenue, Cost and Risk. 
   
-Establishing plans becomes quickly very difficult. For example a company operating across 2 countries with 3 different floors in each country, with 20 User Apps and 20 Server Apps with provision of 20 Supplier services with 3 different Stress Levels and assuming that 200 Staff operate across those 2 Countries.    
+Due to the different levels of Impact across the multitude of Impact Aspects , the use of qualitative labels is used to indicate the overall Impact on the company of the entire *Impact Cycle*:
+- Low: no or limited consequences to one or more Impact Aspects 
+- Medium: some consequences on one or more Impact Aspects
+- High: noticeable consequences on one or more Impact Aspects. 
+
+Remember that the Recovery Decision (see Recovery above) should aim at minimising the Impact. And as we saw above Impact includes a return to BAU whereas this is most likely not the most important concern for a Manager making a Recovery Decision. Nevertheless, an attempt should be made to consider this future unknown Return to BAU in the Decision. 
   
 ### Data
-So far little has been mentioned about Data. Data is assumed to be included in Server Apps in the Conceptual Framework. This is practically correct: the Data used by User Apps is available on Server Apps. However, Data driven Companies need to consider Data *corruption*. That is to say, the infrastructure and software that use that Data function as BAU but the Data itself is (partially) missing and/or the content has been incorrectly updated. As such, Companies often make, and keep, of copy of their Data, potentially at a secured location, at frequent intervals to be able to put back a *last known correct* version of the Data on the Server Apps. A copy kept for a certain time are called *backup*.  
+So far little has been mentioned about Data. Data is assumed to be included in Server Apps in the Conceptual Framework. This is practically correct: Data used by User Apps is available on Server Apps. However, Data driven Companies need to consider Data *corruption*. That is to say, the infrastructure and software that use that Data function as if it is BAU but the Data itself is (partially) missing and/or the content has been incorrectly updated. As such, companies often make, and keep, of copy of their Data, potentially at a secured location, at frequent intervals to be able to put back a *last known correct* version of the Data on the Server Apps. A copy kept for a certain time is called *data backup*.  
   
 ### Urgency
-So far the conceptual framework has not discussed the desirable speed at which recovery should or can be achieved. There are various metrics used in BCM to establish the time a Recovery can take before Operations continue. Two recurring terms are RTO and RPO. Recovery Time Objective is the desired *timespan* within which a Component is recovered. Recovery Point Objective states the *point in time* in from which Data needs to be available for Operations to continue without noticeable impact. Practically speaking, RPO deals with how frequent backups of Data are made, how long backups take. RTO deals with how long it takes to switch to a secondary component including putting back a backup. Shorter RTOs and tight RPOs mean that the Recovery Processes need to be more optimal, which comes at a Cost (see below). 
+Up to this point the conceptual framework has not discussed the desirable speed at which recovery should or can be achieved. There are various metrics used in BCM to establish the time a Recovery can take before Operations continue. Two recurring terms are RTO and RPO. Recovery Time Objective is the desired *timespan* within which a Component is recovered. Recovery Point Objective states the *point in time* from which Data needs to be available for Operations to continue without noticeable impact. Practically speaking, RPO deals with how frequent backups of Data are made and how long backups take. RTO deals with how long it takes to switch to a secondary component including putting back a backup. Shorter RTOs and tighter RPOs mean the Recovery Processes need to be more optimal, which comes at a Cost. 
   
 ### Testing
 The assessment of the Scenarios, Analysis of the Scenario impacts and planned Decisions to remediate the impacts remains theoretic. In order for a Company's Management to be confident that the Recovery Plan could work, it has to be tested, and this needs to be done frequently given the Operational setup of most companies changes. 
   
 ### Further Considerations
-As mentioned before, more granular Stress Levels of availability (or unavailability) can be devised e.g., 10%, 20% available etc., but that does not change the approach discussed here. In addition, although theoretically granularity may give an illusion of accuracy, the practicality of such granular Stress Levels remains is doubtful. 
-    
-No consideration was given to Staff. In the above framework, Staff is deemed available a a single resilient level as opposed to for example User Apps which can have a primary and secondary instance. However, in reality, the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics or War in which Staff can be affected up to no availability. For Companies with Offices in several Countries it may be considered to have cross-country resilience with the Staff performing Operations split across different Countries. This potentially brings its own challenges and thus Cost. 
-    
-The above model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components. 
+As mentioned before, more granular Stress Levels of availability (or unavailability) can be devised e.g., 10%, 20% available etc., but that does not change the approach discussed here. In addition, although theoretically granularity may give an illusion of accuracy, the practicality of such granular Stress Levels remains is doubtful: more information does not lead to better decisions, particularly when the reliability of the information is doubtful. 
+   
+Staff  
+No consideration was given to Staff. In the above framework, Staff is deemed available as a single resilient level as opposed to for example User Apps which can have a Primary and Secondary instance. However, in reality the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics, terrorst attacks like '911' or War in which Staff can be affected up to no availability. For Companies with Offices in several Countries it may be considered to have cross-country resilience with the Staff performing Operations split across different Countries. This is however, not always an option and it potentially brings its own challenges and thus Cost. 
   
-The above assumes the Company decides on how whether they will be able to recover and how urgent this recovery is. However, depending on the Sector a Company operates in, rules and regulations may require various aspects of the Company's resilience. This is typically the case for Banks, which are deemed to uphold the economy on a Country for example. 
+Tertiary Components      
+The Conceptual Model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components or have a hybrid model where more critical Components have such tertiary components. 
+    
+Sector Considerations  
+The above assumes the Company decides on how whether they will be able to recover and how urgent this recovery is. However, depending on the Sector a Company operates in, rules and regulations may require various aspects of the Company's resilience. This is typically the case for Banks, which are deemed to uphold the economy for a Country for example. 
   
-### Cost
+Cost  
 No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date, the cost of maintaining potentially many backups of Data secured, the Cost of optimising the Recovery Process -which may include purchase of better Sub-Components- to make it faster, etc. 
+  
+### Crisis Management
+With the above concepts, we can now define the actual phase of managing a Disaster often called *Crisis Management*. Crisis Management is based on a preparation and an actual handling of a Disaster managed by different Roles & Responsibilities. 
+  
+Preparation  
+Anyone involved in Crisis Management needs to be aware of the following concepts, and how they apply in their company:
+- Components 
+- Unavailability of Components in a numerical scale: 0%, 50% and 100%
+- Recovery Components
+- Scenarios with their probability of occurring from Low to High, and the resulting Unavailability of one or more Components for each Scenario
+- Recovery
+- Impact from good to worse in a qualitative scale: Low, Medium and High. The impact can be more specific than the list provided above given the knowledge of the business model of the company. 
+  
+Managers need to understand these aspects, the fact that they are part of a Conceptual Framework and why such Framework is preferable over a more granular approach. 
+  
+These key concepts can be reflected in a two-dimensional *Crisis Management Table* or *CMT*:
+- Columns: Scenarios, Scenario Probability, each Component, Recovery, Impact
+- Rows: Scenario + Scenario Probably Rating (Low, Medium or High) + Unavailability (0, 50, or 100%) for each of the Components + most adequate Recovery option + Impact (Low, Medium, or High)
+
+Color codes can be used for the different rankings, for example:
+- Green: 0% Unavailability, Low Scenario Probability, Low Impact
+- Amber: 50% Unavailability, Medium Scenario Probability, Medium Impact
+- Red: 100% Unavailability, High Scenario Probability, High Impact
+   
+The CMT gives Managers a good idea, beforehand, what the relevant Disasters are for their scope, how likely they are to occur, what the effect is on the different Components in terms of Unavailability and how well a Recovery can be performed, measured by the expected Impact. The CMT should fit on a single page to force only the essentials to be captured.  
+  
+The CMT can also identify mismatches between Scenario Probability and Impact: the more likely a Scenario is to occur, the better a Company should be able to Recover to minimise Impact. If this is not the case, the Manager should take decisions to improve the Recovery options. The color coding mentioned above should enable to spot such divergences quicker. 
+   
+Crisis Handling  
+Armed with the knowledge of the Crisis Management Table, a Manager is better prepared to make decision when a disaster occurs. He is not caught unawares, knows potential impacts. Knowing how bad it can get helps manages take decisions quicker because the worst is already on the table!
+  
+Roles & Responsibilities  
+Dependnig on the size of the Venture a Manager has an interest to delegate the BCM process and be involved only in the latter part (understanding the CMT, drawing conclusions and being able to handle a crisis). A Manager can also delegate the decisions to line-Managers etc. 
 ________________________________________
 ## Trends (Framework)
 One way to obtain notably Market Intel is by subscribing to or following on the internet Trend related persons, institutions or companies (Trend Entities). As part of the default Routines, see [## Objective Definition] there should be one Routines reflecting a recurring spending of time in obtaining Market Intel through trend entities. Note that if a Trend is deemed important it may lead to a dedicated Projects or may obtain dedicated attention in Goal = prd, Sub-Goal = Research & Development.  
@@ -1780,7 +1853,7 @@ The above is detailed in [## Delegation Checklist].
 ### Delegating Principles
 From a manager perspective, delegating is a crucial tool to be able to focus on Management rather than Operations. Line Managers and Team Leaders in particular have a dual role that also includes operational work.
 
-The following principles aid in maximising delegating:
+The following principles aid in maximising delegating for Managers:
 1. The basic principle is that Operational work should be delegated
 2. Quick wins (taking less than 5 minutes) can be done without delegating
 3. Anything above Quick wins, duration wise, should be delegated. 
@@ -1804,14 +1877,14 @@ Venture:
 There are several conundrums in Delegation. 
   
 1. No time to delegate
-This conundrum refers to investing time to delegate a Process, i.e. In order to delegate, effort has to be done, see [### Delegation Workflow]. An often heard reason to not delegate is because of that. 
+This conundrum refers to investing time to delegate a Process, i.e., In order to delegate, effort has to be done, see [### Delegation Workflow]. An often heard reason to not delegate is because of that. 
   
 2. No time to perform Oversight 
 Similar as 1., Oversight takes time which is scarce. 
   
 3. Accountability suggest knowing all
 Being accountable does not mean knowing the details of Processes that yield the Results for which the delegator is accountable. However, the delegator does need to understand the Result and should have the ability to understand the Process if necessary.
-  
+   
 It is true that the effort to Delegate + performing Oversight should be less than the actual time to perform the delegated Process, at least from a delegator perspective. However, the advantages to the delegatee are still relevant, and in the long run the time saved by a delegator might increase with more delegation being possible for other tasks, simply because of the overall increased skills.
    
 ### Delegating and Activities
@@ -1854,7 +1927,7 @@ The Executive Summary explains below sections in 5-30 lines. This helps in three
 3. It can be used for documents that require a short description of the JD.
 
 The Executive Summary should contain:
-1. One-liner setting out the overarching target of the Role. It can be expressed as a Mission, see [MGT: 99.Legend ### Mission].
+1. One-liner setting out the overarching target of the Role. It can be expressed as a Mission, see [Management Framework ### Mission].
 2. Explanation of Run Goals including Routines with a reasonable level of detail. 
 2. Description of the Change Goals and, specifically, how the Role contributes to them.
 
@@ -1873,7 +1946,7 @@ Optional details for the Venture Description are:
 The Venture Description leads into the Activity relevant to the JD.
  
 ### Activity Description
-The Activity Description sets out the detailed context in which the JD is performed. It is possible to revert to the Activity's Operating Model (detailed in a separate document), specifically the Executive Summary, [MGT: 80.Tools-OM-Activity].
+The Activity Description sets out the detailed context in which the JD is performed. It is possible to revert to the Activity's Operating Model (detailed in a separate document), specifically the Executive Summary, [MGT: 06.Tools-OM-Activity].
 
 The Activity Description should cover the following items from the Profile and the RPT, each being an L3 section, e.g., [### Environment], [### Clients], etc.:
 - Environment: in which the Activity operates. Note that the Activity does not necessarily have exposure to the Environment of the entire Venture, which is why Environment is discussed specifically on Activity level.  
@@ -2541,7 +2614,7 @@ ________________________________________
 See [## Data & Info] further below under [# ASSETS].
 ________________________________________
 ## Oversight Framework (Framework)
-An Oversight Framework is used to oversee a specific Activity. Its use is particularly useful in business models where the quality of output is critical e.g., heavily regulated sectors, dangerous activities involving systems or outout thst are detrimental to Staff or the Environment, etc. The concepts of the Framework follow the principles laid out under the Management Function called Controlling. The Oversight Framework thus takes specific aspects of the Profile Tree and creates a cohesive structure around it. Key topics are:
+An Oversight Framework is used to oversee a specific Activity. Its application is particularly useful in business models where the quality or accuracy of output is critical e.g., heavily regulated sectors, dangerous activities involving systems or outout that are detrimental to Staff or the Environment, etc. The concepts of the Framework follow the principles laid out under the Management Function called Controlling. The Oversight Framework takes specific aspects of the Profile Tree and creates a cohesive structure around it. Key topics are:
 - Rules
 - Processes
 - Resources
@@ -2551,7 +2624,7 @@ An Oversight Framework is used to oversee a specific Activity. Its use is partic
 - Committee
   
 ### Rules
-Rules define all external laws, regulations, guidances etc. and/or internal policies to which the Activity is subject. Rules can also be construed as specifc Objectives that must be achieved repeatedly. Put simply, Rules in the Oversight Framework, define how an Activity should be performed, and thus defines what the Activity should be measured against.
+Rules define all external laws, regulations, guidances etc. and/or internal policies to which the Activity is subject. Put simply, Rules in the Oversight Framework, define the constraints imposed on how an Activity can be performed or should be performed. It thus also defines what the Activity should be measured against.
   
 ### Processes 
 Processes are specific Steps applied to some Input to yield some form of Output which is reflected in Results. Weaknesses in Processes can result in Rules not being observed.
@@ -2564,9 +2637,10 @@ Results reflect direct or indirect output of Processes and Systems. Direct outpu
   
 ### Controls
 Controls are specific Processes, including embedded in Systems, that verify that above Processes, Resources and Results are as expected per the Rules. 
+Controls include independent review by internal or external auditors.
   
 ### Roles & Responsibilities
-The Roles & Responsibilities or R&R define what Staff is expected to do when performing Processes, when developing or maintaining Assets. Poorly designed or poorly defined R&R can result in Rules not being observed. 
+The Roles & Responsibilities or R&R define what Staff or Groups of Staff are expected to do when performing Processes, and when developing or maintaining Assets. Poorly designed or poorly defined R&R can result in Rules not being observed. 
   
 ### Committee
 A Committee is a recurring meeting that relevant,, senior, members attend with the aim to make decisions for one or more proposals based on information in relation to one or more topics. Committees are framed by the Terms of Reference. For more details see [## Committee] below. The decisions are made on the basis of metrics like KPI, KRI, that are relevant to the scope of the oversight.
@@ -2580,6 +2654,17 @@ This framework uses the following definition of a Committee:
 A Committee is a *recurring meeting* that relevant *Members* attend with the *Purpose* to make *Decisions* for one or more *Proposals* based on *Information* in relation to one or more *Topics*. Committees are framed by the *Terms of Reference* and each Committee having been held is formalised through *Meeting Minutes*.
   
 These aspects are discussed below.
+
+### Committee Purpose
+Ultimately the purpose of a Committee is to make Decisions. There are cases where a Committee-like structure is required for example because of laws or regulations, or because of an internal policy. Nevertheless, the structure of the Committee should be driven by the notion of making Decisions, and if decisions are not twken, the Committee should be considered not needed. 
+However, not every Committee decides on the same Topics. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
+    
+Specific types of Committee are so called *Oversight Committee*:
+- Senior Management Company level: Board Meeting, Executive Committee
+- Specific functionality Committees: Risk Committee, Sales Committee, ...
+- Committees focusing on Projects: Operational Committee (Opco), Steering Committee (SteerCo)
+
+Such Committees are part of a Oversight Framework, see [## Oversight Framework].
    
 ### Committee Recurring Meeting
 A meeting or *session* takes place in presence or on-line with a predefined recurrence or frequency, with the option to initiate ad-hoc meetings when relevant. Recurrence can be anything, but it tends to be a certain amount of weeks or months. 
@@ -2627,17 +2712,7 @@ The Topics for Proposals rely on Information a.k.a. Intel. Information and Data 
 Depending on the Information type, the determination of whether a Proposal is required can be framed within the information creation process. For example, if the Topic is related to the monitoring of a production aspect "Number of failures of some Asset ...", "Percentage of breaches of protocol of some process", the Information creation process can dictate the use of a threshold like a cap or floor above or below which a Proposal has to be made, but below or above such Proposal is not necessary. This could be something like: "If threshold is breached the information is presented in the appendix, else an explanation needs to be provided and a proposal needs to be formulated." The manner in which Information is produced including thresholds as well as the manner in which they are used to yield Resolutions can be reflected in the Terms of Reference, or iutside of it.  
 In many cases, the Data collection and Information creation as preparation of the Committee can be, and often is, more time consuming than the actual meeting.  
 The Information that forms the basis of decisions is very important. In many cases it is sent ahead of the Meeting so that the Committee Members can prepare.
-
-### Committee Purpose
-Ultimately the purpose of a Committee is to make Decisions. However, not every Committee decides on the same Topics. As such, a given Committee focuses on a group of Topics or type of Topics across a given Scope e.g., Client Onboarding, Quality Control of the assembly line, etc. 
-    
-A specific type of Committee is the *Oversight Committee*:
-- Company Board Meeting, Executive Committee
-- Specific functionality Committees: Risk Committee, Sales Committee, ...
-- Committees focusing on Projects: Operational Committee (Opco), Steering Committee (SteerCo)
-
-Such Committees are part of a Iverisgft Framework, see [## Oversight Framework].
-  
+   
 ### Committee Minutes
 Minutes reflect the Decisions that were taken including the formalisation of Action Points that were decided. Minutes should in general *only* be concerned with decisions i.e., minutes should in general not reflect discussiosns that took place prior to a Decision, or even without any Decision at all. Such discussions may, or may not, be kept in the form of a seperate, written *transcript* which should be maintained only exceptionally, or unless there is a lawful obligation. Minutes, combined with the Information reflect the formalisation of the Meeting ex-post. 
   
@@ -2786,15 +2861,14 @@ The Control Conundrum reflects the following counter-intuitive proposition:
 
 "Too Many Controls Kill the Controls."
 
-This stems from the fact that the Check Standards can be heavy to implement. If it is done for many different checks and Reviews, then the time spend on Controlling might be disproportionate to the time spent on the Run that those Controls are supposed to supervise. 
-In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a result of Benchmarks that are not calibrated correctly i.e. too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
+This stems from the fact that the Check Standards can be heavy to implement. If it is done for many different checks and Reviews, then the time spend on Controlling might be disproportionate to the time spent on the Run that those Controls are supposed to supervise. In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a result of Benchmarks that are not calibrated correctly i.e., too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
 ________________________________________
 ## Self-Contained Mail (Framework)
 Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what was checked and what action is expected, if any. 
 
 When setting up a Self-Contained Mail system, assume that the Receiver of the mail: 
-- Is completely unaware of why he/she receives such Mail;
-- Has little knowledge of the Activity(ies) the Check is relevant to.  
+- Is completely unaware of why he receives such Mail;
+- Has little knowledge of the Activity(ies) the Check relates to.  
 
 The following are guidelines on how to set this up:
 - Design the Check according to the Check Standards, see [## Check Standards], in which the step 7, Report, is effectively the mail. 
@@ -4066,5 +4140,7 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20260121
 - Cleaned up some empty tools 
 
- 
+### 20260218
+- Updated [## Business Continuity Management] and added the notion of Impact.  
+
 
