@@ -137,7 +137,7 @@ The Profile expresses a Venture through a *Profile Tree*, composed of interrelat
         - Revenue  
         - Cost  
         - Risk  
-        - Image
+        - Image  
     ⇕  
 - Management  
     - Planning  
