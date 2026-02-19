@@ -1592,7 +1592,7 @@ _____________________________________
            *secondary*   
 _____________________________________  
   
-    Fig 2: Resilient Conceptual Framework Components
+    Fig 2: Primary and Secondary Components
  
 In which all Components appear twice except:
 - Public Infra: not in the control of the company, so it is deemed not resilient, which is not necessarily true for all Public Infra e.g., internet providers may have backup infrastructure, a Tram can be replaced by buses, etc. 
@@ -1707,7 +1707,7 @@ The CMM gives Managers a good idea, beforehand, what the relevant Disasters are 
   
 The CMM can also identify mismatches between Scenario Probability and Impact: the more likely a Scenario is to occur, the better a Company should be able to Recover to minimise Impact. If this is not the case, the Manager should take decisions to improve the Recovery options. The color coding mentioned above should enable to spot such divergences quicker. 
 
-Crisis Testing
+Crisis Testing  
 Crisis Testing consists of verifying that the Crisis Preparation yields the most optimal Crisis Handling. This is simpler on paper than in practice, because in order to test one has to simulate a Disaster with the associated Unavailability, which will directly impact Operations! There are various ways of testing, however, and they can be categorised as follows:
 - Table Top Exercise: a simulation of a Disaster without stressing any of the Primary Components, possibly isolating specific Staff as 'actors' in the exercise and including observers to identify weaknesses in the entire process. 
 - Testing Outside of Operating Hours: this often includes testing during weekends, which means a limited setup as many Suppliers and Clients are not operational. 
@@ -1724,7 +1724,7 @@ Crisis Handling is the set of Process(es) involved in moving from Primary to Sec
   
 The Recovery Decision should have as ultimate objective to minimise the Impact. The decision is made based on the Recovery Analysis which as we could see above may not be that conclusive! Nevertheless, the decision should not only assess what to recover and how, but also assess whether it is even worthwhile recovering a component it e.g., a disconnect to a data Supplier at 16h45 could be recovered but if the Supplier normally stops providing the data at 17h00 anyway and the average data update might be every 30 minutes it seems not be worth doing any effort. The decision should also consider the speed at which the above mentioned recovery steps can be achieved. If the sum of all steps to recover a Component takes 30 minutes then that may be too long.   
   
-Ancillary Recovery Decision, decisions include anything that will help in minimising Impact, whilst none of such decisions are effectively a form of Recovery. For example:
+Ancillary Recovery Decision include anything that will help in minimising Impact, whilst none of such decisions are effectively a form of Recovery. For example:
 - Clients may need to be informed and possibly recommended to temporarily do business with competitors. This may seem counter-intuitive, but Clients  prefer to know what their options are, and that timely, before starting to themselves suffer the consequences of an unavailability of one or more Services and subsequent Recovery. 
 - Governmental agencies like regulators may need to be informed if the Activities pertain to regulations. Early notification is always better than after the fact. 
 - Staff may be told to not perform certain Processes so as to offload stress on the Network or Server Apps.
