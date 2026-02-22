@@ -270,7 +270,7 @@ e.g., [Management Framework - Appendix ## Note Reference] i.e this section.
   
 In addition to the above it is possible to have references like [# SEC1 ## Sec 2] which explicitly refers to L2 Section 'Sec2' *in* L1 Section 'SEC1'.   
   
-In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: Planning ...".  
+In notes it is possible to use such references by explicitly using the words 'section(s)' or 'note(s)' in front of, or behind the item. e.g. "... section ## Routines in section # OBJECTIVES in note MGT: 01.Planning ...".  
   
 ### File
 For a file the Note Reference is [File Path], [F: File Path] or [F: File Path] in which File Path is either a full path to a file or directory or a shorter version of such path. File Paths are operating system specific. 
@@ -804,12 +804,12 @@ ________________________________________
 ## VRIO  (Framework)
 VRIO stands for Valuable, Rare, Inimitable, Organisation. It is another Tool used to define and analyse the *internal* aspects (Strengths, Weaknesses) of the SWOT (see above).
 
-Todo: find the details of this Tool.
+To do: find the details of this Tool.
 ________________________________________
 ## Pestel  (Framework)
 Pestel stands for Political, Economic, Socio-cultural, Technological, Environmental, Legal environments. It is a Tool used to analyse and define the *external* aspects (Opportunities, Threats) of the SWOT analysis, see above).
 
-Todo: find the details of this Tool.
+To do: find the details of this Tool.
 ________________________________________
 ## SMART (Framework)
 SMART (Specific, Measurable, Aggressive, Realistic, and Time-bound) is a Framework used to define Objectives.
@@ -928,7 +928,7 @@ The following are classic Sub-Goals for Run Goal prd:
   
 In which: Maintenance is a catch-all for one or more of the following: on/off-boarding (including due diligence, negotiation, contracts, service agreements, notification,...), implementation, integration, testing, quality assessment (including calibration of thresholds), performance assessment, data collection, reporting, update, purchase and/or disposal of the Sub-Goal topic. It can include definition of procedure on how to perform said maintenance, validation workflow, referential updates, software configurations, documentation, meetings in relation to the topic, etc. Maintenance could be construed as Change and not Run. The difference is subtle, and at the discretion of the Manager. In most cases, if maintenance is rather small compared to the resulting Growth of Revenue or decrease in Cost, or decrease in Risk then it is deemed Run.
     
-The last Sub-Goal, Production Support, is typically used for roles within an Activity that are a direct support to, without being accountable for Production, but also not being considered a Supplier e.g., Business Managers, COOs, Function Support, Team Support, Trade Support, Business Support, etc. Often, this Sub-Goal embeds interaction with the Business Functions, and potentially performance of processes related to such Business Functions. Production Support cannot perform, or assist in, any Routine of an Activity, but can assist in any of the other Sub-Goals. It is possible that there are as many Production Support Sub-Goals as there are Activities, which is the case if each Activity has a dedicated Support. Note that It is possible that the various Maintenance Sub-Goals in prd are owned by Suppliers. 
+The last Sub-Goal, Production Support, is typically used for roles within an Activity that are a direct support to, without being accountable for Production, but also not being considered a Supplier e.g., Business Managers, COOs, Function Support, Team Support, Trade Support, Business Support, etc. Often, this Sub-Goal embeds interaction with the Business Functions, and potentially the performance of processes related to such Business Functions. Production Support cannot perform, or assist in, any Routine of an Activity, but can assist in any of the other Sub-Goals. It is possible that there are as many Production Support Sub-Goals as there are Activities, which is the case if each Activity has a dedicated Support. Note that It is possible that the various Maintenance Sub-Goals in prd are owned by Suppliers. 
   
 Run Goal = ovs
 The following are typical Sub-Goals for Run Goal ovs:
@@ -966,15 +966,10 @@ ________________________________________
 ## Objective Definition (Framework)
 Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [Management Framework ## Objectives] and is elaborated on here.
 
-To be specific:
+Secifically:
 - Routines: linked to Run Goals i.e., focus is on generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
 - Projects: focus is on Change Goals i.e., the improvement of the Run.
-   
-There are cases where work is being asked to be performed which is neither specifically Run and also not a Project. In that case the Manager has two options to record that work:
-- Run Goal = ovh -> Run Sub-Goal = one-off
-- Change Goal = oth
-
-The differentiating factor is whether it it worth tracking as an actual Project or not.
+- Task: a catch-all for "things to do" but less formal than Projects and on a smaller scale i.e., cases where Work is being asked to be performed which is neither specifically Run and also not really a Project. The differentiating factor is whether it it worth tracking as an actual Project or not.
 ________________________________________
 ## Objectives Properties (Framework)
 Objectives have various properties that were explained in the Management Framework Profile. Here a deep dive is done on properties of an Objective.
@@ -1027,29 +1022,29 @@ The How of an Objective can include the following aspects:
 - ...
   
 ### Conclusion
-From the above it is clear that an Objective, although conceptually simple, can have many properties. In above explanation each list ends with "..." to indicate that other properties are possible. Depending on the Management Level, the number of Properties required would decrease with increasing Management Level. 
+From the above it is clear that an Objective, although conceptually simple, can have many properties. Depending on the Management Level, the number of Properties required would decrease with increasing Management Level. 
 ________________________________________
 ## Objective Notation (Framework)
-Objective Notation is a formalised structure to write down anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks and Comments as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
+Objective Notation is a formalised short-hand structure to reflect anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
   
 ### Objective Notation Purpose
-The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives, without going it to too much detail.  Although the Objective Notation is well structured and formalised, this does not mean  formalism is *required*. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid use of it. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties]. 
+The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives in a single line of text and without going it to too much detail.  Although the Objective Notation is well structured and formalised, this does not mean  formalism is *required*. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid implementation. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties].  
   
 ### Objective Notation Format
-The Objective Notation Format uses 6 so-called *Objective Components* or *Objective Indicators* as follows:
+The Objective Notation Format uses 6 so-called *Objective Components* or *Objective Indicators* as follows (note the different bracket types):
    
 status name (date) {owner} |link| [reference]
     
 This notation links to the 6W as follows:
 - status: part of *What*
-- name: describes *What*
+- name: covers key elements of *What*
 - (date): covers key elements of *When* 
 - {owner}: covers key elements of *Who*. 
-- |link|: explains *Why*.
-- [reference]: pointer to details, explaining *How* 
+- |link|: covers key elements of *Why*.
+- [reference]: covers key elements of *How* 
   
 There is no Objective Indicator for *Where* because:
-a. Objectives are owned by Staff 
+a. Objectives are owned by Staff i.e., {owner}
 b. Staff are mostly located in a single location 
 c. An Objective is often agnostic to the location and if it is really not it can be addressed in *How*.
     
@@ -1058,26 +1053,27 @@ The order of components is critical:
 2. Date Indicator can be considered part of an Objective Measurement e.g. "Check output (daily)".
   
 The number of spaces *between* components is optional i.e., there could be none or many. However, there *cannot be any* space *before* the Status Indicator and their *must* be at least one space after it. Note that when using Objective Notation in a *hierarchy* it *is* possible to precede Status with spaces see [### Objective Notation Hierarchy]. Only Status and Name are mandatory. 
-
+  
 ###  Objective Notation Status Indicator
 Status is mandatory and uses a symbol followed by <space>:  
-- "% " : Run Goal, Run Sub-Goal (percentage)  
-- "$ "  : Change Goal, Change Sub-Goal (dollar) 
-- "& " : Routine (ampersand) 
-- ". " : Project, Not Started (dot) 
-- "/ "  : Project, Started (forward slash) 
-- "~ " : Project, Pending or Delegated (tilde)   
-- "x " : Project, Closed (lower case letter x) 
-- "! " : Project, Urgent (exclamation mark)
-- "= ": Project, Cancelled but keep for visibility (equal sign) 
-- "- " : Comment (dash or hyphen)  
-- "+ " : Comment (plus)  
-- "_ " : Comment (underscore)   
-- "dd-mm-yy: " : Comment (date format comment)  
+- '% ' : Run Goal, Run Sub-Goal (percentage)  
+- '$ ' : Change Goal, Change Sub-Goal (dollar) 
+- '& ' : Routine (ampersand) 
+- '. ' : Project, Not Started (dot) 
+- '/ '  : Project, Started (forward slash) 
+- '~ ' : Project, Pending or Delegated (tilde)   
+- 'x ' : Project, Closed (lower case letter x) 
+- '! ' : Project, Urgent (exclamation mark)
+- '= ' : Project, Cancelled but keep for visibility (equal sign) 
+- '- ' : Comment (dash or hyphen)  
+- '+ ' : Comment (plus)  
+- '_ ' : Comment (underscore)   
+- 'dd-mm-yy: ' : Comment (date format comment)  
   
-NB: dash and plus become a bullet point list in MarkDown, so if a note is being used in MarkDown it is better to use an underscore for a comment.
+NB: dash ('-') and plus ('+') become a bullet point list in MarkDown, so if a note is being used in MarkDown it is better to use an underscore for a comment.
   
 As can be seen, the Status Indicator symbol is a single character followed by a space, except for the last form, the *date format comment*. A Status Indicator does two things simultaneously: indicating whether an entry is a Goal, Project, Routine or Comment, and in case of a Project, it also shows the status of the Project.
+  
 NB: '~' in Excel is a special character (escape char). To use '~' in functions like VLOOKUP() substitute it first using SUBSTITUTE (). 
 The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective Notation can be used for writing *any* form of text, keeping a log, etc.. It also allows the use of the other Indicators which adds insight into aspects of the comment e.g. dates, who is involved, etc.
 
@@ -1085,7 +1081,7 @@ The use of '-', '+', '_' and 'dd-mm-yy:'to reflect *comments* means Objective No
 The Name is mandatory. For Goals the Name is a short three character code. For Sub-Goals a one or two word label is used. For Objectives (and levels below) Name should adhere to the following:  
 1. Start with a *verb*
 2. Contain a *measurable* expected *Result*
-3. Cannot contain any indicator brackets: (, ), [, ], {, }, |
+3. Cannot contain any indicator brackets: '(', ')', '[', ']', '{', '}', and '|'
 4. Can contain any other characters that are not the ones in  item 3. above e.g., #Hashtag, ##1, *italic*, /slashes\, **bold**, Stop!, Say: "This shall be done!", etc  
 
 Note for aesthetic or sorting reasons, it may be preferable to start Name with a number e.g., 01.Planning, 02.Organising, ... 
@@ -1137,9 +1133,8 @@ The Date Indicator reflects *start*, *end* and *complete* dates for Projects and
 - Projects:  (start:end:complete:effort)
 - Routines: (period:start:end:effort)  
    
-For Projects, the start (start date), end (expected completion date), complete (actual completion date) are of format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits with hhmmss being optional.   
-For Routines the *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021 or more detailed: like "every Mon and Tue". The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is assumed to be a start date.   
-The *effort* is a number of type float e.g. 1, 0.33 indicating the number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used. As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
+For Projects, the preferred values of start (start date), end (expected completion date), complete (actual completion date) are in the format yyyymmdd-hhmmss i.e., year, month, day, hour, minute and second digits. For Routines the *period* can be any alphanumerical characters e.g. daily, monthly, Jan, Feb, 2021 or more detailed: like "every Mon and Tue". The start and end in case of a Routine are optional and they indicate when a routine was first / last used. If a Routine is deprecated, both start and end have to be provided because only one date is assumed to be a start date.   
+The *effort* is a number of type float e.g., 1.0, 0.33 indicating number of *days* that will be or have been, spent on the Objective in a *year*. Effort for Routines is *total* effort in *days* spent on that Routine per *year*. When start and end are omitted for a Routine, the colon ':' is also omitted leaving (period:effort). For Projects it is the effort in days for the duration of the project, regardless of whether it is within the year or across years. It is possible to have an effort even if the Project has not started. In that case effort represents *expected* effort. The combination of Status, End and today's date can indicate if a Project is overdue. For Goals and Sub-Goals the same logic as for Projects can be used. As with the Name Indicator, the Date Indicator can be used less rigidly e.g., (Deadline: next week), (tomorrow), (Start tomorrow, Due 31 Dec 2021), etc.
   
 ### Objective Notation Owner Indicator
 The owner of an Objective represents the *performer*, i.e., the Staff or Group responsible for the completion of the Objective *and*, in addition, it represents the *beneficiary* of the Objective i.e., the Activity for, or in, which the Objective is performed. By default, performer equals beneficiary, but this is not always the case: an Activity ABC providing Services to another Activity XYZ: performer = ABC, beneficiary =XYZ. The format is as follows:  
@@ -1505,7 +1500,7 @@ ________________________________________
 A Maturity Model is a framework of improvement of Processes to achieve an ultimate goal of the Process being self-improving. It is used  to develop and refine maturity of a Venture over time and its key tenet is Skill and Knowledge growth. There are various Models with different names, and they aim achieving similar results. The most used model is called the *Capability Maturity Model* or CMM which is from 1990, by Carenegie Mellon Uni and which is referred to mostly for Software Development, although it can be used elsewhere. Later the CMMI was developed as an improved version of the CMM. See also: <https://www.tutorialspoint.com/cmmi/index.htm>.
 ________________________________________
 ## Business Continuity Management (Framework)
-Business Continuity Management (BCM) is a framework that establishes the manner in which business Operations can continue *to the best of the Company's ability* during internally or externally caused *adverse conditions* a.k.a. *Disasters*. The Process enabling continuity is referred to as *Recovery* and the processes involved in planning and when necessary implementing a *Recovery* to continue operations is called Crisis Management. BCM is an integral part of the Management Framework, specifically it is part of the Operational Plan.
+Business Continuity Management (BCM) is a framework that establishes the manner in which business Operations can continue *to the best of the Company's ability* during internally or externally caused *adverse conditions* a.k.a. *Disasters*. The Process enabling continuity is referred to as *Recovery* and the processes involved in planning and when necessary implementing a *Recovery* with the aim to minimise the *Impact* on operations is called Crisis Management. BCM is an integral part of the Management Framework, specifically it is part of the Operational Plan.
   
 Business Continuity for Data Driven Companies  
 BCM's ultimate objective is to minimise the impact of an adverse event on the Operations of a company. The following framework explains how this is achieved for companies that operate with Data as a main Service (and Assets) which is the case for companies like banks, insurances, investment managers, brokers, etc. 
@@ -1543,22 +1538,22 @@ In which (in brackets the Profile Tree Item it relates to)
 - Office (Assets): building where Staff work and which provides the necessary structure for User Apps through items like chair, desk, electricity, network, etc. This could be home if home working is applicable for the Company.  
 - Staff (Staff): an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via internet (broadband, WiFi, etc). Structurally, this also includes the psychological constraints. 
 - User Apps (Assets): Software running on Hardware and connecting to Server Apps i.e., a PC or Laptop with office software (word processor, mail, chat) and business software. Some User Apps can be standalone i.e., not connecting to a Server App.  
-- Server Apps (Assets): core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also embeds *Data* e.g., orders, contracts, transactions, referential, static data, procedures. Server Apps are deemed running in a separate building called Data Center, but this is not necessarily true for smaller companies.
+- Server Apps (Assets): core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also embeds *Data* e.g., orders, contracts, transactions, referential, static data, referntial data, procedures, etc. Server Apps are deemed running in a separate building called Data Center, but this is not necessarily true for smaller companies.
 - Suppliers (Suppliers): third parties providing essential services to the company e.g., data vendors, exchanges, brokers, but also building rentals (see below). 
 - ⇆, ⇗⇙: any Interaction -and thus dependency- between Components. It can include a chair and desk in an Office for a Staff for example. In the case of User Apps and Server Apps it concerns *Network* components like Routers, Switches, cabling, telecommunications, etc. In general, all Network connectivity is assured by a combination of company *and* Supplier owned Networks. In the Conceptual Framework, however, we mean the Company-maintained Network. For example, if a telco line between two locations fails, then that is a Supplier issue, even if it concerns a Network. 
    
-The Components in the above diagram are few. In reality, however, *each* Component may have *Sub-Components* and of each there can be many instances. For example, a Company may operate out of two countries meaning two different Public Infras. In most cases there are  many Staff, using many different User Apps running on one or more PCs and/or Laptops. Staff can operate from several floors in a single Office building or even across multiple Office buildings in a single country. The User Apps connect to many Server Apps running on many servers connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components then depending on the company, it can span many pages of diagram with a vast amount of detail. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components and instances.
+The Components in the above diagram are few. In reality, however, *each* Component may have *Sub-Components* and of each there can be many instances. For example, a Company may operate out of two countries meaning two different Public Infras. In most cases there are  many Staff, using many different User Apps running on one or more PCs and/or Laptops. Staff can operate from several floors in a single Office building or even across multiple Office buildings in a single country. The User Apps connect to many Server Apps running on many servers connecting to different Suppliers. If one were to expand the above conceptual diagram into its possible Sub-Components and instances then depending on the company, it can span many pages of diagram with a vast amount of detail. In this section most often the term *Components* is used to indicate both Components as well the more granular level of Sub-Components and instances.
   
 ### Unavailability  
 From the above Components, it is easy to see that for day-to-day Activities, every Component needs to be available and operating as expected. Said differently, by theoretically *shocking* or *stressing* each Component, an assessment can be made into the capacity of a company to sustain Operations were a Component *unavailable* even if partially. Such assessment can then help determine what would be required to continue the Activities that make up Operations. 
     
-Unavailability Levels  
+#### Unavailability Levels  
 There are many ways to stress components. But the simplest way is to simply *assume* a component is either not stressed, partially stressed or fully stressed, in other words a Components is: 
 - 0% unavailable: fully available, 100% available
 - 50% unavailable: partially available, anything between 0% and 100% unavailable
 - 100% unavailable: not available, 0% available 
     
-Unavailability Reasons  
+#### Unavailability Reasons  
 Each Component has many different reasons to be (partially) unavailable:
 - Staff can be sick or having had an accident either directly or indirectly (family member). Or Staff can simply walk out on work e.g., a strike or resignation, etc.
 - Hardware will fail at one point e.g., memory failure, cooling unit failure, electricity failure, disk failure, etc. This can impact both User Apps and Server Apps.  
@@ -1567,10 +1562,10 @@ Each Component has many different reasons to be (partially) unavailable:
 - Public Infra can become unavailable e.g., public transport failure or a general strike.  
 - Network components are composed of both Hardware and Software (see above) and in addition, the cabling used between the Network components may be cut accidentally.  
 
-Relevance of Three Unavailability Levels  
+#### Relevance of Three Unavailability Levels  
 Are the three Unavailability Levels realistic? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or half of them went out to dinner together and got food poisoning). Similarly for Office, is it really possible to have a 50% unavailable office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For User Apps similar logic can be applied, it may be that only a single User App is affected by a bug, and all other hundred User Apps still work as normal, etc. As can be seen, in a larger company, where Components within the Conceptual Framework are composed of sub-components and/or many instances, it is well possible to have Unavailability Levels of 50% or even more granular, like 10, 20, 30% etc. However, as discussed later, these do not improve a Managers ability to make decisions. 
   
-Unavailability Symptoms versus Causes    
+#### Unavailability Symptoms versus Causes    
 Note that although on paper it seems simple to establish which Primary Components are unavailable, there are many situations where it is not clear-cut. For example, a flaky access to a Server App may because the User App has a problem, or the network in between the Server App and the User App may be partially failing e.g., flapping network components, or the Server App itself does not work, or it has a has a dependency on another Server App which is not working or the network in between is not working well, etc, etc.
    
 ### Recovery Components
@@ -1622,7 +1617,7 @@ This cross connectivity increases the possibilities available for Recovery but a
 ### Recovery
 Recovery is the process of switching to a Recovery Component given the Unavailability of a Primary Component. 
   
-Recovery Process  
+#### Recovery Process  
 The actual *switch* to Secondary Component involves specific Processes that can require different Steps for both the Primary Component being switched, but *also* for the Components that used the original Primary Component! For example: 
 - Network changes e.g., DNS, changes, re-routing, disabling an active network
 - User App changes e.g., change of configuration files and reload or restart
@@ -1630,10 +1625,10 @@ The actual *switch* to Secondary Component involves specific Processes that can 
 - Location changes e.g., Staff has to move to the secondary Office. 
 - Nothing e.g., the Secondary setup is effectively a so called hot-standby and will take over automatically as long as the Primary is 'declared' unavailable. 
   
-Recovery vs BAU  
+#### Recovery vs BAU  
 Note that Recovery does not mean a return to BAU, see below. Recovery means that a certain level of Activity can be maintained. This level of activity depends on many factors. 
   
-Recovery Duration  
+#### Recovery Duration  
 It is important to accept the fact that Recovery takes time. The Recovery Decision take time because various considerations need to be made, possibly with limited information being available. Once a decision has been made, the actual Recovery Process needs to be performed which may take time as well. 
     
 ### Scenarios
@@ -1646,11 +1641,11 @@ Depending on the resources available to perform Business Continuity Management i
    
 The occurrence of a Scenario is called a *Disaster*. The following are essential Scenarios (in brackets the Scenario Probability):
 - Business As Usual a.k.a. *BAU* (n/a): the baseline against which all other scenarios are  measured. As this is the default, there is no Scenario Probability attached to it. 
-- Server Apps failure (High): probably the simplest Scenario, but statistically also the most frequently occurring. This type of unavailability can lead to full failure of the Activities, so it is not one to discard! 
+- Server Apps failure (High): probably the simplest Scenario, but statistically also the most frequently occurring. This type of Unavailability can lead to full failure of the Activities, so it is not one to discard! 
 - Climate events e.g., cyclone, typhoon, earthquake, tsunami, flooding (Medium). This can affect Public Infra, Office, Supplier, Server Apps (specifically the building from which the Server Apps operate) as well as Networks.  
 - Strikes (Medium). These can affect Office access, Supplier services and potentially lack of Staff (if the Strike is performed or contributed to by Staff)
-- Pandemics like the 2019 Covid pandemic (Low). This can affect Staff directly (they get sick) or indirectly (the Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
-- Physical large scale threats like wars, terrorist attacks, risk of explosions like gas leak, or bombs from past wars (Low). These may impact all aspects of the Conceptual Framework. 
+- Pandemics like the 2019 Covid pandemic (Low). This can affect Staff directly (they get sick) or indirectly (Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
+- Physical large-scale threats like wars, terrorist attacks, risk of explosions like gas leak, or bombs from past wars (Low). These may impact all aspects of the Conceptual Framework. 
 - Cyber Attack (Medium): various forms of cyber attack (ransomware, data theft, ...) which can affect any of User Apps and Server Apps, Suppliers, Public Infra.
 
 As will become clear from above, the Scenario Probabilities can be country specific e.g., certain countries have no occurrence or extremely low probability of severe weather whereas certain countries it deemed BAU unless it is an exceptionally intense form etc.  
@@ -1658,13 +1653,16 @@ As will become clear from above, the Scenario Probabilities can be country speci
 By looking at such broad-brush Scenarios, it is possible to focus on events that will affect a broad range of Components and perform the Analysis and Decision in advance of the actual event happening across all Components.
 
 ### Return to BAU
-Once Recovery was performed, the Activities operate often in a reduced capacity. This occurs when the Secondary Components may not be of the same quality, capacity or performance as the Primary Components. This is purely Cost based: having fully available, same capacity and same performance Secondary Components has a Cost. And if that Cost cannot be sufficiently recouped through the Revenue from the Activities performed using the Primary Components, then it is not worth spending on top-notch backup material. In addition, certain Disasters are Secondary Component Agnostic (Physical threats, Pandemic, etc). Therefore, at one point returning to BAU is a desired step and depending on the Recovery that was chosen, it means simply correcting the Primary Component and switching back to using it.  
+Once Recovery was performed, the Activities operate often in a degraded capacity. This occurs when the Secondary Components may not be of the same quality, capacity or performance as the Primary Components. This is purely Cost based: having fully available, same capacity and same performance Secondary Components has a Cost. And if that Cost cannot be sufficiently recouped through the Revenue from the Activities performed using the Primary Components, then it is not worth spending on top-notch backup material. In addition, certain Disasters are Secondary Component agnostic (Physical threats, Pandemic, etc). Therefore, at one point returning to BAU is a desired step and depending on the Recovery that was chosen, it could simply mean correcting or repairing the Primary Component and switching back to it.  
   
 ### Impact
 Residual Impact, or *Impact* in short, assesses the consequences of having to Recover for a certain duration. Specifically, it looks at the consequences to Activities of the following chain of events or *Impact Cycle*:
   
 BAU -> Disaster -> Unavailability -> Recovery -> Return to BAU
     
+It is important to asses the impact all the way to and including Return to BAU. In certain Disasters, the Recovery itself may be swift, but if as result of chosen Recovery leads to degraded Operations *and* the Return to BAU takes a long time, then the consequences to any Impact Aspect will likely increase over that duration.
+  
+#### Impact Aspects  
 The consequences are measured against several *Impact Aspects* of the Profile Tree from the Management Framework. Below list shows range of possible consequences for each aspect as none / some / worst:  
 - Services: no loss of Services / some Services reduced or unavailable / most or all  Services unavailable.
 - Clients: no consequences for Clients / Clients did business elsewhere temporarily,  informal complaints / Clients left entirely, formal complaints.
@@ -1677,26 +1675,29 @@ The consequences are measured against several *Impact Aspects* of the Profile Tr
 - Suppliers: no Suppliers suffered any consequences / some Suppliers were impacted and require a return to BAU / Suppliers went out of business and replacement is required. 
 - Capital: no Capital consequences / some small loans needed to be made / Company needed to re-capitalise by issuing new Shares
       
-Other types of impact are possible, but above is generic enough to cover most. Note that most of the consequences ultimately impact Revenue and Cost and to a lesser extent Risk and Image, as is to be expected as this in line with the Management Framework where the Results of a company's Operations are Revenue, Cost, Risk and Image. Not every Disaster has the same consequences for every Impact Aspect. Therefore, the use of *qualitative* ratings is used to indicate *overall* Impact on the entire Impact Cycle across *all* Impact Aspects:
+Other types of impact are possible, but above is generic enough to cover most. 
+  
+#### Impact Levels  
+Note that most of the consequences ultimately impact Revenue and Cost and to a lesser extent Risk and Image, as is to be expected as this in line with the Management Framework where the Results of a company's Operations are Revenue, Cost, Risk and Image. Not every Disaster has the same consequences for every Impact Aspect though. Therefore, the use of qualitative *Impact Levels*  is used to indicate *overall* Impact on the entire Impact Cycle across *all* Impact Aspects:
 - Low: no or limited consequences to one or more Impact Aspects 
 - Medium: some consequences on one or more Impact Aspects
 - High: noticeable consequences on one or more Impact Aspects. 
-     
+       
 ### Crisis Management
-With above concepts, the actual phase of managing a Disaster called *Crisis Management* can be defined. Crisis Management is based on a *Crisis Preparation*, *Crisis Testing* and actual *Crisis Handling* managed by different *Roles & Responsibilities*. 
+With above concepts, the actual phase of managing a Disaster called *Crisis Management* can be defined. Crisis Management is based on a *Crisis Preparation*, *Crisis Testing* and actual *Crisis Handling* managed by different *Crisis Roles & Responsibilities*. 
    
-Crisis Preparation  
-Anyone involved in Crisis Management needs to be aware of the following concepts, and how they apply in their company:
+#### Crisis Preparation  
+Anyone involved in Crisis Management needs to be aware of the following concepts and how they apply in their company:
 - Components
-- Unavailability (ranking: 0%, 50% and 100%)
 - Recovery Components
-- Scenarios with Scenario Probability (ranking: Low, Medium and High), and the resulting Unavailability of one or more Components for each Scenario
+- Scenarios with Scenario Probability (ranking: Low, Medium and High), and the resulting Unavailability (ranking: 0%, 50% and 100%) of one or more Components 
 - Recovery
 - Impact (ranking: Low, Medium and High)
+- Return to BAU
   
-Managers need to understand these concepts, the fact that they are part of a Conceptual Framework, and why such Framework is preferable over a more granular approach. These key concepts can be reflected in a two-dimensional *Crisis Management Matrix* or *CMM*:
-- Columns: Scenarios, Scenario Probability, each Component, Recovery, Impact
-- Rows: Scenario + Scenario Probably Rating (Low, Medium or High) + Unavailability (0, 50, or 100%) for each of the Components + most adequate Recovery option + Impact (Low, Medium, or High)
+Managers in particular need to understand these concepts, the fact that they are part of a Conceptual Framework, and why such Framework is preferable over a more granular approach. These key concepts can be reflected in a two-dimensional *Crisis Management Matrix* or *CMM*:
+- Columns: Scenarios, Scenario Probability, each Component, Recovery, Impact, Comment
+- Rows: Scenario + Scenario Probability (Low, Medium or High) + Unavailability (0, 50, or 100%) for each of the Components + most adequate Recovery option + Impact (Low, Medium, or High) + Comment
   
 Color codes can be used for the different rankings, to visually indicate the importance, for example:
 - Green: 0% Unavailability, Low Scenario Probability, Low Impact
@@ -1706,15 +1707,15 @@ Color codes can be used for the different rankings, to visually indicate the imp
 The CMM gives Managers a good idea, beforehand, what the relevant Disasters are for their scope, how likely they are to occur, what the expected effect is on the different Components in terms of Unavailability and how well a Recovery can be performed, measured by the expected Impact. The CMM should fit on a single page to force only the essentials to be captured.   
   
 The CMM can also identify mismatches between Scenario Probability and Impact: the more likely a Scenario is to occur, the better a Company should be able to Recover to minimise Impact. If this is not the case, the Manager should take decisions to improve the Recovery options. The color coding mentioned above should enable to spot such divergences quicker. 
-
-Crisis Testing  
+  
+#### Crisis Testing  
 Crisis Testing consists of verifying that the Crisis Preparation yields the most optimal Crisis Handling. This is simpler on paper than in practice, because in order to test one has to simulate a Disaster with the associated Unavailability, which will directly impact Operations! There are various ways of testing, however, and they can be categorised as follows:
-- Table Top Exercise: a simulation of a Disaster without stressing any of the Primary Components, possibly isolating specific Staff as 'actors' in the exercise and including observers to identify weaknesses in the entire process. 
+- Tabletop Exercise: a simulation of a Disaster without stressing any of the Primary Components, possibly isolating specific Staff as 'actors' in the exercise and including observers to identify weaknesses in the entire process. 
 - Testing Outside of Operating Hours: this often includes testing during weekends, which means a limited setup as many Suppliers and Clients are not operational. 
  - Fire-drills: simulation of a need to leave the Office (for limited Staff) to assure familiarity with exit routes etc. 
 - Call Tree Drills: testing of emergency communication means.
   
-Crisis Handling  
+#### Crisis Handling  
 Crisis Handling is the set of Process(es) involved in moving from Primary to Secondary given a real-life Disaster. It can be summarised as follows:
 - *Crisis Analysis*: establishes the Unavailability of one or more Primary Component(s) given the Disaster at hand.
 - *Crisis Decision*: assesses the best way to continue, at best, the Operations i.e., choosing the most relevant Recovery, whilst acknowledging not all Activities may be recovered fully depending on the Disaster at hand and the Recovery Components. 
@@ -1729,26 +1730,26 @@ Ancillary Recovery Decision include anything that will help in minimising Impact
 - Governmental agencies like regulators may need to be informed if the Activities pertain to regulations. Early notification is always better than after the fact. 
 - Staff may be told to not perform certain Processes so as to offload stress on the Network or Server Apps.
   
-The Crisis handling should use the CMM as much as possible as it saves time. A good Crisis Handling is characterised by swift decision, marked by lack of doubt, due to the Crisis Preparation. 
+The Crisis Handling should use the CMM as much as possible as it saves time. A good Crisis Handling is characterised by swift decision, marked by lack of doubt, which is due to the Crisis Preparation. 
     
-Roles & Responsibilities  
+#### Crisis Roles & Responsibilities  
 Depending on the size of the Venture a Manager has an interest to delegate the BCM process and be involved only in the latter part (understanding the CMM, drawing conclusions and being able to handle a crisis). A Manager can also delegate the decisions to line-Managers which means they need to be involved in the Crisis Preparation and participate in Crisis Testing exercises that require their input. 
   
 ### Further Considerations
 As mentioned the above is a Conceptual Framework. It has a strong Management focus. Professionals of BCM will notice that many subtleties are not addressed. This is intentional: Managers delegate the complexity and exhaustiveness to specialists.  
 Nevertheless, the reality of BCM, particularly in heavily regulated companies (banks), companies that have very disruption sensitive services (streaming companies) is that there are far more details involved in BCM. Below follow several considerations when compared to the Conceptual Framework.
   
-Granularity of Unavailability  
+#### Granularity of Unavailability  
 As mentioned before, more granular Stress Levels of availability (or unavailability) can be devised e.g., 10%, 20% available etc., but that does not change the approach discussed here. In addition, although theoretically granularity may give an illusion of accuracy, the practicality of such granular Stress Levels remains is doubtful: more information does not lead to better decisions, particularly when the reliability of the information is doubtful.
     
-Criticality of Activities  
+#### Criticality of Activities  
 Little has been said about which Processes within Activities are more important than others. Some Processes or possibly even entire Activities may cease operating for considerable time without little or any consequences for any Impact Aspects. On the other hand, certain Processes or Activities may have serious consequences for one or more Impact Aspects and would therefore require more attention. Assessing the Criticality of Activities allows focusing only on those Components that require swift recovery in case of a Disaster. Difficulty of determining Criticality of Activities includes:
 - Criteria to use Criticality 
 - How to label Criticality: low/medium/high, critical/non-critical?
 - Who decides: different Groups have different opinions. A Server App may be not important for one Group's Activity, but is for another Group's Activity.
 - Interdependence: even if a certain Server App is not deemed critical as such, it may provide input to another critical Server App.
   
-Complexity of Secondary Components  
+#### Complexity of Secondary Components  
 Modern technology has many forms of redundancy and some technologies simplify various aspects of the framework. Take for example a Server App. The Software runs on a Server. The Server can fail for different reasons, for example:
 - Disk failure: this can be made redundant by running the server in a RAID (Redundant Array of Independent Disk) setup which creates integrated Data redundancy within the Server App's hardware.
 - Electricity Failure: this can be mitigated by running the Server in a UPS (Uninterruptible Power Supply) setup. 
@@ -1756,22 +1757,25 @@ Such embedded redundancy can come in addition to the duplication of an entire se
 
 Other technology aspects can come into play e.g., cloud technology, virtualisation technology etc. 
   
-Data  
+#### Data  
 Data is assumed to be included in Server Apps in the Conceptual Framework. This is practically correct: Data used by User Apps is available on Server Apps. However, Data driven Companies need to consider Data *corruption*. That is to say, the infrastructure and software that use that Data function as if it is BAU but the Data itself is (partially) missing and/or the content has been incorrectly updated. As such, companies often make, and keep, of copy of their Data, potentially at a secured location, at frequent intervals to be able to put back a *last known correct* version of the Data on the Server Apps. A copy kept for a certain time is called *data backup*.      
      
 Staff  
 In the Conceptual Framework, Staff is deemed available as a single resilient level as opposed to for example User Apps which can have a Primary and Secondary instance. However, in reality the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics, terrorist attacks like '9/11 twin tower attack' or War in which Staff can be affected up to no availability. For Companies with Offices in several Countries it may be considered to have cross-country resilience with the Staff performing Operations split across different Countries. This is however, not always an option and it potentially brings its own challenges and thus Cost. 
   
-Tertiary Components  
-The Conceptual Model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components or have a hybrid model where more critical Components have such tertiary components. 
+#### Tertiary Components  
+The Conceptual Model uses a dual approach of recovery i.e., Primary and Secondary. It is of course possible to have further resilience by adding a third level or Tertiary Components or have a hybrid model where more critical Components have such Tertiary Components, see also above regarding the complexity of Secondary Components.
+  
+#### Recovery Efficiency  
+No mention was made on how efficient a specific Recovery will be. In theory, such efficiency could be rated to say High, Medium or Low and that could be used in the assessment of the Impact. However, in the Conceptual Framework, such additional ratings are not deemed very relevant. The reason is that the number of use cases of Unavailability, combined with the business on any given day already provides for a vast range of possible Impacts. Adding a dimension of Recovery Efficiency is not going to improve on the speed of Recovery. 
     
-Sector Considerations  
-The above assumes the Company decides on how whether they will be able to recover and how urgent this recovery is. However, depending on the Sector a Company operates in, rules and regulations may require various aspects of the Company's resilience. This is typically the case for Banks, which are deemed to uphold the economy for a Country for example. 
+#### Sector Considerations  
+The above assumes the Company decides on how whether they will be able to recover and how urgent this recovery is. However, depending on the Sector a Company operates in, laws and regulations may stipulate various aspects of the Company's resilience. This is typically the case for (significant) Banks, which are deemed to uphold the economy for a Country for example. 
   
-Urgency  
-Up to this point the conceptual framework has not discussed the desirable speed at which recovery should or can be achieved (this also links to the Criticality of Activities discussed above). There are various metrics used in BCM to establish the time a Recovery can take before Operations continue. Two recurring terms are RTO and RPO. Recovery Time Objective is the desired *timespan* within which a Component is recovered. Recovery Point Objective states the *point in time* from which Data needs to be available for Operations to continue without noticeable impact. Practically speaking, RPO deals with how frequent backups of Data are made and how long backups take. RTO deals with how long it takes to switch to a secondary component including putting back a backup. Shorter RTOs and tighter RPOs mean the Recovery Processes need to be more optimal, which comes at a Cost. 
+#### Urgency  
+Up to this point the conceptual framework has not discussed the desirable speed at which recovery should or can be achieved (this also links to the Criticality of Activities discussed above). There are various metrics used in BCM to establish the time a Recovery can take before Operations continue. Two recurring terms are RTO and RPO. Recovery Time Objective is the desired *time-span* within which a Component is recovered. Recovery Point Objective states the *point in time* from which Data needs to be available for Operations to continue without noticeable impact. Practically speaking, RPO deals with how frequent backups of Data are made and how long backups take. RTO deals with how long it takes to switch to a secondary component including putting back a backup. Shorter RTOs and tighter RPOs mean the Recovery Processes need to be more optimal, which comes at a Cost. 
   
-Cost  
+#### Cost  
 No Consideration was given to Cost. The framework presented above looks merely at how to look at the problem of Business Continuity, not at which cost this can be achieved. Obviously, the more resilient a company becomes the more it is likely to Cost. Not just in terms of the purchase of Secondary Components, but also the cost of the BCM Staff to maintain the framework up to date, the cost of maintaining potentially many backups of Data secured, the Cost of optimising the Recovery Process -which may include purchase of better Sub-Components- to make it faster, etc. 
 ________________________________________
 ## Trends (Framework)
@@ -2046,16 +2050,16 @@ ________________________________________
 Responsible, Accountable, Consulted, Informed (RACI) is a manner in which roles and responsibilities are defined for specific tasks. It can be used for Operations in general, and is often used for Project Management, see [## Project Management]. The definition of RACI often implies oversight,mostly through a  committee, that oversees progress of whatever the RACI have been defined for.
   
 ### RACI Overview
-The underlying of RACI is one or more Tasks, or Objectives. The principles associated to RACI are Delegating, see [## Delegating]. 
-  
+The underlying of RACI is one or more Tasks, or Objectives. The principles associated to RACI are Delegating principles, see [## Delegating]. 
+    
 The four Roles in RACI are defined as follows:
 - R (Responsible): person who performs a Task.
 - A (Accountable): person answerable for completion of the Task i.e., the person reporting on completion to someone e.g., a Committee.
 - C (Consulted): person whose subject matter expertise may be sought (two way communication)
 - I (Informed): person who may be informed of progress and/or completion (one way communication).
-
+  
 The two most important two roles are A and R. Sometimes they are the same, but not always.
-
+  
 ### RACI Rules
 A hard rule is that there can be only one 'A' for a given Task. If there are more than A, then that is indicative of a need to split the Task into smaller Tasks. 
 It is possible to have more than one R for a given Task. 
@@ -2171,7 +2175,7 @@ Sources:
 - Harvard Business Review, Mindful Listening (2022)
 _________________________________________
 ## PSS Toolkit
-The following is from "The Fearless Organisation" by Amy Admonson. There are three steps for Managers to work on to continuouslycreate a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
+The following is from "The Fearless Organisation" by Amy Admonson. There are three steps for Managers to work on to continuously create a Psychological Safe Space (PSS). When *Manager* is used it can be any Leader not necessarily a hierarchical Manager, although they often are in the best position.
 
 1. Setting the Stage
 The purpose of this step is to create *shared expected Results and meaning*. It reinforces the understanding that although it may considered a *Risk* to speak up about *failures*, including ones own, but that Speaking up is effectively aiding the Venture to *learn* and thus improve.
@@ -2187,9 +2191,9 @@ Frame the Roles
 Review the role of Managers: they *do not* know the answers to all questions, but can set direction, ask for input and clarifications and can thus create the conditions for continuous improvement with the contribution of Staff. 
 Review the role of the Staff:  they *do* have insight,  answers, concerns and relevant questions and by voicing those, improvements are possible. 
    
-Emphasise Purpose  
+Emphasise Purpose   
 Make sure everyone understands why speaking up is important. Rephrase and emphasise purpose w/r to the mission of the Venture. 
-  
+   
 2. Inviting Participation 
 This step assures Staff effectively contribute by speaking up about failures and thus participate in growth, by providing *input*. It has the following characteristics:
    
@@ -2299,7 +2303,7 @@ ________________________________________
 One-on-One meetings are meant to give Staff the opportunity to communicate concerns to the Manager and vice-versa. Concerns can be interpreted broadly, but the focus should be the non-operational part of a Staff's responsibilities. This can include, but is not limited to, team-interaction, issues in handling of operational topics etc. A key part of a One-on-One is to provide feedback to and collect feedback from Staff, see [## Feedback].
 ________________________________________
 ## Team- Meeting
-<TBD>
+<<WIP>    
 ________________________________________
 ## Whiteboard Session (Framework)
 A Whiteboard session a.k.a. WBS is a form of presenting in a more informal manner. The  idea is that someone knowledgeable about some topic presents it to a small audience e.g. a Group and that, *this is important*, without any specific preparation i.e., no presentation material. To the presenter this means the time spent is limited to the time of the WBS. For the audience, it means they can focus on things they are more interested in than what a presentation would somewhat force them to pay attention to. 
@@ -2309,7 +2313,7 @@ Managers can use WBS to achieve three things:
 - Make knowledge sharing a standard feature of the Operating Model of a Group
 - Show to the Group that the Manager him/herself is not knowledgeable
 
-Particularly the last part is powerful: often Staff dare not ask questions at risk of being seen incompetent. If the Manager asks any question, both 'smart' and 'dumb' Staff in the Group wil be more likely to also ask questions, which has a knock-on effect that everyone in the Group becomes more knowledgeable.
+Particularly the last part is powerful: often Staff dare not ask questions at risk of being seen incompetent. If the Manager asks any question, both 'smart' and 'dumb' Staff in the Group will be more likely to also ask questions, which has a knock-on effect that everyone in the Group becomes more knowledgeable.
 
 If done well, Staff within a Group will look forward to the WBS, and as such they constitute a form of team building at the same time.
 
@@ -2326,7 +2330,7 @@ This concept explains relations between Staff within a Group, across Groups and 
 ________________________________________
 ## Motivating (Framework)
 Motivating is the framework by which Managers encourage or stimulate employees to achieve the Goals set out for the Venture. Motivation ties in to:
-- Needs: Maslow's hierachy of needs, EG theory
+- Needs: Maslow's hierarchy of needs, EG theory
 - Satisfaction: Herzberg's two-factor theory.  
   
 Job characteristics that contribute to motivation:
@@ -2375,7 +2379,7 @@ Below two links explaining the various aspects involved in Coaching and Mentorin
 <https://www.kent.edu/yourtrainingpartner/know-difference-between-coaching-and-mentoring>
 ________________________________________
 ## Presenting (Framework)
-<TBD>
+<<WIP>>     
 ________________________________________
 ## Skill Inventory (Framework)
 Skills required for Management are below. Details of skills can be found under [# HUMAN RESOURCES] the rest are mentioned behind each Skill.
@@ -2423,8 +2427,8 @@ The Master of Business Administration is a postgraduate University degree that f
 Although a vast multitude of programs exist, sometimes for specific Sectors, the majority of MBA programs contain subject matters that are relevant to running a Venture and may include: background knowledge (Economics, Sociology, ESG) fundamental knowledge of Business Functions (Accounting, Operations, Marketing, Procurement, Human Resources) and academic knowledge of Management (Strategy, Corporate Governance, Management Theory including POLC). 
   
 In addition of being a well established form of Research, it has the advantage of establishing a baseline level of knowledge, confirmed through a degree. 
-
-
+  
+  
 *********************************************
 # CONTROLLING
 Controlling involves Processes to establish *how well it was done*.
@@ -2434,7 +2438,6 @@ This overview shows on L1 key deliverables as per [Management Framework ## Contr
 - Journal
     - Journalling
     - BuJo
-    - BuJo MSS
 - Supervision  
     - Oversight Framework
     - Progress Tracking
@@ -2468,55 +2471,55 @@ Journaling, logging or more generally writing entries in a Journal is a good way
 - Management Cycle, see [## MC]
 - etc
 
-What goes into Journaling is Manager specific. It also depends on Reporting requirements, see [MGT: 99.Legend ## Reports]: the type of information that goes into a Journal on depends very much on the type of reports that need to be written. Generally speaking, anything can go into a Journal: descriptions of what has happened, thoughts, ideas, things to do, routines, projects, etc. 
+What goes into Journaling is Manager specific. It also depends on Reporting requirements, see [Management Framework ## Reports]: the type of information that goes into a Journal on depends very much on the type of reports that need to be written. Generally speaking, anything can go into a Journal: descriptions of what has happened, thoughts, ideas, things to do, routines, projects, etc. 
 
-Note that basic Journaling is essentially just structured notetaking. This can be done on paper or preferably digitally using Note apps, see [## Notes]. The result of Journaling is a Journal a.k.a. Logbook. In French this is called a "Livre de bord" and in Dutch it is called a "Logboek", etc.
-
-Journaling with a *focus on Planning* can be done through Bullet Journaling, see below. For large Ventures or more generally when many Journallng entries are expected, the use of specific software designed to aid in Journaling is recommended, see [## BuJo MSS].
+Note that basic Journaling is essentially just structured note taking. This can be done on paper or preferably digitally using Note apps, see [## Notes]. The result of Journaling is a Journal a.k.a. Logbook.
+  
+Journaling with a *focus on Planning* can be done through Bullet Journaling, see below. For large Ventures or more generally when many Journaling entries are expected, the use of specific software designed to aid in Journaling is recommended, see [## BuJo MSS].
 ________________________________________
 ## BuJo (Framework)
 Journaling is the notion of writing down text. A framework called *Bullet Journaling* or *Bujo* (lower case 'j' ) is a specific implementation of it, originally designed for a paper notebook. Bujo is built around *three* aspects: 
 
-1. Taking notes of meetings, experiences, ideas, results of checks, etc.;  *and* 
-2. Planning work: Projects/Routines/Tasks, generally referred to as simply 'Tasks' in Bujo; *and* 
+1. Taking notes of meetings, ideas, results of reviews or studies, etc.;  *and* 
+2. Planning work: Projects/Routines/Tasks referred to as simply 'Tasks' in Bujo; *and* 
 3. Controlling the work done in 2.
 
-As such Bujo is an excellent multi-dimensional framework for a Manager allowing both Planning and Controlling!
-
+As such Bujo is a multi-dimensional framework for a Manager allowing both Planning and Controlling.
+  
 Modern day Bujo can be done *digitally* which has several advantages over the notebook implementation. The framework discussed here, called *BuJo* (upper case 'J') is used within the Management Framework and is *adapted* from the original Bujo. BuJo forms the basis for *BuJo MSS*, see section below.
 
 ### BuJo Basics
-The basic requirement for BuJo is a Note Taking app like MS OneNote or Standard Notes.
-
+The basic requirement for BuJo is a Note Taking app like EverNote, MS OneNote or Standard Notes or simply a word document.
+  
 ### BuJo Concepts
 There are several concepts involved in BuJo which are derived from standard Bujo.
-
-Data 
+  
+Data   
 Data in BuJo can be of any type: ideas, experiences, meeting content, observations etc. It can and will also include Tasks, which is BuJo lingo for the broader Management Framework concepts related to doing things: Routines, Projects and Tasks. Data in BuJo is recorded either using verbose sentences or using *Rapid Logging*, see below. Entries can occur in different places: Index, Logs, Collections (see below).
-
-Index
+  
+Index  
 An Index is at the very start of BuJo and shows where Logs and Collections are. 
-
-Rapid Logging
-Rapid Logging is a shorthand notation where the first character indicates what the rest of the entry is about. This is achieved using Objective Notation, see [## Objective Notation]. Note that using Rapid Logging expects short entries as opposed to long sentences. 
-
-Logs
+  
+Rapid Logging  
+Rapid Logging is a shorthand notation where the first character indicates what the rest of the entry is about. This is achieved using Objective Notation, see [## Objective Notation]. Note that using Rapid Logging expects short entries as opposed to long sentences.  
+  
+Logs  
 A Log is what it says: a tracker of experiences, meetings, observations, ideas, tasks, items to be reported. Logs can be created within a dedicated Note or using a section within a Note. Standard Bujo method recognises three default Logs, with more being possible:
 - Daily log: things to do today, meetings, reminders, etc. 
 - Monthly log: things to do this month
 - Future log: things to do possibly, one day
 
-Collections
+Collections  
 Collections are Journal Entries belonging to the same category or theme and grouped together. 
 
-Migration 
+Migration   
 Migration is the process of moving entries from one location to another i.e., from a Log to another Log or to a Collection. In classic Bujo this is done by recopying the data and changing the original entry status to '<' or '>'. In BuJo it is achieved through cut-and-paste of data. There is no real reason to show on an entry that it has been moved and thus record it twice. Just move it!
 
 ### BuJo Setup
 The setup for BuJo within the MF can be done in any notes app using the following conventions:
 
 Index
-The Index is composed of the list(s) of Notes which each Notes Software is capable of showing. The names of the notes follow Note Name Format rules as per [MGT: 99.Legend ## Note Name Format]. The Index adjusts automatically each time a note is added or deleted so there is no need to maintain references to or from the Index. 
+The Index is composed of the list(s) of Notes which each Notes Software is capable of showing. The names of the notes follow Note Name Format rules as per [## Note Name Format]. The Index adjusts automatically each time a note is added or deleted so there is no need to maintain references to or from the Index. 
 Alternatively, one can create a dedicated Note, or a section in a Note referencing other Sections and or Notes using the [ ... ] reference indicator.
 
 Logs
@@ -2585,49 +2588,6 @@ Reflects Management Function Leading, and serves as a scribble section for aspec
 
 Controlling 
 Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
-________________________________________
-## BuJo MSS (Software)
-MSS, see [## MSS], has 7 Sheets implementing the BuJo concepts discussed above to the Managerial 7, see [MGT: 99.Legend ## Management Cycle]. BuJO MSS is essentially BuJo logic implemented within the MSS framework.
-
-### BuJo MSS Concepts
-A key feature is the fact that 7 dedicated *Logs* are used, one for each of the Managerial 7. These Logs are captured in [MSS: M0] to [MSS: M6]. BuJo MSS is similar to standard BuJo, but the implementation is simpler because of the use of:
-- Only a few dedicated sheets collecting entries relevant to each Managerial 7
-- Formulas to generate enriched data (Calculated Columns)
-  
-Data
-A dataset in BuJo MSS is called a *Journal Entry*, an *MT Entry* or just *Entry* and is entered as a single row in the sheet. Unlike BuJo, BuJo MSS has a broader dataset driven by various columns. As a result, an MT Entry is broken down across several columns as opposed to the single item/line in standard BuJo. There are two *types* of columns: *Calculated Columns* and *Manual Columns*. The content of the Manual Columns drive all other aspects of BuJo MSS through the Calculated Columns. 
-  
-Goals, Sub-Goals and Tracking Type are maintained as Static Data in [MSS: Static] and have attributes associated to them that are used in Calculated Columns like the order of Sorting, whether or not to report, etc. Goals are standard and require, in general, no updates. Sub-Goals depend on the focus a Venture wants to have within a Goal each year.
-  
-Index
-There is no index as data is logged in one sheet for each of the Managerial 7.
-
-Rapid Logging
-The Rapid Logging method is used in Column = Tasks. 
-
-Log
-There is only one Log per each Managerial 7. Each sheet's calculated columns display dimensions like Day, Week, etc., which in standard BuJo are considered separate Logs.
-
-Collections
-Collections are represented by Column headers. All column headers can be used. Tag, specifically, was designed for the purpose of Collections. As the name implies, Tag allows setting one *or more* key words for an Entry. 
-
-Migration
-There is *no* notion of migration of data from one Log to another or to a Collection in BuJo MSS. The capacity to filter and sort data achieves the concept of migration e.g. filter on Time, Open Tasks, Tags, etc. 
-There *is* a notion of year-end cleaning, see below.
-
-### BuJo MSS Process - Yearly - Cleaning
-TBC
-
-### BuJo MSS Process - Yearly - Roadmap
-At the start of each year the Roadmap needs to be established, see also [## Roadmap], as follows:
-- If Sub-Goals have been pre-defined, use those, else create them in [MSS: Static ## Sub-Goal].
-- Add new Projects and assign a Sub-Goal
-- Update existing Projects / Potentials similar to the step above if they are to be in the current Roadmap 
-
-From this point onward, maintain the Projects that are part of the Roadmap through Notes and Tasks. See also [### BuJo MSS vs Planning]. The same can be done for Management and Routines. 
-
-### BuJo MSS Reporting
-BuJo MSS is setup in line with MSS principles in that reporting from it is achieved using pivot tables. The use of Tag helps defining content for different Stakeholders.
 ________________________________________
 ## Holistic Data Approach
 See [## Data & Info] further below under [# ASSETS].
@@ -3405,8 +3365,8 @@ In this simplified approach the budget is composed of two separate elements:
 - Change Budget: determined based on initiatives for the next period.
 
 In effect this approach looks mostly at anticipated delta of the next period versus the previous period.
-
-
+  
+  
 *********************************************
 # BUSINESS FUNCTIONS - HUMAN RESOURCES
 Human Resources involves Processes to *assure skillful Staff is recruited, kept skilled and retained*. 
@@ -3540,7 +3500,7 @@ yyy
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ________________________________________
 ## Training (Framework)
-<TBD>
+<<WIP>>  
 ________________________________________
 ## Performance Target
 Defining the target of Objectives for a Staff is composed of the following:
@@ -3577,7 +3537,7 @@ NB: the 360 feedback has become somewhat of a fad in many companies and care sho
 ________________________________________
 ## Performance Review  (Framework)
 Performance Review looks at how Staff worked towards achieving the Objectives, see also [## Objectives]. The review focuses both on *Staff* Skills and behaviour, as opposed to the *Process and Result* aspects of Objectives that is measured through the Management Function Controlling. 
-A Performance Review looks across the various dimensions of a Venture, from strategic levels like Misson Statement and Goals to more operational levels of Objectives and Processes. 
+A Performance Review looks across the various dimensions of a Venture, from strategic levels like Mission Statement and Goals to more operational levels of Objectives and Processes. 
 
 A Performance Reviews does not follow a rigid Process. However, there is a framework facilitating the Process which involves the following:
 - Corporate Title
@@ -3765,15 +3725,15 @@ Flexible benefits, a.k.a. Benefits in kind are benefits that are not monetary (a
 ### URL
 <https://www.kenjo.io/hr-remuneration-guide>
 NB: very Euro focussed, but gives good insight.
-
-
+  
+  
 *********************************************
 # BUSINESS FUNCTIONS - PROCUREMENT 
 ________________________________________
 ## Overview
 This overview shows on L1 key deliverables as per [Management Framework  ## Procurement]. On L2 are the Tools:
-
-
+  
+  
 *********************************************
 # BUSINESS FUNCTIONS - MARKETING
 Marketing is the Business Function  of exploring, creating, and delivering value to meet the needs of a target market in terms of goods and services.
@@ -3803,11 +3763,12 @@ There are various axis to segment clients against. The following are not exhaust
 
 ### DAMP
 Ascertain whether a segment is worth the investment. The following determines whether a segment can be:
-- Discernable: differentiated from other segments.
+- Discernible: differentiated from other segments.
 - Accessible: be accessed via Promotion?
 - Measurable: quantified and its size determined?
 - Profitable: yield a sufficient ROI?
 
+  
 *********************************************
 # OPERATIONS
 Operations is the total of all Objectives performed within a Venture.
@@ -3822,16 +3783,16 @@ This overview shows on L1 key deliverables as per the note Management Framework.
 ________________________________________
 ## Life Cycle (Framework)
 Not always applicable, a lifecycle explains how the various Routines and Projects interact and recur. Key elements of an Operational Lifecycle are:
-<TBD>
-
-
+<<WIP>>
+  
+  
 *********************************************
 # STAFF
 ________________________________________
 ## Overview
-<WIP>
-
-
+<<WIP>>  
+   
+  
 *********************************************
 # ASSETS
 ________________________________________
@@ -4029,23 +3990,29 @@ The following guidelines help producing smart Info.
 # SUPPLIERS
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Suppliers]. On L2 are the Tools:
-
-
+This overview shows on L1 key deliverables as per [Management Framework ## Suppliers]. On L2 are the Tools:
+  
+<<WIP>>    
+  
+  
 *********************************************
 # LIABILITIES 
 ________________________________________
 ## Overview
-This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Liabilities]. On L2 are the Tools:
-
-
+This overview shows on L1 key deliverables as per [Management Framework ## Liabilities]. On L2 are the Tools:
+  
+<<WIP>>    
+  
+  
 *********************************************
 # EQUITY 
 ________________________________________
 ## Overview
 This overview shows on L1 key deliverables as per [MGT: 99.Legend ## Equity]. On L2 are the Tools:
-
-
+  
+<<WIP>>  
+   
+  
 *********************************************
 # VERSIONS
 Versions are using yyyymmdd. Each version is at level 3 header. Future improvements are recorded in [### Planned]. Once an actual date is put in a header the version is deemed released.
@@ -4162,4 +4129,6 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20260219
 - Updated [## Business Continuity Management] and added notion of Impact and Crisis Management. Expanded the sub-section [### Further Considerations]  
 
+### 20260222
+- Deleted [## Bujo MMS] as it is not applicable anymore.
 
