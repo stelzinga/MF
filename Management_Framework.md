@@ -153,8 +153,8 @@ The Profile expresses a Venture through a *Profile Tree*, composed of interrelat
 This visual representation is summarised below.  
 ________________________________________
 ## Profile Tree Executive Summary
-The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of  *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous sales and delivery of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues combined with *Capital* in the form of *Liabilities* and *Equity*. Liabilities or *Debt* include long and short-term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct* (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures or weaknesses in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally through Suppliers, Clients and the *Environment*. Environment consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets etc.  
-Revenue, Cost and Risk are the monetary *Results* of Operations as opposed to the non-monetary, intangible result *Image* which reflects the opinion of the Venture as a whole as held by any people in the Environment and within the Venture itself. Revenue minus Cost is called *Earnings* or *Profit*. Revenue and Cost also make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenues and Costs over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of that Financial Period). 
+The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of  *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous sales and delivery of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues combined with *Capital* in the form of *Liabilities* and *Equity*. Liabilities or *Debt* include long and short-term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct* (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures or weaknesses in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally through Suppliers, Clients and the *Environment*. Environment consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets etc.    
+Revenue, Cost and Risk are the monetary *Results* of Operations as opposed to the non-monetary, intangible result *Image* which reflects the opinion of the Venture as a whole as held by any people within the Environment, Clients, Suppliers and within the Venture itself. Revenue minus Cost is called *Earnings* or *Profit* and they make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenues, Costs and Profit over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of that Financial Period).  
 Operations are central to a Venture, and they are initiated and continuously improved by *Management* through four *Management Functions*: *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised, Risk minimised and the Venture's Image is maintained positive. Planning consists of strategy *formulation*, whereas Organising and Leading constitute strategy *implementation*, and Controlling consists of *verifying* the implementation. Management applies the POLC to Operations but also to *Business Functions* which are transverse topics across the Venture like *Finance*, *Human Resources*, *Information Technology*, *Compliance*, *Risk*, *Legal*, *Tax*, *Procurement*, *Communications*, and *Marketing*. Management relies on *Tools* in the form of *Research*, *Definitions*, *Frameworks*, *Procedures* and *Software* to achieve its targets. Lastly, Management is in practice a *Management Cycle* in which the theoretic concepts of POLC, Business Functions and Tools blend into a practical continuous output.  
   
 The next four paragraphs provide more details on the POLC, which, being functions, are foundational to Management.
@@ -479,13 +479,13 @@ ________________________________________
 ## Resources
 Resources are effectively the input and overseers for the Operation's Processes. 
   
-There are three deliverables for Resources:
+There are three Resources:
 - Staff
 - Suppliers
 - Assets
   
 ### Staff
-Staff refers to people employed by the Venture i.e., employees, who are directly responsible for the Operation's Processes. To fulfill these, Staff need certain abilities and characteristics:
+Staff refers to people employed or otherwise hired by the Venture i.e., employees, who are directly responsible for the Operation's Processes. To fulfill these, Staff need certain abilities and characteristics:
 - Skills
 - Knowledge
 - Experience
@@ -493,7 +493,7 @@ Staff refers to people employed by the Venture i.e., employees, who are directly
 - Performance
    
 #### Skills  
-A Skill is the learned ability to perform a Process such that the expected Result is yielded within the constraints and dependencies imposed on the execution of that Process. Skills are focused on "doing something". Skills are acquired through study and practice by doing it at home, a club, a classroom setting (school, university, evening school) or on-the-job training. Skills are often divided into two main categories: 
+A Skill is the learned *ability to perform* a Process such that the expected Result is yielded within the constraints and dependencies imposed on the execution of that Process. Skills are focused on "doing something". Skills are acquired through study and practice by doing it at home, a club, a classroom setting (school, university, evening school) or on-the-job training. Skills are often divided into two main categories: 
 - Soft Skills
 - Hard Skills
   
@@ -512,20 +512,22 @@ Soft Skills are subjective and hard to quantify. They are often referred to as *
 - Inventiveness: being innovative, see Creativity. 
 - Team spirit: ability and even desire to cooperate with others, the ability to build, and rely on relationships.
 - Self-learner: ability to teach oneself new topics by finding and using relevant sources of information adequate for that topic and then studying or practicing them.
-- Self-critical: ability to question oneself to improve the quality of one's output and to increase one's understanding of relevant topics 
+- Self-critical: ability to question oneself to improve the quality of one's output and to increase one's understanding of relevant Topics 
 - Self-starter: ability to see tasks requiring to be done and start working on them without being asked by someone else to do so.
-- Analytical: ability to collect, process and transform Data (records of fact) into Information (interpretation of facts) relevant to a topic 
-- Strategical: ability to identify potential and actual Opportunities that grow Revenue and/or reduce Cost and/or reduce Risk under the constraints of potential and actual Threats given actual or perceived Strengths and Weaknesses of the Venture. 
+- Critical Thinking a.k.a. Critical: ability to collect, process and transform Data (records of fact) relative to any Topic into Information (interpretation of facts), whilst bearing in mind possible bias, as well as synthesise the Information and draw actionable conclusions.
+- Analytical Thinking a.k.a. Analytical: see Critical Thinking.
+- Tactical: ability to identify short-term solutions can be more efficient, even if Strategical solutions would be preferable.
+- Strategical: ability to identify actual and potential long-term Opportunities that can grow Revenue, reduce Cost or reduce Risk in a sustainable manner under the constraints of potential and actual Threats given actual or perceived Strengths and Weaknesses of the Venture. 
   
 Hard Skills are abilities that are relatively easy to quantify. They are taught and acquired through books, classroom sessions, internet, but also on the job. Hard Skills are often but not always knowledge based. Hard skills can also be recognised through diplomas and certificates. They include:
 - Languages
 - Mathematics
 - Natural Sciences (physics, chemistry, biology, geology, meteorology, ...)
 - Social Sciences (economics, sociology, psychology, ...)
-- Information Technology (programming, system design, ...)
+- Information & Communication Technology (hardware, programming, system design, networks...)
 - Applied Sciences (all forms of engineering, medicine, ...)
-- Accounting 
-- Data Science
+- Accounting & Finance
+- Data Science & Artificial Intelligence 
 - Project Management 
 - Use of Venture specific Assets
 - Use of Venture specific Processes
@@ -533,7 +535,7 @@ Hard Skills are abilities that are relatively easy to quantify. They are taught 
 - ...
     
 #### Knowledge  
-Knowledge refers to what is required in understanding topics involved in the Processes and is thus more focused on "understanding something". Knowledge can be obtained through self-study, classroom setting or on the job-training.
+Knowledge refers to what is required in understanding topics involved in the Processes and is thus more focused on "understanding something". Knowledge can be obtained through self-study, classroom setting or on the job-training. Often knowledge is a prerequisite to be able to learn or apply Skills.
   
 #### Experience  
 Skills and Knowledge can often be 'proven' or 'benchmarked' from having performed Processes requiring the same or very similar Skills and Knowledge. This is referred to as Experience. Experience gives more weight to the relevance of Skills and Knowledge and can be expressed as "Similar role for X years in company Y".
@@ -542,15 +544,16 @@ Skills and Knowledge can often be 'proven' or 'benchmarked' from having performe
 The Personality of a Staff is an important factor in the Staff's ability *to fit in*, and *to grow within* the Venture. Personality is strongly related to the ability to interact with others in a diverse environment. It is not explicitly taught or trained but rather the result of multiple factors like upbringing, education, cultural background, life experiences and life expectations as well as having participated in sports, clubs, extra-curricular activities. Various traits are part of Personality: 
 - Altruism: the unselfish concern for the welfare of others, prioritizing others' needs and well-being over one's own, potentially at a personal cost.
 - Curiosity: the desire to learn to do something or to know about something
-- Being grounded: the state of being down-to-earth, being mentally balanced, understanding the reality of things, being sensible and non-pretentious.  
-- Charitability: the ability and willingness to share whilst not having any direct benefit to do so.  
+- Being grounded: being down-to-earth, being mentally balanced, understanding the reality of things, being sensible and non-pretentious.  
+- Charitability: willingness to share whilst not having any direct benefit to do so.  
 - Stress Management: the ability to deal with adversity
 - Empathetic: ability to listen and understand and even share the feelings of someone else.
+- Humility: being unassuming, lacking arrogance.
   
 Personality seems very similar to Soft skills (see above), but in the Management Framework Soft Skills are deemed more related to performing work in a certain way, whereas Personality says more how someone approaches life and people within his surroundings in general, not specifically within a work context. Nevertheless, different Venture's may not consider Personality as separate and consider it part of Soft Skills, others may make the distinction. 
   
 #### Performance
-The combination of above four elements drive the *potential* of a Staff and ultimately yields the Staff's ability to perform. In the Management Framework the concept of a Staff's Performance is measured across three axis:
+The combination of above elements drives the *potential* of a Staff and ultimately yields the Staff's ability to perform. In the Management Framework the concept of a Staff's Performance is measured across three axis:
 - Dependability 
 - Pro-activity
 - Leadership
@@ -618,7 +621,7 @@ Key Assets are:
 - Services
     
 #### Accounting Assets incl. Cash  
-Accounting Assets are those assets officially maintained as such on the Balance Sheet including *Fixed assets*, e.g., buildings and machinery as well as *Current Assets* e.g., Receivables and of course *Cash*. Cash is used to fund ongoing *Operating Costs* i.e., rent, raw material, utilities, etc. Cash is made available from the sales of Services i.e. Revenue and Funding (see Organising later in this note). Accounting Assets are recorded on the left side of the Balance Sheet and are maintained through Business Function Finance, specifically Accounting.
+Accounting Assets are those assets officially maintained as such on the Balance Sheet including *Fixed assets* (buildings, machinery, etc.), *Current Assets* (inventory,  receivables, etc.) and of course *Cash*. Cash is used to fund ongoing *Operating Costs* i.e., rent, raw material, utilities, etc. Cash is made available from the sales of Services i.e. Revenue and Funding (see Organising later in this note). Accounting Assets are recorded on the left side of the Balance Sheet and are maintained through Business Function Finance, specifically Accounting.
   
 #### Infrastructure  
 Infrastructure or Infra a.k.a. systems, refers to the physical setup used on a day to day basis whether part of Accounting Assets or not. The term is used mostly in non-manufacturing Ventures in which case it refers to IT infrastructure.
@@ -627,7 +630,7 @@ Infrastructure or Infra a.k.a. systems, refers to the physical setup used on a d
 This includes assets like goodwill, copyrights, procedures, referential data, etc. that are or are not also Accounting Assets.
   
 #### Data  
-The terms *Data* and *Information* a.k.a. *Info* are often used interchangeably, but they aren't the same. Data, in the Management Framework, is defined as individual facts, while Information is the organisation, interpretation and visualisation of those facts within a relevant context. Data is also an intangible Asset, but has its own classification given its importance. Data is a combination of a physical repository (classified under Infrastructure) and the content held therein. Content can be broken down into two key types: *Structured Data* (spreadsheets, databases,...), and *Unstructured Data* (videos, music, pictures, text, presentations, source code,...). Neither Data nor Information yield truth (an accurate reflection of reality) as such, because both can be subjectively produced (Harari, 2024). However, this note will not enter in that philosophical debate and stick to the simple premise that Managers have an interest to have Data and Information produced such that is as accurate as possible, and it is assumed that Managers do this in the best interest of the Venture.  
+The terms *Data* and *Information* a.k.a. *Info* are often used interchangeably, but they aren't the same. Data, in the Management Framework, is defined as *individual records of fact*, while Information is the *organisation, interpretation and visualisation* of those facts *within a relevant context*. Data is also an intangible Asset, but has its own classification given its importance. Data is a combination of a physical repository (classified under Infrastructure) and the content held therein. Content can be broken down into two key types: *Structured Data* (spreadsheets, databases,...), and *Unstructured Data* (videos, music, pictures, text, presentations, source code,...). Neither Data nor Information yield truth (an accurate reflection of reality) as such, because both can be subjectively produced (Harari, 2024). However, this note will not enter in that philosophical debate and stick to the simple premise that Managers have an interest to have Data and Information produced such that is as accurate as possible, and it is assumed that Managers do this in the best interest of the Venture.  
     
 #### Services  
 This refers to Services provided by Suppliers and which are not any of the above e.g., trading venues, catering. cleaning services. Such Services are not recognised as an Asset on the Balance Sheet, but rather generate a Cost on the Income Statement. From an Operations perspective such Services are an Asset as they enable Operations to be performed.  
@@ -702,9 +705,10 @@ Operations create Cost in different forms:
 - Costs of Good Sold: costs directly related to the manufacturing of goods or delivery of Services a.k.a. Operating Fees, Negative Income, Contra-Revenues. In other words: if a Service is not delivered, the cost is also not Incurred, at least in theory. In practice there are production timing considerations which require a purchase of Inventory to be used at one point in time in manufacturing, effectively yielding a Cost without yet having delivered a Product. Such inventory finds its way into the Balance Sheet as an Asset. It is also possible that certain of such Costs of Goods Sold relate to a minimum purchase by the Venture, and thus lead to more complex cost structures. Note that where a COGS, negative Income or Contra-Revenue is incurred, it is often recorded under Revenue (as a negative number, or embedded in the final Revenue amount).
 - Operating Costs: costs required to keep Operations up and running like salaries, utilities, rent, licenses, subscriptions, depreciation, etc. These costs are incurred even if a Service is not delivered.
 - Other Costs: these include one off costs like fines, impairments etc. 
+- Taxes: most often income is taxed at some corporate rate. Profit is often assessed at different Cost levels i.e. pre-tax and after-tax. 
   
 Cost is an undesirable, but necessary deliverable, and its minimisation through Cost Management is an important output of Management. Cost is expressed in reporting currency on the Income Statement, but within Operations it can also be expressed and monitored via proxies like time, man-hours or man-days, head-count, etc. Costs are recorded on the Income Statement and are maintained through Business Function Finance, specifically Accounting.
-  
+   
 ### Risk
 Risk reflects the probability of adverse, unplanned -not necessarily unexpected- events that have an adverse outcome and that emerge as a result of Run and Change being performed in a dynamic Environment. More specifically, unplanned events occur as the result of either: 
 i) Weaknesses in Run and Change Processes performed or supported by Staff, Suppliers or Assets and/or   
@@ -735,7 +739,7 @@ Risk is an undesirable consequence of conducting Operations and Management withi
 It is important to note that depending on the Venture, Risk is fundamental or incidental to the Venture. For example, in Financial Institutions Risk is fundamental and the very active management of Risk is core throughout Operations. The same is true for pharmaceutical, airplane and car manufacturing companies for example. On the other hand for a small furniture manufacturer Risk is more incidental to Operations, and it can be -partially- managed through insurance. 
   
 ### Image
-The Image of a Venture is a non-monetary but potentially crucial Result of conducting Operations. A Venture's Image relates to how Stakeholders, and thus *any people* in the Environment and in the Venture itself *perceive* the Venture as a whole against a wide possible range of metrics relevant to any of those people, like aesthetics of Services, general reliability of the Services or reliability of the Venture on making good on its contractual obligations. It also includes aspects not directly linked to the Services offered like whether the Venture takes care of its employees or whether it cares for the climate or environment, whether it has involvement in financing or otherwise enabling criminal, terrorist, or other malicious entities, etc. There is no well defined scope for Image. However, the notion of Image is key to a Venture, and it is possible that a bad image can break the Venture over time. 
+The Image of a Venture is a non-monetary but potentially crucial Result of conducting Operations. A Venture's Image relates to how Stakeholders, and thus *any people* in the Environment and in the Venture itself *perceive* the Venture as a whole against a wide possible range of metrics relevant to any of those people, like aesthetics of Services, general reliability of the Services or reliability of the Venture on making good on its contractual obligations. It also includes aspects not directly linked to the Services offered like whether the Venture takes care of its employees or whether it cares for the climate or environment, whether it has involvement in financing or otherwise enabling criminal, terrorist, or other malicious entities, etc. There is no well defined scope for Image nornis it easy to measure. However, the notion of Image is key to a Venture, and it is possible that a poor Image can break the Venture over time. 
 ________________________________________
 ## Management
 Management, or Managing, focuses on a person, called *Manager*, proactively and continuously assuring the availability of enough Capital to finance the Cost of Resources that assure the Run and Change of the Operation's Processes in order for Services to be delivered to Clients yielding Revenue whilst containing and reducing Risk.
@@ -1186,7 +1190,7 @@ Controlling is performed through the concept of a *Control*, which involves 7 st
 6. Define some form of *Remediation*;
 7. Keep a *Written Trail* of 1-6 and use it to *Report* and track Remediation.
 
-The Control's Purpose, is fundamental: Ii sets out what a Control aims to achieve and why that is relevant. Particularly for Staff (or other Stakeholders) who are not privy to all details of Operations a Purpose helps setting the stage for understanding steps 2 to 6 and, more generally, facilitates the performance of Controls without needing to acquire all background knowledge. This is particularly important for Checks, see below. 
+The Control's Purpose, is fundamental: it sets out what a Control aims to achieve and why that is relevant. Particularly for Staff (or other Stakeholders) who are not privy to all details of Operations a Purpose helps setting the stage for understanding steps 2-6 and, more generally, facilitates the performance of Controls without needing to acquire all background knowledge. This is particularly important for Checks, see below. 
   
 The Benchmark establishes *expected* Results from the Objectives. Most often, the Benchmark is established in Planning at the same time as the Objectives.
    
@@ -1212,7 +1216,7 @@ Key deliverables of Controlling are:
 - Monitoring
   
 ### Journal
-A Journal reflects the result of Journaling which is the Process of ongoing recording of relevant topics in a Journal as Journal entries, which is similar to a ship's log book. For the purpose of Management this  includes *all* topics that occur throughout Management i.e., Journaling is *not* limited to Controlling. Well established Journaling aids in *all* Management Functions. Journaling can be time intensive, depending on how much of it the Manager does versus how much the Manager has it done for him by someone. Another factor is the format of Journaling; using pen and paper, spreadsheets, databases, etc.   
+A Journal reflects the result of Journaling which is the Process of ongoing recording of relevant topics in a Journal as Journal entries, which is similar to a ship's log book. For the purpose of Management this includes *all* topics that occur throughout Management i.e., Journaling is *not* limited to Controlling. Well established Journaling aids in *all* Management Functions. Journaling can be time intensive, depending on how much of it the Manager does versus how much the Manager has it done for him by someone. Another factor is the format of Journaling; using pen and paper, spreadsheets, databases, etc.   
   
 ### Supervision 
 The various steps of Controlling, described above, are fundamentally captured in Supervision. Supervision can be applied to every part of the Venture. The manner in which Managers decide to assure Supervision is done through a Supervision Framework. The Supervision Framework frames which *Supervision Processes* or *Controls* are applied to which *Supervision Scope*. There are four Control types: *Check*, *Review*, *Attend* and *Audit*. All except Attend are both a noun and a verb. Attend is a verb, the noun being Attendance. Supervision can be done through all or only a few Control Types. 
