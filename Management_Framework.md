@@ -1139,8 +1139,8 @@ Key Deliverables of Leading are:
 - Leaders
 - Management Improvement
 - Culture
-- Dialogue
-
+- Interaction
+  
 ### Safe Space
 Safe Space involves two aspects: General Safe Space and Psychological Safety. The former is the overall approach of a group of people towards subjects like inclusion, appreciation across all possible subjects of difference: gender, race, sexual orientation, religion, politics and more generally different perspectives. Psychological Safety refers to the belief that the work environment is safe for interpersonal risk taking. This refers to the experience of feeling able, and even obligated, to speak up with ideas, criticism, concerns or questions without risk i.e., without being scorn, seen as incompetent, ignorant, disruptive, betraying trust of the team etc. Psychological Safety is present when colleagues trust and respect each other and feel able, even obligated, to be candid. It is the responsibility of a Manager to assure a Safe Space is created such that all Staff are aware and can, and will, use it as intended.
   
