@@ -27,7 +27,8 @@ Management
     - Tax
     - Procurement 
 - Tools
-  
+- Management Cycle 
+   
 Operations  
 - Processes
     - Run
@@ -365,14 +366,16 @@ The total of these Profile Tree items, including their numbering is referred to 
         - 00.03.07.00.Networking  
         - 00.03.08.00.Leaders  
         - 00.03.09.00.Management Improvement  
+        - 00.03.10.00.Culture  
+        - 00.03.11.00.Interaction  
     - 00.04.00.00.Controlling  
         - 00.04.01.00.Journal  
-        - 00.04.02.00.Supervision  
+        - 00.04.02.00.Supervision   
         - 00.04.03.00.Reports  
         - 00.04.04.00.Monitoring  
-    - 00.05.00.00.Business Functions
-        - 00.05.01.00.Finance
-            - 00.05.01.01Accounting 
+    - 00.05.00.00.Business Functions  
+        - 00.05.01.00.Finance   
+            - 00.05.01.01.Accounting 
             - 00.05.01.02.Financing 
         - 00.05.02.00.HR
             - 00.05.02.01.Recruitment 
@@ -441,13 +444,20 @@ This overview shows on the first level the key deliverables as per [Management F
     - MSS
     - Governance Matrix 
 - Planning
-    - Dedicated Planning section
+    - Dedicated level 1 section
 - Organising
-    - Dedicated Organising section
+    - Dedicated level 1 section
 - Leading
-    - Dedicated Leading section
+    - Dedicated level 1 section
 - Controlling 
-    - Dedicated Controlling note
+    - Dedicated level 1 section 
+- Business Functions
+@@@
+- Tools
+@@@
+- Management Cycle
+
+
 ________________________________________
 ## PDA (Software)
 Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
@@ -1630,6 +1640,9 @@ Note that Recovery does not mean a return to BAU, see below. Recovery means that
   
 #### Recovery Duration  
 It is important to accept the fact that Recovery takes time. The Recovery Decision take time because various considerations need to be made, possibly with limited information being available. Once a decision has been made, the actual Recovery Process needs to be performed which may take time as well. 
+
+#### Recovery Readiness 
+This refers to how well Recovery Components allow for Recovery and how well Staff involved in the Recovery are aware on how to Recover. 
     
 ### Scenarios
 Until this point no mention was made of the *reason* for one or more Component being partially or fully unavailable or in other words what the *cause* of  the unavailability can be. Strictly speaking, this cause does not change the Recovery Process. However, assessing such causes allows for two things: a) identifying the (best estimate) probability a Component will endure a certain stress, and b) establish what the best course of action will be when it happens. This latter step culminates in the aforementioned recovery plan. 
@@ -1989,7 +2002,7 @@ Optional details for the Activity Description:
 - Qualitative: key achievements, relevance to the Venture, ...
 
 ### Roles
-Although the word Roles suggest multiple positions within the Group, it is most often a single position and associated Role. A Role is often a formal name and suggestive of the Authority that comes with the position. It has the following properties:
+The word "Roles" suggests multiple positions are held within the Group. This is not always the case, and it may thus refer to a single position and associated Role. A Role is often reflected in a formal name and suggestive of the Authority that comes with the position. A Role has the following properties:
 - Name of the Role
 - Location(s) where the Role will be fulfilled
 - Seniority (Analyst, Associate, VP, Director, MD, Senior VP, etc.)
@@ -1998,8 +2011,12 @@ Although the word Roles suggest multiple positions within the Group, it is most 
 
 Additional details can include specific constraints like working hours, travel requirements etc.
 
+Add as many Roles as are effectively held.
+
 ### Responsibilities
-Responsibilities are effectively the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above. Either the Role does all of them, or only a sub-set. This section should just refer to the applicable Objectives. Note that it is possible to detail Authority here instead of under Roles.
+Responsibilities are the list of Objectives to be performed, or to be contributed to, within the Activity. These Objectives are the ones discussed in Activity Description above. Either the Role does all of them, or only a sub-set. This section should just refer to the applicable Objectives. Note that it is possible to detail Authority here instead of under Roles.
+
+The Responsibilities should reflect all the Roles.
  
 ### Skills, Knowledge & Experience 
 Skills refers to the know-how in order to be able to achieve the Responsibilities. Knowledge refers to what is required in understanding the topics involved in the Responsibility. 
@@ -3768,6 +3785,20 @@ Ascertain whether a segment is worth the investment. The following determines wh
 - Measurable: quantified and its size determined?
 - Profitable: yield a sufficient ROI?
 
+
+*********************************************
+# TOOLS
+________________________________________
+
+
+*********************************************
+# MANAGEMENT CYCLE 
+________________________________________
+##
+
+
+
+
   
 *********************************************
 # OPERATIONS
@@ -3807,22 +3838,22 @@ This overview shows on L1 key deliverables as per the note Management Framework.
 - Services (from Suppliers)
 ________________________________________
 ## Data & Info (Framework)
-Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they relate to each other. Various definitions are provided, and although not all of these are strictly speaking industry standards, they help in framing an overall Data & Info Approach. 
+Data is a topic that should really be split into two aspects: *Data* and *Info*. Below discussion drills in to both aspects individually, as well as how they relate to each other. Various definitions are provided, to help frame an overall Data & Info Approach. 
 
 ### Data
-Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills,...
+Data is a *record* of *fact* or facts. A record contains one or more facts each stored as a *Data Field* or field in short. Facts are broad: revenue, COGS, suppliers, Operational Costs, staff skills, and so on.
 
-Below follow key aspects involved in Data. 
+Below follow key aspects of Data. 
 
 Data Set
-A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a single set of records showing both Revenues and Cost is a single Data Set.
+A regrouping of records of the same fact(s) is called a *Data Set*. For example, all records related to Revenues is the Revenue Data Set. A record can contain several facts and so a Data Set of records showing both Revenues and Cost is still a single Data Set.
 
 Time-Bound & Instance-Bound 
 Facts can be *time bound* as well as *instance bound*. Time bound data is a natural consequence of measuring facts over time. An instance is a general term for a scope or a combination of scopes e.g., geography, temperature zone, department within an organisation, departments within geographies, etc. 
 
 Variable 
 A fact is often a Data Variable or *variable* i.e., its value changes over time and/or across one or more instances. In other words, *change* is embedded in Data. 
-If a fact does not change by *design* it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* an example of which is the income tax rate per country for a given year (which indeed can change over time).
+If a fact does not change, or only at pre-determined times it is deemed a *constant*. Constants are regrouped into a Data Set called *Static Data* or *Reference Data* an example of which is the income tax rate per country for a given year (tax rates do change over time).
 
 Data Representation
 Facts can be represented in different manners:
@@ -3844,8 +3875,8 @@ There are three key Data Types:
 - Panel Data : also known as Cross-sectional Time-series is a combination of above two types, i.e., collection of variables at multiple times across multiple instances. Panel Data is probably the most used form of Data. 
 
 Data Equation
-The variable or fact changes within one of the three Data Types. As such, the variable can, in theory at least, be captured mathematically as an equation:  y = f(x) in which y is the fact and f(x) is a function of the Data Type, bearing in mind that Panel Data is a combination of time and one ore more instances i.e., a multi-dimensional relation!
-In reality the  Data Equation often does not exist, or only on a too small subset of data to be relevant. The attempt to find the equation is part of Info.
+The variable or fact changes within one of the three Data Types. As such, the variable can, in theory at least, be captured mathematically as an equation:  y = f(x) in which y is the fact and f(x) is a function of the Data Type, bearing in mind that *Panel Data* is a combination of time and one ore more instances i.e., a multi-dimensional relation!
+In reality the Data Equation often does not exist, or only on a too small subset of data to be relevant. The attempt to find the equation is part of Info.
 
 Data Quality
 Data Quality is the state of Data that tells how reliable a Data Set is to be considered for the production of Information. If a data set is of high quality, it must fit the intended use or purpose. It must be complete, accurate, reliable, easy to access, consistent with different sources, and easy to represent in Info.
@@ -3927,13 +3958,14 @@ Data
 Raw Data is the result from Data Collection Process. It is the most basic level of data before it becomes Info. This level of data is the same as the Data Owner knows. Raw Data may or may not be stored as part of the cycle. 
 One important thing to note is that Raw Data may be less complete than Source Data. This happens when the Data Collection process re-scopes the Source Data e.g. show only records for the year 2020 or only provide 100 out of the 1000 fields available for a single record (because the other 900 fields are not very useful). Each Raw Data set has a Raw Data Owner, which is most often the person assuring the Data Collection. Raw Data is often stored in Data Lakes in case of industrial approaches to Data, where organisations want to make Data available to a large scope of people.
 
-Data Preparation
-Raw Data often requires preparation to make it usable for the final step. Typical actions in Preparation include: 
-1. Data Cleaning: data may  have missing fields that need to be defaulted, shifted fields that need to be moved back to the right column, etc.
-2. Mapping: some fields are not meaningful unless they are mapped to a more meaningful value e.g. a User Id can be mapped to a User Name. 
-3. Reformatting: data fields may need to be standardised e.g. the date 4 May 2000 can be received from one Data Source as 04/05/2000 and in another Data Source as 05/04/2000 and in yet another Data Set using Excel date number as 36650 and from a UNIX based source 1588597200.
-4. De-duplicating: certain records may be duplicate within the Raw Data or across Raw Datasets.
-5. Scoping: Raw Data may contain records for a far larger scope than is needed e.g. all records for an entire company, whereas Info needs to be produced only for a department within.
+Data Preparation a.k.a. Data Wrangling
+Raw Data often requires preparation to make it usable for the final step. Data preparation is more and more often called *Data Wrangling*. Typical actions include: 
+1. Discovery: data may have missing fields that need to be defaulted, shifted fields that need to be moved back to the right column, etc. Discovery also includes Scoping  i.e., Raw Data may contain records for a far larger scope than is needed e.g. all records for an entire company, whereas Info needs to be produced only for a department within.
+2. Structuring: organising the data such that it is can go through the following steps with more ease.
+3. Cleaning: data fields may need to be *standardised* e.g., the date 4 May 2000 can be received from one Data Source as 04/05/2000 and in another Data Source as 05/04/2000 and in yet another Data Set using Excel date number as 36650 and from a UNIX based source 1588597200. The sane is true for NULL values. Cleaning also includes *data de-duplication* i.e., deleting duplicate records within the Raw Data or across Raw Datasets. Lastly, outliers are assessed and possibly deleted in this step.
+4. Enriching: some fields are not meaningful unless they are mapped to a more meaningful value e.g., a User Id can be mapped to a User Name. 
+5. Validating: verifying the data result is valid for its intended purpose. It may include re-runs of above steps.
+6. Publishing: creating the final set of Data i.e. Prepped Data.
 
 Prepped Data
 The result of Data Preparation is Prepped Data. It can be used to create Info. It is in most cases not easy, or if at all possible to go back from Prepped Data to Raw Data, unless detailed audit trails are kept during Data Preparation. 
@@ -3942,14 +3974,14 @@ A good Data Preparation Process creates Data that can be used for more than one 
 NB: sometimes Source Data is in effect Prepped data. This means it has been modified to fit a specific purpose before it was made available as Source Data, which in turn may cast doubts on the Data's validity. Only if the Data is *certified* as being a true reflection of the Source Data, can such Data be used. The advantage is of using Prepped Data as Source Data is of course that Preparation process may be simplified. 
 
 Data Transformation
-The last Process, ultimately creating Info, consists of manipulating Prepped Data. Data Transformation is composed of one or more of the following:
+The last Process, ultimately creating Info, consists of organising Prepped Data. Data Transformation is composed of one or more of the following:
 1. Filtering: explicitly including/excluding records 
 2. Sorting: ordering data such that it follows a trend (alphabetical, numerical, date,...)
 3. Linking: combining one Prepped Data set with another a.k.a. Data Aggregation.
-4. Calculating: using Prepped data to calculated new Facts, which can be stored as new Prepped Data e.g. calculating an average, median, a moving average, min, max, standard deviation... 
+4. Calculating: using Prepped data to calculated new Facts, which can be stored as new Prepped Data e.g. calculating statistical indicators (e.g., average, median, moving average, min, max, standard deviation), specific ratios (e.g., ROE, throghput ratio) or Venure specific data sets.
 5. Rendering: using graphical tools to highlight trends, concentration, outliers (smoothing), new calculated Facts like Thresholds, etc. such that the Prepped Data, becomes more meaningful than in its existing form. 
-6. Enriching: it is possible to use static values that are stored for specific Datasets. For example, a static value could be 10% (static) of Revenue as a Threshold for Operational Losses. Other static values are max nr counts, max values, etc. Such values often appear as straight lines, with or without a slope. 
-7. Manual Analysis: iteratively producing Info and adjusting it to achieve the best possible Info. 
+6. Referencing: it is possible to use  Dataset specific references. For example, a reference value could be 10% (static) of Revenue as a Threshold for Operational Losses. Other static values are for example max/min values. Such values often appear as straight lines, with or without a slope. 
+7. Manual Analysis: iteratively producing Info and adjusting it to achieve the best possible end-result. 
 8. Automatic Analysis: advanced Processes to find relevant Info  in the Data that the person performing the Data Transformation is unaware of. This is the remit of advanced Data Science technologies. 
 
 Info
@@ -4125,19 +4157,15 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 
 ### 20260121
 - Cleaned up some empty tools 
-
+  
 ### 20260219
 - Updated [## Business Continuity Management] and added notion of Impact and Crisis Management. Expanded the sub-section [### Further Considerations]  
-
+  
 ### 20260222
 - Deleted [## Bujo MMS] as it is not applicable anymore.
 
-
-
-
-
-
-
+### 20260226
+- updated [## Data & Info] with details in kine with kates data wrangling concepts.
 
 
 
