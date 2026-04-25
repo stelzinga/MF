@@ -96,7 +96,7 @@ ________________________________________
 This note assumes that the the principles applicable to a Manager are applicable to any Staff in a Venture. However, Manager-level employees will have more opportunities to apply the concepts mentioned in this note. 
 ________________________________________
 ## Reliability of Content
-The content of the Framework (both this note, as well as the note "Management Framework - Appendix)" is borne from two aspects: experience and research. Not all aspects discussed have had the merit of a well rounded experience or application of the theory. Which aspect of the Management Framework has or has not had that exposure is not explicitly mentioned. In addition, given that Management is both a topic of academic research, but also, if not more, an experience based topic, it is quite possible certain concepts written in these notes, are part of academic research, without that academic research having been cited, simply because it was not read by the author. If such research is available, the reader is asked to notify the author, such that the latter can review the research and integrate it in the framework if that were to be deemed relevant.
+The content of the Framework (both this note, as well as the note "Management Framework - Appendix)" is borne from two aspects: experience and research. Not all aspects discussed have had the merit of a well rounded experience or application of the theory. Which aspect of the Management Framework has or has not had that exposure is not explicitly mentioned. In addition, given that Management is both a topic of academic research, but also, if not more, an experience based topic, it is quite possible certain concepts written in these notes, are part of academic research, without that academic research having been cited, simply because it was not read by the author. If such research is available, the reader is asked to notify the author, such that the latter can review the research and integrate it in the framework if deemed relevant.
    
    
 *********************************************
@@ -153,15 +153,15 @@ The Profile expresses a Venture through a *Profile Tree*, composed of interrelat
 This visual representation is summarised below.  
 ________________________________________
 ## Profile Tree Executive Summary
-The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of  *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous sales and delivery of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues combined with *Capital* in the form of *Liabilities* and *Equity*. Liabilities or *Debt* include long and short-term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct* (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures or weaknesses in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally through Suppliers, Clients and the *Environment*. Environment consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets etc.    
-Revenue, Cost and Risk are the monetary *Results* of Operations as opposed to the non-monetary, and intangible result *Image* which reflects the opinion of the Venture as a whole as held by any people within the Environment, Clients, Suppliers and within the Venture itself. Revenue minus Cost is called *Earnings* or *Profit* and they make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenues, Costs and Profit over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of the Financial Period).  
-Operations are central to a Venture, and they are initiated and continuously improved by *Management* through four *Management Functions*: *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised, Risk minimised and the Venture's Image is maintained positive. Planning consists of strategy *formulation*, whereas Organising and Leading constitute strategy *implementation*, and Controlling consists of *verifying* the implementation. Management applies the POLC to Operations but also to *Business Functions* which are transverse topics across the Venture like *Finance*, *Human Resources*, *Information Technology*, *Compliance*, *Risk*, *Legal*, *Tax*, *Procurement*, *Communications*, and *Marketing*. Management relies on *Tools* in the form of *Research*, *Definitions*, *Frameworks*, *Procedures* and *Software* to achieve its targets. Lastly, Management is in practice a *Management Cycle* in which the theoretic concepts of POLC, Business Functions and Tools blend into a practical continuous output.  
+The main objective of a *Venture* (Company, Organisation, Corporation or Enterprise) is to generate more *Revenue*, or *Income* from the sales of  *Services* and/or *Goods* to *Clients*, than the *Cost* to yield those Services through *Operations*. Operations consists of all *Processes* (*Steps* applied to *Inputs* to achieve *Output*) contributing directly or indirectly to the continuous sales and delivery of Services a.k.a. *Run*, as well as continuous improvement of that Run through *Change*. Processes are performed and/or overseen by *Staff* (employees) using *Assets* and with input from *Suppliers* (internal or external). Combined, Staff, Suppliers and Assets are *Resources* which generate Costs (salaries, rent, depreciation, electricity, costs of goods sold, fees, etc.). These Costs are covered through Cash from Revenues combined with *Capital* in the form of *Liabilities* and *Equity*. Liabilities or *Debt* include long and short-term loans, bonds but also purchases on credit. Equity represents money invested into the Venture and thus implies a form of *ownership*. Operations also yield *Risk*, defined as the probability of unplanned events with adverse outcomes. The latter are either *direct* (loss of Revenue through fines, recall of Services, legal costs) or *indirect* (loss or damage of Resources) and they are immediate or in the future. Unplanned events occur because of i) failures or weaknesses in Processes and/or Resources and/or ii) because of unforeseen conditions created internally (Management, Staff, -internal- Suppliers, Assets) or externally through Suppliers, Clients and the *Environment*. Environment consists of external forces that affect Clients, Services, Operations and Management either directly or indirectly without any of them having direct influence on those forces. The majority of these forces include *Investors & Creditors*, *Politics, Laws & Regulations*, *Competitors* *Climate & Weather*, *Geography & Nature*, *Economy & Tax*, *Society & Culture*, *Science & Technology* and *Infrastructure*. In short, Risk is a form of *probabilistic* Cost, and the management of Risk incurs an *actual* Cost e.g., extra Staff, insurance, backup Assets.    
+Revenue, Cost and Risk are the monetary *Results* of Operations as opposed to the non-monetary, and intangible result *Image* which reflects the opinion of the Venture as a whole as held by any people within the Environment, Clients, Suppliers and within the Venture itself. Revenue minus Cost is called *Earnings* or *Profit* and combined they make up one of the key *Financial Statements* called *Income Statement* (a statement of Revenues, Costs and Profit over a *Financial Period*) whereas Assets³⁾, Liabilities and Equity make up the other: *Balance Sheet* (a statement at the end of the Financial Period).  
+Operations are central to a Venture, and they are initiated and continuously improved by *Management* through four *Management Functions*: *Planning*, *Organising*, *Leading* and *Controlling* a.k.a. *POLC*, such that Profit is maximised, Risk minimised and the Venture's Image is kept positive. Planning consists of strategy *formulation*, whereas Organising and Leading constitute strategy *implementation*, and Controlling consists of *verifying* the implementation. Management applies the POLC to Operations but also to *Business Functions* which are transverse topics across the Venture like *Finance*, *Human Resources*, *Information Technology*, *Compliance*, *Risk*, *Legal*, *Tax*, *Procurement*, *Communications*, and *Marketing*. Management relies on *Tools* in the form of *Research*, *Definitions*, *Frameworks*, *Procedures* and *Software* to achieve its targets. Lastly, Management is in practice a *Management Cycle* in which the theoretic concepts of POLC, Business Functions and Tools blend into a practical continuous output.  
   
 The next four paragraphs provide more details on the POLC, which, being functions, are foundational to Management.
   
-Planning establishes *what, where, when, why and how* is to be done within Operations by defining why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects to function (*Values* and *Bylaws*) and how it assesses the Environment versus its own performance (*SWOT* and *Intel*). Planning also defines *Goals* and *Objectives*. Run Goals focus on continuously delivering Services to Clients, with four Run Goals being essential: a) Manage Venture, b) Perform production (Value Chain), c) Perform oversight (Control Chain) and d) Perform overhead (anything not contributing to a-c but required nevertheless). Change Goals *improve* Run Goals to a) Grow Revenue, b) Protect existing Revenue at risk of being lost, c) Secure Run to reduce Risk, and d) Optimise Run to reduce Cost and/or increase Revenue. Both Run and Change Goals can have Sub-Goals that tie into *Activities* (see below). An *Objective* is a *precise*, *time-based* Process or series of Processes, the output of which supports the completion of a (Sub-) Goal and thus the delivery of a Service or improvement thereof. Objectives consume Assets and Suppliers and are performed or overseen by Staff. Objectives are either *Routines* (link to Run Goals) or *Projects* (link to Change Goals). Planning also establishes various types of metrics or *Benchmarks* like KPI, KRI which are used in Controlling. Lastly, the result of Planning is a Plan which can be a *Strategic Plan*, *Tactical Plan* and/or *Operational Plan* a.k.a. *Operating Model* (a blueprint of the Profile Tree).  
+Planning establishes *what, where, when, why and how* is to be done within Operations by defining why the Venture exists (*Context*, *Purpose*, *Vision* and *Mission*), within which boundaries it expects to function (*Values* and *Bylaws*) and how it assesses the Environment versus its own performance (*SWOT* and *Intel*). Planning also defines *Goals* and *Objectives*. Run Goals focus on continuously delivering Services to Clients, with four Run Goals being essential: a) Manage Venture, b) Perform production (Value Chain), c) Perform oversight (Control Chain) and d) Perform overhead (anything not contributing to a-c but required nevertheless). Change Goals *improve* Run Goals to a) Grow Revenue, b) Protect existing Revenue at risk of being lost, c) Secure Run to reduce Risk, and d) Optimise Run to reduce Cost and/or increase Revenue. Both Run and Change Goals can have Sub-Goals that tie into *Activities* (see below). An *Objective* is a *precise*, *time-based* Process or series of Processes, the output of which supports the completion of a (Sub-) Goal and thus the delivery of a Service or improvement thereof. Objectives consume Assets and Suppliers and are performed or overseen by Staff. Objectives are either *Routines* (linked to Run Goals) or *Projects* (linked to Change Goals). Planning also establishes various types of metrics or *Benchmarks* like KPI, KRI which are used in Controlling. Lastly, the result of Planning is a Plan which can be a *Strategic Plan*, *Tactical Plan* and/or *Operational Plan* a.k.a. *Operating Model* (a blueprint of the Profile Tree).  
   
-Organising establishes *how to do* what was Planned and *who should do it* by defining *Activities* which regroup related Sub-Goals and/or Objectives and defines how Staff are organised in *Groups* linked to those Activities. The sum of Groups (and thus Activities) is the Venture's Organisation reflected in an *Organisational Chart*. Organising establishes *Roles & Responsibilities* which includes the concept of *Delegation* of *Responsibility* and *Authority* across Activities whilst creating *Accountability* throughout the Venture. Roles & Responsibilities are formalised in a Job Description. *Casting* assures specific individuals are found for each Job Description as well as the right Suppliers. Lastly, *Funding* assures Capital required for Operations is maintained.
+Organising establishes *how to do* what was Planned and *who should do it* by defining *Activities* which regroup related Sub-Goals and/or Objectives and defines how Staff are organised in *Groups* linked to those Activities. The sum of Groups (and thus Activities) is the Venture's Organisation reflected in an *Organisational Chart*. Organising establishes *Roles & Responsibilities* which includes the concept of *Delegation* of *Responsibility* and *Authority* across Activities whilst creating *Accountability* throughout the Venture. Roles & Responsibilities are formalised in a *Job Description*. *Casting* assures specific individuals are found for each Job Description as well as the right Suppliers. Lastly, *Funding* assures Capital required for Operations is maintained.
   
 Leading involves *driving* those *who perform Operations* by directing, influencing, inspiring, and motivating individual Staff,  Groups and Suppliers to achieve Objectives. Leading consists of establishing a *Safe Space* such that *collaboration*, *motivation*, *inspiration*, and *learning* are all maximised. Leading involves *Networking* and also grooms *future Managers* and, Leading reflects upon one-self as Manager through *Management Improvement*. Lastly, Leading aims at achieving a *Culture* which embeds the Values from Planning. The Manager achieves all these deliverables through *Interaction* with individual Staff, Groups and Suppliers using various means.
    
@@ -184,12 +184,12 @@ ________________________________________
 The Profile Tree can be assessed in different manners each enforcing a different understanding of a Venture. These alternative ways are discussed below. 
   
 ### Profile Tree Top and Bottom
-Another way to understand the Profile Tree is to break it down into two parts: *Top Profile Tree* and *Bottom Profile Tree*, indicated by the two blocks between the dashed lines in above diagram. The Top Profile Tree says:  
+Another way to understand the Profile Tree is to break it down into two parts: *Top Profile Tree* and *Bottom Profile Tree*, indicated by the two blocks between the dashed lines in above diagram. The Top Profile Tree is outward focused and says:  
 - What is created (Services)
 - Whom receives those Services (Clients)
 - Which constraints and dependencies affect the manner in which the Services are created and maintained (Environment)
   
-The Bottom Profile Tree focuses on:
+The Bottom Profile Tree is inward focused and says:
 - How is the Top Profile Tree achieved (Operations)
 - How are Operations initiated and improved (Management)
 
@@ -202,22 +202,22 @@ Planning     ⇔  *Processes*
 Organising ⇔ *Resources* ⇔ Leading   
                   ⇕  
 Organising ⇔ *Capital*  
-                 ⇕   
+                 ⇕  
                *Results*    ⇔  Controlling   
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -       
 [Fig 2: the Reduced Profile Tree]
     
-This view shows the relation between Operations and Management. As will be seen later, Controlling is not restricted to Results, it applies also to Processes and Resources. Similarly, the other Management elements do not strictly only apply to the Operations elements they are in front of. Nevertheless, the diagram again aids in understanding the relations between the different Profile Tree Items. 
+This view shows the relation between Operations and Management. As will be seen later, Controlling is not restricted to Results, it applies also to Processes and Resources. Similarly, the other Management elements do not strictly only apply to the Operations elements they are in front of. Nevertheless, the diagram, again, aids in understanding the relations between the different Profile Tree Items. 
    
 The Profile Tree and Reduced Profile Tree provide *structure* and *insight* as to how each item plays part in a Venture and how items are interrelated. The relative importance of each item depends on the Venture.  
   
 ### Going Further
-Words with capitalised first letters are core to the Profile. They are either a Profile Tree Item or a deliverable related to it. The [## Profile Tree Executive Summary] reflects the majority of these capitalised words which are detailed in the rest of this note starting with Tools to introduce several concepts deemed key for the understanding of the rest of the document.
+Words with capitalised first letters are core to the Profile. They are either a Profile Tree Item or a *Deliverable* related to it. The [## Profile Tree Executive Summary] reflects the majority of these capitalised words which are detailed in the rest of this note starting with Tools to introduce several concepts deemed key for the understanding of the rest of the document.
 ________________________________________
 ## Tools
 Management Tools or in short Tools aid Managers in the performance of Management. Although Tools is a deliverable within Management, covered later in this note, it appears here because of how the concept is defined and what it is composed of. It is worth noting that "tools" are of course used everywhere including in Operations, to aid in the performance of Run and Change e.g., a wrench, software, printer, etc. However, those tools are deemed Assets. In other words in the Management Framework, Tools means Management Tools and it refers to any Tool used as part of Management. If such tools can also aid elsewhere in the Profile Tree, even better. 
   
-The following deliverables exist: 
+The following Deliverables exist: 
 - Definition
 - Research
 - Framework
@@ -239,18 +239,10 @@ A Procedure is an established or formalised manner of performing a Process. It i
 ### Software
 A Software is downloaded for free, purchased or developed. It achieves a specific outcome either by configuration or automating a manual Process, and/or by simplifying a Process even if it remains partially manual.  
   
-The Profile is itself a Framework whereas the Profile Tree Items are  Definitions. 
-  
-Some key Tools used in the rest of the Management Framework are discussed below:
+The Profile is itself a Framework whereas the Profile Tree Items are  Definitions. Some key Tools used in the rest of the Management Framework are discussed below:
 
 ### Topic Definition
-The word Topic is relatively common to not really warrant a definition. However, the Management Framework formalises it nevertheless. 
-  
-A Topic is an idea, subject or theme that is dealt with in written or spoken discourse.  
-  
-The *Topic Scope* is virtually unlimited. Even within the context of Management Framework there are many Topics in general, and they can multiply fast by refining the context around a Topic. For example, Income can be a Topic, but the Income of a specific Activity is another, even if related Topic. Effectively everything single item in the Management Framework is a Topic. 
-  
-A Topic can fall within a *Topic Category*. For example, Income can be tagged to Finance. However, many Topics are related to more than one Category. For example, Income can also be tagged to Income Statement or Corporate Tax. As such, it is not easy to isolate a Topic. 
+The word Topic is relatively common to not really warrant a definition. However, the Management Framework formalises it nevertheless. A Topic is an idea, subject or theme that is dealt with in written or spoken discourse. The *Topic Scope* is virtually unlimited. Even within the context of Management Framework there are many Topics, and they can multiply fast by refining the context around a Topic. For example, Income can be a Topic, but the Income of a specific Activity is another, even if related Topic. Effectively everything single item in the Management Framework is a Topic. A Topic can fall within a *Topic Category*. For example, Income can be tagged to Finance. However, many Topics are related to more than one Category. For example, Income can also be tagged to Income Statement or Corporate Tax. 
     
 ### 6W Framework
 The 6W Framework aids in framing *any* topic by enforcing answers to 6 fundamental questions: *What*, *Where*, *When*, *Who*, *Why* and *How* a.k.a. *Which* (hence 6W). The following are examples for each:
@@ -349,7 +341,7 @@ ________________________________________
 ## Environment
 The Environment of a Venture consists of *external forces* that can, and often will, influence, partially or fully, Clients, Services, Operations or Management, either directly or indirectly and without the Venture having any form of control over that influence. Environment is important in SWOT analysis (see below) and general Risk Management. 
   
-The Environment has *Environment Dimensions* as follows:
+The Environment has the following Deliverables often referred to as *Environment Dimensions*:  
 - Investors & Creditors
 - Politics, Laws & Regulations
 - Competitors
@@ -362,7 +354,7 @@ The Environment has *Environment Dimensions* as follows:
 
 These dimensions may not directly impact the Venture, but rather the Clients, Suppliers or Staff related to the Venture. For example income tax is not directly applicable to the Venture (profit or corporate tax is), but high income tax regimes means the cost of living is higher which may make it more difficult to attract skilled Staff from lower income tax countries.  
   
-The Environmental Dimensions are primarily driven by Country(ies) and the Sector(s) the Venture operates in. A Market Sector, Economic Sector or Sector in short, defines a regrouping of similar types of Services offered to Clients. There are different types and different qualifications of Sectors. The one used in the Management Framework is the official Global Industry Classification Standard or GICS® (MSCI et al, 2023). The GICS uses 11 Sectors, which each contain 2 or more Industry Groups, which each contain 1 or more Industries, which each contain 1 or more Sub-industries. For the Management Framework the Sector-level is sufficient in general:
+The Environmental Dimensions are primarily driven by Country(ies) and the Sector(s) the Venture operates in. A Market Sector, Economic Sector or *Sector* in short, defines a regrouping of similar types of Services offered to Clients. There are different types and different qualifications of Sectors. The one used in the Management Framework is the official Global Industry Classification Standard or GICS® (MSCI et al, 2023). The GICS uses 11 Sectors, which each contain 2 or more Industry Groups, which each contain 1 or more Industries, which each contain 1 or more Sub-industries. For the Management Framework the Sector-level is sufficient in general:
 - Energy (oil, natural gas, but not renewables which are under Utilities)
 - Materials (provide services to other manufacturers)
 - Industrials (heavy equipment companies, including airline, railroad, logistics companies)
@@ -1068,31 +1060,30 @@ Once Activities have been identified and Groups have been defined, Staff need to
   
 #### Delegating
 Delegating is a key concept (strictly speaking a Definition) in the design of a Venture, defined as:
-1. The act by which a *Delegator* (mostly the Manager)
+1. The act by which a *Delegator* (often a Manager)
 2. gives *Responsibility* for *completion of a Process* to 
 3. a suitable *Delegatee* (Staff), including 
 4. the *Authority* that goes with said Responsibility 
-5. which bestows upon the Delegatee *Accountability* to the Delegator for the Result of said Process, yet
-6. without the Delegator losing the original *Accountability* which
-7. requires *Oversight* from the Delegator over the Delegatee.
+5. which bestows upon the Delegatee an *Accountability* to the Delegator for the Result of said Process, yet
+6. without the Delegator losing the original *Accountability* which  
+7. requires *Oversight* from the Delegator over the Delegatee and over the Result.
   
-The singular *Process* above can be read as an Objective, an Activity or the entire Venture.
-  
-The Responsibility to perform a Process requires Authority which is the power or right to give orders and expect them to be obeyed (exact obedience), commit Resources (Staff, Assets, Suppliers), and make decisions. Clearly defined Authority is key in the ability to achieve the Result expected from the Responsibility of performing a Process. This goes two ways: 
+The singular *Process* above can be read as an Objective, an Activity or the entire Venture. Specifically, *Responsibility* relates to *performing and completing a Process* to *obtain a Result*, whereas *Accountability* relates to *reporting on and being subject to the consequences* of that Result being as *expected*, or *not*!  
+   
+The Responsibility to perform a Process requires Authority which is the power or right to give orders and expect them to be obeyed (exact obedience), to commit Resources (Staff, Assets, Suppliers), and to make decisions. Clearly defined Authority is key in the ability to achieve the Result expected from the Responsibility of performing a Process. This goes two ways: 
 1. The Delegatee knows which Authority was delegated; 
 2. Staff, Groups and Suppliers subject to the Authority effectively know the Delegatee has obtained that Authority.
    
-Once Responsibility has been Delegated, the Delegatee is automatically bestowed with the Accountability to *discharge the Responsibility* i.e., for the delivery of the Result of the Process. Accountability means one is liable to report to someone (Manager, CEO, Board of Directors, Shareholder, etc.) on the Result, including timeliness, of a Process and face some form of consequence if it is not achieved, and some form of praise if it is. Note that one can delegate Responsibility and Authority, but one *cannot* delegate Accountability! In other words, a Delegator *can* delegate Responsibility (and the Authority that goes with it), from which automatically flows the fact that the Delegatee owes Accountability to the Delegator. However, a Delegator *cannot* delegate that Accountability on a standalone basis i.e., cannot make a Delegatee accountable for a Process for which the Delegator has *not* delegated Responsibility nor Authority to the Delegatee. This makes sense: being held liable for something over which one has no influence, and provides no direction would be unfair, and legally impossible.
+Once Responsibility has been Delegated, the Delegatee is automatically bestowed with the Accountability to *discharge the Responsibility* i.e., for the delivery of the Result of the Process. As mentioned, Accountability means one is liable to report to someone (Manager, CEO, Board of Directors, Shareholder, etc.) on the Result, including timeliness, of a Process and face some form of consequence if it is not achieved, and some form of praise if it is. Note that one can delegate Responsibility and Authority, but one *cannot* delegate Accountability! In other words, a Delegator *can* delegate Responsibility (and the Authority that goes with it), from which automatically flows the fact that the Delegatee owes Accountability to the Delegator. However, a Delegator *cannot* delegate that Accountability on a standalone basis i.e., cannot make a Delegatee accountable for a Process for which the Delegator has *not* delegated Responsibility nor Authority to the Delegatee. This makes sense: being held liable for something over which one has no influence, and provides no direction would be unfair, and legally impossible.
    
 As part of the overall Accountability the Delegator performs Oversight of the Delegated Process, and thus the Delegatee, to assure the expected Results have been obtained *and* in return to be able to report to the person who delegated the Process to the Delegator etc. Because Managers delegate many Processes to their reporting Staff they need perform Oversight by design of their role. As such, Oversight is an integral part of Management Function Controlling.
    
-In order to delegate a Process, the Authority that goes with a Responsibility must *permit* Delegation to take place. Without such permission a Process cannot be delegated.
-  
 A Manager who has been delegated a Responsibility and Authority can delegate to someone else, provided that the Authority permits it. This is called *sub-delegation*.
   
 A Manager can choose not to delegate i.e., to *retain* Responsibility and also Authority. A Manager can also claim responsibility back, a.k.a. to *revoke* Responsibility and Authority.
    
-It is technically possible to delegate Responsibility without also delegating Authority, resulting in *Accountability without Authority*. This is not desirable, but it happens. It essentially means that the Delegatee will depend on the Delegator to get access to Resources, and to use the Delegator to exact obedience (this is where the concept of a *sponsor* comes in in Project Management for example).
+It is technically possible to delegate Responsibility without also delegating Authority, resulting in *Accountability without Authority*. This is not desirable, but it happens. It essentially means that the Delegatee will depend on the Delegator to get access to Resources, and to use the Delegator to exact obedience (this is where the concept of a *sponsor* comes in in Project Management for example).  
+  
 *Escalation* is the process of moving up the delegation tree to a level of Authority that is able to make a decision, commit resources or otherwise enforce obedience, because the person escalating does not have the Authority to do that him/herself.  
 
 Last but not least, often Managers do not explicitly delegate Responsibilities to Staff within the Group they are the Manager for: Responsibilities are often delegated by design of the Activity organisation within the Venture. Although this is not a restriction, it does mean that Managers may not always be aware of Responsibilities being fulfilled (or not!) within the Activity they are being held Accountable for.
@@ -1164,7 +1155,7 @@ It is the responsibility of the Manager to assure Motivation of Staff is achieve
 Unlike Motivation, inspiration is the Process of influencing Staff emotionally and mentally to be *creative*. As such, Inspiration is a key deliverable to yield Change. In fact, rather than asking for a specific Change through Motivation, Manager's can generate Change, without asking, by Inspiring. It is the responsibility of the Manager to assure Staff is inspired throughout the lifetime of the Venture.
   
 ### Learning
-Any Venture will undergo Change and in order to accommodate that the entire Venture often needs to learn new aspects of one or more items of the Profile Tree. Often this relates to Technology, which grows at a fast pace, but it also includes changes in Management theory, including Leading. 
+Any Venture will undergo Change and in order to accommodate that the entire Venture often needs to learn new aspects of one or more items of the Profile Tree. Often this relates to Technology, which grows at a fast pace, but it also includes changes in Management theory, including Leading. More broadly, Learning consists of any form of *knowledge acquisition* that is beneficial to Staff as individuals and the Venture as a whole. Managers need to assure that Staff and Groups are in a position to acquire knowledge in relation to their Roles & Responsibilities, but are also in a position to learn such as to prepare them for growth within the Venture.
   
 ### Networking
 The multitude of people to interact with in and outside of the company requires structure. This structure is achieved through Networking, which achieves two related objectives:
@@ -1943,18 +1934,18 @@ Added the notion of Board of Directors to [### Management Level].
 - Added Benchmark as a formal deliverable for Planning.
 - Added a Bibliography or research in [# BIBLIOGRAPHY]
 -  Added Venture into the Profile Tree and add it as a section 2 to explain different Company Structures, the Agency Problem and Corporate Governance.
-
+  
 ### 20250601 
 - Reviewed and corrected minor mistakes
 - Clarified across the entire document various sections. Added True Positive, False Positive etc to [## Controlling]. 
-
+  
 ### 20250612
 - Added [### Networking] as a deliverable in [## Leading] and integrated it in the [## Profile Tree Executive Summary]
 - Made corrections throughout the entire note
-
+  
 ### 20250721
 - Added details on granularity as well as the possibility to Control Input and Steps in [## Controlling]
-
+  
 ### 20250801
 - Overhaul of [# PROFILE] to simplify overall structure and make it more consistent. Main changes as follows:  
 - Operations now has four deliverables: Processes, Resources, Funding and Results. Run and Change are part of Processes. Staff, Assets, Suppliers are now part of Resources. Liabilities and Equity are part of Funding. Revenue, Cost and Risk are assigned to Results. 
@@ -1963,7 +1954,7 @@ Added the notion of Board of Directors to [### Management Level].
 - Business Functions now includes Marketing & Communications
 - Environment was rewritten with categories.
 - Management is back to only four deliverables: the POLC. Management Cycle was deleted and Management Improvement was moved to Leading. 
-
+  
 ### 20250810
 - Overhaul of the Profile tree, part II 
 - Funding in Operations renamed to Capital
@@ -1974,54 +1965,59 @@ Added the notion of Board of Directors to [### Management Level].
 - Finally, renamed the notes:
     - MGT: 99.Legend to "Management Framework"
     - MGT: 80.Legend to "Management Framework - Appendix"
-
+  
 ### 20250817
 - Broke up the original text of  [## Business Functions] into level 3 sections. 
 - Added [### Business Functions & POLC]
 - Added [### Going Concern] in [## Venture]
-
+  
 ### 20250906
 - Added [#### Performance] under [### Staff], essentially copied from "Management Framework - Appendix" where it was originally defined. 
-
+  
 ### 20250914
 - Updated all section to either update or remove remaining "@@@" entries. 
 - Corrected inconsistencies between the Profile Executive Summary and the rest of the Note
 - Update various aspects of [### Staff] and added Soft Skills vs Hard Skills as well as Personality and Performance.
- 
+   
 ### 20251026
 - Updated [#### Personality] with more traits + moved some aspects from [#### Soft-skills] 
 - Added {### Management Principles]
 - Added more differences in [### Business Functions vs Operations]
 - Added [## Operations (revisited)
-
+  
 ### 20251031
 - Updated several sections with clearer language and corrected some typos.
-
+  
 ### 20251128
 - Reintroduced the Management Cycle as a deliverable in [## Profile Tree], [## Profile Tree Executive Summary] and [## Management] 
 - Added details of this new deliverable in [## Management Cycle]
-
+  
 ### 20260125
 - Updated [### Topic Definition] and moved it earlier in [## Tools] 
-
+  
 ### 20260204
 - Removed the footnotes from Profile Overview.
-
+  
 ### 20260218
 - Added Image in the Results of Operations and added [### Image]
- 
+   
 ### 20260222
 - Updated [### Image], [### Change] in [## Processes]
-
+  
 ### 20260303
 - Added [### Culture]
- 
+   
 ### 20260307
 - Added [## Management and Span of Control]
-
-### 20260322
+  
+### 20260322  
 - Updated [### Objectives]
 - Updated [### Funding] to include the decision to *not* Fund.
 - Added [### Interaction] as a deliverable for Leading opening the door to the use of Chat, Mail, Meet as Routines for Management Cycle. 
 - Updated [## Management Cycle] 
+  
+### 20260425
+- Updated [#### Delegating] 
+
+
 
