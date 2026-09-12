@@ -2,8 +2,8 @@
 # INTRODUCTION
 This note provides details for Management Tools or Tools in short, as discussed in the note "Management Framework".  
 
-It has the following blocks each with several L1 sections:: 
-  
+It has the following blocks each with several L1 sections:
+   
 General   
 - Introduction
 - License
@@ -426,7 +426,7 @@ The total of these Profile Tree items, including their numbering is referred to 
         - 10.04.01.00.Revenue  
         - 10.04.02.00.Cost   
         - 10.04.03.00.Risk  
-        - 10.04.04.00.Image  
+        - 10.04.04.00.Reputation  
 - 20.00.00.00.Services  
 - 30.00.00.00.Clients   
 - 40.00.00.00.Environment  
@@ -490,7 +490,7 @@ The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a d
 Something is important for different reasons e.g.:
 -Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.)
 - Task relates to a topic that has a lot of attention from senior stakeholders (internal or external)
-- Task completion has a direct impact on Revenues, Cost or Risk.
+- Task completion has a direct impact on Revenues, Cost, Risk or Reputation.
   
 ### Not Important
 This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself. The following criteria are relevant:
@@ -500,26 +500,26 @@ This includes all tasks that are potentially important in the long run, but not 
 ### Urgent
 Something is urgent for different reasons, and there is sometimes a link with *Important* e.g., 
 - Not performing the Task soon has a knock-on effect on several other Tasks and/or
-- There is a deadline imposed by a senior stakeholder (internal or external)
-- The completion of the Task has a direct impact on Revenue, Cost or Risk
+- There is a deadline imposed by a senior Stakeholder (internal or external)
+- The completion of the Task now has a direct impact on Revenue, Cost, Risk and Reputation.
   
 ### Not Urgent
 Something is not Urgent if the non-performance of the Task any time soon is not going to make a real difference. 
   
 ### Decision Quadrants
 The two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
-1. Urgent + important -> Do Task Now
+1. Important + urgent -> Do Task Now
 2. Important + not urgent -> Do Task Later
-3. Urgent + not important -> Delegate Task to someone
-4. Neither urgent + not important -> Delete Task altogether
+3. Not important + urgent -> Delegate Task to someone
+4. Not important + not urgent -> Delete Task altogether
   
-The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff, provided the Staff has been given the right to delegate to someone, see [## Delegating Definition]. As can be clearly seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
+The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff. As can be seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
   
 ### Decision Outcomes
-The use of the Eisenhower Matrix helps scale work. It is important to note that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many tasks.  
+The use of the Eisenhower Matrix helps scale work. It is important to note that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many Tasks or in the delegation structure that was put in place.  
   
 ### Eisenhower Decisions
- Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.  
+Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.  
 ________________________________________
 ## MSS (Software)
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
@@ -1573,7 +1573,7 @@ Each Component has many different reasons to be (partially) unavailable:
 - Network components are composed of both Hardware and Software (see above) and in addition, the cabling used between the Network components may be cut accidentally.  
 
 #### Relevance of Three Unavailability Levels  
-Are the three Unavailability Levels realistic? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or half of them went out to dinner together and got food poisoning). Similarly for Office, is it really possible to have a 50% unavailable office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For User Apps similar logic can be applied, it may be that only a single User App is affected by a bug, and all other hundred User Apps still work as normal, etc. As can be seen, in a larger company, where Components within the Conceptual Framework are composed of sub-components and/or many instances, it is well possible to have Unavailability Levels of 50% or even more granular, like 10, 20, 30% etc. However, as discussed later, these do not improve a Managers ability to make decisions. 
+Are the three Unavailability Levels realistic? Take for example Staff. Is a single person 50% available? Probably not, although scenarios could be devised where this is actually the case e.g., half day work. However, Staff often operates in Groups, and 50% of a Group not being able to show up for work is easier to imagine (viral disease, or half of them went out to dinner together and got food poisoning). Similarly for Office, is it really possible to have a 50% unavailable office?  Well, yes: as mentioned above, offices can have multiple floors. One floor can be flooded and not another. For User Apps similar logic can be applied, it may be that only a single User App is affected by a bug, and all other hundred User Apps still work as normal, etc. As can be seen, in a larger company, where Components within the Conceptual Framework are composed of sub-components and/or many instances, it is well possible to have Unavailability Levels of 50% or even more granular, like 10, 20, 30% etc. However, as discussed later, these do not improve a Manager's ability to make decisions. 
   
 #### Unavailability Symptoms versus Causes    
 Note that although on paper it seems simple to establish which Primary Components are unavailable, there are many situations where it is not clear-cut. For example, a flaky access to a Server App may because the User App has a problem, or the network in between the Server App and the User App may be partially failing e.g., flapping network components, or the Server App itself does not work, or it has a has a dependency on another Server App which is not working or the network in between is not working well, etc, etc.
@@ -1773,7 +1773,7 @@ Other technology aspects can come into play e.g., cloud technology, virtualisati
 #### Data  
 Data is assumed to be included in Server Apps in the Conceptual Framework. This is practically correct: Data used by User Apps is available on Server Apps. However, Data driven Companies need to consider Data *corruption*. That is to say, the infrastructure and software that use that Data function as if it is BAU but the Data itself is (partially) missing and/or the content has been incorrectly updated. As such, companies often make, and keep, of copy of their Data, potentially at a secured location, at frequent intervals to be able to put back a *last known correct* version of the Data on the Server Apps. A copy kept for a certain time is called *data backup*.      
      
-Staff  
+#### Staff  
 In the Conceptual Framework, Staff is deemed available as a single resilient level as opposed to for example User Apps which can have a Primary and Secondary instance. However, in reality the availability of Staff may not be guaranteed. Typical Scenarios could be severe Pandemics, terrorist attacks like '9/11 twin tower attack' or War in which Staff can be affected up to no availability. For Companies with Offices in several Countries it may be considered to have cross-country resilience with the Staff performing Operations split across different Countries. This is however, not always an option and it potentially brings its own challenges and thus Cost. 
   
 #### Tertiary Components  
@@ -1822,7 +1822,7 @@ Activities regroup a set of Objectives aiming at achieving, or contributing to, 
 The name of the Venture is determined by the owners of the Venture. It is essentially the top level of all Activities (and thus Groups) within a Venture. 
 For any other Activity within the Venture, the Manager of the Venture effectively delegates the Management of the Activity to the head or Manager of said Activity. The result of this, is that for example details as discussed the Profile are maintained by the Activity Manager and not the Venture Manager. Note that, as per delegation principles, the Manager of the Venture remains accountable for the performance of the Activity. See also [## Delegating].
 ________________________________________
-## Resource Planning
+## Resource Planning (Framework)
 With the Tactical Plan, see [## Tactical Planning], the target Objectives are identified for 1 year (or more) including when they will be worked on. However, resources are not attributed to those Objectives. The Tactical Plan is most often designed around known Resources. Nevertheless, there are considerations for planning resources.
 
 Resource planning, a.k.a. Budgeting is a two way exercise in which Resources (Staff, Assets, Suppliers) are compared with the target set out by Goals. 
@@ -2167,7 +2167,7 @@ Some key guidelines are the following:
 - Phrase questions as questions (and make such questions short). 
 - Use short sentences when possible and break it down into bullet pointed lists if various 'aspects' are enumerated.
 _________________________________________
-## Listening
+## Listening (Framework)
 Listening is part of communication. Good listening means understanding the purpose of the conversation. A conversational goal is composed of needs of the listener the needs of the speaker and the needs of the Venture. Not all aspects are present in each conversation. 
 
 There are four distinctive listening styles and Managers need to be able to differentiate between them:  
@@ -2411,6 +2411,7 @@ Skills required for Management are below. Details of skills can be found under [
 - Mathematics
 - Operations
 - Information & Communication Technology 
+- Artificial Intelligence 
 - Project Management
 - Statistics
 
@@ -2607,10 +2608,12 @@ Controlling
 Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
 ________________________________________
 ## Holistic Data Approach
-See [## Data & Info] further below under [# ASSETS].
+See [## Data & Info] further below under [# ASSETS].  
 ________________________________________
 ## Oversight Framework (Framework)
-An Oversight Framework is used to oversee a specific Activity. Its application is particularly useful in business models where the quality or accuracy of output is critical e.g., heavily regulated sectors, dangerous activities involving systems or outout that are detrimental to Staff or the Environment, etc. The concepts of the Framework follow the principles laid out under the Management Function called Controlling. The Oversight Framework takes specific aspects of the Profile Tree and creates a cohesive structure around it. Key topics are:
+An Oversight Framework is used to oversee a specific Activity or group of Activities. Its application is particularly useful in business models where quality or accuracy of output is critical e.g., heavily regulated sectors, dangerous Activities involving systems or output that are possibly detrimental to Staff or the Environment, etc. The concepts of the Framework follow the principles laid out under the Management Function Controlling. The Oversight Framework takes specific aspects of the Profile Tree and creates a cohesive structure around it. 
+  
+Key topics in the Oversight Framework are:
 - Rules
 - Processes
 - Resources
@@ -2620,26 +2623,36 @@ An Oversight Framework is used to oversee a specific Activity. Its application i
 - Committee
   
 ### Rules
-Rules define all external laws, regulations, guidances etc. and/or internal policies to which the Activity is subject. Put simply, Rules in the Oversight Framework, define the constraints imposed on how an Activity can be performed or should be performed. It thus also defines what the Activity should be measured against.
+Rules define boundaries for an Activity in the form of:
+- External laws, regulations, guidances etc. and/or 
+- Internal policies, guidelines, requirements 
+  
+Put simply, Rules in the Oversight Framework, define the constraints imposed on *how* an Activity can or should be performed. It thus also defines what the Activity should be measured against.
   
 ### Processes 
 Processes are specific Steps applied to some Input to yield some form of Output which is reflected in Results. Weaknesses in Processes can result in Rules not being observed.
   
 ### Resources 
-Resources are either some Input for Processes and/or Assets in the form of Systems that embed Processes. It includes Referential or Configuration that drives how Systems in scope of the oversigh operate and it includes documentation on a broad scooe e.g., how Rules have been interpreted, how Process work, how Systems have been designed including validation or approval if relevant, etc. Resources are maintained through Processes. Weaknesses in Resources can result in Rules not being observed.
+Resources are either:
+- Staff and/or Suppliers involved in operating Processes or 
+- Assets that embed Processes like Systems. 
+  
+Assets include Referential or Configuration that drive how Systems operate and it includes documentation on a broad scope e.g., how Rules have been interpreted, how Processes work, how Systems have been designed including validation or approval if relevant, etc. 
+Resources are maintained through Processes.
+Weaknesses in Resources can result in Rules not being observed.
   
 ### Results
-Results reflect direct or indirect output of Processes and Systems. Direct output is in the form of Services or Products and indirect output is in the form of Revenue, Cost and Risk. Results include reports reflects the provision of any required or elected internal or external information on Processes, Resources, Results or Controls. This includes reports in relation to performance, regulatory breaches, incidents, etc. low quality, or off-target results can lead to Rules not being observed.
+Results reflect direct or indirect output of Processes and Systems. Direct output relates to output from Services or Products. Indirect output is related to Revenue, Cost,  Risk and Image. Results can also include required or elected internal or external Information *related* to Results e.g., Information  on Processes, Resources and Controls (see below). Duch information includes reports in relation to performance, regulatory breaches, incidents, etc. Low quality, or off-target Results can lead to Rules not being observed.
   
 ### Controls
 Controls are specific Processes, including embedded in Systems, that verify that above Processes, Resources and Results are as expected per the Rules. 
 Controls include independent review by internal or external auditors.
   
 ### Roles & Responsibilities
-The Roles & Responsibilities or R&R define what Staff or Groups of Staff are expected to do when performing Processes, and when developing or maintaining Assets. Poorly designed or poorly defined R&R can result in Rules not being observed. 
+The Roles & Responsibilities or R&R define what Staff and Suppiers are expected to do when performing Processes, and when developing or maintaining Assets. Poorly designed or poorly defined R&R can result in Rules not being observed. 
   
 ### Committee
-A Committee is a recurring meeting that relevant,, senior, members attend with the aim to make decisions for one or more proposals based on information in relation to one or more topics. Committees are framed by the Terms of Reference. For more details see [## Committee] below. The decisions are made on the basis of metrics like KPI, KRI, that are relevant to the scope of the oversight.
+A Committee is a recurring meeting that relevant senior members attend with the aim to make decisions for one or more proposals based on Information in relation to one or more topics in the scope of the oversight. Committees are framed by the Terms of Reference. For more details see [## Committee] below. The decisions are made on the basis of metrics like KPI, KRI relevant to the scope of the oversight.
 
 ### Alternative Approaches 
 Above structure is indicative and considered a bare minimum. It is possible to add layers or to become more granular for specific topics. For example, if external reporting to a Regulator is essential it can become a topic on its own, or if a specifc type of Risk is essential it can be isolated from Results. 
@@ -2729,19 +2742,19 @@ ________________________________________
 The Board of Directors is often a legal and/or regulatory required committee which aims at assuring that the Management of a Venture is acting within its fiduciary duties. 
 ________________________________________
 ## MBO (Framework)
-<TBD>
+<TBD>  
 ________________________________________
 ## BSC (Framework)
-<TBD>
+<TBD>   
 ________________________________________
 ## OKR (Framework)
-<TBD>
+<TBD>   
 ________________________________________
 ## Process Review (Framework)
-See [STD: Management # PROCESS REVIEW]
+See [STD: Management # PROCESS REVIEW]  
 ________________________________________
 ## Root Cause Analysis 
-Despite the existence of Controlling, incidents or failures in one or more processes (embedded in systems or not) can happen. In order to establish what caused an incident a so called Root Cause Analysis (RCA) can be performed. A RCA is a structured investigation aiming at finding the true cause a.k.a. Root Cause of a problem, after it has already occurred. The aim of finding that true cause is to fix it.
+Despite the existence of Controlling, incidents or failures in one or more processes (embedded in systems or not) can occur. In order to establish what caused an incident, a so called Root Cause Analysis (RCA) should be performed. A RCA is a structured investigation aiming at finding the true cause a.k.a. Root Cause of a problem after it has already occurred. The aim of finding that true cause is to fix it.
   
 ### RCA Concepts
 The process to find a Root Cause is conceptually very simple: keep asking"why" from the point of the incident. An old anecdotal story "for want of a nail" by Benjamin Franklin states: for want of a nail the shoe was lost, for want of a shoe the horse was lost, for want of a horse the rider was lost being overtaken by the enemy's army. Other version then go on to say "... for want of a rider, the message never made it to the general and the battle was lost". 
@@ -2755,18 +2768,22 @@ A more practical example is the following, starting by the incident outcome:
     Why was the pressure in the pipe too high?
 4. Because the pressure controlling unit failed to detect the high pressure.
     Why did the pressure controlling unit fail to detect the high pressure?
-5. Because the pressure controlling was not switched on.
+5. Because the pressure controlling unit was not switched on.
     Why was the pressure controlling unit not switched on?
 6. Because the Staff responsible for switching on the unit every morning forgot to switch it on.
 
-As said, the RCA is conceptually simple: keep asking why until there is no further answer: the root cause has been found. In above example, the root cause is someone forgetting to do something. 
+As said, the RCA is conceptually simple: keep asking "why" until there is no further answer: the root cause has been found. In above example, the root cause is someone forgetting to do something. 
 
 ### RCA Aggravating Factors
-What sometimes makes it complex is the notion of "aggravating factors" or "enabling factors" or "RCA Enablers" or short "Enablers".  An aggravating factor is a Process or lack thereof that makes the occurrence of the final incident outcome more likely, but on its own would not have cause the incident.  
-For example, in the above 6 steps, there could be an Aggravating Factor as follows: if the pressure controlling is not switched on, sound an alarm on the Staff's computer to remind him. In this case, one could argue that the fact that the alarm did not sound is the true root cause. But the alarm is a reminder of something that has to be done regardless. The alarm helps the Staff to be reminded of what needs to be done, but the Staff also knows it needs to be done. If the alarm would not have sounded, the Staff could still have switched on the pressure control unit. As can be seen, the differentiation between Root Cause and Enablers can become blurry. 
+What sometimes makes it complex is the notion of "aggravating factors" or "Enabling Factors" or "RCA Enablers" or short "Enablers". An Enabling Factor is a Process or lack thereof that makes the occurrence of the final incident outcome more likely, but on its own would not have caused the incident.  
+For example, in the above 6 steps, there could be an Aggravating Factor as follows: if the pressure controlling is not switched on, sound an alarm on the Staff's computer to remind him. In this case, one could argue that the fact that the alarm did not sound is the true root cause. But the alarm is a reminder of something that has to be done regardless (switching on the Pressure Control unit). The alarm helps the Staff to do what needs to be done, even if the Staff also knows it needs to be done. If the alarm would not have sounded, the Staff could still have switched on the pressure control unit. As can be seen, the differentiation between Root Cause and Enablers can become blurry.  
+What is important to take away, is that RCA may also highlight Enabling Factors.
   
 ### RCA Inhibitors
 RCA is a process of finding "how something went wrong". Structurally the result may involve some Group not having done what was supposed to be done. In other words, RCA is often construed as a "finger pointing exercise". Consequently, the process may be stunned by Staff who fear -rightly or wrongly- that they are the root cause. The best way to avoid this interpretation is to not use terms like "responsible" Staff or Groups and focus purely on the Root Cause and Aggravating Factors and then address those. 
+
+### RCA Action Plans
+Depending on the RCA outcome various weaknesses are higlighted. To strengthen the Operating Model, improvements should be implemented where possible. Not everything can always be improved though. For example, someone forgetting something or doing the wrong thing is not easy to remediate structurally.
 ________________________________________
 ## Staff Reports (Framework)
 <TBD>
@@ -2806,7 +2823,7 @@ ________________________________________
 ## Check Standards (Framework)
 As a reminder, to Check is one of four different manners to establish Supervision (the others being to Review, to Attend and to Audit). A Check consists of a verification of some measurement against a well established baseline. Many companies refer to this as a Control, but the Profile defines a Control as any of the Four Supervisory Processes.    
 
-The Check Standards define how a Check should be designed. The Check Standards are entirely based on the general Control Process concept discussed in [MGT: 99.Legend ## Controlling].
+Check Standards define how a Check should be designed. As a standards it is entirely based on the general Control Process concept discussed in [Management Framework ## Controlling].
    
 1. Establish the *Purpose*;  
 2. Establish the *Baseline* or Benchmark  
@@ -2985,13 +3002,13 @@ A Manager needs to be efficient in what it does over the time given to a Manager
 Name or very Short description of the Topic e.g., Project, an event.
 
 ### Context
-The context should answer the 6W of the Topic. They can be used freely, but mostly go along with the 6W Method defined above, see [MGT: 99.Legend ### 6W Method]. The context can be omitted if the Manager knows the audience are aware of the context already.
+The context should answer the 6W of the Topic. They can be used freely, but mostly go along with the 6W Framework , see [Management Framework ## 6W Framework]. The context can be omitted if the Manager knows the audience are aware of the context already.
 
 ### Last Status
 This reflects the Status of when the Topic was last discussed. The Last Status should be indicative how close the Topic was of being concluded at that time of discussion e.g. 60% done, 3 actions left out of 20, expected closure 20 Sep 2030, etc.
 
 ### Current Status
-The Current Status is similar as the Last Status in terms of type output. It also includes what was done compared to the Last Status. e.g. 10% works was done, so 30% remains for the next two weeks, expected closure moved forward to 10 Sep 2030, etc. 
+The Current Status is similar as the Last Status in terms of type output. It also includes what was done compared to the Last Status. e.g., 10% works was done, so 30% remains for the next two weeks, expected closure moved forward to 10 Sep 2030, etc. 
 
 ### Attention Points
 Any aspects that are a potential impediment in the conclusion of any remaining actions of the Evolving Topic. It is possible to put Attention points *before* the Current Status, if the Attention Points are a reason for delays to have occurred compared to the Last Status.
@@ -4165,7 +4182,9 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Deleted [## Bujo MMS] as it is not applicable anymore.
 
 ### 20260226
-- updated [## Data & Info] with details in kine with kates data wrangling concepts.
+- Updated [## Data & Info] with details in line with Dates data wrangling concepts.
 
-
+### 20260912
+- Updated Eisenhower Matrix
+- Corrected typos throughout the document
 
