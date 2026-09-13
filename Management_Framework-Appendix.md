@@ -2275,46 +2275,12 @@ ________________________________________
 One of the most suitable forms of Communication is through a Meeting.
 Like communication there are two key types of Meetings: formal and informal.
 
-A Meeting is either owned by the Manager or not. 
-
-A meeting is either recurring or not. Non-recurring Meetings can still be deemed 'recurring' in below procedure, except that there are no recurring dates available. 
-
-The purpose of a Meeting is to either regularly exchange updates between participants e.g. an item in MGT: 04.Controlling # JOURNAL), and/or it is used as a form of Control or Oversight e.g. an item in MGT:  04.Controlling # SUPERVISION and/or it is used as a form of Reporting to senior management or more generally to stakeholders e.g., an Item in [MGT: 04.Controlling # REPORT].
+A Meeting is either owned by the Manager or not. A meeting is either recurring or not. Non-recurring Meetings can still be deemed 'recurring' in below procedure, except that there are no recurring dates available. 
+  
+The purpose of a Meeting is to either regularly exchange updates between participants and/or it is used as a form of Control or Oversight and/or it is used as a form of Reporting to senior management or more generally to stakeholders.
 
 ### Meeting Procedures
-For each Recurring Meeting set up a note. The note drives how the meeting is done.
-
-### Meeting Note
-Create notes with the following conventions:
-- Note name: MGT: Attend-xxx-yyy
-    with xxx = Activity/Supplier and yyy =  Staff
-- Note content: see below.
-
-The following is the default content of a Meeting Note (items refer to L1, L2 and L3 sections):
-- L1: Introduction: overall purpose of meeting and audience (Activity, Supplier and Staff or type of Staff within). 
-- L1: Todo: optional, items to be done 
-- L1: List of Meetings: with L2 sections as follows:
-    - dd Mmm yyyy, with following L3 sections
-        - Agenda
-        - Present (omit if 1:1 meeting)
-        - Apologies (omit if 1:1 meeting)
-        - Minutes
-        - Details (details, can be omitted)
-        - Actions
-
-### Meeting Preparation
-Ahead of a Meeting use L3 section = 'Agenda' of the upcoming Meeting to mention a topic to discuss. This is done on an ongoing basis. Use Task Notation to maintain these, see [## Task Notation] using '.' i.e. Not Started.
-
-### Meeting Process
-During the meeting take notes in the section 'Minutes'. For each item, use '-', dash or '+' 'plus, for a topic brought forward that was not on the agenda. For topics from section 'Agenda' that were discussed, move them from that section to section 'Minutes' and change the '.' to 'x'. 
-
-### Meeting Minutes
-Use L3 section = 'Minutes' to prepare Meeting Minutes to attendees, if relevant or required.
-The Actions resulting from the Meeting can be added to the ToDo section for that meeting. 
-
-Use L3 section 'Present' to populate To: in the mail with the minutes and L3 section = 'Apologies' for Cc:  
-
-Meetings can also be processed in BuJo MSS, see [### BuJo MSS Process - Meetings].
+For each Recurring Meeting set up a note. Suggested note format is as per [## SNF], see under [# CONTROLLING]
 ________________________________________
 ## One-on-One (Framework)
 One-on-One meetings are meant to give Staff the opportunity to communicate concerns to the Manager and vice-versa. Concerns can be interpreted broadly, but the focus should be the non-operational part of a Staff's responsibilities. This can include, but is not limited to, team-interaction, issues in handling of operational topics etc. A key part of a One-on-One is to provide feedback to and collect feedback from Staff, see [## Feedback].
@@ -2456,6 +2422,7 @@ This overview shows on L1 key deliverables as per [Management Framework ## Contr
 - Journal
     - Journalling
     - BuJo
+    - SNF
 - Supervision  
     - Oversight Framework
     - Progress Tracking
@@ -2606,6 +2573,60 @@ Reflects Management Function Leading, and serves as a scribble section for aspec
 
 Controlling 
 Reflects Management Function Controlling, and serves as a scribble section for aspects of this Management Function. In most cases it just points to [MGT: 04.Controlling], but during the performance of the Management Cycle, ideas, small projects to improve Controlling can be collected here, and later ported to the permanent note or to MSS.
+________________________________________
+## SNF
+The Simple Note Framework ("SNF") proposes a structured skeleton of *Topics* reflected in a clear *Note Name* with a standardised "Note Content". The approach is particularly useful for Meetings which is what a Manager is likely so spend much time on. 
+  
+### Topics
+In the SNF the following Topics are used:
+- Routines
+- Projects
+- Meetings
+  
+A Routine reflects recurring work to be performed, see also [Management Framework ## Routines]. Often there is no need for a dedicated note and the MSS, see [## MSS] will lend itself better for maintaining Routines. Nevertheless, SNF allows having a dedicated note. In reality, many Routines for Managers consist of Meetings (below).
+  
+A Project reflects one-off work to be performed to improve Routines see also [Management Framework ## Projects]. Like for Routines, the MMS may lend itself better.
+  
+A Meeting is probably the most often used SNF Topic. Meetings can be committees, one-on-one, team meetings, projects meetings or ad-hoc meetings. Meetings are either used as a form of oversight (Committees, Steercos, Opcos etc) or a general exchange of knowledge and ideas.  
+  
+### Note Name
+The name of a note in SNF should be a short as possible, yet should clearly reveal the Topic the note is about. 
+  
+For Routines, the Note Name follows the approach discussed in the Management Cycle, see [Management Framework] using a verb used first word e.g., "Plan", "Organise", "Lead", "Control" at the POLC level or more detailed within the POLC items. For example in Planning the use of the verb "Maintain", or for Controlling the use of "Check", "Review", "Attend", "Monitor" or "Report".
+  
+For Projects, the Note Name simply uses the name of the project. 
+
+For Meetings that are not part of Attend i.e., not Committees, the name should reflect the Staff, Group or Supplier the meeting is with.  
+  
+To be able to have a hierarchy which helps sorting notes, the following Note Name Format is recommended:
+  
+- Topic: Sub-topic: xxx
+  
+in which:
+- Topic: Routine, Project or Meet
+- Sub-topic: a Topic dependent optional label e.g., "Attend" or "Review" for Routines or Staff", "Group", "Supplier" for Meetings.     
+- xxx is a label that clearly reflects the Topic e.g., name of Staff a meeting is with, or the name of a Project.  
+  
+### Note Content
+The following sections are recommended for each note, even if not all sections are used for each Note Topic:
+- Context
+- Stakeholders
+- Opinion
+- Actions
+- Discuss
+- Journal
+
+The Context helps explaining why the note exists. It is recommended to follow the concepts of the 6W Framework, see [Management Framework ## 6W Framework]. A history as to the existence of the note may be useful for more involved Topics. 
+  
+Stakeholders reflect Staff, Groups and Managers involved in the Topic (including one-self of course). Sometimes this is already reflected in the Note Name e.g., "Meet: Staff: John Doe", in which case it can be left empty. 
+  
+The Opinion helps explaining one's own opinion. This can be used to give feedback on the Topic but also to the Stakeholders in the Topic. For example, if evaluation feedback is asked on a particular Staff, this section will proof useful. 
+    
+Actions reflect things needing to be done in relation to the Topic. They should be written in Objective Notation format, see [## Objective Notation]. If easier, there can be a sub-section per Stakeholder instead of using "{owner}" from the Objective Notation. The Actions section is most useful to preparing a Meeting to see what should have been done and whether it was done or not. 
+  
+The Discuss section contains items to be discussed for next time the Topic is discussed (mostly for Meetings). It is recommended to use Objective Notation format. Once an item here has been discussed it should move to the Journal section.
+  
+The Journal section contains what was discussed. Objective Notation for Comments should be used i.e., entries start with "-", "+" or "_" . It is recommended to have dated blocks with the latest data at the top. 
 ________________________________________
 ## Holistic Data Approach
 See [## Data & Info] further below under [# ASSETS].  
@@ -4184,7 +4205,8 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20260226
 - Updated [## Data & Info] with details in line with Dates data wrangling concepts.
 
-### 20260912
+### 20260913
 - Updated Eisenhower Matrix
 - Corrected typos throughout the document
+- Added [## SNF]
 
