@@ -284,16 +284,17 @@ A *Process Owner* is the Group or Staff expected to yield an Output, making a Pr
   
 A Process has Risk associated to it, by definition, see above. The assessment of that Risk for a given Process is key in Risk Management. Sometimes specific Processes are designed to verify another Process has yielded a specific Output as per expectations. Such a Process is referred to as a Control or a Check. By definition, even Controls have Risk embedded in them.
     
+### Efficiency Requirement Definition
 Optimising Processes such that they yield highest Revenue at lowest Cost and with as little as Risk possible, is key in Management.
     
-Any Process or change in Process should directly or indirectly:
-- Increase Revenue and/or  
-- Reduce Risk and/or  
-- Reduce Cost and/or 
-- Improve Reputation and/or
-- Report to Stakeholders or improve an aspect for one or more Stakeholders not part of the above 
+Any Process or change in Process (and thus Goal, Objective as will be clarified later) should directly or indirectly improve the Venture by:
+- Increasing Revenue and/or  
+- Reducing Risk and/or  
+- Reducing Cost and/or 
+- Improving Reputation and/or
+- Reporting to or improving an aspect for one or more Stakeholders.
     
-If a Process or change in Process does not achieve the above directly or indirectly then it is likely it should not be performed at all. The assessment is easy for Processes that directly have an influence as per above. It is more difficult to establish for Processes that contribute indirectly i.e., the path from the Process to the final desired Output is complex. For example, more motivated Staff could lead to increased Revenue, but that link is difficult to establish. The truth is that, particularly in large organisations, the majority of Processes are indirect. This is typically reviewed by Managers either directly or through audits, or through a specific Framework called Business Process Analysis or Business Process Engineering.
+If a Process or change in Process does not achieve the above directly or indirectly then it is likely it should not be performed at all. The assessment of such improvements is easy for Processes that directly have an influence as per above. It is more difficult to establish for Processes that contribute indirectly i.e., the path from the Process to the final desired Output is complex. For example, more motivated Staff could lead to increased Revenue, but that link is difficult to establish. The truth is that, particularly in large organisations, the majority of Processes are indirect. This is typically reviewed by Managers either directly or through audits, or through a specific Framework called Business Process Analysis or Business Process Engineering.
 
 ### Work Definition
 The term Work is a catch-all generic term for any Processes expected to be, or actually being performed by a Staff or Supplier as in "the Work performed by John Doe". 
@@ -651,7 +652,7 @@ Credit purchases are a form of passive funding, effectively, a Cash outlay now i
 Overdrafts are a form of active funding and an indirect form of short term borrowing trough the bank.
   
 #### Long Term Loans  
-Long Term loans are active forms of funding and can go by different names. Often the amounts are consequential and are against a single loan issuer or loan writer like a bank or a consortium of banks (possibky other type of counterparts). Because of the size, some form of collateral is often required to protect the loan writer(s).
+Long Term loans are active forms of funding and can go by different names. Often the amounts are consequential and are against a single loan issuer or loan writer like a bank or a consortium of banks (possibly other type of counterparts). Because of the size, some form of collateral is often required to protect the loan writer(s).
   
 #### Bond Issuance  
 A Bond Issuance is a form of long term loan, but instead of being written against one or more banks it is distributed to many counterparts. Bonds don't involve collateral. 
@@ -770,8 +771,11 @@ Another way of looking at this, is that Top Management *defines*, Middle Managem
 It is worth noting that the Top-level Management is much less pre-occupied with the details of the Profile, instead it is more involved in higher-level aspects of running the Venture, in networking and using all kinds of information to make strategic decisions to the betterment of the Venture. 
    
 ### Management Span of Control
-It is by looking at an Organisation Chart, see [## Organising] that it becomes clear which Staff is being Supervised by whom. The Span of Control of SoC then refers to how many Staff report into one Manager, or seen differently, how many Staff each Manager supervises. SoC can be reflected by the following ratio: SoC = Nr Staff / Nr Managers but sometimes the reverse is used as well. An SoC of 1 means that 1 Manager supervises only one person, and a SoC of 10 means that a Manager supervises 10 Staff. The SoC is highly Sector dependent. For example, Manufacturing Ventures have a high SoC ranging from 15-25, whereas Financial Services have a range between 6-10. Having a low SoC, all things being equal,  means a deeper organisation with more Managers and consequently  slower decision making, whereas reversely a high SoC means a flatter organisation with less managers and faster decision making. 
+It is by looking at an Organisation Chart, see [## Organising] that it becomes clear which Staff is being Supervised by whom. The Span of Control or "SoC" then refers to how many Staff report into one Manager, or seen differently, how many Staff each Manager supervises directly. SoC can be reflected by the following ratio: SoC = Nr Staff / Nr Managers but sometimes the reverse is used as well. An SoC of 1 means that 1 Manager supervises only one person, and a SoC of 10 means that a Manager supervises 10 Staff. The SoC is highly Sector dependent. For example, Manufacturing companies have a high SoC ranging from 15-25, whereas Financial Services companies have a range between 6-10. Having a low SoC, all things being equal, means a deeper organisation with more Managers and consequently slower decision making, whereas reversely a high SoC means a flatter organisation with less managers and faster decision making. 
     
+### Management & Delegation
+The concept of Delegation as detailed in [## Organising] is essential in any large Venture. Fundamentally, when considering the different Management Levels as discussed above, delegation means that a Top Manager is not involved in the same manner in the Operations performed within the Venture as is a Middle Manager and in the same manner, a Middle Manager is not involved in the same way as a Line Manager. There is a simple reason for this: time and skills. A Top Manager has neither the time nor (at least most often not) the Skills to interact with the Staff performing the Operations. This also means that a Top Manager cannot be alerted for each concern raised at the operational level within the Venture. The implementation of Delegation is exactly done for this reason: it helps Top Managers to focus on the higher level aspects of the Venture, whereas Line Managers focus more on the Operational aspects of the Venture. This is not to say that the Top Management should not be informed or keep abreast at all, but it means that Top Management relies on Middle Management to filter out the essentials which are brought to the attention by Line Management, who already filtered out what they deemed was most relevant. 
+  
 ### Management as Academic Topic  
 Management has, and still is, the topic of much study and research. The Management Framework does not intent to reflect an exhaustive view of the significant amount of work done over the last 100 years. For example, Henry Fayol (Fayol, 1949) defined five instead of four Management Functions. The fifth one, Coordinating, does not appear as such in the Management Framework and has over time been morphed into the other Management Functions. More importantly, whereas early Management focused solely on the point of view of the Venture and Shareholders, modern Management theory has an increased focus on the interest of Stakeholders more broadly.
     
@@ -779,7 +783,7 @@ Management has, and still is, the topic of much study and research. The Manageme
 There are many books written on Management or Leadership principles e.g., "21 Irrefutable Laws of Leadership" (Maxwell, 2007) or Fayol's 14 Management Principles (Fayol, 1949). The Management Framework too defines a few principles deemed relevant for a Manager to achieve his full potential, and for the Venture to thrive.
   
 #### Management Principle - Understand the Venture
-For a Manager to function at his best, it is fundamental he understands, and maintains that understanding of, the Venture. In other words, *why* does the Venture do what it does. This means an understanding of all aspects of the Profile (Environment, Clients, Services, Operations and Management). This is true for every Management Level, even if the level of understanding of each aspect may differ for each level. Understanding is not the same as knowing, which is the next Management Principle.
+For a Manager to function at his best, it is fundamental he understands, and maintains that understanding of the Venture. In other words, *why* does the Venture do what it does. This means an understanding of all aspects of the Profile (Environment, Clients, Services, Operations and Management). This is true for every Management Level, even if the level of understanding of each aspect may differ for each level. Understanding is not the same as knowing, which is the next Management Principle.
   
 #### Management Principle - Know the Venture
 Whereas the first principle focuses on the *why* of the Venture. The second principle focuses on *what* actions the Venture performs, *who* are the key players in those actions, *where* and *when* does the Venture perform these actions and lastly, *how* are these actions performed. This knowledge and the interplay of the different aspects of it is key for a Manager to be able to add value to the Venture. Here too this Principle applies to all Management Levels.
@@ -895,6 +899,8 @@ Goals, sometimes referred to as Pillars are outcome statements that define how t
 3. Linked to Mission, Purpose and Vision
 4. Specify period over which the Goal applies -including indefinitely-
   
+Like for a Process, a Goal should not be defined if it does not contribute to increasing Revenue, and/or decreasing Cost and/or decreasing Risk, and/or improve Reputation and or improve reporting to Stakeholders, see also [### Process].
+   
 Goals, like Services, differentiate between *Run Goals* and *Change Goals*:
   
 #### Run Goals   
@@ -925,10 +931,12 @@ Whereas a Goal is broad, an Objective is a precise, time-based Process, or set o
 5. How: detailed Processes involved in achieving the Objective and it can also contain, if not already framed by the *What*, how to *measure* the result of the Objective, see also Benchmark below. 
   
 The *Where* aspect is relevant for Venture's where the delivery of Service is not the same as where the Clients are, or where Assets used in Operations are not in the same location as the Venture. If this is not relevant, the *where* can be defaulted to the Venture's or Activity's location. 
-  
-Objectives are either *Routines* or *Projects*. Both are Measurable and both also have a notion of *Effort*, or time spent involved in performing them, but they differ in property nr. 2: Projects are *limited* in time, whereas Routines are *recurring* in time. They also differ in that structurally Projects aim to improve Routines.
-    
+
 If Ventures use Pillars instead if Goals, they may also use Goals, or Targets instead of Objectives. 
+
+Like for a Process, an Objective should not be defined if it does not contribute to increasing Revenue, and/or decreasing Cost and/or decreasing Risk, and/or improve Reputation and or improve reporting to Stakeholders, see also [### Process]. 
+   
+Objectives are either *Routines* or *Projects*. Both are Measurable and both also have a notion of *Effort*, or time spent involved in performing them, but they differ in property nr. 2: Projects are *limited* in time, whereas Routines are *recurring* in time. They also differ in that structurally Projects aim to improve Routines.
    
 #### Routines
 Routines are composed of one or more Processes performed on a periodic basis that contribute to a Run Goal. Routines do not have an End Date and are thus never completed, even if the Process(es) the Routines are composed of complete each time the Routine is performed. Periodicity can be short term (minutes, hours, days), medium term (weeks, months) to long term (quarters, years) or ad hoc i.e., they start when a trigger event occurs e.g., a request is raised.
@@ -937,12 +945,12 @@ Once a Routine is started it can take seconds to several weeks or even months to
   
 Routines can be broken down into one or more *Subs* (sub-routines) which each can be further broken down into one or more *Drills*. This allows building a hierarchy as follows:
   
-Venture
-    Run Goal
-        Run Sub-Goal    
-            Routine
-                Sub
-                    Drill
+Venture  
+    Run Goal  
+        Run Sub-Goal      
+            Routine  
+                Sub  
+                    Drill  
   
 Such *Routine Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
    
@@ -959,13 +967,13 @@ Note that for a Process, or group of Processes, to be considered a Project it ne
   
 Projects can be further broken down into one or more *Streams* which each can be broken down into one or more *Actions*. This allows building a hierarchy as follows:
   
-Venture
-    Change Goal
-         Change Sub-Goal
-            Project
-                Stream
-                    Action
-  
+Venture  
+    Change Goal  
+        Change Sub-Goal  
+            Project  
+                Stream  
+                    Action  
+   
 Such a *Project Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
   
 Goals (incl Sub-Goals) and Objectives combined serve to:
@@ -983,15 +991,26 @@ Tasks are similar to Objectives but on a smaller scale i.e., there are Tasks tha
 The most used, and practical approach is for Routines and Projects to reflect Objectives that are formally covered in Organising, Leading and Controlling, whereas Tasks reflect smaller versions of Projects that do not require such official coverage. 
   
 ### Benchmark
-Planning defines *metrics* that express *criteria* to assess if, and how well, an Objective, Sub-Goal, Goal within the Strategy was achieved. Such metrics are referred to as Benchmark and they are used in Controlling to establish whether the Planning yielded the expected results. Benchmarks come in a wide range of types. Below often used ones:
+Planning defines *metrics* that express *expected* Output to assess if, and how well, an Objective, Sub-Goal, or Goal within the Strategy was achieved for a given *scope*. These metrics are referred to as Benchmark and they are used in Controlling to establish whether the Planning yielded the expected results. 
+The use of the word *expected* is important. An Output may be a form of Revenue (and thus more is better), but can easily refer to number of failed products (and thus less is better). 
+Good Benchmarks also establish *thresholds* below (or above) which Management needs to involved. Benchmark come in different *types* and although they are mentioned as a separate deliverable in Planning, they are often (but always) established as a result of defining Objectives, Sub-Goals and Goals. The "What" aspect of an Objective mentioned above, if well defined, often embeds -at least part of- the Benchmark.
+  
+Benchmark Metric
+A Benchmark is a *metric* e.g., binary (done, vs not done), quantitative (100 EUR, 1000 lines of code,...) or qualitative ("glossy", "pleasing to the eye", "increased sales") with a preference for quantitative metrics. The metric focuses often on the output of the Objective, Goals etc. for two reasons 1) Objectives etc are defined to achieve a specific Output so measuring that Output is the most relevant and 2) the  Output is relatively easy to establish if the Objective is well defined. The metric is ideally expressed as a % with 100% meaning Output is at the expected level or even better. 
+  
+Benchmark Threshold
+It can be quite easy to define a metrics for an Objective, Goal etc. However, what is important is to define a level below (or above) Management is deemed to take action. For example, it is reasonable to expect that an Objective is not (yet) entirely met. This does not mean that Management needs to intervene. By defining an explicit threshold requiring Management involvement, it becomes clear when Management is expected to intervene. Such thresholds are best expressed as a percentage of the expected level e.g., anything below 80% requires Management involvement.  
+  
+Benchmark Scope & Scale
+The scope of a Benchmark is conceptually simple, but in reality very complex. For example, a Venture may set as its target a specific Revenue number. In complex Venture composed of many Activities they all contribute to total Revenue. This means that each Revenue generating Activity needs to obtained a target. And for each Activity each Revenue contributing Objective would need a Revenue benchmark, etc. As a result the Venture's Benchmark does not scale as easily as one would like to see. 
+  
+Benchmark Type  
+Benchmarks come in a wide range of types. Below frequently used ones:
 - KPI: Key Performance Indicator. A metric used for Revenue, Cost and Balance Sheet tracking. However, it can also measure aspects indirectly related to these monetary deliverables, but rather aspects related to Services e.g., number of Clients onboarded per period.
-- KRI: Key Risk Indicator. A metric used to reflect Risk (probability of an adverse outcome, reflected as monetary number) or the actual realisation of Risk i.e., the Risk has materialised. This metric can have many different categories, due to the broad range of possible Risks, see also [### Risk] earlier.
+- KRI: Key Risk Indicator. A metric used to reflect Risk (probability and expected impact of an adverse outcome, reflected as monetary number) or the actual realisation of Risk i.e., the Risk has materialised. This metric can have many different categories, due to the broad range of possible Risks, see also [### Risk] earlier.
 - KEI, Key Efficiency Indicator. A metric used to reflect how well a Venture uses it's Resources versus the Revenues it generates at the Cost it incurs under the constraint of Funding. In many cases KPI will be used to reflect *any* metric related to efficiency. 
 - KCI: Key Conduct Indicators show how well Staff perform with regards to the Values. 
 - Other: in reality many metrics are possible to measure directly or indirectly any aspect of the Profile Tree.
-     
-A Benchmark also includes the expected *type of metric* e.g., binary (done, vs not done), quantitative (100 EUR, 1000 lines of code,...) or qualitative ("glossy", "pleasing to the eye", "increased sales") with a preference for quantitative metrics.
-Although Benchmarks are mentioned as a separate deliverable in Planning, they are often established as a result of defining Objectives, Sub-Goals and Goals. The "What" aspect of an Objective mentioned above, if well defined, often embeds -at least part of- the Benchmark.
   
 At this stage it is worthwhile mentioning a potential conflict of interest in the establishment of Benchmarks and the people establishing them. If a Manager establishes an Objective and then defines a 'weak' or 'easy' Benchmark such that achieving the Benchmark becomes relatively easy, he can be said to lower the standards of the Venture, see also [### Agency Problem]. It is therefore often desirable that an independent or higher level Management reviews and validates the Benchmarks i.e., typically a Board of Directors in the case of a Corporation. Independent establishing or vetting of Benchmarks is part of Managerial Oversight, see also Controlling. 
   
@@ -1055,7 +1074,7 @@ For each Group the following aspects can be relevant:
 In most cases an Activity equals the Group associated to it. In other words, the Activity is determined by the existence of a Group of Staff performing Processes relevant to that Activity, and vice versa the Group of Staff performing those Processes reflects the Activity. As such, above properties of a Group can be omitted and one can refer to the Activity. The details for Activity and Group can thus effectively be merged. Groups form the link between Activities and Staff. Therefore, the regular review of Groups implies regular review of Staff within the Group.
   
 ### Roles and Responsibilities
-Once Activities have been identified and Groups have been defined, Staff need to be made aware of what is expected of them within the Group. This is defined through Roles & Responsibilities which formalise the Role of the Staff within a Group and the Responsibilities assigned to that Role through *delegating* a.k.a. *delegation*. Roles & Responsibilities is thus a formalised structure composed of:
+Once Activities have been identified and Groups have been defined, Staff need to be made aware of what is expected of them within the Group. This is defined through Roles & Responsibilities or R&R, which formalise the Role of the Staff within a Group and the Responsibilities assigned to that Role through *delegating* a.k.a. *delegation*. Roles & Responsibilities is thus a formalised structure composed of:
 - Delegating
 - Roles
 - Responsibilities
@@ -1251,18 +1270,27 @@ The output of the Supervision Framework i.e., Supervision Processes or Controls 
 One aspect of Supervision is independence of Supervision. Managers define Objectives, Sub-Goals, Goals and Strategies and these include Benchmarks and by measuring what they have defined themselves they may have a conflict of interest. One way around this is the use of Audit as a form of Control (as Audits are independent). The other measure against such conflicts of interest is independent oversight from other managers e.g., a company's Management is overseen by the board, which is overseen by the Shareholders. 
     
 ### Reports
-A Report aims at informing someone (the Receiver) of facts, opinions or alerts (the Content) by someone (the Reporter) for a specific reason (the Purpose). The Receiver can be one or more persons and can be a Manager, Staff, Supplier, Project Team, Stakeholder, etc. The content of a Report is mostly in written form (mail, memo, but could also be through a presentation either orally and/or with a deck, or even more formally through a booklet like Financial Statements. The Reporter is the person(s) disclosing the Report and can be a Manager (to his/her Manager), a Staff (to his/her Manager), the board (to Shareholders) etc. The Reporter often, but not always, prepares the Content.
+A Report aims at informing an *receiver* of *content* (facts, opinions or alerts) for a given *scope* (Venture, Activity, ...) by a*reported* (Staff, Manager, Business Function) for a specific *purpose*.   
   
-The Purpose of a Report depends on the target audience of the Report:
-
-#### Management Report
-A Report for a Manager provided by a Staff, a Group or Business Function or another Manager! The Purpose is for a Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary i.e., the focus is performance. In addition, this report is used to report on concerns coming from the Environment (Market Intel). 
+Receiver
+The Receiver can be one or more persons and can be a Manager, Staff, Supplier, Project Team, Stakeholder, etc. 
   
-#### Staff Report
-A Report for Staff or a Group. The purpose of such Report is to inform Staff how they are performing on their (joint) Job Description. 
+Content  
+The content of a Report is mostly in written form (mail, memo, but could also be through a presentation either orally and/or with a deck, or even more formally through a booklet like Financial Statements. Content can be one offs, or continuous (like an online dashboard). 
+Content should have a strong focus on the Benchmarks established in Planning. It can, and often will, provide context around the numbers presented including historic levels of the Benchmarks, exceptions etc. 
   
-#### Marketing Report
-This is a Report tailored to the Strengths of the Venture and can be used for Clients, or more generally any Stakeholder. 
+Scope  
+The scope of what a report covers is as per discussed under Benchmark Scope 
+in Planning earlier in this note. This aspect of Reports is important in the context of Management Levels. The level of detail reported to Line Management is not the same as the level of details reported to Middle Management etc.  
+    
+Reporter  
+The Reporter is the person(s) disclosing the Report and can be a Manager (to his/her Manager), a Staff (to his/her Manager), the board (to Shareholders) etc. The Reporter often, but not always, prepares the Content.
+  
+Purpose  
+The Purpose of a Report depends on the target audience of the Report, for example:
+- Management Report: A Report for a Manager provided by a Staff, a Group or Business Function or another Manager! The Purpose is for a Manager to oversee Results from the Processes that were delegated (Routines and Projects) and adjust where necessary. In addition, such a Report is used to report on concerns coming from the Environment (Market Intel). 
+- Staff Report: a Report for Staff or a Group. The purpose of such Report is to inform Staff how they are performing on their (joint) Job Description. 
+ - Marketing Report: a Report tailored to the Strengths of the Venture and can be used for Clients, or more generally any Stakeholder. 
   
 ### Monitoring
 The content of Report can lead to a cycle of feedback and follow-up. Feedback comes in the form of suggestions for improvements. These suggestions are translated into actions and these need to be planned and monitored. Planning is done in the Planning cycle of Management, or within Operations if the action is to improve Run or Change. In all cases, it is important that any action determined within a Supervisory Process is closed timely.
@@ -2026,7 +2054,12 @@ Added the notion of Board of Directors to [### Management Level].
   
 ### 20260912
 - Updated [#### Delegating]
--  
+
+### 2026095
+- Updated [### Benchmark] with a clearer explanation of what it is, and added the notion of Threshold 
+- Updated [### Reporting] to refer to [### Benchmark]
+- Added [### Management and Delegation]
+- Updated [### Goals] and [### Objectives] to include the fact they should not be defined if they do not improve Revenue/Cost/Risk/Reputation/Reporting to Stakeholders. 
 
 
 
