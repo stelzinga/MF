@@ -946,11 +946,11 @@ Once a Routine is started it can take seconds to several weeks or even months to
 Routines can be broken down into one or more *Subs* (sub-routines) which each can be further broken down into one or more *Drills*. This allows building a hierarchy as follows:
   
 Venture  
-    Run Goal  
-        Run Sub-Goal      
-            Routine  
-                Sub  
-                    Drill  
+  Run Goal  
+    Run Sub-Goal      
+      Routine  
+        Sub  
+          Drill  
   
 Such *Routine Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
    
@@ -968,11 +968,11 @@ Note that for a Process, or group of Processes, to be considered a Project it ne
 Projects can be further broken down into one or more *Streams* which each can be broken down into one or more *Actions*. This allows building a hierarchy as follows:
   
 Venture  
-    Change Goal  
-        Change Sub-Goal  
-            Project  
-                Stream  
-                    Action  
+  Change Goal  
+    Change Sub-Goal  
+      Project  
+        Stream  
+          Action  
    
 Such a *Project Hierarchy* enables a detailed level of Planning where desired (which also means more maintenance). 
   
