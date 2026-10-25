@@ -353,9 +353,10 @@ The total of these Profile Tree items, including their numbering is referred to 
     - 00.02.00.00.Organising  
         - 00.02.01.00.Activities  
         - 00.02.02.00.Groups  
-        - 00.02.03.00.Roles & Responsibilities  
-        - 00.02.04.00.Casting  
-        - 00.02.05.00.Funding
+        - 00.02.03.00.Delegating
+        - 00.02.04.00.Roles & Responsibilities  
+        - 00.02.05.00.Casting  
+        - 00.02.06.00.Funding
     - 00.03.00.00.Leading  
         - 00.03.01.00.Safe Space  
         - 00.03.02.00.Direction  
@@ -440,8 +441,6 @@ This overview shows on the first level the key deliverables as per [Management F
 
 - Management 
     - PDA
-    - Eisenhower Matrix 
-    - MSS
     - Governance Matrix 
 - Planning
     - Dedicated level 1 section
@@ -452,12 +451,11 @@ This overview shows on the first level the key deliverables as per [Management F
 - Controlling 
     - Dedicated level 1 section 
 - Business Functions
-@@@
 - Tools
-@@@
 - Management Cycle
-
-
+    - Eisenhower Matrix 
+    - GTD
+    - MSS
 ________________________________________
 ## PDA (Software)
 Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This standard is referred to as the *Personal Digital Assistant* or *PDA* and is composed of:
@@ -468,8 +466,9 @@ Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This s
 - Contacts
 - Chat
 - Phone incl Video
-- Browser
-  
+- Web Browser
+- File Browser 
+
 Depending on apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
 
 - Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail, ...)
@@ -479,158 +478,11 @@ Depending on apps used, and whether a Venture requires the use of specific apps,
 - Contacts (MS Contacts, Google Contacts, ...)
 - Chat (MS Teams Chat, Whatsapp, Signal, WeChat, ...) 
 - Phone incl. Video (MS Teams Phone, landline ...)
-- Browser (MS Edge, Google Chrome, Firefox, ...)
+- Web Browser (MS Edge, Google Chrome, Firefox, ...)
+- File Browser (File Explorer, File Manager, ...)
 
 Because they can be used in many different manners by different people, this note will not prescribe particular uses.   
-________________________________________
-## Eisenhower Matrix (Framework)
-The *Eisenhower Matrix* or *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, a USA general during WW II and 34th President of the USA who used it to manage his time. The decision tree is based on *two dimensions* of Tasks. These dimensions are *urgency* and *importance* and are used by a Manager to decide what to do with each Tasks coming his way. Note that instead of Tasks one can read Objectives.  
-  
-### Important
-Something is important for different reasons e.g.:
--Task cannot be delegated (simply because the right skills are not there right now, training would take too much time given urgency, etc.)
-- Task relates to a topic that has a lot of attention from senior stakeholders (internal or external)
-- Task completion has a direct impact on Revenues, Cost, Risk or Reputation.
-  
-### Not Important
-This includes all tasks that are potentially important in the long run, but not important enough for the Manager to do himself. The following criteria are relevant:
-- Task requires Skills the Manager does not have (and would thus require delegation anyway)
-- Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). 
-  
-### Urgent
-Something is urgent for different reasons, and there is sometimes a link with *Important* e.g., 
-- Not performing the Task soon has a knock-on effect on several other Tasks and/or
-- There is a deadline imposed by a senior Stakeholder (internal or external)
-- The completion of the Task now has a direct impact on Revenue, Cost, Risk and Reputation.
-  
-### Not Urgent
-Something is not Urgent if the non-performance of the Task any time soon is not going to make a real difference. 
-  
-### Decision Quadrants
-The two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
-1. Important + urgent -> Do Task Now
-2. Important + not urgent -> Do Task Later
-3. Not important + urgent -> Delegate Task to someone
-4. Not important + not urgent -> Delete Task altogether
-  
-The dimensions are applicable to the person needing to make the decision between 1,2,3 and 4 and can thus apply to Managers as well as Staff. As can be seen, according to the Eisenhower Matrix oneself should work only on Tasks that are Important.
-  
-### Decision Outcomes
-The use of the Eisenhower Matrix helps scale work. It is important to note that the decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under 1 and 2 and almost none under 3 and 4. If the decision was made correctly, and there are still many tasks under 1 and 2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many Tasks or in the delegation structure that was put in place.  
-  
-### Eisenhower Decisions
-Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff.  
-________________________________________
-## MSS (Software)
-The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
-  
-### MSS Master
-The master MSS file, mgt.xlxs, is available in GitHub:
-<https://github.com/stelzinga/MF>
 
-### MSS Slave
-It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g., macros. Such instance is called an "MSS Slave". 
-
-### MSS References
-To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
-  
-### MSS Note Management
-A key feature is the ability to write *Notes* in any Col named  "Notes". Depending on the sheet in MSS this column may then further drive the content of Columns *First Note*, *Last Note* and then *Creation Date* and *Update Date*.  Notes follow the expanded form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
-  
-### MSS Task Management
-Another feature of MSS is the integration of Tasks using [## Task Notation] in any Column named "Tasks".  
-  
-### MSS Hierarchy
-The Sheet "Projects" has has an *Integrated Hierarchy*. 
-
-Venture   
-  Project p  
-    Stream p,i  
-      Action p,i,j  
-  
-The hierarchy is determined by Column *Link*, the value of which is the value of the Column *Key*. 
-  
-In addition to the Link, *manual indentation* makes the hierarchy visible:
-- Run/Chg Goals, Routine, Project = 0x space
-- Sub, Stream = 4x space
-- Drill, Action = 8x space 
-
-NB: as the spaces are in Col "Name" it is important to make sure they are applied *before* creating the link! 
-  
-### MSS Dynamic Gantt Chart
-The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column *Start Date* and the latest one in Column *End Date*. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
-- Venture: shows today's date in red, rest white
-- Project: shows bar from Start to End in dark blue
-- Stream: shows bar from Start to End in light blue
-- Action: shows bar from Start to End in soft grey
-- Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
-
-#### MMS Tracker
-The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, and Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
-- Capture all aspects of the Expanded Profile Tree as default Routines for Goal mgt.
-- Capture all specific Routines the Manager does himself in 07.Management Cycle
-- Capture all ongoing Projects relevant to the Venture
-- Fiilter and sort such that relevant Data for specific purposes e.g., meetings with Reports, Managers, Peers. 
-- Ability to use the data for Reporting 
-  
-Key functionalities are as follows:  
-- Calculated Columns: a series of calculated columns help with stats and reporting.
-- Reporting Columns: a combination of a calculated Column + an override to force reporting on/off for a given item. 
-- Tag: free field used in Reporting, Filtering or Sorting. Content is a comma separated list of 'Tags'.
- - Who Columns : 
-     - Whom For Lvl 1 and Lvl 2: allowing for Activities and Sub-Activities (with "_all" if a non-specific Sub-Activity
-    - Whom By Lvl 1 and Lvl 2: allowing for Groups and Staff (with "_all" if no specific Staff)
-- Goals Columns: 
-    - Goals as per Management Framework, also in Sheet = Static
-    - Sub-Goals also linked to standard Sub-Goals in Sheet = Static
-    - Initiative: allows creating cross sectional Initiatives 
-- Status Columns  
-    - Planning Type: Project, Routine or Task
-    - Status: Open, Started, Pending, Completed, Urgent
-- Name Column: as per Objective Notation
-- Reference Columns:
-    - Details: anything that cannot be kept in the Name
-    - Notes: Task Notation Comments of form "dd-mm-yy: xxx"
-    - Tasks: Task Notation Tasks, can include comments too
-    - Remaining Task: count of non-completed Tasks
-    - Task Progress: Remaining Tasks / Total Tasks as a %
-- Date Columns (all hidden)
-    - Period indicator: for Routines
-    - Nr Occurrences /year: for Routines 
-    - Time in hours /occurrence: for Routines
-    - Total time /year (days): calculated: for Routines
-    - Start: for Projects, start date
-    - End: for Projects, end date
-    - Hold: for Projects, hold or pending date
-    - Complete: for Projects, completion date 
-    - Effort: total effort in days per year for Projects  
-- Gantt Chart Columns: 12 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
-- Many Custom Fields (20 in total) for Venture specific needs
-   
-MMS Tracker Recommended Usage  
-The tracker's main purpose is to help the Manager keep track of what he needs to do.
-The basic version of the Tracker is pre-filled with all required items of the Expanded Profile Tree for 00.Management item all Sub-Goals representing 01.planning, 02.organising all the way to 06.tools. Each Sub-Goal has as many rows as there are Deliverables in the Management Framework with each deliverable in column Name.
-Then create as many rows under Sub-Goal = 07.management cycle as there are actions performed by the Manager as per [Management Framework ## Management Cycle]:
-- As many Rows for name = "Meet ..." as there are Meeting
-- Create high-level entries & provide relevant details including default Change Goals.
-    - For each Project Deliverable create a Task (helps tracking)
-    - Tag planned Months during which it is active with 'x'
-    - Update the Gantt Chart to reflect the lifetime of the Project
-    - For hard deadlines add them in Details or in End
-   
-Projects versus Tasks
-In the Tracker, Projects are defined at the start of the year. They are what is truly expected to be done, and serve as a key inout to Performance Management of individuals as well as the Venture. Projects also follow a more formalised Project Management approach.
-Tasks, on the other hand, are used for work to be done that materialises throughout the year, often spawn of from a Routine, and which needs more formal tracking as if it were a Project. 
-      
-Meetings with direct reports  
-A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
-- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name or if set up, use Tag = "contains name of Staff" 
-- Run through all Routines and Projects applicable to the Staff 
-- Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
-- Add new Routines, Projects and Tasks if relevant. 
-
-### MSS Reporting
-MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. 
   
   
 *********************************************
@@ -985,19 +837,18 @@ ________________________________________
 Objectives have various properties that were explained in the Management Framework Profile. Here a deep dive is done on properties of an Objective.
 
 ### Objective Components
-As mentioned in the Profile, an Objective is defined by the 6W: What, When, Who, Why, How, Where (often embedded in How).
-  
-However, for each of these 6W many different properties can exist. These Properties can be used to refine the many aspects of an Objective. 
+An Objective is defined by the 6W: What, When, Who, Why, Which a.k.a. How, and Where (frequently embedded in How).
+For each different properties can exist. These Properties can be used to refine the many aspects of an Objective. 
   
 ### What
-The What of an Objective can include the following aspects:
+The What of an Objective includes the following aspects:
 - Type of Objective (Routine, Project)
 - Status if it is a Project (Not Started, Open, Started, Pending, ...)
 - Name of the Objective
 - ...
   
 ### When
-The When of an Objective can include following aspects:
+The When of an Objective includes the following aspects:
 - Recurrence (if a Routine)
 - Start date/time (Routine, Project)
 - End date/time (Routine, Project)
@@ -1006,14 +857,14 @@ The When of an Objective can include following aspects:
 - ...
   
 ### Who 
-The Who of an Objective can include the following aspects:
+The Who of an Objective includes the following aspects:
 - Who is the beneficiary (Client, Client Type, internal Groups, ...)
 - Who performs the Objective (Group, Staff, Suppliers, ...)
 - Who is accountable for the Objective if the Objective execution was delegated.
 - ...
   
 ### Why
-The Why of an Objective can include the following aspects:
+The Why of an Objective includes the following aspects:
 - The Goal an Objective ties in to
 - The Sub-Goal an Objective ties in to
 - The expected increase of efficiency 
@@ -1032,16 +883,16 @@ The How of an Objective can include the following aspects:
 - ...
   
 ### Conclusion
-From the above it is clear that an Objective, although conceptually simple, can have many properties. Depending on the Management Level, the number of Properties required would decrease with increasing Management Level. 
+From above it follows an Objective although conceptually simple, has many properties. Depending on the Management Level, the number of Properties required decreases with increasing Management Level. 
 ________________________________________
 ## Objective Notation (Framework)
 Objective Notation is a formalised short-hand structure to reflect anything from Goals all the way to Actions/Drills and even Comments. Although the primary use is for Objectives (Projects, Routines) it can be used for Tasks as well. In this section, and unless mentioned otherwise, when *Objective* is mentioned it can be replaced with *Project*, *Routine* or *Task*. For example, *Objective Indicator* is the same as *Task Indicator* or *Sub Indicator*, *Objective Notation* is the same as *Task Notation*, etc. Specifically, Task/Project and Recurring Task/Routine are equivalent. See also [## Task Notation].
   
 ### Objective Notation Purpose
-The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives in a single line of text and without going it to too much detail.  Although the Objective Notation is well structured and formalised, this does not mean  formalism is *required*. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid implementation. Also, the structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties].  
+The main purpose of the Objective Notation is to have a structured way to capture key aspects of Objectives in a single line of text but without going it to too much detail. Although the Objective Notation is well structured and formalised, this does not mean  formalism is *required*. Ultimately, the user of Objective Notation can use it in many ways, depending on needs. Below explains the formalism, and also shows a less rigid implementation. The structure is simple, therefore it suits Managers who want to be able to capture the essence of an Objective, without worrying about too many details or the many possible Properties of Objectives, see [## Objective Properties].  
   
 ### Objective Notation Format
-The Objective Notation Format uses 6 so-called *Objective Components* or *Objective Indicators* as follows (note the different bracket types):
+The Objective Notation Format uses 6 *Objective Components* or *Objective Indicators* as follows (note the different bracket types):
    
 status name (date) {owner} |link| [reference]
     
@@ -1548,7 +1399,7 @@ In which (in brackets the Profile Tree Item it relates to)
 - Office (Assets): building where Staff work and which provides the necessary structure for User Apps through items like chair, desk, electricity, network, etc. This could be home if home working is applicable for the Company.  
 - Staff (Staff): an employee working in office or from home or both using one or more User Apps, this includes personal devices with company software accessible via internet (broadband, WiFi, etc). Structurally, this also includes the psychological constraints. 
 - User Apps (Assets): Software running on Hardware and connecting to Server Apps i.e., a PC or Laptop with office software (word processor, mail, chat) and business software. Some User Apps can be standalone i.e., not connecting to a Server App.  
-- Server Apps (Assets): core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also embeds *Data* e.g., orders, contracts, transactions, referential, static data, referntial data, procedures, etc. Server Apps are deemed running in a separate building called Data Center, but this is not necessarily true for smaller companies.
+- Server Apps (Assets): core business functionality embedded in Software and running on Hardware. The Server App is thus Software + Hardware. In the Conceptual Framework the Server Apps also embeds *Data* e.g., orders, contracts, transactions, static data, referential or configuration data, procedures, etc. Server Apps are often running in a separate building called Data Center, but this is not necessarily true for smaller companies.
 - Suppliers (Suppliers): third parties providing essential services to the company e.g., data vendors, exchanges, brokers, but also building rentals (see below). 
 - ⇆, ⇗⇙: any Interaction -and thus dependency- between Components. It can include a chair and desk in an Office for a Staff for example. In the case of User Apps and Server Apps it concerns *Network* components like Routers, Switches, cabling, telecommunications, etc. In general, all Network connectivity is assured by a combination of company *and* Supplier owned Networks. In the Conceptual Framework, however, we mean the Company-maintained Network. For example, if a telco line between two locations fails, then that is a Supplier issue, even if it concerns a Network. 
    
@@ -1659,8 +1510,8 @@ The occurrence of a Scenario is called a *Disaster*. The following are essential
 - Strikes (Medium). These can affect Office access, Supplier services and potentially lack of Staff (if the Strike is performed or contributed to by Staff)
 - Pandemics like the 2019 Covid pandemic (Low). This can affect Staff directly (they get sick) or indirectly (Staff does not want to take the risk to go to work). It also will affect in the same manner the services offered by Suppliers and Public Infra.
 - Physical large-scale threats like wars, terrorist attacks, risk of explosions like gas leak, or bombs from past wars (Low). These may impact all aspects of the Conceptual Framework. 
-- Cyber Attack (Medium): various forms of cyber attack (ransomware, data theft, ...) which can affect any of User Apps and Server Apps, Suppliers, Public Infra.
-
+- Cyber Attack (High): various forms of cyber attack (ransomware, data theft, ...) which can affect any of User Apps and Server Apps, Suppliers, Public Infra. Cyber Attacks are of the form: "it is not a matter of if, but rather of when"
+  
 As will become clear from above, the Scenario Probabilities can be country specific e.g., certain countries have no occurrence or extremely low probability of severe weather whereas certain countries it deemed BAU unless it is an exceptionally intense form etc.  
   
 By looking at such broad-brush Scenarios, it is possible to focus on events that will affect a broad range of Components and perform the Analysis and Decision in advance of the actual event happening across all Components.
@@ -1810,11 +1661,14 @@ This overview shows on L1 key deliverables as per [Management Framework ## Organ
     - Group Definition
     - Organisation Chart
     - MSS, see [## MSS]
-- Roles & Responsibilities
+- Delegating
     - Delegating Definition
+- Roles & Responsibilities
     - Delegating Checklist
     - Job Description
     - RACI
+- Casting
+- Funding
 ________________________________________
 ## Activities Definition (Procedure)
 Activities regroup a set of Objectives aiming at achieving, or contributing to, a specific Service.  
@@ -1839,7 +1693,7 @@ ________________________________________
 Although the Group Definition is defined by the Activity Definition, the relation between Activities, is often capture in an Organisation Chart, and not an Activity Chart! In other words, the manner in which Activities relate to each other is reflected in how Groups related to each other. 
 ________________________________________
 ## Delegating Definition (Framework)
-The definition of Delegating is as per [Management Framework ### Roles & Responsibilities]. This section sets out further details of Delegating.
+The definition of Delegating is as per [Management Framework ### Delegating]. This section sets out further details of Delegating.
 
 ### Delegating Conditions
 Legally speaking delegation is possible only if:
@@ -1891,7 +1745,7 @@ From a manager perspective, delegating is a crucial tool to be able to focus on 
 
 The following principles aid in maximising delegating for Managers:
 1. The basic principle is that Operational work should be delegated
-2. Quick wins (taking less than 5 minutes) can be done without delegating
+2. Quick wins (taking less than 5 minutes) can be done without Delegating
 3. Anything above Quick wins, duration wise, should be delegated. 
 4. If the Job Description includes operational work, then that needs to be clearly defined and delineated, the rest: principle 1-3.
 
@@ -2578,7 +2432,7 @@ ________________________________________
 The Simple Note Framework ("SNF") proposes a structured skeleton of *Topics* reflected in a clear *Note Name* with a standardised "Note Content". The approach is particularly useful for Meetings which is what a Manager is likely so spend much time on. 
   
 ### Topics
-In the SNF the following Topics are used:
+In the SNF the following Topics are used/suggested:
 - Routines
 - Projects
 - Meetings
@@ -2896,6 +2750,10 @@ The Control Conundrum reflects the following counter-intuitive proposition:
 "Too Many Controls Kill the Controls."
 
 This stems from the fact that the Check Standards can be heavy to implement. If it is done for many different checks and Reviews, then the time spend on Controlling might be disproportionate to the time spent on the Run that those Controls are supposed to supervise. In addition, the moment the execution of the Checks Standards yields many false positives the Staff involved in analysing such False alerts, will get bogged down in doing Control work. The same is true for too many True Alerts generated as a result of Benchmarks that are not calibrated correctly i.e., too conservative versus the Risk it tries to avoid, or the Service or Product Quality it tries to ascertain. 
+
+Managers need to find the optimal balance between:
+- Enforced Controls, i.e., clear requirements enforced by Law, Regulations, internal policies, with clearly defined Benchmarks
+- Nice to have Controls i.e., the existence of the Control adds little Value, nor does it really Reduce Risk nor Cost, see also [Management Framework ### Efficiency Requirement]
 ________________________________________
 ## Self-Contained Mail (Framework)
 Many Checks are fully automated and should aim at embedding above Check Standards within the automation. Often, the results of Checks are sent by e-mail. In such cases, the content of the Mail should be what is called Self-contained i.e., the receiver of the Mail should be able to understand what was checked and what action is expected, if any. 
@@ -3832,10 +3690,217 @@ ________________________________________
 *********************************************
 # MANAGEMENT CYCLE 
 ________________________________________
-##
+## Eisenhower Matrix (Framework)
+The *Eisenhower Matrix*, *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, a USA general during WW II and 34th President of the USA who used it to manage his time. 
 
+The decision tree is based on *two dimensions* of Tasks. These dimensions are *Urgency* and *Importance* and are used by a Manager to decide what to do with each Tasks coming his way i.e., there may be other Tasks going to other Staff, which can be Important or Urgent for the Venture but are not directed to the Manager. Instead of Tasks one can read Objectives more broadly.
+  
+### Important
+Something is Important for different reasons e.g.:
+-Task cannot be delegated (the right skills are not there right now, training would take too much time given Urgency, etc.)
+- Task relates to a topic that has a lot of attention from senior stakeholders (internal or external)
+- Task completion has a direct impact on Revenues, Cost, Risk or Reputation.
+  
+### Not Important
+All Tasks are potentially Important in the long run, but not important or relevant enough for the Manager to do himself:
+- Task requires operational Skills the Manager does not have (and would thus require delegation anyway)
+- Task requires application of Skills the Manager has, but which are at a level the Manager does not Operate at (anymore). 
+  
+### Urgent
+Something is Urgent for different reasons, and there is sometimes a link with *Important*:
+- Not performing the Task soon has a knock-on effect on several other Tasks and/or
+- There is a deadline imposed by a senior Stakeholder (internal or external)
+- The completion of the Task now has a direct impact on Revenue, Cost, Risk and Reputation.
+  
+### Not Urgent
+Something is not Urgent if the non-performance of the Task any time soon is not going to make a real difference. 
+  
+### Decision Quadrants
+The two dimensions yield four combinations a.k.a. *Decision Quadrants*, which drive what to do with the Task:
+Q1. Important + Urgent               -> Do
+Q2. Important + not Urgent        -> Defer, Schedule 
+Q3. Not Important + Urgent        -> Delegate  
+Q4. Not important + not Urgent -> Delete, Ignore  
+   
+The dimensions are applicable to the person needing to make the decision between Q1, Q2, Q3 and Q4 and can thus apply to Managers as well as Staff. Important to observe, is that, according to the Eisenhower Matrix oneself works only on Tasks that are Important (Q1, Q2). Tasks that have been delegated (Q3) still need to be monitored to make sure they are done, part of Controlling.
+    
+### Decision Outcomes
+The use of the Eisenhower Matrix helps to scale work. The decision of what constitutes Important and Urgent, requires rather black and white reasoning. If one is not strict enough, one ends up with many tasks under Q1 and Q2 and almost none under Q3 and Q4. If the decision was made correctly, and there are still many tasks under Q1 and Q2, then one should reflect upon the sheer amount of work and look more holistically into the origin of so many Tasks or in the current delegation structure.  
+  
+### Eisenhower Decisions
+Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the Tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff. 
 
+### Eisenhower Pitfalls
+In the allocation ot Tasks to self or others, there is a weak link: if a Task should fall in Q2 (Do Later), but it requires  input from someone, then does one temporarily delegate the entite Task (and take it back when that dependency ceases to exist), or keep the Task and delegate a sub-Task only?
+________________________________________
+## GTD (Framework)
+Getting Things Done is a Framework defined by David Allen (2001). It allows anyone to manage work composed of 5 core steps.
+- Collect or Capture
+- Process or Clarify
+- Organise
+- Review or Reflect
+- Do or Engage
 
+The steps result in items or Threads collected in specific List, Buckets or Containers. There are seven core Lists in addition to the starting list (Inbox).
+- Projects List
+- Project Support Material a.k.a. Project Details
+- Calendar Entries a.k.a. Calendar List or just Calendar
+- Next Actions List a.k.a. Defer List
+- Waiting For List a.k.a. Delegate List
+- Reference List
+- Someday/Maybe List 
+- Do List (optional)
+- Thrash a.k.a. Delete List (optional)
+  
+There is no need for a List for things done immediately (for obvious reasons). However, it is possible to store Routines in a Do List as a placeholder for recurring items. Similarly, there is no real need for a Trash or Delete List: just delete the Thread from Inbox. A Delete List can be used to show where a Thread ends up. Another reason to keep a Delete List, is to move completed Actions to and have a trace of it. The method is agnostic to the format of Lists: physical notes, electronic notes, folders, binders, etc. It is possible to have similar lists within Notes and also Mail for example. 
+
+### Collect
+Anything coming your way may, or not, require or trigger some Action. They can be ideas you have, tasks, reminders, requests, etc. In the MFA, each such item is referred to as a Thread. Sources of Threads include e-mails, chats, intel, audits, etc. Each Thread is stored in the Inbox. There is no filtering or processing applied in this stage.
+  
+### Process & Organise
+The Process stage is combined with the Organise stage. The latter assures each processed Thread ends in a List for later Review. There is one key question in this stage: is the Thread actionable? Yes or No. Depending on the answer, there are use cases which each drive a specific outcome and possibly a specific List. T
+  
+Actionable or not?
+To determine if a Thread is actionable, make sure to qualify the Thread such that is can be written (or absolutely not) as an Action (or series of Actions, preferably in order). A series of Actions would automatically make the Thread a Project. Once a Thread has been Processed it either becomes an Action, a Project or is deleted. Actions and Projects make it into different Lists (see below). 
+  
+Thread is Actionable
+- If more than 1 Action for a Thread it is a Project: store in Projects List  
+- Establish the next Action in the Project List and process it as per below.
+- NB: Project Support material goes in Project Details List  
+- If Action for self + doable in 2 min: Do now (no need to store it)  
+- If Action for self + for a specific Date/Time: create entry in Calendar
+- If Action for self + not doable in 2 min: store in Defer List    
+- If Action for a Staff: store in Delegate List  
+    
+Thread is not Actionable
+- If Thread has no real merit: Delete it (Container = Trash) 
+- If Thread may have merit in future: store in in Someday List
+- NB: it is possible to be more advanced with this and use a Tickler File or Tickler Note (43 folders or sections for 31 days and 12 months). This may be too involved.
+- If Thread may be useful later: store in Reference List
+  
+At this point, all Threads should have disappeared from the Inbox and have made it in a List (including Trash). 
+
+### Review
+The Review stage is where above stages are reviewed: the different Lists are updated based on the status of each Action including within Projects. 
+
+### Do
+All Actions are driven by above. Key choices to make are:
+- How often/when to Process the Inbox
+- How often/when to Review all Lists
+  
+### References:
+<https://gettingthingsdone.com/wp-content/uploads/2014/10/workflow_map.pdf>
+________________________________________
+## MSS (Software)
+The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
+  
+### MSS Master
+The master MSS file, mgt.xlxs, is available in GitHub:
+<https://github.com/stelzinga/MF>
+
+### MSS Slave
+It is possible to add functionality to any instance of MSS Master and which is not available in MSS Master e.g., macros. Such instance is called an "MSS Slave". 
+
+### MSS References
+To refer to sheets in MSS use [MSS: xxx] with xxx is the name of the sheet in the MSS, i.e., equivalent to Note Naming conventions. Columns are referred to as [MSS: xxx ## yyy] with yyy the name of the Column. Rows can be referred to by number which really only applies to the first 5 rows i.e. [MSS: xxx ## 1] is first row in sheet xxx.  
+  
+### MSS Note Management
+A key feature is the ability to write *Notes* in any Col named  "Notes". Depending on the sheet in MSS this column may then further drive the content of Columns *First Note*, *Last Note* and then *Creation Date* and *Update Date*.  Notes follow the expanded form of Task Notation, namely the dated comment version.i.e. dd-mm-yy: xxx, see [## Task Notation]. 
+  
+### MSS Task Management
+Another feature of MSS is the integration of Tasks using [## Task Notation] in any Column named "Tasks".  
+  
+### MSS Hierarchy
+The Sheet "Projects" has has an *Integrated Hierarchy*. 
+
+Venture   
+  Project p  
+    Stream p,i  
+      Action p,i,j  
+  
+The hierarchy is determined by Column *Link*, the value of which is the value of the Column *Key*. 
+  
+In addition to the Link, *manual indentation* makes the hierarchy visible:
+- Run/Chg Goals, Routine, Project = 0x space
+- Sub, Stream = 4x space
+- Drill, Action = 8x space 
+
+NB: as the spaces are in Col "Name" it is important to make sure they are applied *before* creating the link! 
+  
+### MSS Dynamic Gantt Chart
+The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Integrated Hierarchy (see above) which helps in Project Management. The Chart runs for a *dynamic period* determined by the earliest occurrence in Column *Start Date* and the latest one in Column *End Date*. Each column in the Chart thus represents a number of days that depends on the Total Period divided by the nr of Columns in the Chart (52). Color codes in the Gantt Chart are as follows:
+- Venture: shows today's date in red, rest white
+- Project: shows bar from Start to End in dark blue
+- Stream: shows bar from Start to End in light blue
+- Action: shows bar from Start to End in soft grey
+- Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
+
+#### MMS Tracker
+The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, and Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
+- Capture all aspects of the Expanded Profile Tree as default Routines for Goal mgt.
+- Capture all specific Routines the Manager does himself in 07.Management Cycle
+- Capture all ongoing Projects relevant to the Venture
+- Fiilter and sort such that relevant Data for specific purposes e.g., meetings with Reports, Managers, Peers. 
+- Ability to use the data for Reporting 
+  
+Key functionalities are as follows:  
+- Calculated Columns: a series of calculated columns help with stats and reporting.
+- Reporting Columns: a combination of a calculated Column + an override to force reporting on/off for a given item. 
+- Tag: free field used in Reporting, Filtering or Sorting. Content is a comma separated list of 'Tags'.
+ - Who Columns : 
+     - Whom For Lvl 1 and Lvl 2: allowing for Activities and Sub-Activities (with "_all" if a non-specific Sub-Activity
+    - Whom By Lvl 1 and Lvl 2: allowing for Groups and Staff (with "_all" if no specific Staff)
+- Goals Columns: 
+    - Goals as per Management Framework, also in Sheet = Static
+    - Sub-Goals also linked to standard Sub-Goals in Sheet = Static
+    - Initiative: allows creating cross sectional Initiatives 
+- Status Columns  
+    - Planning Type: Project, Routine or Task
+    - Status: Open, Started, Pending, Completed, Urgent
+- Name Column: as per Objective Notation
+- Reference Columns:
+    - Details: anything that cannot be kept in the Name
+    - Notes: Task Notation Comments of form "dd-mm-yy: xxx"
+    - Tasks: Task Notation Tasks, can include comments too
+    - Remaining Task: count of non-completed Tasks
+    - Task Progress: Remaining Tasks / Total Tasks as a %
+- Date Columns (all hidden)
+    - Period indicator: for Routines
+    - Nr Occurrences /year: for Routines 
+    - Time in hours /occurrence: for Routines
+    - Total time /year (days): calculated: for Routines
+    - Start: for Projects, start date
+    - End: for Projects, end date
+    - Hold: for Projects, hold or pending date
+    - Complete: for Projects, completion date 
+    - Effort: total effort in days per year for Projects  
+- Gantt Chart Columns: 12 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
+- Many Custom Fields (20 in total) for Venture specific needs
+   
+MMS Tracker Recommended Usage  
+The tracker's main purpose is to help the Manager keep track of what he needs to do.
+The basic version of the Tracker is pre-filled with all required items of the Expanded Profile Tree for 00.Management item all Sub-Goals representing 01.planning, 02.organising all the way to 06.tools. Each Sub-Goal has as many rows as there are Deliverables in the Management Framework with each deliverable in column Name.
+Then create as many rows under Sub-Goal = 07.management cycle as there are actions performed by the Manager as per [Management Framework ## Management Cycle]:
+- As many Rows for name = "Meet ..." as there are Meeting
+- Create high-level entries & provide relevant details including default Change Goals.
+    - For each Project Deliverable create a Task (helps tracking)
+    - Tag planned Months during which it is active with 'x'
+    - Update the Gantt Chart to reflect the lifetime of the Project
+    - For hard deadlines add them in Details or in End
+   
+Projects versus Tasks
+In the Tracker, Projects are defined at the start of the year. They are what is truly expected to be done, and serve as a key inout to Performance Management of individuals as well as the Venture. Projects also follow a more formalised Project Management approach.
+Tasks, on the other hand, are used for work to be done that materialises throughout the year, often spawn of from a Routine, and which needs more formal tracking as if it were a Project. 
+      
+Meetings with direct reports  
+A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
+- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name or if set up, use Tag = "contains name of Staff" 
+- Run through all Routines and Projects applicable to the Staff 
+- Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
+- Add new Routines, Projects and Tasks if relevant. 
+
+### MSS Reporting
+MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. 
 
   
 *********************************************
@@ -4210,4 +4275,7 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Corrected typos throughout the document
 - Added [## SNF]
 
-
+### 20261024
+- Updated reference to Delegating after making it a deliverable in [Management Framework]
+- Moved Eisenhower Matrix and MSS to [# MANAGEMENT CYCLE]
+- Added [## GTD]
