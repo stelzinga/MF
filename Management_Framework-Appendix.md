@@ -3734,60 +3734,103 @@ Important and Urgent are criteria to make a decision. It assumes though, that th
 In the allocation ot Tasks to self or others, there is a weak link: if a Task should fall in Q2 (Do Later), but it requires  input from someone, then does one temporarily delegate the entite Task (and take it back when that dependency ceases to exist), or keep the Task and delegate a sub-Task only?
 ________________________________________
 ## GTD (Framework)
-Getting Things Done is a Framework defined by David Allen (2001). It allows anyone to manage work composed of 5 core steps.
-- Collect or Capture
-- Process or Clarify
-- Organise
-- Review or Reflect
-- Do or Engage
+Getting Things Done is a Framework by David Allen (2001). It allows anyone to manage work. The implementation below is an expanded version of the original Getting Things Done method by adding 1) Routines, and 2) References as a reporting tool into the mix.
+  
+### Definitions
+- Thread: a GTD Type, anything that may trigger an Action, Project, Routine or Referenc e.g., idea, task, reminder, request, observation, etc. 
+- Action: a.k.a. Task, a GTD Type, something that needs doing at some time (Due Date) by someone (Owner) resulting in an outcome.
+- Project: a GTD Type, combination of Actions resulting in one outcome. Projects as a whole can have a Due Date and Owner. 
+- Routine: a GTD Type, spawns off one or more Actions on a recurring basis each resulting in an outcome. Routines have an Owner but no Due Date.
+- Reference: a GTD Type, a non-actionable item for reporting purpose. A Reference has an Owner and a Tickle Date to assure it timely reporting. It has no Due Date.
+- List: container to collect Threads, Actions, Projects, Routines and References. The allocation of most Lists is driven by GTD Type, Owner and Due Date.
+- Stages: five steps involved in maintaining and monitoring Threads, Actions, Projects and References to completion by attributing them to specific Lists. The stages are: Collect (Capture), Process (Clarify), Organise, Review (Reflect), Do (Engage)
 
-The steps result in items or Threads collected in specific List, Buckets or Containers. There are seven core Lists in addition to the starting list (Inbox).
+### Lists
+The most basic List is the Inbox, this is where Threads are collected (first Stage). Then there are several Lists used in the remaining 4 stages, not all are required, *) means an additional List in MFA:
 - Projects List
 - Project Support Material a.k.a. Project Details
 - Calendar Entries a.k.a. Calendar List or just Calendar
 - Next Actions List a.k.a. Defer List
 - Waiting For List a.k.a. Delegate List
 - Reference List
-- Someday/Maybe List 
-- Do List (optional)
-- Thrash a.k.a. Delete List (optional)
+- Reference Support Material a.k.a. Reference Details *)
+- Maybe List a.k.a. Someday List 
+- Do List (optional, *)
+- Trash a.k.a. Delete List (optional, *)
+- Routines List *)
+- Routine Support Material a.k.a. Routine Details *)
   
-There is no need for a List for things done immediately (for obvious reasons). However, it is possible to store Routines in a Do List as a placeholder for recurring items. Similarly, there is no real need for a Trash or Delete List: just delete the Thread from Inbox. A Delete List can be used to show where a Thread ends up. Another reason to keep a Delete List, is to move completed Actions to and have a trace of it. The method is agnostic to the format of Lists: physical notes, electronic notes, folders, binders, etc. It is possible to have similar lists within Notes and also Mail for example. 
+NB: Routines are useful to reflect recurring Actions that may also be scheduled in a Calendar, but require separate tracking (for example because the Calendar entry is not maintained by oneself).
+    
+### Stages 
+There are five stages as follows:
 
-### Collect
-Anything coming your way may, or not, require or trigger some Action. They can be ideas you have, tasks, reminders, requests, etc. In the MFA, each such item is referred to as a Thread. Sources of Threads include e-mails, chats, intel, audits, etc. Each Thread is stored in the Inbox. There is no filtering or processing applied in this stage.
+Stage 1: Collect
+The starting stage is the collection of Threads. Sources of Threads include e-mails, chats, intel, audits, random ideas, etc. Each Thread is stored in the Inbox. There is no filtering or processing applied in this stage and little to no formalism is required. This stage is done several times per week or per day depending on needs. 
   
-### Process & Organise
-The Process stage is combined with the Organise stage. The latter assures each processed Thread ends in a List for later Review. There is one key question in this stage: is the Thread actionable? Yes or No. Depending on the answer, there are use cases which each drive a specific outcome and possibly a specific List. T
+Stage 2&3: Process & Organise
+The Process stage is combined with the Organise stage. The latter assures each processed Thread ends in a List for later Review. There is one key question in this stage: is the Thread actionable: Yes or No? Depending on the answer, a Thread ends up in a specific List, gets done immediately or is trashed alltogether. These two combined stages are done several times per week or per day depending on needs. 
   
 Actionable or not?
-To determine if a Thread is actionable, make sure to qualify the Thread such that is can be written (or absolutely not) as an Action (or series of Actions, preferably in order). A series of Actions would automatically make the Thread a Project. Once a Thread has been Processed it either becomes an Action, a Project or is deleted. Actions and Projects make it into different Lists (see below). 
-  
+To determine if a Thread is actionable, make sure to qualify the Thread such that is can be written (or absolutely not) as an Action (or series of -recurring- Actions, preferably in order). A series of Actions would automatically make the Thread a Project.  
+Once a Thread has been Processed it either becomes an Action, a Routine a Project a Reference or is deleted. Actions, Routines, Projects and References make it into different Lists (see below)
+
 Thread is Actionable
+- If Thread generates recurring Actions it is a Routine: store in Routines List
+- NB: Routine Support material goes in Routine Details List  
+- Establish next Action for each Routine in Routines List and process them as per below.
 - If more than 1 Action for a Thread it is a Project: store in Projects List  
-- Establish the next Action in the Project List and process it as per below.
+- Establish next Actions for each Project in Project List and process them as per below.
 - NB: Project Support material goes in Project Details List  
-- If Action for self + doable in 2 min: Do now (no need to store it)  
-- If Action for self + for a specific Date/Time: create entry in Calendar
-- If Action for self + not doable in 2 min: store in Defer List    
-- If Action for a Staff: store in Delegate List  
+- If Action is for self + doable in 2 min: Do now (no need to store it)  
+- If Action is for self + for a specific Date/Time: create entry in Calendar
+- If Action for self + not doable in 2 min: store in Defer List with a Due Date   
+- If Action for a Staff: store in Delegate List with Due Date and Who
     
 Thread is not Actionable
-- If Thread has no real merit: Delete it (Container = Trash) 
-- If Thread may have merit in future: store in in Someday List
-- NB: it is possible to be more advanced with this and use a Tickler File or Tickler Note (43 folders or sections for 31 days and 12 months). This may be too involved.
-- If Thread may be useful later: store in Reference List
+- If the Thread has no real merit: Delete it (Trash) 
+- If the Thread may be an Action in future: store in Someday List
+- If the Thread may be useful for info: store in Reference List
+    
+At this point, all Threads should have disappeared from the Inbox and have made it in a List (or were deleted). Note that if an Action belongs to a Routine or Project, and it has been tagged to a Who and a Due date, then such action goes either on a Defer List or Delegate List.  
   
-At this point, all Threads should have disappeared from the Inbox and have made it in a List (including Trash). 
-
-### Review
-The Review stage is where above stages are reviewed: the different Lists are updated based on the status of each Action including within Projects. 
-
-### Do
-All Actions are driven by above. Key choices to make are:
-- How often/when to Process the Inbox
-- How often/when to Review all Lists
+Stage 4: Review
+The Review stage is where above stages are reviewed: the different Lists are updated based on the status of each Action including within Projects.
+This stage is where the power of the Lists come in. A Manager can go through each List depending on needs:
+- Check own Actions (List = Defer) including if Overdue etc.
+- Check who else has Actions (List = Delegate) including if Overdue etc.
+- Check if any non-Action should become one by assigning an Owner and a Due Date (Lists = Someday, Projects, Routines)
+- Check if any Actions have completed and should be reported on (List = Delete)
+- Check if any Action is actually a reference that should be reported on (List = Reference). 
+This stage is done as many times as needed.
   
+Stage 5: Do
+All Actions are driven by above. Once the Actions have been decided, they need to be performed. First and foremost that means doing the Actions in Defer List for oneself, as most Do items have been done during Process.
+
+### Remarks
+The most important success factor in the GTD Framework is being persistent. This means the use if the relevant Lists and correct application of the Stages. When and how much time to spend on the Stages is circumstantial. Indicative:
+- Collect: ongoing, several minutes a day 
+- Process + Organise: weekly, an hour or possibly once a day
+- Review: weekly, an hour or possibly once a day
+- Do: daily, depending on the Defer list length
+  
+Strictly speaking is no need for a Do List i.e., for things done immediately (for obvious reasons). However, it is possible to store Routines in a Do List as a placeholder for recurring items.  
+Similarly, there is no real need for a Trash or Delete List: just delete an item from Inbox. A Delete List can be used to show where a Thread ends up. Another reason to keep a Delete List, is to move completed Actions to and have a trace of it.  
+  
+The GTD method is agnostic to the format of Lists: physical notes, electronic notes, folders, binders, etc. It is possible to have similar lists within Notes and also Mail for example.  
+  
+It is possible to be more advanced with Someday List and use a Tickler File or Tickler Note (43 folders or sections for 31 days and 12 months). This may be too involved.
+  
+### MSS
+The Expanded GTD method has been integrated in the MSS (see below) as a standalone Sheet (no links to any other Sheet). It follows above principles, but has improved functionality:
+- Selecting GTD Type drives the type of Action
+- If a row has a Owner + Due date it is actionable and is either in List Defer (Owner = Self) or Delegate (Owner = someone else)
+- If a row has a Done Date the associated List = Delete
+- If a row has no  Owner nor Due date follows the GTD Type and its associated List = Project, Routine, Reference, Someday.
+- If a GTD Type = Project, Routine or Reference it automatically highlights where more details can be found in Additional List = Project Details, Routine Details or Reference Details,
+- Several columns indicate if the row is reportable (Report), overdue or close to overdue (Overdue / Due 7d / Due 30d)
+- Certain combinations of data is inconsistent and they are higlighted as an error in column Check. 
+   
 ### References:
 <https://gettingthingsdone.com/wp-content/uploads/2014/10/workflow_map.pdf>
 ________________________________________
@@ -4279,3 +4322,8 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated reference to Delegating after making it a deliverable in [Management Framework]
 - Moved Eisenhower Matrix and MSS to [# MANAGEMENT CYCLE]
 - Added [## GTD]
+
+### 20261026
+- Updated [## GTD] with more details, explained the fact that the stadnard GTD model is expanded in the MFA and added a lvl 3 section [### MSS] in [##GTD]
+
+
