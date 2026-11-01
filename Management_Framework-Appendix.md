@@ -468,9 +468,9 @@ Throughout Management, certain Tools are deemed 'standard' or 'baseline'. This s
 - Phone incl Video
 - Web Browser
 - File Browser 
-
+  
 Depending on apps used, and whether a Venture requires the use of specific apps, different implementations are possible. 
-
+  
 - Mail (Outlook, Gmail, Yahoo! Mail, Thunderbird Mail, ...)
 - Calendar (MS Calendar, Google Calendar, ...)
 - Tasks (MS Tasks, Google Tasks, ...)
@@ -480,9 +480,9 @@ Depending on apps used, and whether a Venture requires the use of specific apps,
 - Phone incl. Video (MS Teams Phone, landline ...)
 - Web Browser (MS Edge, Google Chrome, Firefox, ...)
 - File Browser (File Explorer, File Manager, ...)
-
+NB: The File Browser itself is a portal into something more complex: File Folders or Directories (which can include software wrapped Directories like Microsoft Sharepoint).
+  
 Because they can be used in many different manners by different people, this note will not prescribe particular uses.   
-
   
   
 *********************************************
@@ -828,7 +828,7 @@ ________________________________________
 ## Objective Definition (Framework)
 Objective Definition is about the differentiation between what constitutes a Routine, a Project or a standalone Task. This was previously explained in [Management Framework ## Objectives] and is elaborated on here.
 
-Secifically:
+Specifically:
 - Routines: linked to Run Goals i.e., focus is on generation of Revenue (prd), assuring Revenue is as expected, at lowest Cost and/or lowest Risk (ovs) but with some work done that does not directly or indirectly contribute to Revenue (ovh) or to assure the previous Goals are all optimised (mgt).
 - Projects: focus is on Change Goals i.e., the improvement of the Run.
 - Task: a catch-all for "things to do" but less formal than Projects and on a smaller scale i.e., cases where Work is being asked to be performed which is neither specifically Run and also not really a Project. The differentiating factor is whether it it worth tracking as an actual Project or not.
@@ -3431,7 +3431,7 @@ The following needs to be enumerated throughout the Performance Target for each 
 - List of Goals the Venture is trying to achieve
 ________________________________________
 ## Performance Evaluation (Framework)
-Performance Evaluation ia the act of obtaining information to be a lentonperform a Performance Review (see below).
+Performance Evaluation is the act of obtaining information to be able to perform a Performance Review (see below).
   
 There are various methods in which Performance can be evaluated. These are called evaluation methodologies or appraisal methodologies. Each has pros and cons, and none is specifically recommended.
 
@@ -3693,7 +3693,7 @@ ________________________________________
 ## Eisenhower Matrix (Framework)
 The *Eisenhower Matrix*, *Eisenhower Decision Tree* or *Eisenhower Box* is a decision tool to plan work, named after Dwight D. Eisenhower, a USA general during WW II and 34th President of the USA who used it to manage his time. 
 
-The decision tree is based on *two dimensions* of Tasks. These dimensions are *Urgency* and *Importance* and are used by a Manager to decide what to do with each Tasks coming his way i.e., there may be other Tasks going to other Staff, which can be Important or Urgent for the Venture but are not directed to the Manager. Instead of Tasks one can read Objectives more broadly.
+The decision tree is based on *two dimensions* of Tasks that come a Manager's way. These dimensions are *Urgency* and *Importance* and are used by a Manager to decide what to do with each Tasks coming his way i.e., there may be other Tasks going to other Staff, which can be Important or Urgent for the Venture but are not directed to the Manager. Instead of Tasks one can read Objectives more broadly.
   
 ### Important
 Something is Important for different reasons e.g.:
@@ -3730,153 +3730,346 @@ The use of the Eisenhower Matrix helps to scale work. The decision of what const
 ### Eisenhower Decisions
 Important and Urgent are criteria to make a decision. It assumes though, that the Tasks coming the way of the Manager *should be done at the level of* the Manager. By design of the Organisation within a Venture, certain Tasks are done by specific Groups responsible for specific Processes in Activities they are responsible for. In those cases the use of Eisenhower Decisions does not really apply: the Tasks should have gone to the relevant Staff directly, and if somehow they did not, the decision is to simply delegate by default to the dedicated Group of Staff. 
 
-### Eisenhower Pitfalls
-In the allocation ot Tasks to self or others, there is a weak link: if a Task should fall in Q2 (Do Later), but it requires  input from someone, then does one temporarily delegate the entite Task (and take it back when that dependency ceases to exist), or keep the Task and delegate a sub-Task only?
+### Eisenhower Weaknesses
+There are several weaknesses: 
+- Important in Eisenhower means that the Manager will do something. But what if something is Important but will not be done by the Manager e.g. a major production line breakdown? 
+- If a Task should fall in Q2 (Defer), but it requires  input from someone, then does one temporarily delegate the entire Task (and take it back when that dependency ceases to exist), or keep the Task and delegate a sub-Task only?
+- A Task that was not urgent a week ago may have become urgent today. Something important a week ago deferred to next month may actually not be important anymore. There is no clear internal feedback loop or review process defined for such changes that inevitably will occur over time. 
+- The approach does not recognise the notion of Projects or Routines, which ultimately make a Venture what it is. The view is very much "something comes my way, what do I do with it".
+- To continue on the previous weakness, a Project could be deemed Important, but that would mean 1) the Manager would have to complete it and 2) the individual steps of that Project now also need to be managed somehow, but Eisenhower does not really do this.
+- Eisenhower does not really explain how things should be done.  
+- The approach is very singular and focused on one person making decisions, not necessarily dong specific work. In reality, decision are often made for a Manager, and the work is to be done instead.  
 ________________________________________
 ## GTD (Framework)
-Getting Things Done ("GTD") is a Framework by David Allen (2001). It allows anyone to manage work. The implementation below is an expanded version of the original GTD method by adding 1) Routines, and 2) References into the mix. 
+Getting Things Done ("GTD") is a Framework by David Allen (2001). It allows anyone to manage work in an efficient manner. 
   
-### Definitions
-- Thread: a GTD Type, anything that may trigger an Action, Project, Routine or Referenc e.g., idea, task, reminder, request, observation, etc. 
-- Action: a.k.a. Task (both terms are used), a GTD Type, something that needs doing at some time (Due Date) by someone (Owner) resulting in an Outcome.
-- Project: a GTD Type, combination of Actions resulting in one Outcome. Projects as a whole can have a Due Date and Owner, and each underlying Action can have Owner and Due Date. 
-- Routine: a GTD Type, spawns off one or more Actions,  possibly simultaneously, on a recurring basis with each Action resulting in an Outcome. Routines have an Owner but no Due Date until they are triggered.
-- Reference: a GTD Type, a non-actionable item for reporting purpose. A Reference has an Owner and a Tickle Date to assure timely reporting. It has no Due Date.
-- List: container to collect Threads, Actions, Projects, Routines and References. The allocation of most Lists is driven by GTD Type, Owner and Due Date.
-- Stages: five steps involved in maintaining and monitoring Threads, Actions, Projects, Routines and References to completion by attributing them to specific Lists. 
+### GTD Definitions
+- Thread: a GTD Type, anything that may trigger a Task, Project, Routine or Reference e.g., idea, commitment, task, reminder, request, observation, etc. 
+- NB: The Thread is not from David, but proposed in this MFA.
+- Action: general term to denote something to be done at one point in time by someone resulting in some outcome. An Action is either a Task or a Project.
+- Next Action: an Action that has an Owner and a Due Date. It is the Action that moves things forward.
+- Task, a singular Action
+- Project: a group of Actions
+- Reference: a GTD Type, a non-actionable item used for reporting. A Reference has an Owner and a Tickle Date to assure timely reporting. It has no Due Date.
+- List: container to collect Threads, Tasks, Projects, and References. Lists show which Action is to be worked on next.
+- Stages: five steps involved in maintaining and monitoring Threads, Tasks, Projects, and References to completion by attributing them to specific Lists. 
   
-### Lists
-The most basic List is the Inbox, this is where Threads are collected (first Stage). Then there are several Lists used in the remaining 4 stages, not all are required, *) means an additional List in the Expanded GTD:
+### GTD Lists
+The most basic List is the Inbox, where Threads are collected (first Stage). Then there are several Lists used in the remaining 4 stages, not all are required:
 - Projects List
 - Project Support Material a.k.a. Project Details
 - Calendar Entries a.k.a. Calendar List or just Calendar
-- Next Actions List a.k.a. Defer List
+- Next Tasks List a.k.a. Defer List
 - Waiting For List a.k.a. Delegate List
 - Reference List
-- Reference Support Material a.k.a. Reference Details *)
 - Maybe List a.k.a. Someday List 
-- Do List (optional, *)
-- Trash a.k.a. Delete List (optional, *)
-- Routines List *)
-- Routine Support Material a.k.a. Routine Details *)
   
-NB: Routines are useful to reflect recurring Actions that may also be scheduled in a Calendar, but require separate tracking (for example because the Calendar entry is not maintained by oneself).
-Any item in Defer or Delegate is deemed an Action and requires the Owner to perform it before Due Date. This is true regardless of whether the originating GTD Type was an Action, a Routine or a Project. References require no action other than reporting.   
-Each of the three xxx Details List can be one or several of: a xxx OneNote Section, an xxx Note Type, xxx File Folder, xxx mail Folder, etc. 
+Any item in Defer or Delegate is deemed an Action and requires the Owner to perform it before or on Due Date. This is true regardless of whether the originating GTD Type is a Task, a Routine or a Project. References require no action other than reporting.    
+The Project Details List can be one or several of: a Project OneNote Section, a Project Note Type, Project File Folder, Project Mail Folder, etc.  
 As can be seen there is overlap with the Eisenhower Matrix: Do, Defer, Delegate and Delete Lists represent the 4 quadrants!
     
-### Stages 
-There are five stages as follows:
+### GTD Stages 
+There are five GTD stages as follows:
 
-Stage 1: Collect
-The starting stage is the collection of Threads. Sources of Threads include e-mails, chats, intel, audits, random ideas, etc. Each Thread is stored in the Inbox. There is no filtering or processing applied in this stage and little to no formalism is required. This stage is done several times per week or per day depending on needs. 
+Stage 1: Collect  
+The starting stage is the collection of Threads. Sources of Threads include e-mails, chats, intel, audits, random ideas, etc. Each Thread is stored in a so-called Inbox without a filtering or processing applied. No formalism is required. 
+    
+Stage 2 & 3: Process & Organise  
+The Process stage is combined with the Organise stage. The latter assures each processed Thread ends in a List for later Review. There are two key questions in this stage and depending on the answers, a Thread ends up in a specific List, gets done immediately or is trashed altogether. 
+1. Is the Thread actionable?  
+2. If the Thread is actionable what Type of Thread is it?
   
-Stage 2 & 3: Process & Organise
-The Process stage is combined with the Organise stage. The latter assures each processed Thread ends in a List for later Review. There is one key question in this stage: is the Thread actionable: Yes or No? Depending on the answer, a Thread ends up in a specific List, gets done immediately or is trashed altogether. 
+The two can be combined in a single workflow:
   
-Actionable or not?
-To determine if a Thread is actionable, make sure to qualify the Thread such that can be written (or absolutely not) as an Action (or series of -recurring- Actions, preferably in order). Once a Thread has been Processed it either becomes an Action, a Routine a Project a Reference or is deleted. Actions, Routines, Projects and References make it into different Lists (see below). The List an item belongs to determines if something needs to be done soon, and by whom.
+Actionable or not?  
+A Thread is actionable if it can be written as an Action or series of -recurring- Actions. In other words, something must be done at some point in time.  
 
-Thread is Actionable
-- If Thread can generate one or more recurring Actions it is a Routine: store in Routines List
-- Establish next Action(s) for each Routine in Routines List and process them as per below.
-- NB: Routine Support material goes in Routine Details List  
-- If more than 1 Action for a Thread it is a Project: store in Projects List  
-- Establish next Actions for each Project in Project List and process them as per below.
+Thread is Actionable  
+- If more than one Tasks exist for a Thread -> Project: store in Projects List  
+- Establish Next Action for each Project in Project List and process them as per below. NB: It is possible that not all Actions for a Project are currently actionable!
 - NB: Project Support material goes in Project Details List  
 - If Action is for self + doable in 2 min: Do now (so no need to store it)  
 - If Action is for self + for a specific Date/Time: create entry in Calendar
-- If Action for self + not doable in 2 min: store in Defer List with a Due Date   
-- If Action for a Staff: store in Delegate List with Due Date and Who
+- If Action is for self + not doable in 2 min: store in Defer List with a Due Date   
+- If Action is for a Staff: store in Delegate List with Due Date and Who
     
-Thread is not Actionable
-- If Thread has no real merit at all: Delete it (Trash) 
-- If Thread may be an Action in future: store in Someday List
-- If Thread may be useful for info: store in Reference List
+Thread is not Actionable  
+- If Thread has no real merit at all: delete it (Trash) 
+- If Thread may be a Task in future: store in Someday List
+- If Thread may be useful for info it is a Reference: store in Reference List
 - NB: Reference Support material goes in Reference Details List  
     
-At this point, all Threads should have disappeared from the Inbox and have made it in a List (or were deleted). Note that if a Routine or Project has been tagged to an Owner and a Due date, then it is an Action that goes either on a Defer List or Delegate List.  
+At this point, all Threads should have disappeared from the Inbox and have made it in a List (or were deleted). Note that if a Project has been tagged to an Owner and a Due date, then it goes either on the Defer List or Delegate List.  
   
-Stage 4: Review
+Stage 4: Review  
 The Review stage is where above stages are reviewed: the different Lists are updated based on the status of each Action including within Projects and Routines.
 This stage is where the power of the Lists come in. A Manager can go through each List depending on needs:
-- Check own Actions (List = Defer) and if an Action is overdue etc.
-- Check who else has Actions (List = Delegate) and if an action is overdue etc.
-- Check if any non-Action should become one by assigning an Owner and a Due Date (Lists = Someday, Projects, Routines)
+- Check own items (List = Defer) and check if an Action is overdue etc.
+- Check other people's items (List = Delegate) and check if an Action is overdue etc.
+- Check if anything should become an Action by assigning an Owner and a Due Date (Lists = Someday, Projects)
 - Check if any Action has completed and should be reported on (List = Delete)
 - Check if any Reference should be reported on (List = Reference). 
   
-Stage 5: Do
-All actual work is driven by above. Once the Actions have been decided, they need to be performed. First and foremost that means doing the Actions in Defer List for oneself, as most Do items have been completed during Process.
+Stage 5: Do  
+All actual work is driven by above. Once Actions have been decided, they need to be performed. First and foremost that means doing the Actions in Defer List for oneself, as most Do items have been completed during Process.
   
 ### Remarks
-The most important success factor in the GTD Framework is *being persistent*. This means the consistent use of the relevant Lists and correct application of the Stages. When and how much time to spend on the Stages is circumstantial. Indicative:
-- Collect: ongoing, several minutes a day 
-- Process + Organise: weekly, an hour or possibly once a day
-- Review: weekly, an hour or possibly once a day
-- Do: daily, depending on the Defer list length
+The most important success factor in the GTD Framework is *being persistent*. This means the consistent use of the relevant Lists and correct application of the Stages. 
   
 Strictly speaking there is no need for a Do List i.e., for things done immediately (for obvious reasons). Similarly, there is no need for a Trash or Delete List: just delete an item from Inbox. However, a Delete List can be used to show where a Thread ends up. Another reason to keep a Delete List, is to move completed Actions to and have a trace of it.  
   
 The GTD method is agnostic to the format of Lists: physical notes, electronic notes, folders, binders, etc. It is possible to have similar lists within Notes and also Mail for example.
 It is possible to be more advanced with Someday List and use a Tickler File or Tickler Note (43 folders or sections for 31 days and 12 months). This may be too involved.
   
-### MSS
-The Expanded GTD method has been integrated in the Management Spreadsheet ("MSS"), see [## MSS], as a standalone Sheet (no links to any other Sheet so it can be copied integrally to another workbook). It follows above principles, but has improved functionality by dynamically associating items to Lists:
-  
-- Selecting GTD Type drives type to be tracked. GTD Types on any row do not Change. There are 4 types: Project, Routine, Task and Reference.
-- GTD Types Project, Routine and Reference must have a GTD Name.
-- Owner is either "Self" for yourself or any name/initials of someone else. 
-- Details can contain various details but it is very useful to mention the names of other people involved. 
-- All rows must have a Task Name. It is possible for Projects, Routines, and References to have one row without Task Name, which means the overall Project, Routine or Reference. 
-- Task Name should be indicative of expected outcome.
-- If a row has an Owner + Due Date it is actionable and appears either in List Defer (Owner = Self) or Delegate (Owner = someone else)
-- If a row has a Done Date the associated List = Delete.
-- If a row has no Owner nor Due Date then and its associated List follow the GTD Type i.e., Project, Routine, Reference, Someday (for GTD Type Task).
-- If a GTD Type = Project, Routine or Reference it automatically highlights where more details can be found in Additional List = Project Details, Routine Details or Reference Details.
-- A column Sort to be able to sort all data so that the same Project, Routine and Reference items always appear together.
-- A column Tag to be able to filter on a word that match the content of GTD Name, Task Name, Owner or Details. This is useful if for example having a meeting with Joe who is the Owner of some entries, but also works on other entries. 
-- Two additional columns indicate if the row is reportable (Report) and if the row is overdue or close to overdue (Urgency)
-- Certain combinations of data may be inconsistent and they are highlighted as an error in column Check. 
-NB: the fact something is actionable is thus *not* determined by the GTD Type, but by the fact the entry has an Owner and Due Date. For example, an entry with GTD Type = Routine, will always be a Routine and it will show up in the List Routines. But the moment an Owner and Due date is added, that whole entry becomes actionable and will end in Defer or Delegate, depending on the Owner. The same logic applies for Projects. This approach allows seeing both all entries belonging to a specific Routine or specific Project, whilst at the same time showing which of those entries are actionable now.
-    
-### MSS Initiating
-To setup the entire structure do the following:
-- Create File Folders: Projects Details, Routine Details, Reference Details
-- Create Mail Folders: Project Details, Routine Details, Reference Details
-- Create Note containers: Project Details, Routine Details, Reference Details
-- Create Note Containers: Inbox, Meetings, Reports 
-- Create following default entries in Sheet = GTD
-    - 1x Routine, General Management, Self -> to spawn of any of the 7 deliverables (and sub-deliverables) for Management (as per MF)
-NB: in OneNote a Note Container means a OneNote Section.
+### GTD Weaknesses
+- The greatest weakness of GTD is the maintenance. It can become very easy to get stuck in maintaining the status of Actions, etc, rather then working on them.
+- The above is exacerbated by the lack of clear guidelines on determining which items should be maintained and tracked. The notion of "Importance" is, unlike the Eisenhower approach, not very well defined. In the original approach, the smallest thing gets recorded and tracked. 
+- Like the Eisenhower Matrix, the approach does not recognise the notion of Projects or Routines, which ultimately make a Venture what it is. 
+- The GTD approach relies on "Details Lists" where more details can be found for a given Action. The problem with that is nowadays, such details can be kept in Notes, and/or Mail Folders, and/or running Chats and/or File Folders, and/or web based data containers, etc. 
+- GTD does not have Reporting as embedded feature. Yet, Projects or Tasks that that have been completed are worthy, or even required to be reported on.   
 
-### MSS Workflow
-The following steps should be followed to obtain the best results.
-  
-Stage 1: Collect
-- Any item of interest should go into Note Container Inbox
-- Any item pertaining to Routines or existing Projects can go in here as well to help determining next steps in stage 4 Review.
-  
-Stage 2 & 3: Process & Organise
-- Calendar entries are created as needed (often managed by someone else)
-- For every Routine/Project/Reference create a Directory/Mail Folder/Note with the same name as GTD Name in the previously created Routine Details/Project Details/Reference Details. 
-- Assign Owner, Due Date, Tickle Date where relevant
-- Provide details where relevant.
-  
-Stage 4: Review
-- Use Monitor = Self or Other to see any items that are tagged as Urgent (overdue, due in 7 or 30 days)
-- Use List = Project to see any Project entries that should get an Owner & Due Date. These may be triggered by e-mails in relation to that topic. 
-- Use List = Routines to see any Project entries that should get an Owner & Due Date. These may be triggered by e-mails in relation to that topic. 
-- If an item is a Routine and has an Owner and Due Date it is actionable (Defer, Delegate). But once it gets a Done Date (associated List = Delete) it needs to be renewed because it is a Routine after it has been reported. To do so, after reporting delete/update Due Date *and* delete Done Date.
-    
-Once in a while:
-- Use List = Someday to see if any items should get a due date
-  
-Stage 5: Do
-- Use Monitor = Seld 
-   
 ### References:
 <https://gettingthingsdone.com/wp-content/uploads/2014/10/workflow_map.pdf>
+________________________________________
+## Tracker (Framework + Tool)
+Tracker is both a Framework and a Tool for the Management Cycle. Combined, they help Tracking by answering the following questions:
+- What Actions do I need to do when?
+- What Actions do others need to do when?
+- When do the Actions/Information become Urgent?
+- What Actions or Information is Important to know/report on?
+  
+Tracker facilitates Tracking. It combines:
+- Recognition of Projects, Routines and Tasks 
+- Advantages of Eisenhower Matrix: Importance first and then Urgency.
+- Advantages of GTD: five Stages, Lists, application of Owner and Due Date of an Action whilst recognising something may be Important without it being an Action i.e., a Reference
+- Key indicators for who does what when: Do, Defer, Delegate and Delete
+- Ability to use Tracker data to Report to Stakeholders.  
+- Ability to deal with items that are not worth tracking but that need to be done regardless (Overhead) 
+  
+Tracker was designed by Sander Elzinga in Oct 2026 and a second version was deployed in production 2 Nov 2026 for initial tests to see how well it worked. Below explains the Method which is embedded in the Tool which is the sheet *Tracker* in MSS, see [## MSS]. 
+  
+### Tracker Definitions
+- _Inbox: Mail Folder, central repository of all Threads
+- _Overhead: Mail Folder, repository of Overhead items needing to be done by Self or Others, but which are not Tracking Worthy.
+- _Read: Mail Folder, repository of mail too long to Read quickly and which do not look to be urgent
+- _Today: Mail Folder, Important + Urgent items that came in overnight and need handling Today (this should be used exceptionally)
+- _Tracked: Mail Folder, central repository of Threads that made it into MSS Tracker
+- Action: something to be done by someone at one point in time resulting in some outcome. An Action does not need to have an Owner or a Due Date (that would be a Next Action). In the Tracker Tool, an Action is a row for Tracker Types Project, Routine and Task.
+- Due Date: date an Action needs to be completed by
+- Inbox: standard mail inbox
+- Lists: establish whether an item is actionable or not. There are different Lists:
+    - Calendar: an Action to be performed through a Calendar entry. 
+    - Defer: any Action with Owner is Self + Due Date not empty 
+    - Delegate: any Action with Owner other than Self + Due  Date not empty
+    - Delete: any Action with a Done Date (a completed Action)
+    - Projects: any row that is not an Action with Project as Tracker Type
+    - Routines: any row that is not an Action with Routine as Tracker Type
+    - Reference: any non-actionable item with Reference as Tracker Type
+    - Someday: any Task that does not have a Due Date ("would like to  ...")
+- MMS Tracker: the Tracker Tool, embedded in MSS.
+- Next Action: an Action that has an Owner + Due Date. It is the Action that moves things forward. Next Actions are actively tracked by Managers. 
+- Other: anyone who is Owner other than Self, a person or group something has been, or will be delegated to.
+- Overhead: any non-Tracking Worthy item that requires completion regardless e.g., e-learning, filling a questionnaire.
+- Owner: the person to perform an Action
+- Reference: something that is worth knowing or reporting on but which does not generate any Action e.g., reading financial statements.
+- Self: the person operating the Tracker Framework and Tool
+- Stages: the essential processes of the Tracker Framework, see below.
+- Thread: any item that may be Tracking Worthy
+- Track: act of following something to a conclusion (can be completing an Action, reporting something or both) because it is Tracking Worthy
+- Tracker Type: type to track (Project, Routine, Task, Reference) 
+- Tracker Name: name associated to Tracker Type, a regrouping of Actions for the same Tracker Type.
+- Tracking Worthy: track if deemed *Important* or *Urgent* with following guidelines depending on Management Level:
+    - Something is *Important* if:
+        - For Senior Level Manager
+            - Manager will be asked about it by Board/Stakeholders
+            - Material impact on Revenue, Costs, Risk 
+            - Material impact on Operational efficiency
+            - Board imposed as Important
+        - For Middle Manager / Line Manager
+            - Manager will be asked about it by his Manager
+            - Essential part of own Job Description
+            - Essential part of direct reports' Job Description
+            - Explicitly mentioned as Important
+            - Committee imposed as Important
+            - Internal or external audit established as Important 
+            - Environment imposed as Important e.g., Regulator. 
+            - Own discretion imposed as Important to direct Reports
+    - Something is *Urgent* if it nears a Deadline. 
+        - Driven by the context of the Thread that made it into an Action.
+  
+NB: from above Tracking Worthy definition it is clear that certain items are actually not important from a Venture perspective e.g., does not contribute to Revenue increase, Cost decrease, Risk decrease, Reputation increase. However, if a Manager's Manager says it is Important, than from a Tracking perspective, it has to be recorded. 
+   
+### Tracker Framework
+The Tracker Framework is composed of:
+- Mail: Inbox + 5x Mail Folders: _Inbox, _Read, _Overhead, _Today, _Tracked
+- MMS: Tracker (an Excel based single sheet)
+- Notes
+- File Folders
+- Stages
+
+The Mail Folders have specific purposes as per [### Definitions] and remediate some weaknesses in the Eisenhower and GTD methods as follows:
+
+_Inbox  
+The default Tracker Mail Folder for the first stage: Collect. 
+  
+_Today  
+This Mail Folder should not be abused, but servers a specific purpose: overnight or short term Urgency. If something comes in overnight or on short term *and* needs to be dealt with today, then it is *instantaneously Urgent*, even if it is not Important (if it were it would be Tracking Worthy). This mail folder captures this use case. 
+  
+_Overhead  
+This mail folder is used for anything that is not Tracking Worthy but that must be dealt with regardless. Items in this folder may be checked once in a while.
+   
+_Read  
+Sometimes mails or their attachments are too long to read to act quickly (even to determine if is Tracking Worthy or not).  Sometimes it is not Tracking Worthy, but acquiring the knowledge in such mails is nevertheless deemed important. This mail folder servers that purpose. Items in there are processed as per Stage 2 (Process) but after the processing of _Inbox.
+
+### Tracker Stages
+The following stages perform the relevant processes of the Tracker Framework:
+- Stage 1: Collect
+- Stage 2: Process
+- Stage 3: Organise
+- Stage 4: Review
+- Stage 5: Do
+  
+#### Collect 
+This process does the following:
+- If Manager has an idea, send  to own mail address.
+- For each mail in Inbox do:
+    - If mail explicitly requires a reply today: move to _Today
+    - If mail/attachment is long and requires further reading: move to _Read
+    - If mail *may be* Tracking Worthy: move to _Inbox
+    - Anything else trash!
+      
+#### Process
+The Process stage looks at each mail (each deemed a Thread) in the following Mail Folders and in order:
+1. _Today 
+2. _Inbox 
+3. _Read
+  
+For each cycle it then decides: 
+- Is mail Tracking Worthy?
+    - Yes: can I deal with it in under 2 min? 
+        - Yes: deal with it! This forces to act purposefully.
+        - No: Organise it (stage 3)  
+    - No: but does it need to be dealt with regardless?
+        - Yes: can I deal with it under 2 min?
+            - Yes: deal with it! This forces to act purposefully.
+            - No: delegate it to someone and move to _Overhead
+        - No:  Trash it, the Thread ends!
+   
+NB: anything that is not Tracking Worthy should be delegated (as per Eisenhower principles). However, there are circumstances where this is just not possible. 
+
+#### Organise
+The Organise stage consists of entering Tracking Worthy Threads that could not be dealt with in under 2 min. There are two use cases: Calendar and Tracker.
+
+Calendar  
+Anything Important that needs to be done through a (recurring) Calendar entry should be done as such. In general this should be avoided, as Calendar's contain invites from others (sometimes more important than the Manager). This then means entries get rescheduled often. A few notable exceptions exist:
+- Reminders to enforce the stages of the Tracker Framework
+- Reminders to Report
+  
+Tracker  
+For each processed Thread from _Today, _Inbox, _Read do:
+1. Choose a Tracker Type: Routine, Project, Reference or Task
+2. Choose a Tracker Name.
+3. For Projects and Routines define associated Actions (each a row) 
+4. For each row define Action Name and if possible Owner and Due Date.
+5. For each row define Details. It is worth spending some time on this as it will make searches and Replies on emails much easier later! 
+6. Create any Notes or File Folders if relevant 
+7. Once the Thread has been created as an Action or Reference, move the associated mail to mail folder  _Tracked
+8. NB: Lists, Urgency, etc are determined automatically by the Tool.
+  
+Recommended conventions within Tracker Tool:
+- Tracker Name: 
+    - Project:  use internally known name (acronym, code word) 
+    - Routines: use name that reflects key elements from POLC.  Dependent on the Manager Level.
+- Action Name: 
+    - For Projects, use 00. Placeholder, 10.Stream1, 20. Stream2, etc. This numbering allows inserting rows later if necessary e.g. 21. Stream2A. The 00. Placeholder means the overall Project. 
+    -Routines: use a name that clearly and logically falls within the Tracker Name chosen earlier.  
+- Owner: "Self" or name/initials/nickname of Staff or Group
+- Done Date: for Project this is the date that each stream is closed. For Routines, once an item has been reported, the Done Date should be erased and the Due Date should be updated to the next upcoming Due Date or deleted (if the Action is triggered for example). 
+- Details: copy the Subject of the mail, if a Mail is a key driver. Searching for a Mail that needed to be actioned is incredibly time consuming.
+  
+#### Review
+The Review stage is performed both when the above stages are completed, but is also used regularly to review what needs to be done. Key aspects to consider:
+- Daily: focus on column Monitor = Self or Others which shows Urgency for Self and Others. 
+- Weekly: focus on column Urgency = None. These rows have not been reviewed in the Daily Review process. Establish if Owner, Due Date needs an update. 
+- eEter a Done Date if an Action was completed 
+  
+#### Do
+The Do stage is what it says: based on what the Tracker Tool comes up with as being Urgent, will be worked on first (either by Self, or status checked for Others).  
+
+### Tracker Tool
+Below lists the different columns in the Tracker Tool as well how they fit in the Tracker Framework. 
+  
+Calculated by Tracker Tool  
+- Sort: Sorts rows by: 1. Tracker Type, then 2. Tracker Name, and then 3. Action Name.
+- Monitor: drives to stages of the Framework: Do and Review
+    - Do: shows rows for Self or Other which have Urgency other than None
+    - Review: shows rows for anyone which have Urgency none and that are not also in List Delete 
+- Tag: concatenates all text from Tracker Type, Tracker Name, Action Name, Owner and Details. This then allows filtering any rows that match a word like the name of a Project, people involved in any of the Actions, etc.  
+- Urgency: Labels an item as either Overdue, Due 1d, Due 7d or Due 30d or None based on today's date and the Due Date. 
+- Report: flags an item as Yes if Done Date or Tickle Date is within X days of Today. X is determined by Cell B2.
+- Check: Flags an error if some data items are inconsistent e.g., a Tracker Type that is Project, but without Tracker Name.
+- List: list the Action belongs to, based on Tracker Type, Owner and Due Date
+- List Details: the location where more information is likely to be found
+  
+Selected/Entered by User  
+- Tracker Types: the Tracker method recognises four types to make decisions around:  *Projects*, *Routines*, *Tasks* and *Reference*. That is it. Of these, the first three are actionable (as per GTD principles), the latter is not. Once an item is of a certain Tracker Type, that type will never change. Tracker Types may need a mandatory Tracker Name (for Projects, Routines and References). Tracker Types are defined as follows: 
+    - Project: composed of several steps. Some steps likely start somewhere in the future (and are this currently not an Action). The Tracker Tool has a row for each essential step for a Project, each row is an Action. 
+    - Routine: one or more recurring steps that are will start at some time and repeat that regularly. Recurrence can be daily, weekly, monthly, ad-hoc, etc. The Tracker Tool has a row for each essential step for a Routine, each row is an Action.
+    - Task: one thing to do at one point in time. One row per Task. Each Task may, or may not have an Owner and/or a Due Date. 
+    - Reference: information that may proof useful at some point in time 
+- Tracker Name: name of the Project, Routine or Reference. 
+- Action Name: reflects the name of each step in the Project or Routine (and is what makes each row for a given Project different). It is possible to not have an Action Name for a Routine or a Project. In such cases, the row can be seen as a "Placeholder", see below for details.
+- Owner: if yourself, then"Self" (formulas depend on this value), for anyone else use whatever is desired: full name, short name, initials, nickname,...
+- Due Date: date an item should be completed on 
+- Done Date: date an item was actually completed on. 
+- Tickle Date: date the Reference should be reported on latest. 
+- Details: below a list of items that may be useful (all are optional):
+    - Purpose (of a Project or Routine)
+    - Subject: of a mail
+    - Frequency (for a Routine)
+    - Contacts (people involved other than the Owner)
+    - Path (location to a note or file folder with details)
+    - Deadline (for Projects)
+    - Budget (for Projects)
+    - Sponsor (for Projects)
+    - PM (Project Manager, for Projects)
+    - etc.
+  
+### Tracker Recommended Workflow
+The following steps are recommended to obtain the best results using the Tracker Framework combined with Tracker Tool and essential PDA tools: Mail, Calendar, Notes and File Folders. The assumption is that Mail is key driver of information exchange (this is true in most global companies). 
+    
+Initialisation  
+Create below to setup a relevant Tracker structure:
+- Calendar entries to block time for the following stages:
+    - Stage 1: Collect
+    - Stage 2 & 3: Process & Organise
+    - Stage 4: Review
+    - Stage 5: Do
+    - Report
+    - NB: recurrence depends on each person. It could be daily, weekly, and can depend on the GTD Stage as well. They can be combined or managed in separate steps. Typically, early in the morning or late in the evening, a single Calendar entry of an hour can perform all 5 stages and a weekly is done to review items that are not soon to be due for example. 
+- Create File Folders: 
+    - Projects Details
+    - Routine Details
+    - Reference Details
+    - Task Details 
+- Create Mail Folders
+    - Same as for File Folders + in addition
+    - _Inbox
+    - _Read
+    - _Today
+    - _Tracked
+- Create Note containers: 
+    - Same as for File Folders + in addition
+    - Meets, with one Page for each Staff, Supplier, Group
+    - Reports, with one or more templates depending on needs
+  
+NB: in OneNote a Note Container means a OneNote Section
+NB: It is acceptable to have sub-folders in the respective xxx Details file folders without there being an entry in Tracker. For example, there may be a folder "Financial Statements" in "Routine Details" if they are produced periodically, but do not require any Action.
+  
+Day-to-Day
+- Perform the Tracker stages as per the Calendar entries.
+- Perform the Reporting as per the Calendar entries 
+- During meetings filter on Staff/Group/Supplier in column Tag in addition to the Meeting note for that person or Topic.
 ________________________________________
 ## MSS (Software)
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
@@ -4373,3 +4566,5 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 ### 20261027
 - Updated [## GTD] and [### MSS] with more details after initial tests with the GTD Sheet 
 
+### 20261101
+- Created [## Tracker]
