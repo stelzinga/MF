@@ -19,3 +19,4 @@ file that has various embedded tools that help a Manager in daily work.
 
 
 Management Framework available under an Attribution-ShareAlike 4.0 International license.
+

@@ -2081,3 +2081,6 @@ Added the notion of Board of Directors to [### Management Level].
 ### 20261101
 - Updated [## Management Cycle] making it clearer that it is a very broad deliverable which includes Tracking of what is to be done, by whom and when.
 
+
+
+

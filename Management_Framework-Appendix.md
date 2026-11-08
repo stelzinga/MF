@@ -3479,7 +3479,7 @@ Performance Categories refer to the various aspects of behaviour involved in ach
 - Proactivity
 - Leadership
 
-Other categories are possible but the above three cover the broadest range of behaviours . They are reperated here:
+Other categories are possible but the above three cover the broadest range of behaviours . They are repeated here:
 
 #### Dependability
 Deliver Objectives (Routines and Projects) on time. Dependability focuses on *What*, *When* and *How* to complete assigned, and thus known Objectives and their underlying Processes. It is what most people have in mind when asked to review a Staff's performance. Dependability relates to the Staff's *competency* which is the ability to carry out Processes *effectively*, *autonomously* and *timely* to yield an *expected Result* and includes the capacity to: 
@@ -3831,245 +3831,33 @@ It is possible to be more advanced with Someday List and use a Tickler File or T
 ### References:
 <https://gettingthingsdone.com/wp-content/uploads/2014/10/workflow_map.pdf>
 ________________________________________
-## Tracker (Framework + Tool)
-Tracker is both a Framework and a Tool for the Management Cycle. Combined, they help Tracking by answering the following questions:
-- What Actions do I need to do when?
-- What Actions do others need to do when?
-- When do the Actions/Information become Urgent?
-- What Actions or Information is Important to know/report on?
+## Tracker (Framework + Software)
+Tracker is a Framework + a Software (app) embedded in the Management Spreadsheet (MSS, see below). It is used for the Management Cycle. Combined the Framework and the app help Tracking by answering the following questions:
+- What Actions do I need to do and when?
+- What Actions do others need to do and when?
+- What Action or Information is Important to know/report on?
+- When does an Action/Information become Urgent?
+   
+By using the Tracker Framework a Managers gets the following benefits:
+- Structured way of keeping track of work to be done by self or others
+- Ability to focus on work close to a Due Date
+- No need to memorise work to do nor deadlines: Tracker has it covered!
+- Saving time by enforcing golden rules of how to approach what to track and how to deal with each task at hand e.g. 2 min rule. 
   
+Tracker is based on the GTD methodology with several tweaks. 
+
+### Tracker Summary 
 Tracker facilitates Tracking. It combines:
 - Recognition of Projects, Routines and Tasks 
-- Advantages of Eisenhower Matrix: Importance first and then Urgency.
+- Advantages of Eisenhower Matrix: Importance first then Urgency.
 - Advantages of GTD: five Stages, Lists, application of Owner and Due Date of an Action whilst recognising something may be Important without it being an Action i.e., a Reference
 - Key indicators for who does what when: Do, Defer, Delegate and Delete
-- Ability to use Tracker data to Report to Stakeholders.  
-- Ability to deal with items that are not worth tracking but that need to be done regardless (Overhead) 
+- Ability to use Tracker to Report to Stakeholders.  
+- Ability to deal with items not worth tracking but that need to be done regardless (Overhead) 
+- ...  in order to make it work, effort has to be put into it! 
   
-Tracker was designed by Sander Elzinga in Oct 2026 and a second version was deployed in production 2 Nov 2026 for initial tests to see how well it worked. Below explains the Method which is embedded in the Tool which is the sheet *Tracker* in MSS, see [## MSS]. 
-  
-### Tracker Definitions
-- _Inbox: Mail Folder, central repository of all Threads
-- _Overhead: Mail Folder, repository of Overhead items needing to be done by Self or Others, but which are not Tracking Worthy.
-- _Read: Mail Folder, repository of mail too long to Read quickly and which do not look to be urgent
-- _Today: Mail Folder, Important + Urgent items that came in overnight and need handling Today (this should be used exceptionally)
-- _Tracked: Mail Folder, central repository of Threads that made it into MSS Tracker
-- Action: something to be done by someone at one point in time resulting in some outcome. An Action does not need to have an Owner or a Due Date (that would be a Next Action). In the Tracker Tool, an Action is a row for Tracker Types Project, Routine and Task.
-- Due Date: date an Action needs to be completed by
-- Inbox: standard mail inbox
-- Lists: establish whether an item is actionable or not. There are different Lists:
-    - Calendar: an Action to be performed through a Calendar entry. 
-    - Defer: any Action with Owner is Self + Due Date not empty 
-    - Delegate: any Action with Owner other than Self + Due  Date not empty
-    - Delete: any Action with a Done Date (a completed Action)
-    - Projects: any row that is not an Action with Project as Tracker Type
-    - Routines: any row that is not an Action with Routine as Tracker Type
-    - Reference: any non-actionable item with Reference as Tracker Type
-    - Someday: any Task that does not have a Due Date ("would like to  ...")
-- MMS Tracker: the Tracker Tool, embedded in MSS.
-- Next Action: an Action that has an Owner + Due Date. It is the Action that moves things forward. Next Actions are actively tracked by Managers. 
-- Other: anyone who is Owner other than Self, a person or group something has been, or will be delegated to.
-- Overhead: any non-Tracking Worthy item that requires completion regardless e.g., e-learning, filling a questionnaire.
-- Owner: the person to perform an Action
-- Reference: something that is worth knowing or reporting on but which does not generate any Action e.g., reading financial statements.
-- Self: the person operating the Tracker Framework and Tool
-- Stages: the essential processes of the Tracker Framework, see below.
-- Thread: any item that may be Tracking Worthy
-- Track: act of following something to a conclusion (can be completing an Action, reporting something or both) because it is Tracking Worthy
-- Tracker Type: type to track (Project, Routine, Task, Reference) 
-- Tracker Name: name associated to Tracker Type, a regrouping of Actions for the same Tracker Type.
-- Tracking Worthy: track if deemed *Important* or *Urgent* with following guidelines depending on Management Level:
-    - Something is *Important* if:
-        - For Senior Level Manager
-            - Manager will be asked about it by Board/Stakeholders
-            - Material impact on Revenue, Costs, Risk 
-            - Material impact on Operational efficiency
-            - Board imposed as Important
-        - For Middle Manager / Line Manager
-            - Manager will be asked about it by his Manager
-            - Essential part of own Job Description
-            - Essential part of direct reports' Job Description
-            - Explicitly mentioned as Important
-            - Committee imposed as Important
-            - Internal or external audit established as Important 
-            - Environment imposed as Important e.g., Regulator. 
-            - Own discretion imposed as Important to direct Reports
-    - Something is *Urgent* if it nears a Deadline. 
-        - Driven by the context of the Thread that made it into an Action.
-  
-NB: from above Tracking Worthy definition it is clear that certain items are actually not important from a Venture perspective e.g., does not contribute to Revenue increase, Cost decrease, Risk decrease, Reputation increase. However, if a Manager's Manager says it is Important, than from a Tracking perspective, it has to be recorded. 
-   
-### Tracker Framework
-The Tracker Framework is composed of:
-- Mail: Inbox + 5x Mail Folders: _Inbox, _Read, _Overhead, _Today, _Tracked
-- MMS: Tracker (an Excel based single sheet)
-- Notes
-- File Folders
-- Stages
-
-The Mail Folders have specific purposes as per [### Definitions] and remediate some weaknesses in the Eisenhower and GTD methods as follows:
-
-_Inbox  
-The default Tracker Mail Folder for the first stage: Collect. 
-  
-_Today  
-This Mail Folder should not be abused, but servers a specific purpose: overnight or short term Urgency. If something comes in overnight or on short term *and* needs to be dealt with today, then it is *instantaneously Urgent*, even if it is not Important (if it were it would be Tracking Worthy). This mail folder captures this use case. 
-  
-_Overhead  
-This mail folder is used for anything that is not Tracking Worthy but that must be dealt with regardless. Items in this folder may be checked once in a while.
-   
-_Read  
-Sometimes mails or their attachments are too long to read to act quickly (even to determine if is Tracking Worthy or not).  Sometimes it is not Tracking Worthy, but acquiring the knowledge in such mails is nevertheless deemed important. This mail folder servers that purpose. Items in there are processed as per Stage 2 (Process) but after the processing of _Inbox.
-
-### Tracker Stages
-The following stages perform the relevant processes of the Tracker Framework:
-- Stage 1: Collect
-- Stage 2: Process
-- Stage 3: Organise
-- Stage 4: Review
-- Stage 5: Do
-  
-#### Collect 
-This process does the following:
-- If Manager has an idea, send  to own mail address.
-- For each mail in Inbox do:
-    - If mail explicitly requires a reply today: move to _Today
-    - If mail/attachment is long and requires further reading: move to _Read
-    - If mail *may be* Tracking Worthy: move to _Inbox
-    - Anything else trash!
-      
-#### Process
-The Process stage looks at each mail (each deemed a Thread) in the following Mail Folders and in order:
-1. _Today 
-2. _Inbox 
-3. _Read
-  
-For each cycle it then decides: 
-- Is mail Tracking Worthy?
-    - Yes: can I deal with it in under 2 min? 
-        - Yes: deal with it! This forces to act purposefully.
-        - No: Organise it (stage 3)  
-    - No: but does it need to be dealt with regardless?
-        - Yes: can I deal with it under 2 min?
-            - Yes: deal with it! This forces to act purposefully.
-            - No: delegate it to someone and move to _Overhead
-        - No:  Trash it, the Thread ends!
-   
-NB: anything that is not Tracking Worthy should be delegated (as per Eisenhower principles). However, there are circumstances where this is just not possible. 
-
-#### Organise
-The Organise stage consists of entering Tracking Worthy Threads that could not be dealt with in under 2 min. There are two use cases: Calendar and Tracker.
-
-Calendar  
-Anything Important that needs to be done through a (recurring) Calendar entry should be done as such. In general this should be avoided, as Calendar's contain invites from others (sometimes more important than the Manager). This then means entries get rescheduled often. A few notable exceptions exist:
-- Reminders to enforce the stages of the Tracker Framework
-- Reminders to Report
-  
-Tracker  
-For each processed Thread from _Today, _Inbox, _Read do:
-1. Choose a Tracker Type: Routine, Project, Reference or Task
-2. Choose a Tracker Name.
-3. For Projects and Routines define associated Actions (each a row) 
-4. For each row define Action Name and if possible Owner and Due Date.
-5. For each row define Details. It is worth spending some time on this as it will make searches and Replies on emails much easier later! 
-6. Create any Notes or File Folders if relevant 
-7. Once the Thread has been created as an Action or Reference, move the associated mail to mail folder  _Tracked
-8. NB: Lists, Urgency, etc are determined automatically by the Tool.
-  
-Recommended conventions within Tracker Tool:
-- Tracker Name: 
-    - Project:  use internally known name (acronym, code word) 
-    - Routines: use name that reflects key elements from POLC.  Dependent on the Manager Level.
-- Action Name: 
-    - For Projects, use 00. Placeholder, 10.Stream1, 20. Stream2, etc. This numbering allows inserting rows later if necessary e.g. 21. Stream2A. The 00. Placeholder means the overall Project. 
-    -Routines: use a name that clearly and logically falls within the Tracker Name chosen earlier.  
-- Owner: "Self" or name/initials/nickname of Staff or Group
-- Done Date: for Project this is the date that each stream is closed. For Routines, once an item has been reported, the Done Date should be erased and the Due Date should be updated to the next upcoming Due Date or deleted (if the Action is triggered for example). 
-- Details: copy the Subject of the mail, if a Mail is a key driver. Searching for a Mail that needed to be actioned is incredibly time consuming.
-  
-#### Review
-The Review stage is performed both when the above stages are completed, but is also used regularly to review what needs to be done. Key aspects to consider:
-- Daily: focus on column Monitor = Self or Others which shows Urgency for Self and Others. 
-- Weekly: focus on column Urgency = None. These rows have not been reviewed in the Daily Review process. Establish if Owner, Due Date needs an update. 
-- eEter a Done Date if an Action was completed 
-  
-#### Do
-The Do stage is what it says: based on what the Tracker Tool comes up with as being Urgent, will be worked on first (either by Self, or status checked for Others).  
-
-### Tracker Tool
-Below lists the different columns in the Tracker Tool as well how they fit in the Tracker Framework. 
-  
-Calculated by Tracker Tool  
-- Sort: Sorts rows by: 1. Tracker Type, then 2. Tracker Name, and then 3. Action Name.
-- Monitor: drives to stages of the Framework: Do and Review
-    - Do: shows rows for Self or Other which have Urgency other than None
-    - Review: shows rows for anyone which have Urgency none and that are not also in List Delete 
-- Tag: concatenates all text from Tracker Type, Tracker Name, Action Name, Owner and Details. This then allows filtering any rows that match a word like the name of a Project, people involved in any of the Actions, etc.  
-- Urgency: Labels an item as either Overdue, Due 1d, Due 7d or Due 30d or None based on today's date and the Due Date. 
-- Report: flags an item as Yes if Done Date or Tickle Date is within X days of Today. X is determined by Cell B2.
-- Check: Flags an error if some data items are inconsistent e.g., a Tracker Type that is Project, but without Tracker Name.
-- List: list the Action belongs to, based on Tracker Type, Owner and Due Date
-- List Details: the location where more information is likely to be found
-  
-Selected/Entered by User  
-- Tracker Types: the Tracker method recognises four types to make decisions around:  *Projects*, *Routines*, *Tasks* and *Reference*. That is it. Of these, the first three are actionable (as per GTD principles), the latter is not. Once an item is of a certain Tracker Type, that type will never change. Tracker Types may need a mandatory Tracker Name (for Projects, Routines and References). Tracker Types are defined as follows: 
-    - Project: composed of several steps. Some steps likely start somewhere in the future (and are this currently not an Action). The Tracker Tool has a row for each essential step for a Project, each row is an Action. 
-    - Routine: one or more recurring steps that are will start at some time and repeat that regularly. Recurrence can be daily, weekly, monthly, ad-hoc, etc. The Tracker Tool has a row for each essential step for a Routine, each row is an Action.
-    - Task: one thing to do at one point in time. One row per Task. Each Task may, or may not have an Owner and/or a Due Date. 
-    - Reference: information that may proof useful at some point in time 
-- Tracker Name: name of the Project, Routine or Reference. 
-- Action Name: reflects the name of each step in the Project or Routine (and is what makes each row for a given Project different). It is possible to not have an Action Name for a Routine or a Project. In such cases, the row can be seen as a "Placeholder", see below for details.
-- Owner: if yourself, then"Self" (formulas depend on this value), for anyone else use whatever is desired: full name, short name, initials, nickname,...
-- Due Date: date an item should be completed on 
-- Done Date: date an item was actually completed on. 
-- Tickle Date: date the Reference should be reported on latest. 
-- Details: below a list of items that may be useful (all are optional):
-    - Purpose (of a Project or Routine)
-    - Subject: of a mail
-    - Frequency (for a Routine)
-    - Contacts (people involved other than the Owner)
-    - Path (location to a note or file folder with details)
-    - Deadline (for Projects)
-    - Budget (for Projects)
-    - Sponsor (for Projects)
-    - PM (Project Manager, for Projects)
-    - etc.
-  
-### Tracker Recommended Workflow
-The following steps are recommended to obtain the best results using the Tracker Framework combined with Tracker Tool and essential PDA tools: Mail, Calendar, Notes and File Folders. The assumption is that Mail is key driver of information exchange (this is true in most global companies). 
-    
-Initialisation  
-Create below to setup a relevant Tracker structure:
-- Calendar entries to block time for the following stages:
-    - Stage 1: Collect
-    - Stage 2 & 3: Process & Organise
-    - Stage 4: Review
-    - Stage 5: Do
-    - Report
-    - NB: recurrence depends on each person. It could be daily, weekly, and can depend on the GTD Stage as well. They can be combined or managed in separate steps. Typically, early in the morning or late in the evening, a single Calendar entry of an hour can perform all 5 stages and a weekly is done to review items that are not soon to be due for example. 
-- Create File Folders: 
-    - Projects Details
-    - Routine Details
-    - Reference Details
-    - Task Details 
-- Create Mail Folders
-    - Same as for File Folders + in addition
-    - _Inbox
-    - _Read
-    - _Today
-    - _Tracked
-- Create Note containers: 
-    - Same as for File Folders + in addition
-    - Meets, with one Page for each Staff, Supplier, Group
-    - Reports, with one or more templates depending on needs
-  
-NB: in OneNote a Note Container means a OneNote Section
-NB: It is acceptable to have sub-folders in the respective xxx Details file folders without there being an entry in Tracker. For example, there may be a folder "Financial Statements" in "Routine Details" if they are produced periodically, but do not require any Action.
-  
-Day-to-Day
-- Perform the Tracker stages as per the Calendar entries.
-- Perform the Reporting as per the Calendar entries 
-- During meetings filter on Staff/Group/Supplier in column Tag in addition to the Meeting note for that person or Topic.
+Details of the functionality of the Framework and the app are in the Sheet = Readme of the Tracker Software file which can be found as mgt.xlxs, available in GitHub:
+<https://github.com/stelzinga/MF>
 ________________________________________
 ## MSS (Software)
 The Management Spreadsheet (MSS) is a GNU license file built in Calc, LibreOffice and saved as Excel file. 
@@ -4116,68 +3904,7 @@ The Sheet Projects also has an *Integrated Dynamic Gantt Chart* based on the Int
 - Project/Stream/Action: Red (overdue) and Green (complete) in decreasing intensity based on Project, Stream (light red/green), Action (soft red/green).
 
 #### MMS Tracker
-The Sheet *Tracker* acts as a master dashboard for a Manager. Its basic setup is simple yet versatile and has features linked to Goals, Sub-Goals, Routines, and Projects based on an expanded version of Objective Notation, see [## Objective Notation] below. The Tracker serves several purposes:
-- Capture all aspects of the Expanded Profile Tree as default Routines for Goal mgt.
-- Capture all specific Routines the Manager does himself in 07.Management Cycle
-- Capture all ongoing Projects relevant to the Venture
-- Fiilter and sort such that relevant Data for specific purposes e.g., meetings with Reports, Managers, Peers. 
-- Ability to use the data for Reporting 
-  
-Key functionalities are as follows:  
-- Calculated Columns: a series of calculated columns help with stats and reporting.
-- Reporting Columns: a combination of a calculated Column + an override to force reporting on/off for a given item. 
-- Tag: free field used in Reporting, Filtering or Sorting. Content is a comma separated list of 'Tags'.
- - Who Columns : 
-     - Whom For Lvl 1 and Lvl 2: allowing for Activities and Sub-Activities (with "_all" if a non-specific Sub-Activity
-    - Whom By Lvl 1 and Lvl 2: allowing for Groups and Staff (with "_all" if no specific Staff)
-- Goals Columns: 
-    - Goals as per Management Framework, also in Sheet = Static
-    - Sub-Goals also linked to standard Sub-Goals in Sheet = Static
-    - Initiative: allows creating cross sectional Initiatives 
-- Status Columns  
-    - Planning Type: Project, Routine or Task
-    - Status: Open, Started, Pending, Completed, Urgent
-- Name Column: as per Objective Notation
-- Reference Columns:
-    - Details: anything that cannot be kept in the Name
-    - Notes: Task Notation Comments of form "dd-mm-yy: xxx"
-    - Tasks: Task Notation Tasks, can include comments too
-    - Remaining Task: count of non-completed Tasks
-    - Task Progress: Remaining Tasks / Total Tasks as a %
-- Date Columns (all hidden)
-    - Period indicator: for Routines
-    - Nr Occurrences /year: for Routines 
-    - Time in hours /occurrence: for Routines
-    - Total time /year (days): calculated: for Routines
-    - Start: for Projects, start date
-    - End: for Projects, end date
-    - Hold: for Projects, hold or pending date
-    - Complete: for Projects, completion date 
-    - Effort: total effort in days per year for Projects  
-- Gantt Chart Columns: 12 Months columns: conditional formatted: small letter light grey, a Capital letter, dark grey, to indicate milestone(s)
-- Many Custom Fields (20 in total) for Venture specific needs
-   
-MMS Tracker Recommended Usage  
-The tracker's main purpose is to help the Manager keep track of what he needs to do.
-The basic version of the Tracker is pre-filled with all required items of the Expanded Profile Tree for 00.Management item all Sub-Goals representing 01.planning, 02.organising all the way to 06.tools. Each Sub-Goal has as many rows as there are Deliverables in the Management Framework with each deliverable in column Name.
-Then create as many rows under Sub-Goal = 07.management cycle as there are actions performed by the Manager as per [Management Framework ## Management Cycle]:
-- As many Rows for name = "Meet ..." as there are Meeting
-- Create high-level entries & provide relevant details including default Change Goals.
-    - For each Project Deliverable create a Task (helps tracking)
-    - Tag planned Months during which it is active with 'x'
-    - Update the Gantt Chart to reflect the lifetime of the Project
-    - For hard deadlines add them in Details or in End
-   
-Projects versus Tasks
-In the Tracker, Projects are defined at the start of the year. They are what is truly expected to be done, and serve as a key inout to Performance Management of individuals as well as the Venture. Projects also follow a more formalised Project Management approach.
-Tasks, on the other hand, are used for work to be done that materialises throughout the year, often spawn of from a Routine, and which needs more formal tracking as if it were a Project. 
-      
-Meetings with direct reports  
-A direct report is a Staff who reports to the Manager. The Tracker can help staging such meetings:
-- Filter on: Group the Staff is part of (incl "_all" ) and on Staff = "_all" or Staff name or if set up, use Tag = "contains name of Staff" 
-- Run through all Routines and Projects applicable to the Staff 
-- Update existing items' Status, add Notes and/or Tasks or update the Status of existing Tasks. 
-- Add new Routines, Projects and Tasks if relevant. 
+The Sheet *Tracker* acts as a master dashboard for a Manager (see [## Tracker] above.
 
 ### MSS Reporting
 MSS has built-in capabilities for *Reporting* using Pivot Tables. There are many different options for reporting. 
@@ -4567,4 +4294,7 @@ Updated  [### BuJo MSS Reference] with Staff and Suppliers.
 - Updated [## GTD] and [### MSS] with more details after initial tests with the GTD Sheet 
 
 ### 20261101
-- Created [## Tracker]
+- Created [### Tracker] and moved most of its content to the MSS file which itself was updated as well.
+cd 
+
+
